@@ -1,0 +1,38 @@
+[
+  {
+    "closed_ts": 1787939253.4992163,
+    "symbol": "YOMOGI",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/6wbryqvrcl3sxtkeaxwmopqy5wquxo5ujev8w7xyungb",
+    "held_minutes": 478.0,
+    "exit_reason": "stop-loss atingido (-40.9%)",
+    "pnl_pct": -40.87,
+    "pnl_eur": -10.22,
+    "entry_score": null,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": null,
+    "entry_security_notes": null,
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "YOMOGI (dex_micro_cap) perdeu -40.9% em 478 min (lenta (>6h)) — stop-loss atingido. Esta posição já vinha da primeira leva de compras e só foi reavaliada nesta corrida — ficou quase 8h sem nenhuma verificação porque o agendamento automático do GitHub Actions ainda não estava a disparar sozinho (só corridas manuais). Com verificações a cada 15 min reais, o stop-loss de -20% (DEX) teria provavelmente disparado bem mais cedo."
+  },
+  {
+    "closed_ts": 1787939253.4992163,
+    "symbol": "cogefone",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/gw1vd2pd26a5ctqzlj275o9ijcbdyx4mvnzfn6xt22ot",
+    "held_minutes": 189.5,
+    "exit_reason": "stop-loss atingido (-99.0%)",
+    "pnl_pct": -99.01,
+    "pnl_eur": -28.11,
+    "entry_score": null,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": null,
+    "entry_security_notes": null,
+    "categoria": "colapso quase total (possível rug/dump)",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "cogefone (dex_micro_cap) perdeu -99.0% em 190 min (rápida (1-6h)) — colapso quase total (possível rug/dump). Comprada exatamente na corrida em que o GTAAPE foi vendido, ficou 3h09min sem nenhuma verificação pela mesma razão (agendamento automático ainda não confirmado a funcionar) — confirmado no DexScreener que o token colapsou -97% em poucas horas (liquidez caiu para $2.2K), um padrão típico de rug/dump em meme-coins Pump.fun muito recentes. O maior fator aqui não foi um erro na lógica de stop-loss, foi a lacuna de monitorização."
+  }
+]
