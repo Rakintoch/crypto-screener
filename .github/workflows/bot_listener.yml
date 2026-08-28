@@ -3,6 +3,8 @@ name: Telegram Bot Listener
 on:
   schedule:
     # Verifica a cada 15 minutos se enviaste um comando (ex: /status) ao bot.
+    # (reativação do agendamento em repositórios novos — GitHub por vezes exige um novo
+    # commit ao ficheiro para começar a respeitar o "schedule")
     - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
