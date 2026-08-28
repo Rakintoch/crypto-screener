@@ -19,6 +19,65 @@ MISSED_UPDATES_BEFORE_ASSUMED_RUG = 3
 ASSUMED_RUG_RECOVERY_PCT = 0.05  # assume que só sobra 5% do valor se o token deixar de ter dados
 
 
+def _fetch_fresh_price_eur(pos, eur_rate):
+    """Vai buscar um preço fresco (uma única posição) para usar durante a vigilância de
+    trailing stop. Devolve None se não conseguir (mantém o último preço conhecido nesse caso)."""
+    try:
+        if pos["tier"] == "cex_small_cap":
+            fresh = sources_coingecko.fetch_by_ids([pos["id"]])
+            rec = fresh.get(pos["id"])
+        else:
+            recs = sources_dexscreener.fetch_market_data_for_addresses([pos["id"]])
+            rec = recs[0] if recs else None
+        if rec and rec.get("price_usd"):
+            return rec["price_usd"] * eur_rate
+    except Exception:  # noqa: BLE001
+        traceback.print_exc()
+    return None
+
+
+def _watch_trailing_stop(pos, entry_price, target_price, eur_rate, now):
+    """
+    Chamado assim que uma posição atinge o take-profit. Em vez de vender de imediato, vigia
+    o preço durante TRAILING_STOP_WINDOW_SECONDS (verificando a cada TRAILING_STOP_CHECK_
+    INTERVAL_SECONDS) para tentar apanhar mais da subida, mas sai ao primeiro sinal real de
+    reversão. Devolve (exit_price_eur, reason).
+    """
+    peak_price = target_price
+    last_price = target_price
+    elapsed = 0
+
+    while elapsed < config.TRAILING_STOP_WINDOW_SECONDS:
+        time.sleep(config.TRAILING_STOP_CHECK_INTERVAL_SECONDS)
+        elapsed += config.TRAILING_STOP_CHECK_INTERVAL_SECONDS
+
+        fresh_price = _fetch_fresh_price_eur(pos, eur_rate)
+        if fresh_price is None:
+            continue  # falha pontual da API — mantém a vigilância, tenta de novo na próxima volta
+        last_price = fresh_price
+        peak_price = max(peak_price, fresh_price)
+
+        drawdown_from_peak = (peak_price - fresh_price) / peak_price if peak_price else 0
+        change_from_entry = (fresh_price - entry_price) / entry_price if entry_price else 0
+        target_pct = config.TAKE_PROFIT_PCT.get(pos["tier"], 0.25)
+
+        if drawdown_from_peak >= config.TRAILING_STOP_DRAWDOWN_PCT:
+            return fresh_price, (
+                f"trailing stop atingido — caiu {drawdown_from_peak:.1%} desde o pico "
+                f"(pico {(peak_price / entry_price - 1):+.1%} desde a entrada)"
+            )
+        if change_from_entry <= target_pct:
+            return fresh_price, (
+                f"trailing stop — recuou até ao valor-alvo ({change_from_entry:+.1%}) "
+                f"depois de um pico de {(peak_price / entry_price - 1):+.1%}"
+            )
+
+    return last_price, (
+        f"take-profit atingido após vigilância de {config.TRAILING_STOP_WINDOW_SECONDS // 60} min "
+        f"(pico {(peak_price / entry_price - 1):+.1%} desde a entrada)"
+    )
+
+
 def _default_state():
     return {
         "status": "not_started",   # not_started -> active -> finished
@@ -118,7 +177,7 @@ def _close_position(state, key, exit_price_eur, reason, now):
     return trade
 
 
-def _check_exits(state, now, force_all=False):
+def _check_exits(state, now, eur_rate=None, force_all=False):
     actions = []
     for key, pos in list(state["positions"].items()):
         entry_price = pos["entry_price_eur"]
@@ -134,7 +193,10 @@ def _check_exits(state, now, force_all=False):
             reason = "sem dados de mercado em corridas sucessivas — assumida perda quase total (possível rug)"
             exit_price = entry_price * ASSUMED_RUG_RECOVERY_PCT
         elif change_pct >= config.TAKE_PROFIT_PCT.get(pos["tier"], 0.25):
-            reason = f"take-profit atingido ({change_pct:+.1%})"
+            if config.TRAILING_STOP_ENABLED and eur_rate:
+                exit_price, reason = _watch_trailing_stop(pos, entry_price, last_price, eur_rate, now)
+            else:
+                reason = f"take-profit atingido ({change_pct:+.1%})"
         elif change_pct <= config.STOP_LOSS_PCT.get(pos["tier"], -0.15):
             reason = f"stop-loss atingido ({change_pct:+.1%})"
         elif pos.get("last_score") is not None and pos["last_score"] < config.SCORE_DECAY_EXIT:
@@ -204,30 +266,17 @@ def _check_entries(state, ranked_candidates, now):
     return actions
 
 
-def run_portfolio_cycle(ranked_candidates, eur_rate):
+def _process_exits(state, now, eur_rate):
     """
-    Executa um ciclo completo: reavalia posições abertas, fecha o que deve ser fechado
-    (incluindo liquidação forçada se o desafio de 10 dias terminou), e abre novas posições
-    se houver capital e candidatos suficientemente fortes. Devolve (state, actions,
-    final_report_or_None).
+    Passo partilhado entre o ciclo completo (screener principal) e o monitor leve
+    (position_monitor.py): reavalia preços, verifica saídas (incluindo liquidação forçada se
+    o desafio de 10 dias terminou) e grava o estado. Não mexe em entradas. Devolve
+    (exit_actions, final_report_or_None).
     """
-    state = load_portfolio()
-    now = time.time()
-
-    if state["status"] == "finished":
-        # desafio já terminado — não faz mais nada, apenas devolve o estado tal como está
-        return state, [], None
-
     _reprice_positions(state, eur_rate)
 
     force_all = state["status"] == "active" and state["end_ts"] is not None and now >= state["end_ts"]
-    exit_actions = _check_exits(state, now, force_all=force_all)
-
-    entry_actions = []
-    if not force_all:
-        for c in ranked_candidates:
-            c["_eur_rate"] = eur_rate
-        entry_actions = _check_entries(state, ranked_candidates, now)
+    exit_actions = _check_exits(state, now, eur_rate=eur_rate, force_all=force_all)
 
     final_report = None
     if force_all:
@@ -243,7 +292,52 @@ def run_portfolio_cycle(ranked_candidates, eur_rate):
             "end_ts": state["end_ts"],
         }
 
+    return exit_actions, final_report
+
+
+def run_portfolio_cycle(ranked_candidates, eur_rate):
+    """
+    Executa um ciclo completo (screener principal, a cada 2h): reavalia posições abertas,
+    fecha o que deve ser fechado, e abre novas posições se houver capital e candidatos
+    suficientemente fortes. Devolve (state, actions, final_report_or_None).
+    """
+    state = load_portfolio()
+    now = time.time()
+
+    if state["status"] == "finished":
+        # desafio já terminado — não faz mais nada, apenas devolve o estado tal como está
+        return state, [], None
+
+    exit_actions, final_report = _process_exits(state, now, eur_rate)
+
+    entry_actions = []
+    if final_report is None:
+        for c in ranked_candidates:
+            c["_eur_rate"] = eur_rate
+        entry_actions = _check_entries(state, ranked_candidates, now)
+
     state["last_run_ts"] = now
     save_portfolio(state)
 
     return state, exit_actions + entry_actions, final_report
+
+
+def run_exit_check_cycle(eur_rate):
+    """
+    Ciclo leve (position_monitor.py, correndo dentro do bot_listener.yml a cada poucos
+    minutos): só reavalia posições já abertas e verifica saídas — NUNCA abre posições novas
+    (isso exige a descoberta cara de candidatos, feita só pelo screener principal a cada 2h).
+    Devolve (state, exit_actions, final_report_or_None).
+    """
+    state = load_portfolio()
+    now = time.time()
+
+    if state["status"] != "active" or not state["positions"]:
+        return state, [], None
+
+    exit_actions, final_report = _process_exits(state, now, eur_rate)
+
+    state["last_run_ts"] = now
+    save_portfolio(state)
+
+    return state, exit_actions, final_report
