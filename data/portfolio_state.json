@@ -15,8 +15,8 @@
       "entry_price_eur": 0.20487975705242154,
       "entry_ts": 1787910576.42265,
       "cost_eur": 25.0,
-      "last_price_eur": 0.1909548334738819,
-      "last_score": 65.1,
+      "last_price_eur": 0.18683676043793493,
+      "last_score": 73.6,
       "missed_updates": 0
     },
     "cex_small_cap:lobster-2": {
@@ -29,8 +29,8 @@
       "entry_price_eur": 0.04533689723941351,
       "entry_ts": 1787910576.42265,
       "cost_eur": 25.0,
-      "last_price_eur": 0.05293699044097101,
-      "last_score": 81.2,
+      "last_price_eur": 0.05390184458335743,
+      "last_score": 78.4,
       "missed_updates": 0
     }
   },
@@ -96,5 +96,5 @@
       "pnl_pct": -99.01291677515773
     }
   ],
-  "last_run_ts": 1787939253.4992163
+  "last_run_ts": 1787950530.9507444
 }
