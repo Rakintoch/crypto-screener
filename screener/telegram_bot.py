@@ -13,6 +13,7 @@ import os
 import requests
 
 from . import config
+from . import lessons
 from . import portfolio
 from . import telegram_alert
 
@@ -62,10 +63,15 @@ def _handle_status_command():
     return msg
 
 
+def _handle_lessons_command():
+    return lessons.format_lessons_message()
+
+
 def _handle_help_command():
     return (
         "🤖 *Comandos disponíveis:*\n"
         "/status — vê o estado atual do desafio de portfólio virtual\n"
+        "/licoes — vê as lições acumuladas sobre posições que fecharam com prejuízo\n"
         "/help — mostra esta mensagem"
     )
 
@@ -95,6 +101,8 @@ def process_commands():
 
         if text in ("/status", "/estado"):
             reply = _handle_status_command()
+        elif text in ("/licoes", "/lições", "/lessons"):
+            reply = _handle_lessons_command()
         elif text in ("/help", "/ajuda", "/start"):
             reply = _handle_help_command()
         else:
