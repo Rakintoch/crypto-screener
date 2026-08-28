@@ -61,6 +61,11 @@ PORTFOLIO_ENABLED = os.environ.get("PORTFOLIO_ENABLED", "true").lower() == "true
 # ficheiro separado do estado do portefólio para poder crescer/ser lido independentemente.
 LESSONS_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "lessons.json")
 
+# Histórico de "vitórias" sobre posições fechadas com lucro (ver screener/playbook.py) —
+# usado, em conjunto com LESSONS_FILE, para construir um "modus operandi" (o que costuma
+# funcionar vs. o que costuma correr mal).
+WINS_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "wins.json")
+
 STARTING_BALANCE_EUR = 100.0
 CHALLENGE_DURATION_DAYS = 10     # a contagem só começa na primeira compra virtual executada
 
