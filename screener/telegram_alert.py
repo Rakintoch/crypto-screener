@@ -97,12 +97,16 @@ def format_portfolio_message(state, actions):
     elif state["status"] == "finished":
         lines.append("🏁 *Desafio concluído.*")
 
-    equity = state["cash_eur"] + sum(p["qty"] * p.get("last_price_eur", p["entry_price_eur"]) for p in state["positions"].values())
+    open_value = sum(p["qty"] * p.get("last_price_eur", p["entry_price_eur"]) for p in state["positions"].values())
+    equity = state["cash_eur"] + open_value
     pnl = equity - state["starting_balance_eur"]
     pnl_pct = pnl / state["starting_balance_eur"] * 100
 
-    lines.append(f"💶 Equity atual: {_fmt_eur(equity)} ({pnl:+.2f} EUR, {pnl_pct:+.1f}%)")
-    lines.append(f"💵 Cash livre: {_fmt_eur(state['cash_eur'])} | Posições abertas: {len(state['positions'])}")
+    lines.append(f"💰 *Saldo Total: {_fmt_eur(equity)}* ({pnl:+.2f} EUR, {pnl_pct:+.1f}% desde o início)")
+    lines.append(
+        f"   ↳ Cash livre: {_fmt_eur(state['cash_eur'])} + "
+        f"Posições abertas ({len(state['positions'])}): {_fmt_eur(open_value)}"
+    )
 
     for key, pos in state["positions"].items():
         chg = (pos.get("last_price_eur", pos["entry_price_eur"]) / pos["entry_price_eur"] - 1) * 100
