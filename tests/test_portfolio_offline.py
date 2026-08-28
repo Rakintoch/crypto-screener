@@ -12,10 +12,10 @@ import time
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from screener import config, portfolio  # noqa: E402
+from screener import config, lessons, portfolio  # noqa: E402
 
 
-def fake_candidate(symbol, score, price_usd, tier="cex_small_cap", cid=None):
+def fake_candidate(symbol, score, price_usd, tier="cex_small_cap", cid=None, liquidity_usd=None):
     return {
         "tier": tier,
         "id": cid or symbol.lower(),
@@ -29,6 +29,7 @@ def fake_candidate(symbol, score, price_usd, tier="cex_small_cap", cid=None):
         "chg_1h": 5.0,
         "chg_24h": 20.0,
         "chg_7d": 30.0,
+        "liquidity_usd": liquidity_usd,
         "url": "https://example.com",
         "score": score,
         "security": {"checked": True, "safe": True, "notes": "ok"},
@@ -49,6 +50,7 @@ def run():
 def _run_scenarios():
     with tempfile.TemporaryDirectory() as tmp:
         config.PORTFOLIO_STATE_FILE = os.path.join(tmp, "portfolio_state.json")
+        config.LESSONS_FILE = os.path.join(tmp, "lessons.json")  # isola das lições reais do repo
         eur_rate = 0.9  # taxa fixa para o teste ser determinístico
 
         # --- Corrida 1: sem posições, dois candidatos elegíveis para compra ---
@@ -150,6 +152,42 @@ def _run_scenarios():
         )
         print(f"✅ Corrida 2b OK — GAMMA fechada com {gamma_trade['pnl_pct']:+.1f}% pelo trailing stop "
               f"(capturou mais do que o alvo fixo de +40%)")
+
+        # --- Corrida 2c: DELTA entra e depois dispara stop-loss -> deve gerar uma "lição" ---
+        candidates_2c = [fake_candidate("DELTA", score=72, price_usd=1.0, tier="dex_micro_cap",
+                                         cid="deltaaddr", liquidity_usd=18_000)]
+        cg.fetch_by_ids = lambda ids: {
+            "beta": {"id": "beta", "price_usd": 2.0, "chg_1h": 5, "chg_24h": 20, "chg_7d": 30,
+                     "turnover": 0.3, "market_cap": 20_000_000}
+        }
+        ds.fetch_market_data_for_addresses = lambda addrs, *a, **k: []
+        state, actions2c, _ = portfolio.run_portfolio_cycle(candidates_2c, eur_rate)
+        assert any(a["symbol"] == "DELTA" for a in actions2c if a["action"] == "buy"), (
+            "FALHOU: DELTA devia ter sido comprada (score acima do mínimo, slot livre)"
+        )
+        delta_key = "dex_micro_cap:deltaaddr"
+        assert state["positions"][delta_key]["entry_score"] == 72, (
+            "FALHOU: snapshot de entry_score não foi guardado na posição"
+        )
+
+        # crash direto: -35% (abaixo do stop-loss de -20% para dex_micro_cap)
+        ds.fetch_market_data_for_addresses = lambda addrs, *a, **k: [
+            {"id": "deltaaddr", "price_usd": 0.65 / eur_rate}
+        ]
+        state, actions2c_b, _ = portfolio.run_portfolio_cycle([], eur_rate)
+        sells_2c = [a for a in actions2c_b if a["action"] == "sell" and a["symbol"] == "DELTA"]
+        assert sells_2c, "FALHOU: DELTA devia ter sido vendida por stop-loss"
+        assert delta_key not in state["positions"]
+
+        all_lessons = lessons._load()
+        delta_lessons = [l for l in all_lessons if l["symbol"] == "DELTA"]
+        assert len(delta_lessons) == 1, f"FALHOU: esperava exatamente 1 lição para DELTA, obtido {len(delta_lessons)}"
+        assert delta_lessons[0]["pnl_pct"] < 0
+        assert delta_lessons[0]["entry_score"] == 72
+        assert delta_lessons[0]["entry_liquidity_usd"] == 18_000
+        assert "categoria" in delta_lessons[0] and delta_lessons[0]["categoria"]
+        print(f"✅ Corrida 2c OK — DELTA fechada com {delta_lessons[0]['pnl_pct']:+.1f}% e uma lição foi "
+              f"registada automaticamente: \"{delta_lessons[0]['licao'][:70]}...\"")
 
         # --- Corrida 3: simula fim do desafio (10 dias) -> liquidação forçada de tudo ---
         state["end_ts"] = time.time() - 1  # já passou o prazo
