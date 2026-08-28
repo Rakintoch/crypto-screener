@@ -4,7 +4,9 @@ on:
   schedule:
     # Corre a cada 2 horas. Ajusta o cron abaixo se quiseres outra frequência.
     # (reativação do agendamento em repositórios novos — GitHub por vezes exige um novo
-    # commit ao ficheiro para começar a respeitar o "schedule")
+    # commit ao ficheiro para começar a respeitar o "schedule"; nova tentativa 2026-08-28
+    # depois de desativar/reativar as Actions em Settings, para forçar o GitHub a
+    # reconhecer o "schedule" novamente num repositório privado recente)
     - cron: "0 */2 * * *"
   workflow_dispatch: {}   # permite correr manualmente a partir do separador "Actions" no GitHub
 
@@ -34,12 +36,3 @@ jobs:
           # temporariamente o desafio de portfólio sem tocar no código.
           PORTFOLIO_ENABLED: ${{ vars.PORTFOLIO_ENABLED || 'true' }}
         run: python -m screener.main
-
-      - name: Guardar estado (anti-spam + portfólio virtual) de volta no repositório
-        run: |
-          git config user.name "crypto-screener-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git pull --rebase --autostash
-          git add data/state.json data/portfolio_state.json
-          git diff --quiet --cached || git commit -m "chore: atualizar estado do screener [skip ci]"
-          git push
