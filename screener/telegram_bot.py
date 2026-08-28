@@ -14,6 +14,7 @@ import requests
 
 from . import config
 from . import lessons
+from . import playbook
 from . import portfolio
 from . import telegram_alert
 
@@ -67,11 +68,21 @@ def _handle_lessons_command():
     return lessons.format_lessons_message()
 
 
+def _handle_wins_command():
+    return playbook.format_wins_message()
+
+
+def _handle_modus_command():
+    return playbook.build_modus_operandi()
+
+
 def _handle_help_command():
     return (
         "🤖 *Comandos disponíveis:*\n"
         "/status — vê o estado atual do desafio de portfólio virtual\n"
         "/licoes — vê as lições acumuladas sobre posições que fecharam com prejuízo\n"
+        "/vitorias — vê as vitórias acumuladas sobre posições que fecharam com lucro\n"
+        "/modus — vê o \"modus operandi\" (padrões comuns às vitórias vs. lições)\n"
         "/help — mostra esta mensagem"
     )
 
@@ -103,6 +114,10 @@ def process_commands():
             reply = _handle_status_command()
         elif text in ("/licoes", "/lições", "/lessons"):
             reply = _handle_lessons_command()
+        elif text in ("/vitorias", "/vitórias", "/wins"):
+            reply = _handle_wins_command()
+        elif text in ("/modus", "/operandi", "/modusoperandi"):
+            reply = _handle_modus_command()
         elif text in ("/help", "/ajuda", "/start"):
             reply = _handle_help_command()
         else:
