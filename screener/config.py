@@ -72,3 +72,16 @@ SCORE_DECAY_EXIT = 30           # se o score cair abaixo disto, a tese de moment
 # Take-profit / stop-loss por camada — DEX é mais volátil, por isso janelas mais largas
 TAKE_PROFIT_PCT = {"cex_small_cap": 0.20, "dex_micro_cap": 0.40}
 STOP_LOSS_PCT = {"cex_small_cap": -0.10, "dex_micro_cap": -0.20}
+
+# --- Trailing stop após atingir o take-profit ---
+# Em vez de vender assim que o valor-alvo é atingido, vigia o preço durante uma janela curta
+# para tentar apanhar mais da subida, mas vende ao primeiro sinal real de reversão.
+TRAILING_STOP_ENABLED = True
+TRAILING_STOP_WINDOW_SECONDS = 300          # vigia durante 5 minutos após atingir o alvo
+TRAILING_STOP_CHECK_INTERVAL_SECONDS = 60   # verifica a cada 60s (5 verificações na janela)
+TRAILING_STOP_DRAWDOWN_PCT = 0.07           # vende se cair 7% desde o pico visto na vigilância
+
+# --- Monitor leve de posições (position_monitor.py, correndo dentro do bot_listener.yml) ---
+# Reavalia posições abertas e verifica saídas com muito mais frequência do que o screener
+# principal (que só corre a cada 2h), sem repetir a descoberta cara de tokens novos.
+POSITION_MONITOR_ENABLED = os.environ.get("POSITION_MONITOR_ENABLED", "true").lower() == "true"
