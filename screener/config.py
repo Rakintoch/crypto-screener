@@ -57,6 +57,10 @@ USER_AGENT = "crypto-screener-bot/1.0 (+github actions; personal use)"
 PORTFOLIO_STATE_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "portfolio_state.json")
 PORTFOLIO_ENABLED = os.environ.get("PORTFOLIO_ENABLED", "true").lower() == "true"
 
+# Histórico de "lições" sobre posições fechadas com prejuízo (ver screener/lessons.py) —
+# ficheiro separado do estado do portefólio para poder crescer/ser lido independentemente.
+LESSONS_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "lessons.json")
+
 STARTING_BALANCE_EUR = 100.0
 CHALLENGE_DURATION_DAYS = 10     # a contagem só começa na primeira compra virtual executada
 
