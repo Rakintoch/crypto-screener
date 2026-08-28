@@ -12,7 +12,7 @@ import time
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from screener import config, lessons, portfolio  # noqa: E402
+from screener import config, lessons, playbook, portfolio  # noqa: E402
 
 
 def fake_candidate(symbol, score, price_usd, tier="cex_small_cap", cid=None, liquidity_usd=None):
@@ -51,6 +51,7 @@ def _run_scenarios():
     with tempfile.TemporaryDirectory() as tmp:
         config.PORTFOLIO_STATE_FILE = os.path.join(tmp, "portfolio_state.json")
         config.LESSONS_FILE = os.path.join(tmp, "lessons.json")  # isola das lições reais do repo
+        config.WINS_FILE = os.path.join(tmp, "wins.json")  # isola das vitórias reais do repo
         eur_rate = 0.9  # taxa fixa para o teste ser determinístico
 
         # --- Corrida 1: sem posições, dois candidatos elegíveis para compra ---
@@ -110,6 +111,15 @@ def _run_scenarios():
         print(f"✅ Corrida 2 OK — ALPHA fechada com {alpha_trade['pnl_pct']:+.1f}% "
               f"({alpha_trade['exit_reason']})")
 
+        # take-profit direto com lucro -> deve gerar uma "vitória" no playbook
+        alpha_wins = [w for w in playbook._load() if w["symbol"] == "ALPHA"]
+        assert len(alpha_wins) == 1, f"FALHOU: esperava exatamente 1 vitória para ALPHA, obtido {len(alpha_wins)}"
+        assert alpha_wins[0]["categoria"] == "take-profit direto", (
+            f"FALHOU: categoria esperada 'take-profit direto', obtido '{alpha_wins[0]['categoria']}'"
+        )
+        print(f"✅ Corrida 2 (playbook) OK — vitória de ALPHA registada automaticamente: "
+              f"\"{alpha_wins[0]['nota'][:70]}...\"")
+
         # --- Corrida 2b: trailing stop — GAMMA ultrapassa o alvo, sobe mais, depois reverte ---
         gamma_key = "dex_micro_cap:gammaaddr"
         state["positions"][gamma_key] = {
@@ -152,6 +162,23 @@ def _run_scenarios():
         )
         print(f"✅ Corrida 2b OK — GAMMA fechada com {gamma_trade['pnl_pct']:+.1f}% pelo trailing stop "
               f"(capturou mais do que o alvo fixo de +40%)")
+
+        # trailing stop com lucro extra -> deve gerar uma "vitória" com a categoria correta
+        gamma_wins = [w for w in playbook._load() if w["symbol"] == "GAMMA"]
+        assert len(gamma_wins) == 1, f"FALHOU: esperava exatamente 1 vitória para GAMMA, obtido {len(gamma_wins)}"
+        assert gamma_wins[0]["categoria"] == "trailing stop apanhou subida extra após o alvo", (
+            f"FALHOU: categoria esperada de trailing stop, obtido '{gamma_wins[0]['categoria']}'"
+        )
+
+        # com 2 vitórias já registadas (ALPHA, GAMMA), o "modus operandi" já deve produzir
+        # um resumo com números, não a mensagem de "ainda não há vitórias suficientes"
+        modus = playbook.build_modus_operandi()
+        assert "Modus operandi" in modus, "FALHOU: build_modus_operandi() devia ter produzido um resumo"
+        assert "ainda não há vitórias" not in modus.lower(), (
+            "FALHOU: com 2 vitórias já registadas, não devia cair no caso de 'sem dados'"
+        )
+        print(f"✅ Corrida 2b (playbook) OK — vitória de GAMMA registada e /modus já produz um resumo:\n"
+              f"{modus}")
 
         # --- Corrida 2c: DELTA entra e depois dispara stop-loss -> deve gerar uma "lição" ---
         candidates_2c = [fake_candidate("DELTA", score=72, price_usd=1.0, tier="dex_micro_cap",
