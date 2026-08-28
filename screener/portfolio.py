@@ -12,6 +12,7 @@ import traceback
 
 from . import config
 from . import lessons
+from . import playbook
 from . import scoring
 from . import sources_coingecko
 from . import sources_dexscreener
@@ -176,6 +177,7 @@ def _close_position(state, key, exit_price_eur, reason, now):
     })
     state["closed_trades"].append(trade)
     lessons.record_if_lesson(trade)
+    playbook.record_if_win(trade)
     return trade
 
 
