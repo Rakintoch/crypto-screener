@@ -1,0 +1,40 @@
+name: Telegram Bot Listener
+
+on:
+  schedule:
+    # Verifica a cada 15 minutos se enviaste um comando (ex: /status) ao bot.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  listen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Verificar comandos do Telegram (ex: /status)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m screener.telegram_bot
+
+      - name: Guardar offset de volta no repositório
+        run: |
+          git config user.name "crypto-screener-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git pull --rebase --autostash
+          git add data/bot_offset.json
+          git diff --quiet --cached || git commit -m "chore: atualizar offset do bot [skip ci]"
+          git push
