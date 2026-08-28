@@ -3,6 +3,8 @@ name: Crypto Screener
 on:
   schedule:
     # Corre a cada 2 horas. Ajusta o cron abaixo se quiseres outra frequência.
+    # (reativação do agendamento em repositórios novos — GitHub por vezes exige um novo
+    # commit ao ficheiro para começar a respeitar o "schedule")
     - cron: "0 */2 * * *"
   workflow_dispatch: {}   # permite correr manualmente a partir do separador "Actions" no GitHub
 
