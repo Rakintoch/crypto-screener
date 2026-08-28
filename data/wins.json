@@ -1,0 +1,19 @@
+[
+  {
+    "closed_ts": 1787927882.2035372,
+    "symbol": "GTAAPE",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/hytpszjvltmh2tp6mcyfn1wcevbfy8pdafsjaiur3cfj",
+    "held_minutes": 288.4,
+    "exit_reason": "take-profit atingido (+48.4%)",
+    "pnl_pct": 48.38,
+    "pnl_eur": 12.09,
+    "entry_score": null,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": null,
+    "entry_security_notes": null,
+    "categoria": "take-profit direto",
+    "nota": "GTAAPE (dex_micro_cap) ganhou +48.4% em 288 min — take-profit direto. Vendida assim que atingiu o alvo de +40% para dex_micro_cap, antes de o trailing stop existir no bot — hoje, com o trailing stop ativo, o bot teria vigiado mais 5 min após este alvo à procura de mais subida antes de vender."
+  }
+]
