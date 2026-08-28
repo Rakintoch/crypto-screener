@@ -1,0 +1,43 @@
+name: Crypto Screener
+
+on:
+  schedule:
+    # Corre a cada 2 horas. Ajusta o cron abaixo se quiseres outra frequência.
+    - cron: "0 */2 * * *"
+  workflow_dispatch: {}   # permite correr manualmente a partir do separador "Actions" no GitHub
+
+permissions:
+  contents: write   # necessário para o workflow poder commitar o data/state.json actualizado
+
+jobs:
+  run-screener:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Correr o screener + desafio de portfólio virtual
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Põe a "false" nos Repository Variables (não secrets) se quiseres desligar
+          # temporariamente o desafio de portfólio sem tocar no código.
+          PORTFOLIO_ENABLED: ${{ vars.PORTFOLIO_ENABLED || 'true' }}
+        run: python -m screener.main
+
+      - name: Guardar estado (anti-spam + portfólio virtual) de volta no repositório
+        run: |
+          git config user.name "crypto-screener-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git pull --rebase --autostash
+          git add data/state.json data/portfolio_state.json
+          git diff --quiet --cached || git commit -m "chore: atualizar estado do screener [skip ci]"
+          git push
