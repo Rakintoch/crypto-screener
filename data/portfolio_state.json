@@ -1,1 +1,67 @@
-{}
+{
+  "status": "active",
+  "start_ts": 1787910576.42265,
+  "end_ts": 1788774576.42265,
+  "cash_eur": 0.0,
+  "starting_balance_eur": 100.0,
+  "positions": {
+    "dex_micro_cap:4978atn9w3cduuregxaqabyqhpxt8142n4o4sfgzpump": {
+      "tier": "dex_micro_cap",
+      "id": "4978atn9w3cduuregxaqabyqhpxt8142n4o4sfgzpump",
+      "symbol": "YOMOGI",
+      "network": "solana",
+      "url": "https://dexscreener.com/solana/6wbryqvrcl3sxtkeaxwmopqy5wquxo5ujev8w7xyungb",
+      "qty": 339442.2459319653,
+      "entry_price_eur": 7.365023151835606e-05,
+      "entry_ts": 1787910576.42265,
+      "cost_eur": 25.0,
+      "last_price_eur": 7.365023151835606e-05,
+      "last_score": 89.9,
+      "missed_updates": 0
+    },
+    "cex_small_cap:bitlight": {
+      "tier": "cex_small_cap",
+      "id": "bitlight",
+      "symbol": "LIGHT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/bitlight",
+      "qty": 122.02279209850575,
+      "entry_price_eur": 0.20487975705242154,
+      "entry_ts": 1787910576.42265,
+      "cost_eur": 25.0,
+      "last_price_eur": 0.20487975705242154,
+      "last_score": 87.4,
+      "missed_updates": 0
+    },
+    "dex_micro_cap:avlhdtkj5k1zpxacnubgybwqacbq9h9uatf42h7kpump": {
+      "tier": "dex_micro_cap",
+      "id": "avlhdtkj5k1zpxacnubgybwqacbq9h9uatf42h7kpump",
+      "symbol": "GTAAPE",
+      "network": "solana",
+      "url": "https://dexscreener.com/solana/hytpszjvltmh2tp6mcyfn1wcevbfy8pdafsjaiur3cfj",
+      "qty": 82237.29349027044,
+      "entry_price_eur": 0.00030399833140128536,
+      "entry_ts": 1787910576.42265,
+      "cost_eur": 25.0,
+      "last_price_eur": 0.00030399833140128536,
+      "last_score": 86.5,
+      "missed_updates": 0
+    },
+    "cex_small_cap:lobster-2": {
+      "tier": "cex_small_cap",
+      "id": "lobster-2",
+      "symbol": "龙虾",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/lobster-2",
+      "qty": 551.4272374657858,
+      "entry_price_eur": 0.04533689723941351,
+      "entry_ts": 1787910576.42265,
+      "cost_eur": 25.0,
+      "last_price_eur": 0.04533689723941351,
+      "last_score": 83.3,
+      "missed_updates": 0
+    }
+  },
+  "closed_trades": [],
+  "last_run_ts": 1787910576.42265
+}
