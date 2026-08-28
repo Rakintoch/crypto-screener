@@ -7,7 +7,9 @@ on:
     # sem repetir a descoberta cara de tokens novos — isso continua a cargo do screener
     # principal (screener.yml, a cada 2h).
     # (reativação do agendamento em repositórios novos — GitHub por vezes exige um novo
-    # commit ao ficheiro para começar a respeitar o "schedule")
+    # commit ao ficheiro para começar a respeitar o "schedule"; nova tentativa 2026-08-28
+    # depois de desativar/reativar as Actions em Settings, para forçar o GitHub a
+    # reconhecer o "schedule" novamente num repositório privado recente)
     - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
