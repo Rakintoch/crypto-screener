@@ -11,6 +11,7 @@ import time
 import traceback
 
 from . import config
+from . import lessons
 from . import scoring
 from . import sources_coingecko
 from . import sources_dexscreener
@@ -174,6 +175,7 @@ def _close_position(state, key, exit_price_eur, reason, now):
         "pnl_pct": pnl_pct,
     })
     state["closed_trades"].append(trade)
+    lessons.record_if_lesson(trade)
     return trade
 
 
@@ -253,6 +255,12 @@ def _check_entries(state, ranked_candidates, now):
             "last_price_eur": entry_price_eur,
             "last_score": c["score"],
             "missed_updates": 0,
+            # snapshot dos critérios de entrada — usado depois pelo lessons.py se a posição
+            # vier a fechar com prejuízo, para a lição referenciar o que passou nos filtros
+            "entry_score": c["score"],
+            "entry_liquidity_usd": c.get("liquidity_usd"),
+            "entry_volume_24h_usd": c.get("volume_24h"),
+            "entry_security_notes": (c.get("security") or {}).get("notes"),
         }
         state["cash_eur"] -= size_eur
 
