@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1787910576.42265,
   "end_ts": 1788774576.42265,
-  "cash_eur": 24.465839684323036,
+  "cash_eur": 0.0,
   "starting_balance_eur": 100.0,
   "positions": {
     "cex_small_cap:helium": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.3397261996252579,
       "entry_ts": 1788034934.4749935,
       "cost_eur": 18.963388827101717,
-      "last_price_eur": 0.36171536433954693,
-      "last_score": 98.8,
+      "last_price_eur": 0.3698177498459694,
+      "last_score": 98.7,
       "missed_updates": 0,
       "entry_score": 96.5,
       "entry_liquidity_usd": null,
@@ -33,12 +33,48 @@
       "entry_price_eur": 1458.448107295679,
       "entry_ts": 1788034934.4749935,
       "cost_eur": 18.963388827101717,
-      "last_price_eur": 1458.8790666943212,
-      "last_score": 68.2,
+      "last_price_eur": 1481.9646014464402,
+      "last_score": 67.0,
       "missed_updates": 0,
       "entry_score": 92.8,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 10862695,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "dex_micro_cap:TRUEq13uwehY57S1Y62iTxas7ahpFgohc8kScbGNu1h": {
+      "tier": "dex_micro_cap",
+      "id": "TRUEq13uwehY57S1Y62iTxas7ahpFgohc8kScbGNu1h",
+      "symbol": "STACY",
+      "network": "solana",
+      "url": "https://www.geckoterminal.com/solana/pools/8gTsPrzyhkGjqXgwQR1BeCaD4Nz7TARtPZ1ofNcrrBXa",
+      "qty": 14941.577088618908,
+      "entry_price_eur": 0.001077163539472016,
+      "entry_ts": 1788047610.9439652,
+      "cost_eur": 16.094522062070723,
+      "last_price_eur": 0.001077163539472016,
+      "last_score": 100.0,
+      "missed_updates": 0,
+      "entry_score": 100.0,
+      "entry_liquidity_usd": 111657.6292,
+      "entry_volume_24h_usd": 4968243.47730208,
+      "entry_security_notes": "sem red flags óbvias"
+    },
+    "cex_small_cap:bitlayer-bitvm": {
+      "tier": "cex_small_cap",
+      "id": "bitlayer-bitvm",
+      "symbol": "BTR",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/bitlayer-bitvm",
+      "qty": 49.434355890104534,
+      "entry_price_eur": 0.16934209966975683,
+      "entry_ts": 1788047610.9439652,
+      "cost_eur": 8.371317622252313,
+      "last_price_eur": 0.16934209966975683,
+      "last_score": 94.7,
+      "missed_updates": 0,
+      "entry_score": 94.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 58079666,
       "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
     }
   },
@@ -192,5 +228,5 @@
       "pnl_pct": -57.009141677736885
     }
   ],
-  "last_run_ts": 1788045507.316926
+  "last_run_ts": 1788047610.9439652
 }
