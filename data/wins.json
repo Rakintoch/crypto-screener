@@ -15,5 +15,22 @@
     "entry_security_notes": null,
     "categoria": "take-profit direto",
     "nota": "GTAAPE (dex_micro_cap) ganhou +48.4% em 288 min — take-profit direto. Vendida assim que atingiu o alvo de +40% para dex_micro_cap, antes de o trailing stop existir no bot — hoje, com o trailing stop ativo, o bot teria vigiado mais 5 min após este alvo à procura de mais subida antes de vender."
+  },
+  {
+    "closed_ts": 1787997846.78772,
+    "symbol": "龙虾",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/lobster-2",
+    "held_minutes": 1454.5,
+    "exit_reason": "take-profit atingido após vigilância de 5 min (pico +25.7% desde a entrada)",
+    "pnl_pct": 25.67,
+    "pnl_eur": 6.42,
+    "entry_score": null,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": null,
+    "entry_security_notes": null,
+    "categoria": "take-profit direto",
+    "nota": "龙虾 (cex_small_cap) ganhou +25.7% em 1455 min — take-profit direto."
   }
 ]
