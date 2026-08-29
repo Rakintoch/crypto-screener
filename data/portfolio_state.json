@@ -2,23 +2,9 @@
   "status": "active",
   "start_ts": 1787910576.42265,
   "end_ts": 1788774576.42265,
-  "cash_eur": 23.763829801739398,
+  "cash_eur": 44.4363314997143,
   "starting_balance_eur": 100.0,
   "positions": {
-    "cex_small_cap:bitlight": {
-      "tier": "cex_small_cap",
-      "id": "bitlight",
-      "symbol": "LIGHT",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/bitlight",
-      "qty": 122.02279209850575,
-      "entry_price_eur": 0.20487975705242154,
-      "entry_ts": 1787910576.42265,
-      "cost_eur": 25.0,
-      "last_price_eur": 0.18800198293676498,
-      "last_score": 65.4,
-      "missed_updates": 0
-    },
     "cex_small_cap:lobster-2": {
       "tier": "cex_small_cap",
       "id": "lobster-2",
@@ -29,8 +15,8 @@
       "entry_price_eur": 0.04533689723941351,
       "entry_ts": 1787910576.42265,
       "cost_eur": 25.0,
-      "last_price_eur": 0.054310475448707735,
-      "last_score": 65.1,
+      "last_price_eur": 0.05402043228931627,
+      "last_score": 56.5,
       "missed_updates": 0
     }
   },
@@ -94,7 +80,27 @@
       "proceeds_eur": 0.2802613649967144,
       "pnl_eur": -28.112619594103723,
       "pnl_pct": -99.01291677515773
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "bitlight",
+      "symbol": "LIGHT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/bitlight",
+      "qty": 122.02279209850575,
+      "entry_price_eur": 0.20487975705242154,
+      "entry_ts": 1787910576.42265,
+      "cost_eur": 25.0,
+      "last_price_eur": 0.16941508502187475,
+      "last_score": 44.8,
+      "missed_updates": 0,
+      "exit_price_eur": 0.16941508502187475,
+      "exit_ts": 1787973090.8610947,
+      "exit_reason": "stop-loss atingido (-17.3%)",
+      "proceeds_eur": 20.672501697974898,
+      "pnl_eur": -4.327498302025102,
+      "pnl_pct": -17.30999320810041
     }
   ],
-  "last_run_ts": 1787951709.904288
+  "last_run_ts": 1787973090.8610947
 }
