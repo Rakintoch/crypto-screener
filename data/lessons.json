@@ -70,5 +70,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "muito rápida (<1h)",
     "licao": "COPPERINU (cex_small_cap) perdeu -14.0% em 43 min (muito rápida (<1h)) — stop-loss atingido. Score na entrada: 98 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788045507.316926,
+    "symbol": "Greyson",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://www.geckoterminal.com/solana/pools/CAKa2RatbNyiMjxAtpeTKsj3567MSLaTbXifws6g2rej",
+    "held_minutes": 176.2,
+    "exit_reason": "stop-loss atingido (-57.0%)",
+    "pnl_pct": -57.01,
+    "pnl_eur": -10.81,
+    "entry_score": 90.6,
+    "entry_liquidity_usd": 114805.646,
+    "entry_volume_24h_usd": 1822320.99987737,
+    "entry_security_notes": "sem red flags óbvias",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "Greyson (dex_micro_cap) perdeu -57.0% em 176 min (rápida (1-6h)) — stop-loss atingido. Liquidez na entrada: $114,806. Score na entrada: 91 (mínimo exigido para comprar: 65). Segurança na entrada: sem red flags óbvias."
   }
 ]

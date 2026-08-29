@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1787910576.42265,
   "end_ts": 1788774576.42265,
-  "cash_eur": 16.313316060563864,
+  "cash_eur": 24.465839684323036,
   "starting_balance_eur": 100.0,
   "positions": {
     "cex_small_cap:helium": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.3397261996252579,
       "entry_ts": 1788034934.4749935,
       "cost_eur": 18.963388827101717,
-      "last_price_eur": 0.3494702480824688,
-      "last_score": 94.7,
+      "last_price_eur": 0.36171536433954693,
+      "last_score": 98.8,
       "missed_updates": 0,
       "entry_score": 96.5,
       "entry_liquidity_usd": null,
@@ -33,31 +33,13 @@
       "entry_price_eur": 1458.448107295679,
       "entry_ts": 1788034934.4749935,
       "cost_eur": 18.963388827101717,
-      "last_price_eur": 1461.2017790473303,
-      "last_score": 69.7,
+      "last_price_eur": 1458.8790666943212,
+      "last_score": 68.2,
       "missed_updates": 0,
       "entry_score": 92.8,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 10862695,
       "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
-    },
-    "dex_micro_cap:AfGdjAp9djSaqJxzYo3t6jy8tJA3o2aDPHoZ57Egpump": {
-      "tier": "dex_micro_cap",
-      "id": "AfGdjAp9djSaqJxzYo3t6jy8tJA3o2aDPHoZ57Egpump",
-      "symbol": "Greyson",
-      "network": "solana",
-      "url": "https://www.geckoterminal.com/solana/pools/CAKa2RatbNyiMjxAtpeTKsj3567MSLaTbXifws6g2rej",
-      "qty": 13155.572889974563,
-      "entry_price_eur": 0.001441471913515306,
-      "entry_ts": 1788034934.4749935,
-      "cost_eur": 18.963388827101717,
-      "last_price_eur": 0.001417410526897802,
-      "last_score": 53.9,
-      "missed_updates": 0,
-      "entry_score": 90.6,
-      "entry_liquidity_usd": 114805.646,
-      "entry_volume_24h_usd": 1822320.99987737,
-      "entry_security_notes": "sem red flags óbvias"
     }
   },
   "closed_trades": [
@@ -184,7 +166,31 @@
       "proceeds_eur": 16.313316060563864,
       "pnl_eur": -2.6500727665378534,
       "pnl_pct": -13.974679265925694
+    },
+    {
+      "tier": "dex_micro_cap",
+      "id": "AfGdjAp9djSaqJxzYo3t6jy8tJA3o2aDPHoZ57Egpump",
+      "symbol": "Greyson",
+      "network": "solana",
+      "url": "https://www.geckoterminal.com/solana/pools/CAKa2RatbNyiMjxAtpeTKsj3567MSLaTbXifws6g2rej",
+      "qty": 13155.572889974563,
+      "entry_price_eur": 0.001441471913515306,
+      "entry_ts": 1788034934.4749935,
+      "cost_eur": 18.963388827101717,
+      "last_price_eur": 0.0006197011480945803,
+      "last_score": 30.2,
+      "missed_updates": 0,
+      "entry_score": 90.6,
+      "entry_liquidity_usd": 114805.646,
+      "entry_volume_24h_usd": 1822320.99987737,
+      "entry_security_notes": "sem red flags óbvias",
+      "exit_price_eur": 0.0006197011480945803,
+      "exit_ts": 1788045507.316926,
+      "exit_reason": "stop-loss atingido (-57.0%)",
+      "proceeds_eur": 8.152523623759173,
+      "pnl_eur": -10.810865203342544,
+      "pnl_pct": -57.009141677736885
     }
   ],
-  "last_run_ts": 1788037498.8567097
+  "last_run_ts": 1788045507.316926
 }
