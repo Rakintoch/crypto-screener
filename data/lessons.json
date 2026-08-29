@@ -34,5 +34,23 @@
     "categoria": "colapso quase total (possível rug/dump)",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "cogefone (dex_micro_cap) perdeu -99.0% em 190 min (rápida (1-6h)) — colapso quase total (possível rug/dump). Comprada exatamente na corrida em que o GTAAPE foi vendido, ficou 3h09min sem nenhuma verificação pela mesma razão (agendamento automático ainda não confirmado a funcionar) — confirmado no DexScreener que o token colapsou -97% em poucas horas (liquidez caiu para $2.2K), um padrão típico de rug/dump em meme-coins Pump.fun muito recentes. O maior fator aqui não foi um erro na lógica de stop-loss, foi a lacuna de monitorização."
+  },
+  {
+    "closed_ts": 1787973090.8610947,
+    "symbol": "LIGHT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/bitlight",
+    "held_minutes": 1041.9,
+    "exit_reason": "stop-loss atingido (-17.3%)",
+    "pnl_pct": -17.31,
+    "pnl_eur": -4.33,
+    "entry_score": null,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": null,
+    "entry_security_notes": null,
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "LIGHT (cex_small_cap) perdeu -17.3% em 1042 min (lenta (>6h)) — stop-loss atingido."
   }
 ]
