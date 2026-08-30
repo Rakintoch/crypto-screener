@@ -2,7 +2,11 @@
   "status": "active",
   "start_ts": 1787910576.42265,
   "end_ts": 1788774576.42265,
+<<<<<<< Updated upstream
   "cash_eur": 33.22690193772122,
+=======
+  "cash_eur": 0.0,
+>>>>>>> Stashed changes
   "starting_balance_eur": 100.0,
   "positions": {
     "cex_small_cap:tensor": {
@@ -15,13 +19,75 @@
       "entry_price_eur": 0.03682122395238682,
       "entry_ts": 1788116563.4932363,
       "cost_eur": 12.42689059512349,
+<<<<<<< Updated upstream
       "last_price_eur": 0.03430136464380867,
       "last_score": 73.8,
+=======
+      "last_price_eur": 0.03438971273848725,
+      "last_score": 74.0,
+>>>>>>> Stashed changes
       "missed_updates": 0,
       "entry_score": 94.2,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 53881614,
       "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+<<<<<<< Updated upstream
+=======
+    },
+    "cex_small_cap:hemi": {
+      "tier": "cex_small_cap",
+      "id": "hemi",
+      "symbol": "HEMI",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/hemi",
+      "qty": 923.2632180215727,
+      "entry_price_eur": 0.012137358260344787,
+      "entry_ts": 1788128547.9645832,
+      "cost_eur": 11.205976445726645,
+      "last_price_eur": 0.012137358260344787,
+      "last_score": 95.5,
+      "missed_updates": 0,
+      "entry_score": 95.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 47500971,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "cex_small_cap:arrows": {
+      "tier": "cex_small_cap",
+      "id": "arrows",
+      "symbol": "ARROWS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/arrows",
+      "qty": 9881.345055479776,
+      "entry_price_eur": 0.001134053753088228,
+      "entry_ts": 1788128547.9645832,
+      "cost_eur": 11.205976445726645,
+      "last_price_eur": 0.001134053753088228,
+      "last_score": 87.1,
+      "missed_updates": 0,
+      "entry_score": 87.1,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 420907,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "cex_small_cap:yolo-2": {
+      "tier": "cex_small_cap",
+      "id": "yolo-2",
+      "symbol": "YOLO",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/yolo-2",
+      "qty": 1004.1233904936042,
+      "entry_price_eur": 0.010761306269093274,
+      "entry_ts": 1788128547.9645832,
+      "cost_eur": 10.805679337062017,
+      "last_price_eur": 0.010761306269093274,
+      "last_score": 81.4,
+      "missed_updates": 0,
+      "entry_score": 81.4,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 2298627,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+>>>>>>> Stashed changes
     }
   },
   "closed_trades": [
@@ -447,13 +513,18 @@
       "entry_price_eur": 0.015328329134828013,
       "entry_ts": 1788116563.4932363,
       "cost_eur": 12.426890595123492,
+<<<<<<< Updated upstream
       "last_price_eur": 0.013064211819363245,
+=======
+      "last_price_eur": 0.013052777812392244,
+>>>>>>> Stashed changes
       "last_score": 51.0,
       "missed_updates": 0,
       "entry_score": 81.9,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 4665403,
       "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+<<<<<<< Updated upstream
       "exit_price_eur": 0.013064211819363245,
       "exit_ts": 1788128471.463169,
       "exit_reason": "stop-loss atingido (-14.8%)",
@@ -463,4 +534,15 @@
     }
   ],
   "last_run_ts": 1788128471.463169
+=======
+      "exit_price_eur": 0.013052777812392244,
+      "exit_ts": 1788128547.9645832,
+      "exit_reason": "stop-loss atingido (-14.8%)",
+      "proceeds_eur": 10.582069344303243,
+      "pnl_eur": -1.8448212508202495,
+      "pnl_pct": -14.845397058087778
+    }
+  ],
+  "last_run_ts": 1788128547.9645832
+>>>>>>> Stashed changes
 }
