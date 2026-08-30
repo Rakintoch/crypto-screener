@@ -124,5 +124,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "STACY (dex_micro_cap) perdeu -31.7% em 430 min (lenta (>6h)) — stop-loss atingido. Liquidez na entrada: $111,658. Score na entrada: 100 (mínimo exigido para comprar: 65). Segurança na entrada: sem red flags óbvias."
+  },
+  {
+    "closed_ts": 1788083036.4425058,
+    "symbol": "COPPERINU",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/copper-inu-2",
+    "held_minutes": 382.9,
+    "exit_reason": "stop-loss atingido (-11.8%)",
+    "pnl_pct": -11.82,
+    "pnl_eur": -0.85,
+    "entry_score": 97.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 18546304,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "COPPERINU (cex_small_cap) perdeu -11.8% em 383 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 98 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
