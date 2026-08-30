@@ -142,5 +142,41 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "COPPERINU (cex_small_cap) perdeu -11.8% em 383 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 98 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788094371.978724,
+    "symbol": "NET",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/netnet",
+    "held_minutes": 990.6,
+    "exit_reason": "stop-loss atingido (-18.4%)",
+    "pnl_pct": -18.4,
+    "pnl_eur": -3.49,
+    "entry_score": 92.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 10862695,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "NET (cex_small_cap) perdeu -18.4% em 991 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 93 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788094371.978724,
+    "symbol": "TRUMPSTACY",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/fmmkbkhihuzfmxaspfzkkbmv92j1cuco7vnuw9sjtds1",
+    "held_minutes": 188.9,
+    "exit_reason": "stop-loss atingido (-99.5%)",
+    "pnl_pct": -99.52,
+    "pnl_eur": -15.7,
+    "entry_score": 90.0,
+    "entry_liquidity_usd": 61990.12,
+    "entry_volume_24h_usd": 1000154.34,
+    "entry_security_notes": "sem dados GoPlus — não bloqueado, mas não confirmado",
+    "categoria": "colapso quase total (possível rug/dump)",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "TRUMPSTACY (dex_micro_cap) perdeu -99.5% em 189 min (rápida (1-6h)) — colapso quase total (possível rug/dump). Liquidez na entrada: $61,990. Score na entrada: 90 (mínimo exigido para comprar: 65). Segurança na entrada: sem dados GoPlus — não bloqueado, mas não confirmado."
   }
 ]
