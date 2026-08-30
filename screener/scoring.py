@@ -89,6 +89,13 @@ def passes_hard_filters(c):
         if security.get("checked") and not security.get("safe"):
             return False  # gate eliminatório real: honeypot/red flag confirmada
 
+        # Autoanálise 2026-08-30: "não verificado" estava a passar como se fosse "seguro"
+        # (só um desconto de 10% no score, insuficiente — TRUMPSTACY tinha score 90 mesmo
+        # sem dados GoPlus e colapsou -99,5%). Um gate "eliminatório" não pode aceitar
+        # candidatos que nunca chegaram a ser verificados.
+        if not security.get("checked"):
+            return False
+
     return True
 
 
