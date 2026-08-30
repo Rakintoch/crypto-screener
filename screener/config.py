@@ -53,7 +53,7 @@ STATE_MAX_AGE_HOURS = 72        # limpa entradas de estado mais antigas que isto
 REQUEST_TIMEOUT = 20
 USER_AGENT = "crypto-screener-bot/1.0 (+github actions; personal use)"
 
-# --- Desafio de portfólio virtual (100% simulado, dinheiro real NUNCA � movimentado) ---
+# --- Desafio de portfólio virtual (100% simulado, dinheiro real NUNCA é movimentado) ---
 PORTFOLIO_STATE_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "portfolio_state.json")
 PORTFOLIO_ENABLED = os.environ.get("PORTFOLIO_ENABLED", "true").lower() == "true"
 
@@ -104,7 +104,7 @@ MIN_TRADE_EUR = 5.0                  # não abre/fecha posições de valor resid
 ENTRY_MIN_SCORE = 65
 SCORE_DECAY_EXIT = 30           # se o score cair abaixo disto, a tese de momentum invalidou-se
 
-# Take-profit / stop-loss por camada — DEX � mais volátil, por isso janelas mais largas
+# Take-profit / stop-loss por camada — DEX é mais volátil, por isso janelas mais largas
 TAKE_PROFIT_PCT = {"cex_small_cap": 0.20, "dex_micro_cap": 0.40}
 # Autoanálise 2026-08-30: os 5 stop-loss reais em cex_small_cap fecharam sempre bastante
 # além do gatilho de -10% (entre -11,8% e -18,4%, ~5 pontos de atraso em média, por causa
