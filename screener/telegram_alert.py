@@ -107,6 +107,8 @@ def format_portfolio_message(state, actions):
         f"   ↳ Cash livre: {_fmt_eur(state['cash_eur'])} + "
         f"Posições abertas ({len(state['positions'])}): {_fmt_eur(open_value)}"
     )
+    if state.get("capital_protection_active"):
+        lines.append("   🛑 Proteção de capital ativa — sem novas entradas até ao fim do desafio")
 
     for key, pos in state["positions"].items():
         chg = (pos.get("last_price_eur", pos["entry_price_eur"]) / pos["entry_price_eur"] - 1) * 100

@@ -16,6 +16,7 @@ from . import playbook
 from . import scoring
 from . import sources_coingecko
 from . import sources_dexscreener
+from . import telegram_alert
 
 MISSED_UPDATES_BEFORE_ASSUMED_RUG = 3
 ASSUMED_RUG_RECOVERY_PCT = 0.05  # assume que só sobra 5% do valor se o token deixar de ter dados
@@ -213,8 +214,34 @@ def _check_exits(state, now, eur_rate=None, force_all=False):
     return actions
 
 
+def _alert_capital_protection(state, equity):
+    """Aviso único (não repete em cada corrida) quando o disjuntor de capital é acionado —
+    ver config.MAX_DRAWDOWN_HALT_PCT."""
+    pnl_pct = (equity / state["starting_balance_eur"] - 1) * 100
+    msg = (
+        "🛑 *Proteção de capital ativada*\n\n"
+        f"O saldo total caiu para {equity:.2f}€ ({pnl_pct:+.1f}% desde o início), "
+        f"atingindo o limiar de proteção ({config.MAX_DRAWDOWN_HALT_PCT:+.0%} do saldo inicial).\n\n"
+        "A partir de agora o bot deixa de abrir posições novas — o capital que resta fica em "
+        "cash, protegido de mais risco. As posições já abertas continuam a ser vigiadas "
+        "normalmente (take-profit/stop-loss/trailing stop) e o desafio prossegue até ao fim "
+        "dos 10 dias."
+    )
+    telegram_alert.send_telegram_message(msg)
+
+
 def _check_entries(state, ranked_candidates, now):
     actions = []
+
+    equity = _equity(state)
+    floor = state["starting_balance_eur"] * (1 + config.MAX_DRAWDOWN_HALT_PCT)
+    if not state.get("capital_protection_active") and equity <= floor:
+        state["capital_protection_active"] = True
+        state["capital_protection_ts"] = now
+        _alert_capital_protection(state, equity)
+    if state.get("capital_protection_active"):
+        return actions  # disjuntor acionado: não abre posições novas (ver config.MAX_DRAWDOWN_HALT_PCT)
+
     slots_free = config.MAX_CONCURRENT_POSITIONS - len(state["positions"])
     if slots_free <= 0:
         return actions
