@@ -70,7 +70,15 @@ STARTING_BALANCE_EUR = 100.0
 CHALLENGE_DURATION_DAYS = 10     # a contagem só começa na primeira compra virtual executada
 
 MAX_CONCURRENT_POSITIONS = 4
-POSITION_SIZE_PCT_OF_EQUITY = 0.25   # cada nova posição usa ~25% do equity total nesse momento
+POSITION_SIZE_PCT_OF_EQUITY = 0.25   # fallback para camadas sem valor específico abaixo
+# Autoanálise 2026-08-30 (13 posições fechadas): o dex_micro_cap fechou 1 vitória em 6
+# (-57,85€ líquidos) contra o cex_small_cap com 2 vitórias em 7 (+6,49€ líquidos) — quase
+# todo o défice do desafio veio de rugs/colapsos em meme-coins Solana recém-criadas
+# (cogefone -99%, TRUMPSTACY -99,5%, Greyson -57%), um risco que nem o stop-loss nem o
+# score de entrada conseguiram travar a tempo. Em vez de abandonar a camada (perde-se o
+# lado bom: GTAAPE +48%), reduz-se o tamanho de posição para limitar o estrago de cada rug
+# individual, mantendo a exposição a explorar o upside.
+POSITION_SIZE_PCT_BY_TIER = {"cex_small_cap": 0.25, "dex_micro_cap": 0.12}
 MIN_TRADE_EUR = 5.0                  # não abre/fecha posições de valor residual
 
 # Score mínimo para COMPRAR de facto (mais exigente que o limiar de alerta, porque aqui
@@ -80,7 +88,11 @@ SCORE_DECAY_EXIT = 30           # se o score cair abaixo disto, a tese de moment
 
 # Take-profit / stop-loss por camada — DEX é mais volátil, por isso janelas mais largas
 TAKE_PROFIT_PCT = {"cex_small_cap": 0.20, "dex_micro_cap": 0.40}
-STOP_LOSS_PCT = {"cex_small_cap": -0.10, "dex_micro_cap": -0.20}
+# Autoanálise 2026-08-30: os 5 stop-loss reais em cex_small_cap fecharam sempre bastante
+# além do gatilho de -10% (entre -11,8% e -18,4%, ~5 pontos de atraso em média, por causa
+# do intervalo de 15 min entre verificações) — desce-se o gatilho para -8% para que a perda
+# real fique mais perto da intenção original de ~-10%.
+STOP_LOSS_PCT = {"cex_small_cap": -0.08, "dex_micro_cap": -0.20}
 
 # --- Trailing stop após atingir o take-profit ---
 # Em vez de vender assim que o valor-alvo é atingido, vigia o preço durante uma janela curta
