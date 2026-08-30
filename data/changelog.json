@@ -7,5 +7,14 @@
     "efeito_esperado": "Menos compras de tokens dex sem verificação de segurança real; perdas de stop-loss em cex_small_cap mais próximas de -10%; e quando uma posição dex_micro_cap ainda assim colapsar, o impacto no saldo total fica a metade do que ficaria antes.",
     "num_trades_fechados_ate_aqui": 13,
     "announced": true
+  },
+  {
+    "ts": 1788108444.1616783,
+    "titulo": "Disjuntor de capital (halt de novas entradas a -75% de drawdown)",
+    "motivo": "Ricardo perguntou diretamente o que aconteceria se o saldo do desafio chegasse a zero. Numa estratégia sem alavancagem/margem o saldo nunca fica negativo, mas nada impedia até agora que capital fresco continuasse a ser arriscado em entradas novas durante uma sequência de perdas severa.",
+    "mudanca": "config.py: novo MAX_DRAWDOWN_HALT_PCT = -75% (halt quando equity <= 25% do saldo inicial, 25 EUR de 100 EUR). portfolio.py: _check_entries() agora verifica o limiar a cada corrida — se atingido, marca capital_protection_active=True, avisa uma única vez no Telegram (_alert_capital_protection) e deixa de abrir posições NOVAS; posições já abertas continuam a ser vigiadas e fechadas normalmente (take-profit/stop-loss/trailing/liquidação forçada ao fim dos 10 dias). telegram_alert.py: mensagem de estado do portefólio passa a indicar quando a proteção está ativa.",
+    "efeito_esperado": "Se o desafio entrar numa sequência de perdas muito severa, o capital que ainda resta fica protegido em cash em vez de continuar exposto a novas entradas — é um disjuntor permanente para o resto do desafio, não um auto-reset (não volta a abrir posições sozinho só porque o equity recuperou um pouco).",
+    "num_trades_fechados_ate_aqui": 13,
+    "announced": false
   }
 ]
