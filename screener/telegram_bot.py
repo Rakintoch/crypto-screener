@@ -12,6 +12,7 @@ import os
 
 import requests
 
+from . import changelog
 from . import config
 from . import lessons
 from . import playbook
@@ -76,6 +77,10 @@ def _handle_modus_command():
     return playbook.build_modus_operandi()
 
 
+def _handle_changelog_command():
+    return changelog.format_recent_changes()
+
+
 def _handle_help_command():
     return (
         "🤖 *Comandos disponíveis:*\n"
@@ -83,12 +88,31 @@ def _handle_help_command():
         "/licoes — vê as lições acumuladas sobre posições que fecharam com prejuízo\n"
         "/vitorias — vê as vitórias acumuladas sobre posições que fecharam com lucro\n"
         "/modus — vê o \"modus operandi\" (padrões comuns às vitórias vs. lições)\n"
+        "/mudancas — vê o histórico de melhorias implementadas na estratégia/config do bot\n"
         "/help — mostra esta mensagem"
     )
 
 
+def _send_pending_changelog_announcements():
+    """Anuncia no Telegram qualquer mudança de estratégia registada por uma autoanálise que
+    ainda não tenha sido comunicada — corre em toda a execução do bot_listener.yml (a cada
+    15 min), independentemente de teres enviado algum comando. Assim, uma melhoria fica
+    anunciada perto do momento em que é implementada, sem seres tu a ter de perguntar."""
+    pending = changelog.pending_announcements()
+    if not pending:
+        return
+
+    for entry in pending:
+        telegram_alert.send_telegram_message(changelog.format_announcement(entry))
+
+    changelog.mark_announced([e["ts"] for e in pending])
+
+
 def process_commands():
-    """Vai buscar mensagens novas ao Telegram e responde a comandos reconhecidos."""
+    """Vai buscar mensagens novas ao Telegram, responde a comandos reconhecidos, e anuncia
+    quaisquer mudanças de estratégia pendentes (ver _send_pending_changelog_announcements)."""
+    _send_pending_changelog_announcements()
+
     offset = _load_offset()
     updates = _fetch_updates(offset)
 
@@ -118,6 +142,8 @@ def process_commands():
             reply = _handle_wins_command()
         elif text in ("/modus", "/operandi", "/modusoperandi"):
             reply = _handle_modus_command()
+        elif text in ("/mudancas", "/mudanças", "/melhorias", "/changelog"):
+            reply = _handle_changelog_command()
         elif text in ("/help", "/ajuda", "/start"):
             reply = _handle_help_command()
         else:
