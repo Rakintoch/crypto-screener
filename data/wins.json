@@ -32,5 +32,22 @@
     "entry_security_notes": null,
     "categoria": "take-profit direto",
     "nota": "龙虾 (cex_small_cap) ganhou +25.7% em 1455 min — take-profit direto."
+  },
+  {
+    "closed_ts": 1788073389.4345014,
+    "symbol": "HNT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/helium",
+    "held_minutes": 640.9,
+    "exit_reason": "take-profit atingido após vigilância de 5 min (pico +66.2% desde a entrada)",
+    "pnl_pct": 66.22,
+    "pnl_eur": 12.56,
+    "entry_score": 96.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 76553973,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "take-profit direto",
+    "nota": "HNT (cex_small_cap) ganhou +66.2% em 641 min — take-profit direto. Score na entrada: 96. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]

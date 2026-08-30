@@ -106,5 +106,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "BTR (cex_small_cap) perdeu -14.0% em 207 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 95 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788073389.4345014,
+    "symbol": "STACY",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://www.geckoterminal.com/solana/pools/8gTsPrzyhkGjqXgwQR1BeCaD4Nz7TARtPZ1ofNcrrBXa",
+    "held_minutes": 429.6,
+    "exit_reason": "stop-loss atingido (-31.7%)",
+    "pnl_pct": -31.72,
+    "pnl_eur": -5.11,
+    "entry_score": 100.0,
+    "entry_liquidity_usd": 111657.6292,
+    "entry_volume_24h_usd": 4968243.47730208,
+    "entry_security_notes": "sem red flags óbvias",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "STACY (dex_micro_cap) perdeu -31.7% em 430 min (lenta (>6h)) — stop-loss atingido. Liquidez na entrada: $111,658. Score na entrada: 100 (mínimo exigido para comprar: 65). Segurança na entrada: sem red flags óbvias."
   }
 ]
