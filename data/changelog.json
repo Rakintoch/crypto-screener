@@ -1,0 +1,11 @@
+[
+  {
+    "ts": 1788105230.4840138,
+    "titulo": "Fecho do gate de segurança + tamanho de posição por camada + stop-loss cex mais apertado",
+    "motivo": "Autoanálise a 13 posições fechadas (3 vitórias, 10 perdas): dex_micro_cap perdeu -57,85€ líquidos em 6 fechos (16,7% de acerto) contra +6,49€ líquidos do cex_small_cap em 7 fechos (28,6% de acerto) — quase todo o défice do desafio estava concentrado numa só camada. TRUMPSTACY comprou com score 90 mesmo sem verificação GoPlus confirmada e rugou -99,5%; os 5 stop-loss reais em cex_small_cap fecharam sempre entre -11,8% e -18,4% em vez do -10% configurado.",
+    "mudanca": "scoring.py: candidato dex_micro_cap sem verificação de segurança confirmada (checked=False) passa a ser eliminado, não só penalizado. config.py: STOP_LOSS_PCT[cex_small_cap] de -10% para -8%. config.py/portfolio.py: novo POSITION_SIZE_PCT_BY_TIER — dex_micro_cap de 25% para 12% do equity por posição, cex_small_cap mantém-se em 25%.",
+    "efeito_esperado": "Menos compras de tokens dex sem verificação de segurança real; perdas de stop-loss em cex_small_cap mais próximas de -10%; e quando uma posição dex_micro_cap ainda assim colapsar, o impacto no saldo total fica a metade do que ficaria antes.",
+    "num_trades_fechados_ate_aqui": 13,
+    "announced": false
+  }
+]
