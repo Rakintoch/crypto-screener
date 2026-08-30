@@ -53,7 +53,7 @@ STATE_MAX_AGE_HOURS = 72        # limpa entradas de estado mais antigas que isto
 REQUEST_TIMEOUT = 20
 USER_AGENT = "crypto-screener-bot/1.0 (+github actions; personal use)"
 
-# --- Desafio de portfólio virtual (100% simulado, dinheiro real NUNCA é movimentado) ---
+# --- Desafio de portfólio virtual (100% simulado, dinheiro real NUNCA � movimentado) ---
 PORTFOLIO_STATE_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "portfolio_state.json")
 PORTFOLIO_ENABLED = os.environ.get("PORTFOLIO_ENABLED", "true").lower() == "true"
 
@@ -76,6 +76,17 @@ CHANGELOG_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__
 STARTING_BALANCE_EUR = 100.0
 CHALLENGE_DURATION_DAYS = 10     # a contagem só começa na primeira compra virtual executada
 
+# Disjuntor de capital: numa estratégia sem alavancagem/margem o saldo nunca fica negativo
+# (o pior caso é perder o valor investido numa posição), mas nada impedia até agora que
+# capital fresco continuasse a ser arriscado em entradas novas durante uma sequência de
+# perdas severa. Introduzido 2026-08-30, em resposta direta à pergunta "e se o saldo chegar
+# a zero?": se o equity cair para este limiar (fração do saldo inicial), o bot deixa de abrir
+# posições NOVAS — mas continua a vigiar e fechar as posições já abertas normalmente
+# (take-profit/stop-loss/trailing/liquidação forçada ao fim dos 10 dias). É um disjuntor, não
+# um "auto-reset": uma vez acionado (e o Ricardo avisado no Telegram), mantém-se assim até ao
+# fim do desafio — não volta a abrir posições sozinho só porque o equity recuperou um pouco.
+MAX_DRAWDOWN_HALT_PCT = -0.75   # halt quando equity <= 25% do saldo inicial (25 EUR de 100 EUR)
+
 MAX_CONCURRENT_POSITIONS = 4
 POSITION_SIZE_PCT_OF_EQUITY = 0.25   # fallback para camadas sem valor específico abaixo
 # Autoanálise 2026-08-30 (13 posições fechadas): o dex_micro_cap fechou 1 vitória em 6
@@ -93,7 +104,7 @@ MIN_TRADE_EUR = 5.0                  # não abre/fecha posições de valor resid
 ENTRY_MIN_SCORE = 65
 SCORE_DECAY_EXIT = 30           # se o score cair abaixo disto, a tese de momentum invalidou-se
 
-# Take-profit / stop-loss por camada — DEX é mais volátil, por isso janelas mais largas
+# Take-profit / stop-loss por camada — DEX � mais volátil, por isso janelas mais largas
 TAKE_PROFIT_PCT = {"cex_small_cap": 0.20, "dex_micro_cap": 0.40}
 # Autoanálise 2026-08-30: os 5 stop-loss reais em cex_small_cap fecharam sempre bastante
 # além do gatilho de -10% (entre -11,8% e -18,4%, ~5 pontos de atraso em média, por causa
