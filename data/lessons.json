@@ -214,5 +214,41 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "MSTR (cex_small_cap) perdeu -17.1% em 149 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 100 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788119412.0287433,
+    "symbol": "SHRUB",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/shrub",
+    "held_minutes": 47.5,
+    "exit_reason": "stop-loss atingido (-8.3%)",
+    "pnl_pct": -8.34,
+    "pnl_eur": -1.04,
+    "entry_score": 88.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 3384037,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "muito rápida (<1h)",
+    "licao": "SHRUB (cex_small_cap) perdeu -8.3% em 47 min (muito rápida (<1h)) — stop-loss atingido. Score na entrada: 89 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788119412.0287433,
+    "symbol": "UP",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/up-2",
+    "held_minutes": 47.5,
+    "exit_reason": "stop-loss atingido (-9.5%)",
+    "pnl_pct": -9.51,
+    "pnl_eur": -1.18,
+    "entry_score": 84.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 6307086,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "muito rápida (<1h)",
+    "licao": "UP (cex_small_cap) perdeu -9.5% em 47 min (muito rápida (<1h)) — stop-loss atingido. Score na entrada: 84 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
