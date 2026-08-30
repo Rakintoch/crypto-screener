@@ -12,7 +12,7 @@ import time
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from screener import config, lessons, playbook, portfolio  # noqa: E402
+from screener import changelog, config, lessons, playbook, portfolio  # noqa: E402
 
 
 def fake_candidate(symbol, score, price_usd, tier="cex_small_cap", cid=None, liquidity_usd=None):
@@ -52,6 +52,7 @@ def _run_scenarios():
         config.PORTFOLIO_STATE_FILE = os.path.join(tmp, "portfolio_state.json")
         config.LESSONS_FILE = os.path.join(tmp, "lessons.json")  # isola das lições reais do repo
         config.WINS_FILE = os.path.join(tmp, "wins.json")  # isola das vitórias reais do repo
+        config.CHANGELOG_FILE = os.path.join(tmp, "changelog.json")  # isola do changelog real do repo
         eur_rate = 0.9  # taxa fixa para o teste ser determinístico
 
         # --- Corrida 1: sem posições, dois candidatos elegíveis para compra ---
@@ -224,6 +225,28 @@ def _run_scenarios():
         assert "categoria" in delta_lessons[0] and delta_lessons[0]["categoria"]
         print(f"✅ Corrida 2c OK — DELTA fechada com {delta_lessons[0]['pnl_pct']:+.1f}% e uma lição foi "
               f"registada automaticamente: \"{delta_lessons[0]['licao'][:70]}...\"")
+
+        # --- Registo de changelog: uma "mudança" autoanalisada fica pendente de anúncio até
+        # ser marcada como tal, e depois aparece no histórico (/mudancas) ---
+        entry = changelog.record_change(
+            titulo="Teste de changelog",
+            motivo="motivo de teste",
+            mudanca="mudança de teste",
+            efeito_esperado="efeito de teste",
+            num_trades_fechados_ate_aqui=len(state["closed_trades"]),
+        )
+        pending = changelog.pending_announcements()
+        assert len(pending) == 1 and pending[0]["titulo"] == "Teste de changelog", (
+            "FALHOU: mudança recém-registada devia aparecer como pendente de anúncio"
+        )
+        changelog.mark_announced([entry["ts"]])
+        assert changelog.pending_announcements() == [], (
+            "FALHOU: mudança já anunciada não devia continuar pendente"
+        )
+        assert "Teste de changelog" in changelog.format_recent_changes(), (
+            "FALHOU: mudança já anunciada devia continuar a aparecer no histórico"
+        )
+        print("✅ Changelog OK — mudança registada, marcada como anunciada, e continua no histórico")
 
         # --- Corrida 3: simula fim do desafio (10 dias) -> liquidação forçada de tudo ---
         state["end_ts"] = time.time() - 1  # já passou o prazo
