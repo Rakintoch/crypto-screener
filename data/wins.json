@@ -49,5 +49,22 @@
     "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
     "categoria": "take-profit direto",
     "nota": "HNT (cex_small_cap) ganhou +66.2% em 641 min — take-profit direto. Score na entrada: 96. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788109848.4386566,
+    "symbol": "牛来",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/niu-lai",
+    "held_minutes": 446.9,
+    "exit_reason": "take-profit atingido após vigilância de 5 min (pico +34.5% desde a entrada)",
+    "pnl_pct": 32.63,
+    "pnl_eur": 5.4,
+    "entry_score": 93.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 64206556,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "take-profit direto",
+    "nota": "牛来 (cex_small_cap) ganhou +32.6% em 447 min — take-profit direto. Score na entrada: 93. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]

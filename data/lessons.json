@@ -178,5 +178,41 @@
     "categoria": "colapso quase total (possível rug/dump)",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "TRUMPSTACY (dex_micro_cap) perdeu -99.5% em 189 min (rápida (1-6h)) — colapso quase total (possível rug/dump). Liquidez na entrada: $61,990. Score na entrada: 90 (mínimo exigido para comprar: 65). Segurança na entrada: sem dados GoPlus — não bloqueado, mas não confirmado."
+  },
+  {
+    "closed_ts": 1788109848.4386566,
+    "symbol": "PROLOGUE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/prologue",
+    "held_minutes": 446.9,
+    "exit_reason": "stop-loss atingido (-12.5%)",
+    "pnl_pct": -12.5,
+    "pnl_eur": -2.07,
+    "entry_score": 98.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 9629119,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "PROLOGUE (cex_small_cap) perdeu -12.5% em 447 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 98 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788109848.4386566,
+    "symbol": "MSTR",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/strategy-inc-robinhood-tokenized-stock",
+    "held_minutes": 149.4,
+    "exit_reason": "stop-loss atingido (-17.1%)",
+    "pnl_pct": -17.12,
+    "pnl_eur": -2.26,
+    "entry_score": 100.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 10521645,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "MSTR (cex_small_cap) perdeu -17.1% em 149 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 100 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]

@@ -6,6 +6,6 @@
     "mudanca": "scoring.py: candidato dex_micro_cap sem verificação de segurança confirmada (checked=False) passa a ser eliminado, não só penalizado. config.py: STOP_LOSS_PCT[cex_small_cap] de -10% para -8%. config.py/portfolio.py: novo POSITION_SIZE_PCT_BY_TIER — dex_micro_cap de 25% para 12% do equity por posição, cex_small_cap mantém-se em 25%.",
     "efeito_esperado": "Menos compras de tokens dex sem verificação de segurança real; perdas de stop-loss em cex_small_cap mais próximas de -10%; e quando uma posição dex_micro_cap ainda assim colapsar, o impacto no saldo total fica a metade do que ficaria antes.",
     "num_trades_fechados_ate_aqui": 13,
-    "announced": false
+    "announced": true
   }
 ]
