@@ -188,6 +188,7 @@ def _run_scenarios():
                      "turnover": 0.3, "market_cap": 20_000_000}
         }
         ds.fetch_market_data_for_addresses = lambda addrs, *a, **k: []
+        equity_before_delta = portfolio._equity(state)
         state, actions2c, _ = portfolio.run_portfolio_cycle(candidates_2c, eur_rate)
         assert any(a["symbol"] == "DELTA" for a in actions2c if a["action"] == "buy"), (
             "FALHOU: DELTA devia ter sido comprada (score acima do mínimo, slot livre)"
@@ -195,6 +196,14 @@ def _run_scenarios():
         delta_key = "dex_micro_cap:deltaaddr"
         assert state["positions"][delta_key]["entry_score"] == 72, (
             "FALHOU: snapshot de entry_score não foi guardado na posição"
+        )
+        # Autoanálise 2026-08-30: dex_micro_cap agora usa um tamanho de posição menor
+        # (12% do equity) do que cex_small_cap (25%), para limitar o estrago de rugs
+        # individuais — confirma que a compra de DELTA (dex) respeitou essa fatia menor.
+        expected_delta_cost = equity_before_delta * config.POSITION_SIZE_PCT_BY_TIER["dex_micro_cap"]
+        assert abs(state["positions"][delta_key]["cost_eur"] - expected_delta_cost) < 0.05, (
+            f"FALHOU: DELTA (dex_micro_cap) devia usar ~12% do equity ({expected_delta_cost:.2f}€), "
+            f"usou {state['positions'][delta_key]['cost_eur']:.2f}€"
         )
 
         # crash direto: -35% (abaixo do stop-loss de -20% para dex_micro_cap)
