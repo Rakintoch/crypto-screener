@@ -12,7 +12,7 @@ import time
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from screener import changelog, config, lessons, playbook, portfolio  # noqa: E402
+from screener import changelog, config, lessons, playbook, portfolio, telegram_alert  # noqa: E402
 
 
 def fake_candidate(symbol, score, price_usd, tier="cex_small_cap", cid=None, liquidity_usd=None):
@@ -247,6 +247,51 @@ def _run_scenarios():
             "FALHOU: mudança já anunciada devia continuar a aparecer no histórico"
         )
         print("✅ Changelog OK — mudança registada, marcada como anunciada, e continua no histórico")
+
+        # --- Corrida 2d: disjuntor de capital — se o equity cair para o limiar de proteção
+        # (config.MAX_DRAWDOWN_HALT_PCT, 25% do saldo inicial), o bot deixa de abrir posições
+        # novas, avisa uma única vez no Telegram, e não volta a avisar em corridas seguintes ---
+        alert_calls = []
+        original_send_telegram = telegram_alert.send_telegram_message
+        telegram_alert.send_telegram_message = lambda msg: (alert_calls.append(msg), True)[1]
+        try:
+            beta_key = "cex_small_cap:beta"
+            beta_value = state["positions"][beta_key]["qty"] * state["positions"][beta_key]["last_price_eur"]
+            floor = state["starting_balance_eur"] * (1 + config.MAX_DRAWDOWN_HALT_PCT)
+            # deixa o equity total 1€ abaixo do limiar, sem tocar no preço da BETA (para não
+            # disparar o stop-loss dela e sujar este teste, que é só sobre o disjuntor de entradas)
+            state["cash_eur"] = max(0.0, floor - beta_value - 1.0)
+            portfolio.save_portfolio(state)
+
+            equity_before = beta_value + state["cash_eur"]
+            assert equity_before <= floor, (
+                "FALHOU (preparação do teste): equity devia estar abaixo do limiar de proteção"
+            )
+
+            candidates_2d = [fake_candidate("EPSILON", score=90, price_usd=1.0)]
+            cg.fetch_by_ids = lambda ids: {
+                "beta": {"id": "beta", "price_usd": 2.0, "chg_1h": 5, "chg_24h": 20, "chg_7d": 30,
+                         "turnover": 0.3, "market_cap": 20_000_000}
+            }
+            ds.fetch_market_data_for_addresses = lambda *a, **k: []
+            state, actions2d, _ = portfolio.run_portfolio_cycle(candidates_2d, eur_rate)
+            assert not any(a["action"] == "buy" for a in actions2d), (
+                "FALHOU: disjuntor de capital ativo não devia permitir a compra de EPSILON"
+            )
+            assert state.get("capital_protection_active") is True, "FALHOU: proteção de capital devia ficar ativa"
+            assert len(alert_calls) == 1, f"FALHOU: esperava exatamente 1 alerta, obtido {len(alert_calls)}"
+
+            # corrida seguinte com o disjuntor já ativo -> continua a bloquear, mas não repete o aviso
+            state, actions2d_b, _ = portfolio.run_portfolio_cycle(candidates_2d, eur_rate)
+            assert not any(a["action"] == "buy" for a in actions2d_b)
+            assert len(alert_calls) == 1, (
+                "FALHOU: o alerta de proteção de capital não devia repetir-se em corridas seguintes"
+            )
+        finally:
+            telegram_alert.send_telegram_message = original_send_telegram
+
+        print(f"✅ Corrida 2d OK — disjuntor de capital acionado a {equity_before:.2f}€, "
+              f"bloqueou novas entradas e avisou uma única vez")
 
         # --- Corrida 3: simula fim do desafio (10 dias) -> liquidação forçada de tudo ---
         state["end_ts"] = time.time() - 1  # já passou o prazo
