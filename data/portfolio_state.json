@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1787910576.42265,
   "end_ts": 1788774576.42265,
-  "cash_eur": 22.635562884212064,
+  "cash_eur": 33.22690193772122,
   "starting_balance_eur": 100.0,
   "positions": {
     "cex_small_cap:tensor": {
@@ -15,30 +15,12 @@
       "entry_price_eur": 0.03682122395238682,
       "entry_ts": 1788116563.4932363,
       "cost_eur": 12.42689059512349,
-      "last_price_eur": 0.03508487491425393,
-      "last_score": 63.7,
+      "last_price_eur": 0.03430136464380867,
+      "last_score": 73.8,
       "missed_updates": 0,
       "entry_score": 94.2,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 53881614,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
-    },
-    "cex_small_cap:jimothy-the-raccoon": {
-      "tier": "cex_small_cap",
-      "id": "jimothy-the-raccoon",
-      "symbol": "JIMOTHY",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/jimothy-the-raccoon",
-      "qty": 810.7139718762911,
-      "entry_price_eur": 0.015328329134828013,
-      "entry_ts": 1788116563.4932363,
-      "cost_eur": 12.426890595123492,
-      "last_price_eur": 0.01420199540373611,
-      "last_score": 73.2,
-      "missed_updates": 0,
-      "entry_score": 81.9,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 4665403,
       "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
     }
   },
@@ -454,7 +436,31 @@
       "proceeds_eur": 11.244585389861625,
       "pnl_eur": -1.1823052052618674,
       "pnl_pct": -9.514087182241893
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "jimothy-the-raccoon",
+      "symbol": "JIMOTHY",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/jimothy-the-raccoon",
+      "qty": 810.7139718762911,
+      "entry_price_eur": 0.015328329134828013,
+      "entry_ts": 1788116563.4932363,
+      "cost_eur": 12.426890595123492,
+      "last_price_eur": 0.013064211819363245,
+      "last_score": 51.0,
+      "missed_updates": 0,
+      "entry_score": 81.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 4665403,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "exit_price_eur": 0.013064211819363245,
+      "exit_ts": 1788128471.463169,
+      "exit_reason": "stop-loss atingido (-14.8%)",
+      "proceeds_eur": 10.591339053509163,
+      "pnl_eur": -1.835551541614329,
+      "pnl_pct": -14.770803102866525
     }
   ],
-  "last_run_ts": 1788119412.0287433
+  "last_run_ts": 1788128471.463169
 }
