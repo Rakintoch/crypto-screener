@@ -42,6 +42,6 @@ jobs:
           git config user.name "crypto-screener-bot"
           git config user.email "actions@users.noreply.github.com"
           git pull --rebase --autostash
-          git add data/state.json data/portfolio_state.json data/lessons.json data/wins.json
+          git add data/state.json data/portfolio_state.json data/lessons.json data/wins.json data/changelog.json
           git diff --quiet --cached || git commit -m "chore: atualizar estado do screener [skip ci]"
           git push
