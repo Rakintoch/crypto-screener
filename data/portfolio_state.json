@@ -2,9 +2,82 @@
   "status": "active",
   "start_ts": 1787910576.42265,
   "end_ts": 1788774576.42265,
-  "cash_eur": 49.70756238049396,
+  "cash_eur": 0.0,
   "starting_balance_eur": 100.0,
-  "positions": {},
+  "positions": {
+    "cex_small_cap:tensor": {
+      "tier": "cex_small_cap",
+      "id": "tensor",
+      "symbol": "TNSR",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/tensor",
+      "qty": 337.4925996808956,
+      "entry_price_eur": 0.03682122395238682,
+      "entry_ts": 1788116563.4932363,
+      "cost_eur": 12.42689059512349,
+      "last_price_eur": 0.03682122395238682,
+      "last_score": 94.2,
+      "missed_updates": 0,
+      "entry_score": 94.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 53881614,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "cex_small_cap:shrub": {
+      "tier": "cex_small_cap",
+      "id": "shrub",
+      "symbol": "SHRUB",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/shrub",
+      "qty": 1796.2194752726036,
+      "entry_price_eur": 0.006918358678433503,
+      "entry_ts": 1788116563.4932363,
+      "cost_eur": 12.42689059512349,
+      "last_price_eur": 0.006918358678433503,
+      "last_score": 88.8,
+      "missed_updates": 0,
+      "entry_score": 88.8,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 3384037,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "cex_small_cap:up-2": {
+      "tier": "cex_small_cap",
+      "id": "up-2",
+      "symbol": "UP",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/up-2",
+      "qty": 21.71747574097008,
+      "entry_price_eur": 0.5722069518272848,
+      "entry_ts": 1788116563.4932363,
+      "cost_eur": 12.426890595123492,
+      "last_price_eur": 0.5722069518272848,
+      "last_score": 84.1,
+      "missed_updates": 0,
+      "entry_score": 84.1,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 6307086,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "cex_small_cap:jimothy-the-raccoon": {
+      "tier": "cex_small_cap",
+      "id": "jimothy-the-raccoon",
+      "symbol": "JIMOTHY",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/jimothy-the-raccoon",
+      "qty": 810.7139718762911,
+      "entry_price_eur": 0.015328329134828013,
+      "entry_ts": 1788116563.4932363,
+      "cost_eur": 12.426890595123492,
+      "last_price_eur": 0.015328329134828013,
+      "last_score": 81.9,
+      "missed_updates": 0,
+      "entry_score": 81.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 4665403,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    }
+  },
   "closed_trades": [
     {
       "tier": "dex_micro_cap",
@@ -371,5 +444,5 @@
       "pnl_pct": -17.121370643219862
     }
   ],
-  "last_run_ts": 1788109848.4386566
+  "last_run_ts": 1788116563.4932363
 }
