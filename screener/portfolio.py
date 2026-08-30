@@ -236,7 +236,8 @@ def _check_entries(state, ranked_candidates, now):
 
     for c in eligible[:slots_free]:
         equity = _equity(state)
-        size_eur = min(equity * config.POSITION_SIZE_PCT_OF_EQUITY, state["cash_eur"])
+        size_pct = config.POSITION_SIZE_PCT_BY_TIER.get(c["tier"], config.POSITION_SIZE_PCT_OF_EQUITY)
+        size_eur = min(equity * size_pct, state["cash_eur"])
         if size_eur < config.MIN_TRADE_EUR:
             continue
 
