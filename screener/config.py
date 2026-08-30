@@ -66,6 +66,13 @@ LESSONS_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__fi
 # funcionar vs. o que costuma correr mal).
 WINS_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "wins.json")
 
+# Registo de mudanças autoanalisadas (ver screener/changelog.py) — cada vez que uma análise de
+# lições/vitórias leva a um ajuste real (ex: um limiar em config.py), fica aqui registado o
+# quê, o porquê e os dados que motivaram, e é anunciado no Telegram automaticamente (ver
+# telegram_bot._send_pending_changelog_announcements) para que Ricardo saiba sem ter de
+# perguntar. Também é a base para as reanálises periódicas (antes/depois de cada mudança).
+CHANGELOG_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "changelog.json")
+
 STARTING_BALANCE_EUR = 100.0
 CHALLENGE_DURATION_DAYS = 10     # a contagem só começa na primeira compra virtual executada
 
