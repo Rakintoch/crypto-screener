@@ -9,7 +9,8 @@ on:
     # (reativação do agendamento em repositórios novos — GitHub por vezes exige um novo
     # commit ao ficheiro para começar a respeitar o "schedule"; nova tentativa 2026-08-28
     # depois de desativar/reativar as Actions em Settings, para forçar o GitHub a
-    # reconhecer o "schedule" novamente num repositório privado recente)
+    # reconhecer o "schedule" novamente num repositório privado recente; nova tentativa
+    # 2026-08-30 depois de detetado um novo hiato de ~3h sem corridas agendadas)
     - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
