@@ -34,7 +34,7 @@ def fake_cex_candidate(symbol, chg_1h, chg_24h, chg_7d, mcap=20_000_000, vol=6_0
     }
 
 
-def fake_dex_candidate(symbol, chg_1h, chg_6h, liq, vol, boosted=False, safe=True):
+def fake_dex_candidate(symbol, chg_1h, chg_6h, liq, vol, boosted=False, safe=True, checked=True):
     return {
         "tier": "dex_micro_cap",
         "id": f"0xfake{symbol.lower()}",
@@ -52,7 +52,11 @@ def fake_dex_candidate(symbol, chg_1h, chg_6h, liq, vol, boosted=False, safe=Tru
         "boosted": boosted,
         "url": f"https://dexscreener.com/base/0xfake{symbol.lower()}",
         "pool_address": f"0xfake{symbol.lower()}",
-        "security": {"checked": True, "safe": safe, "notes": "sem red flags óbvias" if safe else "honeypot"},
+        "security": (
+            {"checked": True, "safe": safe, "notes": "sem red flags óbvias" if safe else "honeypot"}
+            if checked
+            else {"checked": False, "safe": True, "notes": "sem dados GoPlus — não bloqueado, mas não confirmado"}
+        ),
     }
 
 
@@ -63,6 +67,10 @@ def run():
         fake_dex_candidate("GAMMA", chg_1h=25.0, chg_6h=60.0, liq=40_000, vol=180_000, boosted=True),  # alto
         fake_dex_candidate("DELTA", chg_1h=5.0, chg_6h=8.0, liq=16_000, vol=22_000),                    # médio/baixo
         fake_dex_candidate("SCAM", chg_1h=90.0, chg_6h=200.0, liq=50_000, vol=300_000, safe=False),     # deve ser ELIMINADO
+        # Autoanálise 2026-08-30: candidato sem dados de segurança (GoPlus falhou/sem info) —
+        # antes passava com só um desconto de 10% no score; TRUMPSTACY tinha exatamente esta
+        # nota e mesmo assim comprou com score 90, rugou -99.5%. Agora deve ser eliminado.
+        fake_dex_candidate("GHOST", chg_1h=90.0, chg_6h=200.0, liq=50_000, vol=300_000, checked=False),
     ]
 
     ranked = scoring.score_and_rank(candidates)
@@ -73,6 +81,7 @@ def run():
         print(f"{c['symbol']:8s} tier={c['tier']:15s} score={c['score']}")
 
     assert "SCAM" not in ids_ranked, "FALHOU: token com honeypot confirmado não devia passar o gate de segurança"
+    assert "GHOST" not in ids_ranked, "FALHOU: token sem verificação de segurança (GoPlus falhou) não devia passar o gate"
     assert ids_ranked.index("ALPHA") < ids_ranked.index("BETA") if "BETA" in ids_ranked else True
     assert "GAMMA" in ids_ranked, "FALHOU: GAMMA devia ter score suficiente para aparecer"
 
