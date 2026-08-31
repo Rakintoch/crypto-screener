@@ -58,7 +58,10 @@ def _fetch_updates(offset):
 
 
 def _handle_status_command():
-    state = portfolio.load_portfolio()
+    try:
+        state = portfolio.load_portfolio()
+    except portfolio.PortfolioStateCorrupted as e:
+        return f"⚠️ Não consigo mostrar o estado — {e}"
     msg = telegram_alert.format_portfolio_message(state, [])
     if msg is None:
         msg = "🤖 O desafio de portfólio virtual ainda não começou (ainda não houve nenhuma compra)."

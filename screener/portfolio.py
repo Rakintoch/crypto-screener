@@ -94,6 +94,20 @@ def _default_state():
     }
 
 
+class PortfolioStateCorrupted(Exception):
+    """Levantado quando data/portfolio_state.json existe mas não é JSON válido.
+
+    Incidente de 2026-08-31: um "git pull --rebase --autostash" com conflito (entre o
+    screener.yml a cada 2h e o bot_listener.yml a cada 15 min a escrever no mesmo ficheiro)
+    deixou marcadores de conflito ("<<<<<<< Updated upstream" etc.) commitados no ficheiro.
+    Como load_portfolio() antes tratava QUALQUER falha de leitura como "sem estado" e devolvia
+    silenciosamente um estado por omissão (saldo cheio, sem posições), isso reiniciou o
+    desafio de 10 dias sem qualquer decisão nesse sentido. Agora, em vez de mascarar o
+    problema, é levantada esta exceção — quem chama (run_portfolio_cycle/run_exit_check_cycle)
+    aborta a corrida, avisa no Telegram e NÃO grava nada por cima do ficheiro corrompido,
+    para que possa ser recuperado manualmente a partir do histórico do Git."""
+
+
 def load_portfolio():
     import json
     import os
@@ -101,12 +115,15 @@ def load_portfolio():
         return _default_state()
     try:
         with open(config.PORTFOLIO_STATE_FILE, "r", encoding="utf-8") as f:
-            state = json.load(f)
-            if not state:
-                return _default_state()
-            return state
-    except Exception:
-        return _default_state()
+            content = f.read()
+        if not content.strip():
+            return _default_state()
+        return json.loads(content)
+    except Exception as e:
+        raise PortfolioStateCorrupted(
+            f"{config.PORTFOLIO_STATE_FILE} existe mas não é JSON válido ({e}); "
+            "a corrida foi abortada em vez de reiniciar o desafio silenciosamente."
+        ) from e
 
 
 def save_portfolio(state):

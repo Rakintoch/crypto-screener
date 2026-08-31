@@ -92,6 +92,15 @@ def run_portfolio_challenge(ranked):
     try:
         eur_rate = fx.get_usd_to_eur_rate()
         state, actions, final_report = portfolio.run_portfolio_cycle(ranked, eur_rate)
+    except portfolio.PortfolioStateCorrupted as e:
+        print(f"[main] estado do portfólio corrompido, corrida abortada: {e}")
+        telegram_alert.send_telegram_message(
+            "⚠️ *Estado do portfólio corrompido*\n\n"
+            f"{e}\n\nEsta corrida foi abortada de propósito (sem abrir/fechar posições e sem "
+            "reiniciar o desafio) para não perder histórico. Precisa de recuperação manual a "
+            "partir do histórico do Git (data/portfolio_state.json)."
+        )
+        return
     except Exception:
         print("[main] falha no ciclo do portfólio virtual:")
         traceback.print_exc()

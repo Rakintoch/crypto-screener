@@ -25,7 +25,18 @@ def main():
         print("[position_monitor] desativado por configuração — a saltar.")
         return 0
 
-    state = portfolio.load_portfolio()
+    try:
+        state = portfolio.load_portfolio()
+    except portfolio.PortfolioStateCorrupted as e:
+        print(f"[position_monitor] estado do portfólio corrompido, corrida abortada: {e}")
+        telegram_alert.send_telegram_message(
+            "⚠️ *Estado do portfólio corrompido*\n\n"
+            f"{e}\n\nEsta corrida foi abortada de propósito (sem abrir/fechar posições e sem "
+            "reiniciar o desafio) para não perder histórico. Precisa de recuperação manual a "
+            "partir do histórico do Git (data/portfolio_state.json)."
+        )
+        return 0
+
     if state["status"] != "active" or not state["positions"]:
         print("[position_monitor] nada para monitorizar (desafio não ativo ou sem posições abertas).")
         return 0
@@ -33,6 +44,15 @@ def main():
     try:
         eur_rate = fx.get_usd_to_eur_rate()
         state, actions, final_report = portfolio.run_exit_check_cycle(eur_rate)
+    except portfolio.PortfolioStateCorrupted as e:
+        print(f"[position_monitor] estado do portfólio corrompido, corrida abortada: {e}")
+        telegram_alert.send_telegram_message(
+            "⚠️ *Estado do portfólio corrompido*\n\n"
+            f"{e}\n\nEsta corrida foi abortada de propósito (sem abrir/fechar posições e sem "
+            "reiniciar o desafio) para não perder histórico. Precisa de recuperação manual a "
+            "partir do histórico do Git (data/portfolio_state.json)."
+        )
+        return 0
     except Exception:
         print("[position_monitor] falha no ciclo de monitorização:")
         traceback.print_exc()
