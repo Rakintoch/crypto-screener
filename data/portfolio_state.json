@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1788146184.4691544,
   "end_ts": 1789010184.4691544,
-  "cash_eur": 64.27351348078741,
+  "cash_eur": 8.042399421644657,
   "starting_balance_eur": 100.0,
   "positions": {
     "cex_small_cap:zora": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.008560313245532471,
       "entry_ts": 1788146184.4691544,
       "cost_eur": 25.0,
-      "last_price_eur": 0.008929161047877826,
-      "last_score": 69.6,
+      "last_price_eur": 0.008265672015125599,
+      "last_score": 68.2,
       "missed_updates": 0,
       "entry_score": 99.2,
       "entry_liquidity_usd": null,
@@ -33,12 +33,48 @@
       "entry_price_eur": 0.013335170874206407,
       "entry_ts": 1788146184.4691544,
       "cost_eur": 25.0,
-      "last_price_eur": 0.013298651347553455,
-      "last_score": 92.2,
+      "last_price_eur": 0.01282800806141388,
+      "last_score": 69.5,
       "missed_updates": 0,
       "entry_score": 97.9,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 79187630,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "cex_small_cap:zero-gravity": {
+      "tier": "cex_small_cap",
+      "id": "zero-gravity",
+      "symbol": "0G",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/zero-gravity",
+      "qty": 160.83691108080703,
+      "entry_price_eur": 0.17480786493994327,
+      "entry_ts": 1788172694.3934987,
+      "cost_eur": 28.11555702957138,
+      "last_price_eur": 0.17480786493994327,
+      "last_score": 95.0,
+      "missed_updates": 0,
+      "entry_score": 95.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 74452216,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "cex_small_cap:up-2": {
+      "tier": "cex_small_cap",
+      "id": "up-2",
+      "symbol": "UP",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/up-2",
+      "qty": 38.892301092801276,
+      "entry_price_eur": 0.7229080367984552,
+      "entry_ts": 1788172694.3934987,
+      "cost_eur": 28.11555702957138,
+      "last_price_eur": 0.7229080367984552,
+      "last_score": 89.3,
+      "missed_updates": 0,
+      "entry_score": 89.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 7839492,
       "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
     }
   },
@@ -92,5 +128,5 @@
       "pnl_pct": -9.698369747148945
     }
   ],
-  "last_run_ts": 1788156925.9750943
+  "last_run_ts": 1788172694.3934987
 }
