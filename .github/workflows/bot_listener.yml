@@ -2,7 +2,7 @@ name: Telegram Bot Listener
 
 on:
   schedule:
-    # Verifica a cada 15 minutos se enviaste um comando (ex: /status) ao bot, e reavalia as
+    # Verifica a cada 5 minutos se enviaste um comando (ex: /status) ao bot, e reavalia as
     # posições já abertas do desafio de portfólio (take-profit/trailing stop/stop-loss),
     # sem repetir a descoberta cara de tokens novos — isso continua a cargo do screener
     # principal (screener.yml, a cada 2h).
@@ -10,8 +10,12 @@ on:
     # commit ao ficheiro para começar a respeitar o "schedule"; nova tentativa 2026-08-28
     # depois de desativar/reativar as Actions em Settings, para forçar o GitHub a
     # reconhecer o "schedule" novamente num repositório privado recente; nova tentativa
-    # 2026-08-30 depois de detetado um novo hiato de ~3h sem corridas agendadas)
-    - cron: "*/15 * * * *"
+    # 2026-08-30 depois de detetado um novo hiato de ~3h sem corridas agendadas; encurtado
+    # de 15 para 5 minutos a 2026-08-31 a pedido do Ricardo, dado que as moedas seguidas são
+    # voláteis e os preços mudam em janelas curtas — 5 min é o intervalo mínimo prático que o
+    # GitHub Actions suporta para "schedule"; triplica o número de corridas/dia, o que também
+    # pode tornar mais visível (não pior) o hiato ocasional de agendamento já documentado acima)
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
 # Partilha o MESMO grupo do screener.yml de propósito: as duas workflows escrevem no mesmo
