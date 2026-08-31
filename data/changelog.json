@@ -16,5 +16,14 @@
     "efeito_esperado": "Se o desafio entrar numa sequência de perdas muito severa, o capital que ainda resta fica protegido em cash em vez de continuar exposto a novas entradas — é um disjuntor permanente para o resto do desafio, não um auto-reset (não volta a abrir posições sozinho só porque o equity recuperou um pouco).",
     "num_trades_fechados_ate_aqui": 13,
     "announced": true
+  },
+  {
+    "ts": 1788160170.3587193,
+    "titulo": "Corrigido bug que reiniciou o desafio sem decisão (git race + reset silencioso)",
+    "motivo": "2026-08-31: screener.yml (a cada 2h) e bot_listener.yml (a cada 15 min) escrevem ambos em data/portfolio_state.json; um \"git pull --rebase --autostash\" em conflito entre as duas execuções deixou marcadores de conflito (\"<<<<<<< Updated upstream\" etc.) commitados no ficheiro em vez de resolvidos. load_portfolio() tratava qualquer falha ao ler o ficheiro como \"sem estado\" e devolvia silenciosamente um estado por omissão (100 EUR, sem posições) — isto reiniciou o desafio de 10 dias sozinho, sem qualquer decisão minha ou pedido do Ricardo, perdendo o histórico de posições fechadas do ficheiro de estado (lessons.json e wins.json também foram corrompidos da mesma forma, mas mantiveram a maior parte do histórico visível no Git).",
+    "mudanca": "(1) screener.yml e bot_listener.yml passam a partilhar o mesmo grupo de concurrency (crypto-screener-git-state) para nunca correrem em simultâneo — a causa raiz do conflito de git. (2) O passo de git em ambos os workflows agora deteta uma falha no \"git pull --rebase\" e aborta sem commitar, em vez de avançar cegamente. (3) portfolio.load_portfolio() agora levanta PortfolioStateCorrupted em vez de devolver um estado por omissão quando o ficheiro existe mas não é JSON válido; main.py, position_monitor.py e o comando /status do Telegram apanham esta exceção, avisam no Telegram, e abortam a corrida SEM escrever nada por cima do ficheiro corrompido (para permitir recuperação manual a partir do histórico do Git).",
+    "efeito_esperado": "O desafio nunca mais deve reiniciar sozinho por corrupção de ficheiro — uma corrida com estado ilegível aborta e avisa no Telegram em vez de mascarar o problema. Dado que o novo ciclo (ZORA/HEMI/HOOKR/ZKC, a partir de 2026-08-31) já teve operações reais (venda de HOOKR e ZKC), decidi manter este novo ciclo como o desafio corrente em vez de tentar reconstruir o anterior, mas o histórico completo pré-incidente continua recuperável no histórico do Git caso o Ricardo prefira reverter.",
+    "num_trades_fechados_ate_aqui": 2,
+    "announced": false
   }
 ]
