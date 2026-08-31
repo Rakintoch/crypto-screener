@@ -14,11 +14,14 @@ on:
     - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
-# Evita que duas execuções corram ao mesmo tempo e entrem em conflito a escrever no
-# portfolio_state.json — importante agora que uma corrida pode demorar alguns minutos extra
-# quando o trailing stop está a vigiar uma posição que acabou de atingir o alvo.
+# Partilha o MESMO grupo do screener.yml de propósito: as duas workflows escrevem no mesmo
+# data/portfolio_state.json, e correrem ao mesmo tempo é exatamente o que causou o incidente
+# de 2026-08-31 (um "git pull --rebase --autostash" em conflito deixou marcadores de conflito
+# commitados no ficheiro, o que reiniciou o desafio sem ninguém pedir). Antes disto, este
+# grupo só evitava duas execuções DESTA workflow em simultâneo — não protegia contra o
+# screener.yml, que é a outra metade do problema.
 concurrency:
-  group: telegram-bot-listener
+  group: crypto-screener-git-state
   cancel-in-progress: false
 
 permissions:
@@ -56,7 +59,12 @@ jobs:
         run: |
           git config user.name "crypto-screener-bot"
           git config user.email "actions@users.noreply.github.com"
-          git pull --rebase --autostash
+          if ! git pull --rebase --autostash; then
+            echo "::error::git pull --rebase falhou (conflito) — a abortar sem commitar para não corromper o estado"
+            git rebase --abort || true
+            git stash drop || true
+            exit 1
+          fi
           git add data/bot_offset.json data/portfolio_state.json data/lessons.json data/wins.json data/changelog.json
           git diff --quiet --cached || git commit -m "chore: atualizar offset do bot + portfólio [skip ci]"
           git push

@@ -11,6 +11,16 @@ on:
     - cron: "0 */2 * * *"
   workflow_dispatch: {}   # permite correr manualmente a partir do separador "Actions" no GitHub
 
+# Partilha o MESMO grupo do bot_listener.yml de propósito: as duas workflows escrevem no
+# mesmo data/portfolio_state.json, e correrem ao mesmo tempo é exatamente o que causou o
+# incidente de 2026-08-31 (um "git pull --rebase --autostash" em conflito deixou marcadores
+# de conflito commitados no ficheiro, o que reiniciou o desafio sem ninguém pedir). Com o
+# mesmo grupo, o GitHub Actions garante que nunca há duas execuções (desta ou da outra
+# workflow) a escrever no repositório ao mesmo tempo.
+concurrency:
+  group: crypto-screener-git-state
+  cancel-in-progress: false
+
 permissions:
   contents: write   # necessário para o workflow poder commitar o data/state.json actualizado
 
@@ -42,7 +52,12 @@ jobs:
         run: |
           git config user.name "crypto-screener-bot"
           git config user.email "actions@users.noreply.github.com"
-          git pull --rebase --autostash
+          if ! git pull --rebase --autostash; then
+            echo "::error::git pull --rebase falhou (conflito) — a abortar sem commitar para não corromper o estado"
+            git rebase --abort || true
+            git stash drop || true
+            exit 1
+          fi
           git add data/state.json data/portfolio_state.json data/lessons.json data/wins.json data/changelog.json
           git diff --quiet --cached || git commit -m "chore: atualizar estado do screener [skip ci]"
           git push
