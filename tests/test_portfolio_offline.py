@@ -315,6 +315,35 @@ def _run_scenarios():
         assert actions4 == [] and report4 is None
         print("✅ Corrida 4 OK — nenhuma ação após o desafio já ter terminado (idempotente)")
 
+        # --- Corrida 5: ficheiro de estado corrompido (ex: marcadores de conflito do git
+        # deixados por um "git pull --rebase --autostash" em conflito, incidente 2026-08-31)
+        # não deve reiniciar o desafio silenciosamente — deve abortar a corrida sem gravar nada ---
+        with open(config.PORTFOLIO_STATE_FILE, "w", encoding="utf-8") as f:
+            f.write('{\n<<<<<<< Updated upstream\n"cash_eur": 1.0,\n=======\n"cash_eur": 2.0,\n>>>>>>> Stashed changes\n}\n')
+
+        try:
+            portfolio.load_portfolio()
+            raise AssertionError("FALHOU: load_portfolio() devia ter levantado PortfolioStateCorrupted")
+        except portfolio.PortfolioStateCorrupted:
+            pass
+
+        # run_portfolio_cycle() propaga a exceção (não a esconde) — é main.py/position_monitor.py
+        # quem apanha PortfolioStateCorrupted, avisa no Telegram, e aborta sem gravar nada; aqui
+        # simulamos exatamente esse contrato.
+        corrupted_before = open(config.PORTFOLIO_STATE_FILE, encoding="utf-8").read()
+        try:
+            portfolio.run_portfolio_cycle([], eur_rate)
+            raise AssertionError("FALHOU: run_portfolio_cycle devia ter propagado PortfolioStateCorrupted")
+        except portfolio.PortfolioStateCorrupted:
+            pass
+        corrupted_after = open(config.PORTFOLIO_STATE_FILE, encoding="utf-8").read()
+        assert corrupted_before == corrupted_after, (
+            "FALHOU: run_portfolio_cycle não devia ter tocado no ficheiro corrompido "
+            "(perderia a possibilidade de recuperação manual)"
+        )
+        print("✅ Corrida 5 OK — estado corrompido levanta PortfolioStateCorrupted (propagada por "
+              "run_portfolio_cycle) sem sobrescrever o ficheiro nem reiniciar o desafio")
+
     print("\n✅ Todos os testes offline do portfólio passaram.")
 
 
