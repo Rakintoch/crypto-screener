@@ -24,6 +24,6 @@
     "mudanca": "(1) screener.yml e bot_listener.yml passam a partilhar o mesmo grupo de concurrency (crypto-screener-git-state) para nunca correrem em simultâneo — a causa raiz do conflito de git. (2) O passo de git em ambos os workflows agora deteta uma falha no \"git pull --rebase\" e aborta sem commitar, em vez de avançar cegamente. (3) portfolio.load_portfolio() agora levanta PortfolioStateCorrupted em vez de devolver um estado por omissão quando o ficheiro existe mas não é JSON válido; main.py, position_monitor.py e o comando /status do Telegram apanham esta exceção, avisam no Telegram, e abortam a corrida SEM escrever nada por cima do ficheiro corrompido (para permitir recuperação manual a partir do histórico do Git).",
     "efeito_esperado": "O desafio nunca mais deve reiniciar sozinho por corrupção de ficheiro — uma corrida com estado ilegível aborta e avisa no Telegram em vez de mascarar o problema. Dado que o novo ciclo (ZORA/HEMI/HOOKR/ZKC, a partir de 2026-08-31) já teve operações reais (venda de HOOKR e ZKC), decidi manter este novo ciclo como o desafio corrente em vez de tentar reconstruir o anterior, mas o histórico completo pré-incidente continua recuperável no histórico do Git caso o Ricardo prefira reverter.",
     "num_trades_fechados_ate_aqui": 2,
-    "announced": false
+    "announced": true
   }
 ]

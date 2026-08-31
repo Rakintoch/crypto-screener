@@ -83,5 +83,22 @@
     "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
     "categoria": "take-profit direto",
     "nota": "HOOKR (cex_small_cap) ganhou +66.8% em 179 min — take-profit direto. Score na entrada: 83. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788190113.8529415,
+    "symbol": "UP",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/up-2",
+    "held_minutes": 290.3,
+    "exit_reason": "take-profit atingido após vigilância de 5 min (pico +37.0% desde a entrada)",
+    "pnl_pct": 36.97,
+    "pnl_eur": 10.39,
+    "entry_score": 89.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 7839492,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "take-profit direto",
+    "nota": "UP (cex_small_cap) ganhou +37.0% em 290 min — take-profit direto. Score na entrada: 89. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
