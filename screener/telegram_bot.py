@@ -17,6 +17,9 @@ from . import config
 from . import lessons
 from . import playbook
 from . import portfolio
+from . import sources_coingecko
+from . import sources_dexscreener
+from . import state as state_mod
 from . import telegram_alert
 
 OFFSET_FILE = os.path.join(
@@ -84,10 +87,85 @@ def _handle_changelog_command():
     return changelog.format_recent_changes()
 
 
+def _find_tracked_ids_for_symbol(symbol):
+    """Procura (tier, id) para um símbolo, tanto nos candidatos vistos recentemente
+    (data/state.json, anti-spam de alertas) como nas posições abertas/fechadas do desafio —
+    para que /preco funcione tanto para algo que acabou de aparecer num alerta como para uma
+    posição já comprada."""
+    seen = set()
+    matches = []
+
+    state = state_mod.load_state()
+    for key, v in state.items():
+        if (v.get("symbol") or "").upper() == symbol and key not in seen:
+            tier, _, id_ = key.partition(":")
+            matches.append((tier, id_))
+            seen.add(key)
+
+    try:
+        pf = portfolio.load_portfolio()
+    except portfolio.PortfolioStateCorrupted:
+        pf = None
+    if pf:
+        for pos_key, pos in pf.get("positions", {}).items():
+            if (pos.get("symbol") or "").upper() == symbol and pos_key not in seen:
+                tier, _, id_ = pos_key.partition(":")
+                matches.append((tier, id_))
+                seen.add(pos_key)
+
+    return matches
+
+
+def _format_live_quote(tier, id_, c):
+    if not c:
+        return f"• `{id_}` ({tier}): não consegui obter dados de mercado agora"
+
+    name = c.get("name") or c.get("symbol") or id_
+    price = c.get("price_usd")
+    price_str = f"${price:.6g}" if price is not None else "sem preço"
+    chg_1h = c.get("chg_1h")
+    chg_24h = c.get("chg_24h")
+    parts = [f"• *{name}* ({tier})\n  💲 {price_str}"]
+    if chg_1h is not None:
+        parts.append(f"1h {chg_1h:+.1f}%")
+    if chg_24h is not None:
+        parts.append(f"24h {chg_24h:+.1f}%")
+    return " | ".join(parts) if len(parts) == 1 else parts[0] + " | " + " | ".join(parts[1:])
+
+
+def _handle_preco_command(arg):
+    """Cotação AGORA (chamada em tempo real às APIs, não o valor guardado da última corrida)
+    para um símbolo — pedido do Ricardo 2026-08-31: seguir uma moeda encontrada pelo screener
+    sem esperar pelo relatório de 2h em 2h, cujos valores já estarão desatualizados."""
+    symbol = (arg or "").strip().upper()
+    if not symbol:
+        return "Uso: /preco SÍMBOLO (ex: /preco ZORA) — mostra a cotação atual, pedida agora às APIs."
+
+    matches = _find_tracked_ids_for_symbol(symbol)
+    if not matches:
+        return (
+            f"🔍 Não encontrei {symbol} nos candidatos alertados recentemente nem nas posições "
+            "do desafio. Só consigo consultar em tempo real algo que o screener já tenha visto "
+            "pelo menos uma vez (não faço uma pesquisa livre por qualquer token)."
+        )
+
+    lines = [f"🔎 *Cotação agora — {symbol}*\n"]
+    for tier, id_ in matches[:5]:
+        if tier == "cex_small_cap":
+            fresh = sources_coingecko.fetch_by_ids([id_])
+            c = fresh.get(id_)
+        else:
+            fresh = sources_dexscreener.fetch_market_data_for_addresses([id_])
+            c = fresh[0] if fresh else None
+        lines.append(_format_live_quote(tier, id_, c))
+    return "\n".join(lines)
+
+
 def _handle_help_command():
     return (
         "🤖 *Comandos disponíveis:*\n"
         "/status — vê o estado atual do desafio de portfólio virtual\n"
+        "/preco SÍMBOLO — cotação AGORA (tempo real) de um token já visto pelo screener\n"
         "/licoes — vê as lições acumuladas sobre posições que fecharam com prejuízo\n"
         "/vitorias — vê as vitórias acumuladas sobre posições que fecharam com lucro\n"
         "/modus — vê o \"modus operandi\" (padrões comuns às vitórias vs. lições)\n"
@@ -139,6 +217,9 @@ def process_commands():
 
         if text in ("/status", "/estado"):
             reply = _handle_status_command()
+        elif text.startswith("/preco") or text.startswith("/preço") or text.startswith("/live"):
+            _, _, arg = text.partition(" ")
+            reply = _handle_preco_command(arg)
         elif text in ("/licoes", "/lições", "/lessons"):
             reply = _handle_lessons_command()
         elif text in ("/vitorias", "/vitórias", "/wins"):
