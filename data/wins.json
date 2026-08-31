@@ -66,5 +66,22 @@
     "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
     "categoria": "take-profit direto",
     "nota": "牛来 (cex_small_cap) ganhou +32.6% em 447 min — take-profit direto. Score na entrada: 93. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788156925.9750943,
+    "symbol": "HOOKR",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/hookr-fun",
+    "held_minutes": 179.0,
+    "exit_reason": "take-profit atingido após vigilância de 5 min (pico +68.9% desde a entrada)",
+    "pnl_pct": 66.79,
+    "pnl_eur": 16.7,
+    "entry_score": 83.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 5852219,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "take-profit direto",
+    "nota": "HOOKR (cex_small_cap) ganhou +66.8% em 179 min — take-profit direto. Score na entrada: 83. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
