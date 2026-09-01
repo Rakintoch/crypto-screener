@@ -52,5 +52,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "BACKED (cex_small_cap) perdeu -8.8% em 350 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 95 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788273086.6246374,
+    "symbol": "STONKBROKER",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/stonkbroker",
+    "held_minutes": 1188.6,
+    "exit_reason": "stop-loss atingido (-8.4%)",
+    "pnl_pct": -8.38,
+    "pnl_eur": -2.71,
+    "entry_score": 82.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 14676922,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "STONKBROKER (cex_small_cap) perdeu -8.4% em 1189 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 83 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
