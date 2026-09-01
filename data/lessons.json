@@ -34,5 +34,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "ZORA (cex_small_cap) perdeu -12.3% em 1276 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 99 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788253767.437758,
+    "symbol": "BACKED",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/backed",
+    "held_minutes": 349.7,
+    "exit_reason": "stop-loss atingido (-8.8%)",
+    "pnl_pct": -8.83,
+    "pnl_eur": -2.76,
+    "entry_score": 95.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1025102,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "BACKED (cex_small_cap) perdeu -8.8% em 350 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 95 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
