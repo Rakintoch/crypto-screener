@@ -214,5 +214,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "JUGGERNAUT (cex_small_cap) perdeu -11.7% em 342 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 90 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788371661.7541437,
+    "symbol": "BITCAT",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://www.geckoterminal.com/solana/pools/3w7NMJECsezNurAb3MbvTiEtVeayhqNXgXXcqiK5qwwj",
+    "held_minutes": 229.5,
+    "exit_reason": "stop-loss atingido (-45.0%)",
+    "pnl_pct": -45.01,
+    "pnl_eur": -5.24,
+    "entry_score": 78.3,
+    "entry_liquidity_usd": 136849.5103,
+    "entry_volume_24h_usd": 230112.943596842,
+    "entry_security_notes": "sem red flags óbvias",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "BITCAT (dex_micro_cap) perdeu -45.0% em 230 min (rápida (1-6h)) — stop-loss atingido. Liquidez na entrada: $136,850. Score na entrada: 78 (mínimo exigido para comprar: 65). Segurança na entrada: sem red flags óbvias."
   }
 ]
