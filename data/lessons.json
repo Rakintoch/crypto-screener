@@ -178,5 +178,41 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "FRONG (cex_small_cap) perdeu -9.5% em 95 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 94 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788357889.754857,
+    "symbol": "ACE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/endurance",
+    "held_minutes": 1132.2,
+    "exit_reason": "stop-loss atingido (-9.1%)",
+    "pnl_pct": -9.13,
+    "pnl_eur": -2.45,
+    "entry_score": 86.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 60755230,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "ACE (cex_small_cap) perdeu -9.1% em 1132 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 87 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788357889.754857,
+    "symbol": "JUGGERNAUT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/the-juggernaut",
+    "held_minutes": 342.1,
+    "exit_reason": "stop-loss atingido (-11.7%)",
+    "pnl_pct": -11.66,
+    "pnl_eur": -3.05,
+    "entry_score": 90.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 4773757,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "JUGGERNAUT (cex_small_cap) perdeu -11.7% em 342 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 90 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
