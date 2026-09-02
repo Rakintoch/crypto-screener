@@ -100,5 +100,22 @@
     "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
     "categoria": "take-profit direto",
     "nota": "UP (cex_small_cap) ganhou +37.0% em 290 min — take-profit direto. Score na entrada: 89. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788316795.5975568,
+    "symbol": "HEMI",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/hemi",
+    "held_minutes": 2843.5,
+    "exit_reason": "take-profit atingido após vigilância de 5 min (pico +39.5% desde a entrada)",
+    "pnl_pct": 32.63,
+    "pnl_eur": 8.16,
+    "entry_score": 97.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 79187630,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "take-profit direto",
+    "nota": "HEMI (cex_small_cap) ganhou +32.6% em 2844 min — take-profit direto. Score na entrada: 98. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]

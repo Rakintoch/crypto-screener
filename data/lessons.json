@@ -88,5 +88,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "FRONG (cex_small_cap) perdeu -20.6% em 232 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 91 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788316795.5975568,
+    "symbol": "SC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/siacoin",
+    "held_minutes": 1050.5,
+    "exit_reason": "stop-loss atingido (-13.7%)",
+    "pnl_pct": -13.73,
+    "pnl_eur": -4.15,
+    "entry_score": 98.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 54863576,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "SC (cex_small_cap) perdeu -13.7% em 1050 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 98 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
