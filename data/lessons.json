@@ -250,5 +250,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "INDEX (cex_small_cap) perdeu -13.0% em 495 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 84 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788389113.2787097,
+    "symbol": "MAX",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/giggle-mascot",
+    "held_minutes": 520.4,
+    "exit_reason": "tese de momentum invalidada (score caiu para 26)",
+    "pnl_pct": -6.94,
+    "pnl_eur": -1.68,
+    "entry_score": 82.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1554198,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "tese de momentum invalidada (score caiu)",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "MAX (cex_small_cap) perdeu -6.9% em 520 min (lenta (>6h)) — tese de momentum invalidada (score caiu). Score na entrada: 83 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
