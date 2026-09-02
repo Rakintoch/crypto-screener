@@ -232,5 +232,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "BITCAT (dex_micro_cap) perdeu -45.0% em 230 min (rápida (1-6h)) — stop-loss atingido. Liquidez na entrada: $136,850. Score na entrada: 78 (mínimo exigido para comprar: 65). Segurança na entrada: sem red flags óbvias."
+  },
+  {
+    "closed_ts": 1788387602.1176858,
+    "symbol": "INDEX",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/the-index",
+    "held_minutes": 495.2,
+    "exit_reason": "stop-loss atingido (-13.0%)",
+    "pnl_pct": -12.99,
+    "pnl_eur": -3.15,
+    "entry_score": 83.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 10855250,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "INDEX (cex_small_cap) perdeu -13.0% em 495 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 84 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
