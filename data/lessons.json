@@ -142,5 +142,41 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "NET (cex_small_cap) perdeu -11.8% em 343 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 99 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788343057.5532146,
+    "symbol": "0G",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/zero-gravity",
+    "held_minutes": 2839.4,
+    "exit_reason": "stop-loss atingido (-8.4%)",
+    "pnl_pct": -8.4,
+    "pnl_eur": -2.36,
+    "entry_score": 95.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 74452216,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "0G (cex_small_cap) perdeu -8.4% em 2839 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 95 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788343057.5532146,
+    "symbol": "FRONG",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/frong",
+    "held_minutes": 94.9,
+    "exit_reason": "stop-loss atingido (-9.5%)",
+    "pnl_pct": -9.46,
+    "pnl_eur": -2.47,
+    "entry_score": 93.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 7824448,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "FRONG (cex_small_cap) perdeu -9.5% em 95 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 94 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
