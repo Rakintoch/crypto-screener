@@ -117,5 +117,22 @@
     "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
     "categoria": "take-profit direto",
     "nota": "HEMI (cex_small_cap) ganhou +32.6% em 2844 min — take-profit direto. Score na entrada: 98. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788412207.6298366,
+    "symbol": "FONE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/apeonfone",
+    "held_minutes": 905.3,
+    "exit_reason": "take-profit atingido após vigilância de 5 min (pico +26.2% desde a entrada)",
+    "pnl_pct": 22.44,
+    "pnl_eur": 5.44,
+    "entry_score": 71.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 28280516,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "take-profit direto",
+    "nota": "FONE (cex_small_cap) ganhou +22.4% em 905 min — take-profit direto. Score na entrada: 72. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
