@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1788146184.4691544,
   "end_ts": 1789010184.4691544,
-  "cash_eur": 23.285647136426938,
+  "cash_eur": 31.046437666984133,
   "starting_balance_eur": 100.0,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.024284892579489674,
       "entry_ts": 1788387602.1176858,
       "cost_eur": 21.112211344020494,
-      "last_price_eur": 0.02407445322577381,
-      "last_score": 69.4,
+      "last_price_eur": 0.02726944265137595,
+      "last_score": 72.9,
       "missed_updates": 0,
       "entry_score": 97.5,
       "entry_liquidity_usd": null,
@@ -33,8 +33,8 @@
       "entry_price_eur": 0.0010419004196314202,
       "entry_ts": 1788424316.0467794,
       "cost_eur": 10.644568976863315,
-      "last_price_eur": 0.0011495558643053445,
-      "last_score": 54.4,
+      "last_price_eur": 0.0008619089884433873,
+      "last_score": 32.8,
       "missed_updates": 0,
       "entry_score": 97.8,
       "entry_liquidity_usd": 128607.5331,
@@ -51,31 +51,13 @@
       "entry_price_eur": 0.09022740417644204,
       "entry_ts": 1788424316.0467794,
       "cost_eur": 22.17618536846524,
-      "last_price_eur": 0.09838425679680944,
-      "last_score": 82.9,
+      "last_price_eur": 0.08945893462006177,
+      "last_score": 67.1,
       "missed_updates": 0,
       "entry_score": 91.1,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 57957850,
       "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
-    },
-    "dex_micro_cap:H76u9jTTbMtEF5JGmqXM2wW6xqMXpvTdVyer4RvKpump": {
-      "tier": "dex_micro_cap",
-      "id": "H76u9jTTbMtEF5JGmqXM2wW6xqMXpvTdVyer4RvKpump",
-      "symbol": "Pumpooor",
-      "network": "solana",
-      "url": "https://www.geckoterminal.com/solana/pools/3VLpiEBR9S31uDgBQUTz3hEtZt5YAUK2225iY54npghL",
-      "qty": 10571.46262101129,
-      "entry_price_eur": 0.0010337478179127712,
-      "entry_ts": 1788444415.2051978,
-      "cost_eur": 10.928226416616845,
-      "last_price_eur": 0.0010337478179127712,
-      "last_score": 94.1,
-      "missed_updates": 0,
-      "entry_score": 94.1,
-      "entry_liquidity_usd": 114214.7504,
-      "entry_volume_24h_usd": 3652553.13820282,
-      "entry_security_notes": "sem red flags óbvias"
     }
   },
   "closed_trades": [
@@ -582,7 +564,31 @@
       "proceeds_eur": 19.95765944869052,
       "pnl_eur": -2.15515184446701,
       "pnl_pct": -9.746168480775165
+    },
+    {
+      "tier": "dex_micro_cap",
+      "id": "H76u9jTTbMtEF5JGmqXM2wW6xqMXpvTdVyer4RvKpump",
+      "symbol": "Pumpooor",
+      "network": "solana",
+      "url": "https://www.geckoterminal.com/solana/pools/3VLpiEBR9S31uDgBQUTz3hEtZt5YAUK2225iY54npghL",
+      "qty": 10571.46262101129,
+      "entry_price_eur": 0.0010337478179127712,
+      "entry_ts": 1788444415.2051978,
+      "cost_eur": 10.928226416616845,
+      "last_price_eur": 0.0007341264694189291,
+      "last_score": 46.3,
+      "missed_updates": 0,
+      "entry_score": 94.1,
+      "entry_liquidity_usd": 114214.7504,
+      "entry_volume_24h_usd": 3652553.13820282,
+      "entry_security_notes": "sem red flags óbvias",
+      "exit_price_eur": 0.0007341264694189291,
+      "exit_ts": 1788456858.0770504,
+      "exit_reason": "stop-loss atingido (-29.0%)",
+      "proceeds_eur": 7.760790530557196,
+      "pnl_eur": -3.167435886059649,
+      "pnl_pct": -28.98398848365207
     }
   ],
-  "last_run_ts": 1788444415.2051978
+  "last_run_ts": 1788456858.0770504
 }

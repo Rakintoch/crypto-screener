@@ -304,5 +304,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "PROLOGUE (cex_small_cap) perdeu -9.7% em 423 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 97 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788456858.0770504,
+    "symbol": "Pumpooor",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://www.geckoterminal.com/solana/pools/3VLpiEBR9S31uDgBQUTz3hEtZt5YAUK2225iY54npghL",
+    "held_minutes": 207.4,
+    "exit_reason": "stop-loss atingido (-29.0%)",
+    "pnl_pct": -28.98,
+    "pnl_eur": -3.17,
+    "entry_score": 94.1,
+    "entry_liquidity_usd": 114214.7504,
+    "entry_volume_24h_usd": 3652553.13820282,
+    "entry_security_notes": "sem red flags óbvias",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "Pumpooor (dex_micro_cap) perdeu -29.0% em 207 min (rápida (1-6h)) — stop-loss atingido. Liquidez na entrada: $114,215. Score na entrada: 94 (mínimo exigido para comprar: 65). Segurança na entrada: sem red flags óbvias."
   }
 ]
