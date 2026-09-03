@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1788146184.4691544,
   "end_ts": 1789010184.4691544,
-  "cash_eur": 34.21387355304378,
+  "cash_eur": 23.285647136426938,
   "starting_balance_eur": 100.0,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.024284892579489674,
       "entry_ts": 1788387602.1176858,
       "cost_eur": 21.112211344020494,
-      "last_price_eur": 0.024205451380224324,
-      "last_score": 78.6,
+      "last_price_eur": 0.02407445322577381,
+      "last_score": 69.4,
       "missed_updates": 0,
       "entry_score": 97.5,
       "entry_liquidity_usd": null,
@@ -33,8 +33,8 @@
       "entry_price_eur": 0.0010419004196314202,
       "entry_ts": 1788424316.0467794,
       "cost_eur": 10.644568976863315,
-      "last_price_eur": 0.0010618199819838546,
-      "last_score": 49.2,
+      "last_price_eur": 0.0011495558643053445,
+      "last_score": 54.4,
       "missed_updates": 0,
       "entry_score": 97.8,
       "entry_liquidity_usd": 128607.5331,
@@ -51,13 +51,31 @@
       "entry_price_eur": 0.09022740417644204,
       "entry_ts": 1788424316.0467794,
       "cost_eur": 22.17618536846524,
-      "last_price_eur": 0.09947807641586015,
-      "last_score": 73.2,
+      "last_price_eur": 0.09838425679680944,
+      "last_score": 82.9,
       "missed_updates": 0,
       "entry_score": 91.1,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 57957850,
       "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "dex_micro_cap:H76u9jTTbMtEF5JGmqXM2wW6xqMXpvTdVyer4RvKpump": {
+      "tier": "dex_micro_cap",
+      "id": "H76u9jTTbMtEF5JGmqXM2wW6xqMXpvTdVyer4RvKpump",
+      "symbol": "Pumpooor",
+      "network": "solana",
+      "url": "https://www.geckoterminal.com/solana/pools/3VLpiEBR9S31uDgBQUTz3hEtZt5YAUK2225iY54npghL",
+      "qty": 10571.46262101129,
+      "entry_price_eur": 0.0010337478179127712,
+      "entry_ts": 1788444415.2051978,
+      "cost_eur": 10.928226416616845,
+      "last_price_eur": 0.0010337478179127712,
+      "last_score": 94.1,
+      "missed_updates": 0,
+      "entry_score": 94.1,
+      "entry_liquidity_usd": 114214.7504,
+      "entry_volume_24h_usd": 3652553.13820282,
+      "entry_security_notes": "sem red flags óbvias"
     }
   },
   "closed_trades": [
@@ -566,5 +584,5 @@
       "pnl_pct": -9.746168480775165
     }
   ],
-  "last_run_ts": 1788443795.2827928
+  "last_run_ts": 1788444415.2051978
 }
