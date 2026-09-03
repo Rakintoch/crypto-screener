@@ -286,5 +286,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "T (cex_small_cap) perdeu -11.1% em 799 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 94 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788428891.318083,
+    "symbol": "PROLOGUE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/prologue",
+    "held_minutes": 423.5,
+    "exit_reason": "stop-loss atingido (-9.7%)",
+    "pnl_pct": -9.75,
+    "pnl_eur": -2.16,
+    "entry_score": 96.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 8519837,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "PROLOGUE (cex_small_cap) perdeu -9.7% em 423 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 97 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
