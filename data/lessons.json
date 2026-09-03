@@ -268,5 +268,23 @@
     "categoria": "tese de momentum invalidada (score caiu)",
     "velocidade_queda": "lenta (>6h)",
     "licao": "MAX (cex_small_cap) perdeu -6.9% em 520 min (lenta (>6h)) — tese de momentum invalidada (score caiu). Score na entrada: 83 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788424316.0467794,
+    "symbol": "T",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/threshold-network-token",
+    "held_minutes": 799.1,
+    "exit_reason": "stop-loss atingido (-11.1%)",
+    "pnl_pct": -11.14,
+    "pnl_eur": -2.12,
+    "entry_score": 94.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 152644581,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "T (cex_small_cap) perdeu -11.1% em 799 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 94 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
