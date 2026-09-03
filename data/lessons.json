@@ -322,5 +322,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "Pumpooor (dex_micro_cap) perdeu -29.0% em 207 min (rápida (1-6h)) — stop-loss atingido. Liquidez na entrada: $114,215. Score na entrada: 94 (mínimo exigido para comprar: 65). Segurança na entrada: sem red flags óbvias."
+  },
+  {
+    "closed_ts": 1788465983.1103857,
+    "symbol": "SOLCAT",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://www.geckoterminal.com/solana/pools/6imhRyMYu5xoGJ5W7yveymB5o5yfyAvXxveozWpbU5ix",
+    "held_minutes": 694.5,
+    "exit_reason": "stop-loss atingido (-22.2%)",
+    "pnl_pct": -22.24,
+    "pnl_eur": -2.37,
+    "entry_score": 97.8,
+    "entry_liquidity_usd": 128607.5331,
+    "entry_volume_24h_usd": 8516865.04561598,
+    "entry_security_notes": "sem red flags óbvias",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "SOLCAT (dex_micro_cap) perdeu -22.2% em 694 min (lenta (>6h)) — stop-loss atingido. Liquidez na entrada: $128,608. Score na entrada: 98 (mínimo exigido para comprar: 65). Segurança na entrada: sem red flags óbvias."
   }
 ]
