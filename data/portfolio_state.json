@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1788146184.4691544,
   "end_ts": 1789010184.4691544,
-  "cash_eur": 31.046437666984133,
+  "cash_eur": 9.998834542496091,
   "starting_balance_eur": 100.0,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.024284892579489674,
       "entry_ts": 1788387602.1176858,
       "cost_eur": 21.112211344020494,
-      "last_price_eur": 0.02726944265137595,
-      "last_score": 72.9,
+      "last_price_eur": 0.026332555884673474,
+      "last_score": 62.2,
       "missed_updates": 0,
       "entry_score": 97.5,
       "entry_liquidity_usd": null,
@@ -33,8 +33,8 @@
       "entry_price_eur": 0.0010419004196314202,
       "entry_ts": 1788424316.0467794,
       "cost_eur": 10.644568976863315,
-      "last_price_eur": 0.0008619089884433873,
-      "last_score": 32.8,
+      "last_price_eur": 0.0008903912357079704,
+      "last_score": 48.0,
       "missed_updates": 0,
       "entry_score": 97.8,
       "entry_liquidity_usd": 128607.5331,
@@ -51,12 +51,30 @@
       "entry_price_eur": 0.09022740417644204,
       "entry_ts": 1788424316.0467794,
       "cost_eur": 22.17618536846524,
-      "last_price_eur": 0.08945893462006177,
-      "last_score": 67.1,
+      "last_price_eur": 0.0860722987197701,
+      "last_score": 63.7,
       "missed_updates": 0,
       "entry_score": 91.1,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 57957850,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "cex_small_cap:memestock-3": {
+      "tier": "cex_small_cap",
+      "id": "memestock-3",
+      "symbol": "MEMESTOCK",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/memestock-3",
+      "qty": 2909.65663347857,
+      "entry_price_eur": 0.007233706851287496,
+      "entry_ts": 1788462292.0074253,
+      "cost_eur": 21.04760312448804,
+      "last_price_eur": 0.007233706851287496,
+      "last_score": 97.7,
+      "missed_updates": 0,
+      "entry_score": 97.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 8265422,
       "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
     }
   },
@@ -590,5 +608,5 @@
       "pnl_pct": -28.98398848365207
     }
   ],
-  "last_run_ts": 1788456858.0770504
+  "last_run_ts": 1788462292.0074253
 }
