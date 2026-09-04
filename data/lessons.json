@@ -412,5 +412,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "BASECAT (cex_small_cap) perdeu -8.6% em 614 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 87 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788512733.0322733,
+    "symbol": "BOW",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/longbow-2",
+    "held_minutes": 37.8,
+    "exit_reason": "stop-loss atingido (-12.4%)",
+    "pnl_pct": -12.4,
+    "pnl_eur": -2.5,
+    "entry_score": 90.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 5614747,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "muito rápida (<1h)",
+    "licao": "BOW (cex_small_cap) perdeu -12.4% em 38 min (muito rápida (<1h)) — stop-loss atingido. Score na entrada: 90 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
