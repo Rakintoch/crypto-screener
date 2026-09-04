@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1788146184.4691544,
   "end_ts": 1789010184.4691544,
-  "cash_eur": 25.875517599248237,
+  "cash_eur": 0.0,
   "starting_balance_eur": 100.0,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.024284892579489674,
       "entry_ts": 1788387602.1176858,
       "cost_eur": 21.112211344020494,
-      "last_price_eur": 0.025579033882701514,
-      "last_score": 53.5,
+      "last_price_eur": 0.025618574093404345,
+      "last_score": 58.9,
       "missed_updates": 0,
       "entry_score": 97.5,
       "entry_liquidity_usd": null,
@@ -33,12 +33,48 @@
       "entry_price_eur": 0.07361209736367769,
       "entry_ts": 1788530379.6026359,
       "cost_eur": 18.097809260384473,
-      "last_price_eur": 0.07870477259292814,
-      "last_score": 55.5,
+      "last_price_eur": 0.07845364449890636,
+      "last_score": 75.5,
       "missed_updates": 0,
       "entry_score": 76.1,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 13002633,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "cex_small_cap:longbow-2": {
+      "tier": "cex_small_cap",
+      "id": "longbow-2",
+      "symbol": "BOW",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/longbow-2",
+      "qty": 2093.4387526288215,
+      "entry_price_eur": 0.008053172595676191,
+      "entry_ts": 1788542861.7322211,
+      "cost_eur": 16.858823593396973,
+      "last_price_eur": 0.008053172595676191,
+      "last_score": 91.0,
+      "missed_updates": 0,
+      "entry_score": 91.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 5219063,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "cex_small_cap:unifai-network": {
+      "tier": "cex_small_cap",
+      "id": "unifai-network",
+      "symbol": "UAI",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/unifai-network",
+      "qty": 22.810175197374598,
+      "entry_price_eur": 0.39529262392026987,
+      "entry_ts": 1788542861.7322211,
+      "cost_eur": 9.016694005851264,
+      "last_price_eur": 0.39529262392026987,
+      "last_score": 81.9,
+      "missed_updates": 0,
+      "entry_score": 81.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 20205730,
       "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
     }
   },
@@ -836,5 +872,5 @@
       "pnl_pct": -11.460436965761543
     }
   ],
-  "last_run_ts": 1788541150.76935
+  "last_run_ts": 1788542861.7322211
 }
