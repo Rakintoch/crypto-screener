@@ -15,8 +15,8 @@
       "entry_price_eur": 0.024284892579489674,
       "entry_ts": 1788387602.1176858,
       "cost_eur": 21.112211344020494,
-      "last_price_eur": 0.02562731477138876,
-      "last_score": 55.7,
+      "last_price_eur": 0.02533476338612822,
+      "last_score": 44.7,
       "missed_updates": 0,
       "entry_score": 97.5,
       "entry_liquidity_usd": null,
@@ -33,8 +33,8 @@
       "entry_price_eur": 0.07361209736367769,
       "entry_ts": 1788530379.6026359,
       "cost_eur": 18.097809260384473,
-      "last_price_eur": 0.0771336257481852,
-      "last_score": 51.9,
+      "last_price_eur": 0.07661949012160679,
+      "last_score": 51.3,
       "missed_updates": 0,
       "entry_score": 76.1,
       "entry_liquidity_usd": null,
@@ -51,8 +51,8 @@
       "entry_price_eur": 0.008053172595676191,
       "entry_ts": 1788542861.7322211,
       "cost_eur": 16.858823593396973,
-      "last_price_eur": 0.007975265230343554,
-      "last_score": 61.5,
+      "last_price_eur": 0.007594050803658705,
+      "last_score": 62.4,
       "missed_updates": 0,
       "entry_score": 91.0,
       "entry_liquidity_usd": null,
@@ -69,8 +69,8 @@
       "entry_price_eur": 0.39529262392026987,
       "entry_ts": 1788542861.7322211,
       "cost_eur": 9.016694005851264,
-      "last_price_eur": 0.4295479101653703,
-      "last_score": 82.3,
+      "last_price_eur": 0.42103433676862995,
+      "last_score": 54.1,
       "missed_updates": 0,
       "entry_score": 81.9,
       "entry_liquidity_usd": null,
@@ -872,5 +872,5 @@
       "pnl_pct": -11.460436965761543
     }
   ],
-  "last_run_ts": 1788549795.905662
+  "last_run_ts": 1788552864.88474
 }
