@@ -466,5 +466,41 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "ZEST (cex_small_cap) perdeu -15.5% em 300 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 82 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788541150.76935,
+    "symbol": "Lucia",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://www.geckoterminal.com/solana/pools/AkBXJt2pZoSaTXz4iX38oDtv7ga3Zm3azAna4QebF3CJ",
+    "held_minutes": 179.5,
+    "exit_reason": "stop-loss atingido (-47.0%)",
+    "pnl_pct": -46.99,
+    "pnl_eur": -4.08,
+    "entry_score": 84.2,
+    "entry_liquidity_usd": 38205.133,
+    "entry_volume_24h_usd": 2055201.59168109,
+    "entry_security_notes": "sem red flags óbvias",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "Lucia (dex_micro_cap) perdeu -47.0% em 180 min (rápida (1-6h)) — stop-loss atingido. Liquidez na entrada: $38,205. Score na entrada: 84 (mínimo exigido para comprar: 65). Segurança na entrada: sem red flags óbvias."
+  },
+  {
+    "closed_ts": 1788541150.76935,
+    "symbol": "MEMESTOCK",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/memestock-3",
+    "held_minutes": 179.5,
+    "exit_reason": "stop-loss atingido (-11.5%)",
+    "pnl_pct": -11.46,
+    "pnl_eur": -2.07,
+    "entry_score": 75.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 9279959,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "MEMESTOCK (cex_small_cap) perdeu -11.5% em 180 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 76 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
