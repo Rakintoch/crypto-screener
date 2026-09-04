@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1788146184.4691544,
   "end_ts": 1789010184.4691544,
-  "cash_eur": 50.1295745153321,
+  "cash_eur": 5.247007549578612,
   "starting_balance_eur": 100.0,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,12 +15,66 @@
       "entry_price_eur": 0.024284892579489674,
       "entry_ts": 1788387602.1176858,
       "cost_eur": 21.112211344020494,
-      "last_price_eur": 0.0264467065965429,
-      "last_score": 59.0,
+      "last_price_eur": 0.025607079915997345,
+      "last_score": 57.8,
       "missed_updates": 0,
       "entry_score": 97.5,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 43488826,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "dex_micro_cap:TcnKFgDZc6RhAz83JHHbWeZ5wLc2at8iHK6FhsxkTLh": {
+      "tier": "dex_micro_cap",
+      "id": "TcnKFgDZc6RhAz83JHHbWeZ5wLc2at8iHK6FhsxkTLh",
+      "symbol": "Lucia",
+      "network": "solana",
+      "url": "https://www.geckoterminal.com/solana/pools/AkBXJt2pZoSaTXz4iX38oDtv7ga3Zm3azAna4QebF3CJ",
+      "qty": 56406.602056378404,
+      "entry_price_eur": 0.0001540058810190683,
+      "entry_ts": 1788530379.6026359,
+      "cost_eur": 8.686948444984546,
+      "last_price_eur": 0.0001540058810190683,
+      "last_score": 84.2,
+      "missed_updates": 0,
+      "entry_score": 84.2,
+      "entry_liquidity_usd": 38205.133,
+      "entry_volume_24h_usd": 2055201.59168109,
+      "entry_security_notes": "sem red flags óbvias"
+    },
+    "cex_small_cap:lobster-2": {
+      "tier": "cex_small_cap",
+      "id": "lobster-2",
+      "symbol": "龙虾",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/lobster-2",
+      "qty": 245.85373747704747,
+      "entry_price_eur": 0.07361209736367769,
+      "entry_ts": 1788530379.6026359,
+      "cost_eur": 18.097809260384473,
+      "last_price_eur": 0.07361209736367769,
+      "last_score": 76.1,
+      "missed_updates": 0,
+      "entry_score": 76.1,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 13002633,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "cex_small_cap:memestock-3": {
+      "tier": "cex_small_cap",
+      "id": "memestock-3",
+      "symbol": "MEMESTOCK",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/memestock-3",
+      "qty": 2105.0724180076277,
+      "entry_price_eur": 0.008597238320909346,
+      "entry_ts": 1788530379.6026359,
+      "cost_eur": 18.097809260384473,
+      "last_price_eur": 0.008597238320909346,
+      "last_score": 75.8,
+      "missed_updates": 0,
+      "entry_score": 75.8,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 9279959,
       "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
     }
   },
@@ -770,5 +824,5 @@
       "pnl_pct": -15.502625911632922
     }
   ],
-  "last_run_ts": 1788528478.7482417
+  "last_run_ts": 1788530379.6026359
 }
