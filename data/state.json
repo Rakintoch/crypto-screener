@@ -170,19 +170,14 @@
     "symbol": "FUSE"
   },
   "cex_small_cap:frong": {
-    "last_alert_ts": 1788595349.376959,
-    "last_score": 57.2,
+    "last_alert_ts": 1788638004.9699051,
+    "last_score": 72.5,
     "symbol": "FRONG"
   },
   "cex_small_cap:ripe-dao-governance-token": {
     "last_alert_ts": 1788462291.4175236,
     "last_score": 74.3,
     "symbol": "RIPE"
-  },
-  "cex_small_cap:mancer": {
-    "last_alert_ts": 1788376371.8119302,
-    "last_score": 57.4,
-    "symbol": "MANCER"
   },
   "cex_small_cap:chip-2": {
     "last_alert_ts": 1788552864.5182292,
@@ -219,11 +214,6 @@
     "last_score": 64.5,
     "symbol": "SOLCAT"
   },
-  "cex_small_cap:threshold-network-token": {
-    "last_alert_ts": 1788376371.8119302,
-    "last_score": 94.5,
-    "symbol": "T"
-  },
   "dex_micro_cap:EBLUKPgx5FvTUBU6bTJi3aR8XVELSBdC5FiodSWQpump": {
     "last_alert_ts": 1788403481.0042288,
     "last_score": 58.5,
@@ -249,40 +239,15 @@
     "last_score": 61.0,
     "symbol": "RIP"
   },
-  "dex_micro_cap:Cj3upTXz6cYCP1TLbyF5AseKX4hqaWK7eiRqR7uu6npU": {
-    "last_alert_ts": 1788376371.8119302,
-    "last_score": 84.1,
-    "symbol": "QCAT"
-  },
   "cex_small_cap:nasdanq": {
     "last_alert_ts": 1788630975.816119,
     "last_score": 55.0,
     "symbol": "NASDANQ"
   },
-  "dex_micro_cap:DLvpmv8R4oTbC1DixU5yHLbBcmnvfTckGF3XFzLTpump": {
-    "last_alert_ts": 1788376371.8119302,
-    "last_score": 78.7,
-    "symbol": "APEWIF"
-  },
   "cex_small_cap:mubarak": {
     "last_alert_ts": 1788630975.816119,
     "last_score": 91.6,
     "symbol": "MUBARAK"
-  },
-  "cex_small_cap:the-toad-pepe": {
-    "last_alert_ts": 1788376371.8119302,
-    "last_score": 76.0,
-    "symbol": "TOAD"
-  },
-  "cex_small_cap:chonketha-the-wet-beaver": {
-    "last_alert_ts": 1788376371.8119302,
-    "last_score": 74.5,
-    "symbol": "CHONKETHA"
-  },
-  "cex_small_cap:ta-fund": {
-    "last_alert_ts": 1788376371.8119302,
-    "last_score": 72.6,
-    "symbol": "TA"
   },
   "cex_small_cap:otc": {
     "last_alert_ts": 1788462291.4175236,
@@ -299,24 +264,14 @@
     "last_score": 70.2,
     "symbol": "TOKEN"
   },
-  "dex_micro_cap:0xb200000000000000000000503d889fdcbe48b801": {
-    "last_alert_ts": 1788376371.8119302,
-    "last_score": 56.1,
-    "symbol": "RAWR"
-  },
-  "cex_small_cap:particle-network": {
-    "last_alert_ts": 1788376371.8119302,
-    "last_score": 55.8,
-    "symbol": "PARTI"
-  },
   "dex_micro_cap:H76u9jTTbMtEF5JGmqXM2wW6xqMXpvTdVyer4RvKpump": {
     "last_alert_ts": 1788444414.7013333,
     "last_score": 94.1,
     "symbol": "Pumpooor"
   },
   "cex_small_cap:basestonk": {
-    "last_alert_ts": 1788387601.512348,
-    "last_score": 82.8,
+    "last_alert_ts": 1788638004.9699051,
+    "last_score": 89.1,
     "symbol": "BSTONK"
   },
   "dex_micro_cap:JAuN3RKZR9KSKdmBCH83VXGmTvkbobuLrawZ5G3upump": {
@@ -1098,5 +1053,30 @@
     "last_alert_ts": 1788630975.816119,
     "last_score": 56.6,
     "symbol": "WORTH"
+  },
+  "dex_micro_cap:8H5yfL1GoDETLDaLYZzrgQuZs37eiKJjdfP21b6ypump": {
+    "last_alert_ts": 1788638004.9699051,
+    "last_score": 81.8,
+    "symbol": "SAAR"
+  },
+  "cex_small_cap:sillynubcat": {
+    "last_alert_ts": 1788638004.9699051,
+    "last_score": 81.7,
+    "symbol": "NUB"
+  },
+  "cex_small_cap:pipedog": {
+    "last_alert_ts": 1788638004.9699051,
+    "last_score": 74.3,
+    "symbol": "PIPEDOG"
+  },
+  "cex_small_cap:mosaic-3": {
+    "last_alert_ts": 1788638004.9699051,
+    "last_score": 68.8,
+    "symbol": "MOS"
+  },
+  "cex_small_cap:solv-protocol": {
+    "last_alert_ts": 1788638004.9699051,
+    "last_score": 56.2,
+    "symbol": "SOLV"
   }
 }
