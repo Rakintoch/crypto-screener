@@ -502,5 +502,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "MEMESTOCK (cex_small_cap) perdeu -11.5% em 180 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 76 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788570293.0053058,
+    "symbol": "BOW",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/longbow-2",
+    "held_minutes": 457.2,
+    "exit_reason": "stop-loss atingido (-11.3%)",
+    "pnl_pct": -11.29,
+    "pnl_eur": -1.9,
+    "entry_score": 91.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 5219063,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "BOW (cex_small_cap) perdeu -11.3% em 457 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 91 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
