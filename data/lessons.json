@@ -520,5 +520,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "BOW (cex_small_cap) perdeu -11.3% em 457 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 91 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788609037.0395505,
+    "symbol": "4",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/4-2",
+    "held_minutes": 547.7,
+    "exit_reason": "stop-loss atingido (-9.0%)",
+    "pnl_pct": -9.0,
+    "pnl_eur": -1.35,
+    "entry_score": 89.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 20063957,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "4 (cex_small_cap) perdeu -9.0% em 548 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 90 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
