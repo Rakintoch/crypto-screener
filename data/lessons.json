@@ -610,5 +610,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "4 (cex_small_cap) perdeu -9.0% em 524 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 94 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788673808.4079573,
+    "symbol": "SUE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/shi-gong-mao",
+    "held_minutes": 190.2,
+    "exit_reason": "stop-loss atingido (-20.2%)",
+    "pnl_pct": -20.18,
+    "pnl_eur": -3.61,
+    "entry_score": 97.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 36119904,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "SUE (cex_small_cap) perdeu -20.2% em 190 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 97 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
