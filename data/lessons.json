@@ -664,5 +664,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "BSTONK (cex_small_cap) perdeu -17.0% em 194 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 88 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788726934.4710739,
+    "symbol": "PERPSPAD",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/perpspad",
+    "held_minutes": 38.6,
+    "exit_reason": "stop-loss atingido (-56.0%)",
+    "pnl_pct": -55.99,
+    "pnl_eur": -9.28,
+    "entry_score": 99.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1572289,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "muito rápida (<1h)",
+    "licao": "PERPSPAD (cex_small_cap) perdeu -56.0% em 39 min (muito rápida (<1h)) — stop-loss atingido. Score na entrada: 99 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
