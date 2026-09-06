@@ -628,5 +628,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "SUE (cex_small_cap) perdeu -20.2% em 190 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 97 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788711423.58372,
+    "symbol": "EPIC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/epic-chain",
+    "held_minutes": 476.1,
+    "exit_reason": "stop-loss atingido (-13.2%)",
+    "pnl_pct": -13.19,
+    "pnl_eur": -2.36,
+    "entry_score": 87.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 22722804,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "EPIC (cex_small_cap) perdeu -13.2% em 476 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 88 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]

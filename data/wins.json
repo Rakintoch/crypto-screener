@@ -253,5 +253,22 @@
     "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
     "categoria": "take-profit direto",
     "nota": "PAIR (cex_small_cap) ganhou +30.1% em 341 min — take-profit direto. Score na entrada: 96. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788711423.58372,
+    "symbol": "PURR",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://www.geckoterminal.com/solana/pools/Ad7pbBvVRNofo96WR6eHwmU2o4naZ6Lao1J98hW8a1TQ",
+    "held_minutes": 476.1,
+    "exit_reason": "trailing stop — recuou até ao valor-alvo (+34.4%) depois de um pico de +40.8%",
+    "pnl_pct": 34.37,
+    "pnl_eur": 2.96,
+    "entry_score": 85.0,
+    "entry_liquidity_usd": 443631.7385,
+    "entry_volume_24h_usd": 4504379.2277403,
+    "entry_security_notes": "sem red flags óbvias",
+    "categoria": "trailing stop apanhou subida extra após o alvo",
+    "nota": "PURR (dex_micro_cap) ganhou +34.4% em 476 min — trailing stop apanhou subida extra após o alvo. Liquidez na entrada: $443,632. Score na entrada: 85. Segurança na entrada: sem red flags óbvias."
   }
 ]
