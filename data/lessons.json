@@ -682,5 +682,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "muito rápida (<1h)",
     "licao": "PERPSPAD (cex_small_cap) perdeu -56.0% em 39 min (muito rápida (<1h)) — stop-loss atingido. Score na entrada: 99 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788731842.810298,
+    "symbol": "LAYER",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/solayer",
+    "held_minutes": 314.5,
+    "exit_reason": "stop-loss atingido (-8.1%)",
+    "pnl_pct": -8.12,
+    "pnl_eur": -1.5,
+    "entry_score": 94.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 35657179,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "LAYER (cex_small_cap) perdeu -8.1% em 315 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 94 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
