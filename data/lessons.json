@@ -646,5 +646,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "EPIC (cex_small_cap) perdeu -13.2% em 476 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 88 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788724615.8913991,
+    "symbol": "BSTONK",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/basestonk",
+    "held_minutes": 194.1,
+    "exit_reason": "stop-loss atingido (-17.0%)",
+    "pnl_pct": -16.99,
+    "pnl_eur": -3.13,
+    "entry_score": 88.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 3488541,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "BSTONK (cex_small_cap) perdeu -17.0% em 194 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 88 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]

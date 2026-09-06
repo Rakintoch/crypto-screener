@@ -10,8 +10,8 @@
     "symbol": "HEMI"
   },
   "cex_small_cap:hookr-fun": {
-    "last_alert_ts": 1788609036.4309428,
-    "last_score": 63.1,
+    "last_alert_ts": 1788724615.4621778,
+    "last_score": 56.6,
     "symbol": "HOOKR"
   },
   "cex_small_cap:catcoin-cash": {
@@ -33,11 +33,6 @@
     "last_alert_ts": 1788595349.376959,
     "last_score": 56.2,
     "symbol": "BICO"
-  },
-  "cex_small_cap:netnet": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 64.1,
-    "symbol": "NET"
   },
   "cex_small_cap:stonkbroker": {
     "last_alert_ts": 1788473625.9607022,
@@ -78,11 +73,6 @@
     "last_alert_ts": 1788609036.4309428,
     "last_score": 61.9,
     "symbol": "COLLECT"
-  },
-  "cex_small_cap:this-is-not-a-website": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 89.1,
-    "symbol": "WEBSITE"
   },
   "dex_micro_cap:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
     "last_alert_ts": 1788662398.1015832,
@@ -159,11 +149,6 @@
     "last_score": 72.5,
     "symbol": "FRONG"
   },
-  "cex_small_cap:ripe-dao-governance-token": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 74.3,
-    "symbol": "RIPE"
-  },
   "cex_small_cap:chip-2": {
     "last_alert_ts": 1788552864.5182292,
     "last_score": 61.2,
@@ -175,13 +160,13 @@
     "symbol": "MAX"
   },
   "cex_small_cap:down-to-finance": {
-    "last_alert_ts": 1788701036.8976243,
-    "last_score": 59.8,
+    "last_alert_ts": 1788724615.4621778,
+    "last_score": 88.1,
     "symbol": "DTF"
   },
   "cex_small_cap:lil-shrub": {
-    "last_alert_ts": 1788530379.03167,
-    "last_score": 68.5,
+    "last_alert_ts": 1788724615.4621778,
+    "last_score": 67.8,
     "symbol": "SHRUB"
   },
   "cex_small_cap:lobster-2": {
@@ -214,20 +199,10 @@
     "last_score": 58.0,
     "symbol": "MUBARAK"
   },
-  "cex_small_cap:otc": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 68.4,
-    "symbol": "OTC"
-  },
   "cex_small_cap:verge": {
     "last_alert_ts": 1788595349.376959,
     "last_score": 57.4,
     "symbol": "XVG"
-  },
-  "cex_small_cap:webcade": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 70.2,
-    "symbol": "TOKEN"
   },
   "cex_small_cap:basestonk": {
     "last_alert_ts": 1788682857.7621064,
@@ -253,11 +228,6 @@
     "last_alert_ts": 1788682857.7621064,
     "last_score": 60.6,
     "symbol": "PROM"
-  },
-  "cex_small_cap:ankr": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 56.6,
-    "symbol": "ANKR"
   },
   "cex_small_cap:niu-lai": {
     "last_alert_ts": 1788662398.1015832,
@@ -319,46 +289,6 @@
     "last_score": 74.0,
     "symbol": "POOLS"
   },
-  "cex_small_cap:1000x-by-virtuals": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 83.5,
-    "symbol": "1000X"
-  },
-  "cex_small_cap:doge-1-satellite": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 80.4,
-    "symbol": "DOGE-1"
-  },
-  "cex_small_cap:crude-cat": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 79.5,
-    "symbol": "CRUDECAT"
-  },
-  "cex_small_cap:aavegotchi": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 75.0,
-    "symbol": "GHST"
-  },
-  "cex_small_cap:ket-3": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 70.0,
-    "symbol": "$KET"
-  },
-  "cex_small_cap:apriori": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 68.5,
-    "symbol": "APR"
-  },
-  "cex_small_cap:dont-blink": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 67.7,
-    "symbol": "BLINK"
-  },
-  "cex_small_cap:altura": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 65.8,
-    "symbol": "ALU"
-  },
   "cex_small_cap:pair": {
     "last_alert_ts": 1788712970.1571696,
     "last_score": 68.6,
@@ -379,21 +309,6 @@
     "last_score": 80.9,
     "symbol": "BOW"
   },
-  "cex_small_cap:robinhood-bstocks-tokenized-stock": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 59.9,
-    "symbol": "HOODB"
-  },
-  "cex_small_cap:asteroid-shiba": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 59.6,
-    "symbol": "ASTEROID"
-  },
-  "cex_small_cap:lista": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 58.7,
-    "symbol": "LISTA"
-  },
   "cex_small_cap:vine": {
     "last_alert_ts": 1788651160.6274753,
     "last_score": 57.2,
@@ -404,30 +319,10 @@
     "last_score": 69.4,
     "symbol": "CETS"
   },
-  "cex_small_cap:griffain": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 56.9,
-    "symbol": "GRIFFAIN"
-  },
-  "cex_small_cap:tesla-robinhood-tokenized-stock": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 56.9,
-    "symbol": "TSLA"
-  },
-  "cex_small_cap:pla-form": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 56.3,
-    "symbol": "SN100"
-  },
   "cex_small_cap:chromaway": {
     "last_alert_ts": 1788712970.1571696,
     "last_score": 60.0,
     "symbol": "CHR"
-  },
-  "cex_small_cap:hive": {
-    "last_alert_ts": 1788462291.4175236,
-    "last_score": 55.4,
-    "symbol": "HIVE"
   },
   "cex_small_cap:what-if-3": {
     "last_alert_ts": 1788552864.5182292,
@@ -610,8 +505,8 @@
     "symbol": "TUT"
   },
   "cex_small_cap:breaking": {
-    "last_alert_ts": 1788542861.07994,
-    "last_score": 60.8,
+    "last_alert_ts": 1788724615.4621778,
+    "last_score": 59.0,
     "symbol": "BREAKING"
   },
   "cex_small_cap:edu-coin": {
@@ -805,8 +700,8 @@
     "symbol": "BOME"
   },
   "cex_small_cap:panda-head": {
-    "last_alert_ts": 1788618632.775342,
-    "last_score": 99.2,
+    "last_alert_ts": 1788724615.4621778,
+    "last_score": 62.2,
     "symbol": "熊猫头"
   },
   "dex_micro_cap:B4iCqVsAZv9dBiBVv58GJiBxWGmwkwbtPTn4sUQTpump": {
@@ -920,8 +815,8 @@
     "symbol": "NUB"
   },
   "cex_small_cap:pipedog": {
-    "last_alert_ts": 1788638004.9699051,
-    "last_score": 74.3,
+    "last_alert_ts": 1788724615.4621778,
+    "last_score": 60.5,
     "symbol": "PIPEDOG"
   },
   "cex_small_cap:mosaic-3": {
@@ -960,8 +855,8 @@
     "symbol": "THE"
   },
   "cex_small_cap:the-stonks-exchange": {
-    "last_alert_ts": 1788701036.8976243,
-    "last_score": 66.9,
+    "last_alert_ts": 1788724615.4621778,
+    "last_score": 95.7,
     "symbol": "STONKEX"
   },
   "dex_micro_cap:0xc6405d7a226e1c18e559be2f335f74c01ad07bf5": {
@@ -1030,8 +925,8 @@
     "symbol": "ANTHROPIC"
   },
   "cex_small_cap:metis-token": {
-    "last_alert_ts": 1788682857.7621064,
-    "last_score": 55.0,
+    "last_alert_ts": 1788724615.4621778,
+    "last_score": 75.0,
     "symbol": "METIS"
   },
   "cex_small_cap:tsuki": {
@@ -1113,5 +1008,30 @@
     "last_alert_ts": 1788712970.1571696,
     "last_score": 57.0,
     "symbol": "BOT"
+  },
+  "cex_small_cap:perpspad": {
+    "last_alert_ts": 1788724615.4621778,
+    "last_score": 99.4,
+    "symbol": "PERPSPAD"
+  },
+  "cex_small_cap:perpshood": {
+    "last_alert_ts": 1788724615.4621778,
+    "last_score": 97.5,
+    "symbol": "PERPSHOOD"
+  },
+  "cex_small_cap:akita-inu-5": {
+    "last_alert_ts": 1788724615.4621778,
+    "last_score": 80.2,
+    "symbol": "AKITA"
+  },
+  "cex_small_cap:asteroid-shiba": {
+    "last_alert_ts": 1788724615.4621778,
+    "last_score": 60.2,
+    "symbol": "ASTEROID"
+  },
+  "cex_small_cap:solcat-3": {
+    "last_alert_ts": 1788724615.4621778,
+    "last_score": 55.0,
+    "symbol": "SOLCAT"
   }
 }
