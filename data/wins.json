@@ -202,5 +202,22 @@
     "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
     "categoria": "take-profit direto",
     "nota": "UAI (cex_small_cap) ganhou +31.0% em 1689 min — take-profit direto. Score na entrada: 82. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788656586.1770744,
+    "symbol": "STONK",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/stonk-3",
+    "held_minutes": 90.4,
+    "exit_reason": "take-profit atingido após vigilância de 5 min (pico +33.1% desde a entrada)",
+    "pnl_pct": 33.06,
+    "pnl_eur": 5.52,
+    "entry_score": 90.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 22285559,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "take-profit direto",
+    "nota": "STONK (cex_small_cap) ganhou +33.1% em 90 min — take-profit direto. Score na entrada: 91. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]

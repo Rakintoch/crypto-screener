@@ -574,5 +574,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "BSTONK (cex_small_cap) perdeu -18.4% em 202 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 89 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788656586.1770744,
+    "symbol": "MEMESTOCK",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/memestock-3",
+    "held_minutes": 189.0,
+    "exit_reason": "stop-loss atingido (-11.1%)",
+    "pnl_pct": -11.09,
+    "pnl_eur": -1.92,
+    "entry_score": 86.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 5999032,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "MEMESTOCK (cex_small_cap) perdeu -11.1% em 189 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 87 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
