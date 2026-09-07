@@ -700,5 +700,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "LAYER (cex_small_cap) perdeu -8.1% em 315 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 94 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788755215.2726617,
+    "symbol": "EQUI",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/equifold",
+    "held_minutes": 108.6,
+    "exit_reason": "stop-loss atingido (-20.0%)",
+    "pnl_pct": -20.02,
+    "pnl_eur": -3.02,
+    "entry_score": 100.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 2704750,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "EQUI (cex_small_cap) perdeu -20.0% em 109 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 100 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
