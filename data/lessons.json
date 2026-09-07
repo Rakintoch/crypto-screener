@@ -772,5 +772,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "CHAMELEON (cex_small_cap) perdeu -26.7% em 378 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 76 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788795024.992985,
+    "symbol": "PERPSPAD",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/perpspad",
+    "held_minutes": 396.1,
+    "exit_reason": "stop-loss atingido (-42.0%)",
+    "pnl_pct": -42.02,
+    "pnl_eur": -6.34,
+    "entry_score": 99.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1651592,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "PERPSPAD (cex_small_cap) perdeu -42.0% em 396 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 99 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
