@@ -304,5 +304,22 @@
     "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
     "categoria": "trailing stop apanhou subida extra após o alvo",
     "nota": "IOST (cex_small_cap) ganhou +19.2% em 1814 min — trailing stop apanhou subida extra após o alvo. Score na entrada: 90. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788808254.1155806,
+    "symbol": "BODEN",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/jeo-boden",
+    "held_minutes": 220.5,
+    "exit_reason": "take-profit atingido após vigilância de 5 min (pico +25.7% desde a entrada)",
+    "pnl_pct": 25.19,
+    "pnl_eur": 3.1,
+    "entry_score": 93.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1311031,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "take-profit direto",
+    "nota": "BODEN (cex_small_cap) ganhou +25.2% em 220 min — take-profit direto. Score na entrada: 93. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
