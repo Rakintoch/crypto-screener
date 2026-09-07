@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1788146184.4691544,
   "end_ts": 1789010184.4691544,
-  "cash_eur": 15.38409050188056,
+  "cash_eur": 2.4662110423134465,
   "starting_balance_eur": 100.0,
   "positions": {
     "cex_small_cap:sushi": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.219424885529342,
       "entry_ts": 1788662398.6502414,
       "cost_eur": 17.869300492628547,
-      "last_price_eur": 0.20677245695662225,
-      "last_score": 46.5,
+      "last_price_eur": 0.20701883267159943,
+      "last_score": 46.2,
       "missed_updates": 0,
       "entry_score": 95.6,
       "entry_liquidity_usd": null,
@@ -33,8 +33,8 @@
       "entry_price_eur": 0.003988375055057921,
       "entry_ts": 1788795024.992985,
       "cost_eur": 12.288585179196087,
-      "last_price_eur": 0.0037700924845827572,
-      "last_score": 62.9,
+      "last_price_eur": 0.003905951753582191,
+      "last_score": 66.3,
       "missed_updates": 0,
       "entry_score": 82.7,
       "entry_liquidity_usd": null,
@@ -51,12 +51,30 @@
       "entry_price_eur": 0.0007761651721917134,
       "entry_ts": 1788795024.992985,
       "cost_eur": 7.896978951888535,
-      "last_price_eur": 0.0007266782629216378,
-      "last_score": 56.7,
+      "last_price_eur": 0.0007267103068303235,
+      "last_score": 48.8,
       "missed_updates": 0,
       "entry_score": 82.5,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 1392227,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "cex_small_cap:otc": {
+      "tier": "cex_small_cap",
+      "id": "otc",
+      "symbol": "OTC",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/otc",
+      "qty": 716.0070006427126,
+      "entry_price_eur": 0.01804155468867145,
+      "entry_ts": 1788809745.8021085,
+      "cost_eur": 12.917879459567114,
+      "last_price_eur": 0.01804155468867145,
+      "last_score": 99.4,
+      "missed_updates": 0,
+      "entry_score": 99.4,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 19432678,
       "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
     }
   },
@@ -1478,5 +1496,5 @@
       "pnl_pct": 25.190087203244506
     }
   ],
-  "last_run_ts": 1788808254.1155806
+  "last_run_ts": 1788809745.8021085
 }
