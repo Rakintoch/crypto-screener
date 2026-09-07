@@ -270,5 +270,22 @@
     "entry_security_notes": "sem red flags óbvias",
     "categoria": "trailing stop apanhou subida extra após o alvo",
     "nota": "PURR (dex_micro_cap) ganhou +34.4% em 476 min — trailing stop apanhou subida extra após o alvo. Liquidez na entrada: $443,632. Score na entrada: 85. Segurança na entrada: sem red flags óbvias."
+  },
+  {
+    "closed_ts": 1788739411.0423055,
+    "symbol": "STONKEX",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/the-stonks-exchange",
+    "held_minutes": 126.1,
+    "exit_reason": "trailing stop — recuou até ao valor-alvo (+18.2%) depois de um pico de +20.1%",
+    "pnl_pct": 18.21,
+    "pnl_eur": 2.69,
+    "entry_score": 95.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 16919641,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "trailing stop apanhou subida extra após o alvo",
+    "nota": "STONKEX (cex_small_cap) ganhou +18.2% em 126 min — trailing stop apanhou subida extra após o alvo. Score na entrada: 95. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
