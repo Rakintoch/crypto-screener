@@ -736,5 +736,41 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "修仙 (cex_small_cap) perdeu -14.9% em 657 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 95 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788793951.5488534,
+    "symbol": "DTF",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/down-to-finance",
+    "held_minutes": 378.2,
+    "exit_reason": "stop-loss atingido (-8.7%)",
+    "pnl_pct": -8.71,
+    "pnl_eur": -1.32,
+    "entry_score": 82.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 4196431,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "DTF (cex_small_cap) perdeu -8.7% em 378 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 82 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788793951.5488534,
+    "symbol": "CHAMELEON",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/chameleon",
+    "held_minutes": 378.2,
+    "exit_reason": "stop-loss atingido (-26.7%)",
+    "pnl_pct": -26.73,
+    "pnl_eur": -3.63,
+    "entry_score": 76.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 496937,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "CHAMELEON (cex_small_cap) perdeu -26.7% em 378 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 76 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
