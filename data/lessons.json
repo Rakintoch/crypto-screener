@@ -718,5 +718,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "EQUI (cex_small_cap) perdeu -20.0% em 109 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 100 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788771260.488949,
+    "symbol": "修仙",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/xiuxian",
+    "held_minutes": 657.0,
+    "exit_reason": "stop-loss atingido (-14.9%)",
+    "pnl_pct": -14.92,
+    "pnl_eur": -1.41,
+    "entry_score": 94.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1069511,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "修仙 (cex_small_cap) perdeu -14.9% em 657 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 95 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]

@@ -287,5 +287,22 @@
     "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
     "categoria": "trailing stop apanhou subida extra após o alvo",
     "nota": "STONKEX (cex_small_cap) ganhou +18.2% em 126 min — trailing stop apanhou subida extra após o alvo. Score na entrada: 95. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788771260.488949,
+    "symbol": "IOST",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/iostoken",
+    "held_minutes": 1814.4,
+    "exit_reason": "trailing stop — recuou até ao valor-alvo (+19.2%) depois de um pico de +20.1%",
+    "pnl_pct": 19.17,
+    "pnl_eur": 3.42,
+    "entry_score": 90.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 19403123,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "trailing stop apanhou subida extra após o alvo",
+    "nota": "IOST (cex_small_cap) ganhou +19.2% em 1814 min — trailing stop apanhou subida extra após o alvo. Score na entrada: 90. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
