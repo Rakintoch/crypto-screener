@@ -790,5 +790,41 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "PERPSPAD (cex_small_cap) perdeu -42.0% em 396 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 99 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788842250.4869435,
+    "symbol": "ODOS",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/odos",
+    "held_minutes": 787.1,
+    "exit_reason": "stop-loss atingido (-8.3%)",
+    "pnl_pct": -8.25,
+    "pnl_eur": -0.65,
+    "entry_score": 82.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1392227,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "ODOS (cex_small_cap) perdeu -8.3% em 787 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 82 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788842250.4869435,
+    "symbol": "MOONKEY",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/moonkey",
+    "held_minutes": 367.0,
+    "exit_reason": "stop-loss atingido (-9.1%)",
+    "pnl_pct": -9.15,
+    "pnl_eur": -1.28,
+    "entry_score": 89.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 626620,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "MOONKEY (cex_small_cap) perdeu -9.1% em 367 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 90 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
