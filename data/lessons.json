@@ -844,5 +844,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "SUSHI (cex_small_cap) perdeu -8.2% em 3234 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 96 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788858294.9916298,
+    "symbol": "RTD",
+    "tier": "dex_micro_cap",
+    "network": "base",
+    "url": "https://dexscreener.com/base/0x68fe20569d4d2462f92c0bfce39afb938ffc7e73ba0051f3394231baf303fa7c",
+    "held_minutes": 30.7,
+    "exit_reason": "stop-loss atingido (-23.2%)",
+    "pnl_pct": -23.17,
+    "pnl_eur": -1.51,
+    "entry_score": 79.6,
+    "entry_liquidity_usd": 81813.36,
+    "entry_volume_24h_usd": 1566209.17,
+    "entry_security_notes": "sem red flags óbvias",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "muito rápida (<1h)",
+    "licao": "RTD (dex_micro_cap) perdeu -23.2% em 31 min (muito rápida (<1h)) — stop-loss atingido. Liquidez na entrada: $81,813. Score na entrada: 80 (mínimo exigido para comprar: 65). Segurança na entrada: sem red flags óbvias."
   }
 ]
