@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1788146184.4691544,
   "end_ts": 1789010184.4691544,
-  "cash_eur": 20.095839350857222,
+  "cash_eur": 0.0,
   "starting_balance_eur": 100.0,
   "positions": {
     "cex_small_cap:solv-protocol": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.003988375055057921,
       "entry_ts": 1788795024.992985,
       "cost_eur": 12.288585179196087,
-      "last_price_eur": 0.003794624495173549,
-      "last_score": 53.4,
+      "last_price_eur": 0.0038567366459120052,
+      "last_score": 57.9,
       "missed_updates": 0,
       "entry_score": 82.7,
       "entry_liquidity_usd": null,
@@ -33,12 +33,48 @@
       "entry_price_eur": 0.001142255604895841,
       "entry_ts": 1788856452.9520085,
       "cost_eur": 13.546852030350294,
-      "last_price_eur": 0.0011532070094731946,
-      "last_score": 60.5,
+      "last_price_eur": 0.0011429161317953564,
+      "last_score": 61.1,
       "missed_updates": 0,
       "entry_score": 82.6,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 797774,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "cex_small_cap:dogs-2": {
+      "tier": "cex_small_cap",
+      "id": "dogs-2",
+      "symbol": "DOGS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/dogs-2",
+      "qty": 228344.9297756879,
+      "entry_price_eur": 4.985168609421878e-05,
+      "entry_ts": 1788894937.9713356,
+      "cost_eur": 11.383379760384024,
+      "last_price_eur": 4.985168609421878e-05,
+      "last_score": 95.5,
+      "missed_updates": 0,
+      "entry_score": 95.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 34104361,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "cex_small_cap:quark-chain": {
+      "tier": "cex_small_cap",
+      "id": "quark-chain",
+      "symbol": "QKC",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/quark-chain",
+      "qty": 3606.9586412260696,
+      "entry_price_eur": 0.002415458688905753,
+      "entry_ts": 1788894937.9713356,
+      "cost_eur": 8.712459590473198,
+      "last_price_eur": 0.002415458688905753,
+      "last_score": 93.2,
+      "missed_updates": 0,
+      "entry_score": 93.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 47996969,
       "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
     }
   },
@@ -1628,5 +1664,5 @@
       "pnl_pct": -35.61602838385201
     }
   ],
-  "last_run_ts": 1788888338.9147162
+  "last_run_ts": 1788894937.9713356
 }
