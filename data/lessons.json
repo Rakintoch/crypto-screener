@@ -898,5 +898,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "SOPH (cex_small_cap) perdeu -35.6% em 198 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 99 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788897890.2566447,
+    "symbol": "DOGS",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/dogs-2",
+    "held_minutes": 49.2,
+    "exit_reason": "stop-loss atingido (-9.1%)",
+    "pnl_pct": -9.14,
+    "pnl_eur": -1.04,
+    "entry_score": 95.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 34104361,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "muito rápida (<1h)",
+    "licao": "DOGS (cex_small_cap) perdeu -9.1% em 49 min (muito rápida (<1h)) — stop-loss atingido. Score na entrada: 96 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
