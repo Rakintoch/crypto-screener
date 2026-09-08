@@ -826,5 +826,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "MOONKEY (cex_small_cap) perdeu -9.1% em 367 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 90 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788856452.9520085,
+    "symbol": "SUSHI",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/sushi",
+    "held_minutes": 3234.2,
+    "exit_reason": "stop-loss atingido (-8.2%)",
+    "pnl_pct": -8.22,
+    "pnl_eur": -1.47,
+    "entry_score": 95.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 104131682,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "SUSHI (cex_small_cap) perdeu -8.2% em 3234 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 96 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
