@@ -970,5 +970,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "SOLV (cex_small_cap) perdeu -11.6% em 3005 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 83 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788992121.5771816,
+    "symbol": "COTI",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/coti",
+    "held_minutes": 191.1,
+    "exit_reason": "stop-loss atingido (-8.3%)",
+    "pnl_pct": -8.33,
+    "pnl_eur": -1.02,
+    "entry_score": 92.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 56889086,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "COTI (cex_small_cap) perdeu -8.3% em 191 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 93 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
