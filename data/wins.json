@@ -338,5 +338,22 @@
     "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
     "categoria": "take-profit direto",
     "nota": "OTC (cex_small_cap) ganhou +36.2% em 145 min — take-profit direto. Score na entrada: 99. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788922244.514469,
+    "symbol": "WAVES",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/waves",
+    "held_minutes": 269.3,
+    "exit_reason": "take-profit atingido após vigilância de 5 min (pico +23.9% desde a entrada)",
+    "pnl_pct": 22.26,
+    "pnl_eur": 2.3,
+    "entry_score": 83.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 44728116,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "take-profit direto",
+    "nota": "WAVES (cex_small_cap) ganhou +22.3% em 269 min — take-profit direto. Score na entrada: 83. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
