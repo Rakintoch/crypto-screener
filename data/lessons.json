@@ -916,5 +916,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "muito rápida (<1h)",
     "licao": "DOGS (cex_small_cap) perdeu -9.1% em 49 min (muito rápida (<1h)) — stop-loss atingido. Score na entrada: 96 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788930527.145395,
+    "symbol": "ORBIO",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/orbio-so",
+    "held_minutes": 138.0,
+    "exit_reason": "stop-loss atingido (-9.9%)",
+    "pnl_pct": -9.87,
+    "pnl_eur": -1.18,
+    "entry_score": 82.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 6040749,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "ORBIO (cex_small_cap) perdeu -9.9% em 138 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 82 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
