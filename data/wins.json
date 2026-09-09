@@ -355,5 +355,22 @@
     "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
     "categoria": "take-profit direto",
     "nota": "WAVES (cex_small_cap) ganhou +22.3% em 269 min — take-profit direto. Score na entrada: 83. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788975322.567369,
+    "symbol": "IOST",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/iostoken",
+    "held_minutes": 538.9,
+    "exit_reason": "take-profit atingido após vigilância de 5 min (pico +54.3% desde a entrada)",
+    "pnl_pct": 53.0,
+    "pnl_eur": 6.02,
+    "entry_score": 94.7,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 79069671,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "take-profit direto",
+    "nota": "IOST (cex_small_cap) ganhou +53.0% em 539 min — take-profit direto. Score na entrada: 95. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]

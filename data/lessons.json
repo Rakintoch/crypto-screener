@@ -952,5 +952,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "AOL (cex_small_cap) perdeu -9.9% em 1762 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 83 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788975322.567369,
+    "symbol": "SOLV",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/solv-protocol",
+    "held_minutes": 3005.0,
+    "exit_reason": "stop-loss atingido (-11.6%)",
+    "pnl_pct": -11.57,
+    "pnl_eur": -1.42,
+    "entry_score": 82.7,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 32016085,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "SOLV (cex_small_cap) perdeu -11.6% em 3005 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 83 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
