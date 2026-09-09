@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1788146184.4691544,
   "end_ts": 1789010184.4691544,
-  "cash_eur": 29.38346512979294,
+  "cash_eur": 4.878196119232008,
   "starting_balance_eur": 100.0,
   "positions": {
     "cex_small_cap:quark-chain": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.002415458688905753,
       "entry_ts": 1788894937.9713356,
       "cost_eur": 8.712459590473198,
-      "last_price_eur": 0.0022636824586509527,
-      "last_score": 32.9,
+      "last_price_eur": 0.0022617807871425943,
+      "last_score": 35.7,
       "missed_updates": 0,
       "entry_score": 93.2,
       "entry_liquidity_usd": null,
@@ -33,12 +33,48 @@
       "entry_price_eur": 0.009130613057521997,
       "entry_ts": 1788962996.5090027,
       "cost_eur": 11.169334778718284,
-      "last_price_eur": 0.00974576198347336,
-      "last_score": 81.1,
+      "last_price_eur": 0.009375518007227605,
+      "last_score": 68.0,
       "missed_updates": 0,
       "entry_score": 92.9,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 17133223,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "cex_small_cap:katana-network-token": {
+      "tier": "cex_small_cap",
+      "id": "katana-network-token",
+      "symbol": "KAT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/katana-network-token",
+      "qty": 2172.540020006572,
+      "entry_price_eur": 0.005639773901722373,
+      "entry_ts": 1788980655.6854205,
+      "cost_eur": 12.252634505280465,
+      "last_price_eur": 0.005639773901722373,
+      "last_score": 98.8,
+      "missed_updates": 0,
+      "entry_score": 98.8,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 127902082,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
+    },
+    "cex_small_cap:coti": {
+      "tier": "cex_small_cap",
+      "id": "coti",
+      "symbol": "COTI",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/coti",
+      "qty": 679.5746213000621,
+      "entry_price_eur": 0.01802985885764911,
+      "entry_ts": 1788980655.6854205,
+      "cost_eur": 12.252634505280465,
+      "last_price_eur": 0.01802985885764911,
+      "last_score": 92.9,
+      "missed_updates": 0,
+      "entry_score": 92.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 56889086,
       "entry_security_notes": "CEX listada — sem verificação on-chain aplicada"
     }
   },
@@ -1772,5 +1808,5 @@
       "pnl_pct": 53.00222436203528
     }
   ],
-  "last_run_ts": 1788975322.567369
+  "last_run_ts": 1788980655.6854205
 }
