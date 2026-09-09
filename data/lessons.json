@@ -934,5 +934,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "ORBIO (cex_small_cap) perdeu -9.9% em 138 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 82 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788962164.793791,
+    "symbol": "AOL",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/america-s-official-launchpad",
+    "held_minutes": 1761.9,
+    "exit_reason": "stop-loss atingido (-9.9%)",
+    "pnl_pct": -9.91,
+    "pnl_eur": -1.34,
+    "entry_score": 82.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 797774,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "AOL (cex_small_cap) perdeu -9.9% em 1762 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 83 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
