@@ -988,5 +988,23 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "COTI (cex_small_cap) perdeu -8.3% em 191 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 93 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1788992825.850166,
+    "symbol": "KAT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/katana-network-token",
+    "held_minutes": 202.8,
+    "exit_reason": "stop-loss atingido (-9.3%)",
+    "pnl_pct": -9.31,
+    "pnl_eur": -1.14,
+    "entry_score": 98.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 127902082,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "KAT (cex_small_cap) perdeu -9.3% em 203 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 99 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
