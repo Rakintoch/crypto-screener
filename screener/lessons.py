@@ -119,6 +119,17 @@ def record_if_lesson(trade):
         "entry_liquidity_usd": trade.get("entry_liquidity_usd"),
         "entry_volume_24h_usd": trade.get("entry_volume_24h_usd"),
         "entry_security_notes": trade.get("entry_security_notes"),
+        # Sinais brutos na entrada (adicionado 2026-09-10, ver autoanálise em config.py junto a
+        # SELECTION_SCORE_CEILING) — permitem, numa próxima autoanálise, decompor QUAL sinal
+        # falhou, em vez de só conseguir provar que o score final combinado não prevê o
+        # resultado. None nos campos que não se aplicam à camada desta posição.
+        "entry_chg_1h": trade.get("entry_chg_1h"),
+        "entry_chg_24h": trade.get("entry_chg_24h"),
+        "entry_chg_7d": trade.get("entry_chg_7d"),
+        "entry_chg_6h": trade.get("entry_chg_6h"),
+        "entry_turnover": trade.get("entry_turnover"),
+        "entry_vol_liq_ratio": trade.get("entry_vol_liq_ratio"),
+        "entry_boosted": trade.get("entry_boosted"),
         "categoria": categoria,
         "velocidade_queda": velocidade,
     }
