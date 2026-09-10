@@ -33,6 +33,6 @@
     "mudanca": "portfolio._check_entries(): ao escolher entre vários candidatos elegíveis em simultâneo, deixa de desempatar sempre pelo score bruto mais alto — acima de config.SELECTION_SCORE_CEILING (90), o score passa a ser tratado como empatado e o desempate passa a ser por liquidez (mais líquido primeiro). Além disso, os sinais brutos de entrada (entry_chg_1h, entry_chg_24h, entry_chg_7d, entry_chg_6h, entry_turnover, entry_vol_liq_ratio, entry_boosted) passam a ser guardados em cada posição/trade fechado (portfolio.py) e nas lições/vitórias (lessons.py, playbook.py), para uma próxima autoanálise conseguir decompor por sinal.",
     "efeito_esperado": "Reduzir a probabilidade de comprar sistematicamente o candidato mais esticado (o que os dados deste ciclo mostram ser, se algo, pior escolha) quando há alternativas igualmente qualificadas; e, sobretudo, reunir dados suficientes (sinais brutos por trade) para a próxima autoanálise conseguir mesmo isolar qual componente do score tem (ou não tem) poder preditivo, em vez de repetir esta mesma conclusão de nível superior daqui a 10 dias.",
     "num_trades_fechados_ate_aqui": 79,
-    "announced": false
+    "announced": true
   }
 ]
