@@ -88,6 +88,16 @@ def record_if_win(trade):
         "entry_liquidity_usd": trade.get("entry_liquidity_usd"),
         "entry_volume_24h_usd": trade.get("entry_volume_24h_usd"),
         "entry_security_notes": trade.get("entry_security_notes"),
+        # Sinais brutos na entrada (adicionado 2026-09-10) — ver a mesma nota em lessons.py;
+        # guardar isto também nas vitórias é o que permite comparar sinal a sinal, não só
+        # score final vs score final, entre o que correu bem e o que correu mal.
+        "entry_chg_1h": trade.get("entry_chg_1h"),
+        "entry_chg_24h": trade.get("entry_chg_24h"),
+        "entry_chg_7d": trade.get("entry_chg_7d"),
+        "entry_chg_6h": trade.get("entry_chg_6h"),
+        "entry_turnover": trade.get("entry_turnover"),
+        "entry_vol_liq_ratio": trade.get("entry_vol_liq_ratio"),
+        "entry_boosted": trade.get("entry_boosted"),
         "categoria": categoria,
     }
     entry["nota"] = _build_note(trade, categoria, held_minutes)
