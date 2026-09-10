@@ -276,7 +276,16 @@ def _check_entries(state, ranked_candidates, now):
         and f"{c['tier']}:{c['id']}" not in recent_exit_ids
         and c.get("price_usd")
     ]
-    eligible.sort(key=lambda c: c["score"], reverse=True)
+    # Autoanálise 2026-09-10: ordenar sempre pelo score bruto favorecia sistematicamente o
+    # candidato mais "esticado" (que mais subiu, mais depressa) quando vários passam o
+    # limiar ao mesmo tempo — e os dados dos 79 trades fechados mostram que isso não ajudou
+    # (ver config.SELECTION_SCORE_CEILING). Acima do teto, deixa de desempatar por score —
+    # passa a desempatar por liquidez (candidato mais líquido/robusto primeiro), em vez de
+    # continuar a preferir cegamente quem subiu mais.
+    eligible.sort(
+        key=lambda c: (min(c["score"], config.SELECTION_SCORE_CEILING), c.get("liquidity_usd") or 0),
+        reverse=True,
+    )
 
     for c in eligible[:slots_free]:
         equity = _equity(state)
@@ -308,6 +317,22 @@ def _check_entries(state, ranked_candidates, now):
             "entry_liquidity_usd": c.get("liquidity_usd"),
             "entry_volume_24h_usd": c.get("volume_24h"),
             "entry_security_notes": (c.get("security") or {}).get("notes"),
+            # Componentes brutos do score na entrada (adicionado 2026-09-10) — a autoanálise
+            # de fim de desafio só conseguiu provar que o score FINAL não prevê o resultado
+            # (correlação -0,019 em 79 trades), mas não conseguiu decompor QUAL sinal é o
+            # culpado, porque só o score já combinado ficava guardado. Isto guarda os sinais
+            # de origem (None nos que não se aplicam a esta camada) para a próxima autoanálise
+            # conseguir mesmo isolar o(s) sinal(is) sem poder preditivo.
+            "entry_chg_1h": c.get("chg_1h"),
+            "entry_chg_24h": c.get("chg_24h"),
+            "entry_chg_7d": c.get("chg_7d"),
+            "entry_chg_6h": c.get("chg_6h"),
+            "entry_turnover": c.get("turnover"),
+            "entry_vol_liq_ratio": (
+                (c.get("volume_24h") / c["liquidity_usd"])
+                if c.get("liquidity_usd") else None
+            ),
+            "entry_boosted": c.get("boosted"),
         }
         state["cash_eur"] -= size_eur
 
