@@ -104,6 +104,22 @@ MIN_TRADE_EUR = 5.0                  # não abre/fecha posições de valor resid
 ENTRY_MIN_SCORE = 65
 SCORE_DECAY_EXIT = 30           # se o score cair abaixo disto, a tese de momentum invalidou-se
 
+# Autoanálise 2026-09-10 (fim do 2º desafio, 79 trades fechados): a correlação entre
+# entry_score e pnl_pct foi -0,019 (praticamente zero) — o score não prevê o resultado.
+# O score é uma soma de sigmoides sobre variação de curto prazo (chg_1h/chg_24h/chg_6h/
+# turnover), que satura rapidamente: 46 dos 79 trades (58%) entraram já com score 90-100,
+# e foi precisamente esse escalão o pior em €  (-36,22€ líquidos, o maior défice de
+# qualquer escalão) — a média de entry_score das perdas (90,4) foi MAIOR que a das vitórias
+# (82,0). Ou seja: dentro do que já passa nos filtros, o candidato "mais extremo" (que já
+# subiu mais, mais depressa) não é melhor escolha — tende a já estar esticado/perto do
+# topo do movimento (ex.: PERPSPAD comprado 2x com score ~99, caiu as duas vezes). Isto NÃO
+# prova que sinal específico é o culpado (ainda não guardamos os componentes brutos por
+# trade — só o score final), mas justifica deixar de tratar o topo do intervalo (90-100)
+# como "melhor" para efeitos de escolha entre candidatos elegíveis em simultâneo: acima
+# deste teto, o score deixa de ser tratado como diferenciador (ver portfolio._check_entries).
+# Não mexe no stop-loss nem no take-profit — o problema medido está na seleção, não na saída.
+SELECTION_SCORE_CEILING = 90
+
 # Take-profit / stop-loss por camada — DEX é mais volátil, por isso janelas mais largas
 TAKE_PROFIT_PCT = {"cex_small_cap": 0.20, "dex_micro_cap": 0.40}
 # Autoanálise 2026-08-30: os 5 stop-loss reais em cex_small_cap fecharam sempre bastante
