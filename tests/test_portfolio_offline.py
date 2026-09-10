@@ -29,6 +29,8 @@ def fake_candidate(symbol, score, price_usd, tier="cex_small_cap", cid=None, liq
         "chg_1h": 5.0,
         "chg_24h": 20.0,
         "chg_7d": 30.0,
+        "chg_6h": 15.0,
+        "boosted": False,
         "liquidity_usd": liquidity_usd,
         "url": "https://example.com",
         "score": score,
@@ -223,8 +225,60 @@ def _run_scenarios():
         assert delta_lessons[0]["entry_score"] == 72
         assert delta_lessons[0]["entry_liquidity_usd"] == 18_000
         assert "categoria" in delta_lessons[0] and delta_lessons[0]["categoria"]
+        # Autoanálise 2026-09-10: os componentes brutos do score na entrada (camada DEX) agora
+        # ficam guardados no trade, não só o score final combinado — necessário para uma futura
+        # autoanálise conseguir decompor qual sinal específico falhou, em vez de só conseguir
+        # provar que o score final, como um todo, não prevê o resultado.
+        assert delta_lessons[0]["entry_chg_1h"] == candidates_2c[0]["chg_1h"], (
+            "FALHOU: entry_chg_1h (camada DEX) não foi guardado no snapshot da posição/lição"
+        )
+        assert delta_lessons[0]["entry_chg_6h"] == candidates_2c[0]["chg_6h"], (
+            "FALHOU: entry_chg_6h (camada DEX) não foi guardado no snapshot da posição/lição"
+        )
+        expected_vol_liq = candidates_2c[0]["volume_24h"] / candidates_2c[0]["liquidity_usd"]
+        assert abs(delta_lessons[0]["entry_vol_liq_ratio"] - expected_vol_liq) < 0.001, (
+            "FALHOU: entry_vol_liq_ratio não foi calculado/guardado corretamente"
+        )
+        assert delta_lessons[0]["entry_boosted"] == candidates_2c[0]["boosted"], (
+            "FALHOU: entry_boosted (camada DEX) não foi guardado no snapshot da posição/lição"
+        )
         print(f"✅ Corrida 2c OK — DELTA fechada com {delta_lessons[0]['pnl_pct']:+.1f}% e uma lição foi "
-              f"registada automaticamente: \"{delta_lessons[0]['licao'][:70]}...\"")
+              f"registada automaticamente: \"{delta_lessons[0]['licao'][:70]}...\" "
+              f"(sinais brutos de entrada preservados na lição)")
+
+        # --- Corrida 2c-bis: teto de seleção por score (config.SELECTION_SCORE_CEILING) —
+        # autoanálise 2026-09-10 (79 trades do 2º desafio): o score não previu o resultado
+        # (correlação -0,019) e o escalão 90-100 foi o PIOR em € líquidos de todos — por isso,
+        # acima do teto, dois candidatos elegíveis ao mesmo tempo deixam de ser desempatados
+        # por quem subiu mais (score bruto) e passam a ser desempatados por liquidez.
+        fresh_state = portfolio._default_state()
+        fresh_state["status"] = "active"
+        fresh_state["start_ts"] = time.time()
+        fresh_state["end_ts"] = time.time() + 999_999
+        # ocupa todos os slots menos 1, para forçar o desempate entre os dois candidatos abaixo
+        for i in range(config.MAX_CONCURRENT_POSITIONS - 1):
+            fresh_state["positions"][f"cex_small_cap:dummy{i}"] = {
+                "tier": "cex_small_cap", "id": f"dummy{i}", "symbol": f"DUMMY{i}", "qty": 1.0,
+                "entry_price_eur": 1.0, "entry_ts": time.time(), "cost_eur": 1.0,
+                "last_price_eur": 1.0, "last_score": 80, "missed_updates": 0,
+            }
+
+        candidate_hot = fake_candidate("HOT", score=99.4, price_usd=1.0, cid="hot", liquidity_usd=5_000)
+        candidate_solid = fake_candidate("SOLID", score=91.0, price_usd=1.0, cid="solid", liquidity_usd=500_000)
+        for c in (candidate_hot, candidate_solid):
+            c["_eur_rate"] = eur_rate
+        ranked = sorted([candidate_hot, candidate_solid], key=lambda c: c["score"], reverse=True)
+
+        buy_actions = portfolio._check_entries(fresh_state, ranked, time.time())
+        assert len(buy_actions) == 1, f"FALHOU: só devia sobrar 1 slot livre, comprou {len(buy_actions)}"
+        assert buy_actions[0]["symbol"] == "SOLID", (
+            f"FALHOU: acima do teto de {config.SELECTION_SCORE_CEILING}, devia desempatar por liquidez "
+            f"(SOLID, $500k) em vez do score bruto mais alto (HOT, $5k liquidez) — comprou "
+            f"{buy_actions[0]['symbol']}"
+        )
+        print(f"✅ Corrida 2c-bis OK — teto de seleção por score: entre HOT (score 99.4, $5k liquidez) e "
+              f"SOLID (score 91.0, $500k liquidez), com 1 só slot livre, SOLID foi o escolhido "
+              f"(desempate por liquidez acima do teto de {config.SELECTION_SCORE_CEILING})")
 
         # --- Registo de changelog: uma "mudança" autoanalisada fica pendente de anúncio até
         # ser marcada como tal, e depois aparece no histórico (/mudancas) ---
