@@ -25,5 +25,14 @@
     "efeito_esperado": "O desafio nunca mais deve reiniciar sozinho por corrupção de ficheiro — uma corrida com estado ilegível aborta e avisa no Telegram em vez de mascarar o problema. Dado que o novo ciclo (ZORA/HEMI/HOOKR/ZKC, a partir de 2026-08-31) já teve operações reais (venda de HOOKR e ZKC), decidi manter este novo ciclo como o desafio corrente em vez de tentar reconstruir o anterior, mas o histórico completo pré-incidente continua recuperável no histórico do Git caso o Ricardo prefira reverter.",
     "num_trades_fechados_ate_aqui": 2,
     "announced": true
+  },
+  {
+    "ts": 1789031293.259,
+    "titulo": "Seleção deixa de preferir cegamente o candidato mais \"esticado\" acima de score 90",
+    "motivo": "Autoanálise de fim de desafio (79 trades fechados, 2º ciclo de 10 dias, 2026-09-10): a correlação entre entry_score e pnl_pct foi -0,019 (praticamente zero) — o score não previu o resultado. O escalão 90-100 (46 dos 79 trades, 58%) foi o PIOR em € líquidos de todos os escalões (-36,22€), e a média de entry_score das perdas (90,4) foi MAIOR que a das vitórias (82,0) — ou seja, dentro do que já passa nos filtros, o candidato mais extremo (que mais subiu, mais depressa) não foi melhor escolha; tende a já estar esticado perto do topo do movimento (ex.: PERPSPAD comprado 2x com score ~99, caiu as duas vezes). Isto confirma que o problema medido está na seleção de candidatos, não no dimensionamento do stop-loss/take-profit (que continuam sem alterações). Limitação identificada: só o score final combinado ficava guardado por trade, não os sinais brutos que o compõem — por isso ainda não é possível isolar QUAL sinal específico (chg_1h, chg_24h, turnover, ...) é o culpado, só que o score combinado, como um todo, não tem poder preditivo.",
+    "mudanca": "portfolio._check_entries(): ao escolher entre vários candidatos elegíveis em simultâneo, deixa de desempatar sempre pelo score bruto mais alto — acima de config.SELECTION_SCORE_CEILING (90), o score passa a ser tratado como empatado e o desempate passa a ser por liquidez (mais líquido primeiro). Além disso, os sinais brutos de entrada (entry_chg_1h, entry_chg_24h, entry_chg_7d, entry_chg_6h, entry_turnover, entry_vol_liq_ratio, entry_boosted) passam a ser guardados em cada posição/trade fechado (portfolio.py) e nas lições/vitórias (lessons.py, playbook.py), para uma próxima autoanálise conseguir decompor por sinal.",
+    "efeito_esperado": "Reduzir a probabilidade de comprar sistematicamente o candidato mais esticado (o que os dados deste ciclo mostram ser, se algo, pior escolha) quando há alternativas igualmente qualificadas; e, sobretudo, reunir dados suficientes (sinais brutos por trade) para a próxima autoanálise conseguir mesmo isolar qual componente do score tem (ou não tem) poder preditivo, em vez de repetir esta mesma conclusão de nível superior daqui a 10 dias.",
+    "num_trades_fechados_ate_aqui": 79,
+    "announced": false
   }
 ]
