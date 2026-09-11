@@ -1271,5 +1271,30 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "OTC (cex_small_cap) perdeu -29.3% em 166 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 96 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789154382.765978,
+    "symbol": "ANON",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/heyanon",
+    "held_minutes": 21.2,
+    "exit_reason": "stop-loss atingido (-17.0%)",
+    "pnl_pct": -17.02,
+    "pnl_eur": -3.7,
+    "entry_score": 88.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 3137462,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 49.6,
+    "entry_chg_24h": 118.28897,
+    "entry_chg_7d": 113.7,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.431558052791984,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "muito rápida (<1h)",
+    "licao": "ANON (cex_small_cap) perdeu -17.0% em 21 min (muito rápida (<1h)) — stop-loss atingido. Score na entrada: 88 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]

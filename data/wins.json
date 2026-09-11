@@ -468,5 +468,29 @@
     "entry_boosted": null,
     "categoria": "take-profit direto",
     "nota": "JUGGERNAUT (cex_small_cap) ganhou +36.8% em 330 min — take-profit direto. Score na entrada: 100. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789154382.765978,
+    "symbol": "STORJ",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/storj",
+    "held_minutes": 317.0,
+    "exit_reason": "take-profit atingido após vigilância de 5 min (pico +29.7% desde a entrada)",
+    "pnl_pct": 29.33,
+    "pnl_eur": 7.73,
+    "entry_score": 98.7,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 36436488,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 7.1,
+    "entry_chg_24h": 59.60034,
+    "entry_chg_7d": 64.9,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.8567799537309433,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "categoria": "take-profit direto",
+    "nota": "STORJ (cex_small_cap) ganhou +29.3% em 317 min — take-profit direto. Score na entrada: 99. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
