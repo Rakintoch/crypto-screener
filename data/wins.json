@@ -372,5 +372,29 @@
     "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
     "categoria": "take-profit direto",
     "nota": "IOST (cex_small_cap) ganhou +53.0% em 539 min — take-profit direto. Score na entrada: 95. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789084631.4488912,
+    "symbol": "DREGG",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/dregg",
+    "held_minutes": 101.7,
+    "exit_reason": "take-profit atingido após vigilância de 5 min (pico +30.3% desde a entrada)",
+    "pnl_pct": 29.23,
+    "pnl_eur": 6.81,
+    "entry_score": 90.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1191521,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.9,
+    "entry_chg_24h": 473.30014,
+    "entry_chg_7d": 541.0,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.8663250868491044,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "categoria": "take-profit direto",
+    "nota": "DREGG (cex_small_cap) ganhou +29.2% em 102 min — take-profit direto. Score na entrada: 91. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]

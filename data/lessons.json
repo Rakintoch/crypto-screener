@@ -1171,5 +1171,30 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "BREW (cex_small_cap) perdeu -8.4% em 475 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 83 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789084631.4488912,
+    "symbol": "HODL",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/diamond-hands-6",
+    "held_minutes": 101.7,
+    "exit_reason": "stop-loss atingido (-18.1%)",
+    "pnl_pct": -18.06,
+    "pnl_eur": -3.94,
+    "entry_score": 89.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 532209,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 203.3,
+    "entry_chg_24h": 279.76159,
+    "entry_chg_7d": 251.8,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.4585048102561363,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "HODL (cex_small_cap) perdeu -18.1% em 102 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 89 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
