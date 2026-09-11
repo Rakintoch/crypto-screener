@@ -1296,5 +1296,30 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "muito rápida (<1h)",
     "licao": "ANON (cex_small_cap) perdeu -17.0% em 21 min (muito rápida (<1h)) — stop-loss atingido. Score na entrada: 88 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789169630.7343867,
+    "symbol": "CONX",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/xpla",
+    "held_minutes": 80.9,
+    "exit_reason": "stop-loss atingido (-8.6%)",
+    "pnl_pct": -8.57,
+    "pnl_eur": -2.2,
+    "entry_score": 93.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 5435460,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 11.8,
+    "entry_chg_24h": 81.64311,
+    "entry_chg_7d": 53.4,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.679642339572343,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "CONX (cex_small_cap) perdeu -8.6% em 81 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 93 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
