@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1789049034.6380584,
   "end_ts": 1789913034.6380584,
-  "cash_eur": 42.659057494745085,
+  "cash_eur": 0.0,
   "starting_balance_eur": 100,
   "positions": {
     "cex_small_cap:niu-lai": {
@@ -15,7 +15,7 @@
       "entry_price_eur": 0.0964567888869484,
       "entry_ts": 1789066603.0462208,
       "cost_eur": 22.23956628890855,
-      "last_price_eur": 0.11114489685455649,
+      "last_price_eur": 0.1122528831521388,
       "last_score": 94.2,
       "missed_updates": 0,
       "entry_score": 89.0,
@@ -40,8 +40,8 @@
       "entry_price_eur": 0.03151302460530569,
       "entry_ts": 1789094739.841335,
       "cost_eur": 23.43946986138541,
-      "last_price_eur": 0.032105300927952087,
-      "last_score": 53.0,
+      "last_price_eur": 0.03315117175313831,
+      "last_score": 55.3,
       "missed_updates": 0,
       "entry_score": 82.3,
       "entry_liquidity_usd": null,
@@ -52,6 +52,56 @@
       "entry_chg_7d": 251.5,
       "entry_chg_6h": null,
       "entry_turnover": 2.3775436119705122,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null
+    },
+    "cex_small_cap:the-juggernaut": {
+      "tier": "cex_small_cap",
+      "id": "the-juggernaut",
+      "symbol": "JUGGERNAUT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/the-juggernaut",
+      "qty": 2283.4971530880243,
+      "entry_price_eur": 0.010203491957463114,
+      "entry_ts": 1789115575.9361675,
+      "cost_eur": 23.299644836423575,
+      "last_price_eur": 0.010203491957463114,
+      "last_score": 99.9,
+      "missed_updates": 0,
+      "entry_score": 99.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 40454260,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 12.0,
+      "entry_chg_24h": 404.69949,
+      "entry_chg_7d": 139.1,
+      "entry_chg_6h": null,
+      "entry_turnover": 3.4369062774918238,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null
+    },
+    "cex_small_cap:gaib": {
+      "tier": "cex_small_cap",
+      "id": "gaib",
+      "symbol": "GAIB",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/gaib",
+      "qty": 654.5756071223793,
+      "entry_price_eur": 0.029575518011477134,
+      "entry_ts": 1789115575.9361675,
+      "cost_eur": 19.35941265832151,
+      "last_price_eur": 0.029575518011477134,
+      "last_score": 84.7,
+      "missed_updates": 0,
+      "entry_score": 84.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 4368443,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.2,
+      "entry_chg_24h": 129.27944,
+      "entry_chg_7d": 160.7,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.6213853810300666,
       "entry_vol_liq_ratio": null,
       "entry_boosted": null
     }
@@ -275,5 +325,5 @@
       "pnl_pct": -17.739935715334106
     }
   ],
-  "last_run_ts": 1789114673.1555448
+  "last_run_ts": 1789115575.9361675
 }
