@@ -1246,5 +1246,30 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "muito rápida (<1h)",
     "licao": "PURPS (cex_small_cap) perdeu -17.7% em 52 min (muito rápida (<1h)) — stop-loss atingido. Score na entrada: 81 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789145341.2535517,
+    "symbol": "OTC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/otc",
+    "held_minutes": 166.3,
+    "exit_reason": "stop-loss atingido (-29.3%)",
+    "pnl_pct": -29.32,
+    "pnl_eur": -7.73,
+    "entry_score": 95.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 9403414,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 10.5,
+    "entry_chg_24h": 37.9489,
+    "entry_chg_7d": 428.8,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.806076121678447,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "OTC (cex_small_cap) perdeu -29.3% em 166 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 96 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
