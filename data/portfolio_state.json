@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1789049034.6380584,
   "end_ts": 1789913034.6380584,
-  "cash_eur": 21.747643165350816,
+  "cash_eur": 0.0,
   "starting_balance_eur": 100,
   "positions": {
     "cex_small_cap:bifrost": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.03151302460530569,
       "entry_ts": 1789094739.841335,
       "cost_eur": 23.43946986138541,
-      "last_price_eur": 0.030356564815312584,
-      "last_score": 34.1,
+      "last_price_eur": 0.030451575243427256,
+      "last_score": 41.0,
       "missed_updates": 0,
       "entry_score": 82.3,
       "entry_liquidity_usd": null,
@@ -40,8 +40,8 @@
       "entry_price_eur": 0.039760474506794166,
       "entry_ts": 1789135365.0372083,
       "cost_eur": 26.3615132768145,
-      "last_price_eur": 0.038541315758613935,
-      "last_score": 71.7,
+      "last_price_eur": 0.047456144606104346,
+      "last_score": 99.5,
       "missed_updates": 0,
       "entry_score": 98.7,
       "entry_liquidity_usd": null,
@@ -65,8 +65,8 @@
       "entry_price_eur": 0.11207885298815128,
       "entry_ts": 1789135365.0372083,
       "cost_eur": 26.3615132768145,
-      "last_price_eur": 0.10609938960575613,
-      "last_score": 51.4,
+      "last_price_eur": 0.10408060038161165,
+      "last_score": 47.4,
       "missed_updates": 0,
       "entry_score": 83.1,
       "entry_liquidity_usd": null,
@@ -77,6 +77,31 @@
       "entry_chg_7d": 29.7,
       "entry_chg_6h": null,
       "entry_turnover": 0.6767897509460095,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null
+    },
+    "cex_small_cap:heyanon": {
+      "tier": "cex_small_cap",
+      "id": "heyanon",
+      "symbol": "ANON",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/heyanon",
+      "qty": 53.04522240458623,
+      "entry_price_eur": 0.40998307066143136,
+      "entry_ts": 1789153111.5132334,
+      "cost_eur": 21.747643165350816,
+      "last_price_eur": 0.40998307066143136,
+      "last_score": 88.3,
+      "missed_updates": 0,
+      "entry_score": 88.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 3137462,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 49.6,
+      "entry_chg_24h": 118.28897,
+      "entry_chg_7d": 113.7,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.431558052791984,
       "entry_vol_liq_ratio": null,
       "entry_boosted": null
     }
@@ -424,5 +449,5 @@
       "pnl_pct": -29.316488984595168
     }
   ],
-  "last_run_ts": 1789145341.2535517
+  "last_run_ts": 1789153111.5132334
 }
