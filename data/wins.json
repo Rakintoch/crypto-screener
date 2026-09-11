@@ -396,5 +396,29 @@
     "entry_boosted": null,
     "categoria": "take-profit direto",
     "nota": "DREGG (cex_small_cap) ganhou +29.2% em 102 min — take-profit direto. Score na entrada: 91. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789131160.20502,
+    "symbol": "GAIB",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/gaib",
+    "held_minutes": 259.7,
+    "exit_reason": "take-profit atingido após vigilância de 5 min (pico +22.3% desde a entrada)",
+    "pnl_pct": 22.21,
+    "pnl_eur": 4.3,
+    "entry_score": 84.7,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 4368443,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.2,
+    "entry_chg_24h": 129.27944,
+    "entry_chg_7d": 160.7,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.6213853810300666,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "categoria": "take-profit direto",
+    "nota": "GAIB (cex_small_cap) ganhou +22.2% em 260 min — take-profit direto. Score na entrada: 85. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
