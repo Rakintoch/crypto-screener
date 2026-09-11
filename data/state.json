@@ -29,11 +29,6 @@
     "last_score": 78.2,
     "symbol": "FLOCK"
   },
-  "dex_micro_cap:EEpng77ZPn9FbgbT4xsRjwuxNCcMBYq3HTwEscyTpump": {
-    "last_alert_ts": 1788820228.5652146,
-    "last_score": 72.4,
-    "symbol": "HeeHaw"
-  },
   "cex_small_cap:fuse-network-token": {
     "last_alert_ts": 1788856452.4803405,
     "last_score": 65.2,
@@ -80,14 +75,9 @@
     "symbol": "牛来"
   },
   "cex_small_cap:kiichain": {
-    "last_alert_ts": 1789049034.0529025,
-    "last_score": 60.5,
+    "last_alert_ts": 1789094739.3183305,
+    "last_score": 58.9,
     "symbol": "KII"
-  },
-  "cex_small_cap:pair": {
-    "last_alert_ts": 1788820228.5652146,
-    "last_score": 55.5,
-    "symbol": "PAIR"
   },
   "cex_small_cap:chromaway": {
     "last_alert_ts": 1788962996.0888145,
@@ -164,11 +154,6 @@
     "last_score": 70.3,
     "symbol": "CAT"
   },
-  "cex_small_cap:doodles": {
-    "last_alert_ts": 1788820228.5652146,
-    "last_score": 58.6,
-    "symbol": "DOOD"
-  },
   "cex_small_cap:iostoken": {
     "last_alert_ts": 1788992120.976181,
     "last_score": 99.6,
@@ -209,11 +194,6 @@
     "last_score": 70.6,
     "symbol": "TSUKI"
   },
-  "cex_small_cap:orca": {
-    "last_alert_ts": 1788820228.5652146,
-    "last_score": 58.6,
-    "symbol": "ORCA"
-  },
   "cex_small_cap:stonkdex": {
     "last_alert_ts": 1789029511.862756,
     "last_score": 55.4,
@@ -223,11 +203,6 @@
     "last_alert_ts": 1788962996.0888145,
     "last_score": 83.6,
     "symbol": "PHA"
-  },
-  "cex_small_cap:moonkey": {
-    "last_alert_ts": 1788820228.5652146,
-    "last_score": 89.8,
-    "symbol": "MOONKEY"
   },
   "cex_small_cap:arcium": {
     "last_alert_ts": 1788922243.947223,
@@ -303,21 +278,6 @@
     "last_alert_ts": 1788835869.6750355,
     "last_score": 88.6,
     "symbol": "XDOG"
-  },
-  "cex_small_cap:unipcs": {
-    "last_alert_ts": 1788820228.5652146,
-    "last_score": 79.2,
-    "symbol": "UNIPCS"
-  },
-  "cex_small_cap:lady-exchange": {
-    "last_alert_ts": 1788820228.5652146,
-    "last_score": 76.5,
-    "symbol": "LDX"
-  },
-  "cex_small_cap:voxies": {
-    "last_alert_ts": 1788820228.5652146,
-    "last_score": 76.0,
-    "symbol": "VOXEL"
   },
   "cex_small_cap:peaq-2": {
     "last_alert_ts": 1788922243.947223,
@@ -590,8 +550,8 @@
     "symbol": "OXT"
   },
   "cex_small_cap:katana-network-token": {
-    "last_alert_ts": 1789049034.0529025,
-    "last_score": 55.8,
+    "last_alert_ts": 1789094739.3183305,
+    "last_score": 56.2,
     "symbol": "KAT"
   },
   "cex_small_cap:fatcoin-2": {
@@ -695,8 +655,8 @@
     "symbol": "CRACKTOP"
   },
   "cex_small_cap:siacoin": {
-    "last_alert_ts": 1788992120.976181,
-    "last_score": 78.0,
+    "last_alert_ts": 1789094739.3183305,
+    "last_score": 70.6,
     "symbol": "SC"
   },
   "cex_small_cap:superform": {
@@ -830,8 +790,8 @@
     "symbol": "DEBIT"
   },
   "cex_small_cap:selfmade-by-sp3nd": {
-    "last_alert_ts": 1789029511.862756,
-    "last_score": 84.4,
+    "last_alert_ts": 1789094739.3183305,
+    "last_score": 70.0,
     "symbol": "MADE"
   },
   "cex_small_cap:bifrost": {
@@ -875,8 +835,8 @@
     "symbol": "ORDER"
   },
   "cex_small_cap:the-juggernaut": {
-    "last_alert_ts": 1789049034.0529025,
-    "last_score": 70.7,
+    "last_alert_ts": 1789094739.3183305,
+    "last_score": 69.9,
     "symbol": "JUGGERNAUT"
   },
   "cex_small_cap:spacex-robinhood-tokenized-stock": {
@@ -885,8 +845,8 @@
     "symbol": "SPCX"
   },
   "cex_small_cap:nesa": {
-    "last_alert_ts": 1789049034.0529025,
-    "last_score": 66.0,
+    "last_alert_ts": 1789094739.3183305,
+    "last_score": 62.9,
     "symbol": "NES"
   },
   "cex_small_cap:stonkbroker": {
@@ -1028,5 +988,30 @@
     "last_alert_ts": 1789078529.3827746,
     "last_score": 55.2,
     "symbol": "SHROOM"
+  },
+  "cex_small_cap:purps": {
+    "last_alert_ts": 1789094739.3183305,
+    "last_score": 81.1,
+    "symbol": "PURPS"
+  },
+  "cex_small_cap:raydium-cat": {
+    "last_alert_ts": 1789094739.3183305,
+    "last_score": 77.4,
+    "symbol": "RAYCAT"
+  },
+  "cex_small_cap:lisk": {
+    "last_alert_ts": 1789094739.3183305,
+    "last_score": 61.8,
+    "symbol": "LSK"
+  },
+  "cex_small_cap:greatest-meme-ever": {
+    "last_alert_ts": 1789094739.3183305,
+    "last_score": 56.7,
+    "symbol": "GME"
+  },
+  "cex_small_cap:theta-fuel": {
+    "last_alert_ts": 1789094739.3183305,
+    "last_score": 55.2,
+    "symbol": "TFUEL"
   }
 }
