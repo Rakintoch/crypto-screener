@@ -516,5 +516,29 @@
     "entry_boosted": null,
     "categoria": "take-profit direto",
     "nota": "LSK (cex_small_cap) ganhou +44.3% em 772 min — take-profit direto. Score na entrada: 83. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789201291.3182688,
+    "symbol": "STORJ",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/storj",
+    "held_minutes": 326.7,
+    "exit_reason": "trailing stop — recuou até ao valor-alvo (+19.7%) depois de um pico de +20.4%",
+    "pnl_pct": 19.68,
+    "pnl_eur": 5.39,
+    "entry_score": 99.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 88371464,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 8.1,
+    "entry_chg_24h": 111.7224,
+    "entry_chg_7d": 113.5,
+    "entry_chg_6h": null,
+    "entry_turnover": 3.4863974953586157,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "categoria": "trailing stop apanhou subida extra após o alvo",
+    "nota": "STORJ (cex_small_cap) ganhou +19.7% em 327 min — trailing stop apanhou subida extra após o alvo. Score na entrada: 99. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
