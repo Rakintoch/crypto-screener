@@ -1346,5 +1346,30 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "Stunk (dex_micro_cap) perdeu -26.0% em 491 min (lenta (>6h)) — stop-loss atingido. Liquidez na entrada: $141,412. Score na entrada: 88 (mínimo exigido para comprar: 65). Segurança na entrada: sem red flags óbvias."
+  },
+  {
+    "closed_ts": 1789210972.8068812,
+    "symbol": "CATAI",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://www.geckoterminal.com/solana/pools/HKPrXoz4EqJ5HU9m9PmTTTxSRwoB2Hbknd6UqUTsf2Yt",
+    "held_minutes": 161.4,
+    "exit_reason": "stop-loss atingido (-20.3%)",
+    "pnl_pct": -20.27,
+    "pnl_eur": -2.71,
+    "entry_score": 78.6,
+    "entry_liquidity_usd": 86182.5689,
+    "entry_volume_24h_usd": 2534273.03134844,
+    "entry_security_notes": "sem red flags óbvias",
+    "entry_chg_1h": 21.984,
+    "entry_chg_24h": 1556.747,
+    "entry_chg_7d": null,
+    "entry_chg_6h": -4.441,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 29.405865521240454,
+    "entry_boosted": true,
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "rápida (1-6h)",
+    "licao": "CATAI (dex_micro_cap) perdeu -20.3% em 161 min (rápida (1-6h)) — stop-loss atingido. Liquidez na entrada: $86,183. Score na entrada: 79 (mínimo exigido para comprar: 65). Segurança na entrada: sem red flags óbvias."
   }
 ]

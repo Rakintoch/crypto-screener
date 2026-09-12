@@ -540,5 +540,29 @@
     "entry_boosted": null,
     "categoria": "trailing stop apanhou subida extra após o alvo",
     "nota": "STORJ (cex_small_cap) ganhou +19.7% em 327 min — trailing stop apanhou subida extra após o alvo. Score na entrada: 99. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789210972.8068812,
+    "symbol": "revolve",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://www.geckoterminal.com/solana/pools/zf7uTK56DM7en5KXNvtPD9AT66BamJb6DfZuqBhVgBr",
+    "held_minutes": 161.4,
+    "exit_reason": "trailing stop atingido — caiu 8.2% desde o pico (pico +121.1% desde a entrada)",
+    "pnl_pct": 103.01,
+    "pnl_eur": 13.78,
+    "entry_score": 82.9,
+    "entry_liquidity_usd": 44273.6395,
+    "entry_volume_24h_usd": 1074144.40131339,
+    "entry_security_notes": "sem red flags óbvias",
+    "entry_chg_1h": 30.97,
+    "entry_chg_24h": 542.951,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 542.951,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 24.26148862944484,
+    "entry_boosted": false,
+    "categoria": "trailing stop apanhou subida extra após o alvo",
+    "nota": "revolve (dex_micro_cap) ganhou +103.0% em 161 min — trailing stop apanhou subida extra após o alvo. Liquidez na entrada: $44,274. Score na entrada: 83. Segurança na entrada: sem red flags óbvias."
   }
 ]
