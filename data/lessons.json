@@ -1371,5 +1371,30 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "CATAI (dex_micro_cap) perdeu -20.3% em 161 min (rápida (1-6h)) — stop-loss atingido. Liquidez na entrada: $86,183. Score na entrada: 79 (mínimo exigido para comprar: 65). Segurança na entrada: sem red flags óbvias."
+  },
+  {
+    "closed_ts": 1789219311.7364416,
+    "symbol": "OTC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/otc",
+    "held_minutes": 627.1,
+    "exit_reason": "stop-loss atingido (-8.4%)",
+    "pnl_pct": -8.39,
+    "pnl_eur": -2.3,
+    "entry_score": 92.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 6412952,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 9.6,
+    "entry_chg_24h": 46.91243,
+    "entry_chg_7d": 482.2,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.6417257337948029,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "OTC (cex_small_cap) perdeu -8.4% em 627 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 93 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
