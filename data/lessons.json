@@ -1396,5 +1396,32 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "lenta (>6h)",
     "licao": "OTC (cex_small_cap) perdeu -8.4% em 627 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 93 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789231439.8467884,
+    "symbol": "BFC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/bifrost",
+    "held_minutes": 2278.3,
+    "exit_reason": "stop-loss atingido (-8.3%)",
+    "pnl_pct": -8.33,
+    "pnl_eur": -1.95,
+    "entry_score": 82.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 120984980,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 0.9,
+    "entry_chg_24h": 239.34559,
+    "entry_chg_7d": 251.5,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.3775436119705122,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "BFC (cex_small_cap) perdeu -8.3% em 2278 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 82 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
