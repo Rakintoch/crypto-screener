@@ -98,6 +98,10 @@ def record_if_win(trade):
         "entry_turnover": trade.get("entry_turnover"),
         "entry_vol_liq_ratio": trade.get("entry_vol_liq_ratio"),
         "entry_boosted": trade.get("entry_boosted"),
+        # Adicionado 2026-09-12 junto com o sinal de base_breakout (ver scoring.py/config.py)
+        # — mesma lógica dos restantes "entry_*": guardar o sinal bruto, não só o score final.
+        "entry_pool_age_minutes": trade.get("entry_pool_age_minutes"),
+        "entry_base_breakout": trade.get("entry_base_breakout"),
         "categoria": categoria,
     }
     entry["nota"] = _build_note(trade, categoria, held_minutes)
