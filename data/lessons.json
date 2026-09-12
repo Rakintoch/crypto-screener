@@ -1450,5 +1450,32 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "ANON (cex_small_cap) perdeu -11.8% em 142 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 94 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789243700.8580508,
+    "symbol": "KINS",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/kintara",
+    "held_minutes": 406.5,
+    "exit_reason": "stop-loss atingido (-8.6%)",
+    "pnl_pct": -8.55,
+    "pnl_eur": -2.58,
+    "entry_score": 85.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1206617,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.0,
+    "entry_chg_24h": 11.50575,
+    "entry_chg_7d": 46.2,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.8962773741062237,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "KINS (cex_small_cap) perdeu -8.6% em 406 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 85 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
