@@ -1321,5 +1321,30 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "CONX (cex_small_cap) perdeu -8.6% em 81 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 93 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789194229.49312,
+    "symbol": "Stunk",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://www.geckoterminal.com/solana/pools/8Tfvhwk6swWCjo7DNKrp89wWqrTdj6o9HBoDhfXT2dy6",
+    "held_minutes": 490.9,
+    "exit_reason": "stop-loss atingido (-26.0%)",
+    "pnl_pct": -25.96,
+    "pnl_eur": -3.2,
+    "entry_score": 88.0,
+    "entry_liquidity_usd": 141412.1105,
+    "entry_volume_24h_usd": 2617210.78799933,
+    "entry_security_notes": "sem red flags óbvias",
+    "entry_chg_1h": 13.406,
+    "entry_chg_24h": 2345.776,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 2345.776,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 18.50768494116584,
+    "entry_boosted": true,
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "Stunk (dex_micro_cap) perdeu -26.0% em 491 min (lenta (>6h)) — stop-loss atingido. Liquidez na entrada: $141,412. Score na entrada: 88 (mínimo exigido para comprar: 65). Segurança na entrada: sem red flags óbvias."
   }
 ]
