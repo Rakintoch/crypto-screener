@@ -38,7 +38,22 @@ GOPLUS_EVM_CHAIN_IDS = {
 # --- Scoring ---
 # Pesos (0-1) por componente, dentro de cada camada
 CEX_WEIGHTS = {"chg_1h": 0.30, "chg_24h": 0.30, "turnover": 0.25, "chg_7d": 0.15}
-DEX_WEIGHTS = {"chg_1h": 0.35, "chg_6h": 0.20, "vol_liq_ratio": 0.30, "boosted_bonus": 0.15}
+# Autoanálise 2026-09-12: EMBER, CME e UP (candidatos DEX trazidos pelo Ricardo) tinham em
+# comum uma "base" relativamente calma antes da rutura de preço — diferente de um pump que
+# É o próprio nascimento do token (ex. BNC4, sem qualquer base antes de rebentar e morrer
+# em seguida). O scoring atual não distinguia os dois casos: tratava chg_1h/chg_6h da mesma
+# forma quer já houvesse uma base estável antes, quer não. "base_breakout" dá um bónus a
+# candidatos com uma base calma comprovada seguida de uma rutura real, e nenhum bónus a
+# quem rebenta logo à nascença (ver scoring.detect_base_breakout). Isto NÃO separa vencedores
+# de perdedores dentro da categoria "rutura genuína" (isso continua a cargo do trailing
+# stop/stop-loss na saída) — só amplia a deteção desta categoria, hoje ignorada.
+DEX_WEIGHTS = {"chg_1h": 0.25, "chg_6h": 0.15, "vol_liq_ratio": 0.25, "boosted_bonus": 0.10, "base_breakout": 0.25}
+
+# --- Sinal de "base estável seguida de rutura" (dex_micro_cap) ---
+# Usa dados já recolhidos (chg_6h, chg_24h) — sem chamadas extra à API.
+DEX_BREAKOUT_MIN_POOL_AGE_HOURS = 24        # sem isto, o chg_24h nem reflete histórico real
+DEX_BREAKOUT_MAX_PRE_WINDOW_MOVE_PCT = 25   # variação implícita nas ~18h antes da rutura tem de ser < 25%
+DEX_BREAKOUT_MIN_RECENT_MOVE_PCT = 20       # chg_6h mínimo para contar como rutura real, não ruído
 
 MIN_SCORE_TO_ALERT = 55         # 0-100
 TOP_N_PER_TIER = 5
@@ -129,12 +144,21 @@ TAKE_PROFIT_PCT = {"cex_small_cap": 0.20, "dex_micro_cap": 0.40}
 STOP_LOSS_PCT = {"cex_small_cap": -0.08, "dex_micro_cap": -0.20}
 
 # --- Trailing stop após atingir o take-profit ---
-# Em vez de vender assim que o valor-alvo é atingido, vigia o preço durante uma janela curta
-# para tentar apanhar mais da subida, mas vende ao primeiro sinal real de reversão.
+# Em vez de vender assim que o valor-alvo é atingido, continua a vigiar o preço para tentar
+# apanhar mais da subida, mas vende ao primeiro sinal real de reversão.
+#
+# Autoanálise 2026-09-12: o desenho original vigiava só TRAILING_STOP_WINDOW_SECONDS (5 min)
+# bloqueantes logo a seguir ao primeiro toque no take-profit, e fechava a posição incondicio-
+# nalmente no fim dessa janela — mesmo que o preço continuasse a subir com força. Numa corrida
+# sustentada (ex.: um token que continua a subir horas a fio depois do alvo, +2000% num dia),
+# isto venderia quase no início do movimento, perdendo a maior parte do lucro potencial. Agora
+# o pico é persistido na própria posição (`trailing_active`/`trailing_peak_eur`) e reavaliado
+# em CADA corrida (screener principal a cada 2h, monitor leve a cada poucos minutos via
+# bot_listener.yml), sem prazo fixo — só fecha quando há um recuo real desde o pico mais alto
+# já visto. Isto também elimina o time.sleep() bloqueante que existia dentro do próprio ciclo
+# do screener (até 5 min por posição a atingir o alvo na mesma corrida).
 TRAILING_STOP_ENABLED = True
-TRAILING_STOP_WINDOW_SECONDS = 300          # vigia durante 5 minutos após atingir o alvo
-TRAILING_STOP_CHECK_INTERVAL_SECONDS = 60   # verifica a cada 60s (5 verificações na janela)
-TRAILING_STOP_DRAWDOWN_PCT = 0.07           # vende se cair 7% desde o pico visto na vigilância
+TRAILING_STOP_DRAWDOWN_PCT = 0.07           # vende se cair 7% desde o pico mais alto já visto
 
 # --- Monitor leve de posições (position_monitor.py, correndo dentro do bot_listener.yml) ---
 # Reavalia posições abertas e verifica saídas com muito mais frequência do que o screener
