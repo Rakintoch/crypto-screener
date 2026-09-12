@@ -564,5 +564,31 @@
     "entry_boosted": false,
     "categoria": "trailing stop apanhou subida extra após o alvo",
     "nota": "revolve (dex_micro_cap) ganhou +103.0% em 161 min — trailing stop apanhou subida extra após o alvo. Liquidez na entrada: $44,274. Score na entrada: 83. Segurança na entrada: sem red flags óbvias."
+  },
+  {
+    "closed_ts": 1789256639.2979603,
+    "symbol": "DREGG",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/dregg",
+    "held_minutes": 215.6,
+    "exit_reason": "trailing stop atingido — caiu 9.8% desde o pico (pico +50.8% desde a entrada)",
+    "pnl_pct": 36.0,
+    "pnl_eur": 8.74,
+    "entry_score": 82.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 247558,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 17.5,
+    "entry_chg_24h": 49.92095,
+    "entry_chg_7d": 603.9,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.17350781443288854,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop apanhou subida extra após o alvo",
+    "nota": "DREGG (cex_small_cap) ganhou +36.0% em 216 min — trailing stop apanhou subida extra após o alvo. Score na entrada: 82. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
