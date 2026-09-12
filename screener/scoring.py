@@ -42,6 +42,54 @@ def score_cex_candidate(c):
     return round(_clamp(score, 0, 100), 1)
 
 
+def _implied_pre_window_move_pct(chg_6h, chg_24h):
+    """
+    Aproxima a variação de preço que já tinha acontecido ANTES da janela de rutura (as
+    últimas 6h), a partir de dois valores já recolhidos (chg_6h, chg_24h), sem OHLCV extra:
+
+        P_agora / P_há_6h  = 1 + chg_6h/100
+        P_agora / P_há_24h = 1 + chg_24h/100
+        => P_há_6h / P_há_24h = (1 + chg_24h/100) / (1 + chg_6h/100)
+
+    Um resultado próximo de 0% indica pouca variação nas ~18h antes da janela recente (uma
+    "base" calma); um valor grande indica que o movimento principal já tinha acontecido antes
+    da fotografia atual (rutura "stale", já em reversão).
+    """
+    if chg_6h is None or chg_24h is None:
+        return None
+    denom = 1 + chg_6h / 100
+    if denom == 0:
+        return None
+    return ((1 + chg_24h / 100) / denom - 1) * 100
+
+
+def detect_base_breakout(c):
+    """
+    Autoanálise 2026-09-12: distingue uma rutura genuína (preço relativamente estável antes,
+    rutura de preço agora — ex. EMBER/CME/UP trazidos pelo Ricardo) de um pump que É o próprio
+    nascimento do token (ex. BNC4 — sobe quase verticalmente nos primeiros candles de vida e
+    não tem qualquer "base" prévia para medir). Não prevê se a rutura vai sustentar-se ou
+    reverter (isso fica a cargo do stop-loss/trailing stop na saída) — só identifica a forma
+    do movimento, para o score deixar de tratar as duas situações da mesma maneira.
+
+    Devolve None quando não há histórico suficiente para confiar no chg_24h (pool demasiado
+    nova), ou {"is_breakout": bool, "pre_window_move_pct": float} caso contrário.
+    """
+    age = c.get("pool_age_minutes")
+    if age is None or age < config.DEX_BREAKOUT_MIN_POOL_AGE_HOURS * 60:
+        return None
+
+    pre_move = _implied_pre_window_move_pct(c.get("chg_6h"), c.get("chg_24h"))
+    if pre_move is None:
+        return None
+
+    is_breakout = (
+        abs(pre_move) <= config.DEX_BREAKOUT_MAX_PRE_WINDOW_MOVE_PCT
+        and (c.get("chg_6h") or 0) >= config.DEX_BREAKOUT_MIN_RECENT_MOVE_PCT
+    )
+    return {"is_breakout": is_breakout, "pre_window_move_pct": round(pre_move, 1)}
+
+
 def score_dex_candidate(c):
     w = config.DEX_WEIGHTS
     liq = c.get("liquidity_usd") or 0
@@ -53,11 +101,16 @@ def score_dex_candidate(c):
     s_vol_liq = _sigmoid_scale(vol_liq_ratio, midpoint=1.5, steepness=1.2)
     s_boosted = 100 if c.get("boosted") else 0
 
+    breakout = detect_base_breakout(c)
+    c["base_breakout"] = breakout  # guardado para auditoria/telegram, não só para o score
+    s_base_breakout = 100 if (breakout and breakout["is_breakout"]) else 0
+
     score = (
         w["chg_1h"] * s_1h
         + w["chg_6h"] * s_6h
         + w["vol_liq_ratio"] * s_vol_liq
         + w["boosted_bonus"] * s_boosted
+        + w["base_breakout"] * s_base_breakout
     )
 
     # penalização leve se a segurança não foi confirmada (não elimina, apenas desconta)
