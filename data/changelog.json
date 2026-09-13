@@ -51,6 +51,6 @@
     "mudanca": "screener/portfolio.py: nova função _robustness_proxy() usada no sort de _check_entries() -- mantém liquidity_usd quando existe (DEX) e usa volume_24h como proxy de robustez/liquidez quando liquidity_usd é None (CEX). Também corrigido um teste desatualizado em tests/test_portfolio_offline.py (Corrida 2b, escrito para o antigo trailing stop bloqueante) e adicionado um novo teste (Corrida 2c-ter) que cobre o desempate com dados no formato real do tier CEX.",
     "efeito_esperado": "O desempate por robustez/liquidez acima do teto de score 90 passa a ter efeito real na maioria das entradas (tier CEX), reduzindo a preferência cega pelo candidato mais esticado quando vários passam o limiar ao mesmo tempo.",
     "num_trades_fechados_ate_aqui": 25,
-    "announced": false
+    "announced": true
   }
 ]
