@@ -1504,5 +1504,32 @@
     "categoria": "tese de momentum invalidada (score caiu)",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "CREO (cex_small_cap) perdeu -1.6% em 180 min (rápida (1-6h)) — tese de momentum invalidada (score caiu). Score na entrada: 90 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789308266.044106,
+    "symbol": "MTL",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/metal",
+    "held_minutes": 860.4,
+    "exit_reason": "stop-loss atingido (-9.3%)",
+    "pnl_pct": -9.25,
+    "pnl_eur": -2.55,
+    "entry_score": 89.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 47582903,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.6,
+    "entry_chg_24h": 29.86804,
+    "entry_chg_7d": 28.3,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.5711488564464353,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss atingido",
+    "velocidade_queda": "lenta (>6h)",
+    "licao": "MTL (cex_small_cap) perdeu -9.3% em 860 min (lenta (>6h)) — stop-loss atingido. Score na entrada: 90 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]

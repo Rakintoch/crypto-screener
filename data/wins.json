@@ -590,5 +590,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop apanhou subida extra após o alvo",
     "nota": "DREGG (cex_small_cap) ganhou +36.0% em 216 min — trailing stop apanhou subida extra após o alvo. Score na entrada: 82. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789308266.044106,
+    "symbol": "LSK",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/lisk",
+    "held_minutes": 1482.6,
+    "exit_reason": "trailing stop atingido — caiu 15.5% desde o pico (pico +385.0% desde a entrada)",
+    "pnl_pct": 310.05,
+    "pnl_eur": 93.63,
+    "entry_score": 96.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 137668502,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.1,
+    "entry_chg_24h": 79.25572,
+    "entry_chg_7d": 113.4,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.5171268144737957,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop apanhou subida extra após o alvo",
+    "nota": "LSK (cex_small_cap) ganhou +310.0% em 1483 min — trailing stop apanhou subida extra após o alvo. Score na entrada: 97. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
   }
 ]
