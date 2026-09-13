@@ -190,8 +190,8 @@
     "symbol": "PERPSHOOD"
   },
   "cex_small_cap:vethor-token": {
-    "last_alert_ts": 1789268026.1125152,
-    "last_score": 83.2,
+    "last_alert_ts": 1789324350.0601528,
+    "last_score": 83.3,
     "symbol": "VTHO"
   },
   "cex_small_cap:denar-markets": {
@@ -285,8 +285,8 @@
     "symbol": "EMBER"
   },
   "cex_small_cap:frong": {
-    "last_alert_ts": 1789268026.1125152,
-    "last_score": 62.4,
+    "last_alert_ts": 1789324350.0601528,
+    "last_score": 59.3,
     "symbol": "FRONG"
   },
   "dex_micro_cap:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
@@ -335,8 +335,8 @@
     "symbol": "PUFFER"
   },
   "cex_small_cap:saga-2": {
-    "last_alert_ts": 1789268026.1125152,
-    "last_score": 86.4,
+    "last_alert_ts": 1789324350.0601528,
+    "last_score": 58.5,
     "symbol": "SAGA"
   },
   "cex_small_cap:tung-tung-tung-sahur-2": {
@@ -670,8 +670,8 @@
     "symbol": "BPAD"
   },
   "cex_small_cap:saar": {
-    "last_alert_ts": 1789201290.7160811,
-    "last_score": 69.5,
+    "last_alert_ts": 1789324350.0601528,
+    "last_score": 81.0,
     "symbol": "SAAR"
   },
   "cex_small_cap:griffain": {
@@ -695,8 +695,8 @@
     "symbol": "CYS"
   },
   "cex_small_cap:embercurve": {
-    "last_alert_ts": 1789268026.1125152,
-    "last_score": 84.8,
+    "last_alert_ts": 1789324350.0601528,
+    "last_score": 57.3,
     "symbol": "EMBER"
   },
   "cex_small_cap:delta": {
@@ -800,18 +800,18 @@
     "symbol": "PHA"
   },
   "cex_small_cap:power-ledger": {
-    "last_alert_ts": 1789268026.1125152,
-    "last_score": 98.0,
+    "last_alert_ts": 1789324350.0601528,
+    "last_score": 69.9,
     "symbol": "POWR"
   },
   "cex_small_cap:steem": {
-    "last_alert_ts": 1789268026.1125152,
-    "last_score": 97.7,
+    "last_alert_ts": 1789324350.0601528,
+    "last_score": 82.1,
     "symbol": "STEEM"
   },
   "cex_small_cap:ark": {
-    "last_alert_ts": 1789268026.1125152,
-    "last_score": 85.9,
+    "last_alert_ts": 1789324350.0601528,
+    "last_score": 77.8,
     "symbol": "ARK"
   },
   "cex_small_cap:civic": {
@@ -830,8 +830,8 @@
     "symbol": "BERA"
   },
   "cex_small_cap:power-protocol": {
-    "last_alert_ts": 1789268026.1125152,
-    "last_score": 64.0,
+    "last_alert_ts": 1789324350.0601528,
+    "last_score": 62.6,
     "symbol": "POWER"
   },
   "cex_small_cap:the-black-bull": {
@@ -923,5 +923,40 @@
     "last_alert_ts": 1789308265.3957274,
     "last_score": 55.0,
     "symbol": "WAXP"
+  },
+  "cex_small_cap:a-meme-coin": {
+    "last_alert_ts": 1789324350.0601528,
+    "last_score": 86.8,
+    "symbol": "AMC"
+  },
+  "cex_small_cap:zilliqa": {
+    "last_alert_ts": 1789324350.0601528,
+    "last_score": 61.8,
+    "symbol": "ZIL"
+  },
+  "cex_small_cap:cartesi": {
+    "last_alert_ts": 1789324350.0601528,
+    "last_score": 60.9,
+    "symbol": "CTSI"
+  },
+  "cex_small_cap:blorb": {
+    "last_alert_ts": 1789324350.0601528,
+    "last_score": 58.9,
+    "symbol": "BLORB"
+  },
+  "cex_small_cap:vine": {
+    "last_alert_ts": 1789324350.0601528,
+    "last_score": 58.5,
+    "symbol": "VINE"
+  },
+  "cex_small_cap:edel": {
+    "last_alert_ts": 1789324350.0601528,
+    "last_score": 57.5,
+    "symbol": "EDEL"
+  },
+  "dex_micro_cap:8XtRWb4uAAJFMP4QQhoYYCWR6XXb7ybcCdiqPwz9s5WS": {
+    "last_alert_ts": 1789324350.0601528,
+    "last_score": 57.0,
+    "symbol": "ALON"
   }
 }

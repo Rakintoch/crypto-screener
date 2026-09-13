@@ -1585,5 +1585,32 @@
     "categoria": "stop-loss atingido",
     "velocidade_queda": "rápida (1-6h)",
     "licao": "CVC (cex_small_cap) perdeu -20.6% em 217 min (rápida (1-6h)) — stop-loss atingido. Score na entrada: 100 (mínimo exigido para comprar: 65). Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789324350.6561153,
+    "symbol": "老子",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/laozi",
+    "held_minutes": 1128.5,
+    "exit_reason": "stop-loss atingido (-9.1%)",
+    "pnl_pct": -9.08,
+    "pnl_eur": -3.14,
+    "entry_score": 93.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 933780,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 9.2,
+    "entry_chg_24h": 46.22852,
+    "entry_chg_7d": 41.1,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.7365171410723187,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "老子 (cex_small_cap) lost -9.1% in 1129 min (slow (>6h)) — stop-loss hit. Entry score: 93 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
