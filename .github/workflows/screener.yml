@@ -8,6 +8,9 @@ on:
     # depois de desativar/reativar as Actions em Settings, para forçar o GitHub a
     # reconhecer o "schedule" novamente num repositório privado recente; nova tentativa
     # 2026-08-30 depois de detetado um novo hiato de ~3h sem corridas agendadas)
+    # Autoanálise 2026-09-13: novo hiato detetado nas corridas REAIS deste workflow também
+    # (v. bot_listener.yml para o detalhe) — corridas do Crypto Screener espaçadas ~4-5h em
+    # vez de a cada 2h. Nudge de reativação igual ao aplicado no bot_listener.yml.
     - cron: "0 */2 * * *"
   workflow_dispatch: {}   # permite correr manualmente a partir do separador "Actions" no GitHub
 
