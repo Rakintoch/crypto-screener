@@ -4,6 +4,7 @@ import time
 import requests
 
 from . import config
+from . import fx
 
 TELEGRAM_API = "https://api.telegram.org/bot{token}/sendMessage"
 
@@ -79,14 +80,30 @@ def build_message(cex_top, dex_top):
     return "\n".join(lines)
 
 
-def _fmt_eur(v):
-    return f"€{v:,.2f}".replace(",", " ")
+def _fmt_usd_amount(v):
+    """Formata um valor monetário do desafio (saldo, custo, proventos — não um preço unitário
+    de mercado) em dólares, com separador de milhares. A contabilidade interna do desafio
+    continua em EUR (ver fx.py) — isto é só para a apresentação (pedido do Ricardo 2026-09-13:
+    mostrar tudo em $ nas mensagens do Telegram)."""
+    return f"${v:,.2f}".replace(",", " ")
 
 
-def format_portfolio_message(state, actions):
-    """Mensagem de estado do desafio de portfólio virtual (100% simulado, dados reais)."""
+def _eur_rate_for(state, eur_rate):
+    """Taxa USD->EUR a usar na conversão para apresentação: a da corrida atual quando
+    disponível (main.py/position_monitor.py já a têm fresca), senão a última guardada no
+    estado (usada pelo /status, que não volta a chamar a API de câmbio), senão o fallback
+    fixo de fx.py."""
+    return eur_rate or state.get("last_eur_rate") or fx.FALLBACK_USD_TO_EUR
+
+
+def format_portfolio_message(state, actions, eur_rate=None):
+    """Mensagem de estado do desafio de portfólio virtual (100% simulado, dados reais).
+    Todos os valores são apresentados em USD ($) — a contabilidade interna continua em EUR,
+    a conversão é só para a mensagem (pedido do Ricardo 2026-09-13)."""
     if state["status"] == "not_started":
         return None  # ainda não há nada para reportar
+
+    rate = _eur_rate_for(state, eur_rate)
 
     lines = ["💼 *Virtual Portfolio Challenge (100% simulated, real data)*"]
 
@@ -102,17 +119,22 @@ def format_portfolio_message(state, actions):
     pnl = equity - state["starting_balance_eur"]
     pnl_pct = pnl / state["starting_balance_eur"] * 100
 
-    lines.append(f"💰 *Total Balance: {_fmt_eur(equity)}* ({pnl:+.2f} EUR, {pnl_pct:+.1f}% since inception)")
     lines.append(
-        f"   ↳ Free cash: {_fmt_eur(state['cash_eur'])} + "
-        f"Open positions ({len(state['positions'])}): {_fmt_eur(open_value)}"
+        f"💰 *Total Balance: {_fmt_usd_amount(equity / rate)}* "
+        f"({pnl / rate:+.2f} USD, {pnl_pct:+.1f}% since inception)"
+    )
+    lines.append(
+        f"   ↳ Free cash: {_fmt_usd_amount(state['cash_eur'] / rate)} + "
+        f"Open positions ({len(state['positions'])}): {_fmt_usd_amount(open_value / rate)}"
     )
     if state.get("capital_protection_active"):
         lines.append("   🛑 Capital protection active — no new entries until the challenge ends")
 
     for key, pos in state["positions"].items():
         chg = (pos.get("last_price_eur", pos["entry_price_eur"]) / pos["entry_price_eur"] - 1) * 100
-        lines.append(f"   • {pos['symbol']} ({pos['tier']}): {chg:+.1f}% since entry")
+        mcap = pos.get("last_market_cap")
+        mc_part = f" | MC {_fmt_usd(mcap)}" if mcap else ""
+        lines.append(f"   • {pos['symbol']} ({pos['tier']}): {chg:+.1f}% since entry{mc_part}")
 
     buys = [a for a in actions if a["action"] == "buy"]
     sells = [a for a in actions if a["action"] == "sell"]
@@ -120,23 +142,30 @@ def format_portfolio_message(state, actions):
     if buys:
         lines.append("\n🟢 *Buys this run:*")
         for a in buys:
-            lines.append(f"   {a['symbol']}: {_fmt_eur(a['cost_eur'])} at {a['entry_price_eur']:.6f} EUR/unit.")
+            lines.append(
+                f"   {a['symbol']}: {_fmt_usd_amount(a['cost_eur'] / rate)} "
+                f"at ${a['entry_price_eur'] / rate:.6f}/unit."
+            )
 
     if sells:
         lines.append("\n🔴 *Sells this run:*")
         for a in sells:
-            lines.append(f"   {a['symbol']}: {_fmt_eur(a['proceeds_eur'])} ({a['pnl_pct']:+.1f}%) — {a['exit_reason']}")
+            lines.append(
+                f"   {a['symbol']}: {_fmt_usd_amount(a['proceeds_eur'] / rate)} "
+                f"({a['pnl_pct']:+.1f}%) — {a['exit_reason']}"
+            )
 
     return "\n".join(lines)
 
 
-def format_final_report(state, report):
+def format_final_report(state, report, eur_rate=None):
+    rate = _eur_rate_for(state, eur_rate)
     lines = [
         "🏁 *CHALLENGE OVER — 10-day result*",
         "",
-        f"💶 Starting balance: {_fmt_eur(report['starting_balance_eur'])}",
-        f"💶 Final balance: {_fmt_eur(report['final_balance_eur'])}",
-        f"📊 Result: {report['pnl_eur']:+.2f} EUR ({report['pnl_pct']:+.1f}%)",
+        f"💵 Starting balance: {_fmt_usd_amount(report['starting_balance_eur'] / rate)}",
+        f"💵 Final balance: {_fmt_usd_amount(report['final_balance_eur'] / rate)}",
+        f"📊 Result: {report['pnl_eur'] / rate:+.2f} USD ({report['pnl_pct']:+.1f}%)",
         f"🔁 Total closed trades: {report['num_trades']}",
         "",
         "*Trade history:*",
