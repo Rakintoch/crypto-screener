@@ -11,6 +11,7 @@ import time
 import traceback
 
 from . import config
+from . import fx
 from . import lessons
 from . import playbook
 from . import scoring
@@ -114,6 +115,14 @@ def _reprice_positions(state, eur_rate):
         if price_usd:
             pos["last_price_eur"] = price_usd * eur_rate
 
+        # Autoanálise 2026-09-13 (pedido do Ricardo): guarda o Market Cap (ou FDV, para
+        # tokens DEX novos, como já acontece nos alertas de descoberta) devolvido pela mesma
+        # chamada que já reavalia o preço — para o mostrar no relatório do portfólio sem
+        # precisar de outra chamada à API.
+        mcap = fresh.get("market_cap")
+        if mcap:
+            pos["last_market_cap"] = mcap
+
         fresh["security"] = {"checked": True, "safe": True, "notes": "position already vetted at entry"}
         pos["last_score"] = scoring.score_cex_candidate(fresh) if pos["tier"] == "cex_small_cap" else scoring.score_dex_candidate(fresh)
 
@@ -192,11 +201,14 @@ def _check_exits(state, now, force_all=False):
 
 def _alert_capital_protection(state, equity):
     """Aviso único (não repete em cada corrida) quando o disjuntor de capital é acionado —
-    ver config.MAX_DRAWDOWN_HALT_PCT."""
+    ver config.MAX_DRAWDOWN_HALT_PCT. Mostra o valor em USD (pedido do Ricardo 2026-09-13) —
+    a contabilidade interna continua em EUR, só a apresentação muda (ver fx.py/telegram_alert.py)."""
     pnl_pct = (equity / state["starting_balance_eur"] - 1) * 100
+    rate = state.get("last_eur_rate") or fx.FALLBACK_USD_TO_EUR
+    equity_usd = equity / rate
     msg = (
         "🛑 *Capital protection activated*\n\n"
-        f"Total balance dropped to {equity:.2f}€ ({pnl_pct:+.1f}% since inception), "
+        f"Total balance dropped to ${equity_usd:,.2f} ({pnl_pct:+.1f}% since inception), "
         f"reaching the protection threshold ({config.MAX_DRAWDOWN_HALT_PCT:+.0%} of the starting balance).\n\n"
         "From now on the bot stops opening new positions — the remaining capital stays in "
         "cash, protected from further risk. Positions already open continue to be monitored "
@@ -369,6 +381,9 @@ def run_portfolio_cycle(ranked_candidates, eur_rate):
     """
     state = load_portfolio()
     now = time.time()
+    # guarda a taxa de câmbio desta corrida, para as mensagens Telegram (USD) e o /status
+    # (que não volta a chamar a API de câmbio) terem sempre uma taxa recente para converter
+    state["last_eur_rate"] = eur_rate
 
     if state["status"] == "finished":
         # desafio já terminado — não faz mais nada, apenas devolve o estado tal como está
@@ -400,6 +415,10 @@ def run_exit_check_cycle(eur_rate):
 
     if state["status"] != "active" or not state["positions"]:
         return state, [], None
+
+    # guarda a taxa de câmbio desta corrida, para as mensagens Telegram (USD) e o /status
+    # (que não volta a chamar a API de câmbio) terem sempre uma taxa recente para converter
+    state["last_eur_rate"] = eur_rate
 
     exit_actions, final_report = _process_exits(state, now, eur_rate)
 
