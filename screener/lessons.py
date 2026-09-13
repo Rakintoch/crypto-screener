@@ -37,57 +37,57 @@ def _classify(trade, held_minutes):
     pnl_pct = trade.get("pnl_pct", 0)
 
     if pnl_pct <= -80:
-        categoria = "colapso quase total (possível rug/dump)"
-    elif "sem dados de mercado" in reason:
-        categoria = "perda de liquidez/dados (possível rug)"
-    elif "score caiu" in reason or "invalidada" in reason:
-        categoria = "tese de momentum invalidada (score caiu)"
+        categoria = "near-total collapse (possible rug/dump)"
+    elif "no market data" in reason:
+        categoria = "liquidity/data loss (possible rug)"
+    elif "score dropped" in reason or "invalidated" in reason:
+        categoria = "momentum thesis invalidated (score dropped)"
     elif "stop-loss" in reason:
-        categoria = "stop-loss atingido"
+        categoria = "stop-loss hit"
     else:
-        categoria = "outro"
+        categoria = "other"
 
     if held_minutes < 60:
-        velocidade = "muito rápida (<1h)"
+        velocidade = "very fast (<1h)"
     elif held_minutes < 360:
-        velocidade = "rápida (1-6h)"
+        velocidade = "fast (1-6h)"
     else:
-        velocidade = "lenta (>6h)"
+        velocidade = "slow (>6h)"
 
     return categoria, velocidade
 
 
 def _build_note(trade, categoria, velocidade, held_minutes):
     parts = [
-        f"{trade['symbol']} ({trade['tier']}) perdeu {trade['pnl_pct']:+.1f}% em {held_minutes:.0f} min "
+        f"{trade['symbol']} ({trade['tier']}) lost {trade['pnl_pct']:+.1f}% in {held_minutes:.0f} min "
         f"({velocidade}) — {categoria}."
     ]
 
     liq = trade.get("entry_liquidity_usd")
     if liq is not None:
-        parts.append(f"Liquidez na entrada: ${liq:,.0f}.")
+        parts.append(f"Entry liquidity: ${liq:,.0f}.")
 
     score = trade.get("entry_score")
     if score is not None:
-        parts.append(f"Score na entrada: {score:.0f} (mínimo exigido para comprar: {config.ENTRY_MIN_SCORE}).")
+        parts.append(f"Entry score: {score:.0f} (minimum required to buy: {config.ENTRY_MIN_SCORE}).")
 
     sec = trade.get("entry_security_notes")
     if sec:
-        parts.append(f"Segurança na entrada: {sec}.")
+        parts.append(f"Entry security: {sec}.")
 
-    if categoria.startswith("colapso") and velocidade.startswith("muito rápida"):
+    if categoria.startswith("near-total collapse") and velocidade.startswith("very fast"):
         parts.append(
-            "Nota: mesmo passando todos os filtros atuais (liquidez mínima, idade mínima da pool, "
-            "verificação de segurança), este tipo de colapso muito rápido é difícil de evitar só com "
-            "verificações periódicas — vale a pena rever se os limiares de config.py (ex: "
-            "DEX_MIN_LIQUIDITY_USD, DEX_MIN_POOL_AGE_MINUTES) precisam de ser mais apertados para "
-            "tokens tão recentes."
+            "Note: even passing all current filters (minimum liquidity, minimum pool age, "
+            "security check), this kind of very fast collapse is hard to avoid with periodic "
+            "checks alone — worth reviewing whether the config.py thresholds (e.g. "
+            "DEX_MIN_LIQUIDITY_USD, DEX_MIN_POOL_AGE_MINUTES) need to be tighter for "
+            "such recent tokens."
         )
-    elif categoria.startswith("colapso") and velocidade.startswith("lenta"):
+    elif categoria.startswith("near-total collapse") and velocidade.startswith("slow"):
         parts.append(
-            "Nota: a queda foi lenta o suficiente para, em teoria, ter sido apanhada bem mais cedo por "
-            "uma verificação frequente — se isto se repetir, confirmar que o monitor de 15 min está "
-            "mesmo a correr sem falhas nesse intervalo."
+            "Note: the drop was slow enough that it could, in theory, have been caught much "
+            "earlier by a frequent check — if this happens again, confirm the 15-min monitor is "
+            "actually running without gaps in that interval."
         )
 
     return " ".join(parts)
@@ -149,10 +149,10 @@ def format_lessons_message(limit=5):
     """Mensagem Telegram com as lições mais recentes (usada pelo comando /licoes)."""
     lessons_list = _load()
     if not lessons_list:
-        return "📚 Ainda não há lições registadas — nenhuma posição fechou com prejuízo até agora."
+        return "📚 No lessons recorded yet — no position has closed at a loss so far."
 
     recent = lessons_list[-limit:][::-1]
-    lines = [f"📚 *Lições acumuladas* ({len(lessons_list)} no total, últimas {len(recent)}):\n"]
+    lines = [f"📚 *Accumulated lessons* ({len(lessons_list)} total, last {len(recent)}):\n"]
     for entry in recent:
         lines.append(f"• *{entry['symbol']}*: {entry['licao']}")
     return "\n".join(lines)
