@@ -206,6 +206,21 @@ def _alert_capital_protection(state, equity):
     telegram_alert.send_telegram_message(msg)
 
 
+def _robustness_proxy(c):
+    """Autoanálise 2026-09-13: o desempate por liquidez do SELECTION_SCORE_CEILING
+    (ver comentário abaixo, em _check_entries) estava, na prática, inerte para o tier
+    cex_small_cap — sources_coingecko.py nunca preenche "liquidity_usd" para candidatos
+    CEX (só os candidatos DEX, via sources_dexscreener.py, trazem liquidez real). Como
+    quase todas as posições do desafio são cex_small_cap, o desempate nunca chegava a
+    atuar onde mais importava. Esta função mantém o comportamento atual para candidatos
+    com liquidity_usd real (DEX) e usa volume_24h como proxy de robustez/liquidez quando
+    liquidity_usd não está disponível (CEX)."""
+    liquidity = c.get("liquidity_usd")
+    if liquidity is not None:
+        return liquidity
+    return c.get("volume_24h") or 0
+
+
 def _check_entries(state, ranked_candidates, now):
     actions = []
 
@@ -242,7 +257,7 @@ def _check_entries(state, ranked_candidates, now):
     # passa a desempatar por liquidez (candidato mais líquido/robusto primeiro), em vez de
     # continuar a preferir cegamente quem subiu mais.
     eligible.sort(
-        key=lambda c: (min(c["score"], config.SELECTION_SCORE_CEILING), c.get("liquidity_usd") or 0),
+        key=lambda c: (min(c["score"], config.SELECTION_SCORE_CEILING), _robustness_proxy(c)),
         reverse=True,
     )
 
