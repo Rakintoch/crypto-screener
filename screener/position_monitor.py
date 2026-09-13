@@ -30,10 +30,10 @@ def main():
     except portfolio.PortfolioStateCorrupted as e:
         print(f"[position_monitor] estado do portfólio corrompido, corrida abortada: {e}")
         telegram_alert.send_telegram_message(
-            "⚠️ *Estado do portfólio corrompido*\n\n"
-            f"{e}\n\nEsta corrida foi abortada de propósito (sem abrir/fechar posições e sem "
-            "reiniciar o desafio) para não perder histórico. Precisa de recuperação manual a "
-            "partir do histórico do Git (data/portfolio_state.json)."
+            "⚠️ *Portfolio state corrupted*\n\n"
+            f"{e}\n\nThis run was aborted on purpose (without opening/closing positions or "
+            "resetting the challenge) to avoid losing history. Manual recovery is needed from "
+            "the Git history (data/portfolio_state.json)."
         )
         return 0
 
@@ -47,10 +47,10 @@ def main():
     except portfolio.PortfolioStateCorrupted as e:
         print(f"[position_monitor] estado do portfólio corrompido, corrida abortada: {e}")
         telegram_alert.send_telegram_message(
-            "⚠️ *Estado do portfólio corrompido*\n\n"
-            f"{e}\n\nEsta corrida foi abortada de propósito (sem abrir/fechar posições e sem "
-            "reiniciar o desafio) para não perder histórico. Precisa de recuperação manual a "
-            "partir do histórico do Git (data/portfolio_state.json)."
+            "⚠️ *Portfolio state corrupted*\n\n"
+            f"{e}\n\nThis run was aborted on purpose (without opening/closing positions or "
+            "resetting the challenge) to avoid losing history. Manual recovery is needed from "
+            "the Git history (data/portfolio_state.json)."
         )
         return 0
     except Exception:
