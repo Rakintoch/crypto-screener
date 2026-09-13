@@ -8,21 +8,21 @@ from . import config
 TELEGRAM_API = "https://api.telegram.org/bot{token}/sendMessage"
 
 DISCLAIMER = (
-    "\n\n⚠️ _Isto não é aconselhamento financeiro. É um ranking automático de momentum, "
-    "não uma previsão. Micro-caps e tokens DEX têm risco real de perda total (incluindo rugs "
-    "e honeypots não detetados). Faz sempre a tua própria pesquisa antes de agires._"
+    "\n\n⚠️ _This is not financial advice. It's an automated momentum ranking, "
+    "not a prediction. Micro-caps and DEX tokens carry real risk of total loss (including "
+    "undetected rugs and honeypots). Always do your own research before acting._"
 )
 
 
 def _fmt_pct(v):
     if v is None:
-        return "n/d"
+        return "n/a"
     return f"{v:+.1f}%"
 
 
 def _fmt_usd(v):
     if v is None:
-        return "n/d"
+        return "n/a"
     if v >= 1_000_000:
         return f"${v/1_000_000:.2f}M"
     if v >= 1_000:
@@ -53,27 +53,27 @@ def format_candidate_line(c, rank):
         f"   💰 {_fmt_usd(c['price_usd'])} | FDV {_fmt_usd(c['market_cap'])}\n"
         f"   📈 1h {_fmt_pct(c.get('chg_1h'))} | 6h {_fmt_pct(c.get('chg_6h'))}\n"
         f"   💧 Liq {_fmt_usd(c['liquidity_usd'])} | Vol 24h {_fmt_usd(c['volume_24h'])}\n"
-        f"   🔒 Segurança: {security.get('notes', 'n/d')}\n"
-        f"   🔗 {c.get('url', 'n/d')}"
+        f"   🔒 Security: {security.get('notes', 'n/a')}\n"
+        f"   🔗 {c.get('url', 'n/a')}"
     )
 
 
 def build_message(cex_top, dex_top):
-    lines = ["🔎 *Crypto Screener — novos sinais de momentum*\n"]
+    lines = ["🔎 *Crypto Screener — new momentum signals*\n"]
 
     if cex_top:
-        lines.append("🐢 *Small-cap estabelecida (CEX)*")
+        lines.append("🐢 *Established small-cap (CEX)*")
         for i, c in enumerate(cex_top, 1):
             lines.append(format_candidate_line(c, i))
         lines.append("")
 
     if dex_top:
-        lines.append("🚀 *Micro-cap agressiva (DEX)*")
+        lines.append("🚀 *Aggressive micro-cap (DEX)*")
         for i, c in enumerate(dex_top, 1):
             lines.append(format_candidate_line(c, i))
 
     if not cex_top and not dex_top:
-        lines.append("_Sem candidatos acima do limiar nesta corrida._")
+        lines.append("_No candidates above the threshold this run._")
 
     lines.append(DISCLAIMER)
     return "\n".join(lines)
@@ -88,42 +88,42 @@ def format_portfolio_message(state, actions):
     if state["status"] == "not_started":
         return None  # ainda não há nada para reportar
 
-    lines = ["💼 *Desafio Portfólio Virtual (100% simulado, dados reais)*"]
+    lines = ["💼 *Virtual Portfolio Challenge (100% simulated, real data)*"]
 
     if state["status"] == "active":
         days_elapsed = (time.time() - state["start_ts"]) / 86400
         days_total = config.CHALLENGE_DURATION_DAYS
-        lines.append(f"📅 Dia {days_elapsed:.1f} / {days_total}")
+        lines.append(f"📅 Day {days_elapsed:.1f} / {days_total}")
     elif state["status"] == "finished":
-        lines.append("🏁 *Desafio concluído.*")
+        lines.append("🏁 *Challenge complete.*")
 
     open_value = sum(p["qty"] * p.get("last_price_eur", p["entry_price_eur"]) for p in state["positions"].values())
     equity = state["cash_eur"] + open_value
     pnl = equity - state["starting_balance_eur"]
     pnl_pct = pnl / state["starting_balance_eur"] * 100
 
-    lines.append(f"💰 *Saldo Total: {_fmt_eur(equity)}* ({pnl:+.2f} EUR, {pnl_pct:+.1f}% desde o início)")
+    lines.append(f"💰 *Total Balance: {_fmt_eur(equity)}* ({pnl:+.2f} EUR, {pnl_pct:+.1f}% since inception)")
     lines.append(
-        f"   ↳ Cash livre: {_fmt_eur(state['cash_eur'])} + "
-        f"Posições abertas ({len(state['positions'])}): {_fmt_eur(open_value)}"
+        f"   ↳ Free cash: {_fmt_eur(state['cash_eur'])} + "
+        f"Open positions ({len(state['positions'])}): {_fmt_eur(open_value)}"
     )
     if state.get("capital_protection_active"):
-        lines.append("   🛑 Proteção de capital ativa — sem novas entradas até ao fim do desafio")
+        lines.append("   🛑 Capital protection active — no new entries until the challenge ends")
 
     for key, pos in state["positions"].items():
         chg = (pos.get("last_price_eur", pos["entry_price_eur"]) / pos["entry_price_eur"] - 1) * 100
-        lines.append(f"   • {pos['symbol']} ({pos['tier']}): {chg:+.1f}% desde a entrada")
+        lines.append(f"   • {pos['symbol']} ({pos['tier']}): {chg:+.1f}% since entry")
 
     buys = [a for a in actions if a["action"] == "buy"]
     sells = [a for a in actions if a["action"] == "sell"]
 
     if buys:
-        lines.append("\n🟢 *Compras nesta corrida:*")
+        lines.append("\n🟢 *Buys this run:*")
         for a in buys:
-            lines.append(f"   {a['symbol']}: {_fmt_eur(a['cost_eur'])} a {a['entry_price_eur']:.6f} EUR/unid.")
+            lines.append(f"   {a['symbol']}: {_fmt_eur(a['cost_eur'])} at {a['entry_price_eur']:.6f} EUR/unit.")
 
     if sells:
-        lines.append("\n🔴 *Vendas nesta corrida:*")
+        lines.append("\n🔴 *Sells this run:*")
         for a in sells:
             lines.append(f"   {a['symbol']}: {_fmt_eur(a['proceeds_eur'])} ({a['pnl_pct']:+.1f}%) — {a['exit_reason']}")
 
@@ -132,14 +132,14 @@ def format_portfolio_message(state, actions):
 
 def format_final_report(state, report):
     lines = [
-        "🏁 *FIM DO DESAFIO — resultado dos 10 dias*",
+        "🏁 *CHALLENGE OVER — 10-day result*",
         "",
-        f"💶 Saldo inicial: {_fmt_eur(report['starting_balance_eur'])}",
-        f"💶 Saldo final: {_fmt_eur(report['final_balance_eur'])}",
-        f"📊 Resultado: {report['pnl_eur']:+.2f} EUR ({report['pnl_pct']:+.1f}%)",
-        f"🔁 Total de trades fechados: {report['num_trades']}",
+        f"💶 Starting balance: {_fmt_eur(report['starting_balance_eur'])}",
+        f"💶 Final balance: {_fmt_eur(report['final_balance_eur'])}",
+        f"📊 Result: {report['pnl_eur']:+.2f} EUR ({report['pnl_pct']:+.1f}%)",
+        f"🔁 Total closed trades: {report['num_trades']}",
         "",
-        "*Histórico de trades:*",
+        "*Trade history:*",
     ]
     for t in state["closed_trades"]:
         lines.append(f"• {t['symbol']} ({t['tier']}): {t['pnl_pct']:+.1f}% — {t['exit_reason']}")
