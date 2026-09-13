@@ -15,8 +15,8 @@
       "entry_price_eur": 0.20259084830050494,
       "entry_ts": 1789219311.7364416,
       "cost_eur": 30.197304694859838,
-      "last_price_eur": 0.5931018051253061,
-      "last_score": 99.9,
+      "last_price_eur": 0.7241619181512321,
+      "last_score": 70.0,
       "missed_updates": 0,
       "entry_score": 96.9,
       "entry_liquidity_usd": null,
@@ -30,7 +30,7 @@
       "entry_vol_liq_ratio": null,
       "entry_boosted": null,
       "trailing_active": true,
-      "trailing_peak_eur": 0.5931018051253061
+      "trailing_peak_eur": 0.7241619181512321
     },
     "cex_small_cap:flock-2": {
       "tier": "cex_small_cap",
@@ -42,8 +42,8 @@
       "entry_price_eur": 0.06199531983403428,
       "entry_ts": 1789219311.7364416,
       "cost_eur": 30.197304694859838,
-      "last_price_eur": 0.06370019765212274,
-      "last_score": 79.3,
+      "last_price_eur": 0.06883982712953475,
+      "last_score": 86.0,
       "missed_updates": 0,
       "entry_score": 92.1,
       "entry_liquidity_usd": null,
@@ -67,8 +67,8 @@
       "entry_price_eur": 0.0010934920495287033,
       "entry_ts": 1789256639.2979603,
       "cost_eur": 34.609417208326114,
-      "last_price_eur": 0.0010929921336943417,
-      "last_score": 68.7,
+      "last_price_eur": 0.0012017405891423991,
+      "last_score": 68.1,
       "missed_updates": 0,
       "entry_score": 93.3,
       "entry_liquidity_usd": null,
@@ -94,8 +94,8 @@
       "entry_price_eur": 0.2806756296030701,
       "entry_ts": 1789256639.2979603,
       "cost_eur": 27.580890046187683,
-      "last_price_eur": 0.2764203299861812,
-      "last_score": 65.6,
+      "last_price_eur": 0.2822055391347802,
+      "last_score": 76.2,
       "missed_updates": 0,
       "entry_score": 89.5,
       "entry_liquidity_usd": null,
@@ -897,5 +897,5 @@
       "pnl_pct": 35.99974854583199
     }
   ],
-  "last_run_ts": 1789268026.6667097
+  "last_run_ts": 1789278631.770811
 }
