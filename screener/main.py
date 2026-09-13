@@ -107,7 +107,7 @@ def run_portfolio_challenge(ranked):
         return
 
     if final_report:
-        msg = telegram_alert.format_final_report(state, final_report)
+        msg = telegram_alert.format_final_report(state, final_report, eur_rate)
         print("[main] relatório final do desafio:\n" + msg)
         telegram_alert.send_telegram_message(msg)
         return
@@ -116,7 +116,7 @@ def run_portfolio_challenge(ranked):
     # uma vez a cada poucas corridas para não gerar ruído quando está tudo parado — aqui,
     # optamos por reportar sempre que há posições abertas ou ações, para visibilidade total.
     if actions or state["positions"]:
-        msg = telegram_alert.format_portfolio_message(state, actions)
+        msg = telegram_alert.format_portfolio_message(state, actions, eur_rate)
         if msg:
             print("[main] atualização de portfólio a enviar:\n" + msg)
             telegram_alert.send_telegram_message(msg)
