@@ -62,7 +62,7 @@ def apply_security_checks(candidates):
         try:
             c["security"] = security.check_token_security(c.get("network"), c["id"])
         except Exception as e:  # noqa: BLE001
-            c["security"] = {"checked": False, "safe": True, "notes": f"erro: {e}"}
+            c["security"] = {"checked": False, "safe": True, "notes": f"error: {e}"}
     return candidates
 
 
@@ -95,10 +95,10 @@ def run_portfolio_challenge(ranked):
     except portfolio.PortfolioStateCorrupted as e:
         print(f"[main] estado do portfólio corrompido, corrida abortada: {e}")
         telegram_alert.send_telegram_message(
-            "⚠️ *Estado do portfólio corrompido*\n\n"
-            f"{e}\n\nEsta corrida foi abortada de propósito (sem abrir/fechar posições e sem "
-            "reiniciar o desafio) para não perder histórico. Precisa de recuperação manual a "
-            "partir do histórico do Git (data/portfolio_state.json)."
+            "⚠️ *Portfolio state corrupted*\n\n"
+            f"{e}\n\nThis run was aborted on purpose (without opening/closing positions or "
+            "resetting the challenge) to avoid losing history. Manual recovery is needed from "
+            "the Git history (data/portfolio_state.json)."
         )
         return
     except Exception:
