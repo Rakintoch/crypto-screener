@@ -137,19 +137,30 @@ def _run_scenarios():
         # evitar problemas de arredondamento em vírgula flutuante mesmo em cima do limiar dos
         # 40%), sobe mais até um pico (+70%), depois cai bem mais de 7% desse pico -> deve
         # vender no pico-7%
-        gamma_prices = iter([1.45, 1.55, 1.70, 1.55])  # 1.55 é -8.8% do pico 1.70 -> dispara
+        # Autoanálise 2026-09-12 (portfolio.py): o trailing stop deixou de ser um
+        # time.sleep() bloqueante dentro de UMA corrida (4 leituras seguidas na mesma
+        # chamada) e passou a persistir o pico na posição, reavaliado numa corrida por
+        # vez (screener a cada 2h, monitor leve a cada poucos minutos). Este teste tinha
+        # ficado desatualizado: continuava a simular as 4 leituras dentro de uma única
+        # chamada a run_portfolio_cycle(), que com o código novo só consome a primeira
+        # (as restantes nunca eram lidas, porque já não há loop interno) — corrigido para
+        # chamar run_portfolio_cycle() uma vez por preço, tal como o bot real faz agora.
+        gamma_prices = [1.45, 1.55, 1.70, 1.55]  # 1.55 final é -8.8% do pico 1.70 -> dispara
         original_fetch_addrs = ds.fetch_market_data_for_addresses
-        ds.fetch_market_data_for_addresses = lambda addrs, *a, **k: [
-            {"id": "gammaaddr", "price_usd": next(gamma_prices) / eur_rate}
-        ]
         # BETA continua aberta (cex) — mantemos o seu preço estável e mockado, para o teste
         # continuar 100% offline (sem chamadas de rede reais) também nesta corrida.
         cg.fetch_by_ids = lambda ids: {
             "beta": {"id": "beta", "price_usd": 2.0, "chg_1h": 5, "chg_24h": 20, "chg_7d": 30,
                      "turnover": 0.3, "market_cap": 20_000_000}
         }
+        actions2b = []
         try:
-            state, actions2b, _ = portfolio.run_portfolio_cycle([], eur_rate)
+            for price in gamma_prices:
+                ds.fetch_market_data_for_addresses = (
+                    lambda addrs, *a, _p=price, **k: [{"id": "gammaaddr", "price_usd": _p / eur_rate}]
+                )
+                state, run_actions, _ = portfolio.run_portfolio_cycle([], eur_rate)
+                actions2b.extend(run_actions)
         finally:
             ds.fetch_market_data_for_addresses = original_fetch_addrs
             cg.fetch_by_ids = original_fetch_by_ids
@@ -279,6 +290,47 @@ def _run_scenarios():
         print(f"✅ Corrida 2c-bis OK — teto de seleção por score: entre HOT (score 99.4, $5k liquidez) e "
               f"SOLID (score 91.0, $500k liquidez), com 1 só slot livre, SOLID foi o escolhido "
               f"(desempate por liquidez acima do teto de {config.SELECTION_SCORE_CEILING})")
+
+        # --- Corrida 2c-ter: autoanálise 2026-09-13 — o teste 2c-bis acima injeta
+        # liquidity_usd diretamente nos candidatos cex_small_cap, o que não reflete a
+        # realidade: sources_coingecko.py nunca preenche "liquidity_usd" para candidatos
+        # CEX (só liquidity_usd=None chega a existir nesse tier). Este teste replica a
+        # forma real dos dados CEX — liquidity_usd=None em ambos — para confirmar que
+        # _robustness_proxy() cai para volume_24h como desempate, em vez do desempate
+        # ficar inerte (sempre 0 == 0) como acontecia antes desta correção.
+        fresh_state_ter = portfolio._default_state()
+        fresh_state_ter["status"] = "active"
+        fresh_state_ter["start_ts"] = time.time()
+        fresh_state_ter["end_ts"] = time.time() + 999_999
+        for i in range(config.MAX_CONCURRENT_POSITIONS - 1):
+            fresh_state_ter["positions"][f"cex_small_cap:dummy{i}"] = {
+                "tier": "cex_small_cap", "id": f"dummy{i}", "symbol": f"DUMMY{i}", "qty": 1.0,
+                "entry_price_eur": 1.0, "entry_ts": time.time(), "cost_eur": 1.0,
+                "last_price_eur": 1.0, "last_score": 80, "missed_updates": 0,
+            }
+
+        candidate_stretched = fake_candidate("STRETCHED", score=99.4, price_usd=1.0, cid="stretched")
+        candidate_robust = fake_candidate("ROBUST", score=91.0, price_usd=1.0, cid="robust")
+        candidate_stretched["volume_24h"] = 20_000  # pouco volume: candidato "fino"
+        candidate_robust["volume_24h"] = 8_000_000  # muito volume: candidato robusto
+        # confirma que ambos chegam sem liquidity_usd real, tal como sources_coingecko.py produz
+        assert candidate_stretched["liquidity_usd"] is None and candidate_robust["liquidity_usd"] is None
+        for c in (candidate_stretched, candidate_robust):
+            c["_eur_rate"] = eur_rate
+        ranked_ter = sorted([candidate_stretched, candidate_robust], key=lambda c: c["score"], reverse=True)
+
+        buy_actions_ter = portfolio._check_entries(fresh_state_ter, ranked_ter, time.time())
+        assert len(buy_actions_ter) == 1, (
+            f"FALHOU: só devia sobrar 1 slot livre, comprou {len(buy_actions_ter)}"
+        )
+        assert buy_actions_ter[0]["symbol"] == "ROBUST", (
+            f"FALHOU: sem liquidity_usd real (caso real do tier cex_small_cap), o desempate acima do "
+            f"teto devia recorrer ao proxy de volume_24h e escolher ROBUST (8M) em vez de STRETCHED "
+            f"(20k) — comprou {buy_actions_ter[0]['symbol']}"
+        )
+        print(f"✅ Corrida 2c-ter OK — desempate por proxy de robustez (volume_24h) funciona mesmo sem "
+              f"liquidity_usd real: entre STRETCHED (score 99.4, vol $20k) e ROBUST (score 91.0, "
+              f"vol $8M), ROBUST foi o escolhido")
 
         # --- Registo de changelog: uma "mudança" autoanalisada fica pendente de anúncio até
         # ser marcada como tal, e depois aparece no histórico (/mudancas) ---
