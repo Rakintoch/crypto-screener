@@ -75,10 +75,10 @@ def mark_announced(timestamps):
 
 def format_announcement(entry):
     return (
-        f"🛠️ *Melhoria implementada:* {entry['titulo']}\n\n"
-        f"*Porquê:* {entry['motivo']}\n\n"
-        f"*O que mudou:* {entry['mudanca']}\n\n"
-        f"*Efeito esperado:* {entry['efeito_esperado']}"
+        f"🛠️ *Improvement implemented:* {entry['titulo']}\n\n"
+        f"*Why:* {entry['motivo']}\n\n"
+        f"*What changed:* {entry['mudanca']}\n\n"
+        f"*Expected effect:* {entry['efeito_esperado']}"
     )
 
 
@@ -86,10 +86,10 @@ def format_recent_changes(limit=5):
     """Mensagem Telegram com o histórico de mudanças mais recentes (comando /mudancas)."""
     entries = _load()
     if not entries:
-        return "🛠️ Ainda não há mudanças de estratégia registadas."
+        return "🛠️ No strategy changes recorded yet."
 
     recent = entries[-limit:][::-1]
-    lines = [f"🛠️ *Histórico de melhorias* ({len(entries)} no total, últimas {len(recent)}):\n"]
+    lines = [f"🛠️ *Change history* ({len(entries)} total, last {len(recent)}):\n"]
     for e in recent:
         lines.append(f"• *{e['titulo']}* — {e['mudanca']}")
     return "\n".join(lines)
