@@ -59,13 +59,13 @@ def main():
         return 0
 
     if final_report:
-        msg = telegram_alert.format_final_report(state, final_report)
+        msg = telegram_alert.format_final_report(state, final_report, eur_rate)
         print("[position_monitor] relatório final do desafio:\n" + msg)
         telegram_alert.send_telegram_message(msg)
         return 0
 
     if actions:
-        msg = telegram_alert.format_portfolio_message(state, actions)
+        msg = telegram_alert.format_portfolio_message(state, actions, eur_rate)
         if msg:
             print("[position_monitor] saída(s) detetada(s), a enviar atualização:\n" + msg)
             telegram_alert.send_telegram_message(msg)
