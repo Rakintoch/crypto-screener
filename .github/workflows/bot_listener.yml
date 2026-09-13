@@ -15,6 +15,15 @@ on:
     # voláteis e os preços mudam em janelas curtas — 5 min é o intervalo mínimo prático que o
     # GitHub Actions suporta para "schedule"; triplica o número de corridas/dia, o que também
     # pode tornar mais visível (não pior) o hiato ocasional de agendamento já documentado acima)
+    # Autoanálise 2026-09-13: novo hiato detetado nas corridas REAIS (histórico do separador
+    # Actions) — apesar do cron correto (*/5 min), execuções sucessivas ficaram ~4h49m e
+    # ~4h49m apartadas (01:58 -> 06:50 -> 11:39 UTC+1) em vez de a cada poucos minutos. Isto
+    # apanhou uma posição (LSK) a subir e a recuar de novo TODA dentro de um único hiato —
+    # o trailing stop nunca chegou a ver o pico real para poder reagir a ele. Nudge de
+    # reativação (mesma técnica de 2026-08-28/08-30/08-31) para forçar o GitHub a voltar a
+    # respeitar o agendamento; se recorrer, precisa de um disparo externo (ex.: webhook
+    # repository_dispatch a partir de um cron-job.org gratuito) em vez de confiar só no
+    # "schedule" nativo.
     - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
