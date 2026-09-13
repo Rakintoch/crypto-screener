@@ -62,8 +62,8 @@ def load_portfolio():
         return json.loads(content)
     except Exception as e:
         raise PortfolioStateCorrupted(
-            f"{config.PORTFOLIO_STATE_FILE} existe mas não é JSON válido ({e}); "
-            "a corrida foi abortada em vez de reiniciar o desafio silenciosamente."
+            f"{config.PORTFOLIO_STATE_FILE} exists but isn't valid JSON ({e}); "
+            "the run was aborted instead of silently resetting the challenge."
         ) from e
 
 
@@ -114,7 +114,7 @@ def _reprice_positions(state, eur_rate):
         if price_usd:
             pos["last_price_eur"] = price_usd * eur_rate
 
-        fresh["security"] = {"checked": True, "safe": True, "notes": "posição já vetada na entrada"}
+        fresh["security"] = {"checked": True, "safe": True, "notes": "position already vetted at entry"}
         pos["last_score"] = scoring.score_cex_candidate(fresh) if pos["tier"] == "cex_small_cap" else scoring.score_dex_candidate(fresh)
 
 
@@ -152,9 +152,9 @@ def _check_exits(state, now, force_all=False):
         exit_price = last_price
 
         if force_all:
-            reason = f"fim do desafio ({config.CHALLENGE_DURATION_DAYS} dias) — liquidação forçada"
+            reason = f"end of challenge ({config.CHALLENGE_DURATION_DAYS} days) — forced liquidation"
         elif pos.get("missed_updates", 0) >= MISSED_UPDATES_BEFORE_ASSUMED_RUG:
-            reason = "sem dados de mercado em corridas sucessivas — assumida perda quase total (possível rug)"
+            reason = "no market data across consecutive runs — assumed near-total loss (possible rug)"
             exit_price = entry_price * ASSUMED_RUG_RECOVERY_PCT
         elif pos.get("trailing_active"):
             # Autoanálise 2026-09-12 (ver nota em config.py): o pico é persistido na posição e
@@ -166,8 +166,8 @@ def _check_exits(state, now, force_all=False):
             if drawdown_from_peak >= config.TRAILING_STOP_DRAWDOWN_PCT:
                 peak_change = (peak / entry_price - 1) if entry_price else 0
                 reason = (
-                    f"trailing stop atingido — caiu {drawdown_from_peak:.1%} desde o pico "
-                    f"(pico {peak_change:+.1%} desde a entrada)"
+                    f"trailing stop hit — dropped {drawdown_from_peak:.1%} from the peak "
+                    f"(peak {peak_change:+.1%} since entry)"
                 )
                 exit_price = last_price
             # senão: continua acima do gatilho de recuo — mantém a posição aberta, sem ação
@@ -177,11 +177,11 @@ def _check_exits(state, now, force_all=False):
                 pos["trailing_peak_eur"] = last_price
                 # não fecha nesta corrida — passa a perseguir o pico nas corridas seguintes
             else:
-                reason = f"take-profit atingido ({change_pct:+.1%})"
+                reason = f"take-profit hit ({change_pct:+.1%})"
         elif change_pct <= config.STOP_LOSS_PCT.get(pos["tier"], -0.15):
-            reason = f"stop-loss atingido ({change_pct:+.1%})"
+            reason = f"stop-loss hit ({change_pct:+.1%})"
         elif pos.get("last_score") is not None and pos["last_score"] < config.SCORE_DECAY_EXIT:
-            reason = f"tese de momentum invalidada (score caiu para {pos['last_score']:.0f})"
+            reason = f"momentum thesis invalidated (score dropped to {pos['last_score']:.0f})"
 
         if reason:
             trade = _close_position(state, key, exit_price, reason, now)
@@ -195,13 +195,13 @@ def _alert_capital_protection(state, equity):
     ver config.MAX_DRAWDOWN_HALT_PCT."""
     pnl_pct = (equity / state["starting_balance_eur"] - 1) * 100
     msg = (
-        "🛑 *Proteção de capital ativada*\n\n"
-        f"O saldo total caiu para {equity:.2f}€ ({pnl_pct:+.1f}% desde o início), "
-        f"atingindo o limiar de proteção ({config.MAX_DRAWDOWN_HALT_PCT:+.0%} do saldo inicial).\n\n"
-        "A partir de agora o bot deixa de abrir posições novas — o capital que resta fica em "
-        "cash, protegido de mais risco. As posições já abertas continuam a ser vigiadas "
-        "normalmente (take-profit/stop-loss/trailing stop) e o desafio prossegue até ao fim "
-        "dos 10 dias."
+        "🛑 *Capital protection activated*\n\n"
+        f"Total balance dropped to {equity:.2f}€ ({pnl_pct:+.1f}% since inception), "
+        f"reaching the protection threshold ({config.MAX_DRAWDOWN_HALT_PCT:+.0%} of the starting balance).\n\n"
+        "From now on the bot stops opening new positions — the remaining capital stays in "
+        "cash, protected from further risk. Positions already open continue to be monitored "
+        "normally (take-profit/stop-loss/trailing stop) and the challenge continues until the "
+        "end of the 10 days."
     )
     telegram_alert.send_telegram_message(msg)
 
