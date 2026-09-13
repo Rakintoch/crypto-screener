@@ -117,8 +117,8 @@ def _run_scenarios():
         # take-profit direto com lucro -> deve gerar uma "vitória" no playbook
         alpha_wins = [w for w in playbook._load() if w["symbol"] == "ALPHA"]
         assert len(alpha_wins) == 1, f"FALHOU: esperava exatamente 1 vitória para ALPHA, obtido {len(alpha_wins)}"
-        assert alpha_wins[0]["categoria"] == "take-profit direto", (
-            f"FALHOU: categoria esperada 'take-profit direto', obtido '{alpha_wins[0]['categoria']}'"
+        assert alpha_wins[0]["categoria"] == "direct take-profit", (
+            f"FALHOU: categoria esperada 'direct take-profit', obtido '{alpha_wins[0]['categoria']}'"
         )
         print(f"✅ Corrida 2 (playbook) OK — vitória de ALPHA registada automaticamente: "
               f"\"{alpha_wins[0]['nota'][:70]}...\"")
@@ -180,7 +180,7 @@ def _run_scenarios():
         # trailing stop com lucro extra -> deve gerar uma "vitória" com a categoria correta
         gamma_wins = [w for w in playbook._load() if w["symbol"] == "GAMMA"]
         assert len(gamma_wins) == 1, f"FALHOU: esperava exatamente 1 vitória para GAMMA, obtido {len(gamma_wins)}"
-        assert gamma_wins[0]["categoria"] == "trailing stop apanhou subida extra após o alvo", (
+        assert gamma_wins[0]["categoria"] == "trailing stop caught extra upside after the target", (
             f"FALHOU: categoria esperada de trailing stop, obtido '{gamma_wins[0]['categoria']}'"
         )
 
@@ -188,7 +188,7 @@ def _run_scenarios():
         # um resumo com números, não a mensagem de "ainda não há vitórias suficientes"
         modus = playbook.build_modus_operandi()
         assert "Modus operandi" in modus, "FALHOU: build_modus_operandi() devia ter produzido um resumo"
-        assert "ainda não há vitórias" not in modus.lower(), (
+        assert "not enough wins" not in modus.lower(), (
             "FALHOU: com 2 vitórias já registadas, não devia cair no caso de 'sem dados'"
         )
         print(f"✅ Corrida 2b (playbook) OK — vitória de GAMMA registada e /modus já produz um resumo:\n"
