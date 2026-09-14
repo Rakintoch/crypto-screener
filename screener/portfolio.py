@@ -297,6 +297,10 @@ def _check_entries(state, ranked_candidates, now):
             "last_price_eur": entry_price_eur,
             "last_score": c["score"],
             "missed_updates": 0,
+            # Market Cap (ou FDV, para tokens DEX) no momento da entrada — pedido do Ricardo
+            # 2026-09-14: as mensagens do Telegram passam a mostrar o MC em vez do preço
+            # unitário da moeda em cada compra, tanto aqui como no Pump Watch.
+            "entry_market_cap": c.get("market_cap"),
             # snapshot dos critérios de entrada — usado depois pelo lessons.py se a posição
             # vier a fechar com prejuízo, para a lição referenciar o que passou nos filtros
             "entry_score": c["score"],
