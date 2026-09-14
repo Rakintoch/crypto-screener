@@ -52,5 +52,14 @@
     "efeito_esperado": "O desempate por robustez/liquidez acima do teto de score 90 passa a ter efeito real na maioria das entradas (tier CEX), reduzindo a preferência cega pelo candidato mais esticado quando vários passam o limiar ao mesmo tempo.",
     "num_trades_fechados_ate_aqui": 25,
     "announced": true
+  },
+  {
+    "ts": 1789377105.862547,
+    "titulo": "Novo sistema experimental 'Pump Watch' — sinal de acumulação, independente do desafio principal",
+    "motivo": "Pedido do Ricardo 2026-09-14: o desafio principal só compra o que já está a subir (momentum). Pedido para testar um sinal diferente -- acumulação/distribuição que tipicamente antecede um movimento de swing (dias a semanas) -- para ver se ajuda a antecipar pumps antes do preço reagir.",
+    "mudanca": "Novo módulo screener/pump_watch.py: sinal de acumulação via OBV (On-Balance Volume) normalizado sobre o histórico horário do CoinGecko (screener/sources_coingecko.fetch_market_chart, novo), calculado só para um shortlist pequeno (PUMP_WATCH_SHORTLIST_SIZE=10) para poupar quota da API partilhada. Sistema totalmente independente do desafio principal: saldo virtual próprio ($100, PUMP_WATCH_STARTING_BALANCE_EUR), até 3 posições em simultâneo, entra só quando há slot livre, saída SEMPRE por trailing stop puro de 10% desde o pico (sem take-profit fixo), com 20% de cada LUCRO realizado reservado (nunca reinvestido) e o resto + capital de volta ao saldo negociável -- perdas não sofrem este corte. Cobre só o tier cex_small_cap por agora (CoinGecko, dados mais fiáveis; GeckoTerminal/DEX fica para uma iteração futura). Sem prazo fixo (ao contrário do desafio principal, de 10 dias) -- é um teste de sinal contínuo -- mas com um marco de revisão a 10 trades fechados ou 20 dias (o que vier primeiro), para a autoanálise avaliar os resultados. Integrado em main.py (ciclo completo a cada 2h) e position_monitor.py (verificação de saída a cada poucos minutos, corre mesmo que o desafio principal esteja inativo). Mensagens Telegram próprias (telegram_alert.format_pump_watch_message) e novo comando /pump no bot. Testado com 8 cenários offline (tests/test_pump_watch_offline.py): matemática do sinal, entrada+shortlist, trailing stop desde a entrada e após subida, reserva de lucro, perda sem corte, slots cheios (sem chamada de API desperdiçada), e estado corrompido.",
+    "efeito_esperado": "Permitir comparar, ao longo de semanas, se um sinal de acumulação antecipada (comprar antes do preço reagir) tem melhor taxa de acerto/retorno do que o momentum puro do desafio principal -- sem arriscar contaminar os resultados de nenhum dos dois sistemas.",
+    "num_trades_fechados_ate_aqui": null,
+    "announced": false
   }
 ]
