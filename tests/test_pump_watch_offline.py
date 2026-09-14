@@ -70,6 +70,7 @@ def run():
 
         _scenario_signal_math()
         _scenario_entry_and_shortlist(eur_rate)
+        _scenario_entry_venue(eur_rate)
         _scenario_trailing_stop_from_entry(eur_rate)
         _scenario_trailing_stop_after_rise(eur_rate)
         _scenario_profit_reserve_split(eur_rate)
@@ -148,6 +149,51 @@ def _scenario_entry_and_shortlist(eur_rate):
 
     print(f"✅ Entradas OK — {len(state['positions'])} posições abertas por sinal de acumulação "
           f"(candidatos sem sinal corretamente ignorados)")
+
+
+def _scenario_entry_venue(eur_rate):
+    """Nota da venue mais líquida na compra (pedido do Ricardo 2026-09-14, caso SOXSB — o
+    preço guardado é uma média do CoinGecko entre várias venues, mas uma compra real só pode
+    ser executada numa de cada vez; ver sources_coingecko.fetch_top_venue). Pump Watch é
+    sempre cex_small_cap (ver docstring do módulo), por isso a nota deve aparecer em toda
+    entrada real."""
+    state = pump_watch._default_state()
+    accumulating_chart = _accumulating_chart()
+
+    original_fetch_chart = cg.fetch_market_chart
+    original_fetch_top_venue = cg.fetch_top_venue
+    try:
+        cg.fetch_market_chart = lambda coin_id, days: accumulating_chart
+        cg.fetch_top_venue = lambda coin_id: "KCEX"
+
+        candidates = [fake_candidate("SOXSB", 50.59, cid="soxsb-token")]
+        actions = pump_watch._check_entries(state, candidates, eur_rate, now=1000.0)
+
+        assert len(actions) == 1
+        assert actions[0]["entry_venue"] == "KCEX", (
+            f"FALHOU: compra do Pump Watch devia guardar a venue mais líquida: {actions[0]}"
+        )
+        key = list(state["positions"].keys())[0]
+        assert state["positions"][key]["entry_venue"] == "KCEX"
+
+        # uma falha na chamada de venue (rate limit, rede, etc.) nunca deve bloquear a compra
+        state2 = pump_watch._default_state()
+
+        def _boom(coin_id):
+            raise RuntimeError("simulated API failure")
+
+        cg.fetch_top_venue = _boom
+        actions2 = pump_watch._check_entries(state2, candidates, eur_rate, now=2000.0)
+        assert len(actions2) == 1
+        assert actions2[0]["entry_venue"] is None, (
+            "FALHOU: falha na chamada de venue não devia impedir a entrada do Pump Watch"
+        )
+    finally:
+        cg.fetch_market_chart = original_fetch_chart
+        cg.fetch_top_venue = original_fetch_top_venue
+
+    print("✅ Venue OK — nota da venue mais líquida guardada nas entradas do Pump Watch "
+          "(e a falha na chamada não bloqueia a compra)")
 
 
 def _scenario_trailing_stop_from_entry(eur_rate):
