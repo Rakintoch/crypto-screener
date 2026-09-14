@@ -109,7 +109,7 @@ def run():
     cex_top = [c for c in ranked if c["tier"] == "cex_small_cap"][:config.TOP_N_PER_TIER]
     dex_top = [c for c in ranked if c["tier"] == "dex_micro_cap"][:config.TOP_N_PER_TIER]
     msg = telegram_alert.build_message(cex_top, dex_top)
-    assert "não é aconselhamento financeiro" in msg
+    assert "not financial advice" in msg
     assert len(msg) < 4096, "mensagem única ainda cabe num só envio Telegram (bom para o caso normal)"
 
     print("\n--- Mensagem Telegram simulada ---\n")
