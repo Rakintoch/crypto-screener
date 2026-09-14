@@ -177,6 +177,65 @@ def format_final_report(state, report, eur_rate=None):
     return "\n".join(lines)
 
 
+def format_pump_watch_message(state, actions, eur_rate=None):
+    """Mensagem do sistema experimental 'Pump Watch' — sinal de acumulação (ver pump_watch.py),
+    totalmente independente do desafio de portfólio principal (pedido do Ricardo 2026-09-14).
+    Enviada como mensagem própria, separada da do desafio. Só devolve algo quando há uma
+    posição aberta ou uma ação (compra/venda) a reportar nesta corrida."""
+    if state["status"] == "not_started" and not actions:
+        return None
+
+    rate = _eur_rate_for(state, eur_rate)
+
+    lines = ["🎯 *Pump Watch (accumulation signal — experimental)*"]
+
+    open_value = sum(p["qty"] * p.get("last_price_eur", p["entry_price_eur"]) for p in state["positions"].values())
+    total = state["cash_eur"] + state["reserve_eur"] + open_value
+    pnl = total - state["starting_balance_eur"]
+    pnl_pct = (pnl / state["starting_balance_eur"] * 100) if state["starting_balance_eur"] else 0
+
+    lines.append(
+        f"💰 *Total: {_fmt_usd_amount(total / rate)}* "
+        f"({pnl / rate:+.2f} USD, {pnl_pct:+.1f}% since inception)"
+    )
+    lines.append(
+        f"   ↳ Tradable cash: {_fmt_usd_amount(state['cash_eur'] / rate)} + "
+        f"Reserved profit: {_fmt_usd_amount(state['reserve_eur'] / rate)} + "
+        f"Open ({len(state['positions'])}/{config.PUMP_WATCH_MAX_POSITIONS}): {_fmt_usd_amount(open_value / rate)}"
+    )
+
+    for pos in state["positions"].values():
+        chg = (pos.get("last_price_eur", pos["entry_price_eur"]) / pos["entry_price_eur"] - 1) * 100
+        peak_chg = (pos.get("peak_price_eur", pos["entry_price_eur"]) / pos["entry_price_eur"] - 1) * 100
+        lines.append(f"   • {pos['symbol']}: {chg:+.1f}% since entry (peak {peak_chg:+.1f}%)")
+
+    buys = [a for a in actions if a["action"] == "buy"]
+    sells = [a for a in actions if a["action"] == "sell"]
+
+    if buys:
+        lines.append("\n🟢 *New entries (accumulation signal):*")
+        for a in buys:
+            lines.append(
+                f"   {a['symbol']}: {_fmt_usd_amount(a['cost_eur'] / rate)} "
+                f"at ${a['entry_price_eur'] / rate:.6f}/unit."
+            )
+
+    if sells:
+        lines.append("\n🔴 *Exits:*")
+        for a in sells:
+            lines.append(
+                f"   {a['symbol']}: {_fmt_usd_amount(a['proceeds_eur'] / rate)} "
+                f"({a['pnl_pct']:+.1f}%) — {a['exit_reason']}"
+            )
+            if a.get("reserved_eur"):
+                lines.append(
+                    f"      ↳ {_fmt_usd_amount(a['reserved_eur'] / rate)} of the profit moved "
+                    "to reserve (not reinvested)"
+                )
+
+    return "\n".join(lines)
+
+
 def send_telegram_message(text):
     if not config.TELEGRAM_BOT_TOKEN or not config.TELEGRAM_CHAT_ID:
         print("[telegram_alert] TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID não configurados — a saltar envio.")
