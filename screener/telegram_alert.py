@@ -30,6 +30,16 @@ def _fmt_venue(v):
     return f", via {v}" if v else ""
 
 
+def _fmt_contract(address):
+    """Endereço do contrato a mostrar na listagem de posições abertas — pedido do Ricardo
+    2026-09-14. O chamador já resolve o endereço a passar: o próprio "id" da posição para
+    dex_micro_cap (já é o token/pool on-chain, sem chamada extra), ou
+    entry_contract_address para cex_small_cap, guardado no momento da compra via
+    sources_coingecko.fetch_contract_address. Vazio quando não há endereço (moeda nativa de
+    uma chain própria, ex: ARDR, ou se a chamada extra tiver falhado)."""
+    return f" | 📝 {address}" if address else ""
+
+
 def _fmt_usd(v):
     if v is None:
         return "n/a"
@@ -143,7 +153,10 @@ def format_portfolio_message(state, actions, eur_rate=None):
         chg = (pos.get("last_price_eur", pos["entry_price_eur"]) / pos["entry_price_eur"] - 1) * 100
         mcap = pos.get("last_market_cap")
         mc_part = f" | MC {_fmt_usd(mcap)}" if mcap else ""
-        lines.append(f"   • {pos['symbol']} ({pos['tier']}): {chg:+.1f}% since entry{mc_part}")
+        # dex_micro_cap já vem de UMA pool/token on-chain — o próprio "id" da posição já É
+        # o endereço do contrato, sem precisar de guardar um campo extra (ver portfolio.py).
+        contract_addr = pos["id"] if pos["tier"] == "dex_micro_cap" else pos.get("entry_contract_address")
+        lines.append(f"   • {pos['symbol']} ({pos['tier']}): {chg:+.1f}% since entry{mc_part}{_fmt_contract(contract_addr)}")
 
     buys = [a for a in actions if a["action"] == "buy"]
     sells = [a for a in actions if a["action"] == "sell"]
@@ -218,7 +231,12 @@ def format_pump_watch_message(state, actions, eur_rate=None):
         peak_chg = (pos.get("peak_price_eur", pos["entry_price_eur"]) / pos["entry_price_eur"] - 1) * 100
         mcap = pos.get("last_market_cap") or pos.get("entry_market_cap")
         mc_part = f" | MC {_fmt_usd(mcap)}" if mcap else ""
-        lines.append(f"   • {pos['symbol']}: {chg:+.1f}% since entry (peak {peak_chg:+.1f}%){mc_part}")
+        # Pump Watch é sempre cex_small_cap (ver docstring de pump_watch.py) — o endereço,
+        # quando existe, vem sempre de entry_contract_address.
+        lines.append(
+            f"   • {pos['symbol']}: {chg:+.1f}% since entry (peak {peak_chg:+.1f}%){mc_part}"
+            f"{_fmt_contract(pos.get('entry_contract_address'))}"
+        )
 
     buys = [a for a in actions if a["action"] == "buy"]
     sells = [a for a in actions if a["action"] == "sell"]
