@@ -492,6 +492,58 @@ def _run_scenarios():
         cg.fetch_top_venue = original_fetch_top_venue
         print("✅ Corrida 6b OK — falha na chamada de venue não bloqueia a compra, só omite a nota")
 
+        # --- Corrida 7: endereço do contrato na listagem de posições abertas (pedido do
+        # Ricardo 2026-09-14) — cex_small_cap vem de sources_coingecko.fetch_contract_address
+        # (chamada só na compra, ver portfolio.py), dex_micro_cap usa o próprio "id" da
+        # posição, já on-chain, sem chamada extra ---
+        os.remove(config.PORTFOLIO_STATE_FILE)
+        original_fetch_contract_address = cg.fetch_contract_address
+
+        cg.fetch_top_venue = lambda coin_id: "Binance"
+        cg.fetch_contract_address = lambda coin_id: "0xAbC1230000000000000000000000000000dEaD (BSC)"
+        cex_candidate2 = fake_candidate("SOXSB", score=80, price_usd=50.59, cid="soxsb")
+        dex_candidate2 = fake_candidate("FOO", score=80, price_usd=0.001, tier="dex_micro_cap", cid="0xfoo")
+        state, actions, _ = portfolio.run_portfolio_cycle([cex_candidate2, dex_candidate2], eur_rate)
+        buys = {a["symbol"]: a for a in actions if a["action"] == "buy"}
+        assert buys["SOXSB"]["entry_contract_address"] == "0xAbC1230000000000000000000000000000dEaD (BSC)", (
+            f"FALHOU: compra cex_small_cap devia guardar o endereço do contrato: {buys['SOXSB']}"
+        )
+        assert buys["FOO"].get("entry_contract_address") is None, (
+            "FALHOU: compra dex_micro_cap não devia chamar fetch_contract_address "
+            f"(já é o próprio id): {buys['FOO']}"
+        )
+        msg = telegram_alert.format_portfolio_message(state, actions, eur_rate)
+        position_lines = [ln for ln in msg.split("\n") if ln.strip().startswith("•")]
+        soxsb_line = next(ln for ln in position_lines if "SOXSB" in ln)
+        foo_line = next(ln for ln in position_lines if "FOO" in ln)
+        assert "0xAbC1230000000000000000000000000000dEaD (BSC)" in soxsb_line, (
+            f"FALHOU: listagem de posições abertas devia mostrar o contrato da posição cex_small_cap: {soxsb_line}"
+        )
+        assert "0xfoo" in foo_line, (
+            "FALHOU: listagem de posições abertas devia mostrar o próprio id como endereço "
+            f"da posição dex_micro_cap: {foo_line}"
+        )
+        print("✅ Corrida 7 OK — endereço do contrato mostrado na listagem de posições abertas "
+              "(cex_small_cap via fetch_contract_address, dex_micro_cap via o próprio id)")
+
+        # falha na chamada de endereço nunca deve bloquear a compra — só a posição fica sem
+        # nota de endereço (mesmo efeito de uma moeda nativa de uma chain própria, sem contrato)
+        os.remove(config.PORTFOLIO_STATE_FILE)
+
+        def _boom_addr(coin_id):
+            raise RuntimeError("simulated API failure")
+
+        cg.fetch_contract_address = _boom_addr
+        state, actions, _ = portfolio.run_portfolio_cycle([cex_candidate2], eur_rate)
+        buy = next(a for a in actions if a["action"] == "buy")
+        assert buy["entry_contract_address"] is None, "FALHOU: falha na chamada de endereço não devia impedir a compra"
+        msg = telegram_alert.format_portfolio_message(state, actions, eur_rate)
+        soxsb_line = next(ln for ln in msg.split("\n") if ln.strip().startswith("•") and "SOXSB" in ln)
+        assert "📝" not in soxsb_line, f"FALHOU: sem endereço, a linha da posição não devia mostrar a nota: {soxsb_line}"
+        cg.fetch_top_venue = original_fetch_top_venue
+        cg.fetch_contract_address = original_fetch_contract_address
+        print("✅ Corrida 7b OK — falha na chamada de endereço não bloqueia a compra, só omite a nota")
+
     print("\n✅ Todos os testes offline do portfólio passaram.")
 
 
