@@ -11,6 +11,18 @@ from .http_utils import get_json
 
 BASE_URL = "https://api.geckoterminal.com/api/v2"
 
+# Pedido do Ricardo 2026-09-14: os links partilhados nos alertas devem apontar para o
+# DexScreener, não para o GeckoTerminal — a GeckoTerminal usa os seus próprios slugs de rede
+# ("eth" para Ethereum mainnet), que nem sempre coincidem com os slugs que o DexScreener espera
+# no URL (ex: "ethereum"). Este mapeamento cobre as redes em GECKOTERMINAL_NETWORKS (config.py);
+# uma rede sem entrada aqui usa o próprio slug do GeckoTerminal como fallback.
+DEXSCREENER_CHAIN_SLUGS = {
+    "solana": "solana",
+    "base": "base",
+    "eth": "ethereum",
+    "bsc": "bsc",
+}
+
 
 def _parse_pool(entry, boosted_addresses):
     attrs = entry.get("attributes", {}) or {}
@@ -42,6 +54,9 @@ def _parse_pool(entry, boosted_addresses):
         except (TypeError, ValueError):
             return None
 
+    pool_address = attrs.get("address", "")
+    dex_chain = DEXSCREENER_CHAIN_SLUGS.get(network, network)
+
     return {
         "tier": "dex_micro_cap",
         "id": address,
@@ -57,8 +72,8 @@ def _parse_pool(entry, boosted_addresses):
         "chg_24h": _to_float(price_change.get("h24")),
         "pool_age_minutes": age_minutes,
         "boosted": address.lower() in boosted_addresses,
-        "url": f"https://www.geckoterminal.com/{network}/pools/{attrs.get('address', '')}",
-        "pool_address": attrs.get("address"),
+        "url": f"https://dexscreener.com/{dex_chain}/{pool_address}",
+        "pool_address": pool_address,
     }
 
 
