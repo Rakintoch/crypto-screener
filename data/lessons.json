@@ -1720,5 +1720,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "VTHO (cex_small_cap) lost -9.5% in 515 min (slow (>6h)) — stop-loss hit. Entry score: 83 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789402186.1525059,
+    "symbol": "MTL",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/metal",
+    "held_minutes": 782.0,
+    "exit_reason": "stop-loss hit (-16.3%)",
+    "pnl_pct": -16.29,
+    "pnl_eur": -6.78,
+    "entry_score": 87.7,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 75940495,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 13.1,
+    "entry_chg_24h": 8.6834,
+    "entry_chg_7d": 60.9,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.1260752442072945,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "MTL (cex_small_cap) lost -16.3% in 782 min (slow (>6h)) — stop-loss hit. Entry score: 88 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

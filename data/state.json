@@ -49,11 +49,6 @@
     "last_score": 75.8,
     "symbol": "ORBIO"
   },
-  "cex_small_cap:the-stonks-exchange": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 72.1,
-    "symbol": "STONKEX"
-  },
   "cex_small_cap:zzz-2": {
     "last_alert_ts": 1789219311.3240113,
     "last_score": 67.9,
@@ -68,16 +63,6 @@
     "last_alert_ts": 1789181688.2034748,
     "last_score": 92.8,
     "symbol": "OTC"
-  },
-  "cex_small_cap:dogbull": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 75.7,
-    "symbol": "DOGO"
-  },
-  "dex_micro_cap:7Y7V1a4m2nWK7BMgbka5B4vR1pDvCK7yva3Hnrqkraze": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 82.8,
-    "symbol": "Nasduck"
   },
   "cex_small_cap:graniteshares-2x-long-mrvl-etf-bstocks-tokenized-stock": {
     "last_alert_ts": 1789153110.8955865,
@@ -99,11 +84,6 @@
     "last_score": 60.4,
     "symbol": "LRC"
   },
-  "cex_small_cap:chump-coin": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 63.4,
-    "symbol": "CHUMP"
-  },
   "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
     "last_alert_ts": 1789181688.2034748,
     "last_score": 55.6,
@@ -124,16 +104,6 @@
     "last_score": 74.7,
     "symbol": "龙虾"
   },
-  "dex_micro_cap:0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 59.2,
-    "symbol": "STONKEX"
-  },
-  "cex_small_cap:jotchua": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 75.1,
-    "symbol": "JOTCHUA"
-  },
   "cex_small_cap:perpshood": {
     "last_alert_ts": 1789268026.1125152,
     "last_score": 85.5,
@@ -150,8 +120,8 @@
     "symbol": "BLAST"
   },
   "cex_small_cap:b3": {
-    "last_alert_ts": 1789337123.6031528,
-    "last_score": 77.2,
+    "last_alert_ts": 1789402185.7695572,
+    "last_score": 65.1,
     "symbol": "B3"
   },
   "cex_small_cap:bundle-cat": {
@@ -184,11 +154,6 @@
     "last_score": 93.7,
     "symbol": "REZ"
   },
-  "cex_small_cap:napoli-fan-token": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 60.8,
-    "symbol": "NAP"
-  },
   "cex_small_cap:brew": {
     "last_alert_ts": 1789181688.2034748,
     "last_score": 80.3,
@@ -219,21 +184,6 @@
     "last_score": 82.2,
     "symbol": "DREGG"
   },
-  "cex_small_cap:anthropic-prestocks-2": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 67.7,
-    "symbol": "ANTHROPIC"
-  },
-  "cex_small_cap:robin-hood-2": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 61.0,
-    "symbol": "FOX"
-  },
-  "dex_micro_cap:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 57.3,
-    "symbol": "fone"
-  },
   "cex_small_cap:puffer-finance": {
     "last_alert_ts": 1789268026.1125152,
     "last_score": 74.6,
@@ -253,11 +203,6 @@
     "last_alert_ts": 1789181688.2034748,
     "last_score": 63.8,
     "symbol": "哈基米"
-  },
-  "cex_small_cap:gaib": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 86.2,
-    "symbol": "GAIB"
   },
   "cex_small_cap:ordofi": {
     "last_alert_ts": 1789268026.1125152,
@@ -305,8 +250,8 @@
     "symbol": "RAYCAT"
   },
   "cex_small_cap:golden-goose-2": {
-    "last_alert_ts": 1789256638.7751849,
-    "last_score": 79.0,
+    "last_alert_ts": 1789402185.7695572,
+    "last_score": 69.2,
     "symbol": "GG"
   },
   "cex_small_cap:nasduck": {
@@ -318,11 +263,6 @@
     "last_alert_ts": 1789181688.2034748,
     "last_score": 84.6,
     "symbol": "FROGE"
-  },
-  "cex_small_cap:nearkat-2": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 82.1,
-    "symbol": "NEARKAT"
   },
   "cex_small_cap:pare": {
     "last_alert_ts": 1789355265.1791337,
@@ -339,55 +279,20 @@
     "last_score": 62.8,
     "symbol": "AGI"
   },
-  "cex_small_cap:navi": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 62.9,
-    "symbol": "NAVX"
-  },
   "cex_small_cap:wo-ta-ma-laile": {
     "last_alert_ts": 1789243700.377703,
     "last_score": 60.4,
     "symbol": "我踏马来了"
-  },
-  "cex_small_cap:lock-in": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 59.3,
-    "symbol": "LOCKIN"
-  },
-  "cex_small_cap:redteam": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 59.1,
-    "symbol": "SN61"
   },
   "cex_small_cap:six-network": {
     "last_alert_ts": 1789231439.187083,
     "last_score": 76.6,
     "symbol": "SIX"
   },
-  "dex_micro_cap:0x0f61edbfe6cd86024c0f210c0695b08df55fdfc9": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 57.9,
-    "symbol": "BSTONK"
-  },
-  "cex_small_cap:apeonfone": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 57.6,
-    "symbol": "FONE"
-  },
   "cex_small_cap:solv-protocol": {
     "last_alert_ts": 1789378351.5364,
     "last_score": 66.9,
     "symbol": "SOLV"
-  },
-  "cex_small_cap:doodles": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 56.2,
-    "symbol": "DOOD"
-  },
-  "cex_small_cap:greenhood": {
-    "last_alert_ts": 1789135364.3219476,
-    "last_score": 56.1,
-    "symbol": "HOOD"
   },
   "cex_small_cap:holoworld": {
     "last_alert_ts": 1789219311.3240113,
@@ -570,8 +475,8 @@
     "symbol": "SIREN"
   },
   "cex_small_cap:metal": {
-    "last_alert_ts": 1789355265.1791337,
-    "last_score": 87.7,
+    "last_alert_ts": 1789402185.7695572,
+    "last_score": 71.2,
     "symbol": "MTL"
   },
   "dex_micro_cap:Enhuu882mnhTtM7bGwAUG5GzgdDUcyjtL2uqQTxgpump": {
@@ -600,8 +505,8 @@
     "symbol": "ELIZAOS"
   },
   "cex_small_cap:koma-inu": {
-    "last_alert_ts": 1789355265.1791337,
-    "last_score": 77.0,
+    "last_alert_ts": 1789402185.7695572,
+    "last_score": 60.3,
     "symbol": "KOMA"
   },
   "cex_small_cap:cets-on-gold": {
@@ -680,8 +585,8 @@
     "symbol": "BERA"
   },
   "cex_small_cap:power-protocol": {
-    "last_alert_ts": 1789337123.6031528,
-    "last_score": 84.5,
+    "last_alert_ts": 1789402185.7695572,
+    "last_score": 75.1,
     "symbol": "POWER"
   },
   "cex_small_cap:the-black-bull": {
@@ -760,8 +665,8 @@
     "symbol": "CYBER"
   },
   "cex_small_cap:ava-ai": {
-    "last_alert_ts": 1789308265.3957274,
-    "last_score": 59.2,
+    "last_alert_ts": 1789402185.7695572,
+    "last_score": 67.8,
     "symbol": "AVA"
   },
   "cex_small_cap:bubblemaps": {
@@ -770,8 +675,8 @@
     "symbol": "BMT"
   },
   "cex_small_cap:wax": {
-    "last_alert_ts": 1789308265.3957274,
-    "last_score": 55.0,
+    "last_alert_ts": 1789402185.7695572,
+    "last_score": 61.3,
     "symbol": "WAXP"
   },
   "cex_small_cap:a-meme-coin": {
@@ -795,13 +700,13 @@
     "symbol": "BLORB"
   },
   "cex_small_cap:vine": {
-    "last_alert_ts": 1789324350.0601528,
-    "last_score": 58.5,
+    "last_alert_ts": 1789402185.7695572,
+    "last_score": 76.9,
     "symbol": "VINE"
   },
   "cex_small_cap:edel": {
-    "last_alert_ts": 1789324350.0601528,
-    "last_score": 57.5,
+    "last_alert_ts": 1789402185.7695572,
+    "last_score": 58.4,
     "symbol": "EDEL"
   },
   "dex_micro_cap:8XtRWb4uAAJFMP4QQhoYYCWR6XXb7ybcCdiqPwz9s5WS": {
@@ -835,8 +740,8 @@
     "symbol": "STRAX"
   },
   "cex_small_cap:clearpool": {
-    "last_alert_ts": 1789355265.1791337,
-    "last_score": 73.5,
+    "last_alert_ts": 1789402185.7695572,
+    "last_score": 67.5,
     "symbol": "CPOOL"
   },
   "cex_small_cap:iotex": {
@@ -913,5 +818,35 @@
     "last_alert_ts": 1789378351.5364,
     "last_score": 58.0,
     "symbol": "KII"
+  },
+  "cex_small_cap:canopy": {
+    "last_alert_ts": 1789402185.7695572,
+    "last_score": 80.0,
+    "symbol": "CNPY"
+  },
+  "cex_small_cap:pod-the-squire": {
+    "last_alert_ts": 1789402185.7695572,
+    "last_score": 79.1,
+    "symbol": "SQUIRE"
+  },
+  "cex_small_cap:pools-trade": {
+    "last_alert_ts": 1789402185.7695572,
+    "last_score": 66.1,
+    "symbol": "POOLS"
+  },
+  "cex_small_cap:cap-4": {
+    "last_alert_ts": 1789402185.7695572,
+    "last_score": 65.9,
+    "symbol": "CAP"
+  },
+  "cex_small_cap:lorenzo-protocol": {
+    "last_alert_ts": 1789402185.7695572,
+    "last_score": 59.9,
+    "symbol": "BANK"
+  },
+  "cex_small_cap:spacex-robinhood-tokenized-stock": {
+    "last_alert_ts": 1789402185.7695572,
+    "last_score": 55.3,
+    "symbol": "SPCX"
   }
 }

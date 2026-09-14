@@ -1,0 +1,25 @@
+{
+  "status": "active",
+  "start_ts": 1789402186.9931946,
+  "cash_eur": 66.66666666666667,
+  "reserve_eur": 0.0,
+  "starting_balance_eur": 100.0,
+  "positions": {
+    "cex_small_cap:microsoft-coinbase-tokenized-stock": {
+      "id": "microsoft-coinbase-tokenized-stock",
+      "symbol": "MSFTC",
+      "qty": 0.07630303471856453,
+      "entry_price_eur": 436.85462126479916,
+      "entry_ts": 1789402186.9931946,
+      "cost_eur": 33.33333333333333,
+      "last_price_eur": 436.85462126479916,
+      "peak_price_eur": 436.85462126479916,
+      "entry_market_cap": 1183197,
+      "last_market_cap": 1183197,
+      "entry_venue": "Uniswap V3 (Base) (on-chain)"
+    }
+  },
+  "closed_trades": [],
+  "last_run_ts": 1789402186.9931946,
+  "last_eur_rate": 0.865915998542714
+}
