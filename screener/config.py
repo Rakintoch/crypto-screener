@@ -164,3 +164,57 @@ TRAILING_STOP_DRAWDOWN_PCT = 0.07           # vende se cair 7% desde o pico mais
 # Reavalia posições abertas e verifica saídas com muito mais frequência do que o screener
 # principal (que só corre a cada 2h), sem repetir a descoberta cara de tokens novos.
 POSITION_MONITOR_ENABLED = os.environ.get("POSITION_MONITOR_ENABLED", "true").lower() == "true"
+
+# --- Pump Watch: sinal de acumulação/distribuição (CEX small-cap), independente do desafio ---
+# Pedido do Ricardo 2026-09-14: um sistema à parte, com o seu próprio saldo virtual, para testar
+# um sinal DIFERENTE do momentum que o desafio principal usa — não "o que já está a subir", mas
+# "onde há volume de compra a acumular-se sem o preço ainda ter reagido" (o padrão clássico
+# pré-rutura, aproximado aqui por OBV — On-Balance Volume — normalizado sobre o histórico
+# horário do CoinGecko, já que dados reais ao nível de carteira não são possíveis de obter de
+# graça com a profundidade necessária). Mantido totalmente separado do desafio principal (saldo,
+# posições, ficheiro de estado próprios) para que o ciclo de autoanálise consiga avaliar este
+# sinal isoladamente, sem contaminar (ou ser contaminado por) o resultado do desafio de momentum.
+# Só cobre cex_small_cap por agora — um pool dex_micro_cap recém-criado no pump.fun raramente
+# tem histórico suficiente para o sinal de OBV ter qualquer significado.
+PUMP_WATCH_ENABLED = os.environ.get("PUMP_WATCH_ENABLED", "true").lower() == "true"
+PUMP_WATCH_STATE_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "pump_watch_state.json")
+PUMP_WATCH_STARTING_BALANCE_EUR = 100.0   # equivalente a $100 virtuais, dedicados só a este sistema
+PUMP_WATCH_MAX_POSITIONS = 3
+PUMP_WATCH_POSITION_SIZE_PCT = 1 / 3      # tamanho-alvo por posição, sobre o capital negociável (exclui a reserva)
+PUMP_WATCH_MIN_TRADE_EUR = 5.0
+
+# Saída: SEMPRE por trailing stop desde a entrada (pedido do Ricardo) — sem take-profit fixo.
+# O "pico" arranca no próprio preço de entrada, por isso uma posição que cai logo após a
+# entrada, sem nunca subir, comporta-se como um stop-loss simples de -10% — só fica mais
+# protetora à medida que o preço sobe (inclui naturalmente o ajuste a alguma oscilação normal).
+PUMP_WATCH_TRAILING_DRAWDOWN_PCT = 0.10
+
+# Gestão de lucro (pedido do Ricardo): quando uma posição fecha com lucro, 20% desse lucro fica
+# reservado (nunca mais é reinvestido) e só os 80% restantes, mais o capital investido, voltam
+# ao saldo negociável. Perdas não sofrem este corte — o valor todo da venda volta ao saldo
+# negociável, para não acelerar a erosão do capital numa sequência de perdas.
+PUMP_WATCH_PROFIT_RESERVE_PCT = 0.20
+
+# Universo de candidatos: reutiliza os candidatos CEX já descobertos pelo screener principal
+# nesta mesma corrida (sem chamadas extra à API) — mas só vale a pena calcular o sinal de
+# acumulação (que exige uma chamada de histórico por candidato) quando há pelo menos um slot
+# livre, e só para um shortlist pequeno (pré-filtrado por um critério já disponível sem custo
+# extra), para respeitar o limite de chamadas partilhado da API pública do CoinGecko.
+PUMP_WATCH_SHORTLIST_SIZE = 10
+PUMP_WATCH_LOOKBACK_DAYS = 3        # dentro da janela 2-90 dias em que o CoinGecko dá granularidade horária
+
+# Limiares do sinal de acumulação (OBV normalizado + banda de preço "ainda calma") — hipótese
+# inicial (2026-09-14), por validar/ajustar pelo ciclo de autoanálise com base nos primeiros
+# fechos reais, tal como todos os outros limiares deste projeto.
+PUMP_WATCH_MIN_OBV_SCORE = 0.15             # pressão compradora líquida mínima (fração do volume total na janela)
+PUMP_WATCH_MAX_PRICE_MOVE_PCT = 0.15        # acima disto já não é "acumulação silenciosa" — é o próprio momentum tier
+PUMP_WATCH_MIN_PRICE_MOVE_PCT = -0.08       # abaixo disto pode ser capitulação, não acumulação
+
+# Sem prazo fixo que force o encerramento (ao contrário do desafio principal, de 10 dias) —
+# pedido do Ricardo 2026-09-14 foi deixar isto como um teste de sinal contínuo, não uma corrida
+# com fim. Mas para não ficar sem nenhum ponto de avaliação formal, este é o marco que uma
+# futura revisão periódica deve usar para fazer a PRIMEIRA análise séria deste sistema
+# (correlação sinal->resultado, comparar com o desafio de momentum, decidir se ajusta limiares,
+# expande ao tier DEX, ou descontinua) — o que vier primeiro:
+PUMP_WATCH_REVIEW_AFTER_TRADES = 10
+PUMP_WATCH_REVIEW_AFTER_DAYS = 20
