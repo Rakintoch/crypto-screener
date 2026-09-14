@@ -118,3 +118,51 @@ def fetch_market_chart(coin_id, days):
     if not data:
         return None
     return {"prices": data.get("prices") or [], "volumes": data.get("total_volumes") or []}
+
+
+COIN_DETAIL_URL = "https://api.coingecko.com/api/v3/coins/{id}"
+
+
+def fetch_top_venue(coin_id):
+    """
+    Devolve o nome da venue (exchange centralizada ou pool on-chain) com mais volume
+    reportado pelo CoinGecko para esta moeda, no momento da chamada — pedido do Ricardo
+    2026-09-14 (caso SOXSB): o preço guardado nas posições (current_price, via
+    fetch_small_cap_candidates/fetch_by_ids) é uma média do CoinGecko entre várias venues
+    (várias exchanges e, por vezes, várias pools on-chain do mesmo token), mas numa
+    aquisição real só se pode escolher UMA venue de cada vez. Os alertas de compra passam a
+    citar qual seria essa venue de referência (a mais líquida no instante da entrada), para
+    dar visibilidade sobre a origem concreta do preço.
+
+    Uma chamada extra à API por COMPRA real executada (não por candidato apenas avaliado),
+    para não pesar no limite partilhado gratuito do CoinGecko. Devolve None se a chamada
+    falhar ou não houver tickers com volume — os alertas simplesmente omitem a nota nesse
+    caso, sem bloquear a compra.
+    """
+    data = get_json(
+        COIN_DETAIL_URL.format(id=coin_id),
+        params={
+            "localization": "false",
+            "tickers": "true",
+            "market_data": "false",
+            "community_data": "false",
+            "developer_data": "false",
+        },
+    )
+    if not data:
+        return None
+
+    priced = [t for t in (data.get("tickers") or []) if t.get("volume")]
+    if not priced:
+        return None
+
+    best = max(priced, key=lambda t: t["volume"])
+    name = (best.get("market") or {}).get("name")
+    if not name:
+        return None
+
+    # tickers de pools on-chain (DEX) trazem o endereço do contrato (0x...) em vez do
+    # símbolo no campo "base" — é o único sinal fiável, nos dados do CoinGecko, para
+    # distinguir uma venue centralizada de uma pool on-chain sem outra chamada à API.
+    is_onchain = str(best.get("base") or "").lower().startswith("0x")
+    return f"{name} (on-chain)" if is_onchain else name
