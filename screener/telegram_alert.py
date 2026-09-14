@@ -42,7 +42,7 @@ def format_candidate_line(c, rank):
     if c["tier"] == "cex_small_cap":
         return (
             f"{rank}. *{c['symbol']}* ({c['name']}) — score {c['score']}\n"
-            f"   💰 {_fmt_usd(c['price_usd'])} | MCap {_fmt_usd(c['market_cap'])} (#{c.get('market_cap_rank', '?')})\n"
+            f"   💰 MCap {_fmt_usd(c['market_cap'])} (#{c.get('market_cap_rank', '?')})\n"
             f"   📈 1h {_fmt_pct(c.get('chg_1h'))} | 24h {_fmt_pct(c.get('chg_24h'))} | 7d {_fmt_pct(c.get('chg_7d'))}\n"
             f"   🔊 Vol 24h {_fmt_usd(c['volume_24h'])} (turnover {c['turnover']:.0%})\n"
             f"   🔗 {c['url']}"
@@ -51,7 +51,7 @@ def format_candidate_line(c, rank):
     boosted_tag = " 🚀boosted" if c.get("boosted") else ""
     return (
         f"{rank}. {sec_tag} *{c['symbol']}* [{c.get('network')}] — score {c['score']}{boosted_tag}\n"
-        f"   💰 {_fmt_usd(c['price_usd'])} | FDV {_fmt_usd(c['market_cap'])}\n"
+        f"   💰 FDV {_fmt_usd(c['market_cap'])}\n"
         f"   📈 1h {_fmt_pct(c.get('chg_1h'))} | 6h {_fmt_pct(c.get('chg_6h'))}\n"
         f"   💧 Liq {_fmt_usd(c['liquidity_usd'])} | Vol 24h {_fmt_usd(c['volume_24h'])}\n"
         f"   🔒 Security: {security.get('notes', 'n/a')}\n"
@@ -144,7 +144,7 @@ def format_portfolio_message(state, actions, eur_rate=None):
         for a in buys:
             lines.append(
                 f"   {a['symbol']}: {_fmt_usd_amount(a['cost_eur'] / rate)} "
-                f"at ${a['entry_price_eur'] / rate:.6f}/unit."
+                f"(MC {_fmt_usd(a.get('entry_market_cap'))})"
             )
 
     if sells:
@@ -207,7 +207,9 @@ def format_pump_watch_message(state, actions, eur_rate=None):
     for pos in state["positions"].values():
         chg = (pos.get("last_price_eur", pos["entry_price_eur"]) / pos["entry_price_eur"] - 1) * 100
         peak_chg = (pos.get("peak_price_eur", pos["entry_price_eur"]) / pos["entry_price_eur"] - 1) * 100
-        lines.append(f"   • {pos['symbol']}: {chg:+.1f}% since entry (peak {peak_chg:+.1f}%)")
+        mcap = pos.get("last_market_cap") or pos.get("entry_market_cap")
+        mc_part = f" | MC {_fmt_usd(mcap)}" if mcap else ""
+        lines.append(f"   • {pos['symbol']}: {chg:+.1f}% since entry (peak {peak_chg:+.1f}%){mc_part}")
 
     buys = [a for a in actions if a["action"] == "buy"]
     sells = [a for a in actions if a["action"] == "sell"]
@@ -217,7 +219,7 @@ def format_pump_watch_message(state, actions, eur_rate=None):
         for a in buys:
             lines.append(
                 f"   {a['symbol']}: {_fmt_usd_amount(a['cost_eur'] / rate)} "
-                f"at ${a['entry_price_eur'] / rate:.6f}/unit."
+                f"(MC {_fmt_usd(a.get('entry_market_cap'))})"
             )
 
     if sells:
