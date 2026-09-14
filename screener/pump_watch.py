@@ -142,6 +142,17 @@ def _check_entries(state, cex_candidates, eur_rate, now):
 
         entry_price_eur = c["price_usd"] * eur_rate
         qty = size_eur / entry_price_eur
+
+        # Pedido do Ricardo 2026-09-14 (caso SOXSB): o preço acima é uma média do CoinGecko
+        # entre várias venues (exchanges e, por vezes, várias pools on-chain do mesmo
+        # token), mas uma compra real só pode ser executada numa de cada vez. Uma chamada
+        # extra por compra real (Pump Watch é sempre cex_small_cap — ver docstring do
+        # módulo), nunca bloqueia a entrada se falhar (ver sources_coingecko.fetch_top_venue).
+        try:
+            entry_venue = sources_coingecko.fetch_top_venue(c["id"])
+        except Exception:
+            entry_venue = None
+
         key = f"cex_small_cap:{c['id']}"
         state["positions"][key] = {
             "id": c["id"],
@@ -157,6 +168,9 @@ def _check_entries(state, cex_candidates, eur_rate, now):
             # principal (ver portfolio.py/telegram_alert.py).
             "entry_market_cap": c.get("market_cap"),
             "last_market_cap": c.get("market_cap"),
+            # Venue mais líquida usada como referência do preço de entrada — pedido do
+            # Ricardo 2026-09-14, ver comentário acima.
+            "entry_venue": entry_venue,
         }
         state["cash_eur"] -= size_eur
 
