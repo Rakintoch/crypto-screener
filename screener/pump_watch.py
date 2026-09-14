@@ -153,6 +153,15 @@ def _check_entries(state, cex_candidates, eur_rate, now):
         except Exception:
             entry_venue = None
 
+        # Endereço do contrato — pedido do Ricardo 2026-09-14, para mostrar na listagem de
+        # posições abertas (ver portfolio.py, mesmo princípio: Pump Watch é sempre
+        # cex_small_cap, ver docstring do módulo). Chamada independente da de entry_venue;
+        # nunca bloqueia a entrada se falhar.
+        try:
+            entry_contract_address = sources_coingecko.fetch_contract_address(c["id"])
+        except Exception:
+            entry_contract_address = None
+
         key = f"cex_small_cap:{c['id']}"
         state["positions"][key] = {
             "id": c["id"],
@@ -171,6 +180,9 @@ def _check_entries(state, cex_candidates, eur_rate, now):
             # Venue mais líquida usada como referência do preço de entrada — pedido do
             # Ricardo 2026-09-14, ver comentário acima.
             "entry_venue": entry_venue,
+            # Endereço do contrato on-chain — pedido do Ricardo 2026-09-14, ver comentário
+            # acima. None para moedas nativas de uma chain própria ou se a chamada falhar.
+            "entry_contract_address": entry_contract_address,
         }
         state["cash_eur"] -= size_eur
 
