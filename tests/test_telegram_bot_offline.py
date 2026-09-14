@@ -62,12 +62,12 @@ def run():
 
         # --- símbolo desconhecido ---
         reply_unknown = telegram_bot._handle_preco_command("naoexiste")
-        assert "Não encontrei" in reply_unknown, f"FALHOU: resposta inesperada para símbolo desconhecido: {reply_unknown}"
+        assert "Couldn't find" in reply_unknown, f"FALHOU: resposta inesperada para símbolo desconhecido: {reply_unknown}"
         print("✅ /preco OK — símbolo nunca visto devolve mensagem clara em vez de rebentar")
 
         # --- sem argumento ---
         reply_empty = telegram_bot._handle_preco_command("")
-        assert "Uso:" in reply_empty, "FALHOU: /preco sem argumento devia explicar a utilização"
+        assert "Usage:" in reply_empty, "FALHOU: /preco sem argumento devia explicar a utilização"
         print("✅ /preco OK — sem argumento explica a utilização em vez de procurar símbolo vazio")
 
     print("\n✅ Todos os testes offline do /preco passaram.")
