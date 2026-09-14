@@ -283,6 +283,19 @@ def _check_entries(state, ranked_candidates, now):
         entry_price_eur = c["price_usd"] * c["_eur_rate"]
         qty = size_eur / entry_price_eur
 
+        # Pedido do Ricardo 2026-09-14 (caso SOXSB): o preço guardado acima é uma média do
+        # CoinGecko entre várias venues, mas uma compra real só pode ser executada numa de
+        # cada vez — só faz sentido para o tier cex_small_cap, onde essa ambiguidade existe
+        # (o tier dex_micro_cap já vem de UMA pool específica, sem essa média). Uma chamada
+        # extra por compra real (não por candidato avaliado); nunca bloqueia a compra se
+        # falhar — a nota fica simplesmente ausente do alerta.
+        entry_venue = None
+        if c["tier"] == "cex_small_cap":
+            try:
+                entry_venue = sources_coingecko.fetch_top_venue(c["id"])
+            except Exception:
+                traceback.print_exc()
+
         key = f"{c['tier']}:{c['id']}"
         state["positions"][key] = {
             "tier": c["tier"],
@@ -301,6 +314,10 @@ def _check_entries(state, ranked_candidates, now):
             # 2026-09-14: as mensagens do Telegram passam a mostrar o MC em vez do preço
             # unitário da moeda em cada compra, tanto aqui como no Pump Watch.
             "entry_market_cap": c.get("market_cap"),
+            # Venue (exchange) mais líquida usada como referência do preço de entrada —
+            # pedido do Ricardo 2026-09-14, ver comentário acima. None para dex_micro_cap
+            # (já é uma pool única) ou se a chamada extra falhar.
+            "entry_venue": entry_venue,
             # snapshot dos critérios de entrada — usado depois pelo lessons.py se a posição
             # vier a fechar com prejuízo, para a lição referenciar o que passou nos filtros
             "entry_score": c["score"],
