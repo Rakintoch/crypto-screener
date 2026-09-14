@@ -26,11 +26,9 @@ import time
 from . import config
 from . import sources_coingecko
 
-
 class PumpWatchStateCorrupted(Exception):
     """Ver portfolio.PortfolioStateCorrupted — mesmo princípio: nunca mascarar uma falha de
     leitura como 'sem estado', para não perder o histórico deste sistema silenciosamente."""
-
 
 def _default_state():
     return {
@@ -44,7 +42,6 @@ def _default_state():
         "last_run_ts": None,
         "last_eur_rate": None,
     }
-
 
 def load_state():
     if not os.path.exists(config.PUMP_WATCH_STATE_FILE):
@@ -61,19 +58,16 @@ def load_state():
             "abortada em vez de reiniciar silenciosamente este sistema."
         ) from e
 
-
 def save_state(state):
     os.makedirs(os.path.dirname(config.PUMP_WATCH_STATE_FILE), exist_ok=True)
     with open(config.PUMP_WATCH_STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2, ensure_ascii=False)
-
 
 def _tradable_equity(state):
     """Capital que conta para dimensionar novas posições — exclui a reserva de lucro, que por
     definição está fora de circulação."""
     open_value = sum(p["qty"] * p.get("last_price_eur", p["entry_price_eur"]) for p in state["positions"].values())
     return state["cash_eur"] + open_value
-
 
 def _compute_accumulation_signal(prices, volumes):
     """OBV (On-Balance Volume) normalizado — fração do volume total na janela que foi "líquido
@@ -103,7 +97,6 @@ def _compute_accumulation_signal(prices, volumes):
         "price_change_pct": (closes[-1] - price_start) / price_start,
     }
 
-
 def _scan_accumulation_candidates(cex_candidates, held_ids, slots_free):
     """Só chama a API de histórico para um shortlist pequeno (pré-filtrado por turnover, um
     critério já disponível sem custo extra) — nunca para todo o universo CEX, para respeitar o
@@ -132,7 +125,6 @@ def _scan_accumulation_candidates(cex_candidates, held_ids, slots_free):
     scored.sort(key=lambda t: t[0], reverse=True)
     return [c for _, c in scored[:slots_free]]
 
-
 def _check_entries(state, cex_candidates, eur_rate, now):
     actions = []
     slots_free = config.PUMP_WATCH_MAX_POSITIONS - len(state["positions"])
@@ -160,6 +152,11 @@ def _check_entries(state, cex_candidates, eur_rate, now):
             "cost_eur": size_eur,
             "last_price_eur": entry_price_eur,
             "peak_price_eur": entry_price_eur,   # o "pico" do trailing arranca no preço de entrada
+            # Market Cap no momento da entrada — pedido do Ricardo 2026-09-14: mostrar o MC
+            # em vez do preço unitário da moeda nas mensagens de Telegram, aqui e no desafio
+            # principal (ver portfolio.py/telegram_alert.py).
+            "entry_market_cap": c.get("market_cap"),
+            "last_market_cap": c.get("market_cap"),
         }
         state["cash_eur"] -= size_eur
 
@@ -170,7 +167,6 @@ def _check_entries(state, cex_candidates, eur_rate, now):
         actions.append({"action": "buy", **state["positions"][key]})
 
     return actions
-
 
 def _close_position(state, key, exit_price_eur, reason, now):
     pos = state["positions"].pop(key)
@@ -199,7 +195,6 @@ def _close_position(state, key, exit_price_eur, reason, now):
     state["closed_trades"].append(trade)
     return trade
 
-
 def _check_exits(state, eur_rate, now):
     actions = []
     if not state["positions"]:
@@ -216,6 +211,9 @@ def _check_exits(state, eur_rate, now):
         price_eur = c["price_usd"] * eur_rate
         pos["last_price_eur"] = price_eur
         pos["peak_price_eur"] = max(pos.get("peak_price_eur", pos["entry_price_eur"]), price_eur)
+        mcap = c.get("market_cap")
+        if mcap:
+            pos["last_market_cap"] = mcap
 
         peak = pos["peak_price_eur"]
         drawdown = (peak - price_eur) / peak if peak else 0
@@ -227,7 +225,6 @@ def _check_exits(state, eur_rate, now):
             actions.append({"action": "sell", **trade})
 
     return actions
-
 
 def run_pump_watch_cycle(cex_candidates, eur_rate):
     """Ciclo completo (screener principal, a cada 2h): reavalia/fecha posições, e só procura
@@ -244,7 +241,6 @@ def run_pump_watch_cycle(cex_candidates, eur_rate):
     state["last_run_ts"] = now
     save_state(state)
     return state, exit_actions + entry_actions
-
 
 def run_exit_check_cycle(eur_rate):
     """Ciclo leve (position_monitor.py, a cada poucos minutos): só reavalia/fecha posições já
