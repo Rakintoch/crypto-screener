@@ -290,9 +290,19 @@ def _check_entries(state, ranked_candidates, now):
         # extra por compra real (não por candidato avaliado); nunca bloqueia a compra se
         # falhar — a nota fica simplesmente ausente do alerta.
         entry_venue = None
+        # Endereço do contrato — pedido do Ricardo 2026-09-14, para mostrar na listagem de
+        # posições abertas. Só faz sentido buscar para cex_small_cap: dex_micro_cap já vem
+        # de uma pool/token on-chain específico, cujo próprio id (c["id"]) já É o endereço,
+        # sem chamada extra. Chamada independente da de entry_venue (falhas isoladas não se
+        # afetam mutuamente) — nunca bloqueia a compra.
+        entry_contract_address = None
         if c["tier"] == "cex_small_cap":
             try:
                 entry_venue = sources_coingecko.fetch_top_venue(c["id"])
+            except Exception:
+                traceback.print_exc()
+            try:
+                entry_contract_address = sources_coingecko.fetch_contract_address(c["id"])
             except Exception:
                 traceback.print_exc()
 
@@ -318,6 +328,11 @@ def _check_entries(state, ranked_candidates, now):
             # pedido do Ricardo 2026-09-14, ver comentário acima. None para dex_micro_cap
             # (já é uma pool única) ou se a chamada extra falhar.
             "entry_venue": entry_venue,
+            # Endereço do contrato on-chain — pedido do Ricardo 2026-09-14, ver comentário
+            # acima. None para moedas cex_small_cap nativas de uma chain própria (ex: ARDR)
+            # ou se a chamada extra tiver falhado; para dex_micro_cap não é guardado aqui —
+            # a listagem usa o próprio "id" da posição (ver telegram_alert.py).
+            "entry_contract_address": entry_contract_address,
             # snapshot dos critérios de entrada — usado depois pelo lessons.py se a posição
             # vier a fechar com prejuízo, para a lição referenciar o que passou nos filtros
             "entry_score": c["score"],
