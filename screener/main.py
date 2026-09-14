@@ -13,6 +13,7 @@ from . import state as state_mod
 from . import telegram_alert
 from . import fx
 from . import portfolio
+from . import pump_watch
 
 
 def gather_candidates():
@@ -122,6 +123,38 @@ def run_portfolio_challenge(ranked):
             telegram_alert.send_telegram_message(msg)
 
 
+def run_pump_watch(cex_candidates):
+    """Sistema experimental de acumulação (Pump Watch, ver pump_watch.py) — independente do
+    desafio de momentum. Reutiliza os candidatos CEX já descobertos nesta corrida, sem chamada
+    extra de descoberta. cex_candidates pode vir vazio (falha total de descoberta nesta
+    corrida) — mesmo assim as posições já abertas continuam a ser reavaliadas/fechadas."""
+    if not config.PUMP_WATCH_ENABLED:
+        return
+
+    try:
+        eur_rate = fx.get_usd_to_eur_rate()
+        state, actions = pump_watch.run_pump_watch_cycle(cex_candidates, eur_rate)
+    except pump_watch.PumpWatchStateCorrupted as e:
+        print(f"[main] estado do Pump Watch corrompido, corrida abortada: {e}")
+        telegram_alert.send_telegram_message(
+            "⚠️ *Pump Watch state corrupted*\n\n"
+            f"{e}\n\nThis run was aborted on purpose (without opening/closing positions) to "
+            "avoid losing history. Manual recovery is needed from the Git history "
+            "(data/pump_watch_state.json)."
+        )
+        return
+    except Exception:
+        print("[main] falha no ciclo do Pump Watch:")
+        traceback.print_exc()
+        return
+
+    if actions or state["positions"]:
+        msg = telegram_alert.format_pump_watch_message(state, actions, eur_rate)
+        if msg:
+            print("[main] atualização do Pump Watch a enviar:\n" + msg)
+            telegram_alert.send_telegram_message(msg)
+
+
 def main():
     print("=== Crypto Screener — início da corrida ===")
 
@@ -136,6 +169,7 @@ def main():
 
     run_screener_alerts(ranked)
     run_portfolio_challenge(ranked)
+    run_pump_watch([c for c in candidates if c.get("tier") == "cex_small_cap"])
 
     print("=== Crypto Screener — fim da corrida ===")
     return 0
