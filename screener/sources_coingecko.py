@@ -99,3 +99,22 @@ def fetch_by_ids(ids):
             result[parsed["id"]] = parsed
 
     return result
+
+
+MARKET_CHART_URL = "https://api.coingecko.com/api/v3/coins/{id}/market_chart"
+
+
+def fetch_market_chart(coin_id, days):
+    """
+    Histórico de preço/volume para um coin id (granularidade automática do CoinGecko: horária
+    para uma janela de 2-90 dias, a que usamos aqui). Usado por pump_watch.py para calcular o
+    sinal de acumulação (OBV) — API pública, sem key, mesmo limite de chamadas partilhado que o
+    resto deste módulo, por isso só deve ser chamada para um shortlist pequeno de candidatos.
+    """
+    data = get_json(
+        MARKET_CHART_URL.format(id=coin_id),
+        params={"vs_currency": "usd", "days": days},
+    )
+    if not data:
+        return None
+    return {"prices": data.get("prices") or [], "volumes": data.get("total_volumes") or []}
