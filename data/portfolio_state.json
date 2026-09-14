@@ -15,8 +15,8 @@
       "entry_price_eur": 0.06199531983403428,
       "entry_ts": 1789219311.7364416,
       "cost_eur": 30.197304694859838,
-      "last_price_eur": 0.058656910903405024,
-      "last_score": 31.5,
+      "last_price_eur": 0.059103567121406506,
+      "last_score": 39.8,
       "missed_updates": 0,
       "entry_score": 92.1,
       "entry_liquidity_usd": null,
@@ -29,7 +29,7 @@
       "entry_turnover": 2.0746866057320035,
       "entry_vol_liq_ratio": null,
       "entry_boosted": null,
-      "last_market_cap": 31388135
+      "last_market_cap": 31594022
     },
     "cex_small_cap:vethor-token": {
       "tier": "cex_small_cap",
@@ -41,8 +41,8 @@
       "entry_price_eur": 0.0006974852811115393,
       "entry_ts": 1789324350.6561153,
       "cost_eur": 48.31863798995822,
-      "last_price_eur": 0.0006814580792886835,
-      "last_score": 65.7,
+      "last_price_eur": 0.0006870386177211775,
+      "last_score": 93.9,
       "missed_updates": 0,
       "entry_score": 83.3,
       "entry_liquidity_usd": null,
@@ -57,7 +57,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 81085637
+      "last_market_cap": 81344827
     }
   },
   "closed_trades": [
@@ -1111,6 +1111,6 @@
       "pnl_pct": -26.246880584453258
     }
   ],
-  "last_run_ts": 1789342791.5245295,
-  "last_eur_rate": 0.8626270023148478
+  "last_run_ts": 1789350018.372634,
+  "last_eur_rate": 0.8631029983557713
 }
