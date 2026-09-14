@@ -166,3 +166,55 @@ def fetch_top_venue(coin_id):
     # distinguir uma venue centralizada de uma pool on-chain sem outra chamada à API.
     is_onchain = str(best.get("base") or "").lower().startswith("0x")
     return f"{name} (on-chain)" if is_onchain else name
+
+
+PLATFORM_LABELS = {
+    "ethereum": "ETH",
+    "binance-smart-chain": "BSC",
+    "polygon-pos": "Polygon",
+    "solana": "Solana",
+    "arbitrum-one": "Arbitrum",
+    "optimistic-ethereum": "Optimism",
+    "avalanche": "Avalanche",
+    "base": "Base",
+    "tron": "Tron",
+    "fantom": "Fantom",
+    "cronos": "Cronos",
+}
+
+
+def fetch_contract_address(coin_id):
+    """
+    Devolve "endereço (chain)" do contrato on-chain desta moeda, ou None se não tiver
+    contrato — pedido do Ricardo 2026-09-14: mostrar o endereço do contrato de cada moeda na
+    listagem de posições abertas. Muitas moedas cex_small_cap são nativas de uma chain
+    própria (ex: ARDR, ARK, BTC) e não têm nenhum contrato — o campo "platforms" do CoinGecko
+    vem vazio nesses casos, e devolvemos None (a linha da posição fica simplesmente sem
+    endereço). Quando a moeda existe em mais do que uma chain, usa-se a primeira devolvida
+    pela API (normalmente a chain "principal" listada pelo CoinGecko para essa moeda).
+
+    Uma chamada extra à API por COMPRA real executada (não por candidato apenas avaliado),
+    tal como fetch_top_venue — nunca bloqueia a compra se falhar; a posição fica simplesmente
+    sem o endereço.
+    """
+    data = get_json(
+        COIN_DETAIL_URL.format(id=coin_id),
+        params={
+            "localization": "false",
+            "tickers": "false",
+            "market_data": "false",
+            "community_data": "false",
+            "developer_data": "false",
+        },
+    )
+    if not data:
+        return None
+
+    platforms = data.get("platforms") or {}
+    valid = [(chain, addr) for chain, addr in platforms.items() if chain and addr]
+    if not valid:
+        return None
+
+    chain, addr = valid[0]
+    label = PLATFORM_LABELS.get(chain, chain)
+    return f"{addr} ({label})"
