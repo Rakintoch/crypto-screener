@@ -21,6 +21,15 @@ def _fmt_pct(v):
     return f"{v:+.1f}%"
 
 
+def _fmt_venue(v):
+    """Nota da venue mais líquida usada como referência do preço de entrada — pedido do
+    Ricardo 2026-09-14 (caso SOXSB): o preço guardado é uma média do CoinGecko entre várias
+    venues, mas uma compra real só pode ser executada numa de cada vez (ver
+    sources_coingecko.fetch_top_venue). Vazio quando não há venue guardada (posições
+    dex_micro_cap, que já vêm de uma pool única, ou se a chamada extra tiver falhado)."""
+    return f", via {v}" if v else ""
+
+
 def _fmt_usd(v):
     if v is None:
         return "n/a"
@@ -144,7 +153,7 @@ def format_portfolio_message(state, actions, eur_rate=None):
         for a in buys:
             lines.append(
                 f"   {a['symbol']}: {_fmt_usd_amount(a['cost_eur'] / rate)} "
-                f"(MC {_fmt_usd(a.get('entry_market_cap'))})"
+                f"(MC {_fmt_usd(a.get('entry_market_cap'))}{_fmt_venue(a.get('entry_venue'))})"
             )
 
     if sells:
@@ -219,7 +228,7 @@ def format_pump_watch_message(state, actions, eur_rate=None):
         for a in buys:
             lines.append(
                 f"   {a['symbol']}: {_fmt_usd_amount(a['cost_eur'] / rate)} "
-                f"(MC {_fmt_usd(a.get('entry_market_cap'))})"
+                f"(MC {_fmt_usd(a.get('entry_market_cap'))}{_fmt_venue(a.get('entry_venue'))})"
             )
 
     if sells:
