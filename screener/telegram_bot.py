@@ -17,6 +17,7 @@ from . import config
 from . import lessons
 from . import playbook
 from . import portfolio
+from . import pump_watch
 from . import sources_coingecko
 from . import sources_dexscreener
 from . import state as state_mod
@@ -68,6 +69,17 @@ def _handle_status_command():
     msg = telegram_alert.format_portfolio_message(state, [])
     if msg is None:
         msg = "🤖 The virtual portfolio challenge hasn't started yet (no purchases so far)."
+    return msg
+
+
+def _handle_pump_command():
+    try:
+        state = pump_watch.load_state()
+    except pump_watch.PumpWatchStateCorrupted as e:
+        return f"⚠️ Can't show the Pump Watch status — {e}"
+    msg = telegram_alert.format_pump_watch_message(state, [])
+    if msg is None:
+        msg = "🎯 Pump Watch hasn't opened any position yet (waiting for an accumulation signal)."
     return msg
 
 
@@ -165,6 +177,7 @@ def _handle_help_command():
     return (
         "🤖 *Available commands:*\n"
         "/status — see the current state of the virtual portfolio challenge\n"
+        "/pump — see the Pump Watch status (independent accumulation-signal experiment)\n"
         "/price SYMBOL — LIVE (real-time) quote for a token the screener has already seen\n"
         "/lessons — see the accumulated lessons from positions that closed at a loss\n"
         "/wins — see the accumulated wins from positions that closed at a profit\n"
@@ -217,6 +230,8 @@ def process_commands():
 
         if text in ("/status", "/estado"):
             reply = _handle_status_command()
+        elif text in ("/pump", "/pumpwatch"):
+            reply = _handle_pump_command()
         elif text.startswith("/price") or text.startswith("/preco") or text.startswith("/preço") or text.startswith("/live"):
             _, _, arg = text.partition(" ")
             reply = _handle_preco_command(arg)
