@@ -11,7 +11,7 @@ import tempfile
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from screener import config, pump_watch, sources_coingecko as cg  # noqa: E402
+from screener import config, pump_watch, sources_coingecko as cg, telegram_alert  # noqa: E402
 
 
 def fake_candidate(symbol, price_usd, turnover=0.2, cid=None):
@@ -71,6 +71,7 @@ def run():
         _scenario_signal_math()
         _scenario_entry_and_shortlist(eur_rate)
         _scenario_entry_venue(eur_rate)
+        _scenario_entry_contract_address(eur_rate)
         _scenario_trailing_stop_from_entry(eur_rate)
         _scenario_trailing_stop_after_rise(eur_rate)
         _scenario_profit_reserve_split(eur_rate)
@@ -194,6 +195,63 @@ def _scenario_entry_venue(eur_rate):
 
     print("✅ Venue OK — nota da venue mais líquida guardada nas entradas do Pump Watch "
           "(e a falha na chamada não bloqueia a compra)")
+
+
+def _scenario_entry_contract_address(eur_rate):
+    """Endereço do contrato na listagem de posições abertas (pedido do Ricardo 2026-09-14) —
+    Pump Watch é sempre cex_small_cap (ver docstring do módulo), por isso a nota vem sempre de
+    sources_coingecko.fetch_contract_address, chamada só no momento da compra."""
+    state = pump_watch._default_state()
+    accumulating_chart = _accumulating_chart()
+
+    original_fetch_chart = cg.fetch_market_chart
+    original_fetch_top_venue = cg.fetch_top_venue
+    original_fetch_contract_address = cg.fetch_contract_address
+    try:
+        cg.fetch_market_chart = lambda coin_id, days: accumulating_chart
+        cg.fetch_top_venue = lambda coin_id: "KCEX"
+        cg.fetch_contract_address = lambda coin_id: "0x1234567890000000000000000000000000dEaD (BSC)"
+
+        candidates = [fake_candidate("SOXSB", 50.59, cid="soxsb-token")]
+        actions = pump_watch._check_entries(state, candidates, eur_rate, now=1000.0)
+
+        assert len(actions) == 1
+        assert actions[0]["entry_contract_address"] == "0x1234567890000000000000000000000000dEaD (BSC)", (
+            f"FALHOU: compra do Pump Watch devia guardar o endereço do contrato: {actions[0]}"
+        )
+        key = list(state["positions"].keys())[0]
+        assert state["positions"][key]["entry_contract_address"] == "0x1234567890000000000000000000000000dEaD (BSC)"
+
+        msg = telegram_alert.format_pump_watch_message(state, actions, eur_rate)
+        position_line = next(ln for ln in msg.split("\n") if ln.strip().startswith("•") and "SOXSB" in ln)
+        assert "0x1234567890000000000000000000000000dEaD (BSC)" in position_line, (
+            f"FALHOU: listagem de posições abertas do Pump Watch devia mostrar o contrato: {position_line}"
+        )
+
+        # uma falha na chamada de endereço (rate limit, rede, etc.) nunca deve bloquear a compra
+        state2 = pump_watch._default_state()
+
+        def _boom(coin_id):
+            raise RuntimeError("simulated API failure")
+
+        cg.fetch_contract_address = _boom
+        actions2 = pump_watch._check_entries(state2, candidates, eur_rate, now=2000.0)
+        assert len(actions2) == 1
+        assert actions2[0]["entry_contract_address"] is None, (
+            "FALHOU: falha na chamada de endereço não devia impedir a entrada do Pump Watch"
+        )
+        msg2 = telegram_alert.format_pump_watch_message(state2, actions2, eur_rate)
+        position_line2 = next(ln for ln in msg2.split("\n") if ln.strip().startswith("•") and "SOXSB" in ln)
+        assert "📝" not in position_line2, (
+            f"FALHOU: sem endereço, a linha da posição não devia mostrar a nota: {position_line2}"
+        )
+    finally:
+        cg.fetch_market_chart = original_fetch_chart
+        cg.fetch_top_venue = original_fetch_top_venue
+        cg.fetch_contract_address = original_fetch_contract_address
+
+    print("✅ Endereço do contrato OK — guardado nas entradas do Pump Watch e mostrado na "
+          "listagem de posições abertas (e a falha na chamada não bloqueia a compra)")
 
 
 def _scenario_trailing_stop_from_entry(eur_rate):
