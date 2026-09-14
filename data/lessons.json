@@ -1747,5 +1747,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "MTL (cex_small_cap) lost -16.3% in 782 min (slow (>6h)) — stop-loss hit. Entry score: 88 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789421071.7110374,
+    "symbol": "DEBIT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/teller",
+    "held_minutes": 314.8,
+    "exit_reason": "stop-loss hit (-11.2%)",
+    "pnl_pct": -11.17,
+    "pnl_eur": -4.34,
+    "entry_score": 80.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 68266271,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.0,
+    "entry_chg_24h": 7.15103,
+    "entry_chg_7d": 96.2,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.2638538781439088,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "DEBIT (cex_small_cap) lost -11.2% in 315 min (fast (1-6h)) — stop-loss hit. Entry score: 80 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
