@@ -450,6 +450,48 @@ def _run_scenarios():
         print("✅ Corrida 5 OK — estado corrompido levanta PortfolioStateCorrupted (propagada por "
               "run_portfolio_cycle) sem sobrescrever o ficheiro nem reiniciar o desafio")
 
+        # --- Corrida 6: nota da venue mais líquida na compra (pedido do Ricardo 2026-09-14,
+        # caso SOXSB — o preço guardado é uma média do CoinGecko entre várias venues, mas uma
+        # compra real só pode ser executada numa de cada vez; ver
+        # sources_coingecko.fetch_top_venue) — repõe primeiro o estado (Corrida 5 deixou-o
+        # corrompido de propósito) ---
+        os.remove(config.PORTFOLIO_STATE_FILE)
+        original_fetch_top_venue = cg.fetch_top_venue
+
+        cg.fetch_top_venue = lambda coin_id: "Binance"
+        cex_candidate = fake_candidate("SOXSB", score=80, price_usd=50.59, cid="soxsb")
+        dex_candidate = fake_candidate("FOO", score=80, price_usd=0.001, tier="dex_micro_cap", cid="0xfoo")
+        state, actions, _ = portfolio.run_portfolio_cycle([cex_candidate, dex_candidate], eur_rate)
+        buys = {a["symbol"]: a for a in actions if a["action"] == "buy"}
+        assert buys["SOXSB"]["entry_venue"] == "Binance", (
+            f"FALHOU: compra cex_small_cap devia guardar a venue mais líquida: {buys['SOXSB']}"
+        )
+        assert buys["FOO"]["entry_venue"] is None, (
+            "FALHOU: compra dex_micro_cap não devia chamar fetch_top_venue nem guardar venue "
+            f"(já vem de uma pool única): {buys['FOO']}"
+        )
+        msg = telegram_alert.format_portfolio_message(state, actions, eur_rate)
+        assert "via Binance" in msg, f"FALHOU: mensagem devia citar a venue na linha de compra CEX: {msg}"
+        assert msg.count(", via ") == 1, (
+            f"FALHOU: só a compra CEX (com venue) devia mostrar a nota, não a compra DEX: {msg}"
+        )
+        print("✅ Corrida 6 OK — venue mais líquida guardada e mostrada só nas compras cex_small_cap "
+              "(dex_micro_cap já vem de uma pool única, sem chamada extra)")
+
+        # a chamada real falhando (rate limit, rede, etc.) nunca deve bloquear a compra —
+        # só a nota da venue fica ausente
+        os.remove(config.PORTFOLIO_STATE_FILE)
+
+        def _boom(coin_id):
+            raise RuntimeError("simulated API failure")
+
+        cg.fetch_top_venue = _boom
+        state, actions, _ = portfolio.run_portfolio_cycle([cex_candidate], eur_rate)
+        buy = next(a for a in actions if a["action"] == "buy")
+        assert buy["entry_venue"] is None, "FALHOU: falha na chamada de venue não devia impedir a compra"
+        cg.fetch_top_venue = original_fetch_top_venue
+        print("✅ Corrida 6b OK — falha na chamada de venue não bloqueia a compra, só omite a nota")
+
     print("\n✅ Todos os testes offline do portfólio passaram.")
 
 
