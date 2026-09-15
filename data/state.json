@@ -44,11 +44,6 @@
     "last_score": 60.4,
     "symbol": "LRC"
   },
-  "cex_small_cap:siacoin": {
-    "last_alert_ts": 1789243700.377703,
-    "last_score": 63.2,
-    "symbol": "SC"
-  },
   "cex_small_cap:superform": {
     "last_alert_ts": 1789337123.6031528,
     "last_score": 55.7,
@@ -90,8 +85,8 @@
     "symbol": "NEWT"
   },
   "cex_small_cap:teller": {
-    "last_alert_ts": 1789431252.2993815,
-    "last_score": 59.3,
+    "last_alert_ts": 1789505429.2602227,
+    "last_score": 55.0,
     "symbol": "DEBIT"
   },
   "cex_small_cap:renzo": {
@@ -113,11 +108,6 @@
     "last_alert_ts": 1789421071.2660944,
     "last_score": 75.1,
     "symbol": "baton"
-  },
-  "cex_small_cap:dregg": {
-    "last_alert_ts": 1789243700.377703,
-    "last_score": 82.2,
-    "symbol": "DREGG"
   },
   "cex_small_cap:puffer-finance": {
     "last_alert_ts": 1789477678.450867,
@@ -273,11 +263,6 @@
     "last_alert_ts": 1789402185.7695572,
     "last_score": 60.3,
     "symbol": "KOMA"
-  },
-  "cex_small_cap:cets-on-gold": {
-    "last_alert_ts": 1789243700.377703,
-    "last_score": 59.8,
-    "symbol": "CETS"
   },
   "cex_small_cap:illuvium": {
     "last_alert_ts": 1789289301.9438853,
@@ -833,5 +818,45 @@
     "last_alert_ts": 1789494956.2328904,
     "last_score": 57.6,
     "symbol": "STRATTON"
+  },
+  "cex_small_cap:bort": {
+    "last_alert_ts": 1789505429.2602227,
+    "last_score": 100.0,
+    "symbol": "BORT"
+  },
+  "cex_small_cap:netnet": {
+    "last_alert_ts": 1789505429.2602227,
+    "last_score": 89.5,
+    "symbol": "NET"
+  },
+  "cex_small_cap:mileverse": {
+    "last_alert_ts": 1789505429.2602227,
+    "last_score": 84.3,
+    "symbol": "MVC"
+  },
+  "dex_micro_cap:A9AHYeqb7nQk7LZUraw7rBCzYRjy2DRvE6NqWfFHKRdH": {
+    "last_alert_ts": 1789505429.2602227,
+    "last_score": 64.9,
+    "symbol": "HUHCAT"
+  },
+  "cex_small_cap:dymension": {
+    "last_alert_ts": 1789505429.2602227,
+    "last_score": 62.0,
+    "symbol": "DYM"
+  },
+  "cex_small_cap:meet48": {
+    "last_alert_ts": 1789505429.2602227,
+    "last_score": 61.9,
+    "symbol": "IDOL"
+  },
+  "dex_micro_cap:6rHkNb7HCtkpvdnVJsBCZHH5dw3AndqEjfmbEGhooR7t": {
+    "last_alert_ts": 1789505429.2602227,
+    "last_score": 60.9,
+    "symbol": "SCRIBE"
+  },
+  "cex_small_cap:tutorial": {
+    "last_alert_ts": 1789505429.2602227,
+    "last_score": 56.5,
+    "symbol": "TUT"
   }
 }
