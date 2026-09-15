@@ -17,7 +17,7 @@
       "cost_eur": 30.197304694859838,
       "last_price_eur": 0.062087852652592986,
       "last_score": 57.2,
-      "missed_updates": 0,
+      "missed_updates": 1,
       "entry_score": 92.1,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 68627274,
@@ -43,7 +43,7 @@
       "cost_eur": 41.59917651168916,
       "last_price_eur": 0.02549829080454651,
       "last_score": 56.9,
-      "missed_updates": 0,
+      "missed_updates": 1,
       "entry_score": 92.8,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 34035075,
@@ -71,7 +71,7 @@
       "cost_eur": 41.59917651168916,
       "last_price_eur": 0.15019835492446165,
       "last_score": 70.6,
-      "missed_updates": 0,
+      "missed_updates": 1,
       "entry_score": 83.6,
       "entry_liquidity_usd": null,
       "entry_volume_24h_usd": 97311223,
@@ -99,7 +99,7 @@
       "cost_eur": 38.05888024315192,
       "last_price_eur": 0.023337487691774482,
       "last_score": 76.0,
-      "missed_updates": 0,
+      "missed_updates": 1,
       "entry_market_cap": 28783975,
       "entry_venue": "Upbit",
       "entry_contract_address": "0x66761fa41377003622aee3c7675fc7b5c1c2fac5 (ETH)",
@@ -1274,6 +1274,6 @@
       "pnl_pct": -11.173073591820442
     }
   ],
-  "last_run_ts": 1789431252.8278873,
-  "last_eur_rate": 0.8660359963816462
+  "last_run_ts": 1789456168.0016549,
+  "last_eur_rate": 0.92
 }
