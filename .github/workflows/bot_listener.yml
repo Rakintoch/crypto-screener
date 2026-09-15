@@ -2,37 +2,9 @@ name: Telegram Bot Listener
 
 on:
   schedule:
-    # Verifica a cada 5 minutos se enviaste um comando (ex: /status) ao bot, e reavalia as
-    # posições já abertas do desafio de portfólio (take-profit/trailing stop/stop-loss),
-    # sem repetir a descoberta cara de tokens novos — isso continua a cargo do screener
-    # principal (screener.yml, a cada 2h).
-    # (reativação do agendamento em repositórios novos — GitHub por vezes exige um novo
-    # commit ao ficheiro para começar a respeitar o "schedule"; nova tentativa 2026-08-28
-    # depois de desativar/reativar as Actions em Settings, para forçar o GitHub a
-    # reconhecer o "schedule" novamente num repositório privado recente; nova tentativa
-    # 2026-08-30 depois de detetado um novo hiato de ~3h sem corridas agendadas; encurtado
-    # de 15 para 5 minutos a 2026-08-31 a pedido do Ricardo, dado que as moedas seguidas são
-    # voláteis e os preços mudam em janelas curtas — 5 min é o intervalo mínimo prático que o
-    # GitHub Actions suporta para "schedule"; triplica o número de corridas/dia, o que também
-    # pode tornar mais visível (não pior) o hiato ocasional de agendamento já documentado acima)
-    # Autoanálise 2026-09-13: novo hiato detetado nas corridas REAIS (histórico do separador
-    # Actions) — apesar do cron correto (*/5 min), execuções sucessivas ficaram ~4h49m e
-    # ~4h49m apartadas (01:58 -> 06:50 -> 11:39 UTC+1) em vez de a cada poucos minutos. Isto
-    # apanhou uma posição (LSK) a subir e a recuar de novo TODA dentro de um único hiato —
-    # o trailing stop nunca chegou a ver o pico real para poder reagir a ele. Nudge de
-    # reativação (mesma técnica de 2026-08-28/08-30/08-31) para forçar o GitHub a voltar a
-    # respeitar o agendamento; se recorrer, precisa de um disparo externo (ex.: webhook
-    # repository_dispatch a partir de um cron-job.org gratuito) em vez de confiar só no
-    # "schedule" nativo.
     - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
-# Partilha o MESMO grupo do screener.yml de propósito: as duas workflows escrevem no mesmo
-# data/portfolio_state.json, e correrem ao mesmo tempo é exatamente o que causou o incidente
-# de 2026-08-31 (um "git pull --rebase --autostash" em conflito deixou marcadores de conflito
-# commitados no ficheiro, o que reiniciou o desafio sem ninguém pedir). Antes disto, este
-# grupo só evitava duas execuções DESTA workflow em simultâneo — não protegia contra o
-# screener.yml, que é a outra metade do problema.
 concurrency:
   group: crypto-screener-git-state
   cancel-in-progress: false
@@ -51,6 +23,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
 
       - name: "Verificar comandos do Telegram (ex: /status)"
         env:
