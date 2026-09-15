@@ -34,11 +34,6 @@
     "last_score": 98.9,
     "symbol": "PERPSPAD"
   },
-  "cex_small_cap:orchid-protocol": {
-    "last_alert_ts": 1789256638.7751849,
-    "last_score": 81.3,
-    "symbol": "OXT"
-  },
   "cex_small_cap:loopring": {
     "last_alert_ts": 1789268026.1125152,
     "last_score": 60.4,
@@ -74,11 +69,6 @@
     "last_score": 66.7,
     "symbol": "BUN"
   },
-  "cex_small_cap:zeal-2": {
-    "last_alert_ts": 1789256638.7751849,
-    "last_score": 66.4,
-    "symbol": "ZEAL"
-  },
   "cex_small_cap:newton-protocol": {
     "last_alert_ts": 1789289301.9438853,
     "last_score": 55.6,
@@ -110,8 +100,8 @@
     "symbol": "baton"
   },
   "cex_small_cap:puffer-finance": {
-    "last_alert_ts": 1789477678.450867,
-    "last_score": 68.2,
+    "last_alert_ts": 1789516657.9643302,
+    "last_score": 89.1,
     "symbol": "PUFFER"
   },
   "cex_small_cap:saga-2": {
@@ -125,8 +115,8 @@
     "symbol": "TRIPLET"
   },
   "cex_small_cap:ordofi": {
-    "last_alert_ts": 1789268026.1125152,
-    "last_score": 56.1,
+    "last_alert_ts": 1789516657.9643302,
+    "last_score": 81.7,
     "symbol": "ORDO"
   },
   "cex_small_cap:anonymous-cat": {
@@ -199,11 +189,6 @@
     "last_score": 88.9,
     "symbol": "AVA"
   },
-  "dex_micro_cap:J8X5ygWHY5uHFch7m3MisSC7eDAWpAkgi1pyqfT5pump": {
-    "last_alert_ts": 1789256638.7751849,
-    "last_score": 62.3,
-    "symbol": "revolve"
-  },
   "cex_small_cap:saar": {
     "last_alert_ts": 1789324350.0601528,
     "last_score": 81.0,
@@ -269,35 +254,10 @@
     "last_score": 59.8,
     "symbol": "ILV"
   },
-  "dex_micro_cap:0xcc07fc68826580230a133c8c08bcab54b3c97777": {
-    "last_alert_ts": 1789256638.7751849,
-    "last_score": 71.6,
-    "symbol": "FTR"
-  },
-  "cex_small_cap:azit": {
-    "last_alert_ts": 1789256638.7751849,
-    "last_score": 68.6,
-    "symbol": "AZIT"
-  },
-  "cex_small_cap:earn": {
-    "last_alert_ts": 1789256638.7751849,
-    "last_score": 66.1,
-    "symbol": "EARN"
-  },
-  "dex_micro_cap:2fWzx35rQMAATQGhJzVTvzeXHcenCQLqCog9Jkg5pump": {
-    "last_alert_ts": 1789256638.7751849,
-    "last_score": 63.5,
-    "symbol": "LAMA"
-  },
   "cex_small_cap:thena": {
     "last_alert_ts": 1789494956.2328904,
     "last_score": 58.4,
     "symbol": "THE"
-  },
-  "cex_small_cap:arpa": {
-    "last_alert_ts": 1789256638.7751849,
-    "last_score": 60.4,
-    "symbol": "ARPA"
   },
   "cex_small_cap:pha": {
     "last_alert_ts": 1789308265.3957274,
@@ -310,8 +270,8 @@
     "symbol": "POWR"
   },
   "cex_small_cap:steem": {
-    "last_alert_ts": 1789477678.450867,
-    "last_score": 57.4,
+    "last_alert_ts": 1789516657.9643302,
+    "last_score": 73.8,
     "symbol": "STEEM"
   },
   "cex_small_cap:ark": {
@@ -320,8 +280,8 @@
     "symbol": "ARK"
   },
   "cex_small_cap:civic": {
-    "last_alert_ts": 1789431252.2993815,
-    "last_score": 71.7,
+    "last_alert_ts": 1789516657.9643302,
+    "last_score": 58.5,
     "symbol": "CVC"
   },
   "cex_small_cap:canopy-finance": {
@@ -385,8 +345,8 @@
     "symbol": "API3"
   },
   "cex_small_cap:citrea": {
-    "last_alert_ts": 1789289301.9438853,
-    "last_score": 59.7,
+    "last_alert_ts": 1789516657.9643302,
+    "last_score": 68.5,
     "symbol": "CTR"
   },
   "cex_small_cap:ardor": {
@@ -615,8 +575,8 @@
     "symbol": "INDEX"
   },
   "cex_small_cap:synapse-2": {
-    "last_alert_ts": 1789494956.2328904,
-    "last_score": 56.2,
+    "last_alert_ts": 1789516657.9643302,
+    "last_score": 87.2,
     "symbol": "SYN"
   },
   "cex_small_cap:green-satoshi-token": {
@@ -735,8 +695,8 @@
     "symbol": "CARS"
   },
   "cex_small_cap:hunter-biden-s-laptop-3": {
-    "last_alert_ts": 1789456155.5817614,
-    "last_score": 58.0,
+    "last_alert_ts": 1789516657.9643302,
+    "last_score": 66.5,
     "symbol": "LAPTOP"
   },
   "cex_small_cap:fuse-network-token": {
@@ -858,5 +818,30 @@
     "last_alert_ts": 1789505429.2602227,
     "last_score": 56.5,
     "symbol": "TUT"
+  },
+  "cex_small_cap:fire": {
+    "last_alert_ts": 1789516657.9643302,
+    "last_score": 72.4,
+    "symbol": "FIRE"
+  },
+  "cex_small_cap:hu-die-ren-sheng": {
+    "last_alert_ts": 1789516657.9643302,
+    "last_score": 66.8,
+    "symbol": "蝴蝶人生"
+  },
+  "cex_small_cap:g-token": {
+    "last_alert_ts": 1789516657.9643302,
+    "last_score": 61.7,
+    "symbol": "G"
+  },
+  "cex_small_cap:orochi-network": {
+    "last_alert_ts": 1789516657.9643302,
+    "last_score": 59.1,
+    "symbol": "ON"
+  },
+  "cex_small_cap:burnie-senders": {
+    "last_alert_ts": 1789516657.9643302,
+    "last_score": 57.6,
+    "symbol": "BURNIE"
   }
 }
