@@ -1963,5 +1963,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "FLOCK (cex_small_cap) lost -9.8% in 5502 min (slow (>6h)) — stop-loss hit. Entry score: 92 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789568395.9054356,
+    "symbol": "LMWR",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/limewire-token",
+    "held_minutes": 316.3,
+    "exit_reason": "stop-loss hit (-18.1%)",
+    "pnl_pct": -18.12,
+    "pnl_eur": -4.57,
+    "entry_score": 65.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1341189,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.6,
+    "entry_chg_24h": 21.82837,
+    "entry_chg_7d": -6.6,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.17654645604303387,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "LMWR (cex_small_cap) lost -18.1% in 316 min (fast (1-6h)) — stop-loss hit. Entry score: 66 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
