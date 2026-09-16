@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1789049034.6380584,
   "end_ts": 1789913034.6380584,
-  "cash_eur": 27.039914102670974,
+  "cash_eur": 1.9504620852866061,
   "starting_balance_eur": 100,
   "positions": {
     "cex_small_cap:synapse-2": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.1502592535688469,
       "entry_ts": 1789549419.8990123,
       "cost_eur": 25.20251419757013,
-      "last_price_eur": 0.16265735493316796,
-      "last_score": 73.4,
+      "last_price_eur": 0.1442826654443134,
+      "last_score": 70.3,
       "missed_updates": 0,
       "entry_market_cap": 37904513,
       "entry_venue": "Binance",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 40644722
+      "last_market_cap": 36541724
     },
     "cex_small_cap:delta": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.01180818505135547,
       "entry_ts": 1789549419.8990123,
       "cost_eur": 25.20251419757013,
-      "last_price_eur": 0.011565705133102589,
-      "last_score": 40.1,
+      "last_price_eur": 0.012439133826908299,
+      "last_score": 51.0,
       "missed_updates": 0,
       "entry_market_cap": 13535414,
       "entry_venue": "Pons.family (on-chain)",
@@ -65,7 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 13257533
+      "last_market_cap": 14267634
     },
     "cex_small_cap:heima": {
       "tier": "cex_small_cap",
@@ -77,8 +77,8 @@
       "entry_price_eur": 0.1177135779770672,
       "entry_ts": 1789569576.872897,
       "cost_eur": 20.634623784105226,
-      "last_price_eur": 0.12540806514641215,
-      "last_score": 85.4,
+      "last_price_eur": 0.12874654451105663,
+      "last_score": 78.6,
       "missed_updates": 0,
       "entry_market_cap": 11085044,
       "entry_venue": "Binance",
@@ -96,7 +96,37 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 11761573
+      "last_market_cap": 12030077
+    },
+    "cex_small_cap:blue-chip-4": {
+      "tier": "cex_small_cap",
+      "id": "blue-chip-4",
+      "symbol": "BLUECHIP",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/blue-chip-4",
+      "qty": 1805.927560936106,
+      "entry_price_eur": 0.01389283410923703,
+      "entry_ts": 1789598327.2305677,
+      "cost_eur": 25.089452017384367,
+      "last_price_eur": 0.01389283410923703,
+      "last_score": 82.9,
+      "missed_updates": 0,
+      "entry_market_cap": 15932340,
+      "entry_venue": "o1 Launchpad (on-chain)",
+      "entry_contract_address": "0xb200000000000000000000cfbdf64a8706a94a01 (Base)",
+      "entry_score": 82.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 14384921,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 12.1,
+      "entry_chg_24h": 33.05848,
+      "entry_chg_7d": -18.5,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.902875597683705,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null
     }
   },
   "closed_trades": [
@@ -1617,6 +1647,6 @@
       "pnl_pct": 7.2905420891618515
     }
   ],
-  "last_run_ts": 1789593718.7219422,
-  "last_eur_rate": 0.8724100003924352
+  "last_run_ts": 1789598327.2305677,
+  "last_eur_rate": 0.8719829900239531
 }
