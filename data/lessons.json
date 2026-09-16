@@ -1855,5 +1855,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "ARDR (cex_small_cap) lost -10.9% in 2040 min (slow (>6h)) — stop-loss hit. Entry score: 93 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789528223.9950445,
+    "symbol": "AIN",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/infinity-ground",
+    "held_minutes": 842.4,
+    "exit_reason": "stop-loss hit (-80.1%)",
+    "pnl_pct": -80.08,
+    "pnl_eur": -27.68,
+    "entry_score": 97.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 74747160,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.2,
+    "entry_chg_24h": 90.14377,
+    "entry_chg_7d": 165.4,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.1705964279308034,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "near-total collapse (possible rug/dump)",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "AIN (cex_small_cap) lost -80.1% in 842 min (slow (>6h)) — near-total collapse (possible rug/dump). Entry score: 97 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada. Note: the drop was slow enough that it could, in theory, have been caught much earlier by a frequent check — if this happens again, confirm the 15-min monitor is actually running without gaps in that interval."
   }
 ]
