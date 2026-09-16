@@ -15,8 +15,8 @@
       "entry_price_eur": 0.1502592535688469,
       "entry_ts": 1789549419.8990123,
       "cost_eur": 25.20251419757013,
-      "last_price_eur": 0.1442826654443134,
-      "last_score": 70.3,
+      "last_price_eur": 0.16129116891634332,
+      "last_score": 71.9,
       "missed_updates": 0,
       "entry_market_cap": 37904513,
       "entry_venue": "Binance",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 36541724
+      "last_market_cap": 40524969
     },
     "cex_small_cap:delta": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.01180818505135547,
       "entry_ts": 1789549419.8990123,
       "cost_eur": 25.20251419757013,
-      "last_price_eur": 0.012439133826908299,
-      "last_score": 51.0,
+      "last_price_eur": 0.012346779735212966,
+      "last_score": 53.8,
       "missed_updates": 0,
       "entry_market_cap": 13535414,
       "entry_venue": "Pons.family (on-chain)",
@@ -65,7 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 14267634
+      "last_market_cap": 14144322
     },
     "cex_small_cap:heima": {
       "tier": "cex_small_cap",
@@ -77,8 +77,8 @@
       "entry_price_eur": 0.1177135779770672,
       "entry_ts": 1789569576.872897,
       "cost_eur": 20.634623784105226,
-      "last_price_eur": 0.12874654451105663,
-      "last_score": 78.6,
+      "last_price_eur": 0.11886035013623292,
+      "last_score": 71.1,
       "missed_updates": 0,
       "entry_market_cap": 11085044,
       "entry_venue": "Binance",
@@ -96,7 +96,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 12030077
+      "last_market_cap": 11107012
     },
     "cex_small_cap:blue-chip-4": {
       "tier": "cex_small_cap",
@@ -108,8 +108,8 @@
       "entry_price_eur": 0.01389283410923703,
       "entry_ts": 1789598327.2305677,
       "cost_eur": 25.089452017384367,
-      "last_price_eur": 0.01389283410923703,
-      "last_score": 82.9,
+      "last_price_eur": 0.014743534646230034,
+      "last_score": 54.7,
       "missed_updates": 0,
       "entry_market_cap": 15932340,
       "entry_venue": "o1 Launchpad (on-chain)",
@@ -126,7 +126,8 @@
       "entry_vol_liq_ratio": null,
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
-      "entry_base_breakout": null
+      "entry_base_breakout": null,
+      "last_market_cap": 16909740
     }
   },
   "closed_trades": [
@@ -1647,6 +1648,6 @@
       "pnl_pct": 7.2905420891618515
     }
   ],
-  "last_run_ts": 1789598327.2305677,
-  "last_eur_rate": 0.8719829900239531
+  "last_run_ts": 1789602113.1398625,
+  "last_eur_rate": 0.8718959987693503
 }
