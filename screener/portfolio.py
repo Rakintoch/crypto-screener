@@ -233,6 +233,43 @@ def _robustness_proxy(c):
     return c.get("volume_24h") or 0
 
 
+def _maybe_rotate_weak_position(state, now):
+    """Liberta UMA vaga, fechando antecipadamente a posição mais fraca, quando isso é a
+    única forma de aproveitar um candidato novo já qualificado — ver a nota em config.py
+    (secção "Rotação de posições fracas") para o raciocínio completo por trás do critério.
+
+    Deliberadamente conservador: só mexe numa posição que já mostra decadência real (score a
+    cair para perto de SCORE_DECAY_EXIT) E sem qualquer ganho não realizado, já aberta há pelo
+    menos ROTATION_MIN_HOLD_HOURS, e nunca mais de uma vez a cada ROTATION_MIN_INTERVAL_HOURS
+    (cooldown global, para não gerar rotação em cadeia/churn). Não mexe numa posição já a
+    perseguir um trailing stop (`trailing_active`) — essa já está a proteger um ganho real."""
+    if state.get("last_rotation_ts") and (now - state["last_rotation_ts"]) < config.ROTATION_MIN_INTERVAL_HOURS * 3600:
+        return None
+
+    candidates_to_rotate = [
+        (key, pos) for key, pos in state["positions"].items()
+        if pos.get("last_score") is not None
+        and pos["last_score"] < config.ROTATION_SCORE_WATCH
+        and not pos.get("trailing_active")
+        and pos.get("last_price_eur", pos["entry_price_eur"]) <= pos["entry_price_eur"]
+        and (now - pos["entry_ts"]) >= config.ROTATION_MIN_HOLD_HOURS * 3600
+    ]
+    if not candidates_to_rotate:
+        return None
+
+    # a mais fraca primeiro (score mais baixo) — não a mais recente nem a de maior prejuízo
+    key, pos = min(candidates_to_rotate, key=lambda kp: kp[1]["last_score"])
+    last_price = pos.get("last_price_eur", pos["entry_price_eur"])
+    trade = _close_position(
+        state, key, last_price,
+        f"rotated out — thesis fading (score {pos['last_score']:.0f}, no unrealized gain) "
+        "to free a slot for a new qualified candidate",
+        now,
+    )
+    state["last_rotation_ts"] = now
+    return {"action": "sell", **trade}
+
+
 def _check_entries(state, ranked_candidates, now):
     actions = []
 
@@ -244,10 +281,6 @@ def _check_entries(state, ranked_candidates, now):
         _alert_capital_protection(state, equity)
     if state.get("capital_protection_active"):
         return actions  # disjuntor acionado: não abre posições novas (ver config.MAX_DRAWDOWN_HALT_PCT)
-
-    slots_free = config.MAX_CONCURRENT_POSITIONS - len(state["positions"])
-    if slots_free <= 0:
-        return actions
 
     held_keys = set(state["positions"].keys())
     recent_exit_ids = {
@@ -272,6 +305,19 @@ def _check_entries(state, ranked_candidates, now):
         key=lambda c: (min(c["score"], config.SELECTION_SCORE_CEILING), _robustness_proxy(c)),
         reverse=True,
     )
+
+    slots_free = config.MAX_CONCURRENT_POSITIONS - len(state["positions"])
+    if slots_free <= 0:
+        # Antes de desistir, vê se vale a pena libertar UMA vaga (ver config.py, secção
+        # "Rotação de posições fracas") — só quando há mesmo um candidato qualificado à
+        # espera, para não fechar uma posição a decair sem ter para onde canalizar o capital.
+        if config.ROTATION_ENABLED and eligible:
+            rotated = _maybe_rotate_weak_position(state, now)
+            if rotated:
+                actions.append(rotated)
+                slots_free = config.MAX_CONCURRENT_POSITIONS - len(state["positions"])
+        if slots_free <= 0:
+            return actions
 
     for c in eligible[:slots_free]:
         equity = _equity(state)
