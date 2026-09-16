@@ -544,6 +544,91 @@ def _run_scenarios():
         cg.fetch_contract_address = original_fetch_contract_address
         print("✅ Corrida 7b OK — falha na chamada de endereço não bloqueia a compra, só omite a nota")
 
+    # --- Corrida 8: rotação de posição fraca (pedido do Ricardo 2026-09-16) — com as 4
+    # vagas cheias e um candidato novo já qualificado (score >= ENTRY_MIN_SCORE), a posição
+    # mais fraca (score já a decair, sem ganho não realizado, aberta há mais do que
+    # ROTATION_MIN_HOLD_HOURS) deve ser vendida para libertar espaço, em vez de o candidato
+    # ser simplesmente ignorado (comportamento antigo) ---
+    def _full_state(weak_overrides=None, extra_state=None):
+        st = portfolio._default_state()
+        st["status"] = "active"
+        st["start_ts"] = time.time()
+        st["end_ts"] = time.time() + 999_999
+        for i in range(config.MAX_CONCURRENT_POSITIONS - 1):
+            st["positions"][f"cex_small_cap:healthy{i}"] = {
+                "tier": "cex_small_cap", "id": f"healthy{i}", "symbol": f"HEALTHY{i}", "qty": 1.0,
+                "entry_price_eur": 1.0, "entry_ts": time.time() - 10 * 3600, "cost_eur": 1.0,
+                "last_price_eur": 1.0, "last_score": 80, "missed_updates": 0,
+            }
+        weak = {
+            "tier": "cex_small_cap", "id": "weak", "symbol": "WEAK", "qty": 1.0,
+            "entry_price_eur": 1.0, "entry_ts": time.time() - 10 * 3600, "cost_eur": 1.0,
+            "last_price_eur": 0.95, "last_score": 35, "missed_updates": 0,
+        }
+        if weak_overrides:
+            weak.update(weak_overrides)
+        st["positions"]["cex_small_cap:weak"] = weak
+        if extra_state:
+            st.update(extra_state)
+        return st
+
+    new_candidate = fake_candidate("NEWSTRONG", score=80, price_usd=1.0, cid="newstrong")
+    new_candidate["_eur_rate"] = eur_rate
+
+    state8 = _full_state()
+    now8 = time.time()
+    actions8 = portfolio._check_entries(state8, [new_candidate], now8)
+
+    sells8 = [a for a in actions8 if a["action"] == "sell"]
+    buys8 = [a for a in actions8 if a["action"] == "buy"]
+    assert len(sells8) == 1 and sells8[0]["symbol"] == "WEAK", (
+        f"FALHOU: com as 4 vagas cheias e um candidato qualificado à espera, a posição mais "
+        f"fraca (WEAK) devia ter sido vendida por rotação — vendas: {[a['symbol'] for a in sells8]}"
+    )
+    assert "rotated out" in sells8[0]["exit_reason"], (
+        f"FALHOU: motivo de saída devia identificar a rotação, obtido '{sells8[0]['exit_reason']}'"
+    )
+    assert len(buys8) == 1 and buys8[0]["symbol"] == "NEWSTRONG", (
+        f"FALHOU: com a vaga libertada pela rotação, NEWSTRONG devia ter sido comprada — "
+        f"compras: {[a['symbol'] for a in buys8]}"
+    )
+    assert "cex_small_cap:weak" not in state8["positions"], "FALHOU: WEAK devia ter sido removida das posições"
+    assert state8.get("last_rotation_ts") == now8, "FALHOU: last_rotation_ts devia ter sido atualizado"
+    weak_trade8 = next(t for t in state8["closed_trades"] if t["symbol"] == "WEAK")
+    assert weak_trade8["pnl_pct"] < 0, "FALHOU: WEAK foi fechada abaixo do preço de entrada, pnl devia ser negativo"
+    print("✅ Corrida 8 OK — com as 4 vagas cheias, a posição mais fraca (score a decair, sem "
+          "ganho, já aberta há tempo suficiente) foi rodada para dar lugar a NEWSTRONG")
+
+    # --- Corrida 8b: os três guardrails da rotação bloqueiam-na corretamente ---
+    # (i) posição fraca aberta há pouco tempo (< ROTATION_MIN_HOLD_HOURS) — não deve rodar
+    state8b_i = _full_state(weak_overrides={"entry_ts": time.time() - 1 * 3600})
+    actions8b_i = portfolio._check_entries(state8b_i, [new_candidate], time.time())
+    assert not any(a["action"] == "sell" for a in actions8b_i), (
+        "FALHOU: posição fraca recém-aberta (< ROTATION_MIN_HOLD_HOURS) não devia ser rodada"
+    )
+    assert not any(a["action"] == "buy" for a in actions8b_i), (
+        "FALHOU: sem rotação, não devia haver vaga para comprar NEWSTRONG"
+    )
+
+    # (ii) posição fraca com ganho não realizado (mesmo que o score já esteja a decair) —
+    # não deve rodar, só faz sentido sacrificar posições que já estão no vermelho
+    state8b_ii = _full_state(weak_overrides={"last_price_eur": 1.10})
+    actions8b_ii = portfolio._check_entries(state8b_ii, [new_candidate], time.time())
+    assert not any(a["action"] == "sell" for a in actions8b_ii), (
+        "FALHOU: posição fraca mas com ganho não realizado não devia ser rodada"
+    )
+
+    # (iii) cooldown global (ROTATION_MIN_INTERVAL_HOURS) ainda ativo de uma rotação recente
+    # — mesmo com uma posição fraca elegível, não deve rodar duas vezes seguidas
+    state8b_iii = _full_state(extra_state={"last_rotation_ts": time.time() - 1 * 3600})
+    actions8b_iii = portfolio._check_entries(state8b_iii, [new_candidate], time.time())
+    assert not any(a["action"] == "sell" for a in actions8b_iii), (
+        "FALHOU: cooldown global da rotação (ROTATION_MIN_INTERVAL_HOURS) devia bloquear uma "
+        "segunda rotação tão cedo"
+    )
+    print("✅ Corrida 8b OK — os três guardrails da rotação (tempo mínimo de posse, sem ganho "
+          "não realizado, cooldown global) bloqueiam-na corretamente quando não se aplicam")
+
     print("\n✅ Todos os testes offline do portfólio passaram.")
 
 
