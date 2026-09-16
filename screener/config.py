@@ -135,6 +135,27 @@ SCORE_DECAY_EXIT = 30           # se o score cair abaixo disto, a tese de moment
 # Não mexe no stop-loss nem no take-profit — o problema medido está na seleção, não na saída.
 SELECTION_SCORE_CEILING = 90
 
+# --- Rotação de posições fracas (pedido do Ricardo 2026-09-16) ---
+# Antes desta mudança, com as MAX_CONCURRENT_POSITIONS vagas todas ocupadas, _check_entries
+# devolvia-se de imediato (ver "if slots_free <= 0: return actions") — um candidato novo já
+# qualificado (score >= ENTRY_MIN_SCORE) era sempre ignorado até uma posição existente fechar
+# sozinha, por melhor que esse candidato fosse. Ricardo notou isto diretamente: sinais fortes
+# no alerta de descoberta "nunca entram no Virtual Portfolio Challenge".
+#
+# Esta rotação NÃO compara o score do candidato novo com o score da posição fraca — a
+# autoanálise de 2026-09-10 já mostrou que o score bruto não prevê retorno (correlação -0,019
+# em 79 trades fechados, e o escalão 90-100 foi o PIOR em € líquidos). Um candidato novo com
+# score maior não é, por si só, motivo válido para vender uma posição já aberta. Em vez disso,
+# reaplica ANTECIPADAMENTE o mesmo sinal de decadência já confiado pelo bot (SCORE_DECAY_EXIT):
+# uma posição só é candidata a rotação se já estiver a decair para perto desse limiar E sem
+# ganho não realizado nenhum — ou seja, teria uma probabilidade razoável de acabar em
+# score-decay-exit de qualquer forma, só que mais tarde. A rotação só antecipa esse desfecho
+# para não desperdiçar, entretanto, um candidato novo já qualificado.
+ROTATION_ENABLED = True
+ROTATION_SCORE_WATCH = 45         # entre o neutro e o SCORE_DECAY_EXIT (30) — "a enfraquecer" mas ainda não invalidado
+ROTATION_MIN_HOLD_HOURS = 4       # não roda posições recém-abertas, ainda sem tempo de desenvolver a tese
+ROTATION_MIN_INTERVAL_HOURS = 12  # cooldown global — no máximo 1 rotação a cada 12h, para não gerar churn
+
 # Take-profit / stop-loss por camada — DEX é mais volátil, por isso janelas mais largas
 TAKE_PROFIT_PCT = {"cex_small_cap": 0.20, "dex_micro_cap": 0.40}
 # Autoanálise 2026-08-30: os 5 stop-loss reais em cex_small_cap fecharam sempre bastante
