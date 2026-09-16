@@ -616,5 +616,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop apanhou subida extra após o alvo",
     "nota": "LSK (cex_small_cap) ganhou +310.0% em 1483 min — trailing stop apanhou subida extra após o alvo. Score na entrada: 97. Segurança na entrada: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789549419.8990123,
+    "symbol": "CNPY",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/canopy",
+    "held_minutes": 1195.7,
+    "exit_reason": "trailing stop hit — dropped 11.9% from the peak (peak +20.2% since entry)",
+    "pnl_pct": 5.91,
+    "pnl_eur": 2.04,
+    "entry_score": 94.7,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 47261218,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.1,
+    "entry_chg_24h": 24.79029,
+    "entry_chg_7d": 89.7,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.3582650063076074,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "CNPY (cex_small_cap) gained +5.9% in 1196 min — trailing stop caught extra upside after the target. Entry score: 95. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
