@@ -668,5 +668,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "ORBIO (cex_small_cap) gained +7.3% in 738 min — trailing stop caught extra upside after the target. Entry score: 68. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789614890.3302927,
+    "symbol": "DELTA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/delta",
+    "held_minutes": 1091.2,
+    "exit_reason": "trailing stop hit — dropped 12.4% from the peak (peak +27.4% since entry)",
+    "pnl_pct": 11.6,
+    "pnl_eur": 2.92,
+    "entry_score": 69.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 2049221,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 21.6,
+    "entry_chg_24h": 27.00782,
+    "entry_chg_7d": -4.2,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.15139699458029138,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "DELTA (cex_small_cap) gained +11.6% in 1091 min — trailing stop caught extra upside after the target. Entry score: 69. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
