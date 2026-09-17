@@ -2098,5 +2098,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "4STOCK (cex_small_cap) lost -8.1% in 532 min (slow (>6h)) — stop-loss hit. Entry score: 82 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789655979.1886597,
+    "symbol": "FOLD",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/interfold",
+    "held_minutes": 329.7,
+    "exit_reason": "stop-loss hit (-9.0%)",
+    "pnl_pct": -8.95,
+    "pnl_eur": -1.6,
+    "entry_score": 94.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 85696860,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.0,
+    "entry_chg_24h": 34.09561,
+    "entry_chg_7d": 38.5,
+    "entry_chg_6h": null,
+    "entry_turnover": 3.751409620831531,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "FOLD (cex_small_cap) lost -9.0% in 330 min (fast (1-6h)) — stop-loss hit. Entry score: 95 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
