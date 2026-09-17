@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1789049034.6380584,
   "end_ts": 1789913034.6380584,
-  "cash_eur": 17.83015897670225,
+  "cash_eur": 0.0,
   "starting_balance_eur": 100,
   "positions": {
     "cex_small_cap:synapse-2": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.1502592535688469,
       "entry_ts": 1789549419.8990123,
       "cost_eur": 25.20251419757013,
-      "last_price_eur": 0.1592218276668401,
-      "last_score": 74.5,
+      "last_price_eur": 0.1543767944889379,
+      "last_score": 51.2,
       "missed_updates": 0,
       "entry_market_cap": 37904513,
       "entry_venue": "Binance",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 40316966
+      "last_market_cap": 38802848
     },
     "cex_small_cap:blue-chip-4": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.01389283410923703,
       "entry_ts": 1789598327.2305677,
       "cost_eur": 25.089452017384367,
-      "last_price_eur": 0.014416324483996096,
-      "last_score": 54.2,
+      "last_price_eur": 0.014251519237094357,
+      "last_score": 58.4,
       "missed_updates": 0,
       "entry_market_cap": 15932340,
       "entry_venue": "o1 Launchpad (on-chain)",
@@ -65,7 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 16664549
+      "last_market_cap": 16351826
     },
     "cex_small_cap:4stock": {
       "tier": "cex_small_cap",
@@ -77,8 +77,8 @@
       "entry_price_eur": 0.011025973719076865,
       "entry_ts": 1789614890.3302927,
       "cost_eur": 24.393004993726706,
-      "last_price_eur": 0.01075455094849351,
-      "last_score": 53.6,
+      "last_price_eur": 0.010830648421046238,
+      "last_score": 60.5,
       "missed_updates": 0,
       "entry_market_cap": 12618901,
       "entry_venue": "KuCoin",
@@ -96,7 +96,37 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 12274199
+      "last_market_cap": 12426815
+    },
+    "cex_small_cap:interfold": {
+      "tier": "cex_small_cap",
+      "id": "interfold",
+      "symbol": "FOLD",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/interfold",
+      "qty": 293.93913766654657,
+      "entry_price_eur": 0.0606593566214014,
+      "entry_ts": 1789636197.1158807,
+      "cost_eur": 17.83015897670225,
+      "last_price_eur": 0.0606593566214014,
+      "last_score": 94.9,
+      "missed_updates": 0,
+      "entry_market_cap": 22843909,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0xe172e9b6cfbeeb5593bdce3f077356fdb33af904 (ETH)",
+      "entry_score": 94.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 85696860,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 5.0,
+      "entry_chg_24h": 34.09561,
+      "entry_chg_7d": 38.5,
+      "entry_chg_6h": null,
+      "entry_turnover": 3.751409620831531,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null
     }
   },
   "closed_trades": [
@@ -1730,6 +1760,6 @@
       "pnl_pct": -27.548604525585024
     }
   ],
-  "last_run_ts": 1789627287.1741796,
-  "last_eur_rate": 0.871354999298634
+  "last_run_ts": 1789636197.1158807,
+  "last_eur_rate": 0.8715550025345393
 }
