@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1789049034.6380584,
   "end_ts": 1789913034.6380584,
-  "cash_eur": 0.0,
+  "cash_eur": 17.83015897670225,
   "starting_balance_eur": 100,
   "positions": {
     "cex_small_cap:synapse-2": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.1502592535688469,
       "entry_ts": 1789549419.8990123,
       "cost_eur": 25.20251419757013,
-      "last_price_eur": 0.13873348229809837,
-      "last_score": 71.0,
+      "last_price_eur": 0.1592218276668401,
+      "last_score": 74.5,
       "missed_updates": 0,
       "entry_market_cap": 37904513,
       "entry_venue": "Binance",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 34823903
+      "last_market_cap": 40316966
     },
     "cex_small_cap:blue-chip-4": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.01389283410923703,
       "entry_ts": 1789598327.2305677,
       "cost_eur": 25.089452017384367,
-      "last_price_eur": 0.014489576932417675,
-      "last_score": 73.1,
+      "last_price_eur": 0.014416324483996096,
+      "last_score": 54.2,
       "missed_updates": 0,
       "entry_market_cap": 15932340,
       "entry_venue": "o1 Launchpad (on-chain)",
@@ -65,37 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 16552530
-    },
-    "cex_small_cap:loom-4": {
-      "tier": "cex_small_cap",
-      "id": "loom-4",
-      "symbol": "LOOM",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/loom-4",
-      "qty": 21512.369389958894,
-      "entry_price_eur": 0.0011439846947124013,
-      "entry_ts": 1789614890.3302927,
-      "cost_eur": 24.609821329112535,
-      "last_price_eur": 0.0011439846947124013,
-      "last_score": 84.3,
-      "missed_updates": 0,
-      "entry_market_cap": 1271033,
-      "entry_venue": "KCEX",
-      "entry_contract_address": "CB1YQfUzgsnaCd93cZLdiX1uASW7utWBaYMUsvcwNUBV (Solana)",
-      "entry_score": 84.3,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 1879383,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 8.5,
-      "entry_chg_24h": 82.08315,
-      "entry_chg_7d": -56.9,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.4786264400688258,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null
+      "last_market_cap": 16664549
     },
     "cex_small_cap:4stock": {
       "tier": "cex_small_cap",
@@ -107,8 +77,8 @@
       "entry_price_eur": 0.011025973719076865,
       "entry_ts": 1789614890.3302927,
       "cost_eur": 24.393004993726706,
-      "last_price_eur": 0.011025973719076865,
-      "last_score": 82.3,
+      "last_price_eur": 0.01075455094849351,
+      "last_score": 53.6,
       "missed_updates": 0,
       "entry_market_cap": 12618901,
       "entry_venue": "KuCoin",
@@ -125,7 +95,8 @@
       "entry_vol_liq_ratio": null,
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
-      "entry_base_breakout": null
+      "entry_base_breakout": null,
+      "last_market_cap": 12274199
     }
   },
   "closed_trades": [
@@ -1720,8 +1691,45 @@
       "proceeds_eur": 28.124788325445266,
       "pnl_eur": 2.9222741278751343,
       "pnl_pct": 11.595169057208116
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "loom-4",
+      "symbol": "LOOM",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/loom-4",
+      "qty": 21512.369389958894,
+      "entry_price_eur": 0.0011439846947124013,
+      "entry_ts": 1789614890.3302927,
+      "cost_eur": 24.609821329112535,
+      "last_price_eur": 0.0008288328753328607,
+      "last_score": 41.5,
+      "missed_updates": 0,
+      "entry_market_cap": 1271033,
+      "entry_venue": "KCEX",
+      "entry_contract_address": "CB1YQfUzgsnaCd93cZLdiX1uASW7utWBaYMUsvcwNUBV (Solana)",
+      "entry_score": 84.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 1879383,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 8.5,
+      "entry_chg_24h": 82.08315,
+      "entry_chg_7d": -56.9,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.4786264400688258,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "last_market_cap": 947369,
+      "exit_price_eur": 0.0008288328753328607,
+      "exit_ts": 1789627287.1741796,
+      "exit_reason": "stop-loss hit (-27.5%)",
+      "proceeds_eur": 17.83015897670225,
+      "pnl_eur": -6.779662352410284,
+      "pnl_pct": -27.548604525585024
     }
   ],
-  "last_run_ts": 1789614890.3302927,
-  "last_eur_rate": 0.8725979929309473
+  "last_run_ts": 1789627287.1741796,
+  "last_eur_rate": 0.871354999298634
 }
