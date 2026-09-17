@@ -1990,5 +1990,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "LMWR (cex_small_cap) lost -18.1% in 316 min (fast (1-6h)) — stop-loss hit. Entry score: 66 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789609405.8261046,
+    "symbol": "HEI",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/heima",
+    "held_minutes": 663.8,
+    "exit_reason": "stop-loss hit (-8.3%)",
+    "pnl_pct": -8.27,
+    "pnl_eur": -1.71,
+    "entry_score": 82.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 26058949,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.1,
+    "entry_chg_24h": 20.33653,
+    "entry_chg_7d": -5.5,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.350820528993841,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "HEI (cex_small_cap) lost -8.3% in 664 min (slow (>6h)) — stop-loss hit. Entry score: 82 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
