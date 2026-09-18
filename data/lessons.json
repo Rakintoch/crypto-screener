@@ -2152,5 +2152,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "UP (cex_small_cap) lost -12.3% in 610 min (slow (>6h)) — stop-loss hit. Entry score: 84 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789753082.935651,
+    "symbol": "AVA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/concierge-io",
+    "held_minutes": 880.3,
+    "exit_reason": "stop-loss hit (-9.8%)",
+    "pnl_pct": -9.78,
+    "pnl_eur": -2.15,
+    "entry_score": 95.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 129629206,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.3,
+    "entry_chg_24h": 48.6133,
+    "entry_chg_7d": 86.5,
+    "entry_chg_6h": null,
+    "entry_turnover": 6.5951330235234975,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "AVA (cex_small_cap) lost -9.8% in 880 min (slow (>6h)) — stop-loss hit. Entry score: 95 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

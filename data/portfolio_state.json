@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1789049034.6380584,
   "end_ts": 1789913034.6380584,
-  "cash_eur": 0.0,
+  "cash_eur": 19.83125028942599,
   "starting_balance_eur": 100,
   "positions": {
     "cex_small_cap:synapse-2": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.1502592535688469,
       "entry_ts": 1789549419.8990123,
       "cost_eur": 25.20251419757013,
-      "last_price_eur": 0.1574022495710002,
-      "last_score": 62.6,
+      "last_price_eur": 0.15467649005578585,
+      "last_score": 42.2,
       "missed_updates": 0,
       "entry_market_cap": 37904513,
       "entry_venue": "Binance",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 39616975
+      "last_market_cap": 38877512
     },
     "cex_small_cap:levva-protocol": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.0005419015252913625,
       "entry_ts": 1789655979.1886597,
       "cost_eur": 22.18734999458619,
-      "last_price_eur": 0.0005491969510239138,
-      "last_score": 49.3,
+      "last_price_eur": 0.0005481672320117646,
+      "last_score": 47.0,
       "missed_updates": 0,
       "entry_market_cap": 1244847,
       "entry_venue": "HTX",
@@ -65,38 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 1258604
-    },
-    "cex_small_cap:concierge-io": {
-      "tier": "cex_small_cap",
-      "id": "concierge-io",
-      "symbol": "AVA",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/concierge-io",
-      "qty": 95.40094390719219,
-      "entry_price_eur": 0.23041796210614351,
-      "entry_ts": 1789700265.4338977,
-      "cost_eur": 21.98209107809773,
-      "last_price_eur": 0.22769101159507113,
-      "last_score": 53.2,
-      "missed_updates": 0,
-      "entry_market_cap": 19655283,
-      "entry_venue": "Bithumb",
-      "entry_contract_address": "0xa6c0c097741d55ecd9a3a7def3a8253fd022ceb9 (ETH)",
-      "entry_score": 95.2,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 129629206,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 4.3,
-      "entry_chg_24h": 48.6133,
-      "entry_chg_7d": 86.5,
-      "entry_chg_6h": null,
-      "entry_turnover": 6.5951330235234975,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "last_market_cap": 19424174
+      "last_market_cap": 1257849
     },
     "cex_small_cap:pepe-sol": {
       "tier": "cex_small_cap",
@@ -108,8 +77,8 @@
       "entry_price_eur": 0.0010367083192059378,
       "entry_ts": 1789700265.4338977,
       "cost_eur": 16.34424113541167,
-      "last_price_eur": 0.0010661477477831032,
-      "last_score": 88.7,
+      "last_price_eur": 0.001009325727351172,
+      "last_score": 44.1,
       "missed_updates": 0,
       "entry_market_cap": 1187463,
       "entry_venue": "Raydium",
@@ -127,7 +96,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 1221609
+      "last_market_cap": 1159410
     }
   },
   "closed_trades": [
@@ -1946,8 +1915,45 @@
       "proceeds_eur": 18.866919653329127,
       "pnl_eur": 2.677004450689239,
       "pnl_pct": 16.535012180006557
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "concierge-io",
+      "symbol": "AVA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/concierge-io",
+      "qty": 95.40094390719219,
+      "entry_price_eur": 0.23041796210614351,
+      "entry_ts": 1789700265.4338977,
+      "cost_eur": 21.98209107809773,
+      "last_price_eur": 0.2078726842442796,
+      "last_score": 40.4,
+      "missed_updates": 0,
+      "entry_market_cap": 19655283,
+      "entry_venue": "Bithumb",
+      "entry_contract_address": "0xa6c0c097741d55ecd9a3a7def3a8253fd022ceb9 (ETH)",
+      "entry_score": 95.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 129629206,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 4.3,
+      "entry_chg_24h": 48.6133,
+      "entry_chg_7d": 86.5,
+      "entry_chg_6h": null,
+      "entry_turnover": 6.5951330235234975,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "last_market_cap": 17759454,
+      "exit_price_eur": 0.2078726842442796,
+      "exit_ts": 1789753082.935651,
+      "exit_reason": "stop-loss hit (-9.8%)",
+      "proceeds_eur": 19.83125028942599,
+      "pnl_eur": -2.15084078867174,
+      "pnl_pct": -9.784514043865329
     }
   ],
-  "last_run_ts": 1789740329.1566505,
-  "last_eur_rate": 0.8726970031048509
+  "last_run_ts": 1789753082.935651,
+  "last_eur_rate": 0.8707839939187061
 }
