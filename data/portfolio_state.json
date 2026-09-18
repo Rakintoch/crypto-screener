@@ -15,8 +15,8 @@
       "entry_price_eur": 0.1502592535688469,
       "entry_ts": 1789549419.8990123,
       "cost_eur": 25.20251419757013,
-      "last_price_eur": 0.1561068051577868,
-      "last_score": 46.9,
+      "last_price_eur": 0.1590812843586874,
+      "last_score": 64.4,
       "missed_updates": 0,
       "entry_market_cap": 37904513,
       "entry_venue": "Binance",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 39254484
+      "last_market_cap": 39965717
     },
     "cex_small_cap:levva-protocol": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.0005419015252913625,
       "entry_ts": 1789655979.1886597,
       "cost_eur": 22.18734999458619,
-      "last_price_eur": 0.0005547242434285545,
-      "last_score": 48.7,
+      "last_price_eur": 0.0005491894610847134,
+      "last_score": 49.2,
       "missed_updates": 0,
       "entry_market_cap": 1244847,
       "entry_venue": "HTX",
@@ -65,7 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 1274148
+      "last_market_cap": 1258684
     },
     "cex_small_cap:concierge-io": {
       "tier": "cex_small_cap",
@@ -77,8 +77,8 @@
       "entry_price_eur": 0.23041796210614351,
       "entry_ts": 1789700265.4338977,
       "cost_eur": 21.98209107809773,
-      "last_price_eur": 0.22708106714133883,
-      "last_score": 61.2,
+      "last_price_eur": 0.22935170964387736,
+      "last_score": 53.6,
       "missed_updates": 0,
       "entry_market_cap": 19655283,
       "entry_venue": "Bithumb",
@@ -96,7 +96,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 19303132
+      "last_market_cap": 19534392
     },
     "cex_small_cap:pepe-sol": {
       "tier": "cex_small_cap",
@@ -108,8 +108,8 @@
       "entry_price_eur": 0.0010367083192059378,
       "entry_ts": 1789700265.4338977,
       "cost_eur": 16.34424113541167,
-      "last_price_eur": 0.0011131056074598683,
-      "last_score": 98.8,
+      "last_price_eur": 0.0010785733764285053,
+      "last_score": 88.7,
       "missed_updates": 0,
       "entry_market_cap": 1187463,
       "entry_venue": "Raydium",
@@ -127,7 +127,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 1278019
+      "last_market_cap": 1237079
     }
   },
   "closed_trades": [
@@ -1948,6 +1948,6 @@
       "pnl_pct": 16.535012180006557
     }
   ],
-  "last_run_ts": 1789725223.1109412,
-  "last_eur_rate": 0.8707430006569992
+  "last_run_ts": 1789740053.129893,
+  "last_eur_rate": 0.8724910018027061
 }
