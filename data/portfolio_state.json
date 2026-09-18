@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1789049034.6380584,
   "end_ts": 1789913034.6380584,
-  "cash_eur": 38.3263322135094,
+  "cash_eur": 0.0,
   "starting_balance_eur": 100,
   "positions": {
     "cex_small_cap:synapse-2": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.1502592535688469,
       "entry_ts": 1789549419.8990123,
       "cost_eur": 25.20251419757013,
-      "last_price_eur": 0.16228999089488746,
-      "last_score": 81.1,
+      "last_price_eur": 0.16083272033587853,
+      "last_score": 66.0,
       "missed_updates": 0,
       "entry_market_cap": 37904513,
       "entry_venue": "Binance",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 40793493
+      "last_market_cap": 40570867
     },
     "cex_small_cap:levva-protocol": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.0005419015252913625,
       "entry_ts": 1789655979.1886597,
       "cost_eur": 22.18734999458619,
-      "last_price_eur": 0.0005410886071166786,
-      "last_score": 51.2,
+      "last_price_eur": 0.0005526166163449985,
+      "last_score": 58.7,
       "missed_updates": 0,
       "entry_market_cap": 1244847,
       "entry_venue": "HTX",
@@ -65,7 +65,67 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 1241763
+      "last_market_cap": 1268929
+    },
+    "cex_small_cap:concierge-io": {
+      "tier": "cex_small_cap",
+      "id": "concierge-io",
+      "symbol": "AVA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/concierge-io",
+      "qty": 95.40094390719219,
+      "entry_price_eur": 0.23041796210614351,
+      "entry_ts": 1789700265.4338977,
+      "cost_eur": 21.98209107809773,
+      "last_price_eur": 0.23041796210614351,
+      "last_score": 95.2,
+      "missed_updates": 0,
+      "entry_market_cap": 19655283,
+      "entry_venue": "Bithumb",
+      "entry_contract_address": "0xa6c0c097741d55ecd9a3a7def3a8253fd022ceb9 (ETH)",
+      "entry_score": 95.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 129629206,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 4.3,
+      "entry_chg_24h": 48.6133,
+      "entry_chg_7d": 86.5,
+      "entry_chg_6h": null,
+      "entry_turnover": 6.5951330235234975,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null
+    },
+    "cex_small_cap:pepe-sol": {
+      "tier": "cex_small_cap",
+      "id": "pepe-sol",
+      "symbol": "PEPE",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/pepe-sol",
+      "qty": 15765.5155578673,
+      "entry_price_eur": 0.0010367083192059378,
+      "entry_ts": 1789700265.4338977,
+      "cost_eur": 16.34424113541167,
+      "last_price_eur": 0.0010367083192059378,
+      "last_score": 97.8,
+      "missed_updates": 0,
+      "entry_market_cap": 1187463,
+      "entry_venue": "Raydium",
+      "entry_contract_address": null,
+      "entry_score": 97.8,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 1178695,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 20.8,
+      "entry_chg_24h": 76.01255,
+      "entry_chg_7d": 77.7,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.9926161909886877,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null
     }
   },
   "closed_trades": [
@@ -1886,6 +1946,6 @@
       "pnl_pct": 16.535012180006557
     }
   ],
-  "last_run_ts": 1789692587.4395494,
-  "last_eur_rate": 0.8712200027640661
+  "last_run_ts": 1789700265.4338977,
+  "last_eur_rate": 0.8712639985258619
 }
