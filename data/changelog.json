@@ -78,6 +78,6 @@
     "mudanca": "config.py: POSITION_SIZE_PCT_BY_TIER[\"cex_small_cap\"] de 0.25 para 0.15 (25% -> 15% do equity por posição) — mesma lógica já aplicada ao dex_micro_cap em 2026-08-30 (reduzir o tamanho de posição na proporção do excesso de perda medido: 0,08/0,1352 ≈ 0,59 -> 25%*0,59 ≈ 15%), já que o problema não é resolúvel apertando mais o stop-loss nem com um filtro de entrada óbvio. Nenhuma mudança à lógica de saída (stop-loss/take-profit/trailing continuam iguais) — só ao tamanho da aposta.",
     "efeito_esperado": "Não deve mudar o retorno esperado por posição (ganhos e perdas escalam com o mesmo fator de 0,6), mas reduz o risco de cauda por posição individual em cex_small_cap — um colapso tipo AIN passa a custar ~12% do equity em vez de ~20%, mais longe do disjuntor de -75% (MAX_DRAWDOWN_HALT_PCT). Uma próxima autoanálise deve comparar a distribuição de pnl_eur (não só pnl_pct) das posições cex_small_cap fechadas antes/depois desta mudança.",
     "num_trades_fechados_ate_aqui": 54,
-    "announced": false
+    "announced": true
   }
 ]
