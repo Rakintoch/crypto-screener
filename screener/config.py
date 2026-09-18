@@ -111,7 +111,30 @@ POSITION_SIZE_PCT_OF_EQUITY = 0.25   # fallback para camadas sem valor específi
 # score de entrada conseguiram travar a tempo. Em vez de abandonar a camada (perde-se o
 # lado bom: GTAAPE +48%), reduz-se o tamanho de posição para limitar o estrago de cada rug
 # individual, mantendo a exposição a explorar o upside.
-POSITION_SIZE_PCT_BY_TIER = {"cex_small_cap": 0.25, "dex_micro_cap": 0.12}
+#
+# Autoanálise 2026-09-18 (54 trades fechados, 37 stop-loss reais em cex_small_cap desde o
+# STOP_LOSS_PCT de -8% introduzido em 2026-08-30): a perda REAL média nesses 37 fechos foi
+# -15,32% — quase o dobro do gatilho de -8% — e não por dados em falta (missed_updates=0 em
+# TODOS os 37 casos, ou seja, o preço estava a ser lido em toda corrida). 12 dos 37 (32%)
+# fecharam pior que -15%, incluindo um colapso de -80,08% (AIN) e vários entre -20% e -29%
+# (OTC -29,3%, LOOM -27,6%, PERPSPAD -26,3%, POWER -23,5%, CVC -20,6%) — mesmo excluindo o
+# outlier da AIN, a média fica em -13,52%, ainda ~70% pior que o gatilho. Não há correlação
+# forte com liquidez/volume de entrada (ex: CVC e REZ tinham >150M$ e 190M$ de volume 24h e
+# mesmo assim ultrapassaram o gatilho em >10 pontos) nem com o tempo de posse (correlação
+# 0,07 entre horas até ao fecho e pnl_pct; ANON perdeu -17% em 24 min, mas BFC só -8,3% em
+# 38h) — indica que micro/small-caps CEX pouco negociadas dão saltos de preço discretos
+# maiores do que os ~15 min entre verificações do position_monitor conseguem apanhar perto
+# do gatilho, independentemente de quão apertado o gatilho está (já tínhamos apertado de
+# -10% para -8% em 2026-08-30 e a média real não melhorou). Como isto não é resolúvel
+# apertando mais o gatilho nem com filtros de entrada óbvios, aplica-se aqui a MESMA lógica
+# já usada para o dex_micro_cap acima: reduz-se o tamanho de posição do cex_small_cap na
+# mesma proporção do excesso de perda medido (0,08 / 0,1352 ≈ 0,59 -> 25% * 0,59 ≈ 15%) para
+# manter o risco em euros por posição alinhado com o que uma perda de -8% pressupunha,
+# dado que a perda real observada não é isso. Isto não muda o retorno esperado por posição
+# (ganhos e perdas escalam com o mesmo fator), mas reduz o risco de cauda — a AIN sozinha, a
+# 25% de tamanho, custou ~20% do equity total numa única posição, perigosamente perto do
+# disjuntor de -75% (MAX_DRAWDOWN_HALT_PCT).
+POSITION_SIZE_PCT_BY_TIER = {"cex_small_cap": 0.15, "dex_micro_cap": 0.12}
 MIN_TRADE_EUR = 5.0                  # não abre/fecha posições de valor residual
 
 # Score mínimo para COMPRAR de facto (mais exigente que o limiar de alerta, porque aqui
