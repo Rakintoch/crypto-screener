@@ -15,8 +15,8 @@
       "entry_price_eur": 0.1502592535688469,
       "entry_ts": 1789549419.8990123,
       "cost_eur": 25.20251419757013,
-      "last_price_eur": 0.1590812843586874,
-      "last_score": 64.4,
+      "last_price_eur": 0.1574022495710002,
+      "last_score": 62.6,
       "missed_updates": 0,
       "entry_market_cap": 37904513,
       "entry_venue": "Binance",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 39965717
+      "last_market_cap": 39616975
     },
     "cex_small_cap:levva-protocol": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.0005419015252913625,
       "entry_ts": 1789655979.1886597,
       "cost_eur": 22.18734999458619,
-      "last_price_eur": 0.0005491894610847134,
-      "last_score": 49.2,
+      "last_price_eur": 0.0005491969510239138,
+      "last_score": 49.3,
       "missed_updates": 0,
       "entry_market_cap": 1244847,
       "entry_venue": "HTX",
@@ -65,7 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 1258684
+      "last_market_cap": 1258604
     },
     "cex_small_cap:concierge-io": {
       "tier": "cex_small_cap",
@@ -77,8 +77,8 @@
       "entry_price_eur": 0.23041796210614351,
       "entry_ts": 1789700265.4338977,
       "cost_eur": 21.98209107809773,
-      "last_price_eur": 0.22935170964387736,
-      "last_score": 53.6,
+      "last_price_eur": 0.22769101159507113,
+      "last_score": 53.2,
       "missed_updates": 0,
       "entry_market_cap": 19655283,
       "entry_venue": "Bithumb",
@@ -96,7 +96,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 19534392
+      "last_market_cap": 19424174
     },
     "cex_small_cap:pepe-sol": {
       "tier": "cex_small_cap",
@@ -108,7 +108,7 @@
       "entry_price_eur": 0.0010367083192059378,
       "entry_ts": 1789700265.4338977,
       "cost_eur": 16.34424113541167,
-      "last_price_eur": 0.0010785733764285053,
+      "last_price_eur": 0.0010661477477831032,
       "last_score": 88.7,
       "missed_updates": 0,
       "entry_market_cap": 1187463,
@@ -127,7 +127,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 1237079
+      "last_market_cap": 1221609
     }
   },
   "closed_trades": [
@@ -1948,6 +1948,6 @@
       "pnl_pct": 16.535012180006557
     }
   ],
-  "last_run_ts": 1789740053.129893,
-  "last_eur_rate": 0.8724910018027061
+  "last_run_ts": 1789740329.1566505,
+  "last_eur_rate": 0.8726970031048509
 }
