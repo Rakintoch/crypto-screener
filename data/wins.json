@@ -694,5 +694,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "DELTA (cex_small_cap) gained +11.6% in 1091 min — trailing stop caught extra upside after the target. Entry score: 69. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789692587.4395494,
+    "symbol": "ONE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/harmony",
+    "held_minutes": 610.1,
+    "exit_reason": "trailing stop hit — dropped 10.0% from the peak (peak +29.4% since entry)",
+    "pnl_pct": 16.54,
+    "pnl_eur": 2.68,
+    "entry_score": 81.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 103203388,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 0.7,
+    "entry_chg_24h": 132.48247,
+    "entry_chg_7d": 106.7,
+    "entry_chg_6h": null,
+    "entry_turnover": 4.449404217603559,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "ONE (cex_small_cap) gained +16.5% in 610 min — trailing stop caught extra upside after the target. Entry score: 82. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
