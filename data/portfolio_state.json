@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1789049034.6380584,
   "end_ts": 1789913034.6380584,
-  "cash_eur": 37.69379239716798,
+  "cash_eur": 49.98684965732178,
   "starting_balance_eur": 100,
   "positions": {
     "cex_small_cap:saga-2": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.021983434761366768,
       "entry_ts": 1789757525.0211813,
       "cost_eur": 12.605422896236615,
-      "last_price_eur": 0.021991052676139475,
-      "last_score": 70.3,
+      "last_price_eur": 0.02203584745847409,
+      "last_score": 57.0,
       "missed_updates": 0,
       "entry_market_cap": 10584800,
       "entry_venue": "Binance",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 10501373
+      "last_market_cap": 10532223
     },
     "cex_small_cap:synfutures": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.0036892338605919407,
       "entry_ts": 1789806649.8604224,
       "cost_eur": 14.462674184653165,
-      "last_price_eur": 0.0036855909869347313,
-      "last_score": 53.5,
+      "last_price_eur": 0.003592778016792519,
+      "last_score": 40.7,
       "missed_updates": 0,
       "entry_market_cap": 20618699,
       "entry_venue": "Upbit",
@@ -65,37 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 20650998
-    },
-    "cex_small_cap:g-token": {
-      "tier": "cex_small_cap",
-      "id": "g-token",
-      "symbol": "G",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/g-token",
-      "qty": 1373.624260635986,
-      "entry_price_eur": 0.010101323903834638,
-      "entry_ts": 1789837247.7987707,
-      "cost_eur": 13.875423578849468,
-      "last_price_eur": 0.010101323903834638,
-      "last_score": 99.7,
-      "missed_updates": 0,
-      "entry_market_cap": 82997984,
-      "entry_venue": "Upbit",
-      "entry_contract_address": "0x9c7beba8f6ef6643abd725e45a4e8387ef260649 (ETH)",
-      "entry_score": 99.7,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 330711721,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 17.7,
-      "entry_chg_24h": 35.63684,
-      "entry_chg_7d": 173.1,
-      "entry_chg_6h": null,
-      "entry_turnover": 3.9845753482397837,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null
+      "last_market_cap": 20119296
     },
     "cex_small_cap:lorenzo-protocol": {
       "tier": "cex_small_cap",
@@ -107,8 +77,8 @@
       "entry_price_eur": 0.03258471039461573,
       "entry_ts": 1789837247.7987707,
       "cost_eur": 13.875423578849468,
-      "last_price_eur": 0.03258471039461573,
-      "last_score": 91.7,
+      "last_price_eur": 0.030562112575832436,
+      "last_score": 62.5,
       "missed_updates": 0,
       "entry_market_cap": 16116091,
       "entry_venue": "Binance",
@@ -125,7 +95,8 @@
       "entry_vol_liq_ratio": null,
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
-      "entry_base_breakout": null
+      "entry_base_breakout": null,
+      "last_market_cap": 14951242
     }
   },
   "closed_trades": [
@@ -2170,8 +2141,45 @@
       "proceeds_eur": 12.57701695075677,
       "pnl_eur": -1.894668363344568,
       "pnl_pct": -13.09224407677236
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "g-token",
+      "symbol": "G",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/g-token",
+      "qty": 1373.624260635986,
+      "entry_price_eur": 0.010101323903834638,
+      "entry_ts": 1789837247.7987707,
+      "cost_eur": 13.875423578849468,
+      "last_price_eur": 0.008949359451806806,
+      "last_score": 68.9,
+      "missed_updates": 0,
+      "entry_market_cap": 82997984,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x9c7beba8f6ef6643abd725e45a4e8387ef260649 (ETH)",
+      "entry_score": 99.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 330711721,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 17.7,
+      "entry_chg_24h": 35.63684,
+      "entry_chg_7d": 173.1,
+      "entry_chg_6h": null,
+      "entry_turnover": 3.9845753482397837,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "last_market_cap": 74297715,
+      "exit_price_eur": 0.008949359451806806,
+      "exit_ts": 1789843294.2405324,
+      "exit_reason": "stop-loss hit (-11.4%)",
+      "proceeds_eur": 12.293057260153796,
+      "pnl_eur": -1.5823663186956711,
+      "pnl_pct": -11.40409379002813
     }
   ],
-  "last_run_ts": 1789837247.7987707,
-  "last_eur_rate": 0.8711560021969778
+  "last_run_ts": 1789843294.2405324,
+  "last_eur_rate": 0.8711559998527014
 }
