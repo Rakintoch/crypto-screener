@@ -59,29 +59,14 @@
     "last_score": 62.0,
     "symbol": "LSK"
   },
-  "cex_small_cap:griffain": {
-    "last_alert_ts": 1789586554.3439176,
-    "last_score": 69.5,
-    "symbol": "GRIFFAIN"
-  },
   "cex_small_cap:steem": {
     "last_alert_ts": 1789598326.5396492,
     "last_score": 58.7,
     "symbol": "STEEM"
   },
-  "cex_small_cap:edel": {
-    "last_alert_ts": 1789586554.3439176,
-    "last_score": 60.3,
-    "symbol": "EDEL"
-  },
-  "cex_small_cap:kiichain": {
-    "last_alert_ts": 1789586554.3439176,
-    "last_score": 65.2,
-    "symbol": "KII"
-  },
   "cex_small_cap:canopy": {
-    "last_alert_ts": 1789769705.641318,
-    "last_score": 70.9,
+    "last_alert_ts": 1789848004.3177903,
+    "last_score": 68.2,
     "symbol": "CNPY"
   },
   "cex_small_cap:levva-protocol": {
@@ -220,8 +205,8 @@
     "symbol": "BLUECHIP"
   },
   "cex_small_cap:sophon": {
-    "last_alert_ts": 1789786545.7914119,
-    "last_score": 59.0,
+    "last_alert_ts": 1789848004.3177903,
+    "last_score": 56.1,
     "symbol": "SOPH"
   },
   "cex_small_cap:coherent-ondo-tokenized": {
@@ -255,8 +240,8 @@
     "symbol": "ICX"
   },
   "cex_small_cap:mushroom-2": {
-    "last_alert_ts": 1789786545.7914119,
-    "last_score": 81.1,
+    "last_alert_ts": 1789848004.3177903,
+    "last_score": 64.9,
     "symbol": "SHROOM"
   },
   "cex_small_cap:ai-factory": {
@@ -550,8 +535,8 @@
     "symbol": "TENDIES"
   },
   "dex_micro_cap:AyYNfPtftg2zDP4ZbgcoQMggQtwLh4zpfVVmUJs2thto": {
-    "last_alert_ts": 1789786545.7914119,
-    "last_score": 65.0,
+    "last_alert_ts": 1789848004.3177903,
+    "last_score": 55.1,
     "symbol": "Tilcayo"
   },
   "dex_micro_cap:9U1f18idDeySFnYrurxqT1f5n5nE4g4Uk5LLzP69bh1": {
@@ -805,8 +790,8 @@
     "symbol": "BLAST"
   },
   "cex_small_cap:quark-chain": {
-    "last_alert_ts": 1789786545.7914119,
-    "last_score": 66.1,
+    "last_alert_ts": 1789848004.3177903,
+    "last_score": 60.8,
     "symbol": "QKC"
   },
   "cex_small_cap:cluster-protocol": {
@@ -905,8 +890,8 @@
     "symbol": "CXT"
   },
   "cex_small_cap:celer-network": {
-    "last_alert_ts": 1789837247.00497,
-    "last_score": 59.5,
+    "last_alert_ts": 1789848004.3177903,
+    "last_score": 80.0,
     "symbol": "CELR"
   },
   "cex_small_cap:solv-protocol": {
@@ -918,5 +903,45 @@
     "last_alert_ts": 1789837247.00497,
     "last_score": 55.9,
     "symbol": "BDAG"
+  },
+  "cex_small_cap:hedgehood": {
+    "last_alert_ts": 1789848004.3177903,
+    "last_score": 75.5,
+    "symbol": "HEDGE"
+  },
+  "cex_small_cap:stargate-finance": {
+    "last_alert_ts": 1789848004.3177903,
+    "last_score": 58.7,
+    "symbol": "STG"
+  },
+  "cex_small_cap:coq-inu": {
+    "last_alert_ts": 1789848004.3177903,
+    "last_score": 58.3,
+    "symbol": "COQ"
+  },
+  "cex_small_cap:celo": {
+    "last_alert_ts": 1789848004.3177903,
+    "last_score": 58.2,
+    "symbol": "CELO"
+  },
+  "cex_small_cap:joe": {
+    "last_alert_ts": 1789848004.3177903,
+    "last_score": 57.9,
+    "symbol": "JOE"
+  },
+  "cex_small_cap:adventure-gold": {
+    "last_alert_ts": 1789848004.3177903,
+    "last_score": 57.3,
+    "symbol": "AGLD"
+  },
+  "dex_micro_cap:D1sm1V3pHGTv32ugeXoer4a91xqfuh4jJBYQwePSKVez": {
+    "last_alert_ts": 1789848004.3177903,
+    "last_score": 56.2,
+    "symbol": "KMS"
+  },
+  "cex_small_cap:coin98": {
+    "last_alert_ts": 1789848004.3177903,
+    "last_score": 55.5,
+    "symbol": "C98"
   }
 }

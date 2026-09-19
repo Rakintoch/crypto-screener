@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1789049034.6380584,
   "end_ts": 1789913034.6380584,
-  "cash_eur": 49.98684965732178,
+  "cash_eur": 36.42770528800208,
   "starting_balance_eur": 100,
   "positions": {
     "cex_small_cap:saga-2": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.021983434761366768,
       "entry_ts": 1789757525.0211813,
       "cost_eur": 12.605422896236615,
-      "last_price_eur": 0.02203584745847409,
-      "last_score": 57.0,
+      "last_price_eur": 0.0217911481654763,
+      "last_score": 53.8,
       "missed_updates": 0,
       "entry_market_cap": 10584800,
       "entry_venue": "Binance",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 10532223
+      "last_market_cap": 10418491
     },
     "cex_small_cap:synfutures": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.0036892338605919407,
       "entry_ts": 1789806649.8604224,
       "cost_eur": 14.462674184653165,
-      "last_price_eur": 0.003592778016792519,
-      "last_score": 40.7,
+      "last_price_eur": 0.0036108718798166317,
+      "last_score": 48.8,
       "missed_updates": 0,
       "entry_market_cap": 20618699,
       "entry_venue": "Upbit",
@@ -65,7 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 20119296
+      "last_market_cap": 20220432
     },
     "cex_small_cap:lorenzo-protocol": {
       "tier": "cex_small_cap",
@@ -77,8 +77,8 @@
       "entry_price_eur": 0.03258471039461573,
       "entry_ts": 1789837247.7987707,
       "cost_eur": 13.875423578849468,
-      "last_price_eur": 0.030562112575832436,
-      "last_score": 62.5,
+      "last_price_eur": 0.03230614904308222,
+      "last_score": 65.1,
       "missed_updates": 0,
       "entry_market_cap": 16116091,
       "entry_venue": "Binance",
@@ -96,7 +96,37 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 14951242
+      "last_market_cap": 15770067
+    },
+    "cex_small_cap:harmony": {
+      "tier": "cex_small_cap",
+      "id": "harmony",
+      "symbol": "ONE",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/harmony",
+      "qty": 3538.5379956138613,
+      "entry_price_eur": 0.0038318493078572905,
+      "entry_ts": 1789848004.9179397,
+      "cost_eur": 13.559144369319698,
+      "last_price_eur": 0.0038318493078572905,
+      "last_score": 100.0,
+      "missed_updates": 0,
+      "entry_market_cap": 65444570,
+      "entry_venue": "Binance",
+      "entry_contract_address": null,
+      "entry_score": 100.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 188530191,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 23.5,
+      "entry_chg_24h": 150.84024,
+      "entry_chg_7d": 518.6,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.8807613985392524,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null
     }
   },
   "closed_trades": [
@@ -2180,6 +2210,6 @@
       "pnl_pct": -11.40409379002813
     }
   ],
-  "last_run_ts": 1789843294.2405324,
-  "last_eur_rate": 0.8711559998527014
+  "last_run_ts": 1789848004.9179397,
+  "last_eur_rate": 0.8711559884911245
 }
