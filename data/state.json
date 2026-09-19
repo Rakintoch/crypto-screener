@@ -50,8 +50,8 @@
     "symbol": "PUFFER"
   },
   "cex_small_cap:saga-2": {
-    "last_alert_ts": 1789806649.2443597,
-    "last_score": 82.0,
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 61.5,
     "symbol": "SAGA"
   },
   "cex_small_cap:lisk": {
@@ -120,8 +120,8 @@
     "symbol": "CHIRP"
   },
   "cex_small_cap:4stock": {
-    "last_alert_ts": 1789769705.641318,
-    "last_score": 59.8,
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 68.5,
     "symbol": "4STOCK"
   },
   "cex_small_cap:aeon-3": {
@@ -145,8 +145,8 @@
     "symbol": "ORBIO"
   },
   "cex_small_cap:the-stonks-exchange": {
-    "last_alert_ts": 1789655978.5386355,
-    "last_score": 76.3,
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 69.4,
     "symbol": "STONKEX"
   },
   "cex_small_cap:stratton-market": {
@@ -185,8 +185,8 @@
     "symbol": "BURNIE"
   },
   "cex_small_cap:interfold": {
-    "last_alert_ts": 1789806649.2443597,
-    "last_score": 59.8,
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 70.8,
     "symbol": "FOLD"
   },
   "cex_small_cap:note-systems": {
@@ -195,8 +195,8 @@
     "symbol": "NOTE"
   },
   "cex_small_cap:heima": {
-    "last_alert_ts": 1789806649.2443597,
-    "last_score": 98.8,
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 66.0,
     "symbol": "HEI"
   },
   "cex_small_cap:blue-chip-4": {
@@ -285,8 +285,8 @@
     "symbol": "UP"
   },
   "cex_small_cap:squid-3": {
-    "last_alert_ts": 1789786545.7914119,
-    "last_score": 68.8,
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 58.6,
     "symbol": "QUID"
   },
   "cex_small_cap:zeal-2": {
@@ -320,8 +320,8 @@
     "symbol": "SOMI"
   },
   "cex_small_cap:concierge-io": {
-    "last_alert_ts": 1789806649.2443597,
-    "last_score": 68.9,
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 55.4,
     "symbol": "AVA"
   },
   "cex_small_cap:embercurve": {
@@ -345,8 +345,8 @@
     "symbol": "MOODENG"
   },
   "cex_small_cap:sudeng": {
-    "last_alert_ts": 1789700264.8053212,
-    "last_score": 60.3,
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 62.4,
     "symbol": "HIPPO"
   },
   "cex_small_cap:jotchua": {
@@ -695,8 +695,8 @@
     "symbol": "MUSEBOOK"
   },
   "cex_small_cap:chainbase": {
-    "last_alert_ts": 1789806649.2443597,
-    "last_score": 70.9,
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 60.1,
     "symbol": "C"
   },
   "cex_small_cap:moonwell-artemis": {
@@ -810,13 +810,13 @@
     "symbol": "ORDER"
   },
   "cex_small_cap:definitive": {
-    "last_alert_ts": 1789806649.2443597,
-    "last_score": 88.5,
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 66.9,
     "symbol": "EDGE"
   },
   "cex_small_cap:geom": {
-    "last_alert_ts": 1789806649.2443597,
-    "last_score": 83.4,
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 56.0,
     "symbol": "GEOM"
   },
   "cex_small_cap:superfarm": {
@@ -825,8 +825,8 @@
     "symbol": "SUPER"
   },
   "cex_small_cap:clearpool": {
-    "last_alert_ts": 1789806649.2443597,
-    "last_score": 60.9,
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 66.2,
     "symbol": "CPOOL"
   },
   "cex_small_cap:allinu": {
@@ -890,8 +890,8 @@
     "symbol": "CXT"
   },
   "cex_small_cap:celer-network": {
-    "last_alert_ts": 1789848004.3177903,
-    "last_score": 80.0,
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 95.7,
     "symbol": "CELR"
   },
   "cex_small_cap:solv-protocol": {
@@ -943,5 +943,25 @@
     "last_alert_ts": 1789848004.3177903,
     "last_score": 55.5,
     "symbol": "C98"
+  },
+  "cex_small_cap:skale": {
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 95.8,
+    "symbol": "SKL"
+  },
+  "cex_small_cap:robin-the-frog": {
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 74.8,
+    "symbol": "ROBIN"
+  },
+  "cex_small_cap:ratspeak": {
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 61.1,
+    "symbol": "RATSPEAK"
+  },
+  "cex_small_cap:ardor": {
+    "last_alert_ts": 1789856144.8095078,
+    "last_score": 56.5,
+    "symbol": "ARDR"
   }
 }

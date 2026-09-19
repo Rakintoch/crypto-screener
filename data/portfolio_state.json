@@ -15,8 +15,8 @@
       "entry_price_eur": 0.021983434761366768,
       "entry_ts": 1789757525.0211813,
       "cost_eur": 12.605422896236615,
-      "last_price_eur": 0.02167094615393022,
-      "last_score": 53.9,
+      "last_price_eur": 0.02215338389134336,
+      "last_score": 61.3,
       "missed_updates": 0,
       "entry_market_cap": 10584800,
       "entry_venue": "Binance",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 10359932
+      "last_market_cap": 10591678
     },
     "cex_small_cap:synfutures": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.0036892338605919407,
       "entry_ts": 1789806649.8604224,
       "cost_eur": 14.462674184653165,
-      "last_price_eur": 0.003617466545964384,
-      "last_score": 46.0,
+      "last_price_eur": 0.003614896678295442,
+      "last_score": 45.4,
       "missed_updates": 0,
       "entry_market_cap": 20618699,
       "entry_venue": "Upbit",
@@ -65,7 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 20276591
+      "last_market_cap": 20242973
     },
     "cex_small_cap:lorenzo-protocol": {
       "tier": "cex_small_cap",
@@ -77,8 +77,8 @@
       "entry_price_eur": 0.03258471039461573,
       "entry_ts": 1789837247.7987707,
       "cost_eur": 13.875423578849468,
-      "last_price_eur": 0.034947415744101415,
-      "last_score": 95.2,
+      "last_price_eur": 0.03305817497883687,
+      "last_score": 69.3,
       "missed_updates": 0,
       "entry_market_cap": 16116091,
       "entry_venue": "Binance",
@@ -96,7 +96,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 16735916
+      "last_market_cap": 16137166
     },
     "cex_small_cap:harmony": {
       "tier": "cex_small_cap",
@@ -108,8 +108,8 @@
       "entry_price_eur": 0.0038318493078572905,
       "entry_ts": 1789848004.9179397,
       "cost_eur": 13.559144369319698,
-      "last_price_eur": 0.0035884222051851284,
-      "last_score": 72.9,
+      "last_price_eur": 0.0043294885239631995,
+      "last_score": 99.9,
       "missed_updates": 0,
       "entry_market_cap": 65444570,
       "entry_venue": "Binance",
@@ -127,7 +127,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 62761249
+      "last_market_cap": 73902336
     }
   },
   "closed_trades": [
@@ -2211,6 +2211,6 @@
       "pnl_pct": -11.40409379002813
     }
   ],
-  "last_run_ts": 1789851795.0752282,
-  "last_eur_rate": 0.8711559921792429
+  "last_run_ts": 1789856145.2268665,
+  "last_eur_rate": 0.8711560024232667
 }
