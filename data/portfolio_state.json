@@ -15,8 +15,8 @@
       "entry_price_eur": 0.1502592535688469,
       "entry_ts": 1789549419.8990123,
       "cost_eur": 25.20251419757013,
-      "last_price_eur": 0.22901302281711114,
-      "last_score": 98.7,
+      "last_price_eur": 0.21408658642406803,
+      "last_score": 83.4,
       "missed_updates": 0,
       "entry_market_cap": 37904513,
       "entry_venue": "Binance",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 56839008,
+      "last_market_cap": 53835618,
       "trailing_active": true,
       "trailing_peak_eur": 0.22901302281711114
     },
@@ -48,8 +48,8 @@
       "entry_price_eur": 0.021983434761366768,
       "entry_ts": 1789757525.0211813,
       "cost_eur": 12.605422896236615,
-      "last_price_eur": 0.022458127114983923,
-      "last_score": 74.9,
+      "last_price_eur": 0.022830515903981746,
+      "last_score": 73.6,
       "missed_updates": 0,
       "entry_market_cap": 10584800,
       "entry_venue": "Binance",
@@ -67,7 +67,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 10744117
+      "last_market_cap": 10915419
     },
     "cex_small_cap:synfutures": {
       "tier": "cex_small_cap",
@@ -79,8 +79,8 @@
       "entry_price_eur": 0.0036892338605919407,
       "entry_ts": 1789806649.8604224,
       "cost_eur": 14.462674184653165,
-      "last_price_eur": 0.0035933658236849734,
-      "last_score": 66.4,
+      "last_price_eur": 0.0036592907681558405,
+      "last_score": 71.4,
       "missed_updates": 0,
       "entry_market_cap": 20618699,
       "entry_venue": "Upbit",
@@ -98,7 +98,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 20169370
+      "last_market_cap": 20491565
     }
   },
   "closed_trades": [
@@ -2069,6 +2069,6 @@
       "pnl_pct": -1.1348955980059772
     }
   ],
-  "last_run_ts": 1789808691.5633838,
-  "last_eur_rate": 0.8708149939621013
+  "last_run_ts": 1789823128.4335704,
+  "last_eur_rate": 0.8711559976564315
 }
