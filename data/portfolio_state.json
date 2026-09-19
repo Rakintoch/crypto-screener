@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1789049034.6380584,
   "end_ts": 1789913034.6380584,
-  "cash_eur": 25.330832463738837,
+  "cash_eur": 10.868158279085671,
   "starting_balance_eur": 100,
   "positions": {
     "cex_small_cap:synapse-2": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.1502592535688469,
       "entry_ts": 1789549419.8990123,
       "cost_eur": 25.20251419757013,
-      "last_price_eur": 0.1873778872394974,
-      "last_score": 72.0,
+      "last_price_eur": 0.21730752850597443,
+      "last_score": 95.5,
       "missed_updates": 0,
       "entry_market_cap": 37904513,
       "entry_venue": "Binance",
@@ -34,9 +34,9 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 47269046,
+      "last_market_cap": 55258568,
       "trailing_active": true,
-      "trailing_peak_eur": 0.200116717264667
+      "trailing_peak_eur": 0.21730752850597443
     },
     "cex_small_cap:levva-protocol": {
       "tier": "cex_small_cap",
@@ -48,8 +48,8 @@
       "entry_price_eur": 0.0005419015252913625,
       "entry_ts": 1789655979.1886597,
       "cost_eur": 22.18734999458619,
-      "last_price_eur": 0.0005465380599101961,
-      "last_score": 45.7,
+      "last_price_eur": 0.0005395395560389174,
+      "last_score": 50.6,
       "missed_updates": 0,
       "entry_market_cap": 1244847,
       "entry_venue": "HTX",
@@ -67,7 +67,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 1255782
+      "last_market_cap": 1239142
     },
     "cex_small_cap:saga-2": {
       "tier": "cex_small_cap",
@@ -79,8 +79,8 @@
       "entry_price_eur": 0.021983434761366768,
       "entry_ts": 1789757525.0211813,
       "cost_eur": 12.605422896236615,
-      "last_price_eur": 0.022135553057862762,
-      "last_score": 78.0,
+      "last_price_eur": 0.0218833631788776,
+      "last_score": 81.7,
       "missed_updates": 0,
       "entry_market_cap": 10584800,
       "entry_venue": "Binance",
@@ -98,7 +98,37 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 10597080
+      "last_market_cap": 10480764
+    },
+    "cex_small_cap:synfutures": {
+      "tier": "cex_small_cap",
+      "id": "synfutures",
+      "symbol": "F",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/synfutures",
+      "qty": 3920.2378410168385,
+      "entry_price_eur": 0.0036892338605919407,
+      "entry_ts": 1789806649.8604224,
+      "cost_eur": 14.462674184653165,
+      "last_price_eur": 0.0036892338605919407,
+      "last_score": 91.1,
+      "missed_updates": 0,
+      "entry_market_cap": 20618699,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x6e15a54b5ecac17e58dadeddbe8506a7560252f9 (ETH)",
+      "entry_score": 91.1,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 152170817,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 4.0,
+      "entry_chg_24h": 28.49815,
+      "entry_chg_7d": 30.5,
+      "entry_chg_6h": null,
+      "entry_turnover": 7.38023368981719,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null
     }
   },
   "closed_trades": [
@@ -2032,6 +2062,6 @@
       "pnl_pct": -13.422067461294501
     }
   ],
-  "last_run_ts": 1789793578.3400662,
-  "last_eur_rate": 0.8704359997932698
+  "last_run_ts": 1789806649.8604224,
+  "last_eur_rate": 0.8708149973190183
 }
