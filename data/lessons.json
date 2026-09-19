@@ -2233,5 +2233,32 @@
     "categoria": "momentum thesis invalidated (score dropped)",
     "velocidade_queda": "slow (>6h)",
     "licao": "LVVA (cex_small_cap) lost -1.1% in 2545 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 91 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789835078.392415,
+    "symbol": "ZFORGE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/zecforge-tech",
+    "held_minutes": 162.5,
+    "exit_reason": "stop-loss hit (-13.1%)",
+    "pnl_pct": -13.09,
+    "pnl_eur": -1.89,
+    "entry_score": 100.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 499370142,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 51.2,
+    "entry_chg_24h": 3829.75582,
+    "entry_chg_7d": 10256.9,
+    "entry_chg_6h": null,
+    "entry_turnover": 17.813599887903877,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "ZFORGE (cex_small_cap) lost -13.1% in 162 min (fast (1-6h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

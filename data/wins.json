@@ -746,5 +746,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "PEPE (cex_small_cap) gained +22.5% in 1289 min — trailing stop caught extra upside after the target. Entry score: 98. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789835078.392415,
+    "symbol": "SYN",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/synapse-2",
+    "held_minutes": 4761.0,
+    "exit_reason": "trailing stop hit — dropped 10.1% from the peak (peak +52.4% since entry)",
+    "pnl_pct": 37.03,
+    "pnl_eur": 9.33,
+    "entry_score": 70.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 109685041,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": -16.2,
+    "entry_chg_24h": 115.8173,
+    "entry_chg_7d": 90.5,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.89371983225322,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "SYN (cex_small_cap) gained +37.0% in 4761 min — trailing stop caught extra upside after the target. Entry score: 70. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
