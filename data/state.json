@@ -39,11 +39,6 @@
     "last_score": 55.9,
     "symbol": "DEBIT"
   },
-  "cex_small_cap:brew": {
-    "last_alert_ts": 1789598326.5396492,
-    "last_score": 73.9,
-    "symbol": "BREW"
-  },
   "cex_small_cap:puffer-finance": {
     "last_alert_ts": 1789700264.8053212,
     "last_score": 55.2,
@@ -58,11 +53,6 @@
     "last_alert_ts": 1789740328.7013893,
     "last_score": 62.0,
     "symbol": "LSK"
-  },
-  "cex_small_cap:steem": {
-    "last_alert_ts": 1789598326.5396492,
-    "last_score": 58.7,
-    "symbol": "STEEM"
   },
   "cex_small_cap:canopy": {
     "last_alert_ts": 1789848004.3177903,
@@ -85,8 +75,8 @@
     "symbol": "INDEX"
   },
   "cex_small_cap:synapse-2": {
-    "last_alert_ts": 1789825330.376626,
-    "last_score": 83.4,
+    "last_alert_ts": 1789873679.0464363,
+    "last_score": 85.9,
     "symbol": "SYN"
   },
   "cex_small_cap:thinking-cat": {
@@ -139,11 +129,6 @@
     "last_score": 80.1,
     "symbol": "MARSCOIN"
   },
-  "cex_small_cap:orbio-so": {
-    "last_alert_ts": 1789598326.5396492,
-    "last_score": 75.5,
-    "symbol": "ORBIO"
-  },
   "cex_small_cap:the-stonks-exchange": {
     "last_alert_ts": 1789856144.8095078,
     "last_score": 69.4,
@@ -163,11 +148,6 @@
     "last_alert_ts": 1789721052.0549042,
     "last_score": 59.9,
     "symbol": "TUT"
-  },
-  "cex_small_cap:hu-die-ren-sheng": {
-    "last_alert_ts": 1789598326.5396492,
-    "last_score": 57.9,
-    "symbol": "蝴蝶人生"
   },
   "cex_small_cap:g-token": {
     "last_alert_ts": 1789837247.00497,
@@ -233,11 +213,6 @@
     "last_alert_ts": 1789673523.57787,
     "last_score": 64.7,
     "symbol": "HNT"
-  },
-  "cex_small_cap:icon": {
-    "last_alert_ts": 1789598326.5396492,
-    "last_score": 70.1,
-    "symbol": "ICX"
   },
   "cex_small_cap:mushroom-2": {
     "last_alert_ts": 1789848004.3177903,
@@ -695,8 +670,8 @@
     "symbol": "MUSEBOOK"
   },
   "cex_small_cap:chainbase": {
-    "last_alert_ts": 1789856144.8095078,
-    "last_score": 60.1,
+    "last_alert_ts": 1789873679.0464363,
+    "last_score": 85.7,
     "symbol": "C"
   },
   "cex_small_cap:moonwell-artemis": {
@@ -835,8 +810,8 @@
     "symbol": "ALLINU"
   },
   "cex_small_cap:bsquared-network": {
-    "last_alert_ts": 1789825330.376626,
-    "last_score": 74.9,
+    "last_alert_ts": 1789873679.0464363,
+    "last_score": 67.2,
     "symbol": "B2"
   },
   "cex_small_cap:espresso": {
@@ -963,5 +938,25 @@
     "last_alert_ts": 1789856144.8095078,
     "last_score": 56.5,
     "symbol": "ARDR"
+  },
+  "cex_small_cap:zilliqa": {
+    "last_alert_ts": 1789873679.0464363,
+    "last_score": 70.2,
+    "symbol": "ZIL"
+  },
+  "dex_micro_cap:0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5": {
+    "last_alert_ts": 1789873679.0464363,
+    "last_score": 62.8,
+    "symbol": "STONKEX"
+  },
+  "dex_micro_cap:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
+    "last_alert_ts": 1789873679.0464363,
+    "last_score": 62.0,
+    "symbol": "JEANPHIL"
+  },
+  "dex_micro_cap:EBsK6LyH8ZCF6aq2uD4fTkFHuPzA1DLUE7fLjMyJpump": {
+    "last_alert_ts": 1789873679.0464363,
+    "last_score": 57.4,
+    "symbol": "Annoyed"
   }
 }

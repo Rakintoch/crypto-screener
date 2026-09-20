@@ -2314,5 +2314,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "ONE (cex_small_cap) lost -11.5% in 278 min (fast (1-6h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1789873679.4212244,
+    "symbol": "F",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/synfutures",
+    "held_minutes": 1117.2,
+    "exit_reason": "stop-loss hit (-10.1%)",
+    "pnl_pct": -10.06,
+    "pnl_eur": -1.46,
+    "entry_score": 91.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 152170817,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.0,
+    "entry_chg_24h": 28.49815,
+    "entry_chg_7d": 30.5,
+    "entry_chg_6h": null,
+    "entry_turnover": 7.38023368981719,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "F (cex_small_cap) lost -10.1% in 1117 min (slow (>6h)) — stop-loss hit. Entry score: 91 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
