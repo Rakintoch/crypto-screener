@@ -103,15 +103,39 @@ def score_dex_candidate(c):
 
     breakout = detect_base_breakout(c)
     c["base_breakout"] = breakout  # guardado para auditoria/telegram, não só para o score
-    s_base_breakout = 100 if (breakout and breakout["is_breakout"]) else 0
 
-    score = (
-        w["chg_1h"] * s_1h
-        + w["chg_6h"] * s_6h
-        + w["vol_liq_ratio"] * s_vol_liq
-        + w["boosted_bonus"] * s_boosted
-        + w["base_breakout"] * s_base_breakout
-    )
+    # Autoanálise 2026-09-20 (0 trades dex_micro_cap fechados ou abertos entre 2026-09-12,
+    # data desta mudança, e 2026-09-20 — oito dias, contra 3 trades nos 2 dias anteriores à
+    # mudança, sem qualquer seca equivalente em cex_small_cap no mesmo período, que continuou
+    # a fechar trades normalmente): detect_base_breakout devolve None (não "False") sempre que
+    # a pool tem menos de DEX_BREAKOUT_MIN_POOL_AGE_HOURS (24h) — precisamente o perfil central
+    # do tier dex_micro_cap, que o próprio README descreve como "pools recém-criadas ou em
+    # tendência". O código anterior tratava esse None exatamente como um "breakout não
+    # confirmado" (0 pontos), aplicando na prática um desconto fixo de w["base_breakout"]=0.25
+    # (25 pontos em 100) a QUALQUER candidato com pool < 24h — não por ter falhado o sinal, mas
+    # por o sinal nem sequer ser calculável ainda. Com pesos atuais isso limitava o score
+    # máximo de uma pool jovem a 75/100, abaixo do ENTRY_MIN_SCORE (65) em quase todos os casos
+    # reais: reproduzindo o candidato de teste GAMMA (chg_1h=25, chg_6h=60, vol/liq=4.5,
+    # boosted=True — sinais já fortes) o score antigo era 70.8, e um candidato equivalente sem
+    # "boosted" (a maioria dos casos reais, já que boosted é pago e tratado como sinal
+    # secundário fraco) ficava em 60.8, ou seja, alertável (>=55) mas nunca comprável
+    # (<65). Em vez de continuar a pontuar "ainda não sabemos" da mesma forma que "não é
+    # rutura", o base_breakout só entra na média ponderada quando é mesmo calculável (breakout
+    # is not None); nos restantes casos os pesos dos componentes aplicáveis são renormalizados
+    # para somarem 1, preservando o comportamento inalterado para pools >=24h (onde o sinal
+    # continua a penalizar ruturas "stale", como pretendido) e devolvendo às pools jovens o
+    # scoring que tinham antes deste sinal existir.
+    components = {
+        "chg_1h": s_1h,
+        "chg_6h": s_6h,
+        "vol_liq_ratio": s_vol_liq,
+        "boosted_bonus": s_boosted,
+    }
+    if breakout is not None:
+        components["base_breakout"] = 100 if breakout["is_breakout"] else 0
+
+    total_w = sum(w[k] for k in components)
+    score = sum(w[k] * components[k] for k in components) / total_w if total_w else 0
 
     # penalização leve se a segurança não foi confirmada (não elimina, apenas desconta)
     security = c.get("security") or {}
