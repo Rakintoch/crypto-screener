@@ -29,11 +29,6 @@
     "last_score": 58.6,
     "symbol": "ZZZ"
   },
-  "cex_small_cap:bundle-cat": {
-    "last_alert_ts": 1789636196.586038,
-    "last_score": 60.9,
-    "symbol": "BUN"
-  },
   "cex_small_cap:teller": {
     "last_alert_ts": 1789721052.0549042,
     "last_score": 55.9,
@@ -45,8 +40,8 @@
     "symbol": "PUFFER"
   },
   "cex_small_cap:saga-2": {
-    "last_alert_ts": 1789856144.8095078,
-    "last_score": 61.5,
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 58.9,
     "symbol": "SAGA"
   },
   "cex_small_cap:lisk": {
@@ -95,8 +90,8 @@
     "symbol": "LOOM"
   },
   "cex_small_cap:nearkat-2": {
-    "last_alert_ts": 1789769705.641318,
-    "last_score": 76.6,
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 55.1,
     "symbol": "NEARKAT"
   },
   "cex_small_cap:prism-assets": {
@@ -105,8 +100,8 @@
     "symbol": "PRISM"
   },
   "cex_small_cap:4stock": {
-    "last_alert_ts": 1789856144.8095078,
-    "last_score": 68.5,
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 55.6,
     "symbol": "4STOCK"
   },
   "cex_small_cap:aeon-3": {
@@ -164,11 +159,6 @@
     "last_score": 70.8,
     "symbol": "FOLD"
   },
-  "cex_small_cap:note-systems": {
-    "last_alert_ts": 1789636196.586038,
-    "last_score": 65.1,
-    "symbol": "NOTE"
-  },
   "cex_small_cap:heima": {
     "last_alert_ts": 1789856144.8095078,
     "last_score": 66.0,
@@ -214,11 +204,6 @@
     "last_score": 64.9,
     "symbol": "SHROOM"
   },
-  "cex_small_cap:ai-factory": {
-    "last_alert_ts": 1789636196.586038,
-    "last_score": 72.6,
-    "symbol": "SN80"
-  },
   "cex_small_cap:coti": {
     "last_alert_ts": 1789757524.6488023,
     "last_score": 59.1,
@@ -260,29 +245,14 @@
     "symbol": "SOMI"
   },
   "cex_small_cap:concierge-io": {
-    "last_alert_ts": 1789856144.8095078,
-    "last_score": 55.4,
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 63.6,
     "symbol": "AVA"
   },
   "cex_small_cap:embercurve": {
     "last_alert_ts": 1789786545.7914119,
     "last_score": 60.2,
     "symbol": "EMBER"
-  },
-  "dex_micro_cap:EpEfnZxQyiBXppSKi8sncc8w4corn1UJbF9G91fQpump": {
-    "last_alert_ts": 1789636196.586038,
-    "last_score": 70.9,
-    "symbol": "PEPENOM"
-  },
-  "cex_small_cap:dent": {
-    "last_alert_ts": 1789636196.586038,
-    "last_score": 59.8,
-    "symbol": "DENT"
-  },
-  "cex_small_cap:moo-deng": {
-    "last_alert_ts": 1789636196.586038,
-    "last_score": 58.4,
-    "symbol": "MOODENG"
   },
   "cex_small_cap:sudeng": {
     "last_alert_ts": 1789856144.8095078,
@@ -425,8 +395,8 @@
     "symbol": "CREO"
   },
   "cex_small_cap:drift-protocol": {
-    "last_alert_ts": 1789837247.00497,
-    "last_score": 61.9,
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 67.9,
     "symbol": "DRIFT"
   },
   "cex_small_cap:momentum-3": {
@@ -620,8 +590,8 @@
     "symbol": "AURORA"
   },
   "dex_micro_cap:91ryaCo5yGpYZM3bs6GUPs97VWJQj7RozBmqPULgpump": {
-    "last_alert_ts": 1789806649.2443597,
-    "last_score": 62.0,
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 76.5,
     "symbol": "TIGRINO"
   },
   "cex_small_cap:synfutures": {
@@ -830,8 +800,8 @@
     "symbol": "CXT"
   },
   "cex_small_cap:celer-network": {
-    "last_alert_ts": 1789856144.8095078,
-    "last_score": 95.7,
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 78.6,
     "symbol": "CELR"
   },
   "cex_small_cap:solv-protocol": {
@@ -855,8 +825,8 @@
     "symbol": "STG"
   },
   "cex_small_cap:coq-inu": {
-    "last_alert_ts": 1789848004.3177903,
-    "last_score": 58.3,
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 72.2,
     "symbol": "COQ"
   },
   "cex_small_cap:celo": {
@@ -885,8 +855,8 @@
     "symbol": "C98"
   },
   "cex_small_cap:skale": {
-    "last_alert_ts": 1789856144.8095078,
-    "last_score": 95.8,
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 61.0,
     "symbol": "SKL"
   },
   "cex_small_cap:robin-the-frog": {
@@ -968,5 +938,45 @@
     "last_alert_ts": 1789894967.889301,
     "last_score": 55.1,
     "symbol": "FLT"
+  },
+  "cex_small_cap:endurance": {
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 78.7,
+    "symbol": "ACE"
+  },
+  "cex_small_cap:ava-ai": {
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 67.3,
+    "symbol": "AVA"
+  },
+  "dex_micro_cap:EpEfnZxQyiBXppSKi8sncc8w4corn1UJbF9G91fQpump": {
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 63.0,
+    "symbol": "PEPENOM"
+  },
+  "cex_small_cap:dogbull": {
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 58.0,
+    "symbol": "DOGO"
+  },
+  "cex_small_cap:mitosis": {
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 57.7,
+    "symbol": "MITO"
+  },
+  "cex_small_cap:dominion-silver": {
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 57.2,
+    "symbol": "SILV"
+  },
+  "cex_small_cap:cea-industries": {
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 55.9,
+    "symbol": "BNC4"
+  },
+  "cex_small_cap:bifrost": {
+    "last_alert_ts": 1789912670.641474,
+    "last_score": 55.3,
+    "symbol": "BFC"
   }
 }
