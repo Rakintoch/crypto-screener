@@ -88,7 +88,12 @@ WINS_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file_
 # perguntar. Também é a base para as reanálises periódicas (antes/depois de cada mudança).
 CHANGELOG_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "changelog.json")
 
-STARTING_BALANCE_EUR = 100.0
+# Autoanálise 2026-09-21 (pedido direto do Ricardo): saldo inicial subido de 100 para 1000
+# EUR ao arrancar a challenge #2 — a challenge #1 (10-20 set) só teve 73 trades fechados em
+# 10 dias; um saldo maior não muda a % ganha/perdida por trade (POSITION_SIZE_PCT_BY_TIER é
+# percentual), mas dá posições maiores em termos absolutos, o que é irrelevante para validar
+# a estratégia (100% simulado) mas foi um pedido explícito, não uma decisão de estratégia.
+STARTING_BALANCE_EUR = 1000.0
 CHALLENGE_DURATION_DAYS = 10     # a contagem só começa na primeira compra virtual executada
 
 # Disjuntor de capital: numa estratégia sem alavancagem/margem o saldo nunca fica negativo
@@ -100,7 +105,7 @@ CHALLENGE_DURATION_DAYS = 10     # a contagem só começa na primeira compra vir
 # (take-profit/stop-loss/trailing/liquidação forçada ao fim dos 10 dias). É um disjuntor, não
 # um "auto-reset": uma vez acionado (e o Ricardo avisado no Telegram), mantém-se assim até ao
 # fim do desafio — não volta a abrir posições sozinho só porque o equity recuperou um pouco.
-MAX_DRAWDOWN_HALT_PCT = -0.75   # halt quando equity <= 25% do saldo inicial (25 EUR de 100 EUR)
+MAX_DRAWDOWN_HALT_PCT = -0.75   # halt quando equity <= 25% do saldo inicial (250 EUR de 1000 EUR)
 
 MAX_CONCURRENT_POSITIONS = 4
 POSITION_SIZE_PCT_OF_EQUITY = 0.25   # fallback para camadas sem valor específico abaixo
