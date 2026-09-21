@@ -74,6 +74,6 @@ jobs:
             echo "::error::marcadores de conflito ainda presentes nos ficheiros de dados após a resolução — a abortar sem commitar"
             exit 1
           fi
-          git add data/bot_offset.json data/portfolio_state.json data/pump_watch_state.json data/lessons.json data/wins.json data/changelog.json
+          git add data/bot_offset.json data/portfolio_state.json data/pump_watch_state.json data/lessons.json data/wins.json data/changelog.json data/challenge_history.json
           git diff --quiet --cached || git commit -m "chore: atualizar offset do bot + portfólio [skip ci]"
           git push
