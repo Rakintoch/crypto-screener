@@ -12,10 +12,10 @@
       "entry_price_eur": 436.85462126479916,
       "entry_ts": 1789402186.9931946,
       "cost_eur": 33.33333333333333,
-      "last_price_eur": 429.8457891718157,
+      "last_price_eur": 430.8148279781497,
       "peak_price_eur": 437.09702773378064,
       "entry_market_cap": 1183197,
-      "last_market_cap": 1552464,
+      "last_market_cap": 1590365,
       "entry_venue": "Uniswap V3 (Base) (on-chain)"
     },
     "cex_small_cap:cea-industries": {
@@ -25,10 +25,10 @@
       "entry_price_eur": 4.512047541148377,
       "entry_ts": 1789431253.6260228,
       "cost_eur": 33.3394987830729,
-      "last_price_eur": 5.6450908228960435,
-      "peak_price_eur": 5.6450908228960435,
+      "last_price_eur": 5.645460233161598,
+      "peak_price_eur": 5.645460233161598,
       "entry_market_cap": 5133836,
-      "last_market_cap": 8012298,
+      "last_market_cap": 8014991,
       "entry_venue": null,
       "entry_contract_address": null
     },
@@ -39,15 +39,15 @@
       "entry_price_eur": 133.33919983775917,
       "entry_ts": 1789636198.3232305,
       "cost_eur": 32.56228813612519,
-      "last_price_eur": 133.3304244512715,
+      "last_price_eur": 134.58498407697587,
       "peak_price_eur": 136.0900397679932,
       "entry_market_cap": 1177042,
-      "last_market_cap": 1316084,
+      "last_market_cap": 1328350,
       "entry_venue": null,
       "entry_contract_address": null
     }
   },
   "closed_trades": [],
-  "last_run_ts": 1789912723.357783,
-  "last_eur_rate": 0.871155991187661
+  "last_run_ts": 1789983300.341295,
+  "last_eur_rate": 0.8712129989446911
 }
