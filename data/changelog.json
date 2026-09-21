@@ -88,5 +88,14 @@
     "efeito_esperado": "No more risk of conflict markers being committed to the JSON state files when this autostash race recurs (it clearly can, a second time, even with the concurrency group in place) — worst case is one skipped save cycle instead of a multi-hour frozen challenge plus dozens of duplicate Telegram alerts. Portfolio tracking (69 closed trades so far) resumes normally from this point.",
     "num_trades_fechados_ate_aqui": 69,
     "announced": false
+  },
+  {
+    "ts": 1789989000,
+    "titulo": "Challenge #1 ended (-22.4%) — archived, challenge #2 started with 1000 EUR",
+    "motivo": "Challenge #1 (10-20 Sep, 10 days) hit its automatic end-of-challenge liquidation once the git-corruption bug was fixed: final balance 77.58 EUR from 100 EUR starting (-22.42%), 73 closed trades, 24.7% win rate (24.6% cex_small_cap, 25.0% dex_micro_cap on a tiny n=4 sample). Across all logged history (lessons.json + wins.json, 152 trades), average win is +38.6% vs average loss -15.0% at a 25.0% win rate — the asymmetric 'cut losses, let winners run' shape is present and directionally correct, but the win rate needed to break even at that payout ratio is ~28%, so the strategy is currently just below its own breakeven line. The most recent unresolved pattern (11 straight cex_small_cap losses right before the freeze) does not yet have a strong enough numeric signal to justify a specific parameter change on its own. Separately, Ricardo requested the starting balance be raised from 100 to 1000 EUR for challenge #2 — an explicit request, not a strategy decision.",
+    "mudanca": "(1) Archived challenge #1's full result and closed_trades ledger to the new data/challenge_history.json (added to both workflows' git-add lists). (2) Raised config.STARTING_BALANCE_EUR from 100.0 to 1000.0 (Ricardo's request; position sizing is percentage-based so this doesn't change the strategy's expected return per trade, only the absolute EUR amounts). (3) Reset data/portfolio_state.json to a fresh not_started state (1000 EUR, no positions, no closed trades) so challenge #2 begins on the next qualifying candidate.",
+    "efeito_esperado": "Challenge #2 starts clean with the same strategy logic as the end of challenge #1 (all prior fixes/tightening already in place: GoPlus gate, tighter cex stop-loss and smaller position size, capital circuit breaker, selection-ceiling fix, weak-position rotation, DEX breakout+trailing signal) but 10x the paper capital. The cex_small_cap losing streak flagged at the end of challenge #1 is the first thing to check once challenge #2 has enough new closed trades.",
+    "num_trades_fechados_ate_aqui": 0,
+    "announced": false
   }
 ]
