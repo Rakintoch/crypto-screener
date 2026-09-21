@@ -2,11 +2,7 @@
   "status": "active",
   "start_ts": 1789049034.6380584,
   "end_ts": 1789913034.6380584,
-<<<<<<< Updated upstream
   "cash_eur": 30.078146724273523,
-=======
-  "cash_eur": 62.090358251408645,
->>>>>>> Stashed changes
   "starting_balance_eur": 100,
   "positions": {
     "cex_small_cap:saga-2": {
@@ -19,11 +15,7 @@
       "entry_price_eur": 0.021983434761366768,
       "entry_ts": 1789757525.0211813,
       "cost_eur": 12.605422896236615,
-<<<<<<< Updated upstream
       "last_price_eur": 0.024640838932201054,
-=======
-      "last_price_eur": 0.024640838865061052,
->>>>>>> Stashed changes
       "last_score": 59.2,
       "missed_updates": 0,
       "entry_market_cap": 10584800,
@@ -43,7 +35,6 @@
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
       "last_market_cap": 11745864
-<<<<<<< Updated upstream
     },
     "cex_small_cap:chainbase": {
       "tier": "cex_small_cap",
@@ -137,8 +128,6 @@
         "is_breakout": true,
         "pre_window_move_pct": -22.4
       }
-=======
->>>>>>> Stashed changes
     }
   },
   "closed_trades": [
@@ -2416,11 +2405,7 @@
       "entry_price_eur": 0.0033850334542883304,
       "entry_ts": 1789894968.5192971,
       "cost_eur": 12.073754272958688,
-<<<<<<< Updated upstream
       "last_price_eur": 0.0030700147022297074,
-=======
-      "last_price_eur": 0.0030700146938647003,
->>>>>>> Stashed changes
       "last_score": 45.7,
       "missed_updates": 0,
       "entry_market_cap": 75834936,
@@ -2440,21 +2425,12 @@
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
       "last_market_cap": 68857298,
-<<<<<<< Updated upstream
       "exit_price_eur": 0.0030700147022297074,
       "exit_ts": 1789912671.2390907,
       "exit_reason": "stop-loss hit (-9.3%)",
       "proceeds_eur": 10.950143810878469,
       "pnl_eur": -1.1236104620802188,
       "pnl_pct": -9.30622270983884
-=======
-      "exit_price_eur": 0.0030700146938647003,
-      "exit_ts": 1789912722.8891459,
-      "exit_reason": "stop-loss hit (-9.3%)",
-      "proceeds_eur": 10.950143781042119,
-      "pnl_eur": -1.123610491916569,
-      "pnl_pct": -9.306222956956262
->>>>>>> Stashed changes
     },
     {
       "tier": "cex_small_cap",
@@ -2466,11 +2442,7 @@
       "entry_price_eur": 0.0015342363931203531,
       "entry_ts": 1789894968.5192971,
       "cost_eur": 12.073754272958688,
-<<<<<<< Updated upstream
       "last_price_eur": 0.0012794145383839247,
-=======
-      "last_price_eur": 0.0012794145348978465,
->>>>>>> Stashed changes
       "last_score": 56.3,
       "missed_updates": 0,
       "entry_market_cap": 1760885,
@@ -2490,21 +2462,12 @@
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
       "last_market_cap": 1476623,
-<<<<<<< Updated upstream
       "exit_price_eur": 0.0012794145383839247,
       "exit_ts": 1789912671.2390907,
       "exit_reason": "stop-loss hit (-16.6%)",
       "proceeds_eur": 10.068420237562838,
       "pnl_eur": -2.0053340353958493,
       "pnl_pct": -16.60903468846596
-=======
-      "exit_price_eur": 0.0012794145348978465,
-      "exit_ts": 1789912722.8891459,
-      "exit_reason": "stop-loss hit (-16.6%)",
-      "proceeds_eur": 10.068420210128961,
-      "pnl_eur": -2.0053340628297267,
-      "pnl_pct": -16.609034915685072
->>>>>>> Stashed changes
     },
     {
       "tier": "cex_small_cap",
@@ -2516,11 +2479,7 @@
       "entry_price_eur": 0.0016956616003117914,
       "entry_ts": 1789894968.5192971,
       "cost_eur": 12.073754272958688,
-<<<<<<< Updated upstream
       "last_price_eur": 0.0015158027172367942,
-=======
-      "last_price_eur": 0.0015158027131066181,
->>>>>>> Stashed changes
       "last_score": 41.0,
       "missed_updates": 0,
       "entry_market_cap": 1954671,
@@ -2540,7 +2499,6 @@
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
       "last_market_cap": 1740020,
-<<<<<<< Updated upstream
       "exit_price_eur": 0.0015158027172367942,
       "exit_ts": 1789912671.2390907,
       "exit_reason": "stop-loss hit (-10.6%)",
@@ -2551,16 +2509,4 @@
   ],
   "last_run_ts": 1789912671.2390907,
   "last_eur_rate": 0.8711559935613389
-=======
-      "exit_price_eur": 0.0015158027131066181,
-      "exit_ts": 1789912722.8891459,
-      "exit_reason": "stop-loss hit (-10.6%)",
-      "proceeds_eur": 10.793090721030781,
-      "pnl_eur": -1.2806635519279066,
-      "pnl_pct": -10.607003612755145
     }
-  ],
-  "last_run_ts": 1789912722.8891459,
-  "last_eur_rate": 0.871155991187661
->>>>>>> Stashed changes
-}
