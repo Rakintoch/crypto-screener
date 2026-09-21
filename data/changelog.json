@@ -87,7 +87,7 @@
     "mudanca": "(1) Restored data/portfolio_state.json, data/lessons.json and data/pump_watch_state.json to their last known-good state (commit 1b2fd2c), verified byte-for-byte after publish. (2) Hardened the 'Guardar estado' step in both screener.yml and bot_listener.yml: after 'git pull --rebase --autostash', explicitly check for unmerged files (git diff --diff-filter=U) and leftover conflict markers; if found, discard this run's local recompute in favor of the already-published remote state (git checkout --ours) instead of ever committing conflict markers again. The run simply skips saving this cycle; the next one (minutes later) recomputes from the now-correct base.",
     "efeito_esperado": "No more risk of conflict markers being committed to the JSON state files when this autostash race recurs (it clearly can, a second time, even with the concurrency group in place) — worst case is one skipped save cycle instead of a multi-hour frozen challenge plus dozens of duplicate Telegram alerts. Portfolio tracking (69 closed trades so far) resumes normally from this point.",
     "num_trades_fechados_ate_aqui": 69,
-    "announced": false
+    "announced": true
   },
   {
     "ts": 1789989000,
@@ -96,6 +96,6 @@
     "mudanca": "Challenge #1 encerrada e arquivada (data/challenge_history.json); challenge #2 arrancou com saldo de 1000€ (subido de 100€, a pedido do Ricardo).",
     "efeito_esperado": "Challenge #2 usa exatamente a mesma estratégia já testada e ajustada ao longo da #1, agora com 10x mais capital simulado.",
     "num_trades_fechados_ate_aqui": 0,
-    "announced": false
+    "announced": true
   }
 ]
