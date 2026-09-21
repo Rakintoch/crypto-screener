@@ -61,6 +61,30 @@ jobs:
             git stash drop || true
             exit 1
           fi
+          # Salvaguarda (incidente 2026-09-20, repetição do de 2026-08-31 apesar do "concurrency"
+          # acima): "git pull --rebase --autostash" pode devolver sucesso mesmo quando o
+          # reaplicar do autostash (stash pop) fica em conflito — nesse caso o Git deixa
+          # marcadores de conflito ("<<<<<<< Updated upstream" / "=======" / ">>>>>>> Stashed
+          # changes") escritos nos ficheiros, e sem esta verificação eram commitados tal e qual,
+          # corrompendo o estado partilhado. Quando isto acontece, esta corrida local perdeu a
+          # corrida contra outra execução que entretanto já publicou — em vez de tentar um merge
+          # automático de JSON linha-a-linha (não é seguro para estas estruturas), descarta-se o
+          # recálculo local desta corrida a favor do estado remoto já publicado (HEAD após o
+          # rebase); esta corrida simplesmente não grava nada de novo, e a próxima (dentro de
+          # minutos) recalcula com a base já correta.
+          UNMERGED=$(git diff --name-only --diff-filter=U)
+          if [ -n "$UNMERGED" ]; then
+            echo "::warning::conflito ao reaplicar o autostash em: $UNMERGED — a descartar o recálculo local desta corrida e a manter o estado remoto já publicado"
+            git checkout --ours -- $UNMERGED
+            git add $UNMERGED
+            git stash drop || true
+          fi
+          # Segunda rede de segurança: garante que nenhum marcador de conflito sobrevive nos
+          # ficheiros de dados por qualquer outra via antes de committar.
+          if grep -rl '^<<<<<<< ' data/*.json 2>/dev/null; then
+            echo "::error::marcadores de conflito ainda presentes nos ficheiros de dados após a resolução — a abortar sem commitar"
+            exit 1
+          fi
           git add data/state.json data/portfolio_state.json data/pump_watch_state.json data/lessons.json data/wins.json data/changelog.json
           git diff --quiet --cached || git commit -m "chore: atualizar estado do screener [skip ci]"
           git push
