@@ -2614,5 +2614,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "SURGE (cex_small_cap) lost -27.0% in 188 min (fast (1-6h)) — stop-loss hit. Entry score: 94 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790030310.2489374,
+    "symbol": "GOD",
+    "tier": "dex_micro_cap",
+    "network": "bsc",
+    "url": "https://dexscreener.com/bsc/0x555dd6e529b3e2a1b41c8e82a8d73d924581dd1f",
+    "held_minutes": 58.3,
+    "exit_reason": "stop-loss hit (-26.6%)",
+    "pnl_pct": -26.63,
+    "pnl_eur": -31.91,
+    "entry_score": 91.1,
+    "entry_liquidity_usd": 23381.41,
+    "entry_volume_24h_usd": 54695.3,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 294.0,
+    "entry_chg_24h": 294.0,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 294.0,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 2.339264398511467,
+    "entry_boosted": true,
+    "entry_pool_age_minutes": 56.888919006347656,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "GOD (dex_micro_cap) lost -26.6% in 58 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $23,381. Entry score: 91 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
