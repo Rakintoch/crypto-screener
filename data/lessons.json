@@ -2424,20 +2424,12 @@
     "licao": "CELR (cex_small_cap) lost -18.7% in 355 min (fast (1-6h)) — stop-loss hit. Entry score: 99 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   },
   {
-<<<<<<< Updated upstream
     "closed_ts": 1789912671.2390907,
-=======
-    "closed_ts": 1789912722.8891459,
->>>>>>> Stashed changes
     "symbol": "ZIL",
     "tier": "cex_small_cap",
     "network": null,
     "url": "https://www.coingecko.com/en/coins/zilliqa",
-<<<<<<< Updated upstream
     "held_minutes": 295.0,
-=======
-    "held_minutes": 295.9,
->>>>>>> Stashed changes
     "exit_reason": "stop-loss hit (-9.3%)",
     "pnl_pct": -9.31,
     "pnl_eur": -1.12,
@@ -2456,26 +2448,15 @@
     "entry_base_breakout": null,
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
-<<<<<<< Updated upstream
     "licao": "ZIL (cex_small_cap) lost -9.3% in 295 min (fast (1-6h)) — stop-loss hit. Entry score: 89 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   },
   {
     "closed_ts": 1789912671.2390907,
-=======
-    "licao": "ZIL (cex_small_cap) lost -9.3% in 296 min (fast (1-6h)) — stop-loss hit. Entry score: 89 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
-  },
-  {
-    "closed_ts": 1789912722.8891459,
->>>>>>> Stashed changes
     "symbol": "PEPE",
     "tier": "cex_small_cap",
     "network": null,
     "url": "https://www.coingecko.com/en/coins/pepe-sol",
-<<<<<<< Updated upstream
     "held_minutes": 295.0,
-=======
-    "held_minutes": 295.9,
->>>>>>> Stashed changes
     "exit_reason": "stop-loss hit (-16.6%)",
     "pnl_pct": -16.61,
     "pnl_eur": -2.01,
@@ -2494,26 +2475,15 @@
     "entry_base_breakout": null,
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
-<<<<<<< Updated upstream
     "licao": "PEPE (cex_small_cap) lost -16.6% in 295 min (fast (1-6h)) — stop-loss hit. Entry score: 80 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   },
   {
     "closed_ts": 1789912671.2390907,
-=======
-    "licao": "PEPE (cex_small_cap) lost -16.6% in 296 min (fast (1-6h)) — stop-loss hit. Entry score: 80 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
-  },
-  {
-    "closed_ts": 1789912722.8891459,
->>>>>>> Stashed changes
     "symbol": "CPU",
     "tier": "cex_small_cap",
     "network": null,
     "url": "https://www.coingecko.com/en/coins/cat-processing-unit",
-<<<<<<< Updated upstream
     "held_minutes": 295.0,
-=======
-    "held_minutes": 295.9,
->>>>>>> Stashed changes
     "exit_reason": "stop-loss hit (-10.6%)",
     "pnl_pct": -10.61,
     "pnl_eur": -1.28,
@@ -2532,10 +2502,6 @@
     "entry_base_breakout": null,
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
-<<<<<<< Updated upstream
     "licao": "CPU (cex_small_cap) lost -10.6% in 295 min (fast (1-6h)) — stop-loss hit. Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
-=======
-    "licao": "CPU (cex_small_cap) lost -10.6% in 296 min (fast (1-6h)) — stop-loss hit. Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
->>>>>>> Stashed changes
   }
 ]
