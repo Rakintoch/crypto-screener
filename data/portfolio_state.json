@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 625.3693557093023,
+  "cash_eur": 355.74748053400594,
   "starting_balance_eur": 1000.0,
   "positions": {
     "cex_small_cap:saga-2": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.031210076602843008,
       "entry_ts": 1790007149.640162,
       "cost_eur": 150.0,
-      "last_price_eur": 0.03444286469411125,
-      "last_score": 59.2,
+      "last_price_eur": 0.034301722173604776,
+      "last_score": 55.0,
       "missed_updates": 0,
       "entry_market_cap": 14938213,
       "entry_venue": "Binance",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 16563367
+      "last_market_cap": 16417640
     },
     "cex_small_cap:delta": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.016133595023862895,
       "entry_ts": 1790007149.640162,
       "cost_eur": 150.0,
-      "last_price_eur": 0.021720399683620016,
-      "last_score": 84.2,
+      "last_price_eur": 0.022411854490068276,
+      "last_score": 87.3,
       "missed_updates": 0,
       "entry_market_cap": 16618335,
       "entry_venue": null,
@@ -65,9 +65,69 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 22566101,
+      "last_market_cap": 23119619,
       "trailing_active": true,
-      "trailing_peak_eur": 0.021720399683620016
+      "trailing_peak_eur": 0.022411854490068276
+    },
+    "dex_micro_cap:0x2bb0f162c03736f18dcc3b3b16c1801a3a587777": {
+      "tier": "dex_micro_cap",
+      "id": "0x2bb0f162c03736f18dcc3b3b16c1801a3a587777",
+      "symbol": "GOD",
+      "network": "bsc",
+      "url": "https://dexscreener.com/bsc/0x555dd6e529b3e2a1b41c8e82a8d73d924581dd1f",
+      "qty": 6086717.441359445,
+      "entry_price_eur": 1.9687449873735215e-05,
+      "entry_ts": 1790026814.2760446,
+      "cost_eur": 119.83194452235394,
+      "last_price_eur": 1.9687449873735215e-05,
+      "last_score": 91.1,
+      "missed_updates": 0,
+      "entry_market_cap": 22574.0,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 91.1,
+      "entry_liquidity_usd": 23381.41,
+      "entry_volume_24h_usd": 54695.3,
+      "entry_security_notes": "no obvious red flags",
+      "entry_chg_1h": 294.0,
+      "entry_chg_24h": 294.0,
+      "entry_chg_7d": null,
+      "entry_chg_6h": 294.0,
+      "entry_turnover": null,
+      "entry_vol_liq_ratio": 2.339264398511467,
+      "entry_boosted": true,
+      "entry_pool_age_minutes": 56.888919006347656,
+      "entry_base_breakout": null
+    },
+    "cex_small_cap:rhea-2": {
+      "tier": "cex_small_cap",
+      "id": "rhea-2",
+      "symbol": "RHEA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/rhea-2",
+      "qty": 3269.018005222794,
+      "entry_price_eur": 0.04582107850541918,
+      "entry_ts": 1790026814.2760446,
+      "cost_eur": 149.78993065294245,
+      "last_price_eur": 0.04582107850541918,
+      "last_score": 85.8,
+      "missed_updates": 0,
+      "entry_market_cap": 21333672,
+      "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
+      "entry_contract_address": "token.rhealab.near (near-protocol)",
+      "entry_score": 85.8,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 7127357,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 12.9151,
+      "entry_chg_24h": 62.54704,
+      "entry_chg_7d": 268.7618,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.33408955570330323,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null
     }
   },
   "closed_trades": [
@@ -146,6 +206,6 @@
       "pnl_pct": -27.04203250828664
     }
   ],
-  "last_run_ts": 1790018402.5303602,
-  "last_eur_rate": 0.8720449955543392
+  "last_run_ts": 1790026814.2760446,
+  "last_eur_rate": 0.8722839997224286
 }
