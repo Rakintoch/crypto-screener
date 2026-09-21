@@ -79,5 +79,14 @@
     "efeito_esperado": "Shouldn't change the expected return per position (gains and losses scale by the same 0.6 factor), but reduces the tail risk of any single cex_small_cap position — an AIN-type collapse now costs ~12% of equity instead of ~20%, further from the -75% circuit breaker (MAX_DRAWDOWN_HALT_PCT). A future self-analysis should compare the pnl_eur distribution (not just pnl_pct) of cex_small_cap positions closed before/after this change.",
     "num_trades_fechados_ate_aqui": 54,
     "announced": true
+  },
+  {
+    "ts": 1789979595.7005293,
+    "titulo": "Fixed repeat data corruption from git autostash race + recovered frozen portfolio",
+    "motivo": "On 2026-09-20 13:58 UTC a 'git pull --rebase --autostash' conflict between bot_listener.yml and screener.yml (same failure mode as the 2026-08-31 incident, despite the shared concurrency group added back then) left literal Git conflict markers committed inside data/portfolio_state.json, data/lessons.json and data/pump_watch_state.json (commit c696554), making them invalid JSON. The existing safety net (load_portfolio() raising PortfolioStateCorrupted instead of silently resetting the challenge) worked as designed: it aborted every run without touching history, but that meant it also fired a Telegram alert on every single run since then (~every 5 min via bot_listener.yml) for about 18.5 hours, and the virtual portfolio was completely frozen (0 opens/closes) the whole time, while the unrelated alerting part of screener.main kept working normally (data/state.json kept updating). Comparing the conflicting sides confirmed the local run's changes were a stale duplicate of closes already present in the previous valid commit (1b2fd2c) — no real trade history was at risk, just the merge itself.",
+    "mudanca": "(1) Restored data/portfolio_state.json, data/lessons.json and data/pump_watch_state.json to their last known-good state (commit 1b2fd2c), verified byte-for-byte after publish. (2) Hardened the 'Guardar estado' step in both screener.yml and bot_listener.yml: after 'git pull --rebase --autostash', explicitly check for unmerged files (git diff --diff-filter=U) and leftover conflict markers; if found, discard this run's local recompute in favor of the already-published remote state (git checkout --ours) instead of ever committing conflict markers again. The run simply skips saving this cycle; the next one (minutes later) recomputes from the now-correct base.",
+    "efeito_esperado": "No more risk of conflict markers being committed to the JSON state files when this autostash race recurs (it clearly can, a second time, even with the concurrency group in place) — worst case is one skipped save cycle instead of a multi-hour frozen challenge plus dozens of duplicate Telegram alerts. Portfolio tracking (69 closed trades so far) resumes normally from this point.",
+    "num_trades_fechados_ate_aqui": 69,
+    "announced": false
   }
 ]
