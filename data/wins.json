@@ -850,5 +850,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "DELTA (cex_small_cap) gained +5.7% in 502 min — trailing stop caught extra upside after the target. Entry score: 82. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790082264.6228821,
+    "symbol": "TRUE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/true",
+    "held_minutes": 749.9,
+    "exit_reason": "trailing stop hit — dropped 20.3% from the peak (peak +31.2% since entry)",
+    "pnl_pct": 4.5,
+    "pnl_eur": 6.25,
+    "entry_score": 89.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 5808314,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 43.2404,
+    "entry_chg_24h": 614.87102,
+    "entry_chg_7d": 648.2974,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.4772756592876454,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "TRUE (cex_small_cap) gained +4.5% in 750 min — trailing stop caught extra upside after the target. Entry score: 89. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
