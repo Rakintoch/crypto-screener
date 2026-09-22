@@ -1,8 +1,8 @@
 {
   "status": "active",
   "start_ts": 1789402186.9931946,
-  "cash_eur": 0.7648797474685836,
-  "reserve_eur": 0.0,
+  "cash_eur": 39.18638158216242,
+  "reserve_eur": 1.2705007629052347,
   "starting_balance_eur": 100.0,
   "positions": {
     "cex_small_cap:microsoft-coinbase-tokenized-stock": {
@@ -12,25 +12,11 @@
       "entry_price_eur": 436.85462126479916,
       "entry_ts": 1789402186.9931946,
       "cost_eur": 33.33333333333333,
-      "last_price_eur": 437.09137964305665,
+      "last_price_eur": 439.5435407232975,
       "peak_price_eur": 454.434,
       "entry_market_cap": 1183197,
-      "last_market_cap": 1659042,
+      "last_market_cap": 1685170,
       "entry_venue": "Uniswap V3 (Base) (on-chain)"
-    },
-    "cex_small_cap:cea-industries": {
-      "id": "cea-industries",
-      "symbol": "BNC4",
-      "qty": 7.388995456946703,
-      "entry_price_eur": 4.512047541148377,
-      "entry_ts": 1789431253.6260228,
-      "cost_eur": 33.3394987830729,
-      "last_price_eur": 5.7021016972504395,
-      "peak_price_eur": 6.154800000000001,
-      "entry_market_cap": 5133836,
-      "last_market_cap": 8070919,
-      "entry_venue": null,
-      "entry_contract_address": null
     },
     "cex_small_cap:spacex-coinbase-tokenized-stock": {
       "id": "spacex-coinbase-tokenized-stock",
@@ -39,15 +25,37 @@
       "entry_price_eur": 133.33919983775917,
       "entry_ts": 1789636198.3232305,
       "cost_eur": 32.56228813612519,
-      "last_price_eur": 133.23213461113758,
+      "last_price_eur": 132.88160609359588,
       "peak_price_eur": 142.9496,
       "entry_market_cap": 1177042,
-      "last_market_cap": 1508847,
+      "last_market_cap": 1504652,
       "entry_venue": null,
       "entry_contract_address": null
     }
   },
-  "closed_trades": [],
-  "last_run_ts": 1790039383.0081236,
-  "last_eur_rate": 0.87188099346337
+  "closed_trades": [
+    {
+      "id": "cea-industries",
+      "symbol": "BNC4",
+      "qty": 7.388995456946703,
+      "entry_price_eur": 4.512047541148377,
+      "entry_ts": 1789431253.6260228,
+      "cost_eur": 33.3394987830729,
+      "last_price_eur": 5.371772499911739,
+      "peak_price_eur": 6.154800000000001,
+      "entry_market_cap": 5133836,
+      "last_market_cap": 7618972,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "exit_price_eur": 5.371772499911739,
+      "exit_ts": 1790057535.2462559,
+      "exit_reason": "trailing stop hit — dropped 12.7% from peak",
+      "proceeds_eur": 39.69200259759907,
+      "pnl_eur": 6.352503814526173,
+      "pnl_pct": 19.05398715157488,
+      "reserved_eur": 1.2705007629052347
+    }
+  ],
+  "last_run_ts": 1790057535.2462559,
+  "last_eur_rate": 0.872040990245412
 }
