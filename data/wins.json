@@ -876,5 +876,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "TRUE (cex_small_cap) gained +4.5% in 750 min — trailing stop caught extra upside after the target. Entry score: 89. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790099736.5691862,
+    "symbol": "RHEA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/rhea-2",
+    "held_minutes": 1215.4,
+    "exit_reason": "trailing stop hit — dropped 7.3% from the peak (peak +24.5% since entry)",
+    "pnl_pct": 15.42,
+    "pnl_eur": 23.1,
+    "entry_score": 85.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 7127357,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 12.9151,
+    "entry_chg_24h": 62.54704,
+    "entry_chg_7d": 268.7618,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.33408955570330323,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "RHEA (cex_small_cap) gained +15.4% in 1215 min — trailing stop caught extra upside after the target. Entry score: 86. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

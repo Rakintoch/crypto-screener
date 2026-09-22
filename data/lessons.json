@@ -2641,5 +2641,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "GOD (dex_micro_cap) lost -26.6% in 58 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $23,381. Entry score: 91 (minimum required to buy: 65). Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1790099736.5691862,
+    "symbol": "AURORA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/aurora-near",
+    "held_minutes": 291.2,
+    "exit_reason": "trailing stop hit — dropped 24.6% from the peak (peak +22.2% since entry)",
+    "pnl_pct": -7.85,
+    "pnl_eur": -11.22,
+    "entry_score": 91.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 38149479,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 21.4256,
+    "entry_chg_24h": 327.35454,
+    "entry_chg_7d": 533.2462,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.5461926125373662,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "AURORA (cex_small_cap) lost -7.8% in 291 min (fast (1-6h)) — other. Entry score: 91 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
