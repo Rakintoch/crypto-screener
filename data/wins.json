@@ -824,5 +824,31 @@
     "entry_base_breakout": null,
     "categoria": "other (manual/forced exit with profit)",
     "nota": "ACE (cex_small_cap) gained +1.5% in 1177 min — other (manual/forced exit with profit). Entry score: 79. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790037273.5772023,
+    "symbol": "DELTA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/delta",
+    "held_minutes": 502.1,
+    "exit_reason": "trailing stop hit — dropped 23.9% from the peak (peak +38.9% since entry)",
+    "pnl_pct": 5.75,
+    "pnl_eur": 8.62,
+    "entry_score": 82.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 2760704,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 27.1035,
+    "entry_chg_24h": 54.73479,
+    "entry_chg_7d": 152.2664,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.16612398293812225,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "DELTA (cex_small_cap) gained +5.7% in 502 min — trailing stop caught extra upside after the target. Entry score: 82. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
