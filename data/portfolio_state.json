@@ -15,7 +15,7 @@
       "entry_price_eur": 0.031210076602843008,
       "entry_ts": 1790007149.640162,
       "cost_eur": 150.0,
-      "last_price_eur": 0.03415125004665643,
+      "last_price_eur": 0.03460932475433841,
       "last_score": 67.4,
       "missed_updates": 0,
       "entry_market_cap": 14938213,
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 16312754
+      "last_market_cap": 16554907
     },
     "cex_small_cap:rhea-2": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.04582107850541918,
       "entry_ts": 1790026814.2760446,
       "cost_eur": 149.78993065294245,
-      "last_price_eur": 0.04884759104926581,
-      "last_score": 58.8,
+      "last_price_eur": 0.04908777181298119,
+      "last_score": 66.0,
       "missed_updates": 0,
       "entry_market_cap": 21333672,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -65,7 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 22737277
+      "last_market_cap": 22917974
     },
     "cex_small_cap:true": {
       "tier": "cex_small_cap",
@@ -77,8 +77,8 @@
       "entry_price_eur": 0.11422593238614286,
       "entry_ts": 1790037273.5772023,
       "cost_eur": 138.91690209293418,
-      "last_price_eur": 0.11422593238614286,
-      "last_score": 89.4,
+      "last_price_eur": 0.1498292612027063,
+      "last_score": 90.1,
       "missed_updates": 0,
       "entry_market_cap": 12169726,
       "entry_venue": "Uniswap V2 (Base) (on-chain)",
@@ -95,7 +95,10 @@
       "entry_vol_liq_ratio": null,
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
-      "entry_base_breakout": null
+      "entry_base_breakout": null,
+      "last_market_cap": 15844690,
+      "trailing_active": true,
+      "trailing_peak_eur": 0.1498292612027063
     },
     "cex_small_cap:ai-factory": {
       "tier": "cex_small_cap",
@@ -107,8 +110,8 @@
       "entry_price_eur": 6.714145860038322,
       "entry_ts": 1790037273.5772023,
       "cost_eur": 138.9169020929342,
-      "last_price_eur": 6.714145860038322,
-      "last_score": 80.8,
+      "last_price_eur": 6.530388641040641,
+      "last_score": 51.5,
       "missed_updates": 0,
       "entry_market_cap": 16000298,
       "entry_venue": "Subnet Tokens",
@@ -125,7 +128,8 @@
       "entry_vol_liq_ratio": null,
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
-      "entry_base_breakout": null
+      "entry_base_breakout": null,
+      "last_market_cap": 15552196
     }
   },
   "closed_trades": [
@@ -280,6 +284,6 @@
       "pnl_pct": 5.74932484247563
     }
   ],
-  "last_run_ts": 1790037273.5772023,
-  "last_eur_rate": 0.8719669948101716
+  "last_run_ts": 1790039382.820658,
+  "last_eur_rate": 0.87188099346337
 }
