@@ -2668,5 +2668,32 @@
     "categoria": "other",
     "velocidade_queda": "fast (1-6h)",
     "licao": "AURORA (cex_small_cap) lost -7.8% in 291 min (fast (1-6h)) — other. Entry score: 91 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790115089.4312377,
+    "symbol": "CHR",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/chromaway",
+    "held_minutes": 255.9,
+    "exit_reason": "stop-loss hit (-10.2%)",
+    "pnl_pct": -10.17,
+    "pnl_eur": -14.22,
+    "entry_score": 99.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 37736645,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 16.2971,
+    "entry_chg_24h": 42.85286,
+    "entry_chg_7d": 53.6833,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.5606726559530377,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "CHR (cex_small_cap) lost -10.2% in 256 min (fast (1-6h)) — stop-loss hit. Entry score: 99 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

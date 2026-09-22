@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 351.65964152942377,
+  "cash_eur": 477.2581787997916,
   "starting_balance_eur": 1000.0,
   "positions": {
     "cex_small_cap:saga-2": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.031210076602843008,
       "entry_ts": 1790007149.640162,
       "cost_eur": 150.0,
-      "last_price_eur": 0.03298189928873045,
-      "last_score": 56.0,
+      "last_price_eur": 0.034719330636469606,
+      "last_score": 74.0,
       "missed_updates": 0,
       "entry_market_cap": 14938213,
       "entry_venue": "Binance",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 15731065
+      "last_market_cap": 16564518
     },
     "cex_small_cap:ai-factory": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 6.714145860038322,
       "entry_ts": 1790037273.5772023,
       "cost_eur": 138.9169020929342,
-      "last_price_eur": 6.795487645767065,
-      "last_score": 49.2,
+      "last_price_eur": 6.8218553660957495,
+      "last_score": 50.8,
       "missed_updates": 0,
       "entry_market_cap": 16000298,
       "entry_venue": "Subnet Tokens",
@@ -65,7 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 16268541
+      "last_market_cap": 16279550
     },
     "cex_small_cap:mubarak": {
       "tier": "cex_small_cap",
@@ -77,8 +77,8 @@
       "entry_price_eur": 0.06971808242380455,
       "entry_ts": 1790099736.5691862,
       "cost_eur": 139.81709658371682,
-      "last_price_eur": 0.0712565401210382,
-      "last_score": 71.7,
+      "last_price_eur": 0.06735992577044891,
+      "last_score": 74.4,
       "missed_updates": 0,
       "entry_market_cap": 79476014,
       "entry_venue": "Binance",
@@ -96,38 +96,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 81626438
-    },
-    "cex_small_cap:chromaway": {
-      "tier": "cex_small_cap",
-      "id": "chromaway",
-      "symbol": "CHR",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/chromaway",
-      "qty": 6469.539386868531,
-      "entry_price_eur": 0.02161159987177895,
-      "entry_ts": 1790099736.5691862,
-      "cost_eur": 139.81709658371682,
-      "last_price_eur": 0.02027173449227915,
-      "last_score": 70.1,
-      "missed_updates": 0,
-      "entry_market_cap": 24179731,
-      "entry_venue": "Binance",
-      "entry_contract_address": null,
-      "entry_score": 99.2,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 37736645,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 16.2971,
-      "entry_chg_24h": 42.85286,
-      "entry_chg_7d": 53.6833,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.5606726559530377,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "last_market_cap": 22524622
+      "last_market_cap": 77042771
     }
   },
   "closed_trades": [
@@ -397,8 +366,45 @@
       "proceeds_eur": 131.75122212842592,
       "pnl_eur": -11.222484605880737,
       "pnl_pct": -7.84933458201227
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "chromaway",
+      "symbol": "CHR",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/chromaway",
+      "qty": 6469.539386868531,
+      "entry_price_eur": 0.02161159987177895,
+      "entry_ts": 1790099736.5691862,
+      "cost_eur": 139.81709658371682,
+      "last_price_eur": 0.019413829912729174,
+      "last_score": 71.2,
+      "missed_updates": 0,
+      "entry_market_cap": 24179731,
+      "entry_venue": "Binance",
+      "entry_contract_address": null,
+      "entry_score": 99.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 37736645,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 16.2971,
+      "entry_chg_24h": 42.85286,
+      "entry_chg_7d": 53.6833,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.5606726559530377,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "last_market_cap": 21690452,
+      "exit_price_eur": 0.019413829912729174,
+      "exit_ts": 1790115089.4312377,
+      "exit_reason": "stop-loss hit (-10.2%)",
+      "proceeds_eur": 125.59853727036786,
+      "pnl_eur": -14.218559313348962,
+      "pnl_pct": -10.169399637644073
     }
   ],
-  "last_run_ts": 1790110315.8877144,
-  "last_eur_rate": 0.8734559955998799
+  "last_run_ts": 1790115089.4312377,
+  "last_eur_rate": 0.873476999500096
 }
