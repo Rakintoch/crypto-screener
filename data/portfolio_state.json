@@ -15,8 +15,8 @@
       "entry_price_eur": 0.031210076602843008,
       "entry_ts": 1790007149.640162,
       "cost_eur": 150.0,
-      "last_price_eur": 0.03407084455887951,
-      "last_score": 66.8,
+      "last_price_eur": 0.03321485566977762,
+      "last_score": 69.0,
       "missed_updates": 0,
       "entry_market_cap": 14938213,
       "entry_venue": "Binance",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 16238379
+      "last_market_cap": 15821719
     },
     "cex_small_cap:rhea-2": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.04582107850541918,
       "entry_ts": 1790026814.2760446,
       "cost_eur": 149.78993065294245,
-      "last_price_eur": 0.05583489766356976,
-      "last_score": 67.4,
+      "last_price_eur": 0.05704950612609565,
+      "last_score": 78.7,
       "missed_updates": 0,
       "entry_market_cap": 21333672,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -65,9 +65,9 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 26027716,
+      "last_market_cap": 26527548,
       "trailing_active": true,
-      "trailing_peak_eur": 0.05583489766356976
+      "trailing_peak_eur": 0.05704950612609565
     },
     "cex_small_cap:ai-factory": {
       "tier": "cex_small_cap",
@@ -79,8 +79,8 @@
       "entry_price_eur": 6.714145860038322,
       "entry_ts": 1790037273.5772023,
       "cost_eur": 138.9169020929342,
-      "last_price_eur": 6.6339183666812085,
-      "last_score": 55.9,
+      "last_price_eur": 6.804310250820546,
+      "last_score": 64.3,
       "missed_updates": 0,
       "entry_market_cap": 16000298,
       "entry_venue": "Subnet Tokens",
@@ -98,7 +98,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 15842354
+      "last_market_cap": 16223701
     },
     "cex_small_cap:aurora-near": {
       "tier": "cex_small_cap",
@@ -110,8 +110,8 @@
       "entry_price_eur": 0.08309768349864269,
       "entry_ts": 1790082264.6228821,
       "cost_eur": 142.97370673430666,
-      "last_price_eur": 0.08309768349864269,
-      "last_score": 91.1,
+      "last_price_eur": 0.10157225958863055,
+      "last_score": 92.9,
       "missed_updates": 0,
       "entry_market_cap": 69846201,
       "entry_venue": "Coinbase Exchange",
@@ -128,7 +128,10 @@
       "entry_vol_liq_ratio": null,
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
-      "entry_base_breakout": null
+      "entry_base_breakout": null,
+      "last_market_cap": 85517093,
+      "trailing_active": true,
+      "trailing_peak_eur": 0.10157225958863055
     }
   },
   "closed_trades": [
@@ -322,6 +325,6 @@
       "pnl_pct": 4.499160688812492
     }
   ],
-  "last_run_ts": 1790082264.6228821,
-  "last_eur_rate": 0.8728839956159485
+  "last_run_ts": 1790091741.585899,
+  "last_eur_rate": 0.8745900065322038
 }
