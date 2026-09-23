@@ -12,10 +12,10 @@
       "entry_price_eur": 436.85462126479916,
       "entry_ts": 1789402186.9931946,
       "cost_eur": 33.33333333333333,
-      "last_price_eur": 435.3256122069808,
+      "last_price_eur": 435.7831565904318,
       "peak_price_eur": 454.434,
       "entry_market_cap": 1183197,
-      "last_market_cap": 2014228,
+      "last_market_cap": 2016312,
       "entry_venue": "Uniswap V3 (Base) (on-chain)"
     },
     "cex_small_cap:spacex-coinbase-tokenized-stock": {
@@ -25,10 +25,10 @@
       "entry_price_eur": 133.33919983775917,
       "entry_ts": 1789636198.3232305,
       "cost_eur": 32.56228813612519,
-      "last_price_eur": 133.710036218419,
+      "last_price_eur": 133.65971327805877,
       "peak_price_eur": 142.9496,
       "entry_market_cap": 1177042,
-      "last_market_cap": 1550055,
+      "last_market_cap": 1550741,
       "entry_venue": null,
       "entry_contract_address": null
     },
@@ -39,10 +39,10 @@
       "entry_price_eur": 646.4835296498289,
       "entry_ts": 1790061333.5601404,
       "cost_eur": 35.03820163382602,
-      "last_price_eur": 649.9603257218303,
+      "last_price_eur": 649.3209411123557,
       "peak_price_eur": 654.4701730165765,
       "entry_market_cap": 1379268,
-      "last_market_cap": 1378113,
+      "last_market_cap": 1376939,
       "entry_venue": null,
       "entry_contract_address": null
     }
@@ -70,6 +70,6 @@
       "reserved_eur": 1.2705007629052347
     }
   ],
-  "last_run_ts": 1790174395.415088,
-  "last_eur_rate": 0.8777079967074898
+  "last_run_ts": 1790174580.189421,
+  "last_eur_rate": 0.8777810026798369
 }
