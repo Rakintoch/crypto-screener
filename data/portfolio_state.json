@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 437.4562461199462,
+  "cash_eur": 299.95074036590313,
   "starting_balance_eur": 1000.0,
   "positions": {
     "cex_small_cap:saga-2": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.031210076602843008,
       "entry_ts": 1790007149.640162,
       "cost_eur": 150.0,
-      "last_price_eur": 0.03796674563604386,
-      "last_score": 87.8,
+      "last_price_eur": 0.039086319984247296,
+      "last_score": 64.5,
       "missed_updates": 0,
       "entry_market_cap": 14938213,
       "entry_venue": "Binance",
@@ -34,9 +34,9 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 18037329,
+      "last_market_cap": 18522790,
       "trailing_active": true,
-      "trailing_peak_eur": 0.03796674563604386
+      "trailing_peak_eur": 0.039086319984247296
     },
     "cex_small_cap:ai-factory": {
       "tier": "cex_small_cap",
@@ -48,8 +48,8 @@
       "entry_price_eur": 6.714145860038322,
       "entry_ts": 1790037273.5772023,
       "cost_eur": 138.9169020929342,
-      "last_price_eur": 7.491301152651981,
-      "last_score": 52.7,
+      "last_price_eur": 7.341843696768703,
+      "last_score": 53.6,
       "missed_updates": 0,
       "entry_market_cap": 16000298,
       "entry_venue": "Subnet Tokens",
@@ -67,7 +67,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 17925964
+      "last_market_cap": 17543742
     },
     "cex_small_cap:nillion": {
       "tier": "cex_small_cap",
@@ -79,8 +79,8 @@
       "entry_price_eur": 0.0851694893754525,
       "entry_ts": 1790136104.0478382,
       "cost_eur": 139.36353408539728,
-      "last_price_eur": 0.08545246710845762,
-      "last_score": 76.2,
+      "last_price_eur": 0.08524598946248148,
+      "last_score": 68.9,
       "missed_updates": 0,
       "entry_market_cap": 49269583,
       "entry_venue": "WhiteBIT",
@@ -98,7 +98,37 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 49538088
+      "last_market_cap": 49511210
+    },
+    "cex_small_cap:clearpool": {
+      "tier": "cex_small_cap",
+      "id": "clearpool",
+      "symbol": "CPOOL",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/clearpool",
+      "qty": 3842.2716661302807,
+      "entry_price_eur": 0.03578755426539915,
+      "entry_ts": 1790154950.1517854,
+      "cost_eur": 137.50550575404304,
+      "last_price_eur": 0.03578755426539915,
+      "last_score": 98.6,
+      "missed_updates": 0,
+      "entry_market_cap": 40956938,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x66761fa41377003622aee3c7675fc7b5c1c2fac5 (ETH)",
+      "entry_score": 98.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 52075425,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 8.5973,
+      "entry_chg_24h": 45.4119,
+      "entry_chg_7d": 68.0804,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.2714677303269106,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null
     }
   },
   "closed_trades": [
@@ -481,6 +511,6 @@
       "pnl_pct": -18.192627711860528
     }
   ],
-  "last_run_ts": 1790140015.8907654,
-  "last_eur_rate": 0.8751520038144837
+  "last_run_ts": 1790154950.1517854,
+  "last_eur_rate": 0.8761149996144036
 }
