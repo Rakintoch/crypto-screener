@@ -2749,5 +2749,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "MUBARAK (cex_small_cap) lost -18.2% in 671 min (slow (>6h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790188779.7796063,
+    "symbol": "CPOOL",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/clearpool",
+    "held_minutes": 563.8,
+    "exit_reason": "stop-loss hit (-12.3%)",
+    "pnl_pct": -12.26,
+    "pnl_eur": -16.86,
+    "entry_score": 98.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 52075425,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 8.5973,
+    "entry_chg_24h": 45.4119,
+    "entry_chg_7d": 68.0804,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.2714677303269106,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "CPOOL (cex_small_cap) lost -12.3% in 564 min (slow (>6h)) — stop-loss hit. Entry score: 99 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
