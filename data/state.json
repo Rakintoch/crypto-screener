@@ -129,11 +129,6 @@
     "last_score": 65.6,
     "symbol": "BNCB"
   },
-  "cex_small_cap:moby-ai": {
-    "last_alert_ts": 1789924655.3244066,
-    "last_score": 55.1,
-    "symbol": "MOBY"
-  },
   "cex_small_cap:pha": {
     "last_alert_ts": 1790174393.9132977,
     "last_score": 69.9,
@@ -250,8 +245,8 @@
     "symbol": "B2"
   },
   "cex_small_cap:nillion": {
-    "last_alert_ts": 1790136103.4405236,
-    "last_score": 99.6,
+    "last_alert_ts": 1790191616.9632814,
+    "last_score": 82.0,
     "symbol": "NIL"
   },
   "cex_small_cap:allora": {
@@ -349,20 +344,10 @@
     "last_score": 56.4,
     "symbol": "BNC4"
   },
-  "cex_small_cap:r2protocol": {
-    "last_alert_ts": 1789924655.3244066,
-    "last_score": 100.0,
-    "symbol": "R2"
-  },
   "cex_small_cap:terra-luna-2": {
     "last_alert_ts": 1789983298.9182422,
     "last_score": 72.1,
     "symbol": "LUNA"
-  },
-  "dex_micro_cap:tipp4C4Jnpft26HC9VXNjUPidojZqxXf8nzKvrKf5BS": {
-    "last_alert_ts": 1789924655.3244066,
-    "last_score": 83.8,
-    "symbol": "TIPPED"
   },
   "cex_small_cap:fuse": {
     "last_alert_ts": 1790099736.0883193,
@@ -379,20 +364,10 @@
     "last_score": 59.5,
     "symbol": "BUN"
   },
-  "dex_micro_cap:DFQHUegJWE29Xu3BUxPezqi77uyHURRyxJpdtyvLpump": {
-    "last_alert_ts": 1789924655.3244066,
-    "last_score": 64.5,
-    "symbol": "PUMPCAT"
-  },
   "cex_small_cap:webgenieai": {
     "last_alert_ts": 1790026813.661922,
     "last_score": 76.0,
     "symbol": "SN54"
-  },
-  "cex_small_cap:cetus-protocol": {
-    "last_alert_ts": 1789924655.3244066,
-    "last_score": 58.1,
-    "symbol": "CETUS"
   },
   "cex_small_cap:biconomy": {
     "last_alert_ts": 1789983298.9182422,
@@ -775,8 +750,8 @@
     "symbol": "USEFUL"
   },
   "cex_small_cap:astronaut-2": {
-    "last_alert_ts": 1790154949.6810224,
-    "last_score": 82.8,
+    "last_alert_ts": 1790191616.9632814,
+    "last_score": 98.2,
     "symbol": "ASTRO"
   },
   "cex_small_cap:dusk-network": {
@@ -1110,23 +1085,23 @@
     "symbol": "AMC"
   },
   "cex_small_cap:b3": {
-    "last_alert_ts": 1790136103.4405236,
-    "last_score": 93.1,
+    "last_alert_ts": 1790191616.9632814,
+    "last_score": 67.6,
     "symbol": "B3"
   },
   "cex_small_cap:neon": {
-    "last_alert_ts": 1790136103.4405236,
-    "last_score": 82.5,
+    "last_alert_ts": 1790191616.9632814,
+    "last_score": 61.9,
     "symbol": "NEON"
   },
   "cex_small_cap:superfarm": {
-    "last_alert_ts": 1790136103.4405236,
-    "last_score": 73.0,
+    "last_alert_ts": 1790191616.9632814,
+    "last_score": 73.3,
     "symbol": "SUPER"
   },
   "cex_small_cap:superform": {
-    "last_alert_ts": 1790136103.4405236,
-    "last_score": 69.4,
+    "last_alert_ts": 1790191616.9632814,
+    "last_score": 61.3,
     "symbol": "UP"
   },
   "cex_small_cap:open-loot": {
@@ -1160,8 +1135,8 @@
     "symbol": "SXT"
   },
   "cex_small_cap:distributed-training": {
-    "last_alert_ts": 1790136103.4405236,
-    "last_score": 58.9,
+    "last_alert_ts": 1790191616.9632814,
+    "last_score": 60.3,
     "symbol": "SN38"
   },
   "cex_small_cap:contentos": {
@@ -1210,8 +1185,8 @@
     "symbol": "ETHDYDX"
   },
   "cex_small_cap:clipback": {
-    "last_alert_ts": 1790136103.4405236,
-    "last_score": 55.0,
+    "last_alert_ts": 1790191616.9632814,
+    "last_score": 63.6,
     "symbol": "CLIP"
   },
   "cex_small_cap:world-of-dypians": {
@@ -1363,5 +1338,35 @@
     "last_alert_ts": 1790174393.9132977,
     "last_score": 58.6,
     "symbol": "SLX"
+  },
+  "cex_small_cap:magic-internet-money-runes": {
+    "last_alert_ts": 1790191616.9632814,
+    "last_score": 71.2,
+    "symbol": "MIM"
+  },
+  "cex_small_cap:cetus-protocol": {
+    "last_alert_ts": 1790191616.9632814,
+    "last_score": 65.9,
+    "symbol": "CETUS"
+  },
+  "cex_small_cap:open": {
+    "last_alert_ts": 1790191616.9632814,
+    "last_score": 63.4,
+    "symbol": "OPEN"
+  },
+  "dex_micro_cap:HaYRgD7rjwj1AwoWjafokj4196sufYm4vKFamLZVpump": {
+    "last_alert_ts": 1790191616.9632814,
+    "last_score": 60.2,
+    "symbol": "ARCHIBROWN"
+  },
+  "cex_small_cap:shi-gong-mao": {
+    "last_alert_ts": 1790191616.9632814,
+    "last_score": 55.9,
+    "symbol": "SUE"
+  },
+  "dex_micro_cap:DFQHUegJWE29Xu3BUxPezqi77uyHURRyxJpdtyvLpump": {
+    "last_alert_ts": 1790191616.9632814,
+    "last_score": 55.8,
+    "symbol": "PUMPCAT"
   }
 }
