@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 477.2581787997916,
+  "cash_eur": 337.5210032716968,
   "starting_balance_eur": 1000.0,
   "positions": {
     "cex_small_cap:saga-2": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.031210076602843008,
       "entry_ts": 1790007149.640162,
       "cost_eur": 150.0,
-      "last_price_eur": 0.034719330636469606,
-      "last_score": 74.0,
+      "last_price_eur": 0.03532308140012026,
+      "last_score": 62.7,
       "missed_updates": 0,
       "entry_market_cap": 14938213,
       "entry_venue": "Binance",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 16564518
+      "last_market_cap": 16842667
     },
     "cex_small_cap:ai-factory": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 6.714145860038322,
       "entry_ts": 1790037273.5772023,
       "cost_eur": 138.9169020929342,
-      "last_price_eur": 6.8218553660957495,
-      "last_score": 50.8,
+      "last_price_eur": 7.101644411216113,
+      "last_score": 36.0,
       "missed_updates": 0,
       "entry_market_cap": 16000298,
       "entry_venue": "Subnet Tokens",
@@ -65,7 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 16279550
+      "last_market_cap": 16944785
     },
     "cex_small_cap:mubarak": {
       "tier": "cex_small_cap",
@@ -77,8 +77,8 @@
       "entry_price_eur": 0.06971808242380455,
       "entry_ts": 1790099736.5691862,
       "cost_eur": 139.81709658371682,
-      "last_price_eur": 0.06735992577044891,
-      "last_score": 74.4,
+      "last_price_eur": 0.06862302397849174,
+      "last_score": 75.3,
       "missed_updates": 0,
       "entry_market_cap": 79476014,
       "entry_venue": "Binance",
@@ -96,7 +96,37 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 77042771
+      "last_market_cap": 78560319
+    },
+    "cex_small_cap:otc": {
+      "tier": "cex_small_cap",
+      "id": "otc",
+      "symbol": "OTC",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/otc",
+      "qty": 12498.49452508868,
+      "entry_price_eur": 0.011180320577617992,
+      "entry_ts": 1790121629.0629492,
+      "cost_eur": 139.73717552809478,
+      "last_price_eur": 0.011180320577617992,
+      "last_score": 92.6,
+      "missed_updates": 0,
+      "entry_market_cap": 8846049,
+      "entry_venue": "PumpSwap",
+      "entry_contract_address": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump (Solana)",
+      "entry_score": 92.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 8392958,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 4.2061,
+      "entry_chg_24h": 178.92873,
+      "entry_chg_7d": 130.648,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.9487804103278198,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null
     }
   },
   "closed_trades": [
@@ -405,6 +435,6 @@
       "pnl_pct": -10.169399637644073
     }
   ],
-  "last_run_ts": 1790115089.4312377,
-  "last_eur_rate": 0.873476999500096
+  "last_run_ts": 1790121629.0629492,
+  "last_eur_rate": 0.8735109976895588
 }
