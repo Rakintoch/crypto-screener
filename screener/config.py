@@ -184,6 +184,23 @@ ROTATION_SCORE_WATCH = 45         # entre o neutro e o SCORE_DECAY_EXIT (30) —
 ROTATION_MIN_HOLD_HOURS = 4       # não roda posições recém-abertas, ainda sem tempo de desenvolver a tese
 ROTATION_MIN_INTERVAL_HOURS = 12  # cooldown global — no máximo 1 rotação a cada 12h, para não gerar churn
 
+# Autoanálise 2026-09-23 (10 trades fechados no arranque da challenge #2, 2 dias): 7 perdas,
+# 3 ganhos (30% win rate). As duas piores perdas (ZRC -22,7%, SURGE -27,0%) tinham entry_chg_1h
+# extremos (209,7% e 28,0%) — candidatos já esticados ao limite na última hora antes da compra.
+# Alargando a análise aos 78 trades cex_small_cap com sinais brutos guardados desde 2026-09-10:
+# os 5 com entry_chg_1h >= 45% (HODL 203,3%, ANON 49,6%, PERPSPAD 50,7%, ZFORGE 51,2%, ZRC
+# 209,7%) tiveram 0% de win rate e -19,43% de pnl médio, claramente pior que os restantes 73
+# (27% win rate, -0,25% médio). O único trade com chg_1h alto mas logo abaixo do corte (TRUE,
+# 43,2%) foi o único ganho nessa vizinhança (+4,5%) — o corte de 45% separa-os sem sacrificar
+# esse caso. Faz sentido mecanicamente: um candidato que já subiu >45% SÓ na última hora está
+# mais perto da exaustão/reversão do que do início de um movimento sustentável, ao contrário de
+# chg_24h/chg_7d altos (que podem refletir uma subida mais gradual e ainda saudável). Isto é uma
+# NOVA porta de entrada (elimina candidatos, não só desempata como o SELECTION_SCORE_CEILING) —
+# só afeta a compra automática no desafio (portfolio._check_entries), não os alertas do Telegram
+# (Ricardo pode querer ver o candidato para investigação manual mesmo que o bot não lhe arrisque
+# capital). Amostra pequena (5 casos no corte) — a vigiar em revisões futuras.
+CEX_MAX_ENTRY_CHG_1H_PCT = 45.0
+
 # Take-profit / stop-loss por camada — DEX é mais volátil, por isso janelas mais largas
 TAKE_PROFIT_PCT = {"cex_small_cap": 0.20, "dex_micro_cap": 0.40}
 # Autoanálise 2026-08-30: os 5 stop-loss reais em cex_small_cap fecharam sempre bastante
