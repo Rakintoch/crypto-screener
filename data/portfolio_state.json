@@ -15,8 +15,8 @@
       "entry_price_eur": 0.031210076602843008,
       "entry_ts": 1790007149.640162,
       "cost_eur": 150.0,
-      "last_price_eur": 0.039086319984247296,
-      "last_score": 64.5,
+      "last_price_eur": 0.040068147584003795,
+      "last_score": 68.2,
       "missed_updates": 0,
       "entry_market_cap": 14938213,
       "entry_venue": "Binance",
@@ -34,9 +34,9 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 18522790,
+      "last_market_cap": 19021513,
       "trailing_active": true,
-      "trailing_peak_eur": 0.039086319984247296
+      "trailing_peak_eur": 0.040068147584003795
     },
     "cex_small_cap:ai-factory": {
       "tier": "cex_small_cap",
@@ -48,8 +48,8 @@
       "entry_price_eur": 6.714145860038322,
       "entry_ts": 1790037273.5772023,
       "cost_eur": 138.9169020929342,
-      "last_price_eur": 7.341843696768703,
-      "last_score": 53.6,
+      "last_price_eur": 7.379397472815327,
+      "last_score": 55.6,
       "missed_updates": 0,
       "entry_market_cap": 16000298,
       "entry_venue": "Subnet Tokens",
@@ -67,7 +67,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 17543742
+      "last_market_cap": 17635779
     },
     "cex_small_cap:nillion": {
       "tier": "cex_small_cap",
@@ -79,8 +79,8 @@
       "entry_price_eur": 0.0851694893754525,
       "entry_ts": 1790136104.0478382,
       "cost_eur": 139.36353408539728,
-      "last_price_eur": 0.08524598946248148,
-      "last_score": 68.9,
+      "last_price_eur": 0.08472810333514187,
+      "last_score": 67.0,
       "missed_updates": 0,
       "entry_market_cap": 49269583,
       "entry_venue": "WhiteBIT",
@@ -98,7 +98,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 49511210
+      "last_market_cap": 48762035
     },
     "cex_small_cap:clearpool": {
       "tier": "cex_small_cap",
@@ -110,8 +110,8 @@
       "entry_price_eur": 0.03578755426539915,
       "entry_ts": 1790154950.1517854,
       "cost_eur": 137.50550575404304,
-      "last_price_eur": 0.03578755426539915,
-      "last_score": 98.6,
+      "last_price_eur": 0.035973642446323124,
+      "last_score": 98.9,
       "missed_updates": 0,
       "entry_market_cap": 40956938,
       "entry_venue": "Upbit",
@@ -128,7 +128,8 @@
       "entry_vol_liq_ratio": null,
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
-      "entry_base_breakout": null
+      "entry_base_breakout": null,
+      "last_market_cap": 41120860
     }
   },
   "closed_trades": [
@@ -511,6 +512,6 @@
       "pnl_pct": -18.192627711860528
     }
   ],
-  "last_run_ts": 1790154950.1517854,
-  "last_eur_rate": 0.8761149996144036
+  "last_run_ts": 1790157369.4850626,
+  "last_eur_rate": 0.8764130015220104
 }
