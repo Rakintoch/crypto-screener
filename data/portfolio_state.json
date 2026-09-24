@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 313.36550763641065,
+  "cash_eur": 420.2763501348617,
   "starting_balance_eur": 1000.0,
   "positions": {
     "cex_small_cap:clearpool": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.029508809737265978,
       "entry_ts": 1790218559.846435,
       "cost_eur": 133.52064907871465,
-      "last_price_eur": 0.02928282222459097,
-      "last_score": 46.6,
+      "last_price_eur": 0.02969872539299678,
+      "last_score": 50.1,
       "missed_updates": 0,
       "entry_market_cap": 33644684,
       "entry_venue": "Upbit",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 33308523
+      "last_market_cap": 33768794
     },
     "cex_small_cap:lisk": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.35546511160755084,
       "entry_ts": 1790240382.0962017,
       "cost_eur": 129.26854894796216,
-      "last_price_eur": 0.34915739977536836,
-      "last_score": 74.1,
+      "last_price_eur": 0.35980195653609603,
+      "last_score": 64.2,
       "missed_updates": 0,
       "entry_market_cap": 94291685,
       "entry_venue": "Bithumb",
@@ -65,37 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 92613444
-    },
-    "cex_small_cap:agrippa": {
-      "tier": "cex_small_cap",
-      "id": "agrippa",
-      "symbol": "AGRIPPA",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/agrippa",
-      "qty": 1426210.2219416567,
-      "entry_price_eur": 8.606800191865827e-05,
-      "entry_ts": 1790260683.5911238,
-      "cost_eur": 122.75106411848455,
-      "last_price_eur": 8.606800191865827e-05,
-      "last_score": 84.7,
-      "missed_updates": 0,
-      "entry_market_cap": 9593735,
-      "entry_venue": "Bankr (Robinhood) (on-chain)",
-      "entry_contract_address": "0x83a49b808f8d5e02cb2931cd2352988f498e5ba3 (robinhood)",
-      "entry_score": 84.7,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 14584664,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 20.8015,
-      "entry_chg_24h": 72.29678,
-      "entry_chg_7d": null,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.5202279404215355,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null
+      "last_market_cap": 95312605
     },
     "cex_small_cap:czs-dog": {
       "tier": "cex_small_cap",
@@ -107,8 +77,8 @@
       "entry_price_eur": 0.028210479977192584,
       "entry_ts": 1790260683.5911238,
       "cost_eur": 122.75106411848454,
-      "last_price_eur": 0.028210479977192584,
-      "last_score": 81.5,
+      "last_price_eur": 0.02688276621481888,
+      "last_score": 68.4,
       "missed_updates": 0,
       "entry_market_cap": 31007901,
       "entry_venue": "Binance",
@@ -125,7 +95,8 @@
       "entry_vol_liq_ratio": null,
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
-      "entry_base_breakout": null
+      "entry_base_breakout": null,
+      "last_market_cap": 29471143
     }
   },
   "closed_trades": [
@@ -882,8 +853,45 @@
       "proceeds_eur": 117.19530185946715,
       "pnl_eur": -12.073247088495009,
       "pnl_pct": -9.339663194761448
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "agrippa",
+      "symbol": "AGRIPPA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/agrippa",
+      "qty": 1426210.2219416567,
+      "entry_price_eur": 8.606800191865827e-05,
+      "entry_ts": 1790260683.5911238,
+      "cost_eur": 122.75106411848455,
+      "last_price_eur": 7.496148944501433e-05,
+      "last_score": 54.6,
+      "missed_updates": 0,
+      "entry_market_cap": 9593735,
+      "entry_venue": "Bankr (Robinhood) (on-chain)",
+      "entry_contract_address": "0x83a49b808f8d5e02cb2931cd2352988f498e5ba3 (robinhood)",
+      "entry_score": 84.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 14584664,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 20.8015,
+      "entry_chg_24h": 72.29678,
+      "entry_chg_7d": null,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.5202279404215355,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "last_market_cap": 8518603,
+      "exit_price_eur": 7.496148944501433e-05,
+      "exit_ts": 1790274512.2734911,
+      "exit_reason": "stop-loss hit (-12.9%)",
+      "proceeds_eur": 106.91084249845105,
+      "pnl_eur": -15.840221620033503,
+      "pnl_pct": -12.904345663955993
     }
   ],
-  "last_run_ts": 1790260683.5911238,
-  "last_eur_rate": 0.8791420012120355
+  "last_run_ts": 1790274512.2734911,
+  "last_eur_rate": 0.8795199981815597
 }
