@@ -2830,5 +2830,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "GNOT (cex_small_cap) lost -10.4% in 79 min (fast (1-6h)) — stop-loss hit. Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790224390.0620122,
+    "symbol": "SOLANGELES",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/solangeles",
+    "held_minutes": 352.1,
+    "exit_reason": "stop-loss hit (-9.0%)",
+    "pnl_pct": -8.96,
+    "pnl_eur": -11.31,
+    "entry_score": 83.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 312742,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 27.0802,
+    "entry_chg_24h": 80.32927,
+    "entry_chg_7d": 96.2758,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.22755795509117102,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "SOLANGELES (cex_small_cap) lost -9.0% in 352 min (fast (1-6h)) — stop-loss hit. Entry score: 83 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
