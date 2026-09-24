@@ -954,5 +954,31 @@
     "entry_base_breakout": null,
     "categoria": "other (manual/forced exit with profit)",
     "nota": "SN80 (cex_small_cap) gained +3.5% in 2766 min — other (manual/forced exit with profit). Entry score: 81. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790218559.846435,
+    "symbol": "SUE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/shi-gong-mao",
+    "held_minutes": 255.0,
+    "exit_reason": "trailing stop hit — dropped 13.8% from the peak (peak +51.1% since entry)",
+    "pnl_pct": 30.34,
+    "pnl_eur": 38.28,
+    "entry_score": 84.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 727942,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.1357,
+    "entry_chg_24h": 23.17397,
+    "entry_chg_7d": 51.4711,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.4886851643368356,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "SUE (cex_small_cap) gained +30.3% in 255 min — trailing stop caught extra upside after the target. Entry score: 84. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

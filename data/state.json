@@ -10,8 +10,8 @@
     "symbol": "ZZZ"
   },
   "cex_small_cap:saga-2": {
-    "last_alert_ts": 1790174393.9132977,
-    "last_score": 67.2,
+    "last_alert_ts": 1790218559.4437497,
+    "last_score": 70.0,
     "symbol": "SAGA"
   },
   "cex_small_cap:canopy": {
@@ -90,8 +90,8 @@
     "symbol": "COTI"
   },
   "cex_small_cap:harmony": {
-    "last_alert_ts": 1790154949.6810224,
-    "last_score": 68.9,
+    "last_alert_ts": 1790218559.4437497,
+    "last_score": 68.3,
     "symbol": "ONE"
   },
   "cex_small_cap:up-2": {
@@ -140,8 +140,8 @@
     "symbol": "DRIFT"
   },
   "cex_small_cap:pepe-sol": {
-    "last_alert_ts": 1790174393.9132977,
-    "last_score": 75.7,
+    "last_alert_ts": 1790218559.4437497,
+    "last_score": 73.5,
     "symbol": "PEPE"
   },
   "cex_small_cap:rhea-2": {
@@ -230,8 +230,8 @@
     "symbol": "ALICE"
   },
   "cex_small_cap:clearpool": {
-    "last_alert_ts": 1790203261.0553842,
-    "last_score": 73.6,
+    "last_alert_ts": 1790218559.4437497,
+    "last_score": 91.2,
     "symbol": "CPOOL"
   },
   "cex_small_cap:allinu": {
@@ -314,24 +314,14 @@
     "last_score": 56.3,
     "symbol": "T"
   },
-  "cex_small_cap:gunz": {
-    "last_alert_ts": 1789948241.8556235,
-    "last_score": 55.2,
-    "symbol": "GUN"
-  },
   "cex_small_cap:neet": {
     "last_alert_ts": 1790203261.0553842,
     "last_score": 62.8,
     "symbol": "NEET"
   },
-  "cex_small_cap:ong": {
-    "last_alert_ts": 1789948241.8556235,
-    "last_score": 55.4,
-    "symbol": "ONG"
-  },
   "cex_small_cap:endurance": {
-    "last_alert_ts": 1790174393.9132977,
-    "last_score": 95.5,
+    "last_alert_ts": 1790218559.4437497,
+    "last_score": 56.6,
     "symbol": "ACE"
   },
   "cex_small_cap:mitosis": {
@@ -374,21 +364,6 @@
     "last_score": 63.0,
     "symbol": "BICO"
   },
-  "dex_micro_cap:EKtmPPLaCbEEKiwoHHtV7TsRsmPXs5CMGtQtZFSiinsc": {
-    "last_alert_ts": 1789948241.8556235,
-    "last_score": 86.6,
-    "symbol": "Stamp"
-  },
-  "dex_micro_cap:CBLgLg4rjkqqwXuZjR1WAqWet2vR68Vne32J2bFLpump": {
-    "last_alert_ts": 1789948241.8556235,
-    "last_score": 68.0,
-    "symbol": "DONATED"
-  },
-  "cex_small_cap:metis-token": {
-    "last_alert_ts": 1789948241.8556235,
-    "last_score": 57.5,
-    "symbol": "METIS"
-  },
   "cex_small_cap:loosh": {
     "last_alert_ts": 1790007149.1801083,
     "last_score": 69.8,
@@ -430,8 +405,8 @@
     "symbol": "ORBIO"
   },
   "cex_small_cap:mubarak": {
-    "last_alert_ts": 1790154949.6810224,
-    "last_score": 63.3,
+    "last_alert_ts": 1790218559.4437497,
+    "last_score": 58.5,
     "symbol": "MUBARAK"
   },
   "cex_small_cap:opengradient": {
@@ -925,8 +900,8 @@
     "symbol": "TROLL"
   },
   "cex_small_cap:chromaway": {
-    "last_alert_ts": 1790154949.6810224,
-    "last_score": 76.0,
+    "last_alert_ts": 1790218559.4437497,
+    "last_score": 72.6,
     "symbol": "CHR"
   },
   "cex_small_cap:giggle-fund": {
@@ -1398,5 +1373,20 @@
     "last_alert_ts": 1790203261.0553842,
     "last_score": 56.3,
     "symbol": "URANUS"
+  },
+  "cex_small_cap:aleo": {
+    "last_alert_ts": 1790218559.4437497,
+    "last_score": 83.3,
+    "symbol": "ALEO"
+  },
+  "cex_small_cap:prism-assets": {
+    "last_alert_ts": 1790218559.4437497,
+    "last_score": 81.3,
+    "symbol": "PRISM"
+  },
+  "cex_small_cap:tria": {
+    "last_alert_ts": 1790218559.4437497,
+    "last_score": 59.2,
+    "symbol": "TRIA"
   }
 }
