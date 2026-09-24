@@ -2803,5 +2803,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "ASTRO (cex_small_cap) lost -67.4% in 140 min (fast (1-6h)) — stop-loss hit. Entry score: 98 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790208018.3334422,
+    "symbol": "GNOT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/gno-land",
+    "held_minutes": 79.3,
+    "exit_reason": "stop-loss hit (-10.4%)",
+    "pnl_pct": -10.38,
+    "pnl_eur": -13.1,
+    "entry_score": 75.7,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 10775244,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 33.4908,
+    "entry_chg_24h": 67.01537,
+    "entry_chg_7d": null,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.5293943031093289,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "GNOT (cex_small_cap) lost -10.4% in 79 min (fast (1-6h)) — stop-loss hit. Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
