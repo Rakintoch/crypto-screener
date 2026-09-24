@@ -980,5 +980,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "SUE (cex_small_cap) gained +30.3% in 255 min — trailing stop caught extra upside after the target. Entry score: 84. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790259683.0455859,
+    "symbol": "NIL",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/nillion",
+    "held_minutes": 2059.6,
+    "exit_reason": "trailing stop hit — dropped 16.5% from the peak (peak +41.8% since entry)",
+    "pnl_pct": 18.36,
+    "pnl_eur": 25.58,
+    "entry_score": 99.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 84085341,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 11.2434,
+    "entry_chg_24h": 41.01198,
+    "entry_chg_7d": 148.0081,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.7066379676889085,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "NIL (cex_small_cap) gained +18.4% in 2060 min — trailing stop caught extra upside after the target. Entry score: 100. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

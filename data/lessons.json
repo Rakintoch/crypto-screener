@@ -2884,5 +2884,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "ALEO (cex_small_cap) lost -14.0% in 364 min (slow (>6h)) — stop-loss hit. Entry score: 83 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790259683.0455859,
+    "symbol": "NOM",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/nomina",
+    "held_minutes": 321.7,
+    "exit_reason": "stop-loss hit (-9.3%)",
+    "pnl_pct": -9.34,
+    "pnl_eur": -12.07,
+    "entry_score": 82.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 113951106,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 1.0733,
+    "entry_chg_24h": 50.98124,
+    "entry_chg_7d": 70.7073,
+    "entry_chg_6h": null,
+    "entry_turnover": 14.908213135532462,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "NOM (cex_small_cap) lost -9.3% in 322 min (fast (1-6h)) — stop-loss hit. Entry score: 83 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
