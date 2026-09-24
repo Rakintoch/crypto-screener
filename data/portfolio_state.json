@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 505.3459897921696,
+  "cash_eur": 297.17277369455127,
   "starting_balance_eur": 1000.0,
   "positions": {
     "cex_small_cap:clearpool": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.029508809737265978,
       "entry_ts": 1790218559.846435,
       "cost_eur": 133.52064907871465,
-      "last_price_eur": 0.029542771020831887,
-      "last_score": 48.6,
+      "last_price_eur": 0.029154296582623293,
+      "last_score": 38.4,
       "missed_updates": 0,
       "entry_market_cap": 33644684,
       "entry_venue": "Upbit",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 33609420
+      "last_market_cap": 33170247
     },
     "cex_small_cap:lisk": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.35546511160755084,
       "entry_ts": 1790240382.0962017,
       "cost_eur": 129.26854894796216,
-      "last_price_eur": 0.385837118243938,
-      "last_score": 85.3,
+      "last_price_eur": 0.3677865418331325,
+      "last_score": 54.4,
       "missed_updates": 0,
       "entry_market_cap": 94291685,
       "entry_venue": "Bithumb",
@@ -65,7 +65,67 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 102285960
+      "last_market_cap": 97601854
+    },
+    "cex_small_cap:saga-2": {
+      "tier": "cex_small_cap",
+      "id": "saga-2",
+      "symbol": "SAGA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/saga-2",
+      "qty": 1923.21869911927,
+      "entry_price_eur": 0.060134495766841975,
+      "entry_ts": 1790290828.0782444,
+      "cost_eur": 115.65178672089907,
+      "last_price_eur": 0.060134495766841975,
+      "last_score": 99.9,
+      "missed_updates": 0,
+      "entry_market_cap": 28537638,
+      "entry_venue": "Binance",
+      "entry_contract_address": "usaga (saga)",
+      "entry_score": 99.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 118300501,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 46.5265,
+      "entry_chg_24h": 42.90133,
+      "entry_chg_7d": 189.5033,
+      "entry_chg_6h": null,
+      "entry_turnover": 4.145420199106877,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null
+    },
+    "dex_micro_cap:7GUnr7krtQhJwd6ASY2VUprd9t4c64zcgCsjdmZepump": {
+      "tier": "dex_micro_cap",
+      "id": "7GUnr7krtQhJwd6ASY2VUprd9t4c64zcgCsjdmZepump",
+      "symbol": "NPC",
+      "network": "solana",
+      "url": "https://dexscreener.com/solana/BRjMA8UALNp3diTKHfdeAn5riQrYPoaYez7KhYWD4oEs",
+      "qty": 133621.01570861952,
+      "entry_price_eur": 0.0006924167496112736,
+      "entry_ts": 1790290828.0782444,
+      "cost_eur": 92.52142937671925,
+      "last_price_eur": 0.0006924167496112736,
+      "last_score": 83.8,
+      "missed_updates": 0,
+      "entry_market_cap": 767805.50085001,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 83.8,
+      "entry_liquidity_usd": 91101.3288,
+      "entry_volume_24h_usd": 4433152.63108222,
+      "entry_security_notes": "no obvious red flags",
+      "entry_chg_1h": 27.806,
+      "entry_chg_24h": 1579.797,
+      "entry_chg_7d": null,
+      "entry_chg_6h": 105.275,
+      "entry_turnover": null,
+      "entry_vol_liq_ratio": 48.661777928778356,
+      "entry_boosted": false,
+      "entry_pool_age_minutes": 1229.8526747833334,
+      "entry_base_breakout": null
     }
   },
   "closed_trades": [
@@ -935,6 +995,6 @@
       "pnl_pct": -21.569395374347074
     }
   ],
-  "last_run_ts": 1790286193.6276333,
-  "last_eur_rate": 0.8788499931528683
+  "last_run_ts": 1790290828.0782444,
+  "last_eur_rate": 0.8789279979952932
 }
