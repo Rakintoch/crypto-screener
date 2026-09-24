@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 558.8676358733798,
+  "cash_eur": 313.36550763641065,
   "starting_balance_eur": 1000.0,
   "positions": {
     "cex_small_cap:clearpool": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.029508809737265978,
       "entry_ts": 1790218559.846435,
       "cost_eur": 133.52064907871465,
-      "last_price_eur": 0.029009218122901977,
-      "last_score": 47.0,
+      "last_price_eur": 0.02928282222459097,
+      "last_score": 46.6,
       "missed_updates": 0,
       "entry_market_cap": 33644684,
       "entry_venue": "Upbit",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 32969193
+      "last_market_cap": 33308523
     },
     "cex_small_cap:lisk": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.35546511160755084,
       "entry_ts": 1790240382.0962017,
       "cost_eur": 129.26854894796216,
-      "last_price_eur": 0.3515766284944668,
-      "last_score": 74.3,
+      "last_price_eur": 0.34915739977536836,
+      "last_score": 74.1,
       "missed_updates": 0,
       "entry_market_cap": 94291685,
       "entry_venue": "Bithumb",
@@ -65,7 +65,67 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 93354670
+      "last_market_cap": 92613444
+    },
+    "cex_small_cap:agrippa": {
+      "tier": "cex_small_cap",
+      "id": "agrippa",
+      "symbol": "AGRIPPA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/agrippa",
+      "qty": 1426210.2219416567,
+      "entry_price_eur": 8.606800191865827e-05,
+      "entry_ts": 1790260683.5911238,
+      "cost_eur": 122.75106411848455,
+      "last_price_eur": 8.606800191865827e-05,
+      "last_score": 84.7,
+      "missed_updates": 0,
+      "entry_market_cap": 9593735,
+      "entry_venue": "Bankr (Robinhood) (on-chain)",
+      "entry_contract_address": "0x83a49b808f8d5e02cb2931cd2352988f498e5ba3 (robinhood)",
+      "entry_score": 84.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 14584664,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 20.8015,
+      "entry_chg_24h": 72.29678,
+      "entry_chg_7d": null,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.5202279404215355,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null
+    },
+    "cex_small_cap:czs-dog": {
+      "tier": "cex_small_cap",
+      "id": "czs-dog",
+      "symbol": "BROCCOLI",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/czs-dog",
+      "qty": 4351.257554558642,
+      "entry_price_eur": 0.028210479977192584,
+      "entry_ts": 1790260683.5911238,
+      "cost_eur": 122.75106411848454,
+      "last_price_eur": 0.028210479977192584,
+      "last_score": 81.5,
+      "missed_updates": 0,
+      "entry_market_cap": 31007901,
+      "entry_venue": "Binance",
+      "entry_contract_address": null,
+      "entry_score": 81.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 24930177,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 1.7078,
+      "entry_chg_24h": 41.22754,
+      "entry_chg_7d": 72.34,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.8039943432481934,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null
     }
   },
   "closed_trades": [
@@ -824,6 +884,6 @@
       "pnl_pct": -9.339663194761448
     }
   ],
-  "last_run_ts": 1790259683.0455859,
-  "last_eur_rate": 0.8789130065634537
+  "last_run_ts": 1790260683.5911238,
+  "last_eur_rate": 0.8791420012120355
 }
