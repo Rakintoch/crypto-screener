@@ -55,6 +55,13 @@ def _run_scenarios():
         config.LESSONS_FILE = os.path.join(tmp, "lessons.json")  # isola das lições reais do repo
         config.WINS_FILE = os.path.join(tmp, "wins.json")  # isola das vitórias reais do repo
         config.CHANGELOG_FILE = os.path.join(tmp, "changelog.json")  # isola do changelog real do repo
+        config.CHALLENGE_HISTORY_FILE = os.path.join(tmp, "challenge_history.json")  # isola do histórico real
+        # As Corridas 1-8 validam o motor base com o comportamento clássico (saldo em EUR,
+        # liquidação forçada ao fim do ciclo); os ciclos contínuos e o saldo em USD (pedido do
+        # Ricardo 2026-09-24) são testados à parte nas Corridas 9, 9b e 9c.
+        config.CONTINUOUS_CYCLES = False
+        config.STARTING_BALANCE_USD = None
+        config.CATALYST_ENABLED = False  # notícias testadas à parte (test_pump_watch_offline)
         eur_rate = 0.9  # taxa fixa para o teste ser determinístico
 
         # --- Corrida 1: sem posições, dois candidatos elegíveis para compra ---
@@ -629,7 +636,125 @@ def _run_scenarios():
     print("✅ Corrida 8b OK — os três guardrails da rotação (tempo mínimo de posse, sem ganho "
           "não realizado, cooldown global) bloqueiam-na corretamente quando não se aplicam")
 
+    _run_continuous_cycle_scenarios()
+
     print("\n✅ Todos os testes offline do portfólio passaram.")
+
+
+def _run_continuous_cycle_scenarios():
+    """Corridas 9/9b/9c — pedido do Ricardo 2026-09-24: sem reset entre ciclos, o fim de cada
+    ciclo de 10 dias é só um ponto de revisão; saldo inicial de $1000 (USD)."""
+    import json
+    import screener.sources_coingecko as cg
+    import screener.sources_dexscreener as ds
+
+    orig = (config.PORTFOLIO_STATE_FILE, config.CHALLENGE_HISTORY_FILE, config.LESSONS_FILE,
+            config.WINS_FILE, config.CHANGELOG_FILE, config.CONTINUOUS_CYCLES,
+            config.STARTING_BALANCE_USD, cg.fetch_by_ids, ds.fetch_market_data_for_addresses)
+    with tempfile.TemporaryDirectory() as tmp:
+        config.PORTFOLIO_STATE_FILE = os.path.join(tmp, "portfolio_state.json")
+        config.CHALLENGE_HISTORY_FILE = os.path.join(tmp, "challenge_history.json")
+        config.LESSONS_FILE = os.path.join(tmp, "lessons.json")
+        config.WINS_FILE = os.path.join(tmp, "wins.json")
+        config.CHANGELOG_FILE = os.path.join(tmp, "changelog.json")
+        config.CONTINUOUS_CYCLES = True
+        config.STARTING_BALANCE_USD = None
+        cg.fetch_by_ids = lambda ids: {}
+        ds.fetch_market_data_for_addresses = lambda *a, **k: []
+        try:
+            now = time.time()
+            with open(config.CHALLENGE_HISTORY_FILE, "w", encoding="utf-8") as f:
+                json.dump([{"challenge_number": 1, "closed_trades": []}], f)
+
+            # --- Corrida 9: estado ativo (sem campos de ciclo — migração) com o prazo do
+            # ciclo já ultrapassado -> NÃO liquida, arquiva o ciclo e começa o seguinte ---
+            st = portfolio._default_state()
+            st.update({"status": "active", "start_ts": now - 11 * 86400, "end_ts": now - 1,
+                       "cash_eur": 700.0, "starting_balance_eur": 1000.0})
+            st["positions"]["cex_small_cap:keep"] = {
+                "tier": "cex_small_cap", "id": "keep", "symbol": "KEEP", "qty": 300.0,
+                "entry_price_eur": 1.0, "last_price_eur": 1.1, "entry_ts": now - 2 * 86400,
+                "cost_eur": 300.0, "last_score": 70, "missed_updates": 0,
+            }
+            st["closed_trades"] = [
+                {"tier": "cex_small_cap", "id": "old", "symbol": "OLD", "qty": 10.0, "cost_eur": 100.0,
+                 "proceeds_eur": 110.0, "pnl_eur": 10.0, "pnl_pct": 10.0, "exit_ts": now - 5 * 86400},
+                {"tier": "cex_small_cap", "id": "recent", "symbol": "RECENT", "qty": 10.0, "cost_eur": 100.0,
+                 "proceeds_eur": 95.0, "pnl_eur": -5.0, "pnl_pct": -5.0, "exit_ts": now - 2 * 3600},
+            ]
+            st["capital_protection_active"] = True
+            portfolio.save_portfolio(st)
+
+            state, actions, report = portfolio.run_portfolio_cycle([], 0.9)
+            assert report is not None and report["type"] == "cycle_checkpoint", "FALHOU: devia haver checkpoint de ciclo"
+            assert report["challenge_number"] == 2, f"FALHOU: ciclo devia ser o #2, veio {report['challenge_number']}"
+            assert report["num_trades"] == 2 and abs(report["win_rate_pct"] - 50) < 0.01
+            assert state["status"] == "active", "FALHOU: em modo contínuo o estado não pode ficar 'finished'"
+            assert "cex_small_cap:keep" in state["positions"], "FALHOU: a posição aberta não devia ser liquidada"
+            assert not any(a["action"] == "sell" for a in actions), "FALHOU: não devia haver vendas forçadas"
+            assert abs(state["cash_eur"] - 700.0) < 1e-9, "FALHOU: o saldo não pode ser reiniciado"
+            assert state["cycle_number"] == 3 and state["end_ts"] > now + 9.9 * 86400
+            assert abs(state["cycle_start_equity_eur"] - (700.0 + 300.0 * 1.1)) < 1e-6
+            assert [t["symbol"] for t in state["closed_trades"]] == ["RECENT"], (
+                "FALHOU: só os trades recentes (dedupe de 6h) deviam ficar no estado")
+            assert state["capital_protection_active"] is False, "FALHOU: disjuntor devia ser reavaliado no novo ciclo"
+            history = json.load(open(config.CHALLENGE_HISTORY_FILE, encoding="utf-8"))
+            assert len(history) == 2 and len(history[1]["closed_trades"]) == 2
+            msg = telegram_alert.format_final_report(state, report, 0.9)
+            assert "CYCLE 2 CLOSED" in msg and "KEEP" in msg, msg
+            state2, actions2, report2 = portfolio.run_portfolio_cycle([], 0.9)
+            assert report2 is None, "FALHOU: o checkpoint não se pode repetir na corrida seguinte"
+            portfolio_msg = telegram_alert.format_portfolio_message(state2, [], 0.9)
+            assert "Cycle 3 · Day 0.0 / 10" in portfolio_msg, portfolio_msg
+            print("✅ Corrida 9 OK — fim de ciclo em modo contínuo: sem liquidação nem reset, ciclo #2 "
+                  "arquivado (2 trades, 50% win rate), ciclo #3 arrancou com a mesma posição e saldo")
+
+            # --- Corrida 9b: saldo inicial de $1000 aplicado a um estado já em curso ---
+            config.STARTING_BALANCE_USD = 1000.0
+            st = portfolio._default_state()
+            st.update({"status": "active", "start_ts": now - 86400, "end_ts": now + 86400,
+                       "cash_eur": 500.0, "starting_balance_eur": 1000.0, "cycle_number": 2,
+                       "cycle_start_ts": now - 86400, "cycle_start_equity_eur": 1000.0})
+            st["positions"]["cex_small_cap:p"] = {
+                "tier": "cex_small_cap", "id": "p", "symbol": "P", "qty": 500.0, "entry_price_eur": 1.0,
+                "last_price_eur": 1.2, "entry_ts": now - 3600, "cost_eur": 500.0}
+            st["closed_trades"] = [{"symbol": "T", "qty": 100.0, "cost_eur": 100.0, "proceeds_eur": 120.0,
+                                    "pnl_eur": 20.0, "pnl_pct": 20.0, "exit_ts": now - 3600}]
+            pct_before = (portfolio._equity(st) / st["starting_balance_eur"] - 1) * 100
+            portfolio._migrate_state(st, 0.9)
+            assert abs(st["starting_balance_eur"] - 900.0) < 1e-9 and st["starting_balance_usd"] == 1000.0
+            assert abs(st["cash_eur"] - 450.0) < 1e-9 and abs(st["positions"]["cex_small_cap:p"]["qty"] - 450.0) < 1e-9
+            assert abs(st["closed_trades"][0]["pnl_eur"] - 18.0) < 1e-9 and st["closed_trades"][0]["pnl_pct"] == 20.0
+            assert abs(st["cycle_start_equity_eur"] - 900.0) < 1e-9
+            pct_after = (portfolio._equity(st) / st["starting_balance_eur"] - 1) * 100
+            assert abs(pct_before - pct_after) < 1e-9, "FALHOU: a conversão para USD não pode mexer nas percentagens"
+            snapshot = json.dumps(st, sort_keys=True)
+            portfolio._migrate_state(st, 0.85)
+            assert json.dumps(st, sort_keys=True) == snapshot, "FALHOU: a migração para USD tem de ser idempotente"
+            print(f"✅ Corrida 9b OK — saldo inicial passou a $1000 (= {st['starting_balance_eur']:.2f} EUR), "
+                  f"percentagens intactas ({pct_after:+.1f}%), migração idempotente")
+
+            # --- Corrida 9c: disjuntor medido face ao equity de início do ciclo atual ---
+            st = portfolio._default_state()
+            st.update({"status": "active", "start_ts": now, "end_ts": now + 86400, "cash_eur": 110.0,
+                       "starting_balance_eur": 1000.0, "cycle_start_equity_eur": 400.0,
+                       "starting_balance_usd": 1000.0})
+            telegram_calls = []
+            orig_send = telegram_alert.send_telegram_message
+            telegram_alert.send_telegram_message = lambda m: telegram_calls.append(m)
+            try:
+                portfolio._check_entries(st, [], now)
+                assert not st.get("capital_protection_active"), "FALHOU: 110 > 25% de 400 — não devia travar"
+                st["cash_eur"] = 90.0
+                portfolio._check_entries(st, [], now)
+                assert st.get("capital_protection_active") and len(telegram_calls) == 1
+            finally:
+                telegram_alert.send_telegram_message = orig_send
+            print("✅ Corrida 9c OK — disjuntor de capital medido face ao equity de início do ciclo atual")
+        finally:
+            (config.PORTFOLIO_STATE_FILE, config.CHALLENGE_HISTORY_FILE, config.LESSONS_FILE,
+             config.WINS_FILE, config.CHANGELOG_FILE, config.CONTINUOUS_CYCLES,
+             config.STARTING_BALANCE_USD, cg.fetch_by_ids, ds.fetch_market_data_for_addresses) = orig
 
 
 if __name__ == "__main__":

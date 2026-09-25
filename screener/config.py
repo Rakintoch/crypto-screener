@@ -96,6 +96,28 @@ CHANGELOG_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__
 STARTING_BALANCE_EUR = 1000.0
 CHALLENGE_DURATION_DAYS = 10     # a contagem só começa na primeira compra virtual executada
 
+# Pedido do Ricardo 2026-09-24: o saldo inicial da challenge é de $1000 (DÓLARES), não 1000 EUR.
+# A contabilidade interna continua em EUR (ver fx.py), por isso isto é convertido UMA vez, à taxa
+# USD->EUR da corrida em que é aplicado, e fica fixo no estado (portfolio._migrate_state). Um
+# estado já em curso é reescalado proporcionalmente (saldo, posições abertas e trades fechados),
+# o que mantém TODAS as percentagens de ganho/perda intactas — não é um reset, as trades e as
+# posições abertas continuam as mesmas. None desativa a conversão (usa STARTING_BALANCE_EUR).
+STARTING_BALANCE_USD = 1000.0
+
+# Ciclos contínuos (pedido do Ricardo 2026-09-24): o fim de cada ciclo de
+# CHALLENGE_DURATION_DAYS deixa de liquidar tudo e reiniciar o saldo. Passa a ser só um PONTO
+# DE REVISÃO: o bot arquiva o resumo do ciclo em data/challenge_history.json, anuncia-o no
+# Telegram e começa logo o ciclo seguinte com as MESMAS posições abertas e o MESMO saldo. O
+# conhecimento acumulado (lessons.json/wins.json/challenge_history.json) é o que a revisão
+# diária automática usa para atualizar o modus operandi entre ciclos.
+# False repõe o comportamento antigo (liquidação forçada + "finished").
+CONTINUOUS_CYCLES = True
+CHALLENGE_HISTORY_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "challenge_history.json")
+# Trades fechados há menos do que isto ficam também no portfolio_state.json depois do fecho
+# do ciclo (o resto passa só para o challenge_history.json) — _check_entries precisa das
+# saídas das últimas 6h para não voltar a comprar logo a mesma moeda.
+CYCLE_KEEP_RECENT_TRADES_HOURS = 24
+
 # Disjuntor de capital: numa estratégia sem alavancagem/margem o saldo nunca fica negativo
 # (o pior caso é perder o valor investido numa posição), mas nada impedia até agora que
 # capital fresco continuasse a ser arriscado em entradas novas durante uma sequência de
@@ -284,3 +306,55 @@ PUMP_WATCH_MIN_PRICE_MOVE_PCT = -0.08       # abaixo disto pode ser capitulaçã
 # expande ao tier DEX, ou descontinua) — o que vier primeiro:
 PUMP_WATCH_REVIEW_AFTER_TRADES = 10
 PUMP_WATCH_REVIEW_AFTER_DAYS = 20
+# --- Pump Watch v2: "despertar do volume" (autoanálise 2026-09-25, caso LSK) ---
+# Replay do sinal sobre os dados horários reais da LSK (9-13 set): o sinal OBV disparou a 9/09
+# 18h UTC a ~$0,115 — ~2,8 dias antes da compra do desafio de momentum ($0,22) e ~3,3 dias antes
+# do pico ($1,15). Mas o Pump Watch provavelmente NÃO a teria comprado, por dois motivos:
+# (1) o shortlist era o top-10 por turnover ABSOLUTO do universo inteiro — a LSK tinha turnover
+#     0,14-0,50, muito abaixo de moedas já a subir com turnover 2-5, que ocupam o top-10 mas
+#     estão fora da banda de "acumulação silenciosa" (e depois são descartadas). Agora o
+#     shortlist só considera moedas ainda CALMAS (chg_24h/chg_7d abaixo dos limites abaixo),
+#     e só dentro dessas ordena por turnover — é aí que o volume a acordar se destaca.
+# (2) os "volumes" do market_chart do CoinGecko são o volume ACUMULADO de 24h em cada hora, não
+#     o volume da hora — o OBV pesava cada hora pelo volume do dia inteiro. Acrescenta-se um
+#     segundo critério que usa estes dados como eles são: o "salto de volume" = média das
+#     últimas 6 leituras de volume-24h / mediana das primeiras 24 da janela (3 dias). Na LSK:
+#     ~3x no momento do primeiro sinal, ~12x um dia depois; numa moeda simplesmente parada ~1x.
+PUMP_WATCH_CALM_MAX_CHG_24H_PCT = 15.0
+PUMP_WATCH_CALM_MAX_CHG_7D_PCT = 20.0
+PUMP_WATCH_MIN_VOLUME_SURGE = 2.0
+# Bónus de ordenação (não de elegibilidade) para moedas com catalisador fundamental recente —
+# ver catalysts.py. Pequeno de propósito até haver dados que provem o efeito.
+PUMP_WATCH_CATALYST_BONUS = 0.10
+
+# --- Catalisadores fundamentais (notícias) — pedido do Ricardo 2026-09-25 ---
+# O bot só via preço/volume (CoinGecko/GeckoTerminal/DexScreener) e segurança (GoPlus); nenhuma
+# fonte de notícias/eventos, por isso anúncios como o da Lisk (fim da chain + queima de 25% da
+# oferta a 25/08, migração obrigatória a 10/09) nunca entravam na decisão. Fonte gratuita, sem
+# key: RSS de pesquisa do Google News (ver sources_news.py). Só é chamado para o shortlist do
+# Pump Watch e para cada compra real do desafio (poucas chamadas por corrida).
+CATALYST_ENABLED = os.environ.get("CATALYST_ENABLED", "true").lower() == "true"
+CATALYST_LOOKBACK_DAYS = 30
+CATALYST_TAGS = {
+    "supply_cut": ["burn", "burns", "burning", "buyback", "buy back", "buybacks", "supply cut",
+                   "supply reduction", "halving", "deflationary"],
+    "restructuring": ["shut down", "shutting down", "shuts down", "sunset", "pivot", "pivots",
+                      "rebrand", "rebrands", "token swap", "migration", "migrate", "migrates", "bridge"],
+    "listing": ["listing", "lists", "listed on", "to list", "perpetual", "perpetuals", "futures",
+                "adds support"],
+    "upgrade": ["mainnet", "upgrade", "hard fork", "launches", "launch"],
+    "partnership": ["partner", "partners", "partnership", "integration", "integrates"],
+    "exchange_risk": ["delisting risk", "monitoring tag", "delist", "delisting", "delisted"],
+    "unlock": ["token unlock", "unlock", "unlocks"],
+    "security_incident": ["hack", "hacked", "exploit", "exploited", "drained", "rug pull",
+                          "insolvency", "bankrupt", "bankruptcy"],
+}
+CATALYST_TAG_WEIGHTS = {"supply_cut": 0.5, "restructuring": 0.4, "listing": 0.4, "upgrade": 0.2,
+                        "partnership": 0.1}
+CATALYST_BLOCKING_TAGS = ["security_incident"]
+
+# Pedido do Ricardo 2026-09-24: o marco acima repete-se em ciclos contínuos. Quando um ciclo
+# de revisão fecha (10 trades fechados OU 20 dias, o que vier primeiro), o bot guarda o resumo
+# em pump_watch_state["review_history"], anuncia-o no Telegram e abre logo o ciclo seguinte,
+# SEM reiniciar saldo nem posições. A revisão diária automática usa esse resumo para decidir
+# se os limiares do Pump Watch devem mudar (só com justificação numérica).

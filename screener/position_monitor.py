@@ -60,7 +60,10 @@ def _run_portfolio_monitor():
         msg = telegram_alert.format_final_report(state, final_report, eur_rate)
         print("[position_monitor] relatório final do desafio:\n" + msg)
         telegram_alert.send_telegram_message(msg)
-        return
+        # Ciclos contínuos (2026-09-24): o fecho de um ciclo já não termina o desafio — as
+        # compras/vendas desta mesma corrida continuam a ser reportadas normalmente abaixo.
+        if final_report.get("type") != "cycle_checkpoint":
+            return
 
     if actions:
         msg = telegram_alert.format_portfolio_message(state, actions, eur_rate)

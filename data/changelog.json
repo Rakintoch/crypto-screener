@@ -97,5 +97,23 @@
     "efeito_esperado": "Challenge #2 usa exatamente a mesma estratégia já testada e ajustada ao longo da #1, agora com 10x mais capital simulado.",
     "num_trades_fechados_ate_aqui": 0,
     "announced": true
+  },
+  {
+    "ts": 1790342863.5086613,
+    "titulo": "Continuous cycles (no reset) + $1000 USD starting balance",
+    "motivo": "Ricardo request (2026-09-24): each 10-day cycle, and each Pump Watch review cycle, exists to accumulate knowledge and refine the strategy - not to restart from zero. Resetting the balance and force-selling open positions every 10 days threw away live positions and broke the continuity of the learning data. Ricardo also clarified the Challenge starting balance is $1000 (US dollars), not 1000 EUR.",
+    "mudanca": "(1) Challenge: new config.CONTINUOUS_CYCLES=True - at the end of each 10-day cycle there is no forced liquidation and no reset; the cycle summary (with its closed trades) is archived in data/challenge_history.json, announced on Telegram, and the next cycle starts immediately with the same balance and open positions. The capital-protection breaker is now measured against the equity at the start of the current cycle and re-evaluated at each new cycle. (2) Pump Watch: the 10-trades-or-20-days review checkpoint now repeats as rolling review cycles (summary stored in review_history, announced on Telegram), with no reset. (3) New config.STARTING_BALANCE_USD=1000: the running Challenge was rescaled once so that it started at exactly $1000 (all EUR amounts x0.8787 at the current USD->EUR rate) - quantities change, prices do not, so every gain/loss percentage stays identical. The strategy is updated between cycles by the daily review, only when the accumulated data justifies it.",
+    "efeito_esperado": "No more lost positions or broken data at cycle boundaries; one continuous, growing trade history per strategy, reviewed every cycle so the modus operandi improves over time. Telegram now shows \"Cycle N - Day x / 10\" and balances start from $1000.",
+    "num_trades_fechados_ate_aqui": 17,
+    "announced": false
+  },
+  {
+    "ts": 1790342863.5104117,
+    "titulo": "Pump Watch v2: volume awakening + news catalysts (LSK case)",
+    "motivo": "Replay of the Pump Watch signal on LSK hourly data (Sep 7-13): the OBV signal fired on Sep 9 18:00 UTC at ~$0.115, 2.8 days before the momentum buy ($0.22) and 3.3 days before the $1.15 peak (+900%), but the Pump Watch would most likely not have bought it: (1) its shortlist was the top-10 by absolute turnover, filled by coins already pumping (turnover 2-5) that are then rejected by the price band, pushing out LSK (turnover 0.14-0.50); (2) CoinGecko market_chart volumes are rolling 24h volume, so OBV weighted each hour by a full day. Also, the bot had no news/event source at all, so the Aug 25 announcement (chain shutdown + proposed burn of 25% of supply) and the Sep 10 forced migration never reached any decision or record.",
+    "mudanca": "(1) Pump Watch shortlist now only considers coins that are still calm (chg_24h <= 15%, chg_7d <= 20%) before ranking by turnover. (2) New volume-surge condition: mean of the last 6 rolling-24h volume readings / median of the first 24 in the 3-day window must be >= 2.0x (LSK: 3.6x at the first signal, ~12x a day later; a flat coin ~1x). (3) New free news source (Google News RSS, no key) + catalysts.py: headlines from the last 30 days are tagged (supply_cut, restructuring, listing, upgrade, partnership, exchange_risk, unlock, security_incident). Pump Watch: a recent security incident blocks the entry, other catalysts add a small ranking bonus (0.10 x score). Challenge: catalysts are recorded only, no decision change. Every entry now stores entry_catalyst_*, entry_volume_surge, entry_obv_score and entry_price_change_3d; buy alerts show the catalyst tags.",
+    "efeito_esperado": "Pump Watch enters coins in the accumulation phase (volume waking up while price is still flat) instead of missing them, and every trade carries the catalyst and volume-surge data so the next cycle reviews can measure whether catalysts really precede the big winners before giving them more weight.",
+    "num_trades_fechados_ate_aqui": 17,
+    "announced": false
   }
 ]

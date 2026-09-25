@@ -23,6 +23,7 @@ import json
 import os
 import time
 
+from . import catalysts
 from . import config
 from . import sources_coingecko
 
@@ -92,9 +93,19 @@ def _compute_accumulation_signal(prices, volumes):
     if not price_start:
         return None
 
+    # "Salto de volume" (2026-09-25, ver config.PUMP_WATCH_MIN_VOLUME_SURGE): os volumes do
+    # market_chart são volume-24h acumulado em cada hora, por isso compara-se o nível recente
+    # (média das últimas 6 leituras) com o nível de base (mediana das primeiras 24).
+    base = sorted(vols[:24])
+    base_median = base[len(base) // 2] if base else 0
+    recent = vols[-6:]
+    recent_mean = sum(recent) / len(recent) if recent else 0
+    volume_surge = (recent_mean / base_median) if base_median else 0.0
+
     return {
         "obv_score": obv / total_volume,
         "price_change_pct": (closes[-1] - price_start) / price_start,
+        "volume_surge": volume_surge,
     }
 
 def _scan_accumulation_candidates(cex_candidates, held_ids, slots_free):
@@ -104,7 +115,19 @@ def _scan_accumulation_candidates(cex_candidates, held_ids, slots_free):
     if slots_free <= 0:
         return []
 
-    pool = [c for c in cex_candidates if c.get("id") and c["id"] not in held_ids and c.get("price_usd")]
+    def _calm(c):
+        # 2026-09-25 (caso LSK): só moedas cujo preço ainda NÃO fugiu — as que já estão a subir
+        # ocupavam o top-10 por turnover e eram depois descartadas pela banda de preço, deixando
+        # de fora as que estavam de facto a acumular. None (dado em falta) não exclui.
+        chg_24h = c.get("chg_24h")
+        chg_7d = c.get("chg_7d")
+        if chg_24h is not None and chg_24h > config.PUMP_WATCH_CALM_MAX_CHG_24H_PCT:
+            return False
+        if chg_7d is not None and chg_7d > config.PUMP_WATCH_CALM_MAX_CHG_7D_PCT:
+            return False
+        return True
+
+    pool = [c for c in cex_candidates if c.get("id") and c["id"] not in held_ids and c.get("price_usd") and _calm(c)]
     pool.sort(key=lambda c: c.get("turnover", 0), reverse=True)
     shortlist = pool[:config.PUMP_WATCH_SHORTLIST_SIZE]
 
@@ -120,7 +143,19 @@ def _scan_accumulation_candidates(cex_candidates, held_ids, slots_free):
             continue
         if not (config.PUMP_WATCH_MIN_PRICE_MOVE_PCT <= signal["price_change_pct"] <= config.PUMP_WATCH_MAX_PRICE_MOVE_PCT):
             continue
-        scored.append((signal["obv_score"], c))
+        if signal["volume_surge"] < config.PUMP_WATCH_MIN_VOLUME_SURGE:
+            continue
+        # Catalisador fundamental (2026-09-25): só para quem já passou no sinal técnico — no
+        # máximo PUMP_WATCH_SHORTLIST_SIZE chamadas por corrida. Um incidente de segurança
+        # recente bloqueia; o resto só dá um pequeno bónus de ordenação e fica registado.
+        cat = catalysts.check(c)
+        if cat and cat["blocking"]:
+            print(f"[pump_watch] {c.get('symbol')} bloqueada por catalisador negativo: {cat['tags']}")
+            continue
+        c["_pw_signal"] = signal
+        c["_catalyst"] = cat
+        rank = signal["obv_score"] + (config.PUMP_WATCH_CATALYST_BONUS * cat["score"] if cat else 0.0)
+        scored.append((rank, c))
 
     scored.sort(key=lambda t: t[0], reverse=True)
     return [c for _, c in scored[:slots_free]]
@@ -183,6 +218,15 @@ def _check_entries(state, cex_candidates, eur_rate, now):
             # Endereço do contrato on-chain — pedido do Ricardo 2026-09-14, ver comentário
             # acima. None para moedas nativas de uma chain própria ou se a chamada falhar.
             "entry_contract_address": entry_contract_address,
+            # Snapshot do sinal e dos catalisadores na entrada (2026-09-25) — para a revisão de
+            # cada ciclo poder medir o que de facto antecede os ganhos (ver catalysts.py).
+            "entry_obv_score": (c.get("_pw_signal") or {}).get("obv_score"),
+            "entry_price_change_3d": (c.get("_pw_signal") or {}).get("price_change_pct"),
+            "entry_volume_surge": (c.get("_pw_signal") or {}).get("volume_surge"),
+            "entry_chg_24h": c.get("chg_24h"),
+            "entry_chg_7d": c.get("chg_7d"),
+            "entry_turnover": c.get("turnover"),
+            **catalysts.entry_fields(c.get("_catalyst")),
         }
         state["cash_eur"] -= size_eur
 
@@ -252,6 +296,59 @@ def _check_exits(state, eur_rate, now):
 
     return actions
 
+def _maybe_close_review_cycle(state, now):
+    """Ciclos de revisão contínuos (pedido do Ricardo 2026-09-24, ver config.py junto de
+    PUMP_WATCH_REVIEW_AFTER_*): quando o ciclo atual chega a PUMP_WATCH_REVIEW_AFTER_TRADES
+    trades fechados OU PUMP_WATCH_REVIEW_AFTER_DAYS dias (o que vier primeiro), guarda o resumo
+    em state["review_history"] e abre logo o ciclo seguinte — SEM mexer em saldo nem posições.
+    Devolve o resumo (ou None se o ciclo ainda não fechou)."""
+    if state.get("status") != "active" or not state.get("start_ts"):
+        return None
+    rc = state.get("review_cycle")
+    if rc is None:
+        rc = state["review_cycle"] = {
+            "number": 1,
+            "start_ts": state["start_ts"],
+            "start_trade_index": 0,
+            "start_total_eur": state["starting_balance_eur"],
+        }
+    trades = state["closed_trades"][rc["start_trade_index"]:]
+    days = (now - rc["start_ts"]) / 86400
+    if len(trades) < config.PUMP_WATCH_REVIEW_AFTER_TRADES and days < config.PUMP_WATCH_REVIEW_AFTER_DAYS:
+        return None
+
+    open_value = sum(p["qty"] * p.get("last_price_eur", p["entry_price_eur"]) for p in state["positions"].values())
+    total = state["cash_eur"] + state["reserve_eur"] + open_value
+    wins = [t for t in trades if t.get("pnl_eur", 0) > 0]
+    summary = {
+        "number": rc["number"],
+        "start_ts": rc["start_ts"],
+        "end_ts": now,
+        "days": days,
+        "trigger": "trades" if len(trades) >= config.PUMP_WATCH_REVIEW_AFTER_TRADES else "days",
+        "num_trades": len(trades),
+        "win_rate_pct": (len(wins) / len(trades) * 100) if trades else 0.0,
+        "avg_pnl_pct": (sum(t.get("pnl_pct", 0) for t in trades) / len(trades)) if trades else 0.0,
+        "realized_pnl_eur": sum(t.get("pnl_eur", 0) for t in trades),
+        "start_total_eur": rc["start_total_eur"],
+        "end_total_eur": total,
+        "open_positions_carried": [p["symbol"] for p in state["positions"].values()],
+        "trades": [
+            {"symbol": t.get("symbol"), "pnl_pct": t.get("pnl_pct"), "exit_reason": t.get("exit_reason"),
+             "entry_ts": t.get("entry_ts"), "exit_ts": t.get("exit_ts")}
+            for t in trades
+        ],
+    }
+    state.setdefault("review_history", []).append(summary)
+    state["review_cycle"] = {
+        "number": rc["number"] + 1,
+        "start_ts": now,
+        "start_trade_index": len(state["closed_trades"]),
+        "start_total_eur": total,
+    }
+    return summary
+
+
 def run_pump_watch_cycle(cex_candidates, eur_rate):
     """Ciclo completo (screener principal, a cada 2h): reavalia/fecha posições, e só procura
     candidatos novos quando há slot livre. cex_candidates: lista bruta de candidatos CEX já
@@ -263,6 +360,10 @@ def run_pump_watch_cycle(cex_candidates, eur_rate):
 
     exit_actions = _check_exits(state, eur_rate, now)
     entry_actions = _check_entries(state, cex_candidates, eur_rate, now)
+    review = _maybe_close_review_cycle(state, now)
+    if review:
+        # ação especial (não é compra/venda): main.py envia-a numa mensagem própria
+        entry_actions.append({"action": "review_checkpoint", **review})
 
     state["last_run_ts"] = now
     save_state(state)

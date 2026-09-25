@@ -8,6 +8,7 @@ Corre com: python -m tests.test_pump_watch_offline
 import os
 import sys
 import tempfile
+import time
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -40,12 +41,13 @@ def _accumulating_chart(hours=72, base_price=1.0):
     price = base_price
     prices, volumes = [price], [1000]
     for i in range(1, hours):
+        awakening = 3.0 if i >= hours - 12 else 1.0  # últimas 12h: volume a acordar (~3x)
         if i % 3 != 0:
             price *= 1.003   # 2 em cada 3 passos: subida pequena, volume alto
-            vol = 1500 + i * 10
+            vol = (1500 + i * 10) * awakening
         else:
             price *= 0.994   # 1 em cada 3 passos: descida maior, volume baixo (pouca venda)
-            vol = 300
+            vol = 300 * awakening
         prices.append(price)
         volumes.append(vol)
     return fake_chart(prices, volumes)
@@ -66,6 +68,7 @@ def _already_pumped_chart(hours=72, base_price=1.0):
 def run():
     with tempfile.TemporaryDirectory() as tmp:
         config.PUMP_WATCH_STATE_FILE = os.path.join(tmp, "pump_watch_state.json")
+        config.CATALYST_ENABLED = False  # sem rede nos testes; ligado só nos cenários de catalisadores (com mocks)
         eur_rate = 0.9  # taxa fixa para o teste ser determinístico
 
         _scenario_signal_math()
@@ -78,6 +81,11 @@ def run():
         _scenario_loss_no_reserve_skim(eur_rate)
         _scenario_no_scan_when_slots_full(eur_rate)
         _scenario_state_corrupted()
+        _scenario_review_cycles()
+        _scenario_lsk_like_volume_awakening()
+        _scenario_calm_filter_shortlist(eur_rate)
+        _scenario_news_parsing()
+        _scenario_catalysts(eur_rate)
 
         print("\n✅ Todos os testes offline do Pump Watch passaram.")
 
@@ -387,6 +395,167 @@ def _scenario_no_scan_when_slots_full(eur_rate):
         cg.fetch_market_chart = original_fetch_chart
 
     print("✅ Slots cheios OK — nenhuma chamada de histórico desperdiçada quando não há vaga")
+
+
+def _scenario_review_cycles():
+    """Pedido do Ricardo 2026-09-24: o marco de revisão (10 trades OU 20 dias) repete-se em
+    ciclos contínuos, sem reiniciar saldo nem posições."""
+    from screener import telegram_alert
+    now = time.time()
+    st = pump_watch._default_state()
+    st.update({"status": "active", "start_ts": now - 5 * 86400, "cash_eur": 50.0, "reserve_eur": 2.0})
+    st["positions"]["cex_small_cap:hold"] = {"id": "hold", "symbol": "HOLD", "qty": 50.0,
+                                             "entry_price_eur": 1.0, "last_price_eur": 1.0}
+    # ciclo #1 ainda aberto: 5 dias e 1 trade
+    st["closed_trades"] = [{"symbol": "A", "pnl_eur": 3.0, "pnl_pct": 10.0, "exit_reason": "x", "exit_ts": now}]
+    assert pump_watch._maybe_close_review_cycle(st, now) is None, "FALHOU: ciclo #1 ainda não devia fechar"
+
+    # 10 trades fechados -> fecha o ciclo #1 por número de trades
+    st["closed_trades"] += [{"symbol": f"L{i}", "pnl_eur": -1.0, "pnl_pct": -5.0, "exit_reason": "x",
+                             "exit_ts": now} for i in range(9)]
+    r1 = pump_watch._maybe_close_review_cycle(st, now)
+    assert r1 and r1["number"] == 1 and r1["trigger"] == "trades" and r1["num_trades"] == 10
+    assert abs(r1["win_rate_pct"] - 10.0) < 1e-9 and abs(r1["end_total_eur"] - 102.0) < 1e-9
+    assert st["review_cycle"]["number"] == 2 and st["review_cycle"]["start_trade_index"] == 10
+    assert st["cash_eur"] == 50.0 and "cex_small_cap:hold" in st["positions"], "FALHOU: não pode haver reset"
+    assert pump_watch._maybe_close_review_cycle(st, now + 60) is None, "FALHOU: ciclo #2 acabou de abrir"
+
+    # ciclo #2 fecha por tempo (20 dias), mesmo sem trades
+    r2 = pump_watch._maybe_close_review_cycle(st, now + config.PUMP_WATCH_REVIEW_AFTER_DAYS * 86400 + 1)
+    assert r2 and r2["number"] == 2 and r2["trigger"] == "days" and r2["num_trades"] == 0
+    assert len(st["review_history"]) == 2
+    msg = telegram_alert.format_pump_watch_review(st, r1, 0.9)
+    assert "review cycle 1 closed" in msg and "HOLD" in msg, msg
+    print("✅ Pump Watch — ciclos de revisão contínuos: fecham aos 10 trades ou 20 dias, "
+          "guardam o resumo e abrem o ciclo seguinte sem reset")
+
+
+def _lsk_like_chart():
+    """Forma real da LSK (dados horários CoinGecko 7-10 set 2026): ~60h de base plana a ~$0,103
+    com volume-24h ~$1,2M, depois 12h em que o volume-24h sobe para ~$4-5M com o preço só +10%."""
+    prices, volumes = [], []
+    for i in range(60):
+        prices.append(0.1030 + (0.0004 if i % 2 else -0.0003))
+        volumes.append(1_200_000 + (i % 5) * 10_000)
+    for k in range(12):
+        prices.append(0.1035 * (1 + 0.009 * (k + 1)) * (0.998 if k % 3 == 2 else 1.0))
+        volumes.append(1_500_000 + 300_000 * (k + 1))
+    return fake_chart(prices, volumes)
+
+
+def _scenario_lsk_like_volume_awakening():
+    sig = pump_watch._compute_accumulation_signal(**{k: v for k, v in zip(("prices", "volumes"), (
+        _lsk_like_chart()["prices"], _lsk_like_chart()["volumes"]))})
+    assert sig["volume_surge"] >= config.PUMP_WATCH_MIN_VOLUME_SURGE, sig
+    assert sig["obv_score"] >= config.PUMP_WATCH_MIN_OBV_SCORE, sig
+    assert config.PUMP_WATCH_MIN_PRICE_MOVE_PCT <= sig["price_change_pct"] <= config.PUMP_WATCH_MAX_PRICE_MOVE_PCT, sig
+    flat = pump_watch._compute_accumulation_signal(**dict(zip(("prices", "volumes"), (
+        _flat_no_volume_chart()["prices"], _flat_no_volume_chart()["volumes"]))))
+    assert flat["volume_surge"] < config.PUMP_WATCH_MIN_VOLUME_SURGE, flat
+    print(f"✅ Despertar do volume (forma LSK) OK — surge {sig['volume_surge']:.1f}x, OBV {sig['obv_score']:.2f}, "
+          f"preço {sig['price_change_pct']:+.1%}: o sinal dispara; moeda parada fica de fora (surge {flat['volume_surge']:.1f}x)")
+
+
+def _scenario_calm_filter_shortlist(eur_rate):
+    """Caso LSK: o shortlist era o top-10 por turnover absoluto — moedas já a subir (turnover
+    alto) empurravam para fora a que estava a acumular. Agora só moedas calmas entram."""
+    original_fetch_chart = cg.fetch_market_chart
+    requested = []
+    try:
+        def fake_fetch_market_chart(coin_id, days):
+            requested.append(coin_id)
+            return _lsk_like_chart() if coin_id == "lsk" else _already_pumped_chart()
+        cg.fetch_market_chart = fake_fetch_market_chart
+        hot = [dict(fake_candidate(f"HOT{i}", 1.0, turnover=3.0), chg_24h=45.0, chg_7d=80.0) for i in range(10)]
+        lsk = dict(fake_candidate("LSK", 0.115, turnover=0.14, cid="lsk"), chg_24h=11.0, chg_7d=11.6)
+        picks = pump_watch._scan_accumulation_candidates(hot + [lsk], held_ids=set(), slots_free=3)
+        assert [c["id"] for c in picks] == ["lsk"], [c["id"] for c in picks]
+        assert not any(r.startswith("hot") for r in requested), (
+            "FALHOU: moedas já a subir não deviam gastar chamadas de histórico no shortlist")
+    finally:
+        cg.fetch_market_chart = original_fetch_chart
+    print("✅ Shortlist só com moedas calmas OK — 10 moedas já a subir (turnover 3,0) não empurram a "
+          "LSK (turnover 0,14, preço +11%) para fora; nenhuma chamada de histórico desperdiçada nelas")
+
+
+_SAMPLE_RSS = """<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>
+<item><title>Lisk is Shutting Down Its Blockchain After 10 Years - Yahoo Finance</title><link>https://x/1</link>
+<pubDate>Tue, 25 Aug 2026 14:00:00 GMT</pubDate><source url="https://y">Yahoo Finance</source></item>
+<item><title>Lisk proposes to burn 100 million LSK from treasury - CoinDesk</title><link>https://x/2</link>
+<pubDate>Wed, 26 Aug 2026 10:00:00 GMT</pubDate><source url="https://c">CoinDesk</source></item>
+<item><title>Lisk Price Now: Instant SAND to USD Price - Kabul University</title><link>https://x/3</link>
+<pubDate>Wed, 26 Aug 2026 10:00:00 GMT</pubDate></item>
+<item><title>How to buy cheap flights - Travel</title><link>https://x/4</link>
+<pubDate>Wed, 26 Aug 2026 10:00:00 GMT</pubDate></item>
+<item><title>Lisk Chain Shutdown: Bridge LSK by October 21 - CryptoTicker</title><link>https://x/5</link>
+<pubDate>Thu, 10 Sep 2026 09:00:00 GMT</pubDate></item>
+<item><title>Lisk partners with old exchange - 2025</title><link>https://x/6</link>
+<pubDate>Mon, 01 Jan 2024 09:00:00 GMT</pubDate></item>
+</channel></rss>"""
+
+
+def _scenario_news_parsing():
+    from screener import sources_news
+    items = sources_news.parse_rss(_SAMPLE_RSS)
+    assert len(items) == 6 and items[0]["ts"] and items[0]["source"] == "Yahoo Finance"
+    original = sources_news._get_text
+    try:
+        sources_news._get_text = lambda *a, **k: _SAMPLE_RSS
+        now = 1789400000  # ~ 11/09/2026
+        heads = sources_news.fetch_headlines("Lisk", "LSK", lookback_days=30, now=now)
+        titles = [h["title"] for h in heads]
+        assert not any("cheap flights" in t for t in titles), "FALHOU: manchete sem a moeda devia ser ignorada"
+        assert not any("2025" in t for t in titles), "FALHOU: manchete fora da janela devia ser ignorada"
+        assert titles[0].startswith("Lisk Chain Shutdown"), "FALHOU: devia vir a mais recente primeiro"
+    finally:
+        sources_news._get_text = original
+    print(f"✅ Notícias OK — RSS lido, {len(heads)} manchetes relevantes (ruído e manchetes antigas filtradas)")
+
+
+def _scenario_catalysts(eur_rate):
+    from screener import catalysts, sources_news, telegram_alert
+    heads_lsk = [
+        {"title": "Lisk is Shutting Down Its Blockchain After 10 Years", "ts": 1788000000, "source": "Yahoo"},
+        {"title": "Lisk proposes to burn 100 million LSK from treasury", "ts": 1788100000, "source": "CoinDesk"},
+    ]
+    cat = catalysts.classify(heads_lsk)
+    assert cat["tags"] == ["restructuring", "supply_cut"] and abs(cat["score"] - 0.9) < 1e-9 and not cat["blocking"], cat
+    hacked = catalysts.classify([{"title": "Foo protocol exploited, $20M drained", "ts": 1, "source": "x"}])
+    assert hacked["blocking"], hacked
+    risk = catalysts.classify([{"title": "3 Altcoins Decline as Binance Flags Delisting Risk", "ts": 1, "source": "x"}])
+    assert risk["tags"] == ["exchange_risk"] and not risk["blocking"], "FALHOU: risco de delisting não deve bloquear"
+
+    original_fetch_chart = cg.fetch_market_chart
+    original_heads = sources_news.fetch_headlines
+    original_venue, original_contract = cg.fetch_top_venue, cg.fetch_contract_address
+    config.CATALYST_ENABLED = True
+    try:
+        cg.fetch_market_chart = lambda coin_id, days: _lsk_like_chart()
+        cg.fetch_top_venue = lambda coin_id: None
+        cg.fetch_contract_address = lambda coin_id: None
+        def fake_heads(name, symbol, lookback_days=None, now=None):
+            if symbol == "LSK":
+                return heads_lsk
+            if symbol == "HACK":
+                return [{"title": "Hack exploited: HACK bridge drained", "ts": 1, "source": "x"}]
+            return []
+        sources_news.fetch_headlines = fake_heads
+        cands = [dict(fake_candidate("LSK", 0.115, turnover=0.14, cid="lisk"), name="Lisk"),
+                 dict(fake_candidate("HACK", 1.0, turnover=0.50, cid="hackcoin"), name="HackCoin")]
+        state = pump_watch._default_state()
+        actions = pump_watch._check_entries(state, cands, eur_rate, now=1789400000.0)
+        assert [a["symbol"] for a in actions] == ["LSK"], [a["symbol"] for a in actions]
+        pos = state["positions"]["cex_small_cap:lisk"]
+        assert pos["entry_catalyst_tags"] == ["restructuring", "supply_cut"] and pos["entry_volume_surge"] >= 2
+        msg = telegram_alert.format_pump_watch_message(state, actions, eur_rate)
+        assert "📰 restructuring, supply cut" in msg, msg
+    finally:
+        cg.fetch_market_chart = original_fetch_chart
+        sources_news.fetch_headlines = original_heads
+        cg.fetch_top_venue, cg.fetch_contract_address = original_venue, original_contract
+        config.CATALYST_ENABLED = False
+    print("✅ Catalisadores OK — LSK etiquetada (queima de oferta + reestruturação, score 0,9) e comprada; "
+          "moeda com hack recente bloqueada; risco de delisting só registado; 📰 visível no alerta")
 
 
 def _scenario_state_corrupted():

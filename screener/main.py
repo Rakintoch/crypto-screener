@@ -111,7 +111,10 @@ def run_portfolio_challenge(ranked):
         msg = telegram_alert.format_final_report(state, final_report, eur_rate)
         print("[main] relatório final do desafio:\n" + msg)
         telegram_alert.send_telegram_message(msg)
-        return
+        # Ciclos contínuos (2026-09-24): o fecho de um ciclo já não termina o desafio — as
+        # compras/vendas desta mesma corrida continuam a ser reportadas normalmente abaixo.
+        if final_report.get("type") != "cycle_checkpoint":
+            return
 
     # Só envia atualização de portfólio se houver ações nesta corrida, ou pelo menos
     # uma vez a cada poucas corridas para não gerar ruído quando está tudo parado — aqui,
@@ -147,6 +150,13 @@ def run_pump_watch(cex_candidates):
         print("[main] falha no ciclo do Pump Watch:")
         traceback.print_exc()
         return
+
+    reviews = [a for a in actions if a["action"] == "review_checkpoint"]
+    actions = [a for a in actions if a["action"] != "review_checkpoint"]
+    for review in reviews:
+        review_msg = telegram_alert.format_pump_watch_review(state, review, eur_rate)
+        print("[main] fecho de ciclo de revisão do Pump Watch:\n" + review_msg)
+        telegram_alert.send_telegram_message(review_msg)
 
     if actions or state["positions"]:
         msg = telegram_alert.format_pump_watch_message(state, actions, eur_rate)

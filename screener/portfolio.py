@@ -5,11 +5,13 @@ mercado reais, durante CHALLENGE_DURATION_DAYS a partir da primeira compra virtu
 Isto NUNCA movimenta dinheiro real. Não há chaves de exchange, não há wallet, não há
 assinatura de transações — é um livro-razão (data/portfolio_state.json) que regista preços
 reais e simula compras/vendas segundo regras fixas de gestão de risco (take-profit,
-stop-loss, invalidação de tese por queda de score, e liquidação forçada ao fim de 10 dias).
+stop-loss, invalidação de tese por queda de score, e, desde 2026-09-24, ciclos contínuos de 10 dias
+sem liquidação forçada nem reset — ver config.CONTINUOUS_CYCLES).
 """
 import time
 import traceback
 
+from . import catalysts
 from . import config
 from . import fx
 from . import lessons
@@ -212,8 +214,8 @@ def _alert_capital_protection(state, equity):
         f"reaching the protection threshold ({config.MAX_DRAWDOWN_HALT_PCT:+.0%} of the starting balance).\n\n"
         "From now on the bot stops opening new positions — the remaining capital stays in "
         "cash, protected from further risk. Positions already open continue to be monitored "
-        "normally (take-profit/stop-loss/trailing stop) and the challenge continues until the "
-        "end of the 10 days."
+        "normally (take-profit/stop-loss/trailing stop). New entries resume only at the start "
+        "of the next cycle, if the balance is back above the threshold."
     )
     telegram_alert.send_telegram_message(msg)
 
@@ -274,7 +276,11 @@ def _check_entries(state, ranked_candidates, now):
     actions = []
 
     equity = _equity(state)
-    floor = state["starting_balance_eur"] * (1 + config.MAX_DRAWDOWN_HALT_PCT)
+    # Ciclos contínuos (2026-09-24): o limiar é medido face ao equity com que o ciclo ATUAL
+    # começou (e o disjuntor é reavaliado a cada novo ciclo — ver _close_cycle), para que o bot
+    # não fique bloqueado para sempre agora que o saldo já não é reiniciado entre ciclos.
+    base = state.get("cycle_start_equity_eur") or state["starting_balance_eur"]
+    floor = base * (1 + config.MAX_DRAWDOWN_HALT_PCT)
     if not state.get("capital_protection_active") and equity <= floor:
         state["capital_protection_active"] = True
         state["capital_protection_ts"] = now
@@ -352,6 +358,11 @@ def _check_entries(state, ranked_candidates, now):
             except Exception:
                 traceback.print_exc()
 
+        # Catalisadores fundamentais (2026-09-25, caso LSK) — SÓ registo, não muda a decisão de
+        # compra do desafio: uma chamada por compra real, para a autoanálise poder comparar os
+        # resultados com/sem catalisador antes de lhe dar peso. Nunca bloqueia a compra.
+        entry_catalyst = catalysts.check(c, now=now) if c["tier"] == "cex_small_cap" else None
+
         key = f"{c['tier']}:{c['id']}"
         state["positions"][key] = {
             "tier": c["tier"],
@@ -413,6 +424,7 @@ def _check_entries(state, ranked_candidates, now):
             # com os quatro exemplos manuais que motivaram a mudança.
             "entry_pool_age_minutes": c.get("pool_age_minutes"),
             "entry_base_breakout": c.get("base_breakout"),
+            **catalysts.entry_fields(entry_catalyst),
         }
         state["cash_eur"] -= size_eur
 
@@ -420,10 +432,120 @@ def _check_entries(state, ranked_candidates, now):
             state["status"] = "active"
             state["start_ts"] = now
             state["end_ts"] = now + config.CHALLENGE_DURATION_DAYS * 86400
+            state["cycle_start_ts"] = now
+            state["cycle_start_equity_eur"] = state["starting_balance_eur"]
+            state.setdefault("cycle_number", _next_cycle_number_from_history())
 
         actions.append({"action": "buy", **state["positions"][key]})
 
     return actions
+
+
+def _load_challenge_history():
+    import json
+    import os
+    path = config.CHALLENGE_HISTORY_FILE
+    if not os.path.exists(path):
+        return []
+    with open(path, "r", encoding="utf-8") as f:
+        content = f.read()
+    return json.loads(content) if content.strip() else []
+
+
+def _save_challenge_history(history):
+    import json
+    import os
+    os.makedirs(os.path.dirname(config.CHALLENGE_HISTORY_FILE), exist_ok=True)
+    with open(config.CHALLENGE_HISTORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(history, f, indent=2, ensure_ascii=False)
+
+
+def _next_cycle_number_from_history():
+    try:
+        history = _load_challenge_history()
+    except Exception:
+        traceback.print_exc()
+        return 1
+    return max([h.get("challenge_number", 0) for h in history] + [0]) + 1
+
+
+def _migrate_state(state, eur_rate):
+    """Migrações idempotentes do estado, aplicadas logo a seguir a load_portfolio().
+
+    1) Ciclos contínuos (pedido do Ricardo 2026-09-24, ver config.CONTINUOUS_CYCLES): um estado
+       já ativo ganha os campos do ciclo atual (número, início, equity inicial do ciclo).
+    2) Saldo inicial em USD (pedido do Ricardo 2026-09-24, ver config.STARTING_BALANCE_USD): o
+       saldo inicial passa a ser exatamente STARTING_BALANCE_USD, convertido para EUR à taxa
+       desta corrida. Se o estado já estiver em curso, TUDO o que está em EUR (caixa, posições
+       abertas, trades fechados) é multiplicado pelo mesmo fator — as quantidades mudam, os
+       preços não, por isso todas as percentagens de ganho/perda ficam exatamente iguais.
+       Não é um reset: as mesmas trades e as mesmas posições continuam.
+    """
+    if state["status"] == "active" and "cycle_number" not in state:
+        state["cycle_number"] = _next_cycle_number_from_history()
+        state["cycle_start_ts"] = state.get("start_ts")
+        state["cycle_start_equity_eur"] = state["starting_balance_eur"]
+
+    usd = getattr(config, "STARTING_BALANCE_USD", None)
+    if not usd or state.get("starting_balance_usd") == usd or not eur_rate:
+        return
+    target_eur = usd * eur_rate
+    old_eur = state["starting_balance_eur"]
+    factor = target_eur / old_eur if old_eur else 1.0
+
+    state["cash_eur"] *= factor
+    state["starting_balance_eur"] = target_eur
+    if state.get("cycle_start_equity_eur") is not None:
+        state["cycle_start_equity_eur"] *= factor
+    for pos in state["positions"].values():
+        pos["qty"] *= factor
+        pos["cost_eur"] *= factor
+    for t in state["closed_trades"]:
+        for k in ("qty", "cost_eur", "proceeds_eur", "pnl_eur"):
+            if t.get(k) is not None:
+                t[k] *= factor
+    state["starting_balance_usd"] = usd
+    state["usd_rebase"] = {"ts": time.time(), "factor": factor, "usd_to_eur_rate": eur_rate}
+
+
+def _close_cycle(state, now):
+    """Fim de um ciclo de CHALLENGE_DURATION_DAYS em modo contínuo: NÃO liquida nem reinicia
+    nada. Arquiva o resumo do ciclo (com os trades fechados nele) em challenge_history.json,
+    abre logo o ciclo seguinte com as mesmas posições/saldo e reavalia o disjuntor de capital.
+    Devolve o relatório do ciclo (type == "cycle_checkpoint") para o Telegram."""
+    equity = _equity(state)
+    cycle_start_ts = state.get("cycle_start_ts") or state["start_ts"]
+    cycle_start_equity = state.get("cycle_start_equity_eur") or state["starting_balance_eur"]
+    cycle_trades = [t for t in state["closed_trades"] if t.get("exit_ts", 0) >= cycle_start_ts]
+    wins = sum(1 for t in cycle_trades if t.get("pnl_eur", 0) > 0)
+    report = {
+        "type": "cycle_checkpoint",
+        "challenge_number": state.get("cycle_number", 1),
+        "start_ts": cycle_start_ts,
+        "end_ts": now,
+        "starting_balance_eur": cycle_start_equity,
+        "final_balance_eur": equity,
+        "pnl_eur": equity - cycle_start_equity,
+        "pnl_pct": (equity / cycle_start_equity - 1) * 100 if cycle_start_equity else 0,
+        "inception_balance_eur": state["starting_balance_eur"],
+        "inception_pnl_pct": (equity / state["starting_balance_eur"] - 1) * 100,
+        "num_trades": len(cycle_trades),
+        "win_rate_pct": (wins / len(cycle_trades) * 100) if cycle_trades else 0.0,
+        "open_positions_carried": [p["symbol"] for p in state["positions"].values()],
+        "closed_trades": cycle_trades,
+    }
+    history = _load_challenge_history()
+    history.append(report)
+    _save_challenge_history(history)
+
+    keep_after = now - config.CYCLE_KEEP_RECENT_TRADES_HOURS * 3600
+    state["closed_trades"] = [t for t in state["closed_trades"] if t.get("exit_ts", 0) >= keep_after]
+    state["cycle_number"] = report["challenge_number"] + 1
+    state["cycle_start_ts"] = now
+    state["cycle_start_equity_eur"] = equity
+    state["end_ts"] = now + config.CHALLENGE_DURATION_DAYS * 86400
+    state["capital_protection_active"] = False
+    return report
 
 
 def _process_exits(state, now, eur_rate):
@@ -435,11 +557,14 @@ def _process_exits(state, now, eur_rate):
     """
     _reprice_positions(state, eur_rate)
 
-    force_all = state["status"] == "active" and state["end_ts"] is not None and now >= state["end_ts"]
+    cycle_over = state["status"] == "active" and state["end_ts"] is not None and now >= state["end_ts"]
+    force_all = cycle_over and not config.CONTINUOUS_CYCLES
     exit_actions = _check_exits(state, now, force_all=force_all)
 
     final_report = None
-    if force_all:
+    if cycle_over and config.CONTINUOUS_CYCLES:
+        final_report = _close_cycle(state, now)
+    elif force_all:
         state["status"] = "finished"
         final_equity = state["cash_eur"]  # tudo já foi liquidado em _check_exits
         final_report = {
@@ -463,6 +588,7 @@ def run_portfolio_cycle(ranked_candidates, eur_rate):
     """
     state = load_portfolio()
     now = time.time()
+    _migrate_state(state, eur_rate)
     # guarda a taxa de câmbio desta corrida, para as mensagens Telegram (USD) e o /status
     # (que não volta a chamar a API de câmbio) terem sempre uma taxa recente para converter
     state["last_eur_rate"] = eur_rate
@@ -474,7 +600,7 @@ def run_portfolio_cycle(ranked_candidates, eur_rate):
     exit_actions, final_report = _process_exits(state, now, eur_rate)
 
     entry_actions = []
-    if final_report is None:
+    if final_report is None or final_report.get("type") == "cycle_checkpoint":
         for c in ranked_candidates:
             c["_eur_rate"] = eur_rate
         entry_actions = _check_entries(state, ranked_candidates, now)
@@ -497,6 +623,8 @@ def run_exit_check_cycle(eur_rate):
 
     if state["status"] != "active" or not state["positions"]:
         return state, [], None
+
+    _migrate_state(state, eur_rate)
 
     # guarda a taxa de câmbio desta corrida, para as mensagens Telegram (USD) e o /status
     # (que não volta a chamar a API de câmbio) terem sempre uma taxa recente para converter

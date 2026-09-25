@@ -30,6 +30,13 @@ def _fmt_venue(v):
     return f", via {v}" if v else ""
 
 
+def _fmt_catalyst(tags):
+    """Etiquetas de catalisador fundamental na compra (2026-09-25, ver catalysts.py)."""
+    if not tags:
+        return ""
+    return " 📰 " + ", ".join(t.replace("_", " ") for t in tags)
+
+
 def _fmt_contract(address):
     """Endereço do contrato a mostrar na listagem de posições abertas — pedido do Ricardo
     2026-09-14. O chamador já resolve o endereço a passar: o próprio "id" da posição para
@@ -127,9 +134,12 @@ def format_portfolio_message(state, actions, eur_rate=None):
     lines = ["💼 *Virtual Portfolio Challenge (100% simulated, real data)*"]
 
     if state["status"] == "active":
-        days_elapsed = (time.time() - state["start_ts"]) / 86400
+        # Ciclos contínuos (2026-09-24): o dia conta desde o início do ciclo ATUAL
+        cycle_start = state.get("cycle_start_ts") or state["start_ts"]
+        days_elapsed = (time.time() - cycle_start) / 86400
         days_total = config.CHALLENGE_DURATION_DAYS
-        lines.append(f"📅 Day {days_elapsed:.1f} / {days_total}")
+        cycle_part = f"Cycle {state['cycle_number']} · " if state.get("cycle_number") else ""
+        lines.append(f"📅 {cycle_part}Day {days_elapsed:.1f} / {days_total}")
     elif state["status"] == "finished":
         lines.append("🏁 *Challenge complete.*")
 
@@ -147,7 +157,7 @@ def format_portfolio_message(state, actions, eur_rate=None):
         f"Open positions ({len(state['positions'])}): {_fmt_usd_amount(open_value / rate)}"
     )
     if state.get("capital_protection_active"):
-        lines.append("   🛑 Capital protection active — no new entries until the challenge ends")
+        lines.append("   🛑 Capital protection active — no new entries until the next cycle")
 
     for key, pos in state["positions"].items():
         chg = (pos.get("last_price_eur", pos["entry_price_eur"]) / pos["entry_price_eur"] - 1) * 100
@@ -167,6 +177,7 @@ def format_portfolio_message(state, actions, eur_rate=None):
             lines.append(
                 f"   {a['symbol']}: {_fmt_usd_amount(a['cost_eur'] / rate)} "
                 f"(MC {_fmt_usd(a.get('entry_market_cap'))}{_fmt_venue(a.get('entry_venue'))})"
+                f"{_fmt_catalyst(a.get('entry_catalyst_tags'))}"
             )
 
     if sells:
@@ -180,7 +191,31 @@ def format_portfolio_message(state, actions, eur_rate=None):
     return "\n".join(lines)
 
 
+def format_cycle_checkpoint(state, report, eur_rate=None):
+    """Fim de um ciclo em modo contínuo (config.CONTINUOUS_CYCLES, pedido do Ricardo
+    2026-09-24): resumo do ciclo, sem liquidação nem reset — o ciclo seguinte arranca logo."""
+    rate = _eur_rate_for(state, eur_rate)
+    carried = report.get("open_positions_carried") or []
+    lines = [
+        f"🔄 *CYCLE {report['challenge_number']} CLOSED — {config.CHALLENGE_DURATION_DAYS}-day review checkpoint*",
+        "",
+        f"💵 Cycle start: {_fmt_usd_amount(report['starting_balance_eur'] / rate)}",
+        f"💵 Cycle end: {_fmt_usd_amount(report['final_balance_eur'] / rate)}",
+        f"📊 Cycle result: {report['pnl_eur'] / rate:+.2f} USD ({report['pnl_pct']:+.1f}%)",
+        f"📈 Since inception: {report['inception_pnl_pct']:+.1f}%",
+        f"🔁 Closed trades this cycle: {report['num_trades']} (win rate {report['win_rate_pct']:.0f}%)",
+        f"📂 Positions carried over: {', '.join(carried) if carried else 'none'}",
+        "",
+        f"No liquidation, no reset — cycle {report['challenge_number'] + 1} starts now with the same "
+        "balance and positions. Lessons from this cycle feed the next strategy review.",
+    ]
+    lines.append(DISCLAIMER)
+    return "\n".join(lines)
+
+
 def format_final_report(state, report, eur_rate=None):
+    if report.get("type") == "cycle_checkpoint":
+        return format_cycle_checkpoint(state, report, eur_rate)
     rate = _eur_rate_for(state, eur_rate)
     lines = [
         "🏁 *CHALLENGE OVER — 10-day result*",
@@ -196,6 +231,27 @@ def format_final_report(state, report, eur_rate=None):
         lines.append(f"• {t['symbol']} ({t['tier']}): {t['pnl_pct']:+.1f}% — {t['exit_reason']}")
 
     lines.append(DISCLAIMER)
+    return "\n".join(lines)
+
+
+def format_pump_watch_review(state, review, eur_rate=None):
+    """Fecho de um ciclo de revisão do Pump Watch (pedido do Ricardo 2026-09-24) — o sistema
+    continua com o mesmo saldo e posições; o resumo alimenta a revisão diária da estratégia."""
+    rate = _eur_rate_for(state, eur_rate)
+    carried = review.get("open_positions_carried") or []
+    trigger = (f"{config.PUMP_WATCH_REVIEW_AFTER_TRADES} closed trades" if review["trigger"] == "trades"
+               else f"{config.PUMP_WATCH_REVIEW_AFTER_DAYS} days")
+    lines = [
+        f"🔬 *Pump Watch — review cycle {review['number']} closed* ({trigger})",
+        "",
+        f"🔁 Closed trades: {review['num_trades']} (win rate {review['win_rate_pct']:.0f}%, "
+        f"avg {review['avg_pnl_pct']:+.1f}%)",
+        f"💵 Total: {_fmt_usd_amount(review['start_total_eur'] / rate)} → {_fmt_usd_amount(review['end_total_eur'] / rate)}",
+        f"📂 Positions carried over: {', '.join(carried) if carried else 'none'}",
+        "",
+        f"No reset — review cycle {review['number'] + 1} starts now. The strategy review uses this "
+        "data to decide whether the accumulation thresholds should change.",
+    ]
     return "\n".join(lines)
 
 
@@ -247,6 +303,7 @@ def format_pump_watch_message(state, actions, eur_rate=None):
             lines.append(
                 f"   {a['symbol']}: {_fmt_usd_amount(a['cost_eur'] / rate)} "
                 f"(MC {_fmt_usd(a.get('entry_market_cap'))}{_fmt_venue(a.get('entry_venue'))})"
+                f"{_fmt_catalyst(a.get('entry_catalyst_tags'))}"
             )
 
     if sells:
