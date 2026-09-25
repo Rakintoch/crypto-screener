@@ -15,8 +15,8 @@
       "entry_price_eur": 0.022905754472206465,
       "entry_ts": 1790305929.8991935,
       "cost_eur": 108.9900878899029,
-      "last_price_eur": 0.022126353535771665,
-      "last_score": 64.6,
+      "last_price_eur": 0.02229991546629106,
+      "last_score": 64.7,
       "missed_updates": 0,
       "entry_market_cap": 24121985,
       "entry_venue": "Uniswap V4 (Arc) (on-chain)",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 23568182
+      "last_market_cap": 23748777
     },
     "cex_small_cap:aurora-near": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.07649996281821653,
       "entry_ts": 1790305929.8991935,
       "cost_eur": 108.9900878899029,
-      "last_price_eur": 0.07369572926892874,
-      "last_score": 45.0,
+      "last_price_eur": 0.07407724767225517,
+      "last_score": 47.5,
       "missed_updates": 0,
       "entry_market_cap": 64278012,
       "entry_venue": null,
@@ -65,7 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 62143780
+      "last_market_cap": 62188852
     },
     "cex_small_cap:pha": {
       "tier": "cex_small_cap",
@@ -77,8 +77,8 @@
       "entry_price_eur": 0.05112497244759663,
       "entry_ts": 1790328055.8453162,
       "cost_eur": 111.30147217657041,
-      "last_price_eur": 0.06852725452996758,
-      "last_score": 93.1,
+      "last_price_eur": 0.0683642163115751,
+      "last_score": 93.0,
       "missed_updates": 0,
       "entry_market_cap": 49432951,
       "entry_venue": "Binance",
@@ -96,7 +96,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 67048087,
+      "last_market_cap": 66739221,
       "trailing_active": true,
       "trailing_peak_eur": 0.06878179806397643
     },
@@ -110,8 +110,8 @@
       "entry_price_eur": 0.01129657028997995,
       "entry_ts": 1790342875.0387485,
       "cost_eur": 113.39393598218363,
-      "last_price_eur": 0.011233979460498457,
-      "last_score": 63.0,
+      "last_price_eur": 0.01086977263498974,
+      "last_score": 62.9,
       "missed_updates": 0,
       "entry_market_cap": 8552604,
       "entry_venue": "Binance",
@@ -129,7 +129,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 8495902
+      "last_market_cap": 8181919
     }
   },
   "closed_trades": [
@@ -1188,8 +1188,8 @@
       "pnl_pct": 9.077019484399777
     }
   ],
-  "last_run_ts": 1790349024.5869567,
-  "last_eur_rate": 0.8773509996539054,
+  "last_run_ts": 1790349327.7353272,
+  "last_eur_rate": 0.8774429981078268,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
