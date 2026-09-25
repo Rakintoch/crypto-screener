@@ -15,8 +15,8 @@
       "entry_price_eur": 0.048093093202112934,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.04849890447649639,
-      "last_score": 80.5,
+      "last_price_eur": 0.04887286436541955,
+      "last_score": 80.7,
       "missed_updates": 0,
       "entry_market_cap": 54763727,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 55160392
+      "last_market_cap": 55717209
     },
     "cex_small_cap:superrare": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.014864180906467031,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.013904616952067454,
+      "last_price_eur": 0.013898744216018383,
       "last_score": 75.7,
       "missed_updates": 0,
       "entry_market_cap": 13852167,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12976160
+      "last_market_cap": 13002517
     },
     "cex_small_cap:ark": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.20894781986945024,
       "entry_ts": 1790365763.747095,
       "cost_eur": 107.5985556032796,
-      "last_price_eur": 0.22512470224643297,
-      "last_score": 98.5,
+      "last_price_eur": 0.2218512370924721,
+      "last_score": 98.4,
       "missed_updates": 0,
       "entry_market_cap": 47578325,
       "entry_venue": "Upbit",
@@ -123,7 +123,7 @@
           "source": "CoinGape"
         }
       ],
-      "last_market_cap": 51087489
+      "last_market_cap": 50358974
     }
   },
   "closed_trades": [
@@ -1516,8 +1516,8 @@
       "pnl_pct": -10.024819088397283
     }
   ],
-  "last_run_ts": 1790378122.6539268,
-  "last_eur_rate": 0.8778400028326164,
+  "last_run_ts": 1790378420.567374,
+  "last_eur_rate": 0.8778400036896855,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
