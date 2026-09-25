@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 289.6188493111538,
+  "cash_eur": 388.4735701654287,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.048093093202112934,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.048078419046893604,
-      "last_score": 80.2,
+      "last_price_eur": 0.04849890447649639,
+      "last_score": 80.5,
       "missed_updates": 0,
       "entry_market_cap": 54763727,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 54791125
+      "last_market_cap": 55160392
     },
     "cex_small_cap:superrare": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.014864180906467031,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.01389353859151022,
-      "last_score": 75.6,
+      "last_price_eur": 0.013904616952067454,
+      "last_score": 75.7,
       "missed_updates": 0,
       "entry_market_cap": 13852167,
       "entry_venue": "Binance",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12970169
+      "last_market_cap": 12976160
     },
     "cex_small_cap:ark": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.20894781986945024,
       "entry_ts": 1790365763.747095,
       "cost_eur": 107.5985556032796,
-      "last_price_eur": 0.2276625373714615,
-      "last_score": 98.6,
+      "last_price_eur": 0.22512470224643297,
+      "last_score": 98.5,
       "missed_updates": 0,
       "entry_market_cap": 47578325,
       "entry_venue": "Upbit",
@@ -123,49 +123,7 @@
           "source": "CoinGape"
         }
       ],
-      "last_market_cap": 51811709
-    },
-    "cex_small_cap:pha": {
-      "tier": "cex_small_cap",
-      "id": "pha",
-      "symbol": "PHA",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/pha",
-      "qty": 1411.9833400345362,
-      "entry_price_eur": 0.0778117374998067,
-      "entry_ts": 1790377406.5505102,
-      "cost_eur": 109.86887700886764,
-      "last_price_eur": 0.07639402613806927,
-      "last_score": 70.1,
-      "missed_updates": 0,
-      "entry_market_cap": 76112591,
-      "entry_venue": "Binance",
-      "entry_contract_address": "0x6c5ba91642f10282b576d91922ae6448c9d52f4e (ETH)",
-      "entry_score": 100.0,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 228336166,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 12.3814,
-      "entry_chg_24h": 73.89161,
-      "entry_chg_7d": 199.6387,
-      "entry_chg_6h": null,
-      "entry_turnover": 2.999978886541913,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "restructuring"
-      ],
-      "entry_catalyst_score": 0.4,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Phala Network Migrates From Polkadot to Ethereum L2 - CoinMarketCap",
-          "ts": 1789590028.0,
-          "source": "CoinMarketCap"
-        }
-      ],
-      "last_market_cap": 74481994
+      "last_market_cap": 51087489
     }
   },
   "closed_trades": [
@@ -1508,10 +1466,58 @@
       "proceeds_eur": 117.35200408338092,
       "pnl_eur": 10.941351233242301,
       "pnl_pct": 10.282195381933557
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "pha",
+      "symbol": "PHA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/pha",
+      "qty": 1411.9833400345362,
+      "entry_price_eur": 0.0778117374998067,
+      "entry_ts": 1790377406.5505102,
+      "cost_eur": 109.86887700886764,
+      "last_price_eur": 0.0700112515859125,
+      "last_score": 70.0,
+      "missed_updates": 0,
+      "entry_market_cap": 76112591,
+      "entry_venue": "Binance",
+      "entry_contract_address": "0x6c5ba91642f10282b576d91922ae6448c9d52f4e (ETH)",
+      "entry_score": 100.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 228336166,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 12.3814,
+      "entry_chg_24h": 73.89161,
+      "entry_chg_7d": 199.6387,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.999978886541913,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "restructuring"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Phala Network Migrates From Polkadot to Ethereum L2 - CoinMarketCap",
+          "ts": 1789590028.0,
+          "source": "CoinMarketCap"
+        }
+      ],
+      "last_market_cap": 68775547,
+      "exit_price_eur": 0.0700112515859125,
+      "exit_ts": 1790378122.6539268,
+      "exit_reason": "stop-loss hit (-10.0%)",
+      "proceeds_eur": 98.85472085427494,
+      "pnl_eur": -11.014156154592698,
+      "pnl_pct": -10.024819088397283
     }
   ],
-  "last_run_ts": 1790377820.1952589,
-  "last_eur_rate": 0.8778400015865472,
+  "last_run_ts": 1790378122.6539268,
+  "last_eur_rate": 0.8778400028326164,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,

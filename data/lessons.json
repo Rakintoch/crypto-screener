@@ -3208,5 +3208,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "BREW (cex_small_cap) lost -8.4% in 62 min (fast (1-6h)) — stop-loss hit. Entry score: 87 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790378122.6539268,
+    "symbol": "PHA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/pha",
+    "held_minutes": 11.9,
+    "exit_reason": "stop-loss hit (-10.0%)",
+    "pnl_pct": -10.02,
+    "pnl_eur": -11.01,
+    "entry_score": 100.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 228336166,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 12.3814,
+    "entry_chg_24h": 73.89161,
+    "entry_chg_7d": 199.6387,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.999978886541913,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "PHA (cex_small_cap) lost -10.0% in 12 min (very fast (<1h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
