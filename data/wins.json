@@ -1006,5 +1006,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "NIL (cex_small_cap) gained +18.4% in 2060 min — trailing stop caught extra upside after the target. Entry score: 100. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790305929.8991935,
+    "symbol": "NPC",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/BRjMA8UALNp3diTKHfdeAn5riQrYPoaYez7KhYWD4oEs",
+    "held_minutes": 251.7,
+    "exit_reason": "trailing stop hit — dropped 15.4% from the peak (peak +188.2% since entry)",
+    "pnl_pct": 143.72,
+    "pnl_eur": 132.98,
+    "entry_score": 83.8,
+    "entry_liquidity_usd": 91101.3288,
+    "entry_volume_24h_usd": 4433152.63108222,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 27.806,
+    "entry_chg_24h": 1579.797,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 105.275,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 48.661777928778356,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 1229.8526747833334,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "NPC (dex_micro_cap) gained +143.7% in 252 min — trailing stop caught extra upside after the target. Entry liquidity: $91,101. Entry score: 84. Entry security: no obvious red flags."
   }
 ]
