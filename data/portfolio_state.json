@@ -15,7 +15,7 @@
       "entry_price_eur": 0.022905754472206465,
       "entry_ts": 1790305929.8991935,
       "cost_eur": 108.9900878899029,
-      "last_price_eur": 0.02124599342167853,
+      "last_price_eur": 0.02115012096866735,
       "last_score": 54.6,
       "missed_updates": 0,
       "entry_market_cap": 24121985,
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 22538650
+      "last_market_cap": 22514094
     },
     "cex_small_cap:aurora-near": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.07649996281821653,
       "entry_ts": 1790305929.8991935,
       "cost_eur": 108.9900878899029,
-      "last_price_eur": 0.07185657945353673,
-      "last_score": 41.1,
+      "last_price_eur": 0.07156626067822501,
+      "last_score": 41.9,
       "missed_updates": 0,
       "entry_market_cap": 64278012,
       "entry_venue": null,
@@ -65,7 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 60398958
+      "last_market_cap": 60154639
     }
   },
   "closed_trades": [
@@ -1200,8 +1200,8 @@
       "pnl_pct": 24.865047367911913
     }
   ],
-  "last_run_ts": 1790354724.6753678,
-  "last_eur_rate": 0.8775089996401959,
+  "last_run_ts": 1790355024.4358358,
+  "last_eur_rate": 0.8775859995613069,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
