@@ -15,8 +15,8 @@
       "entry_price_eur": 0.022905754472206465,
       "entry_ts": 1790305929.8991935,
       "cost_eur": 108.9900878899029,
-      "last_price_eur": 0.021364999727859896,
-      "last_score": 55.6,
+      "last_price_eur": 0.021412130484838962,
+      "last_score": 55.8,
       "missed_updates": 0,
       "entry_market_cap": 24121985,
       "entry_venue": "Uniswap V4 (Arc) (on-chain)",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 22808539
+      "last_market_cap": 22771307
     }
   },
   "closed_trades": [
@@ -1206,8 +1206,8 @@
       "pnl_pct": -8.920515553790006
     }
   ],
-  "last_run_ts": 1790357443.2840443,
-  "last_eur_rate": 0.8779770048454097,
+  "last_run_ts": 1790357717.1774156,
+  "last_eur_rate": 0.8779900041635368,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
