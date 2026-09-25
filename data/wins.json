@@ -1084,5 +1084,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "PHA (cex_small_cap) gained +24.9% in 394 min — trailing stop caught extra upside after the target. Entry score: 90. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790377406.5505102,
+    "symbol": "BUN",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/bundle-cat",
+    "held_minutes": 120.5,
+    "exit_reason": "trailing stop hit — dropped 12.8% from the peak (peak +26.5% since entry)",
+    "pnl_pct": 10.28,
+    "pnl_eur": 10.94,
+    "entry_score": 80.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 3532684,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 13.0744,
+    "entry_chg_24h": 81.23218,
+    "entry_chg_7d": 25.1693,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.2563615164403534,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "BUN (cex_small_cap) gained +10.3% in 120 min — trailing stop caught extra upside after the target. Entry score: 80. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
