@@ -1058,5 +1058,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "ARK (cex_small_cap) gained +9.1% in 398 min — trailing stop caught extra upside after the target. Entry score: 83. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790351716.7200916,
+    "symbol": "PHA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/pha",
+    "held_minutes": 394.3,
+    "exit_reason": "trailing stop hit — dropped 7.3% from the peak (peak +34.7% since entry)",
+    "pnl_pct": 24.87,
+    "pnl_eur": 27.68,
+    "entry_score": 90.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 67376865,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.3836,
+    "entry_chg_24h": 24.35465,
+    "entry_chg_7d": 88.405,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.3629949990240315,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "PHA (cex_small_cap) gained +24.9% in 394 min — trailing stop caught extra upside after the target. Entry score: 90. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
