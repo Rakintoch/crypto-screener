@@ -15,8 +15,8 @@
       "entry_price_eur": 0.022905754472206465,
       "entry_ts": 1790305929.8991935,
       "cost_eur": 124.24685638122554,
-      "last_price_eur": 0.022625370972500503,
-      "last_score": 56.3,
+      "last_price_eur": 0.022431749378209038,
+      "last_score": 55.7,
       "missed_updates": 0,
       "entry_market_cap": 24121985,
       "entry_venue": "Uniswap V4 (Arc) (on-chain)",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 24085619
+      "last_market_cap": 23895977
     },
     "cex_small_cap:aurora-near": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.07649996281821653,
       "entry_ts": 1790305929.8991935,
       "cost_eur": 124.24685638122554,
-      "last_price_eur": 0.0754515309094851,
-      "last_score": 74.2,
+      "last_price_eur": 0.07940063431582639,
+      "last_score": 59.3,
       "missed_updates": 0,
       "entry_market_cap": 64278012,
       "entry_venue": null,
@@ -65,7 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 63475040
+      "last_market_cap": 66861679
     },
     "cex_small_cap:pha": {
       "tier": "cex_small_cap",
@@ -77,8 +77,8 @@
       "entry_price_eur": 0.05112497244759663,
       "entry_ts": 1790328055.8453162,
       "cost_eur": 126.88179536574584,
-      "last_price_eur": 0.0519420156755016,
-      "last_score": 90.4,
+      "last_price_eur": 0.0628469933001611,
+      "last_score": 99.8,
       "missed_updates": 0,
       "entry_market_cap": 49432951,
       "entry_venue": "Binance",
@@ -96,7 +96,9 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 50118787
+      "last_market_cap": 61397792,
+      "trailing_active": true,
+      "trailing_peak_eur": 0.0628469933001611
     }
   },
   "closed_trades": [
@@ -1155,7 +1157,7 @@
       "pnl_pct": 9.077019484399777
     }
   ],
-  "last_run_ts": 1790329808.5317767,
-  "last_eur_rate": 0.8780069926047025,
+  "last_run_ts": 1790341843.9336348,
+  "last_eur_rate": 0.8771999902318528,
   "last_rotation_ts": 1790328055.8453162
 }
