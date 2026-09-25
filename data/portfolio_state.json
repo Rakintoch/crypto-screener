@@ -15,8 +15,8 @@
       "entry_price_eur": 0.022905754472206465,
       "entry_ts": 1790305929.8991935,
       "cost_eur": 108.9900878899029,
-      "last_price_eur": 0.02115012096866735,
-      "last_score": 54.6,
+      "last_price_eur": 0.02138111154504232,
+      "last_score": 54.5,
       "missed_updates": 0,
       "entry_market_cap": 24121985,
       "entry_venue": "Uniswap V4 (Arc) (on-chain)",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 22514094
+      "last_market_cap": 22763302
     },
     "cex_small_cap:aurora-near": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.07649996281821653,
       "entry_ts": 1790305929.8991935,
       "cost_eur": 108.9900878899029,
-      "last_price_eur": 0.07156626067822501,
-      "last_score": 41.9,
+      "last_price_eur": 0.07081098991911855,
+      "last_score": 39.2,
       "missed_updates": 0,
       "entry_market_cap": 64278012,
       "entry_venue": null,
@@ -65,7 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 60154639
+      "last_market_cap": 59598783
     }
   },
   "closed_trades": [
@@ -1200,8 +1200,8 @@
       "pnl_pct": 24.865047367911913
     }
   ],
-  "last_run_ts": 1790355024.4358358,
-  "last_eur_rate": 0.8775859995613069,
+  "last_run_ts": 1790355353.1975868,
+  "last_eur_rate": 0.8776879971134811,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
