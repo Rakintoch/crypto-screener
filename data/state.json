@@ -195,8 +195,8 @@
     "symbol": "STG"
   },
   "cex_small_cap:joe": {
-    "last_alert_ts": 1790342874.419037,
-    "last_score": 57.6,
+    "last_alert_ts": 1790348355.427129,
+    "last_score": 73.6,
     "symbol": "JOE"
   },
   "cex_small_cap:coin98": {
@@ -205,8 +205,8 @@
     "symbol": "C98"
   },
   "dex_micro_cap:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
-    "last_alert_ts": 1790279278.397463,
-    "last_score": 65.3,
+    "last_alert_ts": 1790348355.427129,
+    "last_score": 61.7,
     "symbol": "JEANPHIL"
   },
   "cex_small_cap:cat-processing-unit": {
@@ -250,8 +250,8 @@
     "symbol": "CLANKER"
   },
   "cex_small_cap:mubarak": {
-    "last_alert_ts": 1790218559.4437497,
-    "last_score": 58.5,
+    "last_alert_ts": 1790348355.427129,
+    "last_score": 83.2,
     "symbol": "MUBARAK"
   },
   "cex_small_cap:niu-lai": {
@@ -950,8 +950,8 @@
     "symbol": "AA"
   },
   "cex_small_cap:harmonic-agent": {
-    "last_alert_ts": 1790260682.944326,
-    "last_score": 66.1,
+    "last_alert_ts": 1790348355.427129,
+    "last_score": 56.2,
     "symbol": "HARMONIC"
   },
   "cex_small_cap:centrifuge-2": {
@@ -1160,8 +1160,8 @@
     "symbol": "QUICK"
   },
   "dex_micro_cap:5g9PWcRUHpmqm5uKycpShKXJB18sGLeCEzgB3qrRpump": {
-    "last_alert_ts": 1790342874.419037,
-    "last_score": 79.0,
+    "last_alert_ts": 1790348355.427129,
+    "last_score": 100.0,
     "symbol": "SWARM"
   },
   "cex_small_cap:huma-finance": {
@@ -1190,8 +1190,8 @@
     "symbol": "DIA"
   },
   "cex_small_cap:moonbeam": {
-    "last_alert_ts": 1790342874.419037,
-    "last_score": 56.7,
+    "last_alert_ts": 1790348355.427129,
+    "last_score": 77.1,
     "symbol": "GLMR"
   },
   "cex_small_cap:wealth-and-prosperity-2": {
@@ -1203,5 +1203,10 @@
     "last_alert_ts": 1790342874.419037,
     "last_score": 55.4,
     "symbol": "VTHO"
+  },
+  "cex_small_cap:costco-robinhood-tokenized-stock": {
+    "last_alert_ts": 1790348355.427129,
+    "last_score": 61.0,
+    "symbol": "COST"
   }
 }
