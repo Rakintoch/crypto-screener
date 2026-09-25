@@ -15,8 +15,8 @@
       "entry_price_eur": 0.022905754472206465,
       "entry_ts": 1790305929.8991935,
       "cost_eur": 108.9900878899029,
-      "last_price_eur": 0.02211401563345283,
-      "last_score": 64.6,
+      "last_price_eur": 0.02211803112246864,
+      "last_score": 64.5,
       "missed_updates": 0,
       "entry_market_cap": 24121985,
       "entry_venue": "Uniswap V4 (Arc) (on-chain)",
@@ -34,7 +34,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 23561872
+      "last_market_cap": 23555810
     },
     "cex_small_cap:aurora-near": {
       "tier": "cex_small_cap",
@@ -46,8 +46,8 @@
       "entry_price_eur": 0.07649996281821653,
       "entry_ts": 1790305929.8991935,
       "cost_eur": 108.9900878899029,
-      "last_price_eur": 0.07491992018962539,
-      "last_score": 52.7,
+      "last_price_eur": 0.07397636453205614,
+      "last_score": 56.1,
       "missed_updates": 0,
       "entry_market_cap": 64278012,
       "entry_venue": null,
@@ -65,7 +65,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 63160791
+      "last_market_cap": 62234442
     },
     "cex_small_cap:pha": {
       "tier": "cex_small_cap",
@@ -77,7 +77,7 @@
       "entry_price_eur": 0.05112497244759663,
       "entry_ts": 1790328055.8453162,
       "cost_eur": 111.30147217657041,
-      "last_price_eur": 0.06704949864886461,
+      "last_price_eur": 0.06416016540550346,
       "last_score": 93.0,
       "missed_updates": 0,
       "entry_market_cap": 49432951,
@@ -96,7 +96,7 @@
       "entry_boosted": null,
       "entry_pool_age_minutes": null,
       "entry_base_breakout": null,
-      "last_market_cap": 65460055,
+      "last_market_cap": 63117062,
       "trailing_active": true,
       "trailing_peak_eur": 0.06887506708996828
     }
@@ -1194,8 +1194,8 @@
       "pnl_pct": -8.68646770108998
     }
   ],
-  "last_run_ts": 1790350517.775416,
-  "last_eur_rate": 0.8774160023144669,
+  "last_run_ts": 1790350822.9765677,
+  "last_eur_rate": 0.8773079923632758,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
