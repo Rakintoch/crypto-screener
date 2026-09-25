@@ -1,7 +1,7 @@
 {
   "status": "active",
   "start_ts": 1789402186.9931946,
-  "cash_eur": 4.148179948336399,
+  "cash_eur": 35.551934068704895,
   "reserve_eur": 1.2705007629052347,
   "starting_balance_eur": 100.0,
   "positions": {
@@ -12,25 +12,11 @@
       "entry_price_eur": 436.85462126479916,
       "entry_ts": 1789402186.9931946,
       "cost_eur": 33.33333333333333,
-      "last_price_eur": 449.67856732898065,
+      "last_price_eur": 450.37236143403436,
       "peak_price_eur": 454.434,
       "entry_market_cap": 1183197,
-      "last_market_cap": 2128994,
+      "last_market_cap": 2133536,
       "entry_venue": "Uniswap V3 (Base) (on-chain)"
-    },
-    "cex_small_cap:spacex-coinbase-tokenized-stock": {
-      "id": "spacex-coinbase-tokenized-stock",
-      "symbol": "SPCXC",
-      "qty": 0.24420641623577644,
-      "entry_price_eur": 133.33919983775917,
-      "entry_ts": 1789636198.3232305,
-      "cost_eur": 32.56228813612519,
-      "last_price_eur": 128.8091026146459,
-      "peak_price_eur": 142.9496,
-      "entry_market_cap": 1177042,
-      "last_market_cap": 1680525,
-      "entry_venue": null,
-      "entry_contract_address": null
     },
     "cex_small_cap:invesco-qqq-trust-bstocks-tokenized-stock": {
       "id": "invesco-qqq-trust-bstocks-tokenized-stock",
@@ -39,10 +25,10 @@
       "entry_price_eur": 646.4835296498289,
       "entry_ts": 1790061333.5601404,
       "cost_eur": 35.03820163382602,
-      "last_price_eur": 649.8426681646899,
+      "last_price_eur": 650.0008973366645,
       "peak_price_eur": 654.4701730165765,
       "entry_market_cap": 1379268,
-      "last_market_cap": 1379047,
+      "last_market_cap": 1379445,
       "entry_venue": null,
       "entry_contract_address": null
     }
@@ -68,8 +54,29 @@
       "pnl_eur": 6.352503814526173,
       "pnl_pct": 19.05398715157488,
       "reserved_eur": 1.2705007629052347
+    },
+    {
+      "id": "spacex-coinbase-tokenized-stock",
+      "symbol": "SPCXC",
+      "qty": 0.24420641623577644,
+      "entry_price_eur": 133.33919983775917,
+      "entry_ts": 1789636198.3232305,
+      "cost_eur": 32.56228813612519,
+      "last_price_eur": 128.5951229473381,
+      "peak_price_eur": 142.9496,
+      "entry_market_cap": 1177042,
+      "last_market_cap": 1679098,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "exit_price_eur": 128.5951229473381,
+      "exit_ts": 1790346638.111268,
+      "exit_reason": "trailing stop hit — dropped 10.0% from peak",
+      "proceeds_eur": 31.403754120368493,
+      "pnl_eur": -1.1585340157566968,
+      "pnl_pct": -3.5579011244956043,
+      "reserved_eur": 0.0
     }
   ],
-  "last_run_ts": 1790346317.4383938,
-  "last_eur_rate": 0.8770280017338182
+  "last_run_ts": 1790346638.111268,
+  "last_eur_rate": 0.877063995002988
 }
