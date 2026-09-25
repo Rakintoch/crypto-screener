@@ -164,6 +164,29 @@ POSITION_SIZE_PCT_OF_EQUITY = 0.25   # fallback para camadas sem valor específi
 POSITION_SIZE_PCT_BY_TIER = {"cex_small_cap": 0.15, "dex_micro_cap": 0.12}
 MIN_TRADE_EUR = 5.0                  # não abre/fecha posições de valor residual
 
+# Autoanálise 2026-09-24 (85 trades cex_small_cap fechados nas duas challenges até agora, 12
+# dos quais com a venue de entrada resolvida como uma pool on-chain — Uniswap/PancakeSwap/etc.
+# — em vez de uma exchange centralizada real, apesar de classificados como cex_small_cap): esse
+# subgrupo teve pnl médio de -13,26% (33,3% win rate) contra -5,74% (20,0% win rate) do subgrupo
+# com venue confirmada como CEX real (n=30) — mas a diferença não vem do trade típico (excluindo
+# os 2 piores casos, o on-chain fica em -1,16% médio e 50% win rate, MELHOR que o CEX real):
+# vem de uma cauda que o CEX real nunca produziu. As duas piores perdas de sempre em
+# cex_small_cap, em ambos os desafios, são AMBAS on-chain (AIN -80,1% via PancakeSwap V3/BSC,
+# ASTRO -67,4% via Uniswap V2/Robinhood) — nenhum trade com venue CEX real confirmada (n=30, em
+# qualquer desafio) alguma vez ultrapassou -35,5% (G, Upbit). É o mesmo padrão de "queda que
+# nenhum stop-loss capta a tempo" já identificado para cex_small_cap em geral (autoanálise
+# 2026-09-18), mas muito mais extremo aqui — uma pool on-chain fina pode ser drenada/rugada de
+# um jeito que um par CEX líquido não permite. sources_coingecko.fetch_top_venue já deteta isto
+# (sufixo "(on-chain)"), mas até agora só era chamado para citar a venue no Telegram, nunca para
+# ajustar o risco assumido (ver portfolio._check_entries). Aplica-se a mesma lógica já usada
+# duas vezes antes (dex_micro_cap 2026-08-30, cex_small_cap geral 2026-09-18): quando o risco de
+# cauda medido excede o que o tamanho de posição atual pressupõe, reduz-se esse tamanho na
+# proporção do excesso (-35,5% / -73,8% [média de AIN e ASTRO] ≈ 0,48 -> 15% * 0,48 ≈ 7%), em
+# vez de banir a categoria por completo (o caso típico, fora da cauda, compensa manter a
+# exposição). Amostra pequena para a própria cauda (2 casos em 12) — a vigiar em revisões
+# futuras, tal como o corte de entry_chg_1h introduzido no mesmo dia.
+CEX_ONCHAIN_VENUE_POSITION_SIZE_PCT = 0.07
+
 # Score mínimo para COMPRAR de facto (mais exigente que o limiar de alerta, porque aqui
 # está a comprometer-se capital, ainda que virtual)
 ENTRY_MIN_SCORE = 65
