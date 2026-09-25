@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 287.49737225918636,
+  "cash_eur": 388.5463750867791,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.048093093202112934,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.047936684014663236,
-      "last_score": 73.0,
+      "last_price_eur": 0.04775840704276658,
+      "last_score": 72.5,
       "missed_updates": 0,
       "entry_market_cap": 54763727,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 54561299
+      "last_market_cap": 54212451
     },
     "cex_small_cap:superrare": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.014864180906467031,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.014504383025809532,
+      "last_price_eur": 0.014450327439381091,
       "last_score": 68.7,
       "missed_updates": 0,
       "entry_market_cap": 13852167,
@@ -71,55 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 13561558
-    },
-    "cex_small_cap:brew": {
-      "tier": "cex_small_cap",
-      "id": "brew",
-      "symbol": "BREW",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/brew",
-      "qty": 8910.955442211016,
-      "entry_price_eur": 0.012384320203638126,
-      "entry_ts": 1790363004.6987317,
-      "cost_eur": 110.356125516693,
-      "last_price_eur": 0.01147960388593642,
-      "last_score": 68.3,
-      "missed_updates": 0,
-      "entry_market_cap": 13028305,
-      "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
-      "entry_contract_address": null,
-      "entry_score": 86.8,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 13466285,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 2.3296,
-      "entry_chg_24h": 144.37837,
-      "entry_chg_7d": 129.0706,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.0336175734295443,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "partnership",
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.30000000000000004,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Japanese Heatproof Glass Manufacturer HARIO Launches Two New Designs of Its Wine‑Bottle‑Shaped Cold‑Brew Bottle in the U.S. Market - Yahoo Finance",
-          "ts": 1790265600.0,
-          "source": "Yahoo Finance"
-        },
-        {
-          "title": "WestJet and Tim Hortons brew up a bold new partnership, bringing all-new Flight Roast signature coffee blend made with 100 per cent Premium Arabica to WestJet f",
-          "ts": 1789639200.0,
-          "source": "Yahoo Finance"
-        }
-      ],
-      "last_market_cap": 12077708
+      "last_market_cap": 13568290
     },
     "cex_small_cap:ark": {
       "tier": "cex_small_cap",
@@ -131,7 +83,7 @@
       "entry_price_eur": 0.20894781986945024,
       "entry_ts": 1790365763.747095,
       "cost_eur": 107.5985556032796,
-      "last_price_eur": 0.2109759868673611,
+      "last_price_eur": 0.21035392307852194,
       "last_score": 71.7,
       "missed_updates": 0,
       "entry_market_cap": 47578325,
@@ -171,7 +123,7 @@
           "source": "CoinGape"
         }
       ],
-      "last_market_cap": 48062115
+      "last_market_cap": 48073369
     }
   },
   "closed_trades": [
@@ -1418,10 +1370,64 @@
       "proceeds_eur": 100.81292648461795,
       "pnl_eur": -9.543199032075051,
       "pnl_pct": -8.64763871275229
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "brew",
+      "symbol": "BREW",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/brew",
+      "qty": 8910.955442211016,
+      "entry_price_eur": 0.012384320203638126,
+      "entry_ts": 1790363004.6987317,
+      "cost_eur": 110.356125516693,
+      "last_price_eur": 0.011339861755892713,
+      "last_score": 67.8,
+      "missed_updates": 0,
+      "entry_market_cap": 13028305,
+      "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
+      "entry_contract_address": null,
+      "entry_score": 86.8,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 13466285,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 2.3296,
+      "entry_chg_24h": 144.37837,
+      "entry_chg_7d": 129.0706,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.0336175734295443,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "partnership",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.30000000000000004,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Japanese Heatproof Glass Manufacturer HARIO Launches Two New Designs of Its Wine‑Bottle‑Shaped Cold‑Brew Bottle in the U.S. Market - Yahoo Finance",
+          "ts": 1790265600.0,
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "WestJet and Tim Hortons brew up a bold new partnership, bringing all-new Flight Roast signature coffee blend made with 100 per cent Premium Arabica to WestJet f",
+          "ts": 1789639200.0,
+          "source": "Yahoo Finance"
+        }
+      ],
+      "last_market_cap": 11907355,
+      "exit_price_eur": 0.011339861755892713,
+      "exit_ts": 1790366716.7987952,
+      "exit_reason": "stop-loss hit (-8.4%)",
+      "proceeds_eur": 101.04900282759273,
+      "pnl_eur": -9.307122689100268,
+      "pnl_pct": -8.433716429898066
     }
   ],
-  "last_run_ts": 1790366446.014726,
-  "last_eur_rate": 0.8774469910430377,
+  "last_run_ts": 1790366716.7987952,
+  "last_eur_rate": 0.8775569997935868,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
