@@ -130,8 +130,8 @@
     "symbol": "ALICE"
   },
   "cex_small_cap:clearpool": {
-    "last_alert_ts": 1790384577.6541798,
-    "last_score": 65.1,
+    "last_alert_ts": 1790427779.8214378,
+    "last_score": 59.9,
     "symbol": "CPOOL"
   },
   "cex_small_cap:bsquared-network": {
@@ -530,8 +530,8 @@
     "symbol": "BLUF"
   },
   "dex_micro_cap:8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA": {
-    "last_alert_ts": 1790260682.944326,
-    "last_score": 62.4,
+    "last_alert_ts": 1790427779.8214378,
+    "last_score": 64.3,
     "symbol": "CALI"
   },
   "cex_small_cap:ark": {
@@ -785,8 +785,8 @@
     "symbol": "OGN"
   },
   "cex_small_cap:gstock": {
-    "last_alert_ts": 1790355811.0542667,
-    "last_score": 59.7,
+    "last_alert_ts": 1790427779.8214378,
+    "last_score": 60.2,
     "symbol": "GSTOCK"
   },
   "cex_small_cap:spark-2": {
@@ -880,8 +880,8 @@
     "symbol": "PNG"
   },
   "cex_small_cap:marlin": {
-    "last_alert_ts": 1790384577.6541798,
-    "last_score": 87.3,
+    "last_alert_ts": 1790427779.8214378,
+    "last_score": 97.1,
     "symbol": "POND"
   },
   "cex_small_cap:kairo": {
@@ -1063,5 +1063,20 @@
     "last_alert_ts": 1790420607.2626252,
     "last_score": 55.7,
     "symbol": "BEAT"
+  },
+  "cex_small_cap:amp-token": {
+    "last_alert_ts": 1790427779.8214378,
+    "last_score": 90.0,
+    "symbol": "AMP"
+  },
+  "cex_small_cap:the-dogestar": {
+    "last_alert_ts": 1790427779.8214378,
+    "last_score": 84.5,
+    "symbol": "SIRIUS"
+  },
+  "cex_small_cap:infinit": {
+    "last_alert_ts": 1790427779.8214378,
+    "last_score": 57.9,
+    "symbol": "IN"
   }
 }
