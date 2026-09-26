@@ -15,8 +15,8 @@
       "entry_price_eur": 0.048093093202112934,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.05152920843507919,
-      "last_score": 88.4,
+      "last_price_eur": 0.05226747111115529,
+      "last_score": 88.5,
       "missed_updates": 0,
       "entry_market_cap": 54763727,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 58700378
+      "last_market_cap": 59532499
     },
     "cex_small_cap:ark": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.20894781986945024,
       "entry_ts": 1790365763.747095,
       "cost_eur": 107.5985556032796,
-      "last_price_eur": 0.22824015760711172,
-      "last_score": 69.0,
+      "last_price_eur": 0.23108435582611547,
+      "last_score": 69.2,
       "missed_updates": 0,
       "entry_market_cap": 47578325,
       "entry_venue": "Upbit",
@@ -89,7 +89,7 @@
           "source": "CoinGape"
         }
       ],
-      "last_market_cap": 51834448
+      "last_market_cap": 52458940
     },
     "cex_small_cap:quickswap": {
       "tier": "cex_small_cap",
@@ -101,8 +101,8 @@
       "entry_price_eur": 0.010516654877601646,
       "entry_ts": 1790384577.9882627,
       "cost_eur": 107.88622158634577,
-      "last_price_eur": 0.009963677208926821,
-      "last_score": 68.7,
+      "last_price_eur": 0.009935419392690565,
+      "last_score": 68.5,
       "missed_updates": 0,
       "entry_market_cap": 7905995,
       "entry_venue": "Binance",
@@ -123,7 +123,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7498612
+      "last_market_cap": 7477650
     },
     "cex_small_cap:saga-2": {
       "tier": "cex_small_cap",
@@ -135,8 +135,8 @@
       "entry_price_eur": 0.03368051746205228,
       "entry_ts": 1790398974.8841188,
       "cost_eur": 104.21031522139502,
-      "last_price_eur": 0.033337800188682744,
-      "last_score": 64.3,
+      "last_price_eur": 0.032811473171964166,
+      "last_score": 64.1,
       "missed_updates": 0,
       "entry_market_cap": 15967476,
       "entry_venue": "Binance",
@@ -165,7 +165,7 @@
           "source": "SSBCrack"
         }
       ],
-      "last_market_cap": 15817660
+      "last_market_cap": 15568725
     }
   },
   "closed_trades": [
@@ -1686,8 +1686,8 @@
       "pnl_pct": -8.213660078619073
     }
   ],
-  "last_run_ts": 1790399419.7726448,
-  "last_eur_rate": 0.8778400074119111,
+  "last_run_ts": 1790399722.6595929,
+  "last_eur_rate": 0.877839994477004,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
