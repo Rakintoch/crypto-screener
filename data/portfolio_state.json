@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 350.95247777983934,
+  "cash_eur": 246.61775058576984,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.048093093202112934,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.04695636633347344,
-      "last_score": 73.4,
+      "last_price_eur": 0.047010795676438275,
+      "last_score": 86.7,
       "missed_updates": 0,
       "entry_market_cap": 54763727,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 53467132
+      "last_market_cap": 53607340
     },
     "cex_small_cap:ark": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.20894781986945024,
       "entry_ts": 1790365763.747095,
       "cost_eur": 107.5985556032796,
-      "last_price_eur": 0.2470950606943134,
-      "last_score": 89.6,
+      "last_price_eur": 0.24736194020074723,
+      "last_score": 70.4,
       "missed_updates": 0,
       "entry_market_cap": 47578325,
       "entry_venue": "Upbit",
@@ -89,7 +89,7 @@
           "source": "CoinGape"
         }
       ],
-      "last_market_cap": 56116594,
+      "last_market_cap": 56328260,
       "trailing_active": true,
       "trailing_peak_eur": 0.25702394871303036
     },
@@ -103,8 +103,8 @@
       "entry_price_eur": 0.010516654877601646,
       "entry_ts": 1790384577.9882627,
       "cost_eur": 107.88622158634577,
-      "last_price_eur": 0.010506864458094406,
-      "last_score": 94.8,
+      "last_price_eur": 0.010660283908542071,
+      "last_score": 66.2,
       "missed_updates": 0,
       "entry_market_cap": 7905995,
       "entry_venue": "Binance",
@@ -125,7 +125,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7925922
+      "last_market_cap": 7982444
+    },
+    "cex_small_cap:lil-shrub": {
+      "tier": "cex_small_cap",
+      "id": "lil-shrub",
+      "symbol": "SHRUB",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/lil-shrub",
+      "qty": 12132.131388576794,
+      "entry_price_eur": 0.00859986789232332,
+      "entry_ts": 1790413380.1852798,
+      "cost_eur": 104.3347271940695,
+      "last_price_eur": 0.00859986789232332,
+      "last_score": 100.0,
+      "missed_updates": 0,
+      "entry_market_cap": 9796111,
+      "entry_venue": "Uniswap V2 (Robinhood) (on-chain)",
+      "entry_contract_address": "0x5d9144d2d017386519a7134fcc7f1e4ba22f920c (robinhood)",
+      "entry_score": 100.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 95532942,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 27.9113,
+      "entry_chg_24h": 23568.24966,
+      "entry_chg_7d": 6579.7433,
+      "entry_chg_6h": null,
+      "entry_turnover": 9.752129390938915,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -1694,8 +1727,8 @@
       "pnl_pct": -8.70754046379793
     }
   ],
-  "last_run_ts": 1790412915.2174363,
-  "last_eur_rate": 0.877885999354499,
+  "last_run_ts": 1790413380.1852798,
+  "last_eur_rate": 0.8778860070296597,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
