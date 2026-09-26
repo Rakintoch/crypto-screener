@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 488.51810128919675,
+  "cash_eur": 272.74565811650524,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.048093093202112934,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.05081727984823766,
-      "last_score": 86.0,
+      "last_price_eur": 0.050426640967679785,
+      "last_score": 87.9,
       "missed_updates": 0,
       "entry_market_cap": 54763727,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 57884083
+      "last_market_cap": 57466964
     },
     "cex_small_cap:ark": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.20894781986945024,
       "entry_ts": 1790365763.747095,
       "cost_eur": 107.5985556032796,
-      "last_price_eur": 0.21882356637995892,
-      "last_score": 70.1,
+      "last_price_eur": 0.22334531987401463,
+      "last_score": 76.4,
       "missed_updates": 0,
       "entry_market_cap": 47578325,
       "entry_venue": "Upbit",
@@ -89,7 +89,81 @@
           "source": "CoinGape"
         }
       ],
-      "last_market_cap": 49695075
+      "last_market_cap": 50689022
+    },
+    "cex_small_cap:quickswap": {
+      "tier": "cex_small_cap",
+      "id": "quickswap",
+      "symbol": "QUICK",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/quickswap",
+      "qty": 10258.606262350746,
+      "entry_price_eur": 0.010516654877601646,
+      "entry_ts": 1790384577.9882627,
+      "cost_eur": 107.88622158634577,
+      "last_price_eur": 0.010516654877601646,
+      "last_score": 91.4,
+      "missed_updates": 0,
+      "entry_market_cap": 7905995,
+      "entry_venue": "Binance",
+      "entry_contract_address": "0xd2ba23de8a19316a638dc1e7a9adda1d74233368 (ETH)",
+      "entry_score": 91.4,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 8160428,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 6.6472,
+      "entry_chg_24h": 23.49409,
+      "entry_chg_7d": 25.3031,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.032182286986015,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
+    },
+    "cex_small_cap:marlin": {
+      "tier": "cex_small_cap",
+      "id": "marlin",
+      "symbol": "POND",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/marlin",
+      "qty": 70371.1195934045,
+      "entry_price_eur": 0.001533103668233486,
+      "entry_ts": 1790384577.9882627,
+      "cost_eur": 107.88622158634577,
+      "last_price_eur": 0.001533103668233486,
+      "last_score": 87.3,
+      "missed_updates": 0,
+      "entry_market_cap": 14418260,
+      "entry_venue": "LBank",
+      "entry_contract_address": null,
+      "entry_score": 87.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 5628450,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 86.7642,
+      "entry_chg_24h": 90.09727,
+      "entry_chg_7d": 108.7206,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.39036957302753594,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "supply_cut"
+      ],
+      "entry_catalyst_score": 0.5,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Marlin Global Adds to Treasury Stock in Ongoing Share Buyback - TipRanks",
+          "ts": 1790285319.0,
+          "source": "TipRanks"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -1522,8 +1596,8 @@
       "pnl_pct": -9.3439257174403
     }
   ],
-  "last_run_ts": 1790384115.5698318,
-  "last_eur_rate": 0.877840001524256,
+  "last_run_ts": 1790384577.9882627,
+  "last_eur_rate": 0.8778400001336917,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
