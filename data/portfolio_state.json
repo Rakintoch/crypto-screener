@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 332.4622409692324,
+  "cash_eur": 455.0670809733226,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,7 +15,7 @@
       "entry_price_eur": 0.048093093202112934,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.04881485063844072,
+      "last_price_eur": 0.04891756365947192,
       "last_score": 91.7,
       "missed_updates": 0,
       "entry_market_cap": 54763727,
@@ -37,61 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 55508116
-    },
-    "cex_small_cap:ark": {
-      "tier": "cex_small_cap",
-      "id": "ark",
-      "symbol": "ARK",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/ark",
-      "qty": 514.9541912928632,
-      "entry_price_eur": 0.20894781986945024,
-      "entry_ts": 1790365763.747095,
-      "cost_eur": 107.5985556032796,
-      "last_price_eur": 0.24001578624675782,
-      "last_score": 69.3,
-      "missed_updates": 0,
-      "entry_market_cap": 47578325,
-      "entry_venue": "Upbit",
-      "entry_contract_address": null,
-      "entry_score": 96.1,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 65515190,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 5.5091,
-      "entry_chg_24h": 29.61973,
-      "entry_chg_7d": 75.9807,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.376996563035794,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "ARK Invest launches tokenized ARK Venture Fund on Ethereum, offering $500 minimum investment. - Pluang",
-          "ts": 1790323666.0,
-          "source": "Pluang"
-        },
-        {
-          "title": "ARK Launches Tokenized Venture Fund on Ethereum With $500 Minimum - The Defiant",
-          "ts": 1790292755.0,
-          "source": "The Defiant"
-        },
-        {
-          "title": "Cathie Wood’s ARK Invest Launches Tokenized ARKVX Fund on Ethereum - CoinGape",
-          "ts": 1790266124.0,
-          "source": "CoinGape"
-        }
-      ],
-      "last_market_cap": 54612897,
-      "trailing_active": true,
-      "trailing_peak_eur": 0.25702394871303036
+      "last_market_cap": 55715185
     },
     "cex_small_cap:quickswap": {
       "tier": "cex_small_cap",
@@ -103,8 +49,8 @@
       "entry_price_eur": 0.010516654877601646,
       "entry_ts": 1790384577.9882627,
       "cost_eur": 107.88622158634577,
-      "last_price_eur": 0.010668193490467062,
-      "last_score": 80.4,
+      "last_price_eur": 0.010683293208136069,
+      "last_score": 79.1,
       "missed_updates": 0,
       "entry_market_cap": 7905995,
       "entry_venue": "Binance",
@@ -125,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 8026823
+      "last_market_cap": 8039762
     }
   },
   "closed_trades": [
@@ -1732,10 +1678,70 @@
       "proceeds_eur": 85.84449038346258,
       "pnl_eur": -18.490236810606916,
       "pnl_pct": -17.72203494260722
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "ark",
+      "symbol": "ARK",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/ark",
+      "qty": 514.9541912928632,
+      "entry_price_eur": 0.20894781986945024,
+      "entry_ts": 1790365763.747095,
+      "cost_eur": 107.5985556032796,
+      "last_price_eur": 0.2380888282436811,
+      "last_score": 68.7,
+      "missed_updates": 0,
+      "entry_market_cap": 47578325,
+      "entry_venue": "Upbit",
+      "entry_contract_address": null,
+      "entry_score": 96.1,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 65515190,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 5.5091,
+      "entry_chg_24h": 29.61973,
+      "entry_chg_7d": 75.9807,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.376996563035794,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "ARK Invest launches tokenized ARK Venture Fund on Ethereum, offering $500 minimum investment. - Pluang",
+          "ts": 1790323666.0,
+          "source": "Pluang"
+        },
+        {
+          "title": "ARK Launches Tokenized Venture Fund on Ethereum With $500 Minimum - The Defiant",
+          "ts": 1790292755.0,
+          "source": "The Defiant"
+        },
+        {
+          "title": "Cathie Wood’s ARK Invest Launches Tokenized ARKVX Fund on Ethereum - CoinGape",
+          "ts": 1790266124.0,
+          "source": "CoinGape"
+        }
+      ],
+      "last_market_cap": 54077946,
+      "trailing_active": true,
+      "trailing_peak_eur": 0.25702394871303036,
+      "exit_price_eur": 0.2380888282436811,
+      "exit_ts": 1790418020.7280133,
+      "exit_reason": "trailing stop hit — dropped 7.4% from the peak (peak +23.0% since entry)",
+      "proceeds_eur": 122.60484000409022,
+      "pnl_eur": 15.006284400810614,
+      "pnl_pct": 13.946548182430455
     }
   ],
-  "last_run_ts": 1790417722.6340787,
-  "last_eur_rate": 0.8778859929582001,
+  "last_run_ts": 1790418020.7280133,
+  "last_eur_rate": 0.8778859994162435,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,

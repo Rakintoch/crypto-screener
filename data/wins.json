@@ -1110,5 +1110,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "BUN (cex_small_cap) gained +10.3% in 120 min — trailing stop caught extra upside after the target. Entry score: 80. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790418020.7280133,
+    "symbol": "ARK",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/ark",
+    "held_minutes": 870.9,
+    "exit_reason": "trailing stop hit — dropped 7.4% from the peak (peak +23.0% since entry)",
+    "pnl_pct": 13.95,
+    "pnl_eur": 15.01,
+    "entry_score": 96.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 65515190,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.5091,
+    "entry_chg_24h": 29.61973,
+    "entry_chg_7d": 75.9807,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.376996563035794,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "ARK (cex_small_cap) gained +13.9% in 871 min — trailing stop caught extra upside after the target. Entry score: 96. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
