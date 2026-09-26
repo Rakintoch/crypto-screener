@@ -575,8 +575,8 @@
     "symbol": "UNTXD"
   },
   "dex_micro_cap:7GUnr7krtQhJwd6ASY2VUprd9t4c64zcgCsjdmZepump": {
-    "last_alert_ts": 1790355811.0542667,
-    "last_score": 64.8,
+    "last_alert_ts": 1790449143.6734078,
+    "last_score": 55.2,
     "symbol": "NPC"
   },
   "cex_small_cap:qubit-3": {
@@ -710,8 +710,8 @@
     "symbol": "SWARM"
   },
   "cex_small_cap:huma-finance": {
-    "last_alert_ts": 1790342874.419037,
-    "last_score": 73.0,
+    "last_alert_ts": 1790449143.6734078,
+    "last_score": 63.5,
     "symbol": "HUMA"
   },
   "cex_small_cap:bio-protocol": {
@@ -1128,5 +1128,35 @@
     "last_alert_ts": 1790442206.03774,
     "last_score": 55.2,
     "symbol": "AKITA"
+  },
+  "cex_small_cap:allinu": {
+    "last_alert_ts": 1790449143.6734078,
+    "last_score": 82.0,
+    "symbol": "ALLINU"
+  },
+  "dex_micro_cap:0x7fb4758cb0c617c0bab1baf80525fab958637777": {
+    "last_alert_ts": 1790449143.6734078,
+    "last_score": 81.4,
+    "symbol": "BNBO"
+  },
+  "cex_small_cap:coin98": {
+    "last_alert_ts": 1790449143.6734078,
+    "last_score": 71.7,
+    "symbol": "C98"
+  },
+  "dex_micro_cap:0x38d58d65e280a3451634a09b2515015153bc7777": {
+    "last_alert_ts": 1790449143.6734078,
+    "last_score": 64.0,
+    "symbol": "GME"
+  },
+  "cex_small_cap:par": {
+    "last_alert_ts": 1790449143.6734078,
+    "last_score": 60.1,
+    "symbol": "PAR"
+  },
+  "cex_small_cap:rip-cars": {
+    "last_alert_ts": 1790449143.6734078,
+    "last_score": 59.9,
+    "symbol": "CARS"
   }
 }

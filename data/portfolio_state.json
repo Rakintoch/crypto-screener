@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 344.8759737281397,
+  "cash_eur": 242.85144353931358,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.048093093202112934,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.051988408932283625,
-      "last_score": 73.2,
+      "last_price_eur": 0.05156175648390214,
+      "last_score": 71.3,
       "missed_updates": 0,
       "entry_market_cap": 54763727,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 59300090
+      "last_market_cap": 58803223
     },
     "cex_small_cap:quickswap": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.010516654877601646,
       "entry_ts": 1790384577.9882627,
       "cost_eur": 107.88622158634577,
-      "last_price_eur": 0.00982299127414094,
-      "last_score": 35.7,
+      "last_price_eur": 0.009777762615422573,
+      "last_score": 35.4,
       "missed_updates": 0,
       "entry_market_cap": 7905995,
       "entry_venue": "Binance",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7391486
+      "last_market_cap": 7364197
     },
     "cex_small_cap:definitive": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.11151346904018487,
       "entry_ts": 1790431418.1659207,
       "cost_eur": 101.96215785331687,
-      "last_price_eur": 0.12666402576792768,
+      "last_price_eur": 0.1275945852936934,
       "last_score": 99.3,
       "missed_updates": 0,
       "entry_market_cap": 33500096,
@@ -124,7 +124,40 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 38161115
+      "last_market_cap": 38428228
+    },
+    "cex_small_cap:sudeng": {
+      "tier": "cex_small_cap",
+      "id": "sudeng",
+      "symbol": "HIPPO",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/sudeng",
+      "qty": 728902.086355318,
+      "entry_price_eur": 0.0001399701442740722,
+      "entry_ts": 1790449144.2297075,
+      "cost_eur": 102.0245301888261,
+      "last_price_eur": 0.0001399701442740722,
+      "last_score": 90.2,
+      "missed_updates": 0,
+      "entry_market_cap": 1595181,
+      "entry_venue": "LBank",
+      "entry_contract_address": "0x8993129d72e733985f7f1a00396cbd055bad6f817fee36576ce483c8bbb8b87b::sudeng::SUDENG (sui)",
+      "entry_score": 90.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 2161088,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 5.0429,
+      "entry_chg_24h": 20.3519,
+      "entry_chg_7d": 27.4889,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.3547603688860386,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -1833,8 +1866,8 @@
       "pnl_pct": -8.070591644112032
     }
   ],
-  "last_run_ts": 1790448917.321144,
-  "last_eur_rate": 0.8778860002074236,
+  "last_run_ts": 1790449144.2297075,
+  "last_eur_rate": 0.87788600272248,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
