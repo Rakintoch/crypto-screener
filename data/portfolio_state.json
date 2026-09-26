@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 272.74565811650524,
+  "cash_eur": 368.7507731093677,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.048093093202112934,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.050189624605987866,
-      "last_score": 76.6,
+      "last_price_eur": 0.04745427427085295,
+      "last_score": 75.8,
       "missed_updates": 0,
       "entry_market_cap": 54763727,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 57170285
+      "last_market_cap": 55029190
     },
     "cex_small_cap:ark": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.20894781986945024,
       "entry_ts": 1790365763.747095,
       "cost_eur": 107.5985556032796,
-      "last_price_eur": 0.21982342771336352,
+      "last_price_eur": 0.21851456425179488,
       "last_score": 73.8,
       "missed_updates": 0,
       "entry_market_cap": 47578325,
@@ -89,7 +89,7 @@
           "source": "CoinGape"
         }
       ],
-      "last_market_cap": 50033015
+      "last_market_cap": 49906823
     },
     "cex_small_cap:quickswap": {
       "tier": "cex_small_cap",
@@ -101,7 +101,7 @@
       "entry_price_eur": 0.010516654877601646,
       "entry_ts": 1790384577.9882627,
       "cost_eur": 107.88622158634577,
-      "last_price_eur": 0.010794368434319372,
+      "last_price_eur": 0.010846450482940095,
       "last_score": 84.6,
       "missed_updates": 0,
       "entry_market_cap": 7905995,
@@ -123,49 +123,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 8123288
-    },
-    "cex_small_cap:marlin": {
-      "tier": "cex_small_cap",
-      "id": "marlin",
-      "symbol": "POND",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/marlin",
-      "qty": 70371.1195934045,
-      "entry_price_eur": 0.001533103668233486,
-      "entry_ts": 1790384577.9882627,
-      "cost_eur": 107.88622158634577,
-      "last_price_eur": 0.0014178432885990362,
-      "last_score": 57.8,
-      "missed_updates": 0,
-      "entry_market_cap": 14418260,
-      "entry_venue": "LBank",
-      "entry_contract_address": null,
-      "entry_score": 87.3,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 5628450,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 86.7642,
-      "entry_chg_24h": 90.09727,
-      "entry_chg_7d": 108.7206,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.39036957302753594,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "supply_cut"
-      ],
-      "entry_catalyst_score": 0.5,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Marlin Global Adds to Treasury Stock in Ongoing Share Buyback - TipRanks",
-          "ts": 1790285319.0,
-          "source": "TipRanks"
-        }
-      ],
-      "last_market_cap": 13294174
+      "last_market_cap": 8192023
     }
   },
   "closed_trades": [
@@ -1596,10 +1554,58 @@
       "proceeds_eur": 100.04453112376804,
       "pnl_eur": -10.311594392924974,
       "pnl_pct": -9.3439257174403
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "marlin",
+      "symbol": "POND",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/marlin",
+      "qty": 70371.1195934045,
+      "entry_price_eur": 0.001533103668233486,
+      "entry_ts": 1790384577.9882627,
+      "cost_eur": 107.88622158634577,
+      "last_price_eur": 0.0013642686878874168,
+      "last_score": 58.6,
+      "missed_updates": 0,
+      "entry_market_cap": 14418260,
+      "entry_venue": "LBank",
+      "entry_contract_address": null,
+      "entry_score": 87.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 5628450,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 86.7642,
+      "entry_chg_24h": 90.09727,
+      "entry_chg_7d": 108.7206,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.39036957302753594,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "supply_cut"
+      ],
+      "entry_catalyst_score": 0.5,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Marlin Global Adds to Treasury Stock in Ongoing Share Buyback - TipRanks",
+          "ts": 1790285319.0,
+          "source": "TipRanks"
+        }
+      ],
+      "last_market_cap": 12729386,
+      "exit_price_eur": 0.0013642686878874168,
+      "exit_ts": 1790388317.9660335,
+      "exit_reason": "stop-loss hit (-11.0%)",
+      "proceeds_eur": 96.00511499286245,
+      "pnl_eur": -11.881106593483324,
+      "pnl_pct": -11.012626467759265
     }
   ],
-  "last_run_ts": 1790388049.249551,
-  "last_eur_rate": 0.8778400078005363,
+  "last_run_ts": 1790388317.9660335,
+  "last_eur_rate": 0.877839991691386,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
