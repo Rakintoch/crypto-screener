@@ -1198,5 +1198,15 @@
     "last_alert_ts": 1790391776.8185766,
     "last_score": 55.0,
     "symbol": "CYC"
+  },
+  "dex_micro_cap:0x4b50a26f5e21b5870025b81d641a4aeb10902e0e": {
+    "last_alert_ts": 1790392809.1907027,
+    "last_score": 62.4,
+    "symbol": "SWARM"
+  },
+  "cex_small_cap:cobak-token": {
+    "last_alert_ts": 1790392809.1907027,
+    "last_score": 57.2,
+    "symbol": "CBK"
   }
 }
