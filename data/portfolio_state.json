@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 455.0670809733226,
+  "cash_eur": 251.1427652666889,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.048093093202112934,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.05228776835107022,
-      "last_score": 87.7,
+      "last_price_eur": 0.05241593935038236,
+      "last_score": 87.9,
       "missed_updates": 0,
       "entry_market_cap": 54763727,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 59539480
+      "last_market_cap": 59738273
     },
     "cex_small_cap:quickswap": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.010516654877601646,
       "entry_ts": 1790384577.9882627,
       "cost_eur": 107.88622158634577,
-      "last_price_eur": 0.010210323413451591,
-      "last_score": 38.7,
+      "last_price_eur": 0.010177323609117675,
+      "last_score": 39.2,
       "missed_updates": 0,
       "entry_market_cap": 7905995,
       "entry_venue": "Binance",
@@ -71,7 +71,92 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7686277
+      "last_market_cap": 7656085
+    },
+    "cex_small_cap:superrare": {
+      "tier": "cex_small_cap",
+      "id": "superrare",
+      "symbol": "RARE",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/superrare",
+      "qty": 4889.237195964946,
+      "entry_price_eur": 0.0208544101598232,
+      "entry_ts": 1790431418.1659207,
+      "cost_eur": 101.96215785331687,
+      "last_price_eur": 0.0208544101598232,
+      "last_score": 93.5,
+      "missed_updates": 0,
+      "entry_market_cap": 19443858,
+      "entry_venue": "Binance",
+      "entry_contract_address": "0xba5bde662c17e2adff1075610382b9b691296350 (ETH)",
+      "entry_score": 93.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 195967060,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.6598,
+      "entry_chg_24h": 74.90533,
+      "entry_chg_7d": 87.2914,
+      "entry_chg_6h": null,
+      "entry_turnover": 10.07860991373214,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
+    },
+    "cex_small_cap:definitive": {
+      "tier": "cex_small_cap",
+      "id": "definitive",
+      "symbol": "EDGE",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/definitive",
+      "qty": 914.3483628562743,
+      "entry_price_eur": 0.11151346904018487,
+      "entry_ts": 1790431418.1659207,
+      "cost_eur": 101.96215785331687,
+      "last_price_eur": 0.11151346904018487,
+      "last_score": 95.3,
+      "missed_updates": 0,
+      "entry_market_cap": 33500096,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 95.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 30540015,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 10.4826,
+      "entry_chg_24h": 30.37065,
+      "entry_chg_7d": 43.6017,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.9116396263461454,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "partnership",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.30000000000000004,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Madison Dearborn Partners Announces Definitive Agreement to Acquire The Marygold Companies - Yahoo Finance",
+          "ts": 1790334000.0,
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "Kala Bio and Virotek Finalize Definitive Agreement Establishing Exclusive U.S. Distribution Partnership for Ophthalmology Genetic Testing Program - Yahoo Financ",
+          "ts": 1788418800.0,
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "PVG Asset Management Corporation Files Definitive Proxy Statement and Launches Shareholder Website in Connection with Anavex Life Sciences Corp.’s 2026 Annual M",
+          "ts": 1788246000.0,
+          "source": "Yahoo Finance"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -1740,8 +1825,8 @@
       "pnl_pct": 13.946548182430455
     }
   ],
-  "last_run_ts": 1790431244.7883558,
-  "last_eur_rate": 0.8778860051219795,
+  "last_run_ts": 1790431418.1659207,
+  "last_eur_rate": 0.8778859991354842,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,

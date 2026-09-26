@@ -165,8 +165,8 @@
     "symbol": "JEANPHIL"
   },
   "cex_small_cap:cat-processing-unit": {
-    "last_alert_ts": 1790370177.6024213,
-    "last_score": 76.8,
+    "last_alert_ts": 1790431417.546555,
+    "last_score": 81.6,
     "symbol": "CPU"
   },
   "cex_small_cap:neet": {
@@ -220,8 +220,8 @@
     "symbol": "METAX"
   },
   "cex_small_cap:astronaut-2": {
-    "last_alert_ts": 1790363004.0922785,
-    "last_score": 59.9,
+    "last_alert_ts": 1790431417.546555,
+    "last_score": 55.0,
     "symbol": "ASTRO"
   },
   "cex_small_cap:swarms": {
@@ -260,8 +260,8 @@
     "symbol": "CYS"
   },
   "cex_small_cap:czs-dog": {
-    "last_alert_ts": 1790363004.0922785,
-    "last_score": 59.0,
+    "last_alert_ts": 1790431417.546555,
+    "last_score": 56.4,
     "symbol": "BROCCOLI"
   },
   "cex_small_cap:thena": {
@@ -630,8 +630,8 @@
     "symbol": "BILL"
   },
   "cex_small_cap:definitive": {
-    "last_alert_ts": 1790406208.8475282,
-    "last_score": 67.1,
+    "last_alert_ts": 1790431417.546555,
+    "last_score": 95.3,
     "symbol": "EDGE"
   },
   "cex_small_cap:benqi": {
@@ -810,8 +810,8 @@
     "symbol": "COHRON"
   },
   "cex_small_cap:baton-3": {
-    "last_alert_ts": 1790363004.0922785,
-    "last_score": 83.1,
+    "last_alert_ts": 1790431417.546555,
+    "last_score": 57.2,
     "symbol": "BATON"
   },
   "cex_small_cap:bundle-cat": {
@@ -980,8 +980,8 @@
     "symbol": "MAME"
   },
   "cex_small_cap:spell-token": {
-    "last_alert_ts": 1790406208.8475282,
-    "last_score": 75.3,
+    "last_alert_ts": 1790431417.546555,
+    "last_score": 90.8,
     "symbol": "SPELL"
   },
   "cex_small_cap:io": {
@@ -1078,5 +1078,30 @@
     "last_alert_ts": 1790427779.8214378,
     "last_score": 57.9,
     "symbol": "IN"
+  },
+  "dex_micro_cap:5wW9mhbwq1HTFh341iimpmrqBB4mfxdXiYhdYBL7hUnp": {
+    "last_alert_ts": 1790431417.546555,
+    "last_score": 86.7,
+    "symbol": "KARDASHEV"
+  },
+  "cex_small_cap:utrade": {
+    "last_alert_ts": 1790431417.546555,
+    "last_score": 80.2,
+    "symbol": "UTT"
+  },
+  "cex_small_cap:cerebro-2": {
+    "last_alert_ts": 1790431417.546555,
+    "last_score": 77.6,
+    "symbol": "CEREBRO"
+  },
+  "cex_small_cap:vanar-chain-2": {
+    "last_alert_ts": 1790431417.546555,
+    "last_score": 63.4,
+    "symbol": "VANRY"
+  },
+  "cex_small_cap:zeal-2": {
+    "last_alert_ts": 1790431417.546555,
+    "last_score": 61.2,
+    "symbol": "ZEAL"
   }
 }
