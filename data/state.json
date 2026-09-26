@@ -215,8 +215,8 @@
     "symbol": "METAX"
   },
   "cex_small_cap:astronaut-2": {
-    "last_alert_ts": 1790431417.546555,
-    "last_score": 55.0,
+    "last_alert_ts": 1790442206.03774,
+    "last_score": 85.1,
     "symbol": "ASTRO"
   },
   "cex_small_cap:swarms": {
@@ -290,8 +290,8 @@
     "symbol": "BABY"
   },
   "cex_small_cap:argus-2": {
-    "last_alert_ts": 1790355811.0542667,
-    "last_score": 55.8,
+    "last_alert_ts": 1790442206.03774,
+    "last_score": 55.9,
     "symbol": "ARGUS"
   },
   "cex_small_cap:moonriver": {
@@ -340,8 +340,8 @@
     "symbol": "UP"
   },
   "cex_small_cap:distributed-training": {
-    "last_alert_ts": 1790398974.4950936,
-    "last_score": 60.8,
+    "last_alert_ts": 1790442206.03774,
+    "last_score": 86.3,
     "symbol": "SN38"
   },
   "cex_small_cap:clipback": {
@@ -615,8 +615,8 @@
     "symbol": "EDGE"
   },
   "cex_small_cap:benqi": {
-    "last_alert_ts": 1790391776.8185766,
-    "last_score": 97.5,
+    "last_alert_ts": 1790442206.03774,
+    "last_score": 61.2,
     "symbol": "QI"
   },
   "cex_small_cap:cryptex-finance": {
@@ -865,8 +865,8 @@
     "symbol": "POND"
   },
   "cex_small_cap:kairo": {
-    "last_alert_ts": 1790384577.6541798,
-    "last_score": 81.9,
+    "last_alert_ts": 1790442206.03774,
+    "last_score": 81.8,
     "symbol": "KAIRO"
   },
   "cex_small_cap:swappy": {
@@ -915,18 +915,18 @@
     "symbol": "SWARM"
   },
   "cex_small_cap:cobak-token": {
-    "last_alert_ts": 1790398974.4950936,
-    "last_score": 75.5,
+    "last_alert_ts": 1790442206.03774,
+    "last_score": 55.8,
     "symbol": "CBK"
   },
   "cex_small_cap:klipx-x-tips": {
-    "last_alert_ts": 1790398974.4950936,
-    "last_score": 82.7,
+    "last_alert_ts": 1790442206.03774,
+    "last_score": 65.5,
     "symbol": "CLIPX"
   },
   "cex_small_cap:super-inu": {
-    "last_alert_ts": 1790398974.4950936,
-    "last_score": 70.1,
+    "last_alert_ts": 1790442206.03774,
+    "last_score": 59.7,
     "symbol": "SI"
   },
   "cex_small_cap:avantis": {
@@ -1090,13 +1090,43 @@
     "symbol": "CALI"
   },
   "dex_micro_cap:0x0cbf291ba052174879d90bf781df1a5f2bc5bb07": {
-    "last_alert_ts": 1790435004.6155107,
-    "last_score": 67.1,
+    "last_alert_ts": 1790442206.03774,
+    "last_score": 86.7,
     "symbol": "boar"
   },
   "cex_small_cap:blockdag": {
     "last_alert_ts": 1790435004.6155107,
     "last_score": 62.8,
     "symbol": "BDAG"
+  },
+  "dex_micro_cap:0x47accd13264d8f954105256faac8376ce6a55999": {
+    "last_alert_ts": 1790442206.03774,
+    "last_score": 83.2,
+    "symbol": "SEND"
+  },
+  "cex_small_cap:tokenbot-2": {
+    "last_alert_ts": 1790442206.03774,
+    "last_score": 77.7,
+    "symbol": "CLANKER"
+  },
+  "cex_small_cap:delysium": {
+    "last_alert_ts": 1790442206.03774,
+    "last_score": 74.7,
+    "symbol": "AGI"
+  },
+  "cex_small_cap:griffain": {
+    "last_alert_ts": 1790442206.03774,
+    "last_score": 62.9,
+    "symbol": "GRIFFAIN"
+  },
+  "dex_micro_cap:0x126f5ece91d971f8ad62fa4fc1054456b8bd1111": {
+    "last_alert_ts": 1790442206.03774,
+    "last_score": 55.3,
+    "symbol": "FUSE"
+  },
+  "cex_small_cap:akita-inu-5": {
+    "last_alert_ts": 1790442206.03774,
+    "last_score": 55.2,
+    "symbol": "AKITA"
   }
 }
