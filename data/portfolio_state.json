@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 368.7507731093677,
+  "cash_eur": 262.5357620099469,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.048093093202112934,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.04936972142761792,
-      "last_score": 76.9,
+      "last_price_eur": 0.04959269290675503,
+      "last_score": 72.6,
       "missed_updates": 0,
       "entry_market_cap": 54763727,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 56198119
+      "last_market_cap": 56495043
     },
     "cex_small_cap:ark": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.20894781986945024,
       "entry_ts": 1790365763.747095,
       "cost_eur": 107.5985556032796,
-      "last_price_eur": 0.2312546574325383,
-      "last_score": 73.9,
+      "last_price_eur": 0.23297873574986347,
+      "last_score": 97.5,
       "missed_updates": 0,
       "entry_market_cap": 47578325,
       "entry_venue": "Upbit",
@@ -89,7 +89,7 @@
           "source": "CoinGape"
         }
       ],
-      "last_market_cap": 52509268
+      "last_market_cap": 53057738
     },
     "cex_small_cap:quickswap": {
       "tier": "cex_small_cap",
@@ -101,8 +101,8 @@
       "entry_price_eur": 0.010516654877601646,
       "entry_ts": 1790384577.9882627,
       "cost_eur": 107.88622158634577,
-      "last_price_eur": 0.010275020601723164,
-      "last_score": 83.2,
+      "last_price_eur": 0.010291725921750336,
+      "last_score": 62.7,
       "missed_updates": 0,
       "entry_market_cap": 7905995,
       "entry_venue": "Binance",
@@ -123,7 +123,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7733671
+      "last_market_cap": 7746498
+    },
+    "cex_small_cap:benqi": {
+      "tier": "cex_small_cap",
+      "id": "benqi",
+      "symbol": "QI",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/benqi",
+      "qty": 31067.517988298998,
+      "entry_price_eur": 0.0034188444387293735,
+      "entry_ts": 1790391777.2921128,
+      "cost_eur": 106.2150110994208,
+      "last_price_eur": 0.0034188444387293735,
+      "last_score": 97.5,
+      "missed_updates": 0,
+      "entry_market_cap": 28126318,
+      "entry_venue": "WEEX",
+      "entry_contract_address": "0x8729438eb15e2c8b576fcc6aecda6a148776c0f5 (Avalanche)",
+      "entry_score": 97.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 85299608,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 5.8838,
+      "entry_chg_24h": 34.04512,
+      "entry_chg_7d": 182.6675,
+      "entry_chg_6h": null,
+      "entry_turnover": 3.032732830511267,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -1604,8 +1637,8 @@
       "pnl_pct": -11.012626467759265
     }
   ],
-  "last_run_ts": 1790391315.8529484,
-  "last_eur_rate": 0.8778399969348848,
+  "last_run_ts": 1790391777.2921128,
+  "last_eur_rate": 0.8778399990575111,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,

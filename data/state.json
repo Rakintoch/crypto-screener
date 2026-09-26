@@ -90,8 +90,8 @@
     "symbol": "PEPE"
   },
   "cex_small_cap:rhea-2": {
-    "last_alert_ts": 1790328055.052134,
-    "last_score": 81.9,
+    "last_alert_ts": 1790391776.8185766,
+    "last_score": 55.4,
     "symbol": "RHEA"
   },
   "cex_small_cap:succinct": {
@@ -170,8 +170,8 @@
     "symbol": "CELR"
   },
   "cex_small_cap:joe": {
-    "last_alert_ts": 1790348355.427129,
-    "last_score": 73.6,
+    "last_alert_ts": 1790391776.8185766,
+    "last_score": 72.0,
     "symbol": "JOE"
   },
   "dex_micro_cap:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
@@ -195,8 +195,8 @@
     "symbol": "ACE"
   },
   "cex_small_cap:mubarak": {
-    "last_alert_ts": 1790348355.427129,
-    "last_score": 83.2,
+    "last_alert_ts": 1790391776.8185766,
+    "last_score": 76.9,
     "symbol": "MUBARAK"
   },
   "cex_small_cap:niu-lai": {
@@ -340,8 +340,8 @@
     "symbol": "FLUX"
   },
   "cex_small_cap:metaplex": {
-    "last_alert_ts": 1790377405.8237803,
-    "last_score": 59.9,
+    "last_alert_ts": 1790391776.8185766,
+    "last_score": 83.1,
     "symbol": "MPLX"
   },
   "cex_small_cap:stakestone": {
@@ -350,8 +350,8 @@
     "symbol": "STO"
   },
   "cex_small_cap:babylon": {
-    "last_alert_ts": 1790342874.419037,
-    "last_score": 55.2,
+    "last_alert_ts": 1790391776.8185766,
+    "last_score": 57.4,
     "symbol": "BABY"
   },
   "cex_small_cap:genesysgo-shadow": {
@@ -780,8 +780,8 @@
     "symbol": "AGRIPPA"
   },
   "cex_small_cap:arai": {
-    "last_alert_ts": 1790328055.052134,
-    "last_score": 88.6,
+    "last_alert_ts": 1790391776.8185766,
+    "last_score": 64.6,
     "symbol": "AA"
   },
   "cex_small_cap:harmonic-agent": {
@@ -840,8 +840,8 @@
     "symbol": "FLEX"
   },
   "cex_small_cap:xai-blockchain": {
-    "last_alert_ts": 1790328055.052134,
-    "last_score": 81.9,
+    "last_alert_ts": 1790391776.8185766,
+    "last_score": 62.6,
     "symbol": "XAI"
   },
   "dex_micro_cap:BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump": {
@@ -905,8 +905,8 @@
     "symbol": "EDGE"
   },
   "cex_small_cap:benqi": {
-    "last_alert_ts": 1790377405.8237803,
-    "last_score": 71.2,
+    "last_alert_ts": 1790391776.8185766,
+    "last_score": 97.5,
     "symbol": "QI"
   },
   "cex_small_cap:cryptex-finance": {
@@ -960,8 +960,8 @@
     "symbol": "JUGGERNAUT"
   },
   "cex_small_cap:wax": {
-    "last_alert_ts": 1790377405.8237803,
-    "last_score": 57.4,
+    "last_alert_ts": 1790391776.8185766,
+    "last_score": 90.7,
     "symbol": "WAXP"
   },
   "cex_small_cap:alien-worlds": {
@@ -1035,8 +1035,8 @@
     "symbol": "富贵"
   },
   "cex_small_cap:vethor-token": {
-    "last_alert_ts": 1790342874.419037,
-    "last_score": 55.4,
+    "last_alert_ts": 1790391776.8185766,
+    "last_score": 79.7,
     "symbol": "VTHO"
   },
   "cex_small_cap:costco-robinhood-tokenized-stock": {
@@ -1178,5 +1178,25 @@
     "last_alert_ts": 1790384577.6541798,
     "last_score": 57.7,
     "symbol": "TENDIES"
+  },
+  "dex_micro_cap:CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": {
+    "last_alert_ts": 1790391776.8185766,
+    "last_score": 86.4,
+    "symbol": "e"
+  },
+  "cex_small_cap:interfold": {
+    "last_alert_ts": 1790391776.8185766,
+    "last_score": 57.6,
+    "symbol": "FOLD"
+  },
+  "cex_small_cap:chainbase": {
+    "last_alert_ts": 1790391776.8185766,
+    "last_score": 57.0,
+    "symbol": "C"
+  },
+  "cex_small_cap:cycle-2": {
+    "last_alert_ts": 1790391776.8185766,
+    "last_score": 55.0,
+    "symbol": "CYC"
   }
 }
