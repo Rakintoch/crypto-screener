@@ -3370,5 +3370,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "SHRUB (cex_small_cap) lost -17.7% in 7 min (very fast (<1h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790435005.0193648,
+    "symbol": "QUICK",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/quickswap",
+    "held_minutes": 840.5,
+    "exit_reason": "rotated out — thesis fading (score 40, no unrealized gain) to free a slot for a new qualified candidate",
+    "pnl_pct": -4.1,
+    "pnl_eur": -4.42,
+    "entry_score": 91.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 8160428,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.6472,
+    "entry_chg_24h": 23.49409,
+    "entry_chg_7d": 25.3031,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.032182286986015,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "QUICK (cex_small_cap) lost -4.1% in 840 min (slow (>6h)) — other. Entry score: 91 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
