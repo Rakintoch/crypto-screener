@@ -15,8 +15,8 @@
       "entry_price_eur": 0.048093093202112934,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.04983497638948952,
-      "last_score": 85.6,
+      "last_price_eur": 0.0489834719451566,
+      "last_score": 85.4,
       "missed_updates": 0,
       "entry_market_cap": 54763727,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 56679867
+      "last_market_cap": 55799902
     },
     "cex_small_cap:ark": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.20894781986945024,
       "entry_ts": 1790365763.747095,
       "cost_eur": 107.5985556032796,
-      "last_price_eur": 0.22054061922331938,
-      "last_score": 70.5,
+      "last_price_eur": 0.21988926351380525,
+      "last_score": 70.3,
       "missed_updates": 0,
       "entry_market_cap": 47578325,
       "entry_venue": "Upbit",
@@ -89,7 +89,7 @@
           "source": "CoinGape"
         }
       ],
-      "last_market_cap": 50008994
+      "last_market_cap": 49958160
     }
   },
   "closed_trades": [
@@ -1522,8 +1522,8 @@
       "pnl_pct": -9.3439257174403
     }
   ],
-  "last_run_ts": 1790381724.675754,
-  "last_eur_rate": 0.8778399927688836,
+  "last_run_ts": 1790382020.6042798,
+  "last_eur_rate": 0.8778399990171434,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
