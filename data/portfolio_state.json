@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 360.0266331451937,
+  "cash_eur": 255.8163179237987,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.048093093202112934,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.049623417552123086,
-      "last_score": 74.9,
+      "last_price_eur": 0.0500298573400888,
+      "last_score": 88.1,
       "missed_updates": 0,
       "entry_market_cap": 54763727,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 56598708
+      "last_market_cap": 56991584
     },
     "cex_small_cap:ark": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.20894781986945024,
       "entry_ts": 1790365763.747095,
       "cost_eur": 107.5985556032796,
-      "last_price_eur": 0.22591036919463942,
-      "last_score": 96.1,
+      "last_price_eur": 0.22704629355269593,
+      "last_score": 69.2,
       "missed_updates": 0,
       "entry_market_cap": 47578325,
       "entry_venue": "Upbit",
@@ -89,7 +89,7 @@
           "source": "CoinGape"
         }
       ],
-      "last_market_cap": 51460448
+      "last_market_cap": 51563347
     },
     "cex_small_cap:quickswap": {
       "tier": "cex_small_cap",
@@ -101,8 +101,8 @@
       "entry_price_eur": 0.010516654877601646,
       "entry_ts": 1790384577.9882627,
       "cost_eur": 107.88622158634577,
-      "last_price_eur": 0.01008160618943216,
-      "last_score": 63.1,
+      "last_price_eur": 0.010039382058457889,
+      "last_score": 69.4,
       "missed_updates": 0,
       "entry_market_cap": 7905995,
       "entry_venue": "Binance",
@@ -123,7 +123,48 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7605689
+      "last_market_cap": 7556073
+    },
+    "cex_small_cap:saga-2": {
+      "tier": "cex_small_cap",
+      "id": "saga-2",
+      "symbol": "SAGA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/saga-2",
+      "qty": 3094.0829617243385,
+      "entry_price_eur": 0.03368051746205228,
+      "entry_ts": 1790398974.8841188,
+      "cost_eur": 104.21031522139502,
+      "last_price_eur": 0.03368051746205228,
+      "last_score": 97.3,
+      "missed_updates": 0,
+      "entry_market_cap": 15967476,
+      "entry_venue": "Binance",
+      "entry_contract_address": "usaga (saga)",
+      "entry_score": 97.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 136772186,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 22.0211,
+      "entry_chg_24h": 21.97142,
+      "entry_chg_7d": 65.3866,
+      "entry_chg_6h": null,
+      "entry_turnover": 8.565673497802658,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "TAITO Announces Lufia I & II: The Sinistrals Saga for Multiple Platforms, Set to Launch in 2027 - SSBCrack",
+          "ts": 1789925728.0,
+          "source": "SSBCrack"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -1644,8 +1685,8 @@
       "pnl_pct": -8.213660078619073
     }
   ],
-  "last_run_ts": 1790398515.2995753,
-  "last_eur_rate": 0.8778400033986641,
+  "last_run_ts": 1790398974.8841188,
+  "last_eur_rate": 0.8778400010543375,
   "last_rotation_ts": 1790328055.8453162,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
