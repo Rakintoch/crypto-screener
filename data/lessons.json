@@ -3343,5 +3343,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "SAGA (cex_small_cap) lost -8.7% in 127 min (fast (1-6h)) — stop-loss hit. Entry score: 97 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790413820.3872159,
+    "symbol": "SHRUB",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/lil-shrub",
+    "held_minutes": 7.3,
+    "exit_reason": "stop-loss hit (-17.7%)",
+    "pnl_pct": -17.72,
+    "pnl_eur": -18.49,
+    "entry_score": 100.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 95532942,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 27.9113,
+    "entry_chg_24h": 23568.24966,
+    "entry_chg_7d": 6579.7433,
+    "entry_chg_6h": null,
+    "entry_turnover": 9.752129390938915,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "SHRUB (cex_small_cap) lost -17.7% in 7 min (very fast (<1h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
