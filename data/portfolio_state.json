@@ -15,8 +15,8 @@
       "entry_price_eur": 0.048093093202112934,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.0517996635947041,
-      "last_score": 62.8,
+      "last_price_eur": 0.05173645623917947,
+      "last_score": 65.8,
       "missed_updates": 0,
       "entry_market_cap": 54763727,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 58919911
+      "last_market_cap": 58945890
     },
     "cex_small_cap:definitive": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.11151346904018487,
       "entry_ts": 1790431418.1659207,
       "cost_eur": 101.96215785331687,
-      "last_price_eur": 0.12308049547735123,
-      "last_score": 73.3,
+      "last_price_eur": 0.1249977995624789,
+      "last_score": 73.4,
       "missed_updates": 0,
       "entry_market_cap": 33500096,
       "entry_venue": null,
@@ -90,7 +90,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 37066853
+      "last_market_cap": 37660556
     },
     "cex_small_cap:sudeng": {
       "tier": "cex_small_cap",
@@ -102,8 +102,8 @@
       "entry_price_eur": 0.0001399701442740722,
       "entry_ts": 1790449144.2297075,
       "cost_eur": 102.0245301888261,
-      "last_price_eur": 0.0001377139772578804,
-      "last_score": 72.4,
+      "last_price_eur": 0.00013810024826472981,
+      "last_score": 72.7,
       "missed_updates": 0,
       "entry_market_cap": 1595181,
       "entry_venue": "LBank",
@@ -124,7 +124,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1572922
+      "last_market_cap": 1573107
     },
     "cex_small_cap:rip-cars": {
       "tier": "cex_small_cap",
@@ -136,7 +136,7 @@
       "entry_price_eur": 0.10072688475080477,
       "entry_ts": 1790449372.5980382,
       "cost_eur": 102.09281636369526,
-      "last_price_eur": 0.09820208404424692,
+      "last_price_eur": 0.09729435073856384,
       "last_score": 90.1,
       "missed_updates": 0,
       "entry_market_cap": 1480092,
@@ -158,7 +158,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1458902
+      "last_market_cap": 1429660
     }
   },
   "closed_trades": [
@@ -1907,8 +1907,8 @@
       "pnl_pct": -7.201056458174179
     }
   ],
-  "last_run_ts": 1790450122.6608274,
-  "last_eur_rate": 0.8778860027913583,
+  "last_run_ts": 1790450423.2537503,
+  "last_eur_rate": 0.8778860102010668,
   "last_rotation_ts": 1790449372.5980382,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
