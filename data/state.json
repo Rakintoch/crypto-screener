@@ -255,8 +255,8 @@
     "symbol": "STO"
   },
   "cex_small_cap:babylon": {
-    "last_alert_ts": 1790478203.0839658,
-    "last_score": 72.7,
+    "last_alert_ts": 1790535774.8938022,
+    "last_score": 56.1,
     "symbol": "BABY"
   },
   "cex_small_cap:argus-2": {
@@ -690,8 +690,8 @@
     "symbol": "PROM"
   },
   "cex_small_cap:marinade": {
-    "last_alert_ts": 1790514497.2238824,
-    "last_score": 55.2,
+    "last_alert_ts": 1790535774.8938022,
+    "last_score": 81.8,
     "symbol": "MNDE"
   },
   "cex_small_cap:marblex": {
@@ -755,8 +755,8 @@
     "symbol": "TENDIES"
   },
   "dex_micro_cap:CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": {
-    "last_alert_ts": 1790435004.6155107,
-    "last_score": 62.5,
+    "last_alert_ts": 1790535774.8938022,
+    "last_score": 56.1,
     "symbol": "e"
   },
   "cex_small_cap:interfold": {
@@ -835,8 +835,8 @@
     "symbol": "IO"
   },
   "cex_small_cap:lil-shrub": {
-    "last_alert_ts": 1790492573.9648685,
-    "last_score": 99.5,
+    "last_alert_ts": 1790535774.8938022,
+    "last_score": 72.7,
     "symbol": "SHRUB"
   },
   "cex_small_cap:tensor": {
@@ -910,8 +910,8 @@
     "symbol": "BEAT"
   },
   "cex_small_cap:amp-token": {
-    "last_alert_ts": 1790471082.8253171,
-    "last_score": 98.9,
+    "last_alert_ts": 1790535774.8938022,
+    "last_score": 55.5,
     "symbol": "AMP"
   },
   "cex_small_cap:the-dogestar": {
@@ -920,8 +920,8 @@
     "symbol": "SIRIUS"
   },
   "cex_small_cap:infinit": {
-    "last_alert_ts": 1790478203.0839658,
-    "last_score": 93.2,
+    "last_alert_ts": 1790535774.8938022,
+    "last_score": 58.3,
     "symbol": "IN"
   },
   "dex_micro_cap:5wW9mhbwq1HTFh341iimpmrqBB4mfxdXiYhdYBL7hUnp": {
@@ -975,8 +975,8 @@
     "symbol": "CLANKER"
   },
   "cex_small_cap:delysium": {
-    "last_alert_ts": 1790492573.9648685,
-    "last_score": 70.1,
+    "last_alert_ts": 1790535774.8938022,
+    "last_score": 77.5,
     "symbol": "AGI"
   },
   "cex_small_cap:griffain": {
@@ -1245,8 +1245,8 @@
     "symbol": "AUDIO"
   },
   "cex_small_cap:opinion": {
-    "last_alert_ts": 1790492573.9648685,
-    "last_score": 60.6,
+    "last_alert_ts": 1790535774.8938022,
+    "last_score": 56.6,
     "symbol": "OPN"
   },
   "cex_small_cap:blue-chip-4": {
@@ -1378,5 +1378,15 @@
     "last_alert_ts": 1790528659.3319292,
     "last_score": 58.6,
     "symbol": "ADX"
+  },
+  "cex_small_cap:cheqd-network": {
+    "last_alert_ts": 1790535774.8938022,
+    "last_score": 79.1,
+    "symbol": "CHEQ"
+  },
+  "cex_small_cap:priors-agent": {
+    "last_alert_ts": 1790535774.8938022,
+    "last_score": 63.2,
+    "symbol": "PRIORS"
   }
 }
