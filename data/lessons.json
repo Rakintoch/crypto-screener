@@ -3667,5 +3667,35 @@
     "categoria": "momentum thesis invalidated (score dropped)",
     "velocidade_queda": "slow (>6h)",
     "licao": "EDGE (cex_small_cap) lost -2.6% in 1902 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 95 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790552115.588221,
+    "symbol": "baton",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/Cb7ZRgPLhji3Th7htXyKEqbXvNjPpeTvckXuWakBUhXu",
+    "held_minutes": 46.8,
+    "exit_reason": "momentum thesis invalidated (score dropped to 30)",
+    "pnl_pct": -16.24,
+    "pnl_eur": -12.06,
+    "entry_score": 79.9,
+    "entry_liquidity_usd": 345981.4262,
+    "entry_volume_24h_usd": 1252479.50022833,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 15.734,
+    "entry_chg_24h": 80.382,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 50.297,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 3.6200772798257517,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 26054.9640319,
+    "entry_base_breakout": {
+      "is_breakout": true,
+      "pre_window_move_pct": 20.0
+    },
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "baton (dex_micro_cap) lost -16.2% in 47 min (very fast (<1h)) — momentum thesis invalidated (score dropped). Entry liquidity: $345,981. Entry score: 80 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
