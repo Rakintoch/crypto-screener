@@ -15,8 +15,8 @@
       "entry_price_eur": 0.11151346904018487,
       "entry_ts": 1790431418.1659207,
       "cost_eur": 101.96215785331687,
-      "last_price_eur": 0.112265011396361,
-      "last_score": 49.2,
+      "last_price_eur": 0.1122319997720373,
+      "last_score": 48.0,
       "missed_updates": 0,
       "entry_market_cap": 33500096,
       "entry_venue": null,
@@ -56,7 +56,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 34304140
+      "last_market_cap": 34294861
     },
     "cex_small_cap:sudeng": {
       "tier": "cex_small_cap",
@@ -68,8 +68,8 @@
       "entry_price_eur": 0.0001399701442740722,
       "entry_ts": 1790449144.2297075,
       "cost_eur": 102.0245301888261,
-      "last_price_eur": 0.0001437319028968595,
-      "last_score": 65.7,
+      "last_price_eur": 0.0001442702864012461,
+      "last_score": 65.9,
       "missed_updates": 0,
       "entry_market_cap": 1595181,
       "entry_venue": "LBank",
@@ -90,7 +90,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1635773
+      "last_market_cap": 1649125
     },
     "cex_small_cap:soon-2": {
       "tier": "cex_small_cap",
@@ -102,8 +102,8 @@
       "entry_price_eur": 0.29754501905288067,
       "entry_ts": 1790528660.064564,
       "cost_eur": 94.1435261361232,
-      "last_price_eur": 0.2801106935882967,
-      "last_score": 73.0,
+      "last_price_eur": 0.28146812080937106,
+      "last_score": 72.2,
       "missed_updates": 0,
       "entry_market_cap": 115490460,
       "entry_venue": "Upbit",
@@ -138,7 +138,7 @@
           "source": "The Motley Fool"
         }
       ],
-      "last_market_cap": 108012531
+      "last_market_cap": 109020150
     },
     "cex_small_cap:cyberleek": {
       "tier": "cex_small_cap",
@@ -150,7 +150,7 @@
       "entry_price_eur": 0.0016633181900209191,
       "entry_ts": 1790535775.3530607,
       "cost_eur": 93.72001466543607,
-      "last_price_eur": 0.0016099343924524797,
+      "last_price_eur": 0.0015824732182396321,
       "last_score": 72.3,
       "missed_updates": 0,
       "entry_market_cap": 1387063,
@@ -186,7 +186,7 @@
           "source": "tomshardware.com"
         }
       ],
-      "last_market_cap": 1337584
+      "last_market_cap": 1334852
     }
   },
   "closed_trades": [
@@ -2103,8 +2103,8 @@
       "pnl_pct": -1.8387563958318798
     }
   ],
-  "last_run_ts": 1790540420.4165015,
-  "last_eur_rate": 0.8787179977799076,
+  "last_run_ts": 1790540724.2614934,
+  "last_eur_rate": 0.8788930027489862,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
