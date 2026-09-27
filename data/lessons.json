@@ -3640,5 +3640,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "CYBERLEEK (cex_small_cap) lost -8.7% in 88 min (fast (1-6h)) — stop-loss hit. Entry score: 96 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790545522.0433705,
+    "symbol": "EDGE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/definitive",
+    "held_minutes": 1901.7,
+    "exit_reason": "momentum thesis invalidated (score dropped to 30)",
+    "pnl_pct": -2.56,
+    "pnl_eur": -2.61,
+    "entry_score": 95.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 30540015,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 10.4826,
+    "entry_chg_24h": 30.37065,
+    "entry_chg_7d": 43.6017,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.9116396263461454,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "EDGE (cex_small_cap) lost -2.6% in 1902 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 95 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

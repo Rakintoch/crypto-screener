@@ -2,62 +2,9 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 323.73725572419556,
+  "cash_eur": 423.0870080923055,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
-    "cex_small_cap:definitive": {
-      "tier": "cex_small_cap",
-      "id": "definitive",
-      "symbol": "EDGE",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/definitive",
-      "qty": 914.3483628562743,
-      "entry_price_eur": 0.11151346904018487,
-      "entry_ts": 1790431418.1659207,
-      "cost_eur": 101.96215785331687,
-      "last_price_eur": 0.11120221717432231,
-      "last_score": 41.7,
-      "missed_updates": 0,
-      "entry_market_cap": 33500096,
-      "entry_venue": null,
-      "entry_contract_address": null,
-      "entry_score": 95.3,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 30540015,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 10.4826,
-      "entry_chg_24h": 30.37065,
-      "entry_chg_7d": 43.6017,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.9116396263461454,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "partnership",
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.30000000000000004,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Madison Dearborn Partners Announces Definitive Agreement to Acquire The Marygold Companies - Yahoo Finance",
-          "ts": 1790334000.0,
-          "source": "Yahoo Finance"
-        },
-        {
-          "title": "Kala Bio and Virotek Finalize Definitive Agreement Establishing Exclusive U.S. Distribution Partnership for Ophthalmology Genetic Testing Program - Yahoo Financ",
-          "ts": 1788418800.0,
-          "source": "Yahoo Finance"
-        },
-        {
-          "title": "PVG Asset Management Corporation Files Definitive Proxy Statement and Launches Shareholder Website in Connection with Anavex Life Sciences Corp.’s 2026 Annual M",
-          "ts": 1788246000.0,
-          "source": "Yahoo Finance"
-        }
-      ],
-      "last_market_cap": 33990364
-    },
     "cex_small_cap:sudeng": {
       "tier": "cex_small_cap",
       "id": "sudeng",
@@ -68,8 +15,8 @@
       "entry_price_eur": 0.0001399701442740722,
       "entry_ts": 1790449144.2297075,
       "cost_eur": 102.0245301888261,
-      "last_price_eur": 0.00014708548983473176,
-      "last_score": 83.3,
+      "last_price_eur": 0.00014530557235146942,
+      "last_score": 81.4,
       "missed_updates": 0,
       "entry_market_cap": 1595181,
       "entry_venue": "LBank",
@@ -90,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1674328
+      "last_market_cap": 1654904
     },
     "cex_small_cap:soon-2": {
       "tier": "cex_small_cap",
@@ -102,7 +49,7 @@
       "entry_price_eur": 0.29754501905288067,
       "entry_ts": 1790528660.064564,
       "cost_eur": 94.1435261361232,
-      "last_price_eur": 0.28794725358561807,
+      "last_price_eur": 0.28858630131819707,
       "last_score": 82.4,
       "missed_updates": 0,
       "entry_market_cap": 115490460,
@@ -138,7 +85,7 @@
           "source": "The Motley Fool"
         }
       ],
-      "last_market_cap": 111320893
+      "last_market_cap": 111874519
     }
   },
   "closed_trades": [
@@ -2107,10 +2054,69 @@
       "proceeds_eur": 85.52760991804689,
       "pnl_eur": -8.192404747389176,
       "pnl_pct": -8.741360931957402
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "definitive",
+      "symbol": "EDGE",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/definitive",
+      "qty": 914.3483628562743,
+      "entry_price_eur": 0.11151346904018487,
+      "entry_ts": 1790431418.1659207,
+      "cost_eur": 101.96215785331687,
+      "last_price_eur": 0.10865634631614322,
+      "last_score": 29.9,
+      "missed_updates": 0,
+      "entry_market_cap": 33500096,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 95.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 30540015,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 10.4826,
+      "entry_chg_24h": 30.37065,
+      "entry_chg_7d": 43.6017,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.9116396263461454,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "partnership",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.30000000000000004,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Madison Dearborn Partners Announces Definitive Agreement to Acquire The Marygold Companies - Yahoo Finance",
+          "ts": 1790334000.0,
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "Kala Bio and Virotek Finalize Definitive Agreement Establishing Exclusive U.S. Distribution Partnership for Ophthalmology Genetic Testing Program - Yahoo Financ",
+          "ts": 1788418800.0,
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "PVG Asset Management Corporation Files Definitive Proxy Statement and Launches Shareholder Website in Connection with Anavex Life Sciences Corp.’s 2026 Annual M",
+          "ts": 1788246000.0,
+          "source": "Yahoo Finance"
+        }
+      ],
+      "last_market_cap": 33986159,
+      "exit_price_eur": 0.10865634631614322,
+      "exit_ts": 1790545522.0433705,
+      "exit_reason": "momentum thesis invalidated (score dropped to 30)",
+      "proceeds_eur": 99.34975236810993,
+      "pnl_eur": -2.612405485206935,
+      "pnl_pct": -2.5621324030481496
     }
   ],
-  "last_run_ts": 1790545223.1135414,
-  "last_eur_rate": 0.8784369913684409,
+  "last_run_ts": 1790545522.0433705,
+  "last_eur_rate": 0.8784569998879718,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
