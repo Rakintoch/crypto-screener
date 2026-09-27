@@ -12,10 +12,10 @@
       "entry_price_eur": 436.85462126479916,
       "entry_ts": 1789402186.9931946,
       "cost_eur": 33.33333333333333,
-      "last_price_eur": 455.54382354182343,
+      "last_price_eur": 455.49992900824157,
       "peak_price_eur": 456.0091029100993,
       "entry_market_cap": 1183197,
-      "last_market_cap": 1272484,
+      "last_market_cap": 1272411,
       "entry_venue": "Uniswap V3 (Base) (on-chain)"
     },
     "cex_small_cap:invesco-qqq-trust-bstocks-tokenized-stock": {
@@ -25,10 +25,10 @@
       "entry_price_eur": 646.4835296498289,
       "entry_ts": 1790061333.5601404,
       "cost_eur": 35.03820163382602,
-      "last_price_eur": 654.920512687501,
+      "last_price_eur": 654.6834831320514,
       "peak_price_eur": 655.0083036990959,
       "entry_market_cap": 1379268,
-      "last_market_cap": 1388598,
+      "last_market_cap": 1388380,
       "entry_venue": null,
       "entry_contract_address": null
     },
@@ -39,10 +39,10 @@
       "entry_price_eur": 0.0006937699726132848,
       "entry_ts": 1790365765.5363104,
       "cost_eur": 35.16612997886035,
-      "last_price_eur": 0.0006876042084159742,
+      "last_price_eur": 0.000687428630863631,
       "peak_price_eur": 0.0007407477225477995,
       "entry_market_cap": 81644204,
-      "last_market_cap": 80991235,
+      "last_market_cap": 80907988,
       "entry_venue": null,
       "entry_contract_address": null,
       "entry_obv_score": 0.3251675990110094,
@@ -100,8 +100,8 @@
       "reserved_eur": 0.0
     }
   ],
-  "last_run_ts": 1790500221.2583816,
-  "last_eur_rate": 0.8778859986159901,
+  "last_run_ts": 1790500523.1128008,
+  "last_eur_rate": 0.8778859981656739,
   "review_cycle": {
     "number": 1,
     "start_ts": 1789402186.9931946,
