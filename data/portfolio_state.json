@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0001399701442740722,
       "entry_ts": 1790449144.2297075,
       "cost_eur": 102.0245301888261,
-      "last_price_eur": 0.0001420012242931391,
-      "last_score": 53.7,
+      "last_price_eur": 0.00014200871593748817,
+      "last_score": 53.8,
       "missed_updates": 0,
       "entry_market_cap": 1595181,
       "entry_venue": "LBank",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1615597
+      "last_market_cap": 1616620
     },
     "cex_small_cap:soon-2": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.29754501905288067,
       "entry_ts": 1790528660.064564,
       "cost_eur": 94.1435261361232,
-      "last_price_eur": 0.28705436799480555,
+      "last_price_eur": 0.2903759786485955,
       "last_score": 85.2,
       "missed_updates": 0,
       "entry_market_cap": 115490460,
@@ -85,7 +85,7 @@
           "source": "The Motley Fool"
         }
       ],
-      "last_market_cap": 111025544
+      "last_market_cap": 112333184
     }
   },
   "closed_trades": [
@@ -2115,8 +2115,8 @@
       "pnl_pct": -2.5621324030481496
     }
   ],
-  "last_run_ts": 1790547915.62262,
-  "last_eur_rate": 0.8785029961218701,
+  "last_run_ts": 1790548231.1415617,
+  "last_eur_rate": 0.8784949949736354,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
