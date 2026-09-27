@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 317.74624140714536,
+  "cash_eur": 223.60271527102216,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.048093093202112934,
       "entry_ts": 1790363004.6987317,
       "cost_eur": 110.35612551669301,
-      "last_price_eur": 0.04728230154552849,
-      "last_score": 36.1,
+      "last_price_eur": 0.04716413935096699,
+      "last_score": 40.6,
       "missed_updates": 0,
       "entry_market_cap": 54763727,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 54040274
+      "last_market_cap": 53888466
     },
     "cex_small_cap:definitive": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.11151346904018487,
       "entry_ts": 1790431418.1659207,
       "cost_eur": 101.96215785331687,
-      "last_price_eur": 0.11671341169175299,
-      "last_score": 48.7,
+      "last_price_eur": 0.11376548836263593,
+      "last_score": 42.5,
       "missed_updates": 0,
       "entry_market_cap": 33500096,
       "entry_venue": null,
@@ -90,7 +90,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 35518619
+      "last_market_cap": 34905625
     },
     "cex_small_cap:sudeng": {
       "tier": "cex_small_cap",
@@ -102,8 +102,8 @@
       "entry_price_eur": 0.0001399701442740722,
       "entry_ts": 1790449144.2297075,
       "cost_eur": 102.0245301888261,
-      "last_price_eur": 0.00013403946054576515,
-      "last_score": 59.1,
+      "last_price_eur": 0.000133943179825155,
+      "last_score": 51.4,
       "missed_updates": 0,
       "entry_market_cap": 1595181,
       "entry_venue": "LBank",
@@ -124,7 +124,54 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1531390
+      "last_market_cap": 1530339
+    },
+    "cex_small_cap:soon-2": {
+      "tier": "cex_small_cap",
+      "id": "soon-2",
+      "symbol": "SOON",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/soon-2",
+      "qty": 316.40094811801134,
+      "entry_price_eur": 0.29754501905288067,
+      "entry_ts": 1790528660.064564,
+      "cost_eur": 94.1435261361232,
+      "last_price_eur": 0.29754501905288067,
+      "last_score": 99.5,
+      "missed_updates": 0,
+      "entry_market_cap": 115490460,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "4eDf52YYzL6i6gbZ6FXqrLUPXbtP61f1gPSFM66M4XHe (Solana)",
+      "entry_score": 99.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 164453404,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 15.6301,
+      "entry_chg_24h": 56.2043,
+      "entry_chg_7d": 81.2742,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.4239566107884583,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing",
+        "security_incident"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Why Balancer’s $1.4M hack recovery won’t pay LPs anytime soon - CryptoRank",
+          "ts": 1790005647.0,
+          "source": "CryptoRank"
+        },
+        {
+          "title": "Hyperliquid Could Be Bringing Perpetual Futures to US Customers Soon. Is HYPE a Buy, Sell, or Hold Right Now? - The Motley Fool",
+          "ts": 1789455600.0,
+          "source": "The Motley Fool"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -2001,8 +2048,8 @@
       "pnl_pct": -8.04775847917963
     }
   ],
-  "last_run_ts": 1790528116.368724,
-  "last_eur_rate": 0.8752740012130413,
+  "last_run_ts": 1790528660.064564,
+  "last_eur_rate": 0.8752739974198198,
   "last_rotation_ts": 1790449372.5980382,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,

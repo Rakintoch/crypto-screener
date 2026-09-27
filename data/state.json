@@ -175,8 +175,8 @@
     "symbol": "SOXLB"
   },
   "cex_small_cap:superrare": {
-    "last_alert_ts": 1790461305.1684504,
-    "last_score": 93.1,
+    "last_alert_ts": 1790528659.3319292,
+    "last_score": 57.1,
     "symbol": "RARE"
   },
   "cex_small_cap:coreweave-ondo-tokenized": {
@@ -230,8 +230,8 @@
     "symbol": "BROCCOLI"
   },
   "cex_small_cap:thena": {
-    "last_alert_ts": 1790328055.052134,
-    "last_score": 57.3,
+    "last_alert_ts": 1790528659.3319292,
+    "last_score": 59.9,
     "symbol": "THE"
   },
   "cex_small_cap:odos": {
@@ -295,8 +295,8 @@
     "symbol": "B3"
   },
   "cex_small_cap:neon": {
-    "last_alert_ts": 1790290827.4244537,
-    "last_score": 59.5,
+    "last_alert_ts": 1790528659.3319292,
+    "last_score": 56.6,
     "symbol": "NEON"
   },
   "cex_small_cap:superform": {
@@ -600,8 +600,8 @@
     "symbol": "DIA"
   },
   "cex_small_cap:moonbeam": {
-    "last_alert_ts": 1790485379.8061996,
-    "last_score": 94.3,
+    "last_alert_ts": 1790528659.3319292,
+    "last_score": 83.6,
     "symbol": "GLMR"
   },
   "cex_small_cap:wealth-and-prosperity-2": {
@@ -1085,13 +1085,13 @@
     "symbol": "STRATTON"
   },
   "cex_small_cap:soon-2": {
-    "last_alert_ts": 1790479386.8647034,
-    "last_score": 86.2,
+    "last_alert_ts": 1790528659.3319292,
+    "last_score": 99.5,
     "symbol": "SOON"
   },
   "cex_small_cap:cyberleek": {
-    "last_alert_ts": 1790463780.0252202,
-    "last_score": 99.8,
+    "last_alert_ts": 1790528659.3319292,
+    "last_score": 88.5,
     "symbol": "CYBERLEEK"
   },
   "cex_small_cap:levva-protocol": {
@@ -1225,13 +1225,13 @@
     "symbol": "AEON"
   },
   "cex_small_cap:taiko": {
-    "last_alert_ts": 1790485379.8061996,
-    "last_score": 84.7,
+    "last_alert_ts": 1790528659.3319292,
+    "last_score": 69.8,
     "symbol": "TAIKO"
   },
   "cex_small_cap:intuition": {
-    "last_alert_ts": 1790485379.8061996,
-    "last_score": 77.2,
+    "last_alert_ts": 1790528659.3319292,
+    "last_score": 70.8,
     "symbol": "TRUST"
   },
   "cex_small_cap:robin-pepe": {
@@ -1358,5 +1358,25 @@
     "last_alert_ts": 1790521195.4778059,
     "last_score": 60.3,
     "symbol": "ANTFUN"
+  },
+  "dex_micro_cap:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
+    "last_alert_ts": 1790528659.3319292,
+    "last_score": 78.7,
+    "symbol": "baton"
+  },
+  "cex_small_cap:ubik": {
+    "last_alert_ts": 1790528659.3319292,
+    "last_score": 75.5,
+    "symbol": "UBIK"
+  },
+  "cex_small_cap:boba-network": {
+    "last_alert_ts": 1790528659.3319292,
+    "last_score": 65.8,
+    "symbol": "BOBA"
+  },
+  "cex_small_cap:adex": {
+    "last_alert_ts": 1790528659.3319292,
+    "last_score": 58.6,
+    "symbol": "ADX"
   }
 }
