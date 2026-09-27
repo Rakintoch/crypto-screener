@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 238.20964580614867,
+  "cash_eur": 323.73725572419556,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:definitive": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.11151346904018487,
       "entry_ts": 1790431418.1659207,
       "cost_eur": 101.96215785331687,
-      "last_price_eur": 0.1122319997720373,
-      "last_score": 48.0,
+      "last_price_eur": 0.11285308160411926,
+      "last_score": 48.1,
       "missed_updates": 0,
       "entry_market_cap": 33500096,
       "entry_venue": null,
@@ -56,7 +56,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 34294861
+      "last_market_cap": 34481875
     },
     "cex_small_cap:sudeng": {
       "tier": "cex_small_cap",
@@ -68,8 +68,8 @@
       "entry_price_eur": 0.0001399701442740722,
       "entry_ts": 1790449144.2297075,
       "cost_eur": 102.0245301888261,
-      "last_price_eur": 0.0001442702864012461,
-      "last_score": 65.9,
+      "last_price_eur": 0.00014664668739597372,
+      "last_score": 68.0,
       "missed_updates": 0,
       "entry_market_cap": 1595181,
       "entry_venue": "LBank",
@@ -90,7 +90,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1649125
+      "last_market_cap": 1666637
     },
     "cex_small_cap:soon-2": {
       "tier": "cex_small_cap",
@@ -102,8 +102,8 @@
       "entry_price_eur": 0.29754501905288067,
       "entry_ts": 1790528660.064564,
       "cost_eur": 94.1435261361232,
-      "last_price_eur": 0.28146812080937106,
-      "last_score": 72.2,
+      "last_price_eur": 0.27924574018416487,
+      "last_score": 73.0,
       "missed_updates": 0,
       "entry_market_cap": 115490460,
       "entry_venue": "Upbit",
@@ -138,55 +138,7 @@
           "source": "The Motley Fool"
         }
       ],
-      "last_market_cap": 109020150
-    },
-    "cex_small_cap:cyberleek": {
-      "tier": "cex_small_cap",
-      "id": "cyberleek",
-      "symbol": "CYBERLEEK",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/cyberleek",
-      "qty": 56345.21117349013,
-      "entry_price_eur": 0.0016633181900209191,
-      "entry_ts": 1790535775.3530607,
-      "cost_eur": 93.72001466543607,
-      "last_price_eur": 0.0015824732182396321,
-      "last_score": 72.3,
-      "missed_updates": 0,
-      "entry_market_cap": 1387063,
-      "entry_venue": "LBank",
-      "entry_contract_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg (Solana)",
-      "entry_score": 96.5,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 1926270,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 5.1593,
-      "entry_chg_24h": 64.73222,
-      "entry_chg_7d": 174.0025,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.3887400932762246,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "security_incident",
-        "supply_cut"
-      ],
-      "entry_catalyst_score": 0.5,
-      "entry_catalyst_headlines": [
-        {
-          "title": "CyberLeek Burns 270M Tokens in GTA 6 Rug Pull Exit [2026] - tech-insider.org",
-          "ts": 1788073200.0,
-          "source": "tech-insider.org"
-        },
-        {
-          "title": "GTA 6 leaker cashes out in $250,000 crypto rug pull just hours before Rockstar's official reveal — memecoin crashes as Cyberleek's 'anti-corporate' campaign end",
-          "ts": 1787986800.0,
-          "source": "tomshardware.com"
-        }
-      ],
-      "last_market_cap": 1334852
+      "last_market_cap": 108345595
     }
   },
   "closed_trades": [
@@ -2101,10 +2053,64 @@
       "proceeds_eur": 108.32694520056256,
       "pnl_eur": -2.02918031613045,
       "pnl_pct": -1.8387563958318798
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "cyberleek",
+      "symbol": "CYBERLEEK",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/cyberleek",
+      "qty": 56345.21117349013,
+      "entry_price_eur": 0.0016633181900209191,
+      "entry_ts": 1790535775.3530607,
+      "cost_eur": 93.72001466543607,
+      "last_price_eur": 0.0015179215435842895,
+      "last_score": 72.3,
+      "missed_updates": 0,
+      "entry_market_cap": 1387063,
+      "entry_venue": "LBank",
+      "entry_contract_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg (Solana)",
+      "entry_score": 96.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 1926270,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 5.1593,
+      "entry_chg_24h": 64.73222,
+      "entry_chg_7d": 174.0025,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.3887400932762246,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "security_incident",
+        "supply_cut"
+      ],
+      "entry_catalyst_score": 0.5,
+      "entry_catalyst_headlines": [
+        {
+          "title": "CyberLeek Burns 270M Tokens in GTA 6 Rug Pull Exit [2026] - tech-insider.org",
+          "ts": 1788073200.0,
+          "source": "tech-insider.org"
+        },
+        {
+          "title": "GTA 6 leaker cashes out in $250,000 crypto rug pull just hours before Rockstar's official reveal — memecoin crashes as Cyberleek's 'anti-corporate' campaign end",
+          "ts": 1787986800.0,
+          "source": "tomshardware.com"
+        }
+      ],
+      "last_market_cap": 1260731,
+      "exit_price_eur": 0.0015179215435842895,
+      "exit_ts": 1790541035.5495968,
+      "exit_reason": "stop-loss hit (-8.7%)",
+      "proceeds_eur": 85.52760991804689,
+      "pnl_eur": -8.192404747389176,
+      "pnl_pct": -8.741360931957402
     }
   ],
-  "last_run_ts": 1790540724.2614934,
-  "last_eur_rate": 0.8788930027489862,
+  "last_run_ts": 1790541035.5495968,
+  "last_eur_rate": 0.8789659997361169,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
