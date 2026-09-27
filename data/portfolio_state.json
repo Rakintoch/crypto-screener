@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 423.0870080923055,
+  "cash_eur": 255.96933070943498,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:sudeng": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0001399701442740722,
       "entry_ts": 1790449144.2297075,
       "cost_eur": 102.0245301888261,
-      "last_price_eur": 0.00014428763067868603,
-      "last_score": 55.5,
+      "last_price_eur": 0.00014379701309021013,
+      "last_score": 55.2,
       "missed_updates": 0,
       "entry_market_cap": 1595181,
       "entry_venue": "LBank",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1641968
+      "last_market_cap": 1637196
     },
     "cex_small_cap:soon-2": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.29754501905288067,
       "entry_ts": 1790528660.064564,
       "cost_eur": 94.1435261361232,
-      "last_price_eur": 0.288077899609722,
+      "last_price_eur": 0.287778561579766,
       "last_score": 85.2,
       "missed_updates": 0,
       "entry_market_cap": 115490460,
@@ -85,7 +85,76 @@
           "source": "The Motley Fool"
         }
       ],
-      "last_market_cap": 111395417
+      "last_market_cap": 111293659
+    },
+    "dex_micro_cap:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
+      "tier": "dex_micro_cap",
+      "id": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+      "symbol": "baton",
+      "network": "solana",
+      "url": "https://dexscreener.com/solana/Cb7ZRgPLhji3Th7htXyKEqbXvNjPpeTvckXuWakBUhXu",
+      "qty": 24046.70711722263,
+      "entry_price_eur": 0.003088760673933571,
+      "entry_ts": 1790549309.8484533,
+      "cost_eur": 74.27452328127578,
+      "last_price_eur": 0.003088760673933571,
+      "last_score": 79.9,
+      "missed_updates": 0,
+      "entry_market_cap": 3510594.01402836,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 79.9,
+      "entry_liquidity_usd": 345981.4262,
+      "entry_volume_24h_usd": 1252479.50022833,
+      "entry_security_notes": "no obvious red flags",
+      "entry_chg_1h": 15.734,
+      "entry_chg_24h": 80.382,
+      "entry_chg_7d": null,
+      "entry_chg_6h": 50.297,
+      "entry_turnover": null,
+      "entry_vol_liq_ratio": 3.6200772798257517,
+      "entry_boosted": false,
+      "entry_pool_age_minutes": 26054.9640319,
+      "entry_base_breakout": {
+        "is_breakout": true,
+        "pre_window_move_pct": 20.0
+      },
+      "entry_catalyst_tags": null,
+      "entry_catalyst_score": null,
+      "entry_catalyst_headlines": null
+    },
+    "cex_small_cap:superrare": {
+      "tier": "cex_small_cap",
+      "id": "superrare",
+      "symbol": "RARE",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/superrare",
+      "qty": 4883.940140600285,
+      "entry_price_eur": 0.019009887801406052,
+      "entry_ts": 1790549309.8484533,
+      "cost_eur": 92.84315410159472,
+      "last_price_eur": 0.019009887801406052,
+      "last_score": 78.1,
+      "missed_updates": 0,
+      "entry_market_cap": 17740164,
+      "entry_venue": "Binance",
+      "entry_contract_address": "0xba5bde662c17e2adff1075610382b9b691296350 (ETH)",
+      "entry_score": 78.1,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 69528151,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 7.9278,
+      "entry_chg_24h": 0.19172,
+      "entry_chg_7d": 67.705,
+      "entry_chg_6h": null,
+      "entry_turnover": 3.919250746498172,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2115,8 +2184,8 @@
       "pnl_pct": -2.5621324030481496
     }
   ],
-  "last_run_ts": 1790549124.5657248,
-  "last_eur_rate": 0.878731002915262,
+  "last_run_ts": 1790549309.8484533,
+  "last_eur_rate": 0.8787399968846866,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
