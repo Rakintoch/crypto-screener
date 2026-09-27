@@ -3505,5 +3505,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "AMP (cex_small_cap) lost -8.3% in 303 min (fast (1-6h)) — stop-loss hit. Entry score: 99 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790507026.1695051,
+    "symbol": "MUBARAK",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/mubarak",
+    "held_minutes": 2400.4,
+    "exit_reason": "rotated out — thesis fading (score 43, no unrealized gain) to free a slot for a new qualified candidate",
+    "pnl_pct": -3.35,
+    "pnl_eur": -3.7,
+    "entry_score": 94.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 84896677,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 7.1864,
+    "entry_chg_24h": 18.99889,
+    "entry_chg_7d": 66.0737,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.5502355601181053,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "MUBARAK (cex_small_cap) lost -3.4% in 2400 min (slow (>6h)) — other. Entry score: 95 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

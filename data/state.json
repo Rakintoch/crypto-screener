@@ -445,8 +445,8 @@
     "symbol": "FLEX"
   },
   "cex_small_cap:xai-blockchain": {
-    "last_alert_ts": 1790435004.6155107,
-    "last_score": 55.9,
+    "last_alert_ts": 1790507025.7744873,
+    "last_score": 56.1,
     "symbol": "XAI"
   },
   "dex_micro_cap:BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump": {
@@ -1025,8 +1025,8 @@
     "symbol": "AKITA"
   },
   "cex_small_cap:allinu": {
-    "last_alert_ts": 1790449143.6734078,
-    "last_score": 82.0,
+    "last_alert_ts": 1790507025.7744873,
+    "last_score": 56.7,
     "symbol": "ALLINU"
   },
   "dex_micro_cap:0x7fb4758cb0c617c0bab1baf80525fab958637777": {
@@ -1313,5 +1313,15 @@
     "last_alert_ts": 1790502514.4325821,
     "last_score": 66.8,
     "symbol": "JACK"
+  },
+  "cex_small_cap:sats-ordinals": {
+    "last_alert_ts": 1790507025.7744873,
+    "last_score": 55.7,
+    "symbol": "SATS"
+  },
+  "cex_small_cap:infinex-2": {
+    "last_alert_ts": 1790507025.7744873,
+    "last_score": 55.2,
+    "symbol": "INX"
   }
 }
