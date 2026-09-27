@@ -20,8 +20,8 @@
     "symbol": "HMM"
   },
   "cex_small_cap:dymension": {
-    "last_alert_ts": 1790413379.73244,
-    "last_score": 73.5,
+    "last_alert_ts": 1790537462.1432884,
+    "last_score": 59.9,
     "symbol": "DYM"
   },
   "cex_small_cap:hookr-fun": {
@@ -290,8 +290,8 @@
     "symbol": "AMC"
   },
   "cex_small_cap:b3": {
-    "last_alert_ts": 1790471082.8253171,
-    "last_score": 69.5,
+    "last_alert_ts": 1790537462.1432884,
+    "last_score": 57.0,
     "symbol": "B3"
   },
   "cex_small_cap:neon": {
@@ -835,8 +835,8 @@
     "symbol": "IO"
   },
   "cex_small_cap:lil-shrub": {
-    "last_alert_ts": 1790535774.8938022,
-    "last_score": 72.7,
+    "last_alert_ts": 1790537462.1432884,
+    "last_score": 97.6,
     "symbol": "SHRUB"
   },
   "cex_small_cap:tensor": {
@@ -1388,5 +1388,10 @@
     "last_alert_ts": 1790535774.8938022,
     "last_score": 63.2,
     "symbol": "PRIORS"
+  },
+  "cex_small_cap:sportstensor": {
+    "last_alert_ts": 1790537462.1432884,
+    "last_score": 57.3,
+    "symbol": "SN41"
   }
 }
