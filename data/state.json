@@ -65,8 +65,8 @@
     "symbol": "DRIFT"
   },
   "cex_small_cap:rhea-2": {
-    "last_alert_ts": 1790514497.2238824,
-    "last_score": 80.9,
+    "last_alert_ts": 1790564594.3231244,
+    "last_score": 64.9,
     "symbol": "RHEA"
   },
   "cex_small_cap:arcium": {
@@ -705,8 +705,8 @@
     "symbol": "SI"
   },
   "cex_small_cap:avantis": {
-    "last_alert_ts": 1790398974.4950936,
-    "last_score": 68.0,
+    "last_alert_ts": 1790564594.3231244,
+    "last_score": 59.8,
     "symbol": "AVNT"
   },
   "dex_micro_cap:5NhN6zzDkzwXFGPFqtpTopV4ttBeZ6CWy1oRL9Rkpump": {
@@ -965,8 +965,8 @@
     "symbol": "YEE"
   },
   "cex_small_cap:apeonfone": {
-    "last_alert_ts": 1790514497.2238824,
-    "last_score": 96.9,
+    "last_alert_ts": 1790564594.3231244,
+    "last_score": 58.1,
     "symbol": "FONE"
   },
   "dex_micro_cap:FYM6PhwAS3QwTBwvgLj8JYeMgpNfKsWtW3hGxPM9eFkt": {
@@ -1150,8 +1150,8 @@
     "symbol": "ROBINPEPE"
   },
   "cex_small_cap:audius": {
-    "last_alert_ts": 1790521195.4778059,
-    "last_score": 96.0,
+    "last_alert_ts": 1790564594.3231244,
+    "last_score": 60.3,
     "symbol": "AUDIO"
   },
   "cex_small_cap:opinion": {
@@ -1205,8 +1205,8 @@
     "symbol": "INX"
   },
   "cex_small_cap:collaterize": {
-    "last_alert_ts": 1790514497.2238824,
-    "last_score": 94.5,
+    "last_alert_ts": 1790564594.3231244,
+    "last_score": 74.2,
     "symbol": "COLLAT"
   },
   "dex_micro_cap:8DwNVMzpcc3mq7Tk4gyWeTkvmFhnXcnDDCLayFFhXvex": {
@@ -1250,13 +1250,13 @@
     "symbol": "MAGIC"
   },
   "cex_small_cap:tread-fi": {
-    "last_alert_ts": 1790521195.4778059,
-    "last_score": 82.5,
+    "last_alert_ts": 1790564594.3231244,
+    "last_score": 76.8,
     "symbol": "TREAD"
   },
   "cex_small_cap:goat-network": {
-    "last_alert_ts": 1790521195.4778059,
-    "last_score": 80.3,
+    "last_alert_ts": 1790564594.3231244,
+    "last_score": 68.1,
     "symbol": "GOATED"
   },
   "cex_small_cap:moonwell-artemis": {
@@ -1373,5 +1373,20 @@
     "last_alert_ts": 1790557470.413951,
     "last_score": 56.3,
     "symbol": "PAID"
+  },
+  "dex_micro_cap:6UhUkSBc9RBB9gVJcjCWtcQv4t771rQF7bdn2qK7pump": {
+    "last_alert_ts": 1790564594.3231244,
+    "last_score": 87.0,
+    "symbol": "INSTA"
+  },
+  "cex_small_cap:ping-ping-and-fu-shuang": {
+    "last_alert_ts": 1790564594.3231244,
+    "last_score": 81.3,
+    "symbol": "熊猫"
+  },
+  "cex_small_cap:kaio": {
+    "last_alert_ts": 1790564594.3231244,
+    "last_score": 78.2,
+    "symbol": "KAIO"
   }
 }
