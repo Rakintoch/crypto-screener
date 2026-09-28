@@ -35,8 +35,8 @@
     "symbol": "SHROOM"
   },
   "cex_small_cap:harmony": {
-    "last_alert_ts": 1790542994.2003644,
-    "last_score": 75.5,
+    "last_alert_ts": 1790600614.2148974,
+    "last_score": 66.6,
     "symbol": "ONE"
   },
   "cex_small_cap:embercurve": {
@@ -345,8 +345,8 @@
     "symbol": "COLLECT"
   },
   "cex_small_cap:jambo-2": {
-    "last_alert_ts": 1790550216.1997437,
-    "last_score": 62.1,
+    "last_alert_ts": 1790600614.2148974,
+    "last_score": 59.5,
     "symbol": "JAMBO"
   },
   "cex_small_cap:the-juggernaut": {
@@ -410,8 +410,8 @@
     "symbol": "DIA"
   },
   "cex_small_cap:moonbeam": {
-    "last_alert_ts": 1790528659.3319292,
-    "last_score": 83.6,
+    "last_alert_ts": 1790600614.2148974,
+    "last_score": 56.0,
     "symbol": "GLMR"
   },
   "cex_small_cap:wealth-and-prosperity-2": {
@@ -1200,8 +1200,8 @@
     "symbol": "PRIORS"
   },
   "cex_small_cap:sportstensor": {
-    "last_alert_ts": 1790537462.1432884,
-    "last_score": 57.3,
+    "last_alert_ts": 1790600614.2148974,
+    "last_score": 63.1,
     "symbol": "SN41"
   },
   "cex_small_cap:echelon-prime": {
@@ -1353,5 +1353,35 @@
     "last_alert_ts": 1790593399.46821,
     "last_score": 55.0,
     "symbol": "BABYCALI"
+  },
+  "cex_small_cap:tevaera": {
+    "last_alert_ts": 1790600614.2148974,
+    "last_score": 82.5,
+    "symbol": "TEVA"
+  },
+  "cex_small_cap:pongo-3": {
+    "last_alert_ts": 1790600614.2148974,
+    "last_score": 77.9,
+    "symbol": "PONGO"
+  },
+  "cex_small_cap:numeraire": {
+    "last_alert_ts": 1790600614.2148974,
+    "last_score": 72.3,
+    "symbol": "NMR"
+  },
+  "cex_small_cap:doodles": {
+    "last_alert_ts": 1790600614.2148974,
+    "last_score": 59.2,
+    "symbol": "DOOD"
+  },
+  "cex_small_cap:fartboy": {
+    "last_alert_ts": 1790600614.2148974,
+    "last_score": 58.9,
+    "symbol": "$FARTBOY"
+  },
+  "cex_small_cap:teller": {
+    "last_alert_ts": 1790600614.2148974,
+    "last_score": 55.6,
+    "symbol": "DEBIT"
   }
 }
