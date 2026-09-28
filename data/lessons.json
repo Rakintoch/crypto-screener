@@ -3886,5 +3886,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "MAME (cex_small_cap) lost -42.6% in 147 min (fast (1-6h)) — stop-loss hit. Entry score: 80 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790609118.5323997,
+    "symbol": "RHEA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/rhea-2",
+    "held_minutes": 382.1,
+    "exit_reason": "stop-loss hit (-8.8%)",
+    "pnl_pct": -8.81,
+    "pnl_eur": -7.63,
+    "entry_score": 80.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 19567544,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.6412,
+    "entry_chg_24h": 35.09178,
+    "entry_chg_7d": 399.8532,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.281642282792109,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "RHEA (cex_small_cap) lost -8.8% in 382 min (slow (>6h)) — stop-loss hit. Entry score: 80 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
