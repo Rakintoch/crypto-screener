@@ -218,8 +218,6 @@ def _alert_capital_protection(state, equity):
         "of the next cycle, if the balance is back above the threshold."
     )
     telegram_alert.send_telegram_message(msg)
-
-
 def _robustness_proxy(c):
     """Autoanálise 2026-09-13: o desempate por liquidez do SELECTION_SCORE_CEILING
     (ver comentário abaixo, em _check_entries) estava, na prática, inerte para o tier
@@ -300,6 +298,14 @@ def _check_entries(state, ranked_candidates, now):
         and f"{c['tier']}:{c['id']}" not in held_keys
         and f"{c['tier']}:{c['id']}" not in recent_exit_ids
         and c.get("price_usd")
+        # Autoanálise 2026-09-23 (ver config.CEX_MAX_ENTRY_CHG_1H_PCT): este gate já estava
+        # decidido e documentado em config.py desde 2026-09-23, mas nunca tinha sido aplicado
+        # aqui — passes_hard_filters() só tem filtros eliminatórios para dex_micro_cap, e esta
+        # lista nunca verificava chg_1h. Autoanálise 2026-09-28 confirmou o efeito: 2 dos 31
+        # trades cex_small_cap fechados desde a última entrada do changelog tinham
+        # entry_chg_1h >= 45% (POND 86,8%, SHRUB 2178,3%) e ambos perderam (0% win rate,
+        # -17,0% pnl médio) — o mesmo padrão já medido em 2026-09-23, nunca bloqueado.
+        and (c["tier"] != "cex_small_cap" or (c.get("chg_1h") or 0) < config.CEX_MAX_ENTRY_CHG_1H_PCT)
     ]
     # Autoanálise 2026-09-10: ordenar sempre pelo score bruto favorecia sistematicamente o
     # candidato mais "esticado" (que mais subiu, mais depressa) quando vários passam o
@@ -328,12 +334,6 @@ def _check_entries(state, ranked_candidates, now):
     for c in eligible[:slots_free]:
         equity = _equity(state)
         size_pct = config.POSITION_SIZE_PCT_BY_TIER.get(c["tier"], config.POSITION_SIZE_PCT_OF_EQUITY)
-        size_eur = min(equity * size_pct, state["cash_eur"])
-        if size_eur < config.MIN_TRADE_EUR:
-            continue
-
-        entry_price_eur = c["price_usd"] * c["_eur_rate"]
-        qty = size_eur / entry_price_eur
 
         # Pedido do Ricardo 2026-09-14 (caso SOXSB): o preço guardado acima é uma média do
         # CoinGecko entre várias venues, mas uma compra real só pode ser executada numa de
@@ -341,6 +341,16 @@ def _check_entries(state, ranked_candidates, now):
         # (o tier dex_micro_cap já vem de UMA pool específica, sem essa média). Uma chamada
         # extra por compra real (não por candidato avaliado); nunca bloqueia a compra se
         # falhar — a nota fica simplesmente ausente do alerta.
+        #
+        # Autoanálise 2026-09-28: resolvido AQUI, antes do tamanho da posição ser calculado
+        # (antes ficava só depois, só para exibição). config.CEX_ONCHAIN_VENUE_POSITION_SIZE_PCT
+        # já estava decidido e documentado desde a autoanálise de 2026-09-24 (risco de cauda de
+        # uma pool on-chain fina, sob um token cex_small_cap: AIN -80,1%, ASTRO -67,4%), mas
+        # nunca tinha sido aplicado ao dimensionamento — só citado no Telegram. Autoanálise
+        # 2026-09-28 confirmou o efeito: 4 trades on-chain fechados desde então (ARGUS, BREW,
+        # SHRUB x2) tiveram 0% win rate e -14,30% pnl médio, dimensionados a ~10-12% do equity
+        # em vez dos 7% pretendidos — SHRUB em particular foi recomprado 2 dias depois de já
+        # ter rebentado uma vez pela mesma pool fina, perdendo outra vez (-17,7% e depois -23,0%).
         entry_venue = None
         # Endereço do contrato — pedido do Ricardo 2026-09-14, para mostrar na listagem de
         # posições abertas. Só faz sentido buscar para cex_small_cap: dex_micro_cap já vem
@@ -357,6 +367,15 @@ def _check_entries(state, ranked_candidates, now):
                 entry_contract_address = sources_coingecko.fetch_contract_address(c["id"])
             except Exception:
                 traceback.print_exc()
+            if entry_venue and "(on-chain)" in entry_venue:
+                size_pct = config.CEX_ONCHAIN_VENUE_POSITION_SIZE_PCT
+
+        size_eur = min(equity * size_pct, state["cash_eur"])
+        if size_eur < config.MIN_TRADE_EUR:
+            continue
+
+        entry_price_eur = c["price_usd"] * c["_eur_rate"]
+        qty = size_eur / entry_price_eur
 
         # Catalisadores fundamentais (2026-09-25, caso LSK) — SÓ registo, não muda a decisão de
         # compra do desafio: uma chamada por compra real, para a autoanálise poder comparar os
