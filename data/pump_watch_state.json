@@ -1,7 +1,7 @@
 {
   "status": "active",
   "start_ts": 1789402186.9931946,
-  "cash_eur": 34.136452430315906,
+  "cash_eur": 0.0,
   "reserve_eur": 1.2705007629052347,
   "starting_balance_eur": 100.0,
   "positions": {
@@ -31,6 +31,29 @@
       "last_market_cap": 1369972,
       "entry_venue": null,
       "entry_contract_address": null
+    },
+    "cex_small_cap:spacex-robinhood-tokenized-stock": {
+      "id": "spacex-robinhood-tokenized-stock",
+      "symbol": "SPCX",
+      "qty": 0.266295769353033,
+      "entry_price_eur": 128.1899915768493,
+      "entry_ts": 1790629585.128683,
+      "cost_eur": 34.136452430315906,
+      "last_price_eur": 128.1899915768493,
+      "peak_price_eur": 128.1899915768493,
+      "entry_market_cap": 11968901,
+      "last_market_cap": 11968901,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_obv_score": 0.18790506063108864,
+      "entry_price_change_3d": -0.018654628998472835,
+      "entry_volume_surge": 2.336793804234382,
+      "entry_chg_24h": -1.96092,
+      "entry_chg_7d": -4.0438,
+      "entry_turnover": 2.712806798218149,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -107,8 +130,8 @@
       "reserved_eur": 0.0
     }
   ],
-  "last_run_ts": 1790628922.1930292,
-  "last_eur_rate": 0.879456996898617,
+  "last_run_ts": 1790629585.128683,
+  "last_eur_rate": 0.8793989955193064,
   "review_cycle": {
     "number": 1,
     "start_ts": 1789402186.9931946,
