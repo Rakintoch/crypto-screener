@@ -3994,5 +3994,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "AGI (cex_small_cap) lost -9.9% in 29 min (very fast (<1h)) — stop-loss hit. Entry score: 97 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790634020.7154334,
+    "symbol": "AVT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/aventus",
+    "held_minutes": 73.9,
+    "exit_reason": "stop-loss hit (-10.0%)",
+    "pnl_pct": -9.97,
+    "pnl_eur": -7.23,
+    "entry_score": 95.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 3156832,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 29.8607,
+    "entry_chg_24h": 66.00458,
+    "entry_chg_7d": 109.3426,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.7634998159473295,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "AVT (cex_small_cap) lost -10.0% in 74 min (fast (1-6h)) — stop-loss hit. Entry score: 95 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
