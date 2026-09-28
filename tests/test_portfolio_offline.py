@@ -551,6 +551,77 @@ def _run_scenarios():
         cg.fetch_contract_address = original_fetch_contract_address
         print("✅ Corrida 7b OK — falha na chamada de endereço não bloqueia a compra, só omite a nota")
 
+        # --- Corrida 6c: gate de entrada por chg_1h extremo em cex_small_cap (autoanálise
+        # 2026-09-23, ver config.CEX_MAX_ENTRY_CHG_1H_PCT) — a constante já estava decidida e
+        # documentada em config.py desde 2026-09-23, mas nunca tinha sido aplicada em
+        # _check_entries (a lista "eligible" nunca verificava chg_1h). Autoanálise 2026-09-28
+        # confirmou o efeito real: 2 trades cex_small_cap fechados desde então tinham
+        # entry_chg_1h >= 45% (POND 86,8%, SHRUB 2178,3%) e ambos perderam. Um candidato
+        # cex_small_cap acima do limiar nunca deve ser comprado, mesmo com score alto; o mesmo
+        # candidato no tier dex_micro_cap (onde o filtro não se aplica) continua normal ---
+        os.remove(config.PORTFOLIO_STATE_FILE)
+        cg.fetch_top_venue = lambda coin_id: None
+        cg.fetch_contract_address = lambda coin_id: None
+        stretched_cex = fake_candidate("STRETCH", score=95, price_usd=1.0, cid="stretch")
+        stretched_cex["chg_1h"] = config.CEX_MAX_ENTRY_CHG_1H_PCT + 10  # bem acima do limiar
+        calm_cex = fake_candidate("CALM", score=90, price_usd=1.0, cid="calm")
+        calm_cex["chg_1h"] = config.CEX_MAX_ENTRY_CHG_1H_PCT - 10  # abaixo do limiar
+        stretched_dex = fake_candidate("DSTRETCH", score=90, price_usd=0.001, tier="dex_micro_cap", cid="0xdstretch")
+        stretched_dex["chg_1h"] = config.CEX_MAX_ENTRY_CHG_1H_PCT + 10  # filtro não se aplica a dex_micro_cap
+        state, actions, _ = portfolio.run_portfolio_cycle([stretched_cex, calm_cex, stretched_dex], eur_rate)
+        bought_symbols = {a["symbol"] for a in actions if a["action"] == "buy"}
+        assert "STRETCH" not in bought_symbols, (
+            f"FALHOU: candidato cex_small_cap com chg_1h={stretched_cex['chg_1h']}% (>= limiar "
+            f"{config.CEX_MAX_ENTRY_CHG_1H_PCT}%) não devia ser comprado: {bought_symbols}"
+        )
+        assert "CALM" in bought_symbols, (
+            f"FALHOU: candidato cex_small_cap com chg_1h abaixo do limiar devia ser comprado: {bought_symbols}"
+        )
+        assert "DSTRETCH" in bought_symbols, (
+            "FALHOU: o gate de chg_1h só se aplica a cex_small_cap — dex_micro_cap não devia ser "
+            f"filtrado: {bought_symbols}"
+        )
+        print(f"✅ Corrida 6c OK — candidato cex_small_cap esticado (chg_1h={stretched_cex['chg_1h']:.0f}%) "
+              "bloqueado na compra; candidato calmo comprado normalmente; dex_micro_cap não afetado")
+
+        # --- Corrida 6d: tamanho de posição reduzido quando a venue mais líquida é uma pool
+        # on-chain, não uma exchange centralizada (autoanálise 2026-09-24, ver
+        # config.CEX_ONCHAIN_VENUE_POSITION_SIZE_PCT) — a constante já estava decidida e
+        # documentada desde 2026-09-24, mas nunca tinha sido aplicada ao dimensionamento em
+        # _check_entries (entry_venue só era resolvido DEPOIS do tamanho já calculado, e só
+        # para citar no Telegram). Autoanálise 2026-09-28 confirmou o efeito real: 4 trades
+        # on-chain fechados desde então (ARGUS, BREW, SHRUB x2) foram dimensionados a ~10-12%
+        # do equity em vez dos 7% pretendidos, e todos perderam ---
+        os.remove(config.PORTFOLIO_STATE_FILE)
+        cg.fetch_top_venue = lambda coin_id: "Uniswap V2 (Base) (on-chain)"
+        cg.fetch_contract_address = lambda coin_id: None
+        onchain_candidate = fake_candidate("THIN", score=90, price_usd=1.0, cid="thin")
+        state, actions, _ = portfolio.run_portfolio_cycle([onchain_candidate], eur_rate)
+        buy_onchain = next(a for a in actions if a["action"] == "buy")
+        expected_onchain_cost = config.STARTING_BALANCE_EUR * config.CEX_ONCHAIN_VENUE_POSITION_SIZE_PCT
+        assert abs(buy_onchain["cost_eur"] - expected_onchain_cost) < 0.01, (
+            "FALHOU: compra com venue on-chain devia usar CEX_ONCHAIN_VENUE_POSITION_SIZE_PCT "
+            f"({config.CEX_ONCHAIN_VENUE_POSITION_SIZE_PCT:.0%} = {expected_onchain_cost:.2f} EUR), "
+            f"obtido {buy_onchain['cost_eur']:.2f} EUR"
+        )
+
+        os.remove(config.PORTFOLIO_STATE_FILE)
+        cg.fetch_top_venue = lambda coin_id: "Binance"
+        cex_candidate3 = fake_candidate("THICK", score=90, price_usd=1.0, cid="thick")
+        state, actions, _ = portfolio.run_portfolio_cycle([cex_candidate3], eur_rate)
+        buy_normal = next(a for a in actions if a["action"] == "buy")
+        expected_normal_cost = config.STARTING_BALANCE_EUR * config.POSITION_SIZE_PCT_BY_TIER["cex_small_cap"]
+        assert abs(buy_normal["cost_eur"] - expected_normal_cost) < 0.01, (
+            "FALHOU: compra com venue CEX normal devia manter o tamanho de posição normal "
+            f"({config.POSITION_SIZE_PCT_BY_TIER['cex_small_cap']:.0%} = {expected_normal_cost:.2f} EUR), "
+            f"obtido {buy_normal['cost_eur']:.2f} EUR"
+        )
+        cg.fetch_top_venue = original_fetch_top_venue
+        cg.fetch_contract_address = original_fetch_contract_address
+        print(f"✅ Corrida 6d OK — venue on-chain reduz o tamanho da posição para "
+              f"{config.CEX_ONCHAIN_VENUE_POSITION_SIZE_PCT:.0%} (vs. "
+              f"{config.POSITION_SIZE_PCT_BY_TIER['cex_small_cap']:.0%} numa venue CEX normal)")
+
     # --- Corrida 8: rotação de posição fraca (pedido do Ricardo 2026-09-16) — com as 4
     # vagas cheias e um candidato novo já qualificado (score >= ENTRY_MIN_SCORE), a posição
     # mais fraca (score já a decair, sem ganho não realizado, aberta há mais do que
