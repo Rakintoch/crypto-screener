@@ -15,8 +15,8 @@
       "entry_price_eur": 0.015092237151136698,
       "entry_ts": 1790571777.4393594,
       "cost_eur": 88.2579412981938,
-      "last_price_eur": 0.014323779341654217,
-      "last_score": 51.5,
+      "last_price_eur": 0.014305128700675213,
+      "last_score": 51.2,
       "missed_updates": 0,
       "entry_market_cap": 25069743,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 23777943
+      "last_market_cap": 23753205
     },
     "cex_small_cap:mubarak": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.053810891839366055,
       "entry_ts": 1790591377.1146839,
       "cost_eur": 83.33389565716514,
-      "last_price_eur": 0.05297097547818171,
-      "last_score": 64.1,
+      "last_price_eur": 0.053091264557227534,
+      "last_score": 64.3,
       "missed_updates": 0,
       "entry_market_cap": 61180989,
       "entry_venue": "Binance",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 60258950
+      "last_market_cap": 60386355
     }
   },
   "closed_trades": [
@@ -2560,8 +2560,8 @@
       "pnl_pct": -20.26222134144691
     }
   ],
-  "last_run_ts": 1790613948.6058176,
-  "last_eur_rate": 0.8790550038696578,
+  "last_run_ts": 1790614224.2140198,
+  "last_eur_rate": 0.8791399992917294,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
