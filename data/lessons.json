@@ -4021,5 +4021,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "AVT (cex_small_cap) lost -10.0% in 74 min (fast (1-6h)) — stop-loss hit. Entry score: 95 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790634632.3345878,
+    "symbol": "AUDIO",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/audius",
+    "held_minutes": 1047.6,
+    "exit_reason": "stop-loss hit (-8.3%)",
+    "pnl_pct": -8.26,
+    "pnl_eur": -7.29,
+    "entry_score": 90.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 74598018,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.4431,
+    "entry_chg_24h": 17.57332,
+    "entry_chg_7d": 29.3639,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.975619574560457,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "AUDIO (cex_small_cap) lost -8.3% in 1048 min (slow (>6h)) — stop-loss hit. Entry score: 90 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
