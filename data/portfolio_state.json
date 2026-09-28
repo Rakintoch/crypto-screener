@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 318.3615696607918,
+  "cash_eur": 386.0578183073152,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:mubarak": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.053810891839366055,
       "entry_ts": 1790591377.1146839,
       "cost_eur": 83.33389565716514,
-      "last_price_eur": 0.05278138694395619,
-      "last_score": 75.8,
+      "last_price_eur": 0.052748944224995487,
+      "last_score": 75.9,
       "missed_updates": 0,
       "entry_market_cap": 61180989,
       "entry_venue": "Binance",
@@ -37,60 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 60020879
-    },
-    "cex_small_cap:soon-2": {
-      "tier": "cex_small_cap",
-      "id": "soon-2",
-      "symbol": "SOON",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/soon-2",
-      "qty": 249.2031815057525,
-      "entry_price_eur": 0.29727319109488753,
-      "entry_ts": 1790614995.3802567,
-      "cost_eur": 74.0814249972135,
-      "last_price_eur": 0.27429067736042734,
-      "last_score": 53.1,
-      "missed_updates": 0,
-      "entry_market_cap": 115263559,
-      "entry_venue": "Upbit",
-      "entry_contract_address": null,
-      "entry_score": 76.0,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 111715752,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 9.0541,
-      "entry_chg_24h": 0.06916,
-      "entry_chg_7d": 76.4332,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.969220046380834,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "listing",
-        "security_incident"
-      ],
-      "entry_catalyst_score": 0.4,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Real Truth! OZ Presale Nears 100%, Why Ozak AI Listing Still “Soon”? - Coin Gabbar",
-          "ts": 1790509200.0,
-          "source": "Coin Gabbar"
-        },
-        {
-          "title": "Why Balancer’s $1.4M hack recovery won’t pay LPs anytime soon - CryptoRank",
-          "ts": 1790005647.0,
-          "source": "CryptoRank"
-        },
-        {
-          "title": "Hyperliquid Could Be Bringing Perpetual Futures to US Customers Soon. Is HYPE a Buy, Sell, or Hold Right Now? - fool.com",
-          "ts": 1789455600.0,
-          "source": "fool.com"
-        }
-      ],
-      "last_market_cap": 105985409
+      "last_market_cap": 59995020
     }
   },
   "closed_trades": [
@@ -2745,10 +2692,69 @@
       "proceeds_eur": 80.96656472264921,
       "pnl_eur": -7.291376575544589,
       "pnl_pct": -8.261439671371315
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "soon-2",
+      "symbol": "SOON",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/soon-2",
+      "qty": 249.2031815057525,
+      "entry_price_eur": 0.29727319109488753,
+      "entry_ts": 1790614995.3802567,
+      "cost_eur": 74.0814249972135,
+      "last_price_eur": 0.27165082017606856,
+      "last_score": 53.0,
+      "missed_updates": 0,
+      "entry_market_cap": 115263559,
+      "entry_venue": "Upbit",
+      "entry_contract_address": null,
+      "entry_score": 76.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 111715752,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 9.0541,
+      "entry_chg_24h": 0.06916,
+      "entry_chg_7d": 76.4332,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.969220046380834,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing",
+        "security_incident"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Real Truth! OZ Presale Nears 100%, Why Ozak AI Listing Still “Soon”? - Coin Gabbar",
+          "ts": 1790509200.0,
+          "source": "Coin Gabbar"
+        },
+        {
+          "title": "Why Balancer’s $1.4M hack recovery won’t pay LPs anytime soon - CryptoRank",
+          "ts": 1790005647.0,
+          "source": "CryptoRank"
+        },
+        {
+          "title": "Hyperliquid Could Be Bringing Perpetual Futures to US Customers Soon. Is HYPE a Buy, Sell, or Hold Right Now? - fool.com",
+          "ts": 1789455600.0,
+          "source": "fool.com"
+        }
+      ],
+      "last_market_cap": 105120876,
+      "exit_price_eur": 0.27165082017606856,
+      "exit_ts": 1790639123.6982687,
+      "exit_reason": "stop-loss hit (-8.6%)",
+      "proceeds_eur": 67.69624864652334,
+      "pnl_eur": -6.385176350690159,
+      "pnl_pct": -8.619132732571398
     }
   ],
-  "last_run_ts": 1790638824.7536192,
-  "last_eur_rate": 0.879381998699725,
+  "last_run_ts": 1790639123.6982687,
+  "last_eur_rate": 0.8792369941160031,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
