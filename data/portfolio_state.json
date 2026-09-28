@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 251.85553125406616,
+  "cash_eur": 178.7895259239799,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:audius": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.015092237151136698,
       "entry_ts": 1790571777.4393594,
       "cost_eur": 88.2579412981938,
-      "last_price_eur": 0.0143506920358861,
-      "last_score": 45.4,
+      "last_price_eur": 0.014349737833597881,
+      "last_score": 45.6,
       "missed_updates": 0,
       "entry_market_cap": 25069743,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 23806933
+      "last_market_cap": 23813179
     },
     "cex_small_cap:mubarak": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.053810891839366055,
       "entry_ts": 1790591377.1146839,
       "cost_eur": 83.33389565716514,
-      "last_price_eur": 0.05171896031307079,
-      "last_score": 61.1,
+      "last_price_eur": 0.051514716486198785,
+      "last_score": 60.9,
       "missed_updates": 0,
       "entry_market_cap": 61180989,
       "entry_venue": "Binance",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 58796045
+      "last_market_cap": 58606834
     },
     "cex_small_cap:soon-2": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.29727319109488753,
       "entry_ts": 1790614995.3802567,
       "cost_eur": 74.0814249972135,
-      "last_price_eur": 0.2880255957376569,
-      "last_score": 61.5,
+      "last_price_eur": 0.28714463045869565,
+      "last_score": 62.2,
       "missed_updates": 0,
       "entry_market_cap": 115263559,
       "entry_venue": "Upbit",
@@ -124,7 +124,40 @@
           "source": "fool.com"
         }
       ],
-      "last_market_cap": 111260843
+      "last_market_cap": 110944323
+    },
+    "cex_small_cap:artificial-gooner-intelligence": {
+      "tier": "cex_small_cap",
+      "id": "artificial-gooner-intelligence",
+      "symbol": "AGI",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/artificial-gooner-intelligence",
+      "qty": 65523.158587754384,
+      "entry_price_eur": 0.0011151172639553059,
+      "entry_ts": 1790622701.4097629,
+      "cost_eur": 73.06600533008627,
+      "last_price_eur": 0.0011151172639553059,
+      "last_score": 96.8,
+      "missed_updates": 0,
+      "entry_market_cap": 1252899,
+      "entry_venue": "Raydium (CLMM)",
+      "entry_contract_address": "CaWZeUM4FvX9dPkjGc2xHS6tSN3qJfTWyvaG77aM5o7h (Solana)",
+      "entry_score": 96.8,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 1097036,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 42.6082,
+      "entry_chg_24h": 676.9916,
+      "entry_chg_7d": 125.6568,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.8755981128566628,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2653,8 +2686,8 @@
       "pnl_pct": -9.384387203034487
     }
   ],
-  "last_run_ts": 1790622380.5088344,
-  "last_eur_rate": 0.8796339940314102,
+  "last_run_ts": 1790622701.4097629,
+  "last_eur_rate": 0.8795410019839301,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
