@@ -115,8 +115,8 @@
     "symbol": "ALICE"
   },
   "cex_small_cap:clearpool": {
-    "last_alert_ts": 1790427779.8214378,
-    "last_score": 59.9,
+    "last_alert_ts": 1790557470.413951,
+    "last_score": 55.5,
     "symbol": "CPOOL"
   },
   "cex_small_cap:nillion": {
@@ -390,8 +390,8 @@
     "symbol": "EDGE"
   },
   "cex_small_cap:benqi": {
-    "last_alert_ts": 1790502514.4325821,
-    "last_score": 87.8,
+    "last_alert_ts": 1790557470.413951,
+    "last_score": 80.2,
     "symbol": "QI"
   },
   "cex_small_cap:cryptex-finance": {
@@ -570,8 +570,8 @@
     "symbol": "BATON"
   },
   "cex_small_cap:bundle-cat": {
-    "last_alert_ts": 1790461305.1684504,
-    "last_score": 77.9,
+    "last_alert_ts": 1790557470.413951,
+    "last_score": 55.5,
     "symbol": "BUN"
   },
   "cex_small_cap:renzo": {
@@ -665,8 +665,8 @@
     "symbol": "TENDIES"
   },
   "dex_micro_cap:CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": {
-    "last_alert_ts": 1790535774.8938022,
-    "last_score": 56.1,
+    "last_alert_ts": 1790557470.413951,
+    "last_score": 74.7,
     "symbol": "e"
   },
   "cex_small_cap:interfold": {
@@ -1140,8 +1140,8 @@
     "symbol": "TAIKO"
   },
   "cex_small_cap:intuition": {
-    "last_alert_ts": 1790528659.3319292,
-    "last_score": 70.8,
+    "last_alert_ts": 1790557470.413951,
+    "last_score": 90.6,
     "symbol": "TRUST"
   },
   "cex_small_cap:robin-pepe": {
@@ -1160,8 +1160,8 @@
     "symbol": "OPN"
   },
   "cex_small_cap:blue-chip-4": {
-    "last_alert_ts": 1790492573.9648685,
-    "last_score": 58.4,
+    "last_alert_ts": 1790557470.413951,
+    "last_score": 69.3,
     "symbol": "BLUECHIP"
   },
   "cex_small_cap:arc-chan": {
@@ -1343,5 +1343,35 @@
     "last_alert_ts": 1790550216.1997437,
     "last_score": 55.1,
     "symbol": "AIXBT"
+  },
+  "cex_small_cap:irys": {
+    "last_alert_ts": 1790557470.413951,
+    "last_score": 80.3,
+    "symbol": "IRYS"
+  },
+  "cex_small_cap:pharos-network": {
+    "last_alert_ts": 1790557470.413951,
+    "last_score": 69.6,
+    "symbol": "PROS"
+  },
+  "cex_small_cap:gamebuild": {
+    "last_alert_ts": 1790557470.413951,
+    "last_score": 65.3,
+    "symbol": "GAME"
+  },
+  "dex_micro_cap:DAemPFNc3RtibBDKkUA4eL2Ns11q9VRdbpptmqm8DGqN": {
+    "last_alert_ts": 1790557470.413951,
+    "last_score": 65.0,
+    "symbol": "CAKE"
+  },
+  "cex_small_cap:elsa": {
+    "last_alert_ts": 1790557470.413951,
+    "last_score": 62.6,
+    "symbol": "ELSA"
+  },
+  "cex_small_cap:paid": {
+    "last_alert_ts": 1790557470.413951,
+    "last_score": 56.3,
+    "symbol": "PAID"
   }
 }
