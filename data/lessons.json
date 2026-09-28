@@ -3724,5 +3724,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "SOON (cex_small_cap) lost -9.9% in 541 min (slow (>6h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790562019.6581066,
+    "symbol": "RARE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/superrare",
+    "held_minutes": 211.8,
+    "exit_reason": "stop-loss hit (-8.3%)",
+    "pnl_pct": -8.34,
+    "pnl_eur": -7.74,
+    "entry_score": 78.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 69528151,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 7.9278,
+    "entry_chg_24h": 0.19172,
+    "entry_chg_7d": 67.705,
+    "entry_chg_6h": null,
+    "entry_turnover": 3.919250746498172,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "RARE (cex_small_cap) lost -8.3% in 212 min (fast (1-6h)) — stop-loss hit. Entry score: 78 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
