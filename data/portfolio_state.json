@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1790871149.640162,
-  "cash_eur": 329.1812638760029,
+  "cash_eur": 220.5285072134231,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:audius": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.015092237151136698,
       "entry_ts": 1790571777.4393594,
       "cost_eur": 88.2579412981938,
-      "last_price_eur": 0.014326981703682247,
-      "last_score": 51.0,
+      "last_price_eur": 0.014285670120340087,
+      "last_score": 44.7,
       "missed_updates": 0,
       "entry_market_cap": 25069743,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 23769052
+      "last_market_cap": 23686701
     },
     "cex_small_cap:mubarak": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.053810891839366055,
       "entry_ts": 1790591377.1146839,
       "cost_eur": 83.33389565716514,
-      "last_price_eur": 0.052849733921504286,
-      "last_score": 64.4,
+      "last_price_eur": 0.05240307390507129,
+      "last_score": 62.8,
       "missed_updates": 0,
       "entry_market_cap": 61180989,
       "entry_venue": "Binance",
@@ -71,7 +71,92 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 60442564
+      "last_market_cap": 59609879
+    },
+    "cex_small_cap:publicai": {
+      "tier": "cex_small_cap",
+      "id": "publicai",
+      "symbol": "PUBLIC",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/publicai",
+      "qty": 6061.916479154054,
+      "entry_price_eur": 0.0057030366195660225,
+      "entry_ts": 1790614995.3802567,
+      "cost_eur": 34.5713316653663,
+      "last_price_eur": 0.0057030366195660225,
+      "last_score": 85.6,
+      "missed_updates": 0,
+      "entry_market_cap": 1304813,
+      "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
+      "entry_contract_address": "token.publicailab.near (near-protocol)",
+      "entry_score": 85.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 420803,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 14.8154,
+      "entry_chg_24h": 106.50222,
+      "entry_chg_7d": 134.8183,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.32250061886262626,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
+    },
+    "cex_small_cap:soon-2": {
+      "tier": "cex_small_cap",
+      "id": "soon-2",
+      "symbol": "SOON",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/soon-2",
+      "qty": 249.2031815057525,
+      "entry_price_eur": 0.29727319109488753,
+      "entry_ts": 1790614995.3802567,
+      "cost_eur": 74.0814249972135,
+      "last_price_eur": 0.29727319109488753,
+      "last_score": 76.0,
+      "missed_updates": 0,
+      "entry_market_cap": 115263559,
+      "entry_venue": "Upbit",
+      "entry_contract_address": null,
+      "entry_score": 76.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 111715752,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 9.0541,
+      "entry_chg_24h": 0.06916,
+      "entry_chg_7d": 76.4332,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.969220046380834,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing",
+        "security_incident"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Real Truth! OZ Presale Nears 100%, Why Ozak AI Listing Still “Soon”? - Coin Gabbar",
+          "ts": 1790509200.0,
+          "source": "Coin Gabbar"
+        },
+        {
+          "title": "Why Balancer’s $1.4M hack recovery won’t pay LPs anytime soon - CryptoRank",
+          "ts": 1790005647.0,
+          "source": "CryptoRank"
+        },
+        {
+          "title": "Hyperliquid Could Be Bringing Perpetual Futures to US Customers Soon. Is HYPE a Buy, Sell, or Hold Right Now? - fool.com",
+          "ts": 1789455600.0,
+          "source": "fool.com"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -2560,8 +2645,8 @@
       "pnl_pct": -20.26222134144691
     }
   ],
-  "last_run_ts": 1790614518.0438535,
-  "last_eur_rate": 0.879217000856834,
+  "last_run_ts": 1790614995.3802567,
+  "last_eur_rate": 0.8793789985915875,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
