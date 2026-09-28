@@ -3778,5 +3778,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "熊猫 (cex_small_cap) lost -14.3% in 64 min (fast (1-6h)) — stop-loss hit. Entry score: 81 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790573436.1062627,
+    "symbol": "HIPPO",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/sudeng",
+    "held_minutes": 2071.5,
+    "exit_reason": "stop-loss hit (-8.0%)",
+    "pnl_pct": -8.02,
+    "pnl_eur": -8.18,
+    "entry_score": 90.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 2161088,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.0429,
+    "entry_chg_24h": 20.3519,
+    "entry_chg_7d": 27.4889,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.3547603688860386,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "HIPPO (cex_small_cap) lost -8.0% in 2072 min (slow (>6h)) — stop-loss hit. Entry score: 90 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
