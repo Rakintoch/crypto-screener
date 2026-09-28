@@ -3697,5 +3697,32 @@
     "categoria": "momentum thesis invalidated (score dropped)",
     "velocidade_queda": "very fast (<1h)",
     "licao": "baton (dex_micro_cap) lost -16.2% in 47 min (very fast (<1h)) — momentum thesis invalidated (score dropped). Entry liquidity: $345,981. Entry score: 80 (minimum required to buy: 65). Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1790561115.5436018,
+    "symbol": "SOON",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/soon-2",
+    "held_minutes": 540.9,
+    "exit_reason": "stop-loss hit (-9.9%)",
+    "pnl_pct": -9.86,
+    "pnl_eur": -9.29,
+    "entry_score": 99.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 164453404,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 15.6301,
+    "entry_chg_24h": 56.2043,
+    "entry_chg_7d": 81.2742,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.4239566107884583,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "SOON (cex_small_cap) lost -9.9% in 541 min (slow (>6h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
