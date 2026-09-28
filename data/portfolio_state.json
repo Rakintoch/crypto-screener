@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0001399701442740722,
       "entry_ts": 1790449144.2297075,
       "cost_eur": 102.0245301888261,
-      "last_price_eur": 0.00013083556780184828,
-      "last_score": 43.6,
+      "last_price_eur": 0.00013248431429189377,
+      "last_score": 44.4,
       "missed_updates": 0,
       "entry_market_cap": 1595181,
       "entry_venue": "LBank",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1489870
+      "last_market_cap": 1509289
     },
     "cex_small_cap:lil-shrub": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.009395848802546139,
       "entry_ts": 1790565690.9781387,
       "cost_eur": 88.31589125201812,
-      "last_price_eur": 0.009401245530834011,
+      "last_price_eur": 0.009397542317078322,
       "last_score": 78.1,
       "missed_updates": 0,
       "entry_market_cap": 10702296,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10705368
+      "last_market_cap": 10699823
     },
     "cex_small_cap:audius": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.015092237151136698,
       "entry_ts": 1790571777.4393594,
       "cost_eur": 88.2579412981938,
-      "last_price_eur": 0.014984927150038928,
-      "last_score": 90.0,
+      "last_price_eur": 0.01538217101222938,
+      "last_score": 91.5,
       "missed_updates": 0,
       "entry_market_cap": 25069743,
       "entry_venue": "Binance",
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 24697381
+      "last_market_cap": 25506511
     },
     "cex_small_cap:benqi": {
       "tier": "cex_small_cap",
@@ -117,8 +117,8 @@
       "entry_price_eur": 0.0028738336883122675,
       "entry_ts": 1790571777.4393594,
       "cost_eur": 88.2579412981938,
-      "last_price_eur": 0.0028230941679356866,
-      "last_score": 81.3,
+      "last_price_eur": 0.002778745417327393,
+      "last_score": 77.6,
       "missed_updates": 0,
       "entry_market_cap": 23552981,
       "entry_venue": "WEEX",
@@ -139,7 +139,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 23161315
+      "last_market_cap": 22656198
     }
   },
   "closed_trades": [
@@ -2388,8 +2388,8 @@
       "pnl_pct": -14.301126118754274
     }
   ],
-  "last_run_ts": 1790571916.321703,
-  "last_eur_rate": 0.8781499953141035,
+  "last_run_ts": 1790572220.692495,
+  "last_eur_rate": 0.8782520006091731,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 2,
   "cycle_start_ts": 1790007149.640162,
