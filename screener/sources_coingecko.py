@@ -12,6 +12,14 @@ from .http_utils import get_json
 COINGECKO_MARKETS_URL = "https://api.coingecko.com/api/v3/coins/markets"
 
 
+class MarketDataFetchFailed(Exception):
+    """Levantado por fetch_by_ids(..., raise_on_failure=True) quando a própria chamada ao
+    CoinGecko falhou por completo (rede/rate-limit/5xx, já esgotados os retries de
+    http_utils.get_json) — ao contrário de uma chamada bem sucedida que simplesmente não
+    devolve um dos ids pedidos (esse sim é sinal real de ausência de dados para essa moeda
+    especificamente). Ver nota em portfolio._reprice_positions (autoanálise 2026-09-29)."""
+
+
 def _parse_coin(coin):
     mcap = coin.get("market_cap") or 0
     vol = coin.get("total_volume") or 0
@@ -67,11 +75,28 @@ def fetch_small_cap_candidates():
     return candidates
 
 
-def fetch_by_ids(ids):
+def fetch_by_ids(ids, raise_on_failure=False):
     """
     Busca dados completos (preço + variações 1h/24h/7d) para uma lista específica de coin ids
     do CoinGecko — usado para reavaliar posições já abertas no portfólio virtual, sem depender
     de em que página de ranking o coin caiu nesta corrida.
+
+    raise_on_failure=False (omissão, compatível com todas as chamadas existentes — telegram_bot.py,
+    pump_watch.py, testes): mantém o comportamento histórico — um bloco que falhe (get_json
+    devolve None após esgotar os retries) é simplesmente ignorado, os ids desse bloco ficam
+    ausentes do dicionário devolvido, tal como um id que a API responde não existir.
+
+    raise_on_failure=True: levanta MarketDataFetchFailed nesse caso em vez de ignorar — para
+    quem chama poder distinguir "a própria chamada ao CoinGecko falhou" de "a chamada teve
+    sucesso mas este id específico não veio na resposta" (só este segundo caso é sinal real de
+    ausência de dados para uma moeda concreta). Autoanálise 2026-09-29 (ver
+    portfolio._reprice_positions): sem esta distinção, um único bloco de posições cex_small_cap
+    é sempre pedido numa única chamada — uma falha temporária da API (rate-limit/5xx) marcava
+    TODAS as posições cex_small_cap abertas como "sem dados" na mesma corrida, e 3 corridas
+    seguidas assim bastavam para o bot as fechar todas de uma vez como "possível rug" a -95%,
+    mesmo sem qualquer relação entre as moedas (aconteceu de facto a 2026-09-29 03:40 UTC com
+    MUBARAK/NMR/KAIO simultaneamente — incluindo a Numeraire, um token grande e estabelecido,
+    tornando um rug real e simultâneo das três virtualmente impossível).
     """
     ids = [i for i in ids if i]
     if not ids:
@@ -93,6 +118,11 @@ def fetch_by_ids(ids):
             },
         )
         if not data:
+            if raise_on_failure:
+                raise MarketDataFetchFailed(
+                    f"CoinGecko fetch_by_ids falhou por completo para {len(chunk)} id(s) "
+                    f"(bloco a começar em {chunk[0]!r})"
+                )
             continue
         for coin in data:
             parsed = _parse_coin(coin)
