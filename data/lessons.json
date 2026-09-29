@@ -4183,5 +4183,32 @@
     "categoria": "near-total collapse (possible rug/dump)",
     "velocidade_queda": "very fast (<1h)",
     "licao": "KAIO (cex_small_cap) lost -95.0% in 37 min (very fast (<1h)) — near-total collapse (possible rug/dump). Entry score: 81 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada. Note: even passing all current filters (minimum liquidity, minimum pool age, security check), this kind of very fast collapse is hard to avoid with periodic checks alone — worth reviewing whether the config.py thresholds (e.g. DEX_MIN_LIQUIDITY_USD, DEX_MIN_POOL_AGE_MINUTES) need to be tighter for such recent tokens."
+  },
+  {
+    "closed_ts": 1790658925.608282,
+    "symbol": "BTCBIRD",
+    "tier": "dex_micro_cap",
+    "network": "bsc",
+    "url": "https://dexscreener.com/bsc/0xf3818eebaf2f396728607440038cd7ae7bafdea2",
+    "held_minutes": 10.0,
+    "exit_reason": "stop-loss hit (-38.3%)",
+    "pnl_pct": -38.32,
+    "pnl_eur": -11.69,
+    "entry_score": 97.2,
+    "entry_liquidity_usd": 16043.65,
+    "entry_volume_24h_usd": 55775.88,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 276.0,
+    "entry_chg_24h": 223.0,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 223.0,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 3.4765081512000076,
+    "entry_boosted": true,
+    "entry_pool_age_minutes": 189.01698049723308,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "BTCBIRD (dex_micro_cap) lost -38.3% in 10 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $16,044. Entry score: 97 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
