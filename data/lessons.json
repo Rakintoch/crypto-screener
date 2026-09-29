@@ -4237,5 +4237,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "swordcat (dex_micro_cap) lost -21.3% in 20 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $77,753. Entry score: 76 (minimum required to buy: 65). Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1790660420.4688232,
+    "symbol": "SICAT",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/B4kJcppu2bxh7srJmEJq8NVM9SrpZVLum5YVjGq6VChH",
+    "held_minutes": 34.9,
+    "exit_reason": "stop-loss hit (-25.8%)",
+    "pnl_pct": -25.77,
+    "pnl_eur": -7.87,
+    "entry_score": 83.9,
+    "entry_liquidity_usd": 65814.4597,
+    "entry_volume_24h_usd": 3158771.08977091,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 32.885,
+    "entry_chg_24h": 496.385,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 54.607,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 47.995092631154876,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 822.1502215500001,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "SICAT (dex_micro_cap) lost -25.8% in 35 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $65,814. Entry score: 84 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
