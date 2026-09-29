@@ -29,11 +29,6 @@
     "last_score": 56.8,
     "symbol": "PHA"
   },
-  "cex_small_cap:drift-protocol": {
-    "last_alert_ts": 1790377405.8237803,
-    "last_score": 60.9,
-    "symbol": "DRIFT"
-  },
   "cex_small_cap:rhea-2": {
     "last_alert_ts": 1790586194.5534885,
     "last_score": 80.3,
@@ -48,11 +43,6 @@
     "last_alert_ts": 1790499795.0989738,
     "last_score": 58.6,
     "symbol": "KNOTS"
-  },
-  "cex_small_cap:lorenzo-protocol": {
-    "last_alert_ts": 1790377405.8237803,
-    "last_score": 55.9,
-    "symbol": "BANK"
   },
   "cex_small_cap:musebook": {
     "last_alert_ts": 1790614994.9072883,
@@ -83,11 +73,6 @@
     "last_alert_ts": 1790479386.8647034,
     "last_score": 90.5,
     "symbol": "CPU"
-  },
-  "cex_small_cap:neet": {
-    "last_alert_ts": 1790377405.8237803,
-    "last_score": 56.6,
-    "symbol": "NEET"
   },
   "cex_small_cap:endurance": {
     "last_alert_ts": 1790461305.1684504,
@@ -158,11 +143,6 @@
     "last_alert_ts": 1790499795.0989738,
     "last_score": 60.9,
     "symbol": "MOVR"
-  },
-  "cex_small_cap:blast": {
-    "last_alert_ts": 1790377405.8237803,
-    "last_score": 57.8,
-    "symbol": "BLAST"
   },
   "cex_small_cap:a-meme-coin": {
     "last_alert_ts": 1790607885.440661,
@@ -264,11 +244,6 @@
     "last_score": 67.4,
     "symbol": "NEARKAT"
   },
-  "dex_micro_cap:nDZknLvfFRp5rgUHdzTrQsmSY5NKzoavqdLjSHVpump": {
-    "last_alert_ts": 1790377405.8237803,
-    "last_score": 86.4,
-    "symbol": "COLLECT"
-  },
   "cex_small_cap:jambo-2": {
     "last_alert_ts": 1790600614.2148974,
     "last_score": 59.5,
@@ -293,11 +268,6 @@
     "last_alert_ts": 1790499795.0989738,
     "last_score": 61.0,
     "symbol": "DEEP"
-  },
-  "cex_small_cap:cluster-protocol": {
-    "last_alert_ts": 1790377405.8237803,
-    "last_score": 61.0,
-    "symbol": "CP"
   },
   "cex_small_cap:quickswap": {
     "last_alert_ts": 1790413379.73244,
@@ -399,11 +369,6 @@
     "last_score": 59.6,
     "symbol": "RESOLV"
   },
-  "cex_small_cap:pangolin": {
-    "last_alert_ts": 1790377405.8237803,
-    "last_score": 85.4,
-    "symbol": "PNG"
-  },
   "cex_small_cap:marlin": {
     "last_alert_ts": 1790542994.2003644,
     "last_score": 63.8,
@@ -414,29 +379,14 @@
     "last_score": 80.4,
     "symbol": "KAIRO"
   },
-  "cex_small_cap:swappy": {
-    "last_alert_ts": 1790384577.6541798,
-    "last_score": 81.6,
-    "symbol": "SWAPPY"
-  },
-  "cex_small_cap:tung-tung-tung-sahur-2": {
-    "last_alert_ts": 1790384577.6541798,
-    "last_score": 74.6,
-    "symbol": "TRIPLET"
-  },
   "cex_small_cap:4stock": {
     "last_alert_ts": 1790502514.4325821,
     "last_score": 66.0,
     "symbol": "4STOCK"
   },
-  "cex_small_cap:tendies-2": {
-    "last_alert_ts": 1790384577.6541798,
-    "last_score": 57.7,
-    "symbol": "TENDIES"
-  },
   "dex_micro_cap:CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": {
-    "last_alert_ts": 1790557470.413951,
-    "last_score": 74.7,
+    "last_alert_ts": 1790643797.9189496,
+    "last_score": 87.3,
     "symbol": "e"
   },
   "cex_small_cap:interfold": {
@@ -555,8 +505,8 @@
     "symbol": "COQ"
   },
   "dex_micro_cap:jLz71QZfjnZZMLjUaCBw7KmUyftkkNq8NkWi2u9dyap": {
-    "last_alert_ts": 1790420607.2626252,
-    "last_score": 86.6,
+    "last_alert_ts": 1790643797.9189496,
+    "last_score": 61.4,
     "symbol": "YAP"
   },
   "cex_small_cap:nearly": {
@@ -635,8 +585,8 @@
     "symbol": "CALI"
   },
   "dex_micro_cap:0x0cbf291ba052174879d90bf781df1a5f2bc5bb07": {
-    "last_alert_ts": 1790442206.03774,
-    "last_score": 86.7,
+    "last_alert_ts": 1790643797.9189496,
+    "last_score": 81.4,
     "symbol": "boar"
   },
   "cex_small_cap:blockdag": {
@@ -1160,8 +1110,8 @@
     "symbol": "KAIO"
   },
   "cex_small_cap:aztec": {
-    "last_alert_ts": 1790579001.3264375,
-    "last_score": 64.1,
+    "last_alert_ts": 1790643797.9189496,
+    "last_score": 57.9,
     "symbol": "AZTEC"
   },
   "cex_small_cap:ardor": {
@@ -1343,5 +1293,15 @@
     "last_alert_ts": 1790629583.6827676,
     "last_score": 55.1,
     "symbol": "AGRIPPA"
+  },
+  "cex_small_cap:zero-gravity": {
+    "last_alert_ts": 1790643797.9189496,
+    "last_score": 75.2,
+    "symbol": "0G"
+  },
+  "cex_small_cap:anthropic-prestocks-2": {
+    "last_alert_ts": 1790643797.9189496,
+    "last_score": 55.4,
+    "symbol": "ANTHROPIC"
   }
 }
