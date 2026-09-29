@@ -79,11 +79,6 @@
     "last_score": 68.0,
     "symbol": "MUBARAK"
   },
-  "cex_small_cap:flock-2": {
-    "last_alert_ts": 1790406208.8475282,
-    "last_score": 63.6,
-    "symbol": "FLOCK"
-  },
   "cex_small_cap:superrare": {
     "last_alert_ts": 1790549309.4465058,
     "last_score": 78.1,
@@ -168,11 +163,6 @@
     "last_alert_ts": 1790471082.8253171,
     "last_score": 56.3,
     "symbol": "BREW"
-  },
-  "cex_small_cap:open": {
-    "last_alert_ts": 1790406208.8475282,
-    "last_score": 62.8,
-    "symbol": "OPEN"
   },
   "cex_small_cap:threshold-network-token": {
     "last_alert_ts": 1790413379.73244,
@@ -264,11 +254,6 @@
     "last_score": 66.0,
     "symbol": "QUICK"
   },
-  "dex_micro_cap:5g9PWcRUHpmqm5uKycpShKXJB18sGLeCEzgB3qrRpump": {
-    "last_alert_ts": 1790406208.8475282,
-    "last_score": 63.2,
-    "symbol": "SWARM"
-  },
   "cex_small_cap:huma-finance": {
     "last_alert_ts": 1790502514.4325821,
     "last_score": 65.6,
@@ -278,11 +263,6 @@
     "last_alert_ts": 1790565690.3628201,
     "last_score": 60.2,
     "symbol": "CACKLE"
-  },
-  "cex_small_cap:arcstocks": {
-    "last_alert_ts": 1790406208.8475282,
-    "last_score": 56.5,
-    "symbol": "ASTOCK"
   },
   "cex_small_cap:moonbeam": {
     "last_alert_ts": 1790600614.2148974,
@@ -323,16 +303,6 @@
     "last_alert_ts": 1790607885.440661,
     "last_score": 79.6,
     "symbol": "BUN"
-  },
-  "cex_small_cap:renzo": {
-    "last_alert_ts": 1790406208.8475282,
-    "last_score": 57.5,
-    "symbol": "REZ"
-  },
-  "cex_small_cap:velodrome-finance": {
-    "last_alert_ts": 1790406208.8475282,
-    "last_score": 57.1,
-    "symbol": "VELO"
   },
   "cex_small_cap:prometeus": {
     "last_alert_ts": 1790420607.2626252,
@@ -408,11 +378,6 @@
     "last_alert_ts": 1790479386.8647034,
     "last_score": 57.6,
     "symbol": "SPELL"
-  },
-  "cex_small_cap:io": {
-    "last_alert_ts": 1790406208.8475282,
-    "last_score": 64.9,
-    "symbol": "IO"
   },
   "cex_small_cap:lil-shrub": {
     "last_alert_ts": 1790537462.1432884,
@@ -1303,5 +1268,15 @@
     "last_alert_ts": 1790658323.5765052,
     "last_score": 60.9,
     "symbol": "BOAR"
+  },
+  "dex_micro_cap:3kmygWKZBkCYrgZHKfiuB9UFKTcDLTFFsKo3BWpmpump": {
+    "last_alert_ts": 1790665477.710669,
+    "last_score": 74.9,
+    "symbol": "PARASITE"
+  },
+  "dex_micro_cap:AfVUPhruMtJuFVtPj4u8kvpNbNEuy7VQ3ME5eAHq9999": {
+    "last_alert_ts": 1790665477.710669,
+    "last_score": 59.2,
+    "symbol": "STOXES"
   }
 }
