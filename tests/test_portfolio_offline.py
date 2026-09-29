@@ -101,7 +101,7 @@ def _run_scenarios():
         import screener.sources_dexscreener as ds
 
         original_fetch_by_ids = cg.fetch_by_ids
-        cg.fetch_by_ids = lambda ids: {
+        cg.fetch_by_ids = lambda ids, **_kw: {
             "alpha": {"id": "alpha", "price_usd": (alpha_pos["entry_price_eur"] * 1.25) / eur_rate,
                       "chg_1h": 5, "chg_24h": 25, "chg_7d": 30, "turnover": 0.3, "market_cap": 20_000_000}
         }
@@ -156,7 +156,7 @@ def _run_scenarios():
         original_fetch_addrs = ds.fetch_market_data_for_addresses
         # BETA continua aberta (cex) — mantemos o seu preço estável e mockado, para o teste
         # continuar 100% offline (sem chamadas de rede reais) também nesta corrida.
-        cg.fetch_by_ids = lambda ids: {
+        cg.fetch_by_ids = lambda ids, **_kw: {
             "beta": {"id": "beta", "price_usd": 2.0, "chg_1h": 5, "chg_24h": 20, "chg_7d": 30,
                      "turnover": 0.3, "market_cap": 20_000_000}
         }
@@ -204,7 +204,7 @@ def _run_scenarios():
         # --- Corrida 2c: DELTA entra e depois dispara stop-loss -> deve gerar uma "lição" ---
         candidates_2c = [fake_candidate("DELTA", score=72, price_usd=1.0, tier="dex_micro_cap",
                                          cid="deltaaddr", liquidity_usd=18_000)]
-        cg.fetch_by_ids = lambda ids: {
+        cg.fetch_by_ids = lambda ids, **_kw: {
             "beta": {"id": "beta", "price_usd": 2.0, "chg_1h": 5, "chg_24h": 20, "chg_7d": 30,
                      "turnover": 0.3, "market_cap": 20_000_000}
         }
@@ -382,7 +382,7 @@ def _run_scenarios():
             )
 
             candidates_2d = [fake_candidate("EPSILON", score=90, price_usd=1.0)]
-            cg.fetch_by_ids = lambda ids: {
+            cg.fetch_by_ids = lambda ids, **_kw: {
                 "beta": {"id": "beta", "price_usd": 2.0, "chg_1h": 5, "chg_24h": 20, "chg_7d": 30,
                          "turnover": 0.3, "market_cap": 20_000_000}
             }
@@ -410,7 +410,7 @@ def _run_scenarios():
         state["end_ts"] = time.time() - 1  # já passou o prazo
         portfolio.save_portfolio(state)
 
-        cg.fetch_by_ids = lambda ids: {}
+        cg.fetch_by_ids = lambda ids, **_kw: {}
         ds.fetch_market_data_for_addresses = lambda *a, **k: []
         state, actions3, final_report = portfolio.run_portfolio_cycle([], eur_rate)
 
@@ -708,6 +708,7 @@ def _run_scenarios():
           "não realizado, cooldown global) bloqueiam-na corretamente quando não se aplicam")
 
     _run_continuous_cycle_scenarios()
+    _run_assumed_rug_scenarios()
 
     print("\n✅ Todos os testes offline do portfólio passaram.")
 
@@ -730,7 +731,7 @@ def _run_continuous_cycle_scenarios():
         config.CHANGELOG_FILE = os.path.join(tmp, "changelog.json")
         config.CONTINUOUS_CYCLES = True
         config.STARTING_BALANCE_USD = None
-        cg.fetch_by_ids = lambda ids: {}
+        cg.fetch_by_ids = lambda ids, **_kw: {}
         ds.fetch_market_data_for_addresses = lambda *a, **k: []
         try:
             now = time.time()
@@ -826,6 +827,102 @@ def _run_continuous_cycle_scenarios():
             (config.PORTFOLIO_STATE_FILE, config.CHALLENGE_HISTORY_FILE, config.LESSONS_FILE,
              config.WINS_FILE, config.CHANGELOG_FILE, config.CONTINUOUS_CYCLES,
              config.STARTING_BALANCE_USD, cg.fetch_by_ids, ds.fetch_market_data_for_addresses) = orig
+
+
+def _run_assumed_rug_scenarios():
+    """Corridas 10/10b — autoanálise 2026-09-29 (incidente real: MUBARAK/NMR/KAIO fechadas em
+    simultâneo a 2026-09-29 03:40 UTC como "possível rug" a -95%, todas com missed_updates=3 na
+    mesma corrida). fetch_by_ids pede TODAS as posições cex_small_cap abertas numa única
+    chamada — sem distinguir "a chamada falhou por completo" de "esta moeda não veio na
+    resposta", uma única falha temporária da API marcava (e, 3 corridas seguidas, fechava)
+    TODAS as posições cex_small_cap de uma vez, por mais moedas distintas/estabelecidas que
+    fossem. Ver sources_coingecko.fetch_by_ids(raise_on_failure=...) e a nota em
+    portfolio._reprice_positions."""
+    import screener.sources_coingecko as cg
+    import screener.sources_dexscreener as ds
+
+    orig = (config.PORTFOLIO_STATE_FILE, config.CHALLENGE_HISTORY_FILE, config.LESSONS_FILE,
+            config.WINS_FILE, config.CHANGELOG_FILE, cg.fetch_by_ids, ds.fetch_market_data_for_addresses)
+    with tempfile.TemporaryDirectory() as tmp:
+        config.PORTFOLIO_STATE_FILE = os.path.join(tmp, "portfolio_state.json")
+        config.CHALLENGE_HISTORY_FILE = os.path.join(tmp, "challenge_history.json")
+        config.LESSONS_FILE = os.path.join(tmp, "lessons.json")
+        config.WINS_FILE = os.path.join(tmp, "wins.json")
+        config.CHANGELOG_FILE = os.path.join(tmp, "changelog.json")
+        ds.fetch_market_data_for_addresses = lambda *a, **k: []
+        try:
+            now = time.time()
+
+            # --- Corrida 10: a chamada partilhada ao CoinGecko falha por completo (ex: rate
+            # limit/5xx), repetidamente, com DUAS posições cex_small_cap distintas abertas ao
+            # mesmo tempo — nenhuma das duas pode ser penalizada por uma falha que não diz nada
+            # sobre elas especificamente ---
+            state = portfolio._default_state()
+            state.update({"status": "active", "start_ts": now, "end_ts": now + 10 * 86400,
+                          "cash_eur": 500.0, "starting_balance_eur": 1000.0,
+                          "cycle_start_equity_eur": 1000.0, "cycle_number": 1})
+            for sym, cid in (("MUBARAK", "mubarak"), ("NMR", "numeraire")):
+                state["positions"][f"cex_small_cap:{cid}"] = {
+                    "tier": "cex_small_cap", "id": cid, "symbol": sym, "qty": 100.0,
+                    "entry_price_eur": 1.0, "entry_ts": now - 3600, "cost_eur": 100.0,
+                    "last_price_eur": 1.0, "last_score": 80, "missed_updates": 0,
+                }
+            portfolio.save_portfolio(state)
+
+            def _always_fails(ids, raise_on_failure=False, **_kw):
+                if raise_on_failure:
+                    raise cg.MarketDataFetchFailed("CoinGecko indisponível (simulado)")
+                return {}
+
+            cg.fetch_by_ids = _always_fails
+            runs_to_simulate = portfolio.MISSED_UPDATES_BEFORE_ASSUMED_RUG + 2  # bem mais que o limiar
+            for _ in range(runs_to_simulate):
+                state, actions10, _ = portfolio.run_portfolio_cycle([], eur_rate=0.9)
+
+            assert "cex_small_cap:mubarak" in state["positions"] and "cex_small_cap:numeraire" in state["positions"], (
+                "FALHOU: uma falha partilhada da API não pode fechar posições cex_small_cap"
+            )
+            assert state["positions"]["cex_small_cap:mubarak"].get("missed_updates", 0) == 0, (
+                "FALHOU: uma falha da própria chamada não pode contar para missed_updates"
+            )
+            assert not any(a["action"] == "sell" for a in actions10), (
+                "FALHOU: não devia haver vendas — a falha é da chamada partilhada, não das moedas"
+            )
+            print("✅ Corrida 10 OK — falha total e repetida da chamada partilhada ao CoinGecko "
+                  "não fecha nenhuma posição cex_small_cap nem incrementa missed_updates "
+                  f"(testado com {runs_to_simulate} corridas seguidas, "
+                  f"bem mais que o limiar de {portfolio.MISSED_UPDATES_BEFORE_ASSUMED_RUG})")
+
+            # --- Corrida 10b: uma chamada bem sucedida que simplesmente não inclui uma moeda
+            # específica (ex: deslistada/sem liquidez) continua, corretamente, a contar para
+            # missed_updates e a fechar como "possível rug" ao fim do limiar — só a falha da
+            # chamada em si (Corrida 10) é que deixa de contar ---
+            cg.fetch_by_ids = lambda ids, **_kw: {
+                "numeraire": {"id": "numeraire", "price_usd": 1.0 / 0.9, "chg_1h": 1, "chg_24h": 1,
+                              "chg_7d": 1, "turnover": 0.3, "market_cap": 20_000_000}
+                # "mubarak" deliberadamente ausente da resposta — chamada teve sucesso, mas
+                # esta moeda específica não veio (ex: deslistada) -> sinal real de ausência
+            }
+            for i in range(portfolio.MISSED_UPDATES_BEFORE_ASSUMED_RUG):
+                state, actions10b, _ = portfolio.run_portfolio_cycle([], eur_rate=0.9)
+
+            assert "cex_small_cap:mubarak" not in state["positions"], (
+                "FALHOU: uma ausência real (chamada com sucesso, sem esta moeda) devia continuar "
+                "a fechar a posição ao fim do limiar de missed_updates"
+            )
+            mubarak_trade = next(t for t in state["closed_trades"] if t["symbol"] == "MUBARAK")
+            assert "possible rug" in mubarak_trade["exit_reason"], mubarak_trade["exit_reason"]
+            assert "cex_small_cap:numeraire" in state["positions"], (
+                "FALHOU: NMR tinha dados frescos em toda corrida — não devia ter sido afetada"
+            )
+            assert state["positions"]["cex_small_cap:numeraire"].get("missed_updates", 0) == 0
+            print("✅ Corrida 10b OK — uma ausência real (chamada com sucesso, id específico "
+                  "ausente da resposta) continua a fechar como \"possível rug\" ao fim do limiar, "
+                  "sem afetar a posição que tinha dados frescos")
+        finally:
+            (config.PORTFOLIO_STATE_FILE, config.CHALLENGE_HISTORY_FILE, config.LESSONS_FILE,
+             config.WINS_FILE, config.CHANGELOG_FILE,
+             cg.fetch_by_ids, ds.fetch_market_data_for_addresses) = orig
 
 
 if __name__ == "__main__":
