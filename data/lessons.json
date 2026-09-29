@@ -4210,5 +4210,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "BTCBIRD (dex_micro_cap) lost -38.3% in 10 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $16,044. Entry score: 97 (minimum required to buy: 65). Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1790659515.9454331,
+    "symbol": "swordcat",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/8ewuF2o8ACro7fqWepZ3tKhkbBjndZU4Ldk9scRPw83d",
+    "held_minutes": 19.9,
+    "exit_reason": "stop-loss hit (-21.3%)",
+    "pnl_pct": -21.32,
+    "pnl_eur": -6.51,
+    "entry_score": 75.6,
+    "entry_liquidity_usd": 77752.8387,
+    "entry_volume_24h_usd": 5094008.77247542,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 50.893,
+    "entry_chg_24h": 1113.485,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 12.608,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 65.51540570923773,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 1190.2168886,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "swordcat (dex_micro_cap) lost -21.3% in 20 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $77,753. Entry score: 76 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
