@@ -1162,5 +1162,34 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "KAIO (cex_small_cap) gained +19.7% in 59 min — trailing stop caught extra upside after the target. Entry score: 81. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790689822.0148299,
+    "symbol": "baton",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/Cb7ZRgPLhji3Th7htXyKEqbXvNjPpeTvckXuWakBUhXu",
+    "held_minutes": 357.9,
+    "exit_reason": "trailing stop hit — dropped 7.8% from the peak (peak +48.0% since entry)",
+    "pnl_pct": 36.52,
+    "pnl_eur": 10.02,
+    "entry_score": 74.9,
+    "entry_liquidity_usd": 362928.9279,
+    "entry_volume_24h_usd": 1070613.09829903,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 18.552,
+    "entry_chg_24h": 33.676,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 21.455,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 2.949924946721311,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 28039.044564,
+    "entry_base_breakout": {
+      "is_breakout": true,
+      "pre_window_move_pct": 10.1
+    },
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "baton (dex_micro_cap) gained +36.5% in 358 min — trailing stop caught extra upside after the target. Entry liquidity: $362,929. Entry score: 75. Entry security: no obvious red flags."
   }
 ]
