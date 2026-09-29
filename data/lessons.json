@@ -4291,5 +4291,35 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "PARASITE (dex_micro_cap) lost -23.8% in 53 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $124,098. Entry score: 72 (minimum required to buy: 65). Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1790674242.229296,
+    "symbol": "JEANPHIL",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/4R8CiMnJWDNoes3fQi1ccPFJygPXazaHaWpHrN3rZeNj",
+    "held_minutes": 265.3,
+    "exit_reason": "momentum thesis invalidated (score dropped to 29)",
+    "pnl_pct": -13.27,
+    "pnl_eur": -4.05,
+    "entry_score": 70.1,
+    "entry_liquidity_usd": 292245.828,
+    "entry_volume_24h_usd": 1137717.4359077,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 2.662,
+    "entry_chg_24h": 40.235,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 39.992,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 3.893015149929532,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 13556.383555716666,
+    "entry_base_breakout": {
+      "is_breakout": true,
+      "pre_window_move_pct": 0.2
+    },
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "JEANPHIL (dex_micro_cap) lost -13.3% in 265 min (fast (1-6h)) — momentum thesis invalidated (score dropped). Entry liquidity: $292,246. Entry score: 70 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
