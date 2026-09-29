@@ -94,9 +94,24 @@ def _reprice_positions(state, eur_rate):
 
     fresh_cex = {}
     fresh_dex = {}
+    # Autoanálise 2026-09-29: fetch_by_ids pede TODAS as posições cex_small_cap abertas numa
+    # única chamada ao CoinGecko — se essa chamada falhar por completo (rate-limit/5xx, já
+    # esgotados os retries de http_utils.get_json), o comportamento antigo (fresh_cex fica {})
+    # era indistinguível de "nenhuma destas moedas tem dados" e incrementava missed_updates de
+    # TODAS elas na mesma corrida. Três corridas seguidas assim (uma única falha da API,
+    # persistente) bastavam para MISSED_UPDATES_BEFORE_ASSUMED_RUG as fechar todas de uma vez
+    # como "possível rug" a -95% — aconteceu de facto a 2026-09-29 03:40 UTC com MUBARAK/NMR/
+    # KAIO em simultâneo (incluindo a Numeraire, um token grande e estabelecido — um rug real e
+    # simultâneo das três não é plausível; uma falha partilhada da chamada é). raise_on_failure
+    # distingue os dois casos: só uma resposta bem sucedida que não inclui um id específico
+    # continua a contar como sinal real de ausência de dados para essa moeda.
+    cex_fetch_failed = False
     try:
         if cex_ids:
-            fresh_cex = sources_coingecko.fetch_by_ids(cex_ids)
+            fresh_cex = sources_coingecko.fetch_by_ids(cex_ids, raise_on_failure=True)
+    except sources_coingecko.MarketDataFetchFailed:
+        cex_fetch_failed = True
+        traceback.print_exc()
     except Exception:
         traceback.print_exc()
     try:
@@ -107,6 +122,12 @@ def _reprice_positions(state, eur_rate):
         traceback.print_exc()
 
     for key, pos in positions.items():
+        if pos["tier"] == "cex_small_cap" and cex_fetch_failed:
+            # A chamada partilhada falhou por completo nesta corrida — não é sinal de nada
+            # sobre esta posição em particular, por isso não conta para missed_updates (ver
+            # nota acima). O preço/score ficam como estavam; tenta-se de novo na corrida
+            # seguinte, tal como o pump_watch.py já faz há muito para o mesmo tipo de falha.
+            continue
         fresh = fresh_cex.get(pos["id"]) if pos["tier"] == "cex_small_cap" else fresh_dex.get(pos["id"])
         if fresh is None:
             pos["missed_updates"] = pos.get("missed_updates", 0) + 1
