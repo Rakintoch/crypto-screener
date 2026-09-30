@@ -55,8 +55,8 @@
     "symbol": "MUBARAK"
   },
   "cex_small_cap:superrare": {
-    "last_alert_ts": 1790737378.8169446,
-    "last_score": 64.3,
+    "last_alert_ts": 1790754866.7384114,
+    "last_score": 82.3,
     "symbol": "RARE"
   },
   "cex_small_cap:astronaut-2": {
@@ -943,5 +943,20 @@
     "last_alert_ts": 1790751800.290959,
     "last_score": 60.3,
     "symbol": "NAKA"
+  },
+  "cex_small_cap:dimo": {
+    "last_alert_ts": 1790754866.7384114,
+    "last_score": 71.0,
+    "symbol": "DIMO"
+  },
+  "cex_small_cap:gitcoin": {
+    "last_alert_ts": 1790754866.7384114,
+    "last_score": 67.7,
+    "symbol": "GTC"
+  },
+  "dex_micro_cap:resideK2Ejv9apu1op2VBv89poumxCDCs8nzBxQ5q1y": {
+    "last_alert_ts": 1790754866.7384114,
+    "last_score": 63.0,
+    "symbol": "RESI"
   }
 }
