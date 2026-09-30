@@ -55,8 +55,8 @@
     "symbol": "RARE"
   },
   "cex_small_cap:astronaut-2": {
-    "last_alert_ts": 1790751800.290959,
-    "last_score": 57.4,
+    "last_alert_ts": 1790766172.4704986,
+    "last_score": 86.3,
     "symbol": "ASTRO"
   },
   "cex_small_cap:thena": {
@@ -129,11 +129,6 @@
     "last_score": 67.3,
     "symbol": "DEEP"
   },
-  "cex_small_cap:huma-finance": {
-    "last_alert_ts": 1790502514.4325821,
-    "last_score": 65.6,
-    "symbol": "HUMA"
-  },
   "dex_micro_cap:BQJfL1yiHbJQ8AciHLcKxaCbQrWP2ws8oZHHYgbBpump": {
     "last_alert_ts": 1790565690.3628201,
     "last_score": 60.2,
@@ -178,11 +173,6 @@
     "last_alert_ts": 1790744583.5952544,
     "last_score": 90.9,
     "symbol": "POND"
-  },
-  "cex_small_cap:4stock": {
-    "last_alert_ts": 1790502514.4325821,
-    "last_score": 66.0,
-    "symbol": "4STOCK"
   },
   "dex_micro_cap:CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": {
     "last_alert_ts": 1790744583.5952544,
@@ -928,5 +918,15 @@
     "last_alert_ts": 1790759013.8204565,
     "last_score": 58.0,
     "symbol": "GWEI"
+  },
+  "cex_small_cap:yellow": {
+    "last_alert_ts": 1790766172.4704986,
+    "last_score": 70.8,
+    "symbol": "YELLOW"
+  },
+  "cex_small_cap:nillion": {
+    "last_alert_ts": 1790766172.4704986,
+    "last_score": 58.5,
+    "symbol": "NIL"
   }
 }
