@@ -249,11 +249,6 @@
     "last_score": 77.5,
     "symbol": "AGI"
   },
-  "cex_small_cap:allinu": {
-    "last_alert_ts": 1790507025.7744873,
-    "last_score": 56.7,
-    "symbol": "ALLINU"
-  },
   "cex_small_cap:elon-coin-2": {
     "last_alert_ts": 1790549309.4465058,
     "last_score": 67.3,
@@ -323,11 +318,6 @@
     "last_alert_ts": 1790514497.2238824,
     "last_score": 86.7,
     "symbol": "JACK"
-  },
-  "cex_small_cap:sats-ordinals": {
-    "last_alert_ts": 1790507025.7744873,
-    "last_score": 55.7,
-    "symbol": "SATS"
   },
   "cex_small_cap:infinex-2": {
     "last_alert_ts": 1790565690.3628201,
@@ -835,8 +825,8 @@
     "symbol": "MVP"
   },
   "cex_small_cap:coq-inu": {
-    "last_alert_ts": 1790737378.8169446,
-    "last_score": 61.2,
+    "last_alert_ts": 1790773374.939275,
+    "last_score": 77.9,
     "symbol": "COQ"
   },
   "cex_small_cap:stargate-finance": {
@@ -925,8 +915,43 @@
     "symbol": "YELLOW"
   },
   "cex_small_cap:nillion": {
-    "last_alert_ts": 1790766172.4704986,
-    "last_score": 58.5,
+    "last_alert_ts": 1790773374.939275,
+    "last_score": 79.6,
     "symbol": "NIL"
+  },
+  "cex_small_cap:somnia": {
+    "last_alert_ts": 1790773374.939275,
+    "last_score": 65.3,
+    "symbol": "SOMI"
+  },
+  "cex_small_cap:talus": {
+    "last_alert_ts": 1790773374.939275,
+    "last_score": 63.3,
+    "symbol": "US"
+  },
+  "cex_small_cap:gno-land": {
+    "last_alert_ts": 1790773374.939275,
+    "last_score": 58.1,
+    "symbol": "GNOT"
+  },
+  "cex_small_cap:brew": {
+    "last_alert_ts": 1790773374.939275,
+    "last_score": 56.6,
+    "symbol": "BREW"
+  },
+  "cex_small_cap:spark-2": {
+    "last_alert_ts": 1790773374.939275,
+    "last_score": 56.3,
+    "symbol": "SPK"
+  },
+  "cex_small_cap:zip-coin": {
+    "last_alert_ts": 1790773374.939275,
+    "last_score": 55.5,
+    "symbol": "ZC"
+  },
+  "cex_small_cap:coherent-ondo-tokenized": {
+    "last_alert_ts": 1790773374.939275,
+    "last_score": 55.1,
+    "symbol": "COHRON"
   }
 }
