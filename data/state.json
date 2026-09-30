@@ -735,8 +735,8 @@
     "symbol": "PI"
   },
   "cex_small_cap:ark": {
-    "last_alert_ts": 1790751800.290959,
-    "last_score": 80.9,
+    "last_alert_ts": 1790802213.0659494,
+    "last_score": 55.4,
     "symbol": "ARK"
   },
   "cex_small_cap:up-2": {
@@ -903,5 +903,20 @@
     "last_alert_ts": 1790800294.067764,
     "last_score": 71.1,
     "symbol": "CALI"
+  },
+  "cex_small_cap:openai-tessera-pre-ipo": {
+    "last_alert_ts": 1790802213.0659494,
+    "last_score": 72.5,
+    "symbol": "TOPENAI"
+  },
+  "dex_micro_cap:H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": {
+    "last_alert_ts": 1790802213.0659494,
+    "last_score": 57.4,
+    "symbol": "BAGSPAY"
+  },
+  "cex_small_cap:memestock-3": {
+    "last_alert_ts": 1790802213.0659494,
+    "last_score": 55.0,
+    "symbol": "MEMESTOCK"
   }
 }
