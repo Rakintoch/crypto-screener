@@ -15,8 +15,8 @@
       "entry_price_eur": 0.18305196294299084,
       "entry_ts": 1790873610.1617885,
       "cost_eur": 34.151789221185346,
-      "last_price_eur": 0.19434056654966397,
-      "last_score": 92.9,
+      "last_price_eur": 0.198270011292407,
+      "last_score": 93.0,
       "missed_updates": 0,
       "entry_market_cap": 20469696,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 21809899
+      "last_market_cap": 22186334
     },
     "cex_small_cap:megaeth": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.04613745996106809,
       "entry_ts": 1790873610.1617885,
       "cost_eur": 34.151789221185346,
-      "last_price_eur": 0.046201065302864316,
-      "last_score": 64.0,
+      "last_price_eur": 0.046878451623913193,
+      "last_score": 64.4,
       "missed_updates": 0,
       "entry_market_cap": 58461840,
       "entry_venue": null,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 58705891
+      "last_market_cap": 59301566
     },
     "cex_small_cap:gitcoin": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.1006494829862956,
       "entry_ts": 1790881374.513244,
       "cost_eur": 33.31127874548678,
-      "last_price_eur": 0.12670882234130243,
+      "last_price_eur": 0.1318770993333392,
       "last_score": 96.6,
       "missed_updates": 0,
       "entry_market_cap": 9889011,
@@ -105,9 +105,9 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12437733,
+      "last_market_cap": 12955791,
       "trailing_active": true,
-      "trailing_peak_eur": 0.12670882234130243
+      "trailing_peak_eur": 0.1318770993333392
     },
     "cex_small_cap:hookr-fun": {
       "tier": "cex_small_cap",
@@ -119,8 +119,8 @@
       "entry_price_eur": 0.019533180023643997,
       "entry_ts": 1790888583.63678,
       "cost_eur": 15.649220520322471,
-      "last_price_eur": 0.01896084251035161,
-      "last_score": 79.7,
+      "last_price_eur": 0.018774578912204555,
+      "last_score": 79.5,
       "missed_updates": 0,
       "entry_market_cap": 21962873,
       "entry_venue": "Uniswap Pools.trade (on-chain)",
@@ -141,7 +141,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 21324207
+      "last_market_cap": 21173904
     }
   },
   "closed_trades": [
@@ -320,8 +320,8 @@
       "pnl_pct": -9.084375122301676
     }
   ],
-  "last_run_ts": 1790890232.6831126,
-  "last_eur_rate": 0.889165998900391,
+  "last_run_ts": 1790890516.4246573,
+  "last_eur_rate": 0.8891629988223738,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
