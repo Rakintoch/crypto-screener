@@ -15,8 +15,8 @@
     "symbol": "PHA"
   },
   "cex_small_cap:rhea-2": {
-    "last_alert_ts": 1790787803.5774603,
-    "last_score": 62.8,
+    "last_alert_ts": 1790830977.255531,
+    "last_score": 79.6,
     "symbol": "RHEA"
   },
   "cex_small_cap:arcium": {
@@ -40,8 +40,8 @@
     "symbol": "MUBARAK"
   },
   "cex_small_cap:superrare": {
-    "last_alert_ts": 1790754866.7384114,
-    "last_score": 82.3,
+    "last_alert_ts": 1790830977.255531,
+    "last_score": 56.6,
     "symbol": "RARE"
   },
   "cex_small_cap:astronaut-2": {
@@ -63,11 +63,6 @@
     "last_alert_ts": 1790607885.440661,
     "last_score": 57.9,
     "symbol": "AMC"
-  },
-  "cex_small_cap:xai-blockchain": {
-    "last_alert_ts": 1790571777.076877,
-    "last_score": 60.7,
-    "symbol": "XAI"
   },
   "cex_small_cap:benqi": {
     "last_alert_ts": 1790636581.3828,
@@ -93,11 +88,6 @@
     "last_alert_ts": 1790787803.5774603,
     "last_score": 55.7,
     "symbol": "DEEP"
-  },
-  "dex_micro_cap:BQJfL1yiHbJQ8AciHLcKxaCbQrWP2ws8oZHHYgbBpump": {
-    "last_alert_ts": 1790565690.3628201,
-    "last_score": 60.2,
-    "symbol": "CACKLE"
   },
   "cex_small_cap:moonbeam": {
     "last_alert_ts": 1790816590.358706,
@@ -149,11 +139,6 @@
     "last_score": 76.0,
     "symbol": "MAME"
   },
-  "dex_micro_cap:BdzaE3T7uU59pBVDBHZVZh3yWrrpo4oPrXdv4nPDpump": {
-    "last_alert_ts": 1790571777.076877,
-    "last_score": 64.3,
-    "symbol": "JIANCO"
-  },
   "dex_micro_cap:jLz71QZfjnZZMLjUaCBw7KmUyftkkNq8NkWi2u9dyap": {
     "last_alert_ts": 1790643797.9189496,
     "last_score": 61.4,
@@ -198,11 +183,6 @@
     "last_alert_ts": 1790636581.3828,
     "last_score": 64.3,
     "symbol": "BLUECHIP"
-  },
-  "cex_small_cap:infinex-2": {
-    "last_alert_ts": 1790565690.3628201,
-    "last_score": 60.5,
-    "symbol": "INX"
   },
   "cex_small_cap:niu-lai": {
     "last_alert_ts": 1790622700.8829288,
@@ -838,5 +818,20 @@
     "last_alert_ts": 1790823798.9887378,
     "last_score": 62.9,
     "symbol": "ROCK"
+  },
+  "cex_small_cap:orbio-so": {
+    "last_alert_ts": 1790830977.255531,
+    "last_score": 81.3,
+    "symbol": "ORBIO"
+  },
+  "cex_small_cap:movement": {
+    "last_alert_ts": 1790830977.255531,
+    "last_score": 62.5,
+    "symbol": "MOVE"
+  },
+  "dex_micro_cap:GjrhXcr8YzUZBbu5rifdqM5CPBS4LFJveq3ZiY2u3g5G": {
+    "last_alert_ts": 1790830977.255531,
+    "last_score": 55.7,
+    "symbol": "Meridian"
   }
 }
