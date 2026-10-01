@@ -4429,5 +4429,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "龙虾 (cex_small_cap) lost -9.1% in 88 min (fast (1-6h)) — stop-loss hit. Entry score: 83 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790892620.3295581,
+    "symbol": "HOOKR",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/hookr-fun",
+    "held_minutes": 67.3,
+    "exit_reason": "stop-loss hit (-9.9%)",
+    "pnl_pct": -9.9,
+    "pnl_eur": -1.55,
+    "entry_score": 80.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 3234954,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 8.3673,
+    "entry_chg_24h": 30.18904,
+    "entry_chg_7d": 72.588,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.14729193216206277,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "HOOKR (cex_small_cap) lost -9.9% in 67 min (fast (1-6h)) — stop-loss hit. Entry score: 80 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
