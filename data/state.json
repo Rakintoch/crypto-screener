@@ -244,11 +244,6 @@
     "last_score": 57.9,
     "symbol": "AZTEC"
   },
-  "dex_micro_cap:92BVgXufGjaMUyANA97dvg8LqNb5VMg2wgRfve9tPdCG": {
-    "last_alert_ts": 1790591376.4729176,
-    "last_score": 57.8,
-    "symbol": "DELREY"
-  },
   "cex_small_cap:black-dragon": {
     "last_alert_ts": 1790593399.46821,
     "last_score": 78.8,
@@ -878,5 +873,25 @@
     "last_alert_ts": 1790845406.6845703,
     "last_score": 56.7,
     "symbol": "CTR"
+  },
+  "cex_small_cap:heima": {
+    "last_alert_ts": 1790852578.8824768,
+    "last_score": 82.6,
+    "symbol": "HEI"
+  },
+  "cex_small_cap:lobster-2": {
+    "last_alert_ts": 1790852578.8824768,
+    "last_score": 79.6,
+    "symbol": "龙虾"
+  },
+  "cex_small_cap:termmax": {
+    "last_alert_ts": 1790852578.8824768,
+    "last_score": 67.0,
+    "symbol": "TMX"
+  },
+  "cex_small_cap:quark-chain": {
+    "last_alert_ts": 1790852578.8824768,
+    "last_score": 63.7,
+    "symbol": "QKC"
   }
 }
