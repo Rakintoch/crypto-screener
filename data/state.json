@@ -90,19 +90,14 @@
     "symbol": "DEEP"
   },
   "cex_small_cap:moonbeam": {
-    "last_alert_ts": 1790816590.358706,
-    "last_score": 83.6,
+    "last_alert_ts": 1790859806.98418,
+    "last_score": 62.6,
     "symbol": "GLMR"
   },
   "cex_small_cap:wealth-and-prosperity-2": {
     "last_alert_ts": 1790759013.8204565,
     "last_score": 55.4,
     "symbol": "富贵"
-  },
-  "cex_small_cap:baton-3": {
-    "last_alert_ts": 1790593399.46821,
-    "last_score": 87.2,
-    "symbol": "BATON"
   },
   "cex_small_cap:bundle-cat": {
     "last_alert_ts": 1790787803.5774603,
@@ -130,19 +125,14 @@
     "symbol": "FOLD"
   },
   "cex_small_cap:mame-inu": {
-    "last_alert_ts": 1790816590.358706,
-    "last_score": 76.0,
+    "last_alert_ts": 1790859806.98418,
+    "last_score": 55.0,
     "symbol": "MAME"
   },
   "dex_micro_cap:jLz71QZfjnZZMLjUaCBw7KmUyftkkNq8NkWi2u9dyap": {
     "last_alert_ts": 1790643797.9189496,
     "last_score": 61.4,
     "symbol": "YAP"
-  },
-  "cex_small_cap:nearly": {
-    "last_alert_ts": 1790593399.46821,
-    "last_score": 77.0,
-    "symbol": "NEARLY"
   },
   "cex_small_cap:amp-token": {
     "last_alert_ts": 1790607885.440661,
@@ -204,16 +194,6 @@
     "last_score": 74.9,
     "symbol": "baton"
   },
-  "cex_small_cap:cheqd-network": {
-    "last_alert_ts": 1790593399.46821,
-    "last_score": 83.3,
-    "symbol": "CHEQ"
-  },
-  "cex_small_cap:priors-agent": {
-    "last_alert_ts": 1790593399.46821,
-    "last_score": 58.9,
-    "symbol": "PRIORS"
-  },
   "cex_small_cap:sportstensor": {
     "last_alert_ts": 1790600614.2148974,
     "last_score": 63.1,
@@ -244,50 +224,15 @@
     "last_score": 57.9,
     "symbol": "AZTEC"
   },
-  "cex_small_cap:black-dragon": {
-    "last_alert_ts": 1790593399.46821,
-    "last_score": 78.8,
-    "symbol": "BLACKDRAGON"
-  },
-  "cex_small_cap:shitzu": {
-    "last_alert_ts": 1790593399.46821,
-    "last_score": 78.3,
-    "symbol": "SHITZU"
-  },
   "cex_small_cap:aventus": {
     "last_alert_ts": 1790629583.6827676,
     "last_score": 95.3,
     "symbol": "AVT"
   },
-  "cex_small_cap:goose-token": {
-    "last_alert_ts": 1790593399.46821,
-    "last_score": 75.5,
-    "symbol": "GOOSE"
-  },
-  "cex_small_cap:usenosh": {
-    "last_alert_ts": 1790593399.46821,
-    "last_score": 73.9,
-    "symbol": "NOSH"
-  },
   "dex_micro_cap:8DXqVUopcdviLvujTcpwEqkKzB43Arp6E1axzsEE5Btq": {
     "last_alert_ts": 1790708666.9261713,
     "last_score": 72.5,
     "symbol": "moin"
-  },
-  "cex_small_cap:alon": {
-    "last_alert_ts": 1790593399.46821,
-    "last_score": 66.2,
-    "symbol": "ALON"
-  },
-  "cex_small_cap:ready": {
-    "last_alert_ts": 1790593399.46821,
-    "last_score": 64.1,
-    "symbol": "READY"
-  },
-  "cex_small_cap:baby-cali": {
-    "last_alert_ts": 1790593399.46821,
-    "last_score": 55.0,
-    "symbol": "BABYCALI"
   },
   "cex_small_cap:tevaera": {
     "last_alert_ts": 1790658323.5765052,
@@ -715,8 +660,8 @@
     "symbol": "AA"
   },
   "cex_small_cap:endurance": {
-    "last_alert_ts": 1790787803.5774603,
-    "last_score": 57.8,
+    "last_alert_ts": 1790859806.98418,
+    "last_score": 55.0,
     "symbol": "ACE"
   },
   "cex_small_cap:kusama": {
@@ -735,8 +680,8 @@
     "symbol": "fone"
   },
   "cex_small_cap:edel": {
-    "last_alert_ts": 1790845406.6845703,
-    "last_score": 59.5,
+    "last_alert_ts": 1790859806.98418,
+    "last_score": 74.8,
     "symbol": "EDEL"
   },
   "cex_small_cap:zeal-2": {
@@ -893,5 +838,25 @@
     "last_alert_ts": 1790852578.8824768,
     "last_score": 63.7,
     "symbol": "QKC"
+  },
+  "cex_small_cap:otc": {
+    "last_alert_ts": 1790859806.98418,
+    "last_score": 97.1,
+    "symbol": "OTC"
+  },
+  "cex_small_cap:sweatcoin": {
+    "last_alert_ts": 1790859806.98418,
+    "last_score": 82.9,
+    "symbol": "SWEAT"
+  },
+  "cex_small_cap:cerebro-2": {
+    "last_alert_ts": 1790859806.98418,
+    "last_score": 72.1,
+    "symbol": "CEREBRO"
+  },
+  "cex_small_cap:megaeth": {
+    "last_alert_ts": 1790859806.98418,
+    "last_score": 58.4,
+    "symbol": "MEGA"
   }
 }
