@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 114.00273172745993,
+  "cash_eur": 80.20024819921954,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:my-neighbor-alice": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.18305196294299084,
       "entry_ts": 1790873610.1617885,
       "cost_eur": 34.151789221185346,
-      "last_price_eur": 0.19028681625960295,
-      "last_score": 68.8,
+      "last_price_eur": 0.18982047281940004,
+      "last_score": 68.7,
       "missed_updates": 0,
       "entry_market_cap": 20469696,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 21316455
+      "last_market_cap": 21267419
     },
     "cex_small_cap:megaeth": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.04613745996106809,
       "entry_ts": 1790873610.1617885,
       "cost_eur": 34.151789221185346,
-      "last_price_eur": 0.0460679324084114,
+      "last_price_eur": 0.04622914002023008,
       "last_score": 81.5,
       "missed_updates": 0,
       "entry_market_cap": 58461840,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 58524685
+      "last_market_cap": 58700918
     },
     "cex_small_cap:gitcoin": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.1006494829862956,
       "entry_ts": 1790881374.513244,
       "cost_eur": 33.31127874548678,
-      "last_price_eur": 0.12760468628016047,
+      "last_price_eur": 0.12603491601713226,
       "last_score": 99.8,
       "missed_updates": 0,
       "entry_market_cap": 9889011,
@@ -105,9 +105,50 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12572856,
+      "last_market_cap": 12394077,
       "trailing_active": true,
       "trailing_peak_eur": 0.13290998761039355
+    },
+    "cex_small_cap:hooked": {
+      "tier": "cex_small_cap",
+      "id": "hooked",
+      "symbol": "HOOKED",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/hooked",
+      "qty": 4250.797710262153,
+      "entry_price_eur": 0.007952032967044142,
+      "entry_ts": 1790893124.344964,
+      "cost_eur": 33.802483528240394,
+      "last_price_eur": 0.007952032967044142,
+      "last_score": 85.0,
+      "missed_updates": 0,
+      "entry_market_cap": 8746057,
+      "entry_venue": "Meteora DAMM V2",
+      "entry_contract_address": "C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE (Solana)",
+      "entry_score": 85.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 21430286,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 28.4865,
+      "entry_chg_24h": 1436.02078,
+      "entry_chg_7d": null,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.4502797089019657,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Hooked on Phonics Launches \"Where Will Words Take You?\" Campaign as U.S. Reading Scores Continue to Decline - Yahoo Finance",
+          "ts": 1789455600.0,
+          "source": "Yahoo Finance"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -326,8 +367,8 @@
       "pnl_pct": -9.895420797755133
     }
   ],
-  "last_run_ts": 1790892924.2621722,
-  "last_eur_rate": 0.8894110048731833,
+  "last_run_ts": 1790893124.344964,
+  "last_eur_rate": 0.8895180008125702,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
