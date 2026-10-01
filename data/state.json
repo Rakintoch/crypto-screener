@@ -170,8 +170,8 @@
     "symbol": "FUSE"
   },
   "cex_small_cap:audius": {
-    "last_alert_ts": 1790800294.067764,
-    "last_score": 90.2,
+    "last_alert_ts": 1790845406.6845703,
+    "last_score": 62.9,
     "symbol": "AUDIO"
   },
   "cex_small_cap:blue-chip-4": {
@@ -243,11 +243,6 @@
     "last_alert_ts": 1790643797.9189496,
     "last_score": 57.9,
     "symbol": "AZTEC"
-  },
-  "cex_small_cap:hippo-protocol": {
-    "last_alert_ts": 1790586194.5534885,
-    "last_score": 55.5,
-    "symbol": "HP"
   },
   "dex_micro_cap:92BVgXufGjaMUyANA97dvg8LqNb5VMg2wgRfve9tPdCG": {
     "last_alert_ts": 1790591376.4729176,
@@ -615,8 +610,8 @@
     "symbol": "DIMO"
   },
   "cex_small_cap:gitcoin": {
-    "last_alert_ts": 1790800294.067764,
-    "last_score": 60.8,
+    "last_alert_ts": 1790845406.6845703,
+    "last_score": 58.6,
     "symbol": "GTC"
   },
   "dex_micro_cap:resideK2Ejv9apu1op2VBv89poumxCDCs8nzBxQ5q1y": {
@@ -705,8 +700,8 @@
     "symbol": "SI"
   },
   "cex_small_cap:renzo": {
-    "last_alert_ts": 1790787803.5774603,
-    "last_score": 75.7,
+    "last_alert_ts": 1790845406.6845703,
+    "last_score": 56.6,
     "symbol": "REZ"
   },
   "cex_small_cap:patrol-tao-com": {
@@ -745,8 +740,8 @@
     "symbol": "fone"
   },
   "cex_small_cap:edel": {
-    "last_alert_ts": 1790794999.6664803,
-    "last_score": 61.0,
+    "last_alert_ts": 1790845406.6845703,
+    "last_score": 59.5,
     "symbol": "EDEL"
   },
   "cex_small_cap:zeal-2": {
@@ -835,8 +830,8 @@
     "symbol": "ZETA"
   },
   "cex_small_cap:icon": {
-    "last_alert_ts": 1790838185.1815612,
-    "last_score": 56.0,
+    "last_alert_ts": 1790845406.6845703,
+    "last_score": 94.2,
     "symbol": "ICX"
   },
   "cex_small_cap:cookie": {
@@ -865,8 +860,8 @@
     "symbol": "ALLINU"
   },
   "dex_micro_cap:DvNcJZTiSMD1RBCtZ2J31mh7s42CVCwrzGapv1Lypump": {
-    "last_alert_ts": 1790842548.57755,
-    "last_score": 66.8,
+    "last_alert_ts": 1790845406.6845703,
+    "last_score": 84.9,
     "symbol": "MICRO"
   },
   "cex_small_cap:robin-the-frog": {
@@ -878,5 +873,10 @@
     "last_alert_ts": 1790842548.57755,
     "last_score": 62.3,
     "symbol": "Saw"
+  },
+  "cex_small_cap:citrea": {
+    "last_alert_ts": 1790845406.6845703,
+    "last_score": 56.7,
+    "symbol": "CTR"
   }
 }
