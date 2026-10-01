@@ -15,7 +15,7 @@
       "entry_price_eur": 2.8424909667389087,
       "entry_ts": 1790873610.1617885,
       "cost_eur": 34.151789221185346,
-      "last_price_eur": 2.6299190927359852,
+      "last_price_eur": 2.6184110396134934,
       "last_score": 99.9,
       "missed_updates": 0,
       "entry_market_cap": 40217162,
@@ -51,7 +51,7 @@
           "source": "99bitcoins.com"
         }
       ],
-      "last_market_cap": 37049450
+      "last_market_cap": 36919710
     },
     "cex_small_cap:my-neighbor-alice": {
       "tier": "cex_small_cap",
@@ -63,8 +63,8 @@
       "entry_price_eur": 0.18305196294299084,
       "entry_ts": 1790873610.1617885,
       "cost_eur": 34.151789221185346,
-      "last_price_eur": 0.1806790076629523,
-      "last_score": 72.7,
+      "last_price_eur": 0.18269027882103286,
+      "last_score": 73.2,
       "missed_updates": 0,
       "entry_market_cap": 20469696,
       "entry_venue": null,
@@ -85,7 +85,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 20186009
+      "last_market_cap": 20430959
     },
     "cex_small_cap:megaeth": {
       "tier": "cex_small_cap",
@@ -97,8 +97,8 @@
       "entry_price_eur": 0.04613745996106809,
       "entry_ts": 1790873610.1617885,
       "cost_eur": 34.151789221185346,
-      "last_price_eur": 0.04765145946638343,
-      "last_score": 84.0,
+      "last_price_eur": 0.0480816859849026,
+      "last_score": 84.3,
       "missed_updates": 0,
       "entry_market_cap": 58461840,
       "entry_venue": null,
@@ -119,7 +119,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 60388905
+      "last_market_cap": 60994210
     },
     "cex_small_cap:allinu": {
       "tier": "cex_small_cap",
@@ -131,8 +131,8 @@
       "entry_price_eur": 0.010411123142730811,
       "entry_ts": 1790874198.029224,
       "cost_eur": 34.116362557386026,
-      "last_price_eur": 0.009924102218708956,
-      "last_score": 88.8,
+      "last_price_eur": 0.009658311929054326,
+      "last_score": 88.7,
       "missed_updates": 0,
       "entry_market_cap": 11673667,
       "entry_venue": "Meteora",
@@ -153,7 +153,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11059254
+      "last_market_cap": 10773725
     }
   },
   "closed_trades": [
@@ -198,8 +198,8 @@
       "pnl_pct": -9.456228819509608
     }
   ],
-  "last_run_ts": 1790875519.5865521,
-  "last_eur_rate": 0.891497997537622,
+  "last_run_ts": 1790875840.4463677,
+  "last_eur_rate": 0.8906159998685351,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
