@@ -15,7 +15,7 @@
       "entry_price_eur": 147.3628494286958,
       "entry_ts": 1790946172.134415,
       "cost_eur": 28.012004024031253,
-      "last_price_eur": 145.14838849002894,
+      "last_price_eur": 145.2980339726748,
       "last_score": 50.0,
       "missed_updates": 0,
       "entry_market_cap": 5541098,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6198234
+      "last_market_cap": 6208664
     },
     "cex_small_cap:edel": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.03433459797649136,
-      "last_score": 51.5,
+      "last_price_eur": 0.03444596043167538,
+      "last_score": 51.6,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
       "entry_venue": "Aerodrome (Base) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 26417898
+      "last_market_cap": 26380464
     }
   },
   "closed_trades": [
@@ -1152,8 +1152,8 @@
       "pnl_pct": -8.635558383096734
     }
   ],
-  "last_run_ts": 1790965836.5693305,
-  "last_eur_rate": 0.8888449999389401,
+  "last_run_ts": 1790966118.8019967,
+  "last_eur_rate": 0.8886729906585614,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
