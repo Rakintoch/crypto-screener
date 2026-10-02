@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 105.79156081946655,
+  "cash_eur": 74.97089199575798,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:my-neighbor-alice": {
@@ -15,7 +15,7 @@
       "entry_price_eur": 0.18305196294299084,
       "entry_ts": 1790873610.1617885,
       "cost_eur": 34.151789221185346,
-      "last_price_eur": 0.17256639434536852,
+      "last_price_eur": 0.17246598241834807,
       "last_score": 67.6,
       "missed_updates": 0,
       "entry_market_cap": 20469696,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 19337197
+      "last_market_cap": 19333069
     },
     "cex_small_cap:megaeth": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.04613745996106809,
       "entry_ts": 1790873610.1617885,
       "cost_eur": 34.151789221185346,
-      "last_price_eur": 0.04757804115705567,
-      "last_score": 67.9,
+      "last_price_eur": 0.047252877748051474,
+      "last_score": 66.1,
       "missed_updates": 0,
       "entry_market_cap": 58461840,
       "entry_venue": null,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 60475874
+      "last_market_cap": 60054526
     },
     "cex_small_cap:sweatcoin": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.0006171096807103981,
       "entry_ts": 1790910180.6458986,
       "cost_eur": 31.51162536628357,
-      "last_price_eur": 0.0006419675725916054,
-      "last_score": 86.7,
+      "last_price_eur": 0.0006369619662132952,
+      "last_score": 86.3,
       "missed_updates": 0,
       "entry_market_cap": 9301000,
       "entry_venue": "Bitvavo",
@@ -105,7 +105,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9681106
+      "last_market_cap": 9125498
+    },
+    "cex_small_cap:talus": {
+      "tier": "cex_small_cap",
+      "id": "talus",
+      "symbol": "US",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/talus",
+      "qty": 901.1936797485661,
+      "entry_price_eur": 0.03419982797960542,
+      "entry_ts": 1790913042.3768806,
+      "cost_eur": 30.820668823708576,
+      "last_price_eur": 0.03419982797960542,
+      "last_score": 86.5,
+      "missed_updates": 0,
+      "entry_market_cap": 112313716,
+      "entry_venue": "Gate",
+      "entry_contract_address": "0xee962a61432231c2ede6946515beb02290cb516ad087bb06a731e922b2a5f57a::us::US (sui)",
+      "entry_score": 86.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 40967181,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 18.4811,
+      "entry_chg_24h": 42.4466,
+      "entry_chg_7d": 87.0146,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.3647567052273473,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -534,8 +567,8 @@
       "pnl_pct": -20.037706824853203
     }
   ],
-  "last_run_ts": 1790912722.6365583,
-  "last_eur_rate": 0.8888439911271796,
+  "last_run_ts": 1790913042.3768806,
+  "last_eur_rate": 0.8887800050417838,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
