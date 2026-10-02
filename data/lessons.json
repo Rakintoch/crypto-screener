@@ -4510,5 +4510,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "Ansemmas (dex_micro_cap) lost -21.5% in 12 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $87,227. Entry score: 94 (minimum required to buy: 65). Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1790906451.3575563,
+    "symbol": "ALLINU",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/allinu",
+    "held_minutes": 57.9,
+    "exit_reason": "stop-loss hit (-8.5%)",
+    "pnl_pct": -8.48,
+    "pnl_eur": -2.83,
+    "entry_score": 88.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 4909384,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 8.2124,
+    "entry_chg_24h": 79.69116,
+    "entry_chg_7d": 52.5466,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.4710333321404109,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "ALLINU (cex_small_cap) lost -8.5% in 58 min (very fast (<1h)) — stop-loss hit. Entry score: 88 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
