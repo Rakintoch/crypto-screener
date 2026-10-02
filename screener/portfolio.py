@@ -24,7 +24,6 @@ from . import telegram_alert
 MISSED_UPDATES_BEFORE_ASSUMED_RUG = 3
 ASSUMED_RUG_RECOVERY_PCT = 0.05  # assume que só sobra 5% do valor se o token deixar de ter dados
 
-
 def _default_state():
     return {
         "status": "not_started",   # not_started -> active -> finished
@@ -36,7 +35,6 @@ def _default_state():
         "closed_trades": [],
         "last_run_ts": None,
     }
-
 
 class PortfolioStateCorrupted(Exception):
     """Levantado quando data/portfolio_state.json existe mas não é JSON válido.
@@ -50,7 +48,6 @@ class PortfolioStateCorrupted(Exception):
     problema, é levantada esta exceção — quem chama (run_portfolio_cycle/run_exit_check_cycle)
     aborta a corrida, avisa no Telegram e NÃO grava nada por cima do ficheiro corrompido,
     para que possa ser recuperado manualmente a partir do histórico do Git."""
-
 
 def load_portfolio():
     import json
@@ -69,7 +66,6 @@ def load_portfolio():
             "the run was aborted instead of silently resetting the challenge."
         ) from e
 
-
 def save_portfolio(state):
     import json
     import os
@@ -77,11 +73,9 @@ def save_portfolio(state):
     with open(config.PORTFOLIO_STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2, ensure_ascii=False)
 
-
 def _equity(state):
     open_value = sum(p["qty"] * p.get("last_price_eur", p["entry_price_eur"]) for p in state["positions"].values())
     return state["cash_eur"] + open_value
-
 
 def _reprice_positions(state, eur_rate):
     """Atualiza last_price_eur / last_score de cada posição aberta com dados frescos."""
@@ -149,7 +143,6 @@ def _reprice_positions(state, eur_rate):
         fresh["security"] = {"checked": True, "safe": True, "notes": "position already vetted at entry"}
         pos["last_score"] = scoring.score_cex_candidate(fresh) if pos["tier"] == "cex_small_cap" else scoring.score_dex_candidate(fresh)
 
-
 def _close_position(state, key, exit_price_eur, reason, now):
     pos = state["positions"].pop(key)
     proceeds = pos["qty"] * exit_price_eur
@@ -170,7 +163,6 @@ def _close_position(state, key, exit_price_eur, reason, now):
     lessons.record_if_lesson(trade)
     playbook.record_if_win(trade)
     return trade
-
 
 def _check_exits(state, now, force_all=False):
     actions = []
@@ -221,7 +213,6 @@ def _check_exits(state, now, force_all=False):
 
     return actions
 
-
 def _alert_capital_protection(state, equity):
     """Aviso único (não repete em cada corrida) quando o disjuntor de capital é acionado —
     ver config.MAX_DRAWDOWN_HALT_PCT. Mostra o valor em USD (pedido do Ricardo 2026-09-13) —
@@ -240,7 +231,6 @@ def _alert_capital_protection(state, equity):
     )
     telegram_alert.send_telegram_message(msg)
 
-
 def _robustness_proxy(c):
     """Autoanálise 2026-09-13: o desempate por liquidez do SELECTION_SCORE_CEILING
     (ver comentário abaixo, em _check_entries) estava, na prática, inerte para o tier
@@ -254,7 +244,6 @@ def _robustness_proxy(c):
     if liquidity is not None:
         return liquidity
     return c.get("volume_24h") or 0
-
 
 def _maybe_rotate_weak_position(state, now):
     """Liberta UMA vaga, fechando antecipadamente a posição mais fraca, quando isso é a
@@ -292,7 +281,6 @@ def _maybe_rotate_weak_position(state, now):
     state["last_rotation_ts"] = now
     return {"action": "sell", **trade}
 
-
 def _check_entries(state, ranked_candidates, now):
     actions = []
 
@@ -329,6 +317,19 @@ def _check_entries(state, ranked_candidates, now):
         # entry_chg_1h >= 45% (POND 86,8%, SHRUB 2178,3%) e ambos perderam (0% win rate,
         # -17,0% pnl médio) — o mesmo padrão já medido em 2026-09-23, nunca bloqueado.
         and (c["tier"] != "cex_small_cap" or (c.get("chg_1h") or 0) < config.CEX_MAX_ENTRY_CHG_1H_PCT)
+        # Autoanálise 2026-10-02 (ver config.DEX_MAX_ENTRY_CHG_1H_PCT): mesma lógica já aplicada
+        # ao tier cex_small_cap acima (2026-09-23/28), agora replicada para dex_micro_cap com um
+        # limiar próprio (a camada DEX é estruturalmente mais volátil, por isso um corte
+        # diferente do CEX). Combinando lessons.json + wins.json + challenge_history.json (16
+        # trades dex_micro_cap com entry_chg_1h guardado, em 3 ciclos distintos — 2026-09-19 a
+        # 2026-10-02): os 5 com entry_chg_1h >= 50% (GOD 294%, BOB 75,9%, BTCBIRD 276%, swordcat
+        # 50,9%, Jane 93,9%) tiveram 0% win rate (pnl médio -25,3%), claramente pior que os
+        # restantes 11 (27% win rate, pnl médio +9,2% — inclui os dois maiores ganhos do tier,
+        # NPC +143,7% a 27,8% e baton +36,5% a 18,6%). O padrão repetiu-se em ciclos diferentes
+        # (não é um artefacto de uma única má corrida) e sobreviveu ao fecho catastrófico do
+        # ciclo #2 (-74,0%): Jane, a entrada mais recente (ciclo #3, horas antes desta revisão),
+        # reproduziu o mesmo padrão (chg_1h 93,9%, -20,0%).
+        and (c["tier"] != "dex_micro_cap" or (c.get("chg_1h") or 0) < config.DEX_MAX_ENTRY_CHG_1H_PCT)
     ]
     # Autoanálise 2026-09-10: ordenar sempre pelo score bruto favorecia sistematicamente o
     # candidato mais "esticado" (que mais subiu, mais depressa) quando vários passam o
@@ -482,7 +483,6 @@ def _check_entries(state, ranked_candidates, now):
 
     return actions
 
-
 def _load_challenge_history():
     import json
     import os
@@ -493,14 +493,12 @@ def _load_challenge_history():
         content = f.read()
     return json.loads(content) if content.strip() else []
 
-
 def _save_challenge_history(history):
     import json
     import os
     os.makedirs(os.path.dirname(config.CHALLENGE_HISTORY_FILE), exist_ok=True)
     with open(config.CHALLENGE_HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2, ensure_ascii=False)
-
 
 def _next_cycle_number_from_history():
     try:
@@ -509,7 +507,6 @@ def _next_cycle_number_from_history():
         traceback.print_exc()
         return 1
     return max([h.get("challenge_number", 0) for h in history] + [0]) + 1
-
 
 def _migrate_state(state, eur_rate):
     """Migrações idempotentes do estado, aplicadas logo a seguir a load_portfolio().
@@ -548,7 +545,6 @@ def _migrate_state(state, eur_rate):
                 t[k] *= factor
     state["starting_balance_usd"] = usd
     state["usd_rebase"] = {"ts": time.time(), "factor": factor, "usd_to_eur_rate": eur_rate}
-
 
 def _close_cycle(state, now):
     """Fim de um ciclo de CHALLENGE_DURATION_DAYS em modo contínuo: NÃO liquida nem reinicia
@@ -589,7 +585,6 @@ def _close_cycle(state, now):
     state["capital_protection_active"] = False
     return report
 
-
 def _process_exits(state, now, eur_rate):
     """
     Passo partilhado entre o ciclo completo (screener principal) e o monitor leve
@@ -621,7 +616,6 @@ def _process_exits(state, now, eur_rate):
 
     return exit_actions, final_report
 
-
 def run_portfolio_cycle(ranked_candidates, eur_rate):
     """
     Executa um ciclo completo (screener principal, a cada 2h): reavalia posições abertas,
@@ -651,7 +645,6 @@ def run_portfolio_cycle(ranked_candidates, eur_rate):
     save_portfolio(state)
 
     return state, exit_actions + entry_actions, final_report
-
 
 def run_exit_check_cycle(eur_rate):
     """
