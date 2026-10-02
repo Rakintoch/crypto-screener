@@ -4780,5 +4780,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "GTC (cex_small_cap) lost -8.3% in 127 min (fast (1-6h)) — stop-loss hit. Entry score: 91 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790950529.3158088,
+    "symbol": "BREW",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/brew",
+    "held_minutes": 72.6,
+    "exit_reason": "stop-loss hit (-8.1%)",
+    "pnl_pct": -8.07,
+    "pnl_eur": -2.26,
+    "entry_score": 68.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 2950106,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 7.9818,
+    "entry_chg_24h": 30.13499,
+    "entry_chg_7d": -36.241,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.29542209343394416,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "BREW (cex_small_cap) lost -8.1% in 73 min (fast (1-6h)) — stop-loss hit. Entry score: 69 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
