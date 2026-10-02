@@ -4618,5 +4618,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "US (cex_small_cap) lost -17.6% in 55 min (very fast (<1h)) — stop-loss hit. Entry score: 86 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790921116.4453013,
+    "symbol": "ALICE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/my-neighbor-alice",
+    "held_minutes": 791.8,
+    "exit_reason": "stop-loss hit (-8.6%)",
+    "pnl_pct": -8.61,
+    "pnl_eur": -2.94,
+    "entry_score": 88.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 58492503,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 2.916,
+    "entry_chg_24h": 24.55722,
+    "entry_chg_7d": 43.9473,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.8575169362554287,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "ALICE (cex_small_cap) lost -8.6% in 792 min (slow (>6h)) — stop-loss hit. Entry score: 88 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
