@@ -175,8 +175,8 @@
     "symbol": "FIH"
   },
   "cex_small_cap:hookr-fun": {
-    "last_alert_ts": 1790975017.8631988,
-    "last_score": 56.3,
+    "last_alert_ts": 1790982200.1437583,
+    "last_score": 78.4,
     "symbol": "HOOKR"
   },
   "cex_small_cap:leveraged-cat": {
@@ -1090,8 +1090,13 @@
     "symbol": "SPCXC"
   },
   "dex_micro_cap:XLBLxbY1Mr7aadnqAbmqSBXLEyUdjvUXtXCnz8Mpump": {
-    "last_alert_ts": 1790977665.5004592,
-    "last_score": 58.7,
+    "last_alert_ts": 1790982200.1437583,
+    "last_score": 83.9,
     "symbol": "SOCKET"
+  },
+  "dex_micro_cap:0x5b0a884d5965d9592859a197565c54406cf77777": {
+    "last_alert_ts": 1790982200.1437583,
+    "last_score": 65.7,
+    "symbol": "Zscribe"
   }
 }
