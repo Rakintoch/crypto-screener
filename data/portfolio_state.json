@@ -15,8 +15,8 @@
       "entry_price_eur": 0.009231759297684088,
       "entry_ts": 1790931813.414487,
       "cost_eur": 13.33830065242858,
-      "last_price_eur": 0.009131566676332085,
-      "last_score": 58.6,
+      "last_price_eur": 0.009073268405171208,
+      "last_score": 61.1,
       "missed_updates": 0,
       "entry_market_cap": 10263545,
       "entry_venue": "Bankr (Robinhood) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10151608
+      "last_market_cap": 10083998
     },
     "cex_small_cap:enjincoin": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.03214941595680652,
       "entry_ts": 1790946172.134415,
       "cost_eur": 28.012004024031253,
-      "last_price_eur": 0.03231222529956408,
-      "last_score": 92.3,
+      "last_price_eur": 0.03206118633880162,
+      "last_score": 92.4,
       "missed_updates": 0,
       "entry_market_cap": 72561998,
       "entry_venue": "Binance",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 72944542
+      "last_market_cap": 72526465
     },
     "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 147.3628494286958,
       "entry_ts": 1790946172.134415,
       "cost_eur": 28.012004024031253,
-      "last_price_eur": 146.92392996832618,
-      "last_score": 75.0,
+      "last_price_eur": 147.24981411114058,
+      "last_score": 75.1,
       "missed_updates": 0,
       "entry_market_cap": 5541098,
       "entry_venue": "Binance",
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 5533129
+      "last_market_cap": 5547973
     },
     "cex_small_cap:brew": {
       "tier": "cex_small_cap",
@@ -117,8 +117,8 @@
       "entry_price_eur": 0.00966714145816491,
       "entry_ts": 1790946172.134415,
       "cost_eur": 28.012004024031253,
-      "last_price_eur": 0.009624299585087325,
-      "last_score": 69.1,
+      "last_price_eur": 0.009612582741547354,
+      "last_score": 67.2,
       "missed_updates": 0,
       "entry_market_cap": 9986071,
       "entry_venue": null,
@@ -139,7 +139,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9942379
+      "last_market_cap": 9991936
     }
   },
   "closed_trades": [
@@ -980,8 +980,8 @@
       "pnl_pct": -8.295197699114421
     }
   ],
-  "last_run_ts": 1790946959.8264484,
-  "last_eur_rate": 0.8888320022282284,
+  "last_run_ts": 1790947226.0251493,
+  "last_eur_rate": 0.8891360069509122,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
