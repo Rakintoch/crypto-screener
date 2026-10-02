@@ -4726,5 +4726,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "ICX (cex_small_cap) lost -11.8% in 36 min (very fast (<1h)) — stop-loss hit. Entry score: 71 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790939422.637131,
+    "symbol": "Agency",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/CyJwKnLiiY4fmiwqMCSWFSHxo7T9Ubshgs2uRAuJCrk5",
+    "held_minutes": 51.5,
+    "exit_reason": "stop-loss hit (-20.4%)",
+    "pnl_pct": -20.4,
+    "pnl_eur": -4.83,
+    "entry_score": 84.2,
+    "entry_liquidity_usd": 145535.5178,
+    "entry_volume_24h_usd": 8847041.3548414,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 29.163,
+    "entry_chg_24h": 3327.871,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 1128.764,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 60.789568681092085,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 694.79027215,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "Agency (dex_micro_cap) lost -20.4% in 52 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $145,536. Entry score: 84 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
