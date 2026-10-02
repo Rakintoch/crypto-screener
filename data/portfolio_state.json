@@ -15,8 +15,8 @@
       "entry_price_eur": 0.18305196294299084,
       "entry_ts": 1790873610.1617885,
       "cost_eur": 34.151789221185346,
-      "last_price_eur": 0.17063221525089023,
-      "last_score": 69.3,
+      "last_price_eur": 0.16993461122614115,
+      "last_score": 68.8,
       "missed_updates": 0,
       "entry_market_cap": 20469696,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 19126707
+      "last_market_cap": 19037571
     },
     "cex_small_cap:megaeth": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.04613745996106809,
       "entry_ts": 1790873610.1617885,
       "cost_eur": 34.151789221185346,
-      "last_price_eur": 0.047472493829880266,
-      "last_score": 74.2,
+      "last_price_eur": 0.047442400915486946,
+      "last_score": 74.0,
       "missed_updates": 0,
       "entry_market_cap": 58461840,
       "entry_venue": null,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 60273552
+      "last_market_cap": 60304992
     }
   },
   "closed_trades": [
@@ -580,8 +580,8 @@
       "pnl_pct": -17.612922758381753
     }
   ],
-  "last_run_ts": 1790917821.731583,
-  "last_eur_rate": 0.8887650022443603,
+  "last_run_ts": 1790918124.5385115,
+  "last_eur_rate": 0.8887839958689174,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
