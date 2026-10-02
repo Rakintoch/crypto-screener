@@ -4564,5 +4564,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "Jane (dex_micro_cap) lost -20.0% in 22 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $139,371. Entry score: 87 (minimum required to buy: 65). Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1790915116.2020524,
+    "symbol": "SWEAT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/sweatcoin",
+    "held_minutes": 82.3,
+    "exit_reason": "stop-loss hit (-12.4%)",
+    "pnl_pct": -12.42,
+    "pnl_eur": -3.91,
+    "entry_score": 86.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 3936143,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.4512,
+    "entry_chg_24h": 136.96356,
+    "entry_chg_7d": 152.1374,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.4231956778840985,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "SWEAT (cex_small_cap) lost -12.4% in 82 min (fast (1-6h)) — stop-loss hit. Entry score: 87 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
