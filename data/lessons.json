@@ -4942,5 +4942,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "BUN (cex_small_cap) lost -8.6% in 87 min (fast (1-6h)) — stop-loss hit. Entry score: 75 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790969435.6601925,
+    "symbol": "HOOKED",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/hooked",
+    "held_minutes": 26.4,
+    "exit_reason": "stop-loss hit (-8.0%)",
+    "pnl_pct": -8.0,
+    "pnl_eur": -2.1,
+    "entry_score": 84.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 14410202,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 41.9255,
+    "entry_chg_24h": 48.62287,
+    "entry_chg_7d": null,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.6518294872763342,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "HOOKED (cex_small_cap) lost -8.0% in 26 min (very fast (<1h)) — stop-loss hit. Entry score: 85 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
