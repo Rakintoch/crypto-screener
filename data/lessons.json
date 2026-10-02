@@ -4483,5 +4483,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "HOOKED (cex_small_cap) lost -8.6% in 22 min (very fast (<1h)) — stop-loss hit. Entry score: 85 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790903722.9115465,
+    "symbol": "Ansemmas",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/6qirp44Q2T8B1CfbGmnqeXCLdQhFqmNCfAFfpKG4N156",
+    "held_minutes": 12.5,
+    "exit_reason": "stop-loss hit (-21.5%)",
+    "pnl_pct": -21.55,
+    "pnl_eur": -5.76,
+    "entry_score": 94.2,
+    "entry_liquidity_usd": 87226.5515,
+    "entry_volume_24h_usd": 4096043.71132119,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 20.969,
+    "entry_chg_24h": 1364.778,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 130.486,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 46.958679907472785,
+    "entry_boosted": true,
+    "entry_pool_age_minutes": 485.158984,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "Ansemmas (dex_micro_cap) lost -21.5% in 12 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $87,227. Entry score: 94 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
