@@ -14,7 +14,6 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from screener import changelog, config, lessons, playbook, portfolio, telegram_alert  # noqa: E402
 
-
 def fake_candidate(symbol, score, price_usd, tier="cex_small_cap", cid=None, liquidity_usd=None):
     return {
         "tier": tier,
@@ -37,7 +36,6 @@ def fake_candidate(symbol, score, price_usd, tier="cex_small_cap", cid=None, liq
         "security": {"checked": True, "safe": True, "notes": "ok"},
     }
 
-
 def run():
     # o trailing stop usa time.sleep() real entre verificações — no teste offline anulamos
     # isso para o teste correr em milissegundos em vez de minutos.
@@ -47,7 +45,6 @@ def run():
         _run_scenarios()
     finally:
         portfolio.time.sleep = original_sleep
-
 
 def _run_scenarios():
     with tempfile.TemporaryDirectory() as tmp:
@@ -558,16 +555,23 @@ def _run_scenarios():
         # confirmou o efeito real: 2 trades cex_small_cap fechados desde então tinham
         # entry_chg_1h >= 45% (POND 86,8%, SHRUB 2178,3%) e ambos perderam. Um candidato
         # cex_small_cap acima do limiar nunca deve ser comprado, mesmo com score alto; o mesmo
-        # candidato no tier dex_micro_cap (onde o filtro não se aplica) continua normal ---
+        # valor de chg_1h no tier dex_micro_cap, abaixo do SEU PRÓPRIO limiar mais alto (ver
+        # config.DEX_MAX_ENTRY_CHG_1H_PCT, autoanálise 2026-10-02), continua normal — os dois
+        # gates são independentes, cada tier com o seu limiar ---
         os.remove(config.PORTFOLIO_STATE_FILE)
         cg.fetch_top_venue = lambda coin_id: None
         cg.fetch_contract_address = lambda coin_id: None
         stretched_cex = fake_candidate("STRETCH", score=95, price_usd=1.0, cid="stretch")
-        stretched_cex["chg_1h"] = config.CEX_MAX_ENTRY_CHG_1H_PCT + 10  # bem acima do limiar
+        stretched_cex["chg_1h"] = config.CEX_MAX_ENTRY_CHG_1H_PCT + 10  # bem acima do limiar CEX
         calm_cex = fake_candidate("CALM", score=90, price_usd=1.0, cid="calm")
         calm_cex["chg_1h"] = config.CEX_MAX_ENTRY_CHG_1H_PCT - 10  # abaixo do limiar
         stretched_dex = fake_candidate("DSTRETCH", score=90, price_usd=0.001, tier="dex_micro_cap", cid="0xdstretch")
-        stretched_dex["chg_1h"] = config.CEX_MAX_ENTRY_CHG_1H_PCT + 10  # filtro não se aplica a dex_micro_cap
+        # acima do limiar CEX (45%) mas abaixo do limiar próprio do DEX (50%) — confirma que
+        # os dois gates usam limiares independentes, não o mesmo valor partilhado
+        stretched_dex["chg_1h"] = config.CEX_MAX_ENTRY_CHG_1H_PCT + 2
+        assert stretched_dex["chg_1h"] < config.DEX_MAX_ENTRY_CHG_1H_PCT, (
+            "pré-condição do teste inválida: ajustar o valor de chg_1h do DSTRETCH"
+        )
         state, actions, _ = portfolio.run_portfolio_cycle([stretched_cex, calm_cex, stretched_dex], eur_rate)
         bought_symbols = {a["symbol"] for a in actions if a["action"] == "buy"}
         assert "STRETCH" not in bought_symbols, (
@@ -578,11 +582,35 @@ def _run_scenarios():
             f"FALHOU: candidato cex_small_cap com chg_1h abaixo do limiar devia ser comprado: {bought_symbols}"
         )
         assert "DSTRETCH" in bought_symbols, (
-            "FALHOU: o gate de chg_1h só se aplica a cex_small_cap — dex_micro_cap não devia ser "
-            f"filtrado: {bought_symbols}"
+            "FALHOU: o gate de chg_1h usa limiares independentes por tier — um valor acima do "
+            f"limiar CEX mas abaixo do limiar DEX não devia bloquear dex_micro_cap: {bought_symbols}"
         )
         print(f"✅ Corrida 6c OK — candidato cex_small_cap esticado (chg_1h={stretched_cex['chg_1h']:.0f}%) "
-              "bloqueado na compra; candidato calmo comprado normalmente; dex_micro_cap não afetado")
+              "bloqueado na compra; candidato calmo comprado normalmente; dex_micro_cap com limiar próprio não afetado")
+
+        # --- Corrida 6e: gate de entrada por chg_1h extremo em dex_micro_cap (autoanálise
+        # 2026-10-02, ver config.DEX_MAX_ENTRY_CHG_1H_PCT) — mesma lógica da Corrida 6c, agora
+        # para o tier DEX. Combinando lessons.json + wins.json + challenge_history.json (16
+        # trades dex_micro_cap com entry_chg_1h guardado, 3 ciclos distintos): os 5 com
+        # entry_chg_1h >= 50% (GOD 294%, BOB 75,9%, BTCBIRD 276%, swordcat 50,9%, Jane 93,9%)
+        # tiveram 0% win rate; os restantes 11 (incluindo os 2 maiores ganhos do tier, NPC e
+        # baton, ambos com chg_1h entre 18% e 28%) tiveram 27% win rate e pnl médio positivo ---
+        os.remove(config.PORTFOLIO_STATE_FILE)
+        stretched_dex2 = fake_candidate("DSTRETCH2", score=90, price_usd=0.001, tier="dex_micro_cap", cid="0xdstretch2")
+        stretched_dex2["chg_1h"] = config.DEX_MAX_ENTRY_CHG_1H_PCT + 20  # bem acima do limiar DEX
+        calm_dex = fake_candidate("DCALM", score=85, price_usd=0.001, tier="dex_micro_cap", cid="0xdcalm")
+        calm_dex["chg_1h"] = 20.0  # dentro da faixa onde os ganhos do tier se concentraram
+        state, actions, _ = portfolio.run_portfolio_cycle([stretched_dex2, calm_dex], eur_rate)
+        bought_symbols = {a["symbol"] for a in actions if a["action"] == "buy"}
+        assert "DSTRETCH2" not in bought_symbols, (
+            f"FALHOU: candidato dex_micro_cap com chg_1h={stretched_dex2['chg_1h']}% (>= limiar "
+            f"{config.DEX_MAX_ENTRY_CHG_1H_PCT}%) não devia ser comprado: {bought_symbols}"
+        )
+        assert "DCALM" in bought_symbols, (
+            f"FALHOU: candidato dex_micro_cap com chg_1h abaixo do limiar devia ser comprado: {bought_symbols}"
+        )
+        print(f"✅ Corrida 6e OK — candidato dex_micro_cap esticado (chg_1h={stretched_dex2['chg_1h']:.0f}%) "
+              "bloqueado na compra; candidato dex_micro_cap calmo comprado normalmente")
 
         # --- Corrida 6d: tamanho de posição reduzido quando a venue mais líquida é uma pool
         # on-chain, não uma exchange centralizada (autoanálise 2026-09-24, ver
@@ -712,7 +740,6 @@ def _run_scenarios():
 
     print("\n✅ Todos os testes offline do portfólio passaram.")
 
-
 def _run_continuous_cycle_scenarios():
     """Corridas 9/9b/9c — pedido do Ricardo 2026-09-24: sem reset entre ciclos, o fim de cada
     ciclo de 10 dias é só um ponto de revisão; saldo inicial de $1000 (USD)."""
@@ -828,7 +855,6 @@ def _run_continuous_cycle_scenarios():
              config.WINS_FILE, config.CHANGELOG_FILE, config.CONTINUOUS_CYCLES,
              config.STARTING_BALANCE_USD, cg.fetch_by_ids, ds.fetch_market_data_for_addresses) = orig
 
-
 def _run_assumed_rug_scenarios():
     """Corridas 10/10b — autoanálise 2026-09-29 (incidente real: MUBARAK/NMR/KAIO fechadas em
     simultâneo a 2026-09-29 03:40 UTC como "possível rug" a -95%, todas com missed_updates=3 na
@@ -923,7 +949,6 @@ def _run_assumed_rug_scenarios():
             (config.PORTFOLIO_STATE_FILE, config.CHALLENGE_HISTORY_FILE, config.LESSONS_FILE,
              config.WINS_FILE, config.CHANGELOG_FILE,
              cg.fetch_by_ids, ds.fetch_market_data_for_addresses) = orig
-
 
 if __name__ == "__main__":
     run()
