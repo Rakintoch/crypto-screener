@@ -4672,5 +4672,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "MEGA (cex_small_cap) lost -8.1% in 892 min (slow (>6h)) — stop-loss hit. Entry score: 87 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790934020.9727643,
+    "symbol": "Nailoong",
+    "tier": "dex_micro_cap",
+    "network": "bsc",
+    "url": "https://dexscreener.com/bsc/0x942d02dbc64aa1f90d351794286e15a72ee3d9ff",
+    "held_minutes": 36.8,
+    "exit_reason": "stop-loss hit (-26.9%)",
+    "pnl_pct": -26.94,
+    "pnl_eur": -6.16,
+    "entry_score": 79.2,
+    "entry_liquidity_usd": 171809.9641,
+    "entry_volume_24h_usd": 7780828.25013368,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 38.132,
+    "entry_chg_24h": 7848.279,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 25.035,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 45.287409789603,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 1091.45376265,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "Nailoong (dex_micro_cap) lost -26.9% in 37 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $171,810. Entry score: 79 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]

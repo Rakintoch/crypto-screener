@@ -1217,5 +1217,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "GTC (cex_small_cap) gained +19.6% in 197 min — trailing stop caught extra upside after the target. Entry score: 90. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790934020.9727643,
+    "symbol": "www",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/Cr469Kh7oCPtQk5YADEmjVpBWx1DiXXLiooPFJn23jsg",
+    "held_minutes": 36.8,
+    "exit_reason": "trailing stop hit — dropped 9.1% from the peak (peak +68.9% since entry)",
+    "pnl_pct": 53.57,
+    "pnl_eur": 12.25,
+    "entry_score": 84.4,
+    "entry_liquidity_usd": 238076.1657,
+    "entry_volume_24h_usd": 16967815.320357,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 29.922,
+    "entry_chg_24h": 8843.754,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 8843.754,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 71.27053340458346,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 338.23203666666666,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "www (dex_micro_cap) gained +53.6% in 37 min — trailing stop caught extra upside after the target. Entry liquidity: $238,076. Entry score: 84. Entry security: no obvious red flags."
   }
 ]
