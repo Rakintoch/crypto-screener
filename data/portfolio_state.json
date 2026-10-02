@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 135.41179307198865,
+  "cash_eur": 82.86154251467369,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 147.3628494286958,
       "entry_ts": 1790946172.134415,
       "cost_eur": 28.012004024031253,
-      "last_price_eur": 145.80520676646566,
-      "last_score": 50.0,
+      "last_price_eur": 145.90247531460645,
+      "last_score": 54.6,
       "missed_updates": 0,
       "entry_market_cap": 5541098,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6229069
+      "last_market_cap": 6235314
     },
     "cex_small_cap:edel": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.032961548362019456,
-      "last_score": 46.7,
+      "last_price_eur": 0.033180544244070416,
+      "last_score": 43.8,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
       "entry_venue": "Aerodrome (Base) (on-chain)",
@@ -71,7 +71,81 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 25263312
+      "last_market_cap": 25569547
+    },
+    "cex_small_cap:gitcoin": {
+      "tier": "cex_small_cap",
+      "id": "gitcoin",
+      "symbol": "GTC",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/gitcoin",
+      "qty": 200.20225000644132,
+      "entry_price_eur": 0.13124290699935742,
+      "entry_ts": 1790967852.642053,
+      "cost_eur": 26.27512527865748,
+      "last_price_eur": 0.13124290699935742,
+      "last_score": 97.9,
+      "missed_updates": 0,
+      "entry_market_cap": 12760701,
+      "entry_venue": "Binance",
+      "entry_contract_address": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f (ETH)",
+      "entry_score": 97.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 101311911,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 7.067,
+      "entry_chg_24h": 28.1575,
+      "entry_chg_7d": 75.7328,
+      "entry_chg_6h": null,
+      "entry_turnover": 7.939368769787804,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
+    },
+    "cex_small_cap:hooked": {
+      "tier": "cex_small_cap",
+      "id": "hooked",
+      "symbol": "HOOKED",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/hooked",
+      "qty": 3274.4705633799495,
+      "entry_price_eur": 0.008024236214704574,
+      "entry_ts": 1790967852.642053,
+      "cost_eur": 26.27512527865748,
+      "last_price_eur": 0.008024236214704574,
+      "last_score": 84.8,
+      "missed_updates": 0,
+      "entry_market_cap": 8723783,
+      "entry_venue": "Meteora",
+      "entry_contract_address": null,
+      "entry_score": 84.8,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 14410202,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 41.9255,
+      "entry_chg_24h": 48.62287,
+      "entry_chg_7d": null,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.6518294872763342,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Hooked on Phonics Launches \"Where Will Words Take You?\" Campaign as U.S. Reading Scores Continue to Decline - Yahoo Finance",
+          "ts": 1789455600.0,
+          "source": "Yahoo Finance"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -1152,8 +1226,8 @@
       "pnl_pct": -8.635558383096734
     }
   ],
-  "last_run_ts": 1790967319.3664439,
-  "last_eur_rate": 0.8887309933345463,
+  "last_run_ts": 1790967852.642053,
+  "last_eur_rate": 0.8887279972869979,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
