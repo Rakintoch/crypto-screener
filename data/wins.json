@@ -1243,5 +1243,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "www (dex_micro_cap) gained +53.6% in 37 min — trailing stop caught extra upside after the target. Entry liquidity: $238,076. Entry score: 84. Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1790935518.7337506,
+    "symbol": "VRAX",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/commander-vrax-3",
+    "held_minutes": 61.8,
+    "exit_reason": "trailing stop hit — dropped 14.1% from the peak (peak +25.4% since entry)",
+    "pnl_pct": 7.73,
+    "pnl_eur": 1.03,
+    "entry_score": 83.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 32249097,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 9.9226,
+    "entry_chg_24h": 161.60807,
+    "entry_chg_7d": null,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.1247271937040577,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "VRAX (cex_small_cap) gained +7.7% in 62 min — trailing stop caught extra upside after the target. Entry score: 84. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
