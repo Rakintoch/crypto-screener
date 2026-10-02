@@ -4645,5 +4645,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "ALICE (cex_small_cap) lost -8.6% in 792 min (slow (>6h)) — stop-loss hit. Entry score: 88 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790927125.7196023,
+    "symbol": "MEGA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/megaeth",
+    "held_minutes": 891.9,
+    "exit_reason": "stop-loss hit (-8.1%)",
+    "pnl_pct": -8.13,
+    "pnl_eur": -2.78,
+    "entry_score": 86.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 46872814,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 10.6387,
+    "entry_chg_24h": 20.87274,
+    "entry_chg_7d": 15.3843,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.8017676829877404,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "MEGA (cex_small_cap) lost -8.1% in 892 min (slow (>6h)) — stop-loss hit. Entry score: 87 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
