@@ -4861,5 +4861,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "ENJ (cex_small_cap) lost -8.1% in 128 min (fast (1-6h)) — stop-loss hit. Entry score: 77 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790957423.8231487,
+    "symbol": "NOSH",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/usenosh",
+    "held_minutes": 68.0,
+    "exit_reason": "stop-loss hit (-9.6%)",
+    "pnl_pct": -9.63,
+    "pnl_eur": -1.23,
+    "entry_score": 79.7,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1169239,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.7713,
+    "entry_chg_24h": 34.03744,
+    "entry_chg_7d": 78.8961,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.35409648898330875,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "NOSH (cex_small_cap) lost -9.6% in 68 min (fast (1-6h)) — stop-loss hit. Entry score: 80 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
