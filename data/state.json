@@ -1,7 +1,7 @@
 {
   "cex_small_cap:sudeng": {
-    "last_alert_ts": 1790881373.9599514,
-    "last_score": 60.6,
+    "last_alert_ts": 1790939001.4669843,
+    "last_score": 57.9,
     "symbol": "HIPPO"
   },
   "cex_small_cap:pha": {
@@ -535,8 +535,8 @@
     "symbol": "MICRO"
   },
   "cex_small_cap:robin-the-frog": {
-    "last_alert_ts": 1790873609.6612167,
-    "last_score": 79.2,
+    "last_alert_ts": 1790939001.4669843,
+    "last_score": 66.8,
     "symbol": "ROBIN"
   },
   "dex_micro_cap:9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9": {
@@ -670,8 +670,8 @@
     "symbol": "TENDIES"
   },
   "cex_small_cap:shiba-inu-treat": {
-    "last_alert_ts": 1790888583.232037,
-    "last_score": 72.6,
+    "last_alert_ts": 1790939001.4669843,
+    "last_score": 78.3,
     "symbol": "TREAT"
   },
   "cex_small_cap:sophon": {
@@ -680,8 +680,8 @@
     "symbol": "SOPH"
   },
   "cex_small_cap:blockdag": {
-    "last_alert_ts": 1790888583.232037,
-    "last_score": 56.8,
+    "last_alert_ts": 1790939001.4669843,
+    "last_score": 56.6,
     "symbol": "BDAG"
   },
   "cex_small_cap:commander-vrax-3": {
@@ -863,5 +863,10 @@
     "last_alert_ts": 1790936330.750828,
     "last_score": 57.6,
     "symbol": "SLP"
+  },
+  "cex_small_cap:big-time": {
+    "last_alert_ts": 1790939001.4669843,
+    "last_score": 55.9,
+    "symbol": "BIGTIME"
   }
 }
