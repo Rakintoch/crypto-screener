@@ -15,8 +15,8 @@
       "entry_price_eur": 0.009231759297684088,
       "entry_ts": 1790931813.414487,
       "cost_eur": 13.33830065242858,
-      "last_price_eur": 0.009140360653850776,
-      "last_score": 67.8,
+      "last_price_eur": 0.009205849820840816,
+      "last_score": 67.7,
       "missed_updates": 0,
       "entry_market_cap": 10263545,
       "entry_venue": "Bankr (Robinhood) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10150479
+      "last_market_cap": 10227741
     },
     "cex_small_cap:gitcoin": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.11789507367846398,
       "entry_ts": 1790936331.2347336,
       "cost_eur": 29.592546898074406,
-      "last_price_eur": 0.11556897511988111,
-      "last_score": 81.5,
+      "last_price_eur": 0.11457226332398784,
+      "last_score": 81.3,
       "missed_updates": 0,
       "entry_market_cap": 11594045,
       "entry_venue": "Binance",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11362519
+      "last_market_cap": 11249609
     }
   },
   "closed_trades": [
@@ -872,8 +872,8 @@
       "pnl_pct": -20.403762497243136
     }
   ],
-  "last_run_ts": 1790940316.5283885,
-  "last_eur_rate": 0.8898819983050827,
+  "last_run_ts": 1790940635.662983,
+  "last_eur_rate": 0.889625997375417,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
