@@ -95,8 +95,8 @@
     "symbol": "AUDIO"
   },
   "cex_small_cap:magic": {
-    "last_alert_ts": 1790931812.9207256,
-    "last_score": 69.3,
+    "last_alert_ts": 1790977665.5004592,
+    "last_score": 56.0,
     "symbol": "MAGIC"
   },
   "cex_small_cap:paid": {
@@ -1088,5 +1088,10 @@
     "last_alert_ts": 1790975017.8631988,
     "last_score": 55.5,
     "symbol": "SPCXC"
+  },
+  "dex_micro_cap:XLBLxbY1Mr7aadnqAbmqSBXLEyUdjvUXtXCnz8Mpump": {
+    "last_alert_ts": 1790977665.5004592,
+    "last_score": 58.7,
+    "symbol": "SOCKET"
   }
 }
