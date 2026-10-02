@@ -15,7 +15,7 @@
       "entry_price_eur": 0.009231759297684088,
       "entry_ts": 1790931813.414487,
       "cost_eur": 13.33830065242858,
-      "last_price_eur": 0.00897252998370195,
+      "last_price_eur": 0.00896970500362011,
       "last_score": 84.2,
       "missed_updates": 0,
       "entry_market_cap": 10263545,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9979704
+      "last_market_cap": 9962033
     },
     "cex_small_cap:commander-vrax-3": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.024510379327869047,
       "entry_ts": 1790931813.414487,
       "cost_eur": 13.33830065242858,
-      "last_price_eur": 0.02448781274424768,
+      "last_price_eur": 0.024890517504806958,
       "last_score": 53.5,
       "missed_updates": 0,
       "entry_market_cap": 28672817,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 27545274
+      "last_market_cap": 27998637
     }
   },
   "closed_trades": [
@@ -742,8 +742,8 @@
       "pnl_pct": -26.941764698533593
     }
   ],
-  "last_run_ts": 1790934619.4776142,
-  "last_eur_rate": 0.8889960034897818,
+  "last_run_ts": 1790934918.2920387,
+  "last_eur_rate": 0.8891089985964215,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
