@@ -246,6 +246,21 @@ ROTATION_MIN_INTERVAL_HOURS = 12  # cooldown global — no máximo 1 rotação a
 # capital). Amostra pequena (5 casos no corte) — a vigiar em revisões futuras.
 CEX_MAX_ENTRY_CHG_1H_PCT = 45.0
 
+# Autoanálise 2026-10-02 (fecho da challenge #2, -74,0%, 76 trades): mesma lógica do corte
+# acima, agora replicada para dex_micro_cap (nunca tinha sido aplicada a este tier — a
+# autoanálise de 2026-09-23 decidiu explicitamente NÃO a estender ao DEX, por falta de dados
+# próprios na altura). Combinando lessons.json + wins.json + challenge_history.json (16 trades
+# dex_micro_cap com entry_chg_1h guardado, em 3 ciclos distintos, 2026-09-19 a 2026-10-02): os
+# 5 com entry_chg_1h >= 50% (GOD 294%, BOB 75,9%, BTCBIRD 276%, swordcat 50,9%, Jane 93,9%)
+# tiveram 0% win rate (pnl médio -25,3%), claramente pior que os restantes 11 (27% win rate,
+# pnl médio +9,2% — inclui os dois maiores ganhos do tier: NPC +143,7% a chg_1h 27,8%, baton
+# +36,5% a chg_1h 18,6%). O padrão repetiu-se em ciclos diferentes (não é um artefacto de uma
+# única corrida má) e sobreviveu ao fecho catastrófico do ciclo #2: Jane, a entrada dex mais
+# recente (já no ciclo #3, horas antes desta revisão), reproduziu o mesmo padrão. O limiar é
+# mais alto que o do CEX (45%) porque a camada DEX é estruturalmente mais volátil — um corte
+# igual ao CEX eliminaria candidatos saudáveis (ex. revolve a 31,0% ganhou +103%).
+DEX_MAX_ENTRY_CHG_1H_PCT = 50.0
+
 # Take-profit / stop-loss por camada — DEX é mais volátil, por isso janelas mais largas
 TAKE_PROFIT_PCT = {"cex_small_cap": 0.20, "dex_micro_cap": 0.40}
 # Autoanálise 2026-08-30: os 5 stop-loss reais em cex_small_cap fecharam sempre bastante
