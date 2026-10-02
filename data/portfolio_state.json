@@ -15,8 +15,8 @@
       "entry_price_eur": 0.009231759297684088,
       "entry_ts": 1790931813.414487,
       "cost_eur": 13.33830065242858,
-      "last_price_eur": 0.008943926693651537,
-      "last_score": 56.5,
+      "last_price_eur": 0.008911189143388619,
+      "last_score": 56.4,
       "missed_updates": 0,
       "entry_market_cap": 10263545,
       "entry_venue": "Bankr (Robinhood) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9945587
+      "last_market_cap": 9907423
     }
   },
   "closed_trades": [
@@ -750,8 +750,8 @@
       "pnl_pct": 7.732829500781076
     }
   ],
-  "last_run_ts": 1790935518.7337506,
-  "last_eur_rate": 0.8888180028512704,
+  "last_run_ts": 1790935821.0896354,
+  "last_eur_rate": 0.8888550006522007,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
