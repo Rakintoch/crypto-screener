@@ -4537,5 +4537,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "ALLINU (cex_small_cap) lost -8.5% in 58 min (very fast (<1h)) — stop-loss hit. Entry score: 88 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1790911518.8615215,
+    "symbol": "Jane",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/31eCTC8W3VcX7BiFwK2o5Ax41FPi2UyHcehcy2Gd3H5h",
+    "held_minutes": 22.3,
+    "exit_reason": "stop-loss hit (-20.0%)",
+    "pnl_pct": -20.04,
+    "pnl_eur": -5.05,
+    "entry_score": 86.7,
+    "entry_liquidity_usd": 139370.5577,
+    "entry_volume_24h_usd": 9513075.65914902,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 93.86,
+    "entry_chg_24h": 3259.538,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 146.899,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 68.25742693536642,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 823.1200852166668,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "Jane (dex_micro_cap) lost -20.0% in 22 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $139,371. Entry score: 87 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
