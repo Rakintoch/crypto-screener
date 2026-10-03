@@ -204,21 +204,6 @@
     "last_score": 59.1,
     "symbol": "EDEL"
   },
-  "cex_small_cap:openai-tessera-pre-ipo": {
-    "last_alert_ts": 1790802213.0659494,
-    "last_score": 72.5,
-    "symbol": "TOPENAI"
-  },
-  "dex_micro_cap:H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": {
-    "last_alert_ts": 1790802213.0659494,
-    "last_score": 57.4,
-    "symbol": "BAGSPAY"
-  },
-  "cex_small_cap:memestock-3": {
-    "last_alert_ts": 1790802213.0659494,
-    "last_score": 55.0,
-    "symbol": "MEMESTOCK"
-  },
   "cex_small_cap:4stock": {
     "last_alert_ts": 1790809392.7489266,
     "last_score": 56.8,
@@ -920,8 +905,8 @@
     "symbol": "VAI"
   },
   "cex_small_cap:harmony": {
-    "last_alert_ts": 1791018161.250606,
-    "last_score": 84.5,
+    "last_alert_ts": 1791068567.2742252,
+    "last_score": 60.2,
     "symbol": "ONE"
   },
   "cex_small_cap:doppler-finance": {
@@ -1063,5 +1048,10 @@
     "last_alert_ts": 1791061350.1362197,
     "last_score": 55.4,
     "symbol": "LMAO!"
+  },
+  "cex_small_cap:basecat": {
+    "last_alert_ts": 1791068567.2742252,
+    "last_score": 60.1,
+    "symbol": "BASECAT"
   }
 }
