@@ -129,11 +129,6 @@
     "last_score": 68.1,
     "symbol": "LEVERCAT"
   },
-  "cex_small_cap:berachain-bera": {
-    "last_alert_ts": 1790780617.6881309,
-    "last_score": 70.7,
-    "symbol": "BERA"
-  },
   "cex_small_cap:crypstocksai": {
     "last_alert_ts": 1790787803.5774603,
     "last_score": 71.2,
@@ -165,8 +160,8 @@
     "symbol": "ARK"
   },
   "cex_small_cap:dimo": {
-    "last_alert_ts": 1790960611.8507483,
-    "last_score": 57.3,
+    "last_alert_ts": 1791046997.7283752,
+    "last_score": 69.1,
     "symbol": "DIMO"
   },
   "cex_small_cap:gitcoin": {
@@ -195,19 +190,14 @@
     "symbol": "SPK"
   },
   "cex_small_cap:zip-coin": {
-    "last_alert_ts": 1790931812.9207256,
-    "last_score": 66.4,
+    "last_alert_ts": 1791046997.7283752,
+    "last_score": 67.2,
     "symbol": "ZC"
   },
   "cex_small_cap:coherent-ondo-tokenized": {
     "last_alert_ts": 1791012761.4179137,
     "last_score": 55.0,
     "symbol": "COHRON"
-  },
-  "cex_small_cap:blur": {
-    "last_alert_ts": 1790780617.6881309,
-    "last_score": 60.6,
-    "symbol": "BLUR"
   },
   "cex_small_cap:huma-finance": {
     "last_alert_ts": 1790924591.491067,
@@ -650,8 +640,8 @@
     "symbol": "EMBER"
   },
   "dex_micro_cap:GAwhcphCqCv5bKHmCiN4VDdNWfbXJL4npmkc8L3Q9S9H": {
-    "last_alert_ts": 1790967851.7341833,
-    "last_score": 69.4,
+    "last_alert_ts": 1791046997.7283752,
+    "last_score": 57.7,
     "symbol": "www"
   },
   "cex_small_cap:mubarak": {
@@ -1005,8 +995,8 @@
     "symbol": "XDP"
   },
   "dex_micro_cap:8Y6pHi3cMhxhtHuzgGAsWgAJMyw3zaQLeFFf3qvRpump": {
-    "last_alert_ts": 1791018161.250606,
-    "last_score": 67.5,
+    "last_alert_ts": 1791046997.7283752,
+    "last_score": 98.2,
     "symbol": "PRINTR"
   },
   "cex_small_cap:loosh": {
@@ -1033,5 +1023,35 @@
     "last_alert_ts": 1791032499.213082,
     "last_score": 57.9,
     "symbol": "ODOS"
+  },
+  "cex_small_cap:infinity-ground": {
+    "last_alert_ts": 1791046997.7283752,
+    "last_score": 99.0,
+    "symbol": "AIN"
+  },
+  "dex_micro_cap:6hTLdzZaaCjmqtn7RtaEMQsCbXT5Pg8q76tRViEGpump": {
+    "last_alert_ts": 1791046997.7283752,
+    "last_score": 72.0,
+    "symbol": "ABU"
+  },
+  "cex_small_cap:trac-network": {
+    "last_alert_ts": 1791046997.7283752,
+    "last_score": 58.2,
+    "symbol": "TNK"
+  },
+  "dex_micro_cap:HAcEqEVru6dRbe1grLFTPBxjxGgjn1tVpR7bLgYXdust": {
+    "last_alert_ts": 1791046997.7283752,
+    "last_score": 57.8,
+    "symbol": "DUST"
+  },
+  "dex_micro_cap:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": {
+    "last_alert_ts": 1791046997.7283752,
+    "last_score": 56.7,
+    "symbol": "swordcat"
+  },
+  "cex_small_cap:socket": {
+    "last_alert_ts": 1791046997.7283752,
+    "last_score": 55.0,
+    "symbol": "SOCKET"
   }
 }
