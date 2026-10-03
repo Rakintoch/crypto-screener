@@ -15,8 +15,8 @@
       "entry_price_eur": 147.3628494286958,
       "entry_ts": 1790946172.134415,
       "cost_eur": 28.012004024031253,
-      "last_price_eur": 145.12996462009085,
-      "last_score": 52.3,
+      "last_price_eur": 145.06778257338863,
+      "last_score": 52.2,
       "missed_updates": 0,
       "entry_market_cap": 5541098,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 4777344
+      "last_market_cap": 4775068
     },
     "cex_small_cap:edel": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.036449588704567853,
+      "last_price_eur": 0.036333043822890876,
       "last_score": 57.4,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 27973250
+      "last_market_cap": 27975397
     },
     "cex_small_cap:dolphin-2": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.5141089991355782,
       "entry_ts": 1790977666.0182104,
       "cost_eur": 25.998095126440944,
-      "last_price_eur": 0.6448725349823984,
+      "last_price_eur": 0.6490626263320601,
       "last_score": 70.7,
       "missed_updates": 0,
       "entry_market_cap": 48445017,
@@ -113,7 +113,7 @@
           "source": "Moomoo"
         }
       ],
-      "last_market_cap": 60485512,
+      "last_market_cap": 61160462,
       "trailing_active": true,
       "trailing_peak_eur": 0.6655272132011597
     },
@@ -127,8 +127,8 @@
       "entry_price_eur": 0.07070577565098851,
       "entry_ts": 1790988947.9375212,
       "cost_eur": 12.254565601128753,
-      "last_price_eur": 0.06994450614632118,
-      "last_score": 70.3,
+      "last_price_eur": 0.07009196284205378,
+      "last_score": 70.1,
       "missed_updates": 0,
       "entry_market_cap": 36949574,
       "entry_venue": "Aerodrome SlipStream (on-chain)",
@@ -149,7 +149,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 36576592
+      "last_market_cap": 36699819
     }
   },
   "closed_trades": [
@@ -1318,8 +1318,8 @@
       "pnl_pct": -8.212471227781744
     }
   ],
-  "last_run_ts": 1790998233.8731167,
-  "last_eur_rate": 0.8882970046522882,
+  "last_run_ts": 1790998517.1262078,
+  "last_eur_rate": 0.8882969969590877,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
