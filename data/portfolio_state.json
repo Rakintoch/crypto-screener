@@ -15,7 +15,7 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.04202483107325628,
+      "last_price_eur": 0.04207644323858745,
       "last_score": 48.6,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 32334708,
+      "last_market_cap": 32320014,
       "trailing_active": true,
       "trailing_peak_eur": 0.042820228999812124
     },
@@ -51,8 +51,8 @@
       "entry_price_eur": 2.3362211341758705,
       "entry_ts": 1791018161.7489743,
       "cost_eur": 12.601519670417055,
-      "last_price_eur": 2.3629737667640236,
-      "last_score": 62.1,
+      "last_price_eur": 2.3629737579798156,
+      "last_score": 62.2,
       "missed_updates": 0,
       "entry_market_cap": 45292469,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -73,7 +73,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 45860117
+      "last_market_cap": 45899914
     },
     "cex_small_cap:hashflow": {
       "tier": "cex_small_cap",
@@ -85,8 +85,8 @@
       "entry_price_eur": 0.007833968705624774,
       "entry_ts": 1791068567.8162115,
       "cost_eur": 25.445729053542138,
-      "last_price_eur": 0.007833968705624774,
-      "last_score": 97.0,
+      "last_price_eur": 0.007791977033818381,
+      "last_score": 96.3,
       "missed_updates": 0,
       "entry_market_cap": 8303695,
       "entry_venue": "Bithumb",
@@ -106,7 +106,8 @@
       "entry_base_breakout": null,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": []
+      "entry_catalyst_headlines": [],
+      "last_market_cap": 8248385
     },
     "cex_small_cap:priors-agent": {
       "tier": "cex_small_cap",
@@ -118,8 +119,8 @@
       "entry_price_eur": 0.010217782835008453,
       "entry_ts": 1791068567.8162115,
       "cost_eur": 11.874673558319666,
-      "last_price_eur": 0.010217782835008453,
-      "last_score": 83.9,
+      "last_price_eur": 0.011728149429653216,
+      "last_score": 73.1,
       "missed_updates": 0,
       "entry_market_cap": 10533858,
       "entry_venue": "Uniswap V4 (Robinhood) (on-chain)",
@@ -139,7 +140,8 @@
       "entry_base_breakout": null,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": []
+      "entry_catalyst_headlines": [],
+      "last_market_cap": 11628912
     }
   },
   "closed_trades": [
@@ -1606,8 +1608,8 @@
       "pnl_pct": -19.523333758381067
     }
   ],
-  "last_run_ts": 1791068567.8162115,
-  "last_eur_rate": 0.888336002542866,
+  "last_run_ts": 1791068717.6589284,
+  "last_eur_rate": 0.8883359992405321,
   "last_rotation_ts": 1791059659.8527486,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
