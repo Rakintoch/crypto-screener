@@ -5185,5 +5185,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "AIN (cex_small_cap) lost -13.2% in 266 min (fast (1-6h)) — stop-loss hit. Entry score: 99 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791067819.7532423,
+    "symbol": "ABU",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/2qWF4dn1JnqhCpAYJQnKVaKezzuUiG4xdnbnCSK1Pgcw",
+    "held_minutes": 136.0,
+    "exit_reason": "momentum thesis invalidated (score dropped to 28)",
+    "pnl_pct": -19.52,
+    "pnl_eur": -4.15,
+    "entry_score": 84.6,
+    "entry_liquidity_usd": 43366.2654,
+    "entry_volume_24h_usd": 1139547.34884729,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 25.378,
+    "entry_chg_24h": 345.633,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 10.164,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 26.27727654978771,
+    "entry_boosted": true,
+    "entry_pool_age_minutes": 1306.18890975,
+    "entry_base_breakout": null,
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "ABU (dex_micro_cap) lost -19.5% in 136 min (fast (1-6h)) — momentum thesis invalidated (score dropped). Entry liquidity: $43,366. Entry score: 85 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
