@@ -15,7 +15,7 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.04211684440628683,
+      "last_price_eur": 0.042152520242781065,
       "last_score": 58.1,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 32408891,
+      "last_market_cap": 32401683,
       "trailing_active": true,
       "trailing_peak_eur": 0.042820228999812124
     },
@@ -51,8 +51,8 @@
       "entry_price_eur": 2.3362211341758705,
       "entry_ts": 1791018161.7489743,
       "cost_eur": 12.601519670417055,
-      "last_price_eur": 2.354090378226209,
-      "last_score": 50.1,
+      "last_price_eur": 2.3452070329442734,
+      "last_score": 52.5,
       "missed_updates": 0,
       "entry_market_cap": 45292469,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -73,7 +73,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 45623427
+      "last_market_cap": 45454010
     },
     "dex_micro_cap:6hTLdzZaaCjmqtn7RtaEMQsCbXT5Pg8q76tRViEGpump": {
       "tier": "dex_micro_cap",
@@ -85,8 +85,8 @@
       "entry_price_eur": 0.00019482828134505638,
       "entry_ts": 1791059659.8527486,
       "cost_eur": 21.269593950962914,
-      "last_price_eur": 0.0001907257374359121,
-      "last_score": 50.8,
+      "last_price_eur": 0.00018735006183634364,
+      "last_score": 44.6,
       "missed_updates": 0,
       "entry_market_cap": 219318.2317,
       "entry_venue": null,
@@ -107,7 +107,7 @@
       "entry_catalyst_tags": null,
       "entry_catalyst_score": null,
       "entry_catalyst_headlines": null,
-      "last_market_cap": 207429.0
+      "last_market_cap": 203809.0
     }
   },
   "closed_trades": [
@@ -1534,8 +1534,8 @@
       "pnl_pct": -13.164437159289003
     }
   ],
-  "last_run_ts": 1791066634.7160523,
-  "last_eur_rate": 0.8883359917834751,
+  "last_run_ts": 1791066955.7310882,
+  "last_eur_rate": 0.8883359973273762,
   "last_rotation_ts": 1791059659.8527486,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
