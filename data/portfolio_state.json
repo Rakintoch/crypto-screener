@@ -15,8 +15,8 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.0418907193272071,
-      "last_score": 57.3,
+      "last_price_eur": 0.042019181135937396,
+      "last_score": 57.7,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
       "entry_venue": "Aerodrome (Base) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 32200003,
+      "last_market_cap": 32292782,
       "trailing_active": true,
       "trailing_peak_eur": 0.042820228999812124
     },
@@ -51,8 +51,8 @@
       "entry_price_eur": 2.3362211341758705,
       "entry_ts": 1791018161.7489743,
       "cost_eur": 12.601519670417055,
-      "last_price_eur": 2.371857146054712,
-      "last_score": 53.2,
+      "last_price_eur": 2.371857119996466,
+      "last_score": 54.7,
       "missed_updates": 0,
       "entry_market_cap": 45292469,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -73,7 +73,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 46018499
+      "last_market_cap": 46037866
     }
   },
   "closed_trades": [
@@ -1540,8 +1540,8 @@
       "pnl_pct": -19.523333758381067
     }
   ],
-  "last_run_ts": 1791067819.7532423,
-  "last_eur_rate": 0.8883360097583192,
+  "last_run_ts": 1791068115.8852367,
+  "last_eur_rate": 0.8883359999986764,
   "last_rotation_ts": 1791059659.8527486,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
