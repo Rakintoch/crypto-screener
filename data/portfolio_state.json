@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 102.58118038420699,
+  "cash_eur": 89.97966071378994,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 147.3628494286958,
       "entry_ts": 1790946172.134415,
       "cost_eur": 28.012004024031253,
-      "last_price_eur": 145.03225132903773,
-      "last_score": 48.9,
+      "last_price_eur": 144.96118893009898,
+      "last_score": 48.5,
       "missed_updates": 0,
       "entry_market_cap": 5541098,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 4778781
+      "last_market_cap": 4776512
     },
     "cex_small_cap:edel": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.036121700359658705,
-      "last_score": 58.0,
+      "last_price_eur": 0.03616167406424113,
+      "last_score": 55.3,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
       "entry_venue": "Aerodrome (Base) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 27751468
+      "last_market_cap": 27782109
     },
     "cex_small_cap:dolphin-2": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.5141089991355782,
       "entry_ts": 1790977666.0182104,
       "cost_eur": 25.998095126440944,
-      "last_price_eur": 0.7254677191104824,
-      "last_score": 78.2,
+      "last_price_eur": 0.727392665541263,
+      "last_score": 88.6,
       "missed_updates": 0,
       "entry_market_cap": 48445017,
       "entry_venue": "Upbit",
@@ -113,9 +113,42 @@
           "source": "Moomoo"
         }
       ],
-      "last_market_cap": 68283410,
+      "last_market_cap": 68405022,
       "trailing_active": true,
       "trailing_peak_eur": 0.738300945349668
+    },
+    "cex_small_cap:teller": {
+      "tier": "cex_small_cap",
+      "id": "teller",
+      "symbol": "DEBIT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/teller",
+      "qty": 5.393975547123191,
+      "entry_price_eur": 2.3362211341758705,
+      "entry_ts": 1791018161.7489743,
+      "cost_eur": 12.601519670417055,
+      "last_price_eur": 2.3362211341758705,
+      "last_score": 97.5,
+      "missed_updates": 0,
+      "entry_market_cap": 45292469,
+      "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
+      "entry_contract_address": "0x66661c7229901f568f16bd1551b3ba826f83ce49 (BSC)",
+      "entry_score": 97.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 90305630,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 13.6115,
+      "entry_chg_24h": 43.55489,
+      "entry_chg_7d": 30.9696,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.9938332352780326,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -1364,8 +1397,8 @@
       "pnl_pct": -8.046751269440874
     }
   ],
-  "last_run_ts": 1791017716.730589,
-  "last_eur_rate": 0.8882970008515816,
+  "last_run_ts": 1791018161.7489743,
+  "last_eur_rate": 0.8882970091923462,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
