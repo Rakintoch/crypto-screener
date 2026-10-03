@@ -35,8 +35,8 @@
     "symbol": "DEEP"
   },
   "cex_small_cap:moonbeam": {
-    "last_alert_ts": 1790866992.7430565,
-    "last_score": 89.5,
+    "last_alert_ts": 1791011020.6692178,
+    "last_score": 58.2,
     "symbol": "GLMR"
   },
   "cex_small_cap:wealth-and-prosperity-2": {
@@ -48,11 +48,6 @@
     "last_alert_ts": 1790960611.8507483,
     "last_score": 74.7,
     "symbol": "BUN"
-  },
-  "cex_small_cap:marlin": {
-    "last_alert_ts": 1790744583.5952544,
-    "last_score": 90.9,
-    "symbol": "POND"
   },
   "dex_micro_cap:CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": {
     "last_alert_ts": 1790873609.6612167,
@@ -170,39 +165,14 @@
     "symbol": "HMM"
   },
   "cex_small_cap:my-neighbor-alice": {
-    "last_alert_ts": 1790913041.8918946,
+    "last_alert_ts": 1791011020.6692178,
     "last_score": 67.7,
     "symbol": "ALICE"
-  },
-  "dex_micro_cap:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
-    "last_alert_ts": 1790744583.5952544,
-    "last_score": 60.3,
-    "symbol": "PAID"
-  },
-  "dex_micro_cap:0x5ec2c34feace7860162111bff5ce67e9133d5b26": {
-    "last_alert_ts": 1790751800.290959,
-    "last_score": 86.7,
-    "symbol": "PI"
   },
   "cex_small_cap:ark": {
     "last_alert_ts": 1790816590.358706,
     "last_score": 91.3,
     "symbol": "ARK"
-  },
-  "cex_small_cap:up-2": {
-    "last_alert_ts": 1790751800.290959,
-    "last_score": 67.3,
-    "symbol": "UP"
-  },
-  "cex_small_cap:odos": {
-    "last_alert_ts": 1790751800.290959,
-    "last_score": 63.6,
-    "symbol": "ODOS"
-  },
-  "cex_small_cap:nakamoto-games": {
-    "last_alert_ts": 1790751800.290959,
-    "last_score": 60.3,
-    "symbol": "NAKA"
   },
   "cex_small_cap:dimo": {
     "last_alert_ts": 1790960611.8507483,
@@ -340,8 +310,8 @@
     "symbol": "fone"
   },
   "cex_small_cap:edel": {
-    "last_alert_ts": 1790960611.8507483,
-    "last_score": 77.6,
+    "last_alert_ts": 1791011020.6692178,
+    "last_score": 59.1,
     "symbol": "EDEL"
   },
   "cex_small_cap:zeal-2": {
@@ -975,8 +945,8 @@
     "symbol": "ARTHUR"
   },
   "cex_small_cap:magma-finance": {
-    "last_alert_ts": 1790960611.8507483,
-    "last_score": 70.6,
+    "last_alert_ts": 1791011020.6692178,
+    "last_score": 79.0,
     "symbol": "MAGMA"
   },
   "cex_small_cap:teller": {
@@ -985,8 +955,8 @@
     "symbol": "DEBIT"
   },
   "cex_small_cap:delysium": {
-    "last_alert_ts": 1790960611.8507483,
-    "last_score": 56.5,
+    "last_alert_ts": 1791011020.6692178,
+    "last_score": 55.0,
     "symbol": "AGI"
   },
   "dex_micro_cap:CNohWHNTurS7PpB55czspwUJfpk9yy92uf1wXdweEGg9": {
@@ -1058,5 +1028,10 @@
     "last_alert_ts": 1790996610.8809254,
     "last_score": 57.3,
     "symbol": "BURNIE"
+  },
+  "cex_small_cap:stepn": {
+    "last_alert_ts": 1791011020.6692178,
+    "last_score": 59.9,
+    "symbol": "GMT"
   }
 }

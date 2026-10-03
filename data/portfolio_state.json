@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 103.59474541402032,
+  "cash_eur": 90.99879214201411,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 147.3628494286958,
       "entry_ts": 1790946172.134415,
       "cost_eur": 28.012004024031253,
-      "last_price_eur": 144.6147516590385,
-      "last_score": 50.4,
+      "last_price_eur": 144.93453860767252,
+      "last_score": 51.5,
       "missed_updates": 0,
       "entry_market_cap": 5541098,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 4764942
+      "last_market_cap": 4775689
     },
     "cex_small_cap:edel": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.036369126586257565,
-      "last_score": 61.6,
+      "last_price_eur": 0.03618287736130743,
+      "last_score": 58.7,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
       "entry_venue": "Aerodrome (Base) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 27941633
+      "last_market_cap": 27798467
     },
     "cex_small_cap:dolphin-2": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.5141089991355782,
       "entry_ts": 1790977666.0182104,
       "cost_eur": 25.998095126440944,
-      "last_price_eur": 0.6941108345983683,
-      "last_score": 51.1,
+      "last_price_eur": 0.7057253180169011,
+      "last_score": 71.5,
       "missed_updates": 0,
       "entry_market_cap": 48445017,
       "entry_venue": "Upbit",
@@ -113,9 +113,42 @@
           "source": "Moomoo"
         }
       ],
-      "last_market_cap": 65331758,
+      "last_market_cap": 66484791,
       "trailing_active": true,
       "trailing_peak_eur": 0.7114770386585326
+    },
+    "cex_small_cap:magma-finance": {
+      "tier": "cex_small_cap",
+      "id": "magma-finance",
+      "symbol": "MAGMA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/magma-finance",
+      "qty": 39.124275605704966,
+      "entry_price_eur": 0.32194725849874944,
+      "entry_ts": 1791011021.0602312,
+      "cost_eur": 12.595953272006213,
+      "last_price_eur": 0.32194725849874944,
+      "last_score": 79.0,
+      "missed_updates": 0,
+      "entry_market_cap": 68876049,
+      "entry_venue": "Magma Finance (on-chain)",
+      "entry_contract_address": "0x9f854b3ad20f8161ec0886f15f4a1752bf75d22261556f14cc8d3a1c5d50e529::magma::MAGMA (sui)",
+      "entry_score": 79.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 28422879,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.4633,
+      "entry_chg_24h": 42.80649,
+      "entry_chg_7d": 36.2007,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.41266709418828595,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -1324,8 +1357,8 @@
       "pnl_pct": -12.715302393491179
     }
   ],
-  "last_run_ts": 1791010515.819566,
-  "last_eur_rate": 0.8882970003626441,
+  "last_run_ts": 1791011021.0602312,
+  "last_eur_rate": 0.8882970005373407,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
