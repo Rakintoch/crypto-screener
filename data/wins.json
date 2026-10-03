@@ -1269,5 +1269,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "VRAX (cex_small_cap) gained +7.7% in 62 min — trailing stop caught extra upside after the target. Entry score: 84. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791021917.879468,
+    "symbol": "POD",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/dolphin-2",
+    "held_minutes": 737.5,
+    "exit_reason": "trailing stop hit — dropped 9.6% from the peak (peak +43.8% since entry)",
+    "pnl_pct": 29.9,
+    "pnl_eur": 7.77,
+    "entry_score": 93.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 79120907,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.8578,
+    "entry_chg_24h": 86.98739,
+    "entry_chg_7d": 77.9236,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.6332104290519704,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "POD (cex_small_cap) gained +29.9% in 738 min — trailing stop caught extra upside after the target. Entry score: 94. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

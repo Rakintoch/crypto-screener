@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 89.97966071378994,
+  "cash_eur": 123.75160642443046,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 147.3628494286958,
       "entry_ts": 1790946172.134415,
       "cost_eur": 28.012004024031253,
-      "last_price_eur": 145.09443244994367,
-      "last_score": 47.8,
+      "last_price_eur": 145.08554917670048,
+      "last_score": 48.1,
       "missed_updates": 0,
       "entry_market_cap": 5541098,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 4781584
+      "last_market_cap": 4781355
     },
     "cex_small_cap:edel": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.036166319600478426,
-      "last_score": 58.0,
+      "last_price_eur": 0.036111520482901435,
+      "last_score": 57.6,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
       "entry_venue": "Aerodrome (Base) (on-chain)",
@@ -71,51 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 27785748
-    },
-    "cex_small_cap:dolphin-2": {
-      "tier": "cex_small_cap",
-      "id": "dolphin-2",
-      "symbol": "POD",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/dolphin-2",
-      "qty": 50.56922786831993,
-      "entry_price_eur": 0.5141089991355782,
-      "entry_ts": 1790977666.0182104,
-      "cost_eur": 25.998095126440944,
-      "last_price_eur": 0.6874628217936106,
-      "last_score": 65.2,
-      "missed_updates": 0,
-      "entry_market_cap": 48445017,
-      "entry_venue": "Upbit",
-      "entry_contract_address": "0xed664536023d8e4b1640c394777d34abaff1df8f (Base)",
-      "entry_score": 93.9,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 79120907,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 3.8578,
-      "entry_chg_24h": 86.98739,
-      "entry_chg_7d": 77.9236,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.6332104290519704,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "listing"
-      ],
-      "entry_catalyst_score": 0.4,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Upbit lists Dolphin (POD), opening trading pairs with KRW, BTC, and USDT. - Moomoo",
-          "ts": 1790919957.0,
-          "source": "Moomoo"
-        }
-      ],
-      "last_market_cap": 64706192,
-      "trailing_active": true,
-      "trailing_peak_eur": 0.739106629817841
+      "last_market_cap": 27742902
     },
     "cex_small_cap:teller": {
       "tier": "cex_small_cap",
@@ -127,8 +83,8 @@
       "entry_price_eur": 2.3362211341758705,
       "entry_ts": 1791018161.7489743,
       "cost_eur": 12.601519670417055,
-      "last_price_eur": 2.291806267422889,
-      "last_score": 70.2,
+      "last_price_eur": 2.2651573526026216,
+      "last_score": 55.9,
       "missed_updates": 0,
       "entry_market_cap": 45292469,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -149,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 44383407
+      "last_market_cap": 43944579
     }
   },
   "closed_trades": [
@@ -1396,10 +1352,60 @@
       "proceeds_eur": 11.582388242192874,
       "pnl_eur": -1.0135650298133392,
       "pnl_pct": -8.046751269440874
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "dolphin-2",
+      "symbol": "POD",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/dolphin-2",
+      "qty": 50.56922786831993,
+      "entry_price_eur": 0.5141089991355782,
+      "entry_ts": 1790977666.0182104,
+      "cost_eur": 25.998095126440944,
+      "last_price_eur": 0.6678358981193305,
+      "last_score": 62.4,
+      "missed_updates": 0,
+      "entry_market_cap": 48445017,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0xed664536023d8e4b1640c394777d34abaff1df8f (Base)",
+      "entry_score": 93.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 79120907,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.8578,
+      "entry_chg_24h": 86.98739,
+      "entry_chg_7d": 77.9236,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.6332104290519704,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Upbit lists Dolphin (POD), opening trading pairs with KRW, BTC, and USDT. - Moomoo",
+          "ts": 1790919957.0,
+          "source": "Moomoo"
+        }
+      ],
+      "last_market_cap": 62739597,
+      "trailing_active": true,
+      "trailing_peak_eur": 0.739106629817841,
+      "exit_price_eur": 0.6678358981193305,
+      "exit_ts": 1791021917.879468,
+      "exit_reason": "trailing stop hit — dropped 9.6% from the peak (peak +43.8% since entry)",
+      "proceeds_eur": 33.771945710640516,
+      "pnl_eur": 7.773850584199572,
+      "pnl_pct": 29.90161604683607
     }
   ],
-  "last_run_ts": 1791021653.6025522,
-  "last_eur_rate": 0.8882970028770887,
+  "last_run_ts": 1791021917.879468,
+  "last_eur_rate": 0.888297001020636,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
