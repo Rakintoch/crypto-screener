@@ -5131,5 +5131,32 @@
     "categoria": "other",
     "velocidade_queda": "slow (>6h)",
     "licao": "SOXLB (cex_small_cap) lost -1.0% in 1800 min (slow (>6h)) — other. Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791059659.8527486,
+    "symbol": "SOXLB",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/semicon-bull-3x-etf-bstocks-tokenized-stock",
+    "held_minutes": 1891.5,
+    "exit_reason": "rotated out — thesis fading (score 38, no unrealized gain) to free a slot for a new qualified candidate",
+    "pnl_pct": -0.92,
+    "pnl_eur": -0.26,
+    "entry_score": 75.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 7158161,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.5983,
+    "entry_chg_24h": 11.44037,
+    "entry_chg_7d": 8.4235,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.2918307887714673,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "SOXLB (cex_small_cap) lost -0.9% in 1891 min (slow (>6h)) — other. Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
