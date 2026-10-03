@@ -665,8 +665,8 @@
     "symbol": "SOPH"
   },
   "cex_small_cap:blockdag": {
-    "last_alert_ts": 1790939001.4669843,
-    "last_score": 56.6,
+    "last_alert_ts": 1790988947.548618,
+    "last_score": 61.5,
     "symbol": "BDAG"
   },
   "cex_small_cap:commander-vrax-3": {
@@ -1050,8 +1050,8 @@
     "symbol": "CATGPT"
   },
   "cex_small_cap:velvet": {
-    "last_alert_ts": 1790967851.7341833,
-    "last_score": 65.1,
+    "last_alert_ts": 1790988947.548618,
+    "last_score": 85.0,
     "symbol": "VELVET"
   },
   "cex_small_cap:spacex-robinhood-tokenized-stock": {
@@ -1098,5 +1098,15 @@
     "last_alert_ts": 1790982200.1437583,
     "last_score": 65.7,
     "symbol": "Zscribe"
+  },
+  "cex_small_cap:cat-wif-sword-2": {
+    "last_alert_ts": 1790988947.548618,
+    "last_score": 84.6,
+    "symbol": "SWORDCAT"
+  },
+  "cex_small_cap:canopy": {
+    "last_alert_ts": 1790988947.548618,
+    "last_score": 60.7,
+    "symbol": "CNPY"
   }
 }
