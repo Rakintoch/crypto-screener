@@ -15,8 +15,8 @@
       "entry_price_eur": 147.3628494286958,
       "entry_ts": 1790946172.134415,
       "cost_eur": 28.012004024031253,
-      "last_price_eur": 146.03355451700773,
-      "last_score": 42.3,
+      "last_price_eur": 145.8381208181784,
+      "last_score": 42.7,
       "missed_updates": 0,
       "entry_market_cap": 5541098,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 4812339
+      "last_market_cap": 4805821
     },
     "cex_small_cap:edel": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.03875524798264522,
-      "last_score": 50.5,
+      "last_price_eur": 0.03893411449446329,
+      "last_score": 51.8,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
       "entry_venue": "Aerodrome (Base) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 29780018
+      "last_market_cap": 29879869
     },
     "cex_small_cap:teller": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 2.3362211341758705,
       "entry_ts": 1791018161.7489743,
       "cost_eur": 12.601519670417055,
-      "last_price_eur": 2.371857111505631,
+      "last_price_eur": 2.389623835054516,
       "last_score": 69.1,
       "missed_updates": 0,
       "entry_market_cap": 45292469,
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 45860945
+      "last_market_cap": 46298235
     }
   },
   "closed_trades": [
@@ -1452,8 +1452,8 @@
       "pnl_pct": -8.272860528058624
     }
   ],
-  "last_run_ts": 1791048020.6968663,
-  "last_eur_rate": 0.8883359968185883,
+  "last_run_ts": 1791048318.0370958,
+  "last_eur_rate": 0.8883359981615302,
   "last_rotation_ts": 1790535775.3530607,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
