@@ -45,8 +45,8 @@
     "symbol": "e"
   },
   "cex_small_cap:interfold": {
-    "last_alert_ts": 1791003778.0251517,
-    "last_score": 57.1,
+    "last_alert_ts": 1791054198.0258756,
+    "last_score": 67.0,
     "symbol": "FOLD"
   },
   "cex_small_cap:mame-inu": {
@@ -400,8 +400,8 @@
     "symbol": "LITEB"
   },
   "cex_small_cap:surplus-intelligence": {
-    "last_alert_ts": 1791049557.4458048,
-    "last_score": 55.1,
+    "last_alert_ts": 1791054198.0258756,
+    "last_score": 71.3,
     "symbol": "SURPLUS"
   },
   "cex_small_cap:coherent-rstock": {
@@ -420,8 +420,8 @@
     "symbol": "SYN"
   },
   "cex_small_cap:priors-agent": {
-    "last_alert_ts": 1790873609.6612167,
-    "last_score": 88.8,
+    "last_alert_ts": 1791054198.0258756,
+    "last_score": 61.7,
     "symbol": "PRIORS"
   },
   "dex_micro_cap:9pJWJdpPebyANys45eetpemLJo8yTz4n5B9zbpYw9ZMr": {
@@ -825,8 +825,8 @@
     "symbol": "GLWB"
   },
   "cex_small_cap:stockereum-fun": {
-    "last_alert_ts": 1790953343.3173113,
-    "last_score": 55.3,
+    "last_alert_ts": 1791054198.0258756,
+    "last_score": 98.1,
     "symbol": "STOCKER"
   },
   "cex_small_cap:spacex-bstocks-tokenized-stock": {
@@ -1013,5 +1013,25 @@
     "last_alert_ts": 1791049557.4458048,
     "last_score": 55.0,
     "symbol": "AGENCY"
+  },
+  "cex_small_cap:hashflow": {
+    "last_alert_ts": 1791054198.0258756,
+    "last_score": 88.1,
+    "symbol": "HFT"
+  },
+  "cex_small_cap:collect-on-fanable": {
+    "last_alert_ts": 1791054198.0258756,
+    "last_score": 65.4,
+    "symbol": "COLLECT"
+  },
+  "cex_small_cap:what-the-hook": {
+    "last_alert_ts": 1791054198.0258756,
+    "last_score": 63.1,
+    "symbol": "WTH"
+  },
+  "cex_small_cap:kaito": {
+    "last_alert_ts": 1791054198.0258756,
+    "last_score": 60.8,
+    "symbol": "KAITO"
   }
 }
