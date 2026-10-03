@@ -90,8 +90,8 @@
     "symbol": "ANTHROPIC"
   },
   "cex_small_cap:cap-4": {
-    "last_alert_ts": 1790960611.8507483,
-    "last_score": 61.7,
+    "last_alert_ts": 1791032499.213082,
+    "last_score": 59.4,
     "symbol": "CAP"
   },
   "dex_micro_cap:C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE": {
@@ -125,8 +125,8 @@
     "symbol": "SI"
   },
   "cex_small_cap:hookr-fun": {
-    "last_alert_ts": 1790982200.1437583,
-    "last_score": 78.4,
+    "last_alert_ts": 1791032499.213082,
+    "last_score": 80.4,
     "symbol": "HOOKR"
   },
   "cex_small_cap:leveraged-cat": {
@@ -690,8 +690,8 @@
     "symbol": "ROBINCAT"
   },
   "cex_small_cap:dolphin-2": {
-    "last_alert_ts": 1791025386.6909165,
-    "last_score": 60.7,
+    "last_alert_ts": 1791032499.213082,
+    "last_score": 84.1,
     "symbol": "POD"
   },
   "dex_micro_cap:0xb936cab857514bb917431cc8e2b7f1da5caa7777": {
@@ -1043,5 +1043,15 @@
     "last_alert_ts": 1791025386.6909165,
     "last_score": 61.2,
     "symbol": "UP"
+  },
+  "cex_small_cap:benqi": {
+    "last_alert_ts": 1791032499.213082,
+    "last_score": 79.9,
+    "symbol": "QI"
+  },
+  "cex_small_cap:odos": {
+    "last_alert_ts": 1791032499.213082,
+    "last_score": 57.9,
+    "symbol": "ODOS"
   }
 }
