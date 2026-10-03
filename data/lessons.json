@@ -5158,5 +5158,32 @@
     "categoria": "other",
     "velocidade_queda": "slow (>6h)",
     "licao": "SOXLB (cex_small_cap) lost -0.9% in 1891 min (slow (>6h)) — other. Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791065534.1358845,
+    "symbol": "AIN",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/infinity-ground",
+    "held_minutes": 266.3,
+    "exit_reason": "stop-loss hit (-13.2%)",
+    "pnl_pct": -13.16,
+    "pnl_eur": -3.49,
+    "entry_score": 99.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 13216774,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 8.9818,
+    "entry_chg_24h": 116.71507,
+    "entry_chg_7d": 113.9962,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.40413315366241,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "AIN (cex_small_cap) lost -13.2% in 266 min (fast (1-6h)) — stop-loss hit. Entry score: 99 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
