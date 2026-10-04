@@ -120,8 +120,8 @@
     "symbol": "DIMO"
   },
   "cex_small_cap:gitcoin": {
-    "last_alert_ts": 1790936330.750828,
-    "last_score": 91.4,
+    "last_alert_ts": 1791111769.5356543,
+    "last_score": 72.7,
     "symbol": "GTC"
   },
   "cex_small_cap:talus": {
@@ -140,8 +140,8 @@
     "symbol": "SPK"
   },
   "cex_small_cap:zip-coin": {
-    "last_alert_ts": 1791046997.7283752,
-    "last_score": 67.2,
+    "last_alert_ts": 1791111769.5356543,
+    "last_score": 73.4,
     "symbol": "ZC"
   },
   "cex_small_cap:coherent-ondo-tokenized": {
@@ -153,11 +153,6 @@
     "last_alert_ts": 1790924591.491067,
     "last_score": 61.5,
     "symbol": "HUMA"
-  },
-  "cex_small_cap:renzo": {
-    "last_alert_ts": 1790845406.6845703,
-    "last_score": 56.6,
-    "symbol": "REZ"
   },
   "cex_small_cap:endurance": {
     "last_alert_ts": 1790859806.98418,
@@ -205,8 +200,8 @@
     "symbol": "ICX"
   },
   "cex_small_cap:nomina": {
-    "last_alert_ts": 1790953343.3173113,
-    "last_score": 70.9,
+    "last_alert_ts": 1791111769.5356543,
+    "last_score": 80.5,
     "symbol": "NOM"
   },
   "dex_micro_cap:H9qKeikv2EuifXaMCWSFQSUvNHUu2dre9R3Gmz62mvjw": {
@@ -233,11 +228,6 @@
     "last_alert_ts": 1790996610.8809254,
     "last_score": 66.2,
     "symbol": "ROBIN"
-  },
-  "cex_small_cap:citrea": {
-    "last_alert_ts": 1790845406.6845703,
-    "last_score": 56.7,
-    "symbol": "CTR"
   },
   "cex_small_cap:heima": {
     "last_alert_ts": 1790902974.9794614,
@@ -315,8 +305,8 @@
     "symbol": "SYN"
   },
   "cex_small_cap:priors-agent": {
-    "last_alert_ts": 1791104594.9560215,
-    "last_score": 55.9,
+    "last_alert_ts": 1791111769.5356543,
+    "last_score": 85.5,
     "symbol": "PRIORS"
   },
   "dex_micro_cap:9pJWJdpPebyANys45eetpemLJo8yTz4n5B9zbpYw9ZMr": {
@@ -490,8 +480,8 @@
     "symbol": "www"
   },
   "cex_small_cap:mubarak": {
-    "last_alert_ts": 1790924591.491067,
-    "last_score": 70.1,
+    "last_alert_ts": 1791111769.5356543,
+    "last_score": 56.6,
     "symbol": "MUBARAK"
   },
   "cex_small_cap:dexe": {
@@ -860,8 +850,8 @@
     "symbol": "UP"
   },
   "cex_small_cap:benqi": {
-    "last_alert_ts": 1791082977.8902702,
-    "last_score": 56.1,
+    "last_alert_ts": 1791111769.5356543,
+    "last_score": 73.4,
     "symbol": "QI"
   },
   "cex_small_cap:odos": {
@@ -1063,5 +1053,10 @@
     "last_alert_ts": 1791104594.9560215,
     "last_score": 55.4,
     "symbol": "OPEN"
+  },
+  "cex_small_cap:slopcore": {
+    "last_alert_ts": 1791111769.5356543,
+    "last_score": 55.0,
+    "symbol": "SLOPCORE"
   }
 }
