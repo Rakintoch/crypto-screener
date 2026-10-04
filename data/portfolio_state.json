@@ -15,7 +15,7 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.04262580721524145,
+      "last_price_eur": 0.04257662861067363,
       "last_score": 54.6,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 32787577,
+      "last_market_cap": 32786865,
       "trailing_active": true,
       "trailing_peak_eur": 0.04383578389747371
     },
@@ -51,8 +51,8 @@
       "entry_price_eur": 0.7795024057637173,
       "entry_ts": 1791073323.5601854,
       "cost_eur": 24.91508565122955,
-      "last_price_eur": 0.756651613300057,
-      "last_score": 55.5,
+      "last_price_eur": 0.7547574644789975,
+      "last_score": 56.2,
       "missed_updates": 0,
       "entry_market_cap": 73056727,
       "entry_venue": "Upbit",
@@ -87,7 +87,7 @@
           "source": "CryptoRank"
         }
       ],
-      "last_market_cap": 71172004
+      "last_market_cap": 70994047
     },
     "cex_small_cap:dimo": {
       "tier": "cex_small_cap",
@@ -99,8 +99,8 @@
       "entry_price_eur": 0.023065297631042706,
       "entry_ts": 1791075772.2630785,
       "cost_eur": 24.542734711862966,
-      "last_price_eur": 0.023351409094205765,
-      "last_score": 54.9,
+      "last_price_eur": 0.023353939953182287,
+      "last_score": 54.1,
       "missed_updates": 0,
       "entry_market_cap": 13099099,
       "entry_venue": "Coinbase Exchange",
@@ -121,7 +121,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 13266288
+      "last_market_cap": 13171709
     },
     "cex_small_cap:collect-on-fanable": {
       "tier": "cex_small_cap",
@@ -133,8 +133,8 @@
       "entry_price_eur": 0.022363068573005854,
       "entry_ts": 1791099870.1364813,
       "cost_eur": 12.070677770210018,
-      "last_price_eur": 0.020876174879858208,
-      "last_score": 81.6,
+      "last_price_eur": 0.020611606782580203,
+      "last_score": 81.5,
       "missed_updates": 0,
       "entry_market_cap": 13523295,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -155,7 +155,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12624144
+      "last_market_cap": 12462914
     }
   },
   "closed_trades": [
@@ -1784,8 +1784,8 @@
       "pnl_pct": 32.215008494368696
     }
   ],
-  "last_run_ts": 1791103820.2270432,
-  "last_eur_rate": 0.8880209999237817,
+  "last_run_ts": 1791104117.4017122,
+  "last_eur_rate": 0.8880209998905765,
   "last_rotation_ts": 1791059659.8527486,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
