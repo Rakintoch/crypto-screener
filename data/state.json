@@ -110,8 +110,8 @@
     "symbol": "HMM"
   },
   "cex_small_cap:my-neighbor-alice": {
-    "last_alert_ts": 1791059659.316327,
-    "last_score": 55.3,
+    "last_alert_ts": 1791104594.9560215,
+    "last_score": 57.8,
     "symbol": "ALICE"
   },
   "cex_small_cap:dimo": {
@@ -234,11 +234,6 @@
     "last_score": 66.2,
     "symbol": "ROBIN"
   },
-  "dex_micro_cap:9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9": {
-    "last_alert_ts": 1790842548.57755,
-    "last_score": 62.3,
-    "symbol": "Saw"
-  },
   "cex_small_cap:citrea": {
     "last_alert_ts": 1790845406.6845703,
     "last_score": 56.7,
@@ -320,8 +315,8 @@
     "symbol": "SYN"
   },
   "cex_small_cap:priors-agent": {
-    "last_alert_ts": 1791059659.316327,
-    "last_score": 82.0,
+    "last_alert_ts": 1791104594.9560215,
+    "last_score": 55.9,
     "symbol": "PRIORS"
   },
   "dex_micro_cap:9pJWJdpPebyANys45eetpemLJo8yTz4n5B9zbpYw9ZMr": {
@@ -825,8 +820,8 @@
     "symbol": "BURNIE"
   },
   "cex_small_cap:stepn": {
-    "last_alert_ts": 1791011020.6692178,
-    "last_score": 59.9,
+    "last_alert_ts": 1791104594.9560215,
+    "last_score": 55.2,
     "symbol": "GMT"
   },
   "cex_small_cap:vaiot": {
@@ -875,8 +870,8 @@
     "symbol": "ODOS"
   },
   "cex_small_cap:infinity-ground": {
-    "last_alert_ts": 1791097406.431535,
-    "last_score": 70.0,
+    "last_alert_ts": 1791104594.9560215,
+    "last_score": 95.9,
     "symbol": "AIN"
   },
   "dex_micro_cap:6hTLdzZaaCjmqtn7RtaEMQsCbXT5Pg8q76tRViEGpump": {
@@ -935,8 +930,8 @@
     "symbol": "KAITO"
   },
   "cex_small_cap:super-iguana": {
-    "last_alert_ts": 1791059659.316327,
-    "last_score": 79.2,
+    "last_alert_ts": 1791104594.9560215,
+    "last_score": 76.7,
     "symbol": "SI"
   },
   "dex_micro_cap:0x3b4cbdb0a05d08638d6c11a79d0455fb9ffa65ff": {
@@ -955,8 +950,8 @@
     "symbol": "LFI"
   },
   "dex_micro_cap:H7TuvDxEKygh27zGfGcjKG8JGWgrbyKpPtvJEpGosfas": {
-    "last_alert_ts": 1791061350.1362197,
-    "last_score": 71.1,
+    "last_alert_ts": 1791104594.9560215,
+    "last_score": 61.0,
     "symbol": "CLAUDIA"
   },
   "cex_small_cap:cheqd-network": {
@@ -1053,5 +1048,20 @@
     "last_alert_ts": 1791099869.7747076,
     "last_score": 55.1,
     "symbol": "KII"
+  },
+  "cex_small_cap:arai": {
+    "last_alert_ts": 1791104594.9560215,
+    "last_score": 59.2,
+    "symbol": "AA"
+  },
+  "dex_micro_cap:0xcb660127ef4470b8f4715a8cb118cb9c3c8f7777": {
+    "last_alert_ts": 1791104594.9560215,
+    "last_score": 58.2,
+    "symbol": "CLOUT"
+  },
+  "cex_small_cap:openledger-2": {
+    "last_alert_ts": 1791104594.9560215,
+    "last_score": 55.4,
+    "symbol": "OPEN"
   }
 }
