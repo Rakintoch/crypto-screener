@@ -15,8 +15,8 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.0426653508051268,
-      "last_score": 51.4,
+      "last_price_eur": 0.042357314088233275,
+      "last_score": 51.1,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
       "entry_venue": "Aerodrome (Base) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 32817994,
+      "last_market_cap": 32585226,
       "trailing_active": true,
       "trailing_peak_eur": 0.04383578389747371
     },
@@ -51,8 +51,8 @@
       "entry_price_eur": 0.7795024057637173,
       "entry_ts": 1791073323.5601854,
       "cost_eur": 24.91508565122955,
-      "last_price_eur": 0.7785857322675019,
-      "last_score": 63.6,
+      "last_price_eur": 0.7778442348730973,
+      "last_score": 62.2,
       "missed_updates": 0,
       "entry_market_cap": 73056727,
       "entry_venue": "Upbit",
@@ -87,7 +87,7 @@
           "source": "CryptoRank"
         }
       ],
-      "last_market_cap": 73235091
+      "last_market_cap": 72988279
     },
     "cex_small_cap:dimo": {
       "tier": "cex_small_cap",
@@ -99,7 +99,7 @@
       "entry_price_eur": 0.023065297631042706,
       "entry_ts": 1791075772.2630785,
       "cost_eur": 24.542734711862966,
-      "last_price_eur": 0.022677312361008128,
+      "last_price_eur": 0.02279432689233429,
       "last_score": 57.4,
       "missed_updates": 0,
       "entry_market_cap": 13099099,
@@ -121,7 +121,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12883324
+      "last_market_cap": 12930793
     }
   },
   "closed_trades": [
@@ -1750,8 +1750,8 @@
       "pnl_pct": 32.215008494368696
     }
   ],
-  "last_run_ts": 1791098420.1746306,
-  "last_eur_rate": 0.8880210002309649,
+  "last_run_ts": 1791098718.1542459,
+  "last_eur_rate": 0.8880210003916948,
   "last_rotation_ts": 1791059659.8527486,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
