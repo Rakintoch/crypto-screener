@@ -15,8 +15,8 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.042122343985026366,
-      "last_score": 53.1,
+      "last_price_eur": 0.04215804569298082,
+      "last_score": 52.8,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
       "entry_venue": "Aerodrome (Base) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 32379288,
+      "last_market_cap": 32397233,
       "trailing_active": true,
       "trailing_peak_eur": 0.042820228999812124
     },
@@ -51,8 +51,8 @@
       "entry_price_eur": 2.3362211341758705,
       "entry_ts": 1791018161.7489743,
       "cost_eur": 12.601519670417055,
-      "last_price_eur": 2.1941899402813947,
-      "last_score": 54.9,
+      "last_price_eur": 2.167539833494036,
+      "last_score": 54.6,
       "missed_updates": 0,
       "entry_market_cap": 45292469,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -73,7 +73,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 42559389
+      "last_market_cap": 42028048
     },
     "cex_small_cap:dolphin-2": {
       "tier": "cex_small_cap",
@@ -85,8 +85,8 @@
       "entry_price_eur": 0.7795024057637173,
       "entry_ts": 1791073323.5601854,
       "cost_eur": 24.91508565122955,
-      "last_price_eur": 0.738301386440287,
-      "last_score": 88.5,
+      "last_price_eur": 0.7673002176969156,
+      "last_score": 89.1,
       "missed_updates": 0,
       "entry_market_cap": 73056727,
       "entry_venue": "Upbit",
@@ -121,7 +121,7 @@
           "source": "CryptoRank"
         }
       ],
-      "last_market_cap": 69419503
+      "last_market_cap": 72208154
     }
   },
   "closed_trades": [
@@ -1668,8 +1668,8 @@
       "pnl_pct": -10.63059210168789
     }
   ],
-  "last_run_ts": 1791075020.1076026,
-  "last_eur_rate": 0.8883360082110909,
+  "last_run_ts": 1791075319.9176419,
+  "last_eur_rate": 0.8883359973336215,
   "last_rotation_ts": 1791059659.8527486,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
