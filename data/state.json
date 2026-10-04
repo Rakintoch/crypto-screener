@@ -910,8 +910,8 @@
     "symbol": "JEANPHIL"
   },
   "cex_small_cap:agency": {
-    "last_alert_ts": 1791097406.431535,
-    "last_score": 55.0,
+    "last_alert_ts": 1791099869.7747076,
+    "last_score": 85.0,
     "symbol": "AGENCY"
   },
   "cex_small_cap:hashflow": {
@@ -1038,5 +1038,20 @@
     "last_alert_ts": 1791097406.431535,
     "last_score": 56.8,
     "symbol": "EDGE"
+  },
+  "cex_small_cap:io": {
+    "last_alert_ts": 1791099869.7747076,
+    "last_score": 59.4,
+    "symbol": "IO"
+  },
+  "cex_small_cap:aeon-3": {
+    "last_alert_ts": 1791099869.7747076,
+    "last_score": 56.5,
+    "symbol": "AEON"
+  },
+  "cex_small_cap:kiichain": {
+    "last_alert_ts": 1791099869.7747076,
+    "last_score": 55.1,
+    "symbol": "KII"
   }
 }
