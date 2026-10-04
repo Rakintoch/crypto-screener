@@ -5212,5 +5212,32 @@
     "categoria": "momentum thesis invalidated (score dropped)",
     "velocidade_queda": "fast (1-6h)",
     "licao": "ABU (dex_micro_cap) lost -19.5% in 136 min (fast (1-6h)) — momentum thesis invalidated (score dropped). Entry liquidity: $43,366. Entry score: 85 (minimum required to buy: 65). Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1791073323.5601854,
+    "symbol": "PRIORS",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/priors-agent",
+    "held_minutes": 79.3,
+    "exit_reason": "stop-loss hit (-9.2%)",
+    "pnl_pct": -9.16,
+    "pnl_eur": -1.09,
+    "entry_score": 83.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 2679883,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 31.3041,
+    "entry_chg_24h": 51.10101,
+    "entry_chg_7d": 635.1749,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.25440660012694305,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "PRIORS (cex_small_cap) lost -9.2% in 79 min (fast (1-6h)) — stop-loss hit. Entry score: 84 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
