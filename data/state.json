@@ -65,8 +65,8 @@
     "symbol": "CAP"
   },
   "dex_micro_cap:C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE": {
-    "last_alert_ts": 1791073323.1460376,
-    "last_score": 83.2,
+    "last_alert_ts": 1791147647.0844827,
+    "last_score": 70.7,
     "symbol": "HOOKED"
   },
   "cex_small_cap:boar": {
@@ -185,8 +185,8 @@
     "symbol": "Ajax"
   },
   "cex_small_cap:hooked": {
-    "last_alert_ts": 1791075771.6855958,
-    "last_score": 63.1,
+    "last_alert_ts": 1791147647.0844827,
+    "last_score": 69.2,
     "symbol": "HOOKED"
   },
   "cex_small_cap:allinu": {
@@ -915,8 +915,8 @@
     "symbol": "SI"
   },
   "dex_micro_cap:AVKpeeWaCku3Mni5THbY4bkBnMrPzAEnnQKtP3wPpump": {
-    "last_alert_ts": 1791133375.4234064,
-    "last_score": 57.5,
+    "last_alert_ts": 1791147647.0844827,
+    "last_score": 83.7,
     "symbol": "CARNAGE"
   },
   "dex_micro_cap:BXoHJddsWJLHtAopeiSbKUSELsu8hSFMs8baGMDkpump": {
@@ -955,8 +955,8 @@
     "symbol": "PHA"
   },
   "cex_small_cap:definitive": {
-    "last_alert_ts": 1791097406.431535,
-    "last_score": 56.8,
+    "last_alert_ts": 1791147647.0844827,
+    "last_score": 63.6,
     "symbol": "EDGE"
   },
   "cex_small_cap:io": {
@@ -1048,5 +1048,10 @@
     "last_alert_ts": 1791140574.8109555,
     "last_score": 65.4,
     "symbol": "fone"
+  },
+  "dex_micro_cap:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
+    "last_alert_ts": 1791147647.0844827,
+    "last_score": 72.9,
+    "symbol": "baton"
   }
 }
