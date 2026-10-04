@@ -5320,5 +5320,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "COLLECT (cex_small_cap) lost -10.9% in 76 min (fast (1-6h)) — stop-loss hit. Entry score: 94 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791121206.7815578,
+    "symbol": "DIMO",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/dimo",
+    "held_minutes": 757.2,
+    "exit_reason": "rotated out — thesis fading (score 41, no unrealized gain) to free a slot for a new qualified candidate",
+    "pnl_pct": -3.48,
+    "pnl_eur": -0.85,
+    "entry_score": 79.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 2639689,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 8.1578,
+    "entry_chg_24h": 22.43434,
+    "entry_chg_7d": 134.7557,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.20151683715040247,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "DIMO (cex_small_cap) lost -3.5% in 757 min (slow (>6h)) — other. Entry score: 80 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
