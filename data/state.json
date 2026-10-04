@@ -284,11 +284,6 @@
     "last_score": 76.1,
     "symbol": "SC"
   },
-  "dex_micro_cap:0x7fb4758cb0c617c0bab1baf80525fab958637777": {
-    "last_alert_ts": 1790874197.553666,
-    "last_score": 76.3,
-    "symbol": "BNBO"
-  },
   "cex_small_cap:the-stonks-exchange": {
     "last_alert_ts": 1790946171.5898051,
     "last_score": 59.5,
@@ -600,8 +595,8 @@
     "symbol": "WORM"
   },
   "cex_small_cap:baton-3": {
-    "last_alert_ts": 1791061350.1362197,
-    "last_score": 68.0,
+    "last_alert_ts": 1791136770.899112,
+    "last_score": 97.0,
     "symbol": "BATON"
   },
   "cex_small_cap:scroll": {
@@ -825,8 +820,8 @@
     "symbol": "AIN"
   },
   "dex_micro_cap:6hTLdzZaaCjmqtn7RtaEMQsCbXT5Pg8q76tRViEGpump": {
-    "last_alert_ts": 1791073323.1460376,
-    "last_score": 89.6,
+    "last_alert_ts": 1791136770.899112,
+    "last_score": 69.8,
     "symbol": "ABU"
   },
   "cex_small_cap:trac-network": {
@@ -945,13 +940,13 @@
     "symbol": "CARNAGE"
   },
   "dex_micro_cap:BXoHJddsWJLHtAopeiSbKUSELsu8hSFMs8baGMDkpump": {
-    "last_alert_ts": 1791082977.8902702,
-    "last_score": 74.4,
+    "last_alert_ts": 1791136770.899112,
+    "last_score": 56.7,
     "symbol": "CRAWL"
   },
   "cex_small_cap:hivemapper": {
-    "last_alert_ts": 1791133375.4234064,
-    "last_score": 56.5,
+    "last_alert_ts": 1791136770.899112,
+    "last_score": 86.4,
     "symbol": "HONEY"
   },
   "dex_micro_cap:9dSMwFfPezQ8WPcW1uZV7ns4rcviEj2LssSAg75WBLXd": {
@@ -1048,5 +1043,25 @@
     "last_alert_ts": 1791133375.4234064,
     "last_score": 86.3,
     "symbol": "SPLICE"
+  },
+  "cex_small_cap:orchid-protocol": {
+    "last_alert_ts": 1791136770.899112,
+    "last_score": 70.5,
+    "symbol": "OXT"
+  },
+  "cex_small_cap:test-3": {
+    "last_alert_ts": 1791136770.899112,
+    "last_score": 70.2,
+    "symbol": "TST"
+  },
+  "cex_small_cap:taonado": {
+    "last_alert_ts": 1791136770.899112,
+    "last_score": 57.5,
+    "symbol": "SN113"
+  },
+  "dex_micro_cap:2AVjqmGbMqg7rSyHVv2deVdggsBgBtu1Bi69BUvE5WRv": {
+    "last_alert_ts": 1791136770.899112,
+    "last_score": 55.7,
+    "symbol": "SPEC"
   }
 }

@@ -130,12 +130,55 @@
       "reserved_eur": 0.0
     }
   ],
-  "last_run_ts": 1791136520.5035875,
-  "last_eur_rate": 0.8880210010979864,
+  "last_run_ts": 1791136772.761907,
+  "last_eur_rate": 0.8880210087732926,
   "review_cycle": {
-    "number": 1,
-    "start_ts": 1789402186.9931946,
-    "start_trade_index": 0,
-    "start_total_eur": 100.0
-  }
+    "number": 2,
+    "start_ts": 1791136772.761907,
+    "start_trade_index": 3,
+    "start_total_eur": 110.13209977784888
+  },
+  "review_history": [
+    {
+      "number": 1,
+      "start_ts": 1789402186.9931946,
+      "end_ts": 1791136772.761907,
+      "days": 20.07622417491343,
+      "trigger": "days",
+      "num_trades": 3,
+      "win_rate_pct": 33.33333333333333,
+      "avg_pnl_pct": 3.823652776079944,
+      "realized_pnl_eur": 3.778488160380487,
+      "start_total_eur": 100.0,
+      "end_total_eur": 110.13209977784888,
+      "open_positions_carried": [
+        "MSFTC",
+        "QQQB",
+        "SPCX"
+      ],
+      "trades": [
+        {
+          "symbol": "BNC4",
+          "pnl_pct": 19.05398715157488,
+          "exit_reason": "trailing stop hit — dropped 12.7% from peak",
+          "entry_ts": 1789431253.6260228,
+          "exit_ts": 1790057535.2462559
+        },
+        {
+          "symbol": "SPCXC",
+          "pnl_pct": -3.5579011244956043,
+          "exit_reason": "trailing stop hit — dropped 10.0% from peak",
+          "entry_ts": 1789636198.3232305,
+          "exit_ts": 1790346638.111268
+        },
+        {
+          "symbol": "VTHO",
+          "pnl_pct": -4.025127698839444,
+          "exit_reason": "trailing stop hit — dropped 10.1% from peak",
+          "entry_ts": 1790365765.5363104,
+          "exit_ts": 1790546717.8545454
+        }
+      ]
+    }
+  ]
 }
