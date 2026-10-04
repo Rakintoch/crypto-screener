@@ -15,8 +15,8 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.04396372962875964,
-      "last_score": 56.5,
+      "last_price_eur": 0.04455899241453635,
+      "last_score": 58.1,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
       "entry_venue": "Aerodrome (Base) (on-chain)",
@@ -37,9 +37,9 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 33769686,
+      "last_market_cap": 34034685,
       "trailing_active": true,
-      "trailing_peak_eur": 0.04398765532733761
+      "trailing_peak_eur": 0.04455899241453635
     },
     "cex_small_cap:dolphin-2": {
       "tier": "cex_small_cap",
@@ -51,8 +51,8 @@
       "entry_price_eur": 0.7795024057637173,
       "entry_ts": 1791073323.5601854,
       "cost_eur": 24.91508565122955,
-      "last_price_eur": 0.7508504648436883,
-      "last_score": 68.2,
+      "last_price_eur": 0.7544353494757586,
+      "last_score": 68.7,
       "missed_updates": 0,
       "entry_market_cap": 73056727,
       "entry_venue": "Upbit",
@@ -87,7 +87,7 @@
           "source": "CryptoRank"
         }
       ],
-      "last_market_cap": 70599341
+      "last_market_cap": 70944913
     },
     "cex_small_cap:infinity-ground": {
       "tier": "cex_small_cap",
@@ -99,8 +99,8 @@
       "entry_price_eur": 0.04887312350674909,
       "entry_ts": 1791111770.0645268,
       "cost_eur": 11.81126741861485,
-      "last_price_eur": 0.04728117513184876,
-      "last_score": 60.8,
+      "last_price_eur": 0.04727482361465698,
+      "last_score": 65.9,
       "missed_updates": 0,
       "entry_market_cap": 10198247,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -121,7 +121,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9858974
+      "last_market_cap": 9861844
     },
     "cex_small_cap:gitcoin": {
       "tier": "cex_small_cap",
@@ -133,7 +133,7 @@
       "entry_price_eur": 0.13309570077393232,
       "entry_ts": 1791136771.492834,
       "cost_eur": 24.978625829734842,
-      "last_price_eur": 0.13813599909458185,
+      "last_price_eur": 0.13825783313969217,
       "last_score": 70.8,
       "missed_updates": 0,
       "entry_market_cap": 13081923,
@@ -155,7 +155,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 13626337
+      "last_market_cap": 13607402
     }
   },
   "closed_trades": [
@@ -1904,8 +1904,8 @@
       "pnl_pct": -10.45022858912817
     }
   ],
-  "last_run_ts": 1791147647.4852264,
-  "last_eur_rate": 0.8882430045434673,
+  "last_run_ts": 1791147919.457796,
+  "last_eur_rate": 0.8881069980773793,
   "last_rotation_ts": 1791121206.7815578,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
