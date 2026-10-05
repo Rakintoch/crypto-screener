@@ -95,8 +95,8 @@
     "symbol": "DIMO"
   },
   "cex_small_cap:gitcoin": {
-    "last_alert_ts": 1791176576.502748,
-    "last_score": 70.4,
+    "last_alert_ts": 1791188032.666274,
+    "last_score": 99.6,
     "symbol": "GTC"
   },
   "cex_small_cap:brew": {
@@ -118,11 +118,6 @@
     "last_alert_ts": 1791162206.1399252,
     "last_score": 56.3,
     "symbol": "COHRON"
-  },
-  "cex_small_cap:huma-finance": {
-    "last_alert_ts": 1790924591.491067,
-    "last_score": 61.5,
-    "symbol": "HUMA"
   },
   "cex_small_cap:edel": {
     "last_alert_ts": 1791082977.8902702,
@@ -199,11 +194,6 @@
     "last_score": 58.4,
     "symbol": "Jane"
   },
-  "cex_small_cap:fight-2": {
-    "last_alert_ts": 1790924591.491067,
-    "last_score": 56.6,
-    "symbol": "FIGHT"
-  },
   "cex_small_cap:super-cat": {
     "last_alert_ts": 1790953343.3173113,
     "last_score": 76.1,
@@ -228,11 +218,6 @@
     "last_alert_ts": 1790988947.548618,
     "last_score": 61.5,
     "symbol": "BDAG"
-  },
-  "cex_small_cap:commander-vrax-3": {
-    "last_alert_ts": 1790924591.491067,
-    "last_score": 83.9,
-    "symbol": "VRAX"
   },
   "cex_small_cap:parasite": {
     "last_alert_ts": 1790953343.3173113,
@@ -273,16 +258,6 @@
     "last_alert_ts": 1791183772.3689198,
     "last_score": 91.0,
     "symbol": "MUBARAK"
-  },
-  "cex_small_cap:dexe": {
-    "last_alert_ts": 1790924591.491067,
-    "last_score": 67.4,
-    "symbol": "DEXE"
-  },
-  "cex_small_cap:robincat": {
-    "last_alert_ts": 1790924591.491067,
-    "last_score": 64.4,
-    "symbol": "ROBINCAT"
   },
   "cex_small_cap:dolphin-2": {
     "last_alert_ts": 1791119020.5660985,
@@ -1003,5 +978,25 @@
     "last_alert_ts": 1791183772.3689198,
     "last_score": 81.8,
     "symbol": "BOB"
+  },
+  "cex_small_cap:nearly": {
+    "last_alert_ts": 1791188032.666274,
+    "last_score": 67.7,
+    "symbol": "NEARLY"
+  },
+  "cex_small_cap:evaa-protocol": {
+    "last_alert_ts": 1791188032.666274,
+    "last_score": 60.5,
+    "symbol": "EVAA"
+  },
+  "cex_small_cap:altseason": {
+    "last_alert_ts": 1791188032.666274,
+    "last_score": 58.9,
+    "symbol": "ALTSZN"
+  },
+  "cex_small_cap:bone-shibaswap": {
+    "last_alert_ts": 1791188032.666274,
+    "last_score": 56.5,
+    "symbol": "BONE"
   }
 }
