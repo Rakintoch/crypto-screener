@@ -4,25 +4,15 @@
     "last_score": 59.1,
     "symbol": "HIPPO"
   },
-  "cex_small_cap:astronaut-2": {
-    "last_alert_ts": 1790960611.8507483,
-    "last_score": 100.0,
-    "symbol": "ASTRO"
-  },
   "cex_small_cap:moonriver": {
-    "last_alert_ts": 1791183772.3689198,
-    "last_score": 74.3,
+    "last_alert_ts": 1791227006.69275,
+    "last_score": 62.1,
     "symbol": "MOVR"
   },
   "cex_small_cap:moonbeam": {
     "last_alert_ts": 1791212605.0182083,
     "last_score": 61.7,
     "symbol": "GLMR"
-  },
-  "cex_small_cap:bundle-cat": {
-    "last_alert_ts": 1790960611.8507483,
-    "last_score": 74.7,
-    "symbol": "BUN"
   },
   "cex_small_cap:interfold": {
     "last_alert_ts": 1791054198.0258756,
@@ -94,11 +84,6 @@
     "last_score": 55.4,
     "symbol": "BREW"
   },
-  "cex_small_cap:spark-2": {
-    "last_alert_ts": 1790960611.8507483,
-    "last_score": 70.2,
-    "symbol": "SPK"
-  },
   "cex_small_cap:zip-coin": {
     "last_alert_ts": 1791212605.0182083,
     "last_score": 75.2,
@@ -128,11 +113,6 @@
     "last_alert_ts": 1790989376.3162067,
     "last_score": 58.3,
     "symbol": "MOVE"
-  },
-  "cex_small_cap:icon": {
-    "last_alert_ts": 1790960611.8507483,
-    "last_score": 67.0,
-    "symbol": "ICX"
   },
   "cex_small_cap:nomina": {
     "last_alert_ts": 1791111769.5356543,
@@ -169,11 +149,6 @@
     "last_score": 71.3,
     "symbol": "SURPLUS"
   },
-  "cex_small_cap:perpspad": {
-    "last_alert_ts": 1790960611.8507483,
-    "last_score": 66.7,
-    "symbol": "PERPSPAD"
-  },
   "cex_small_cap:priors-agent": {
     "last_alert_ts": 1791212605.0182083,
     "last_score": 55.5,
@@ -188,11 +163,6 @@
     "last_alert_ts": 1791039813.717164,
     "last_score": 63.0,
     "symbol": "WIN"
-  },
-  "cex_small_cap:coti": {
-    "last_alert_ts": 1790961773.418902,
-    "last_score": 55.0,
-    "symbol": "COTI"
   },
   "cex_small_cap:resolv": {
     "last_alert_ts": 1790975017.8631988,
@@ -289,11 +259,6 @@
     "last_score": 98.1,
     "symbol": "STOCKER"
   },
-  "cex_small_cap:arthur": {
-    "last_alert_ts": 1790960611.8507483,
-    "last_score": 82.6,
-    "symbol": "ARTHUR"
-  },
   "cex_small_cap:magma-finance": {
     "last_alert_ts": 1791011020.6692178,
     "last_score": 79.0,
@@ -315,8 +280,8 @@
     "symbol": "CATGPT"
   },
   "cex_small_cap:velvet": {
-    "last_alert_ts": 1791039813.717164,
-    "last_score": 74.6,
+    "last_alert_ts": 1791227006.69275,
+    "last_score": 60.0,
     "symbol": "VELVET"
   },
   "cex_small_cap:spacex-robinhood-tokenized-stock": {
@@ -345,8 +310,8 @@
     "symbol": "NMR"
   },
   "cex_small_cap:b-money-2": {
-    "last_alert_ts": 1791183772.3689198,
-    "last_score": 66.6,
+    "last_alert_ts": 1791227006.69275,
+    "last_score": 80.6,
     "symbol": "B-MONEY"
   },
   "cex_small_cap:spacex-coinbase-tokenized-stock": {
@@ -710,8 +675,8 @@
     "symbol": "BVeil"
   },
   "cex_small_cap:yolo-2": {
-    "last_alert_ts": 1791205409.76069,
-    "last_score": 55.8,
+    "last_alert_ts": 1791227006.69275,
+    "last_score": 82.1,
     "symbol": "YOLO"
   },
   "cex_small_cap:blast": {
@@ -900,8 +865,38 @@
     "symbol": "GHX"
   },
   "dex_micro_cap:0x4f81f6ae802dec6c8e1846ad853019a5458186d1": {
-    "last_alert_ts": 1791219792.4782584,
-    "last_score": 57.0,
+    "last_alert_ts": 1791227006.69275,
+    "last_score": 72.2,
     "symbol": "SM"
+  },
+  "dex_micro_cap:6HFJ5sxVoEtczr9siAUeGssmpfhQSS3pEoBcCycUpump": {
+    "last_alert_ts": 1791227006.69275,
+    "last_score": 66.9,
+    "symbol": "XEET"
+  },
+  "dex_micro_cap:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": {
+    "last_alert_ts": 1791227006.69275,
+    "last_score": 66.8,
+    "symbol": "BACKERS"
+  },
+  "cex_small_cap:api3": {
+    "last_alert_ts": 1791227006.69275,
+    "last_score": 65.8,
+    "symbol": "API3"
+  },
+  "cex_small_cap:griffain": {
+    "last_alert_ts": 1791227006.69275,
+    "last_score": 60.6,
+    "symbol": "GRIFFAIN"
+  },
+  "cex_small_cap:coin98": {
+    "last_alert_ts": 1791227006.69275,
+    "last_score": 59.5,
+    "symbol": "C98"
+  },
+  "cex_small_cap:cyberconnect": {
+    "last_alert_ts": 1791227006.69275,
+    "last_score": 57.4,
+    "symbol": "CYBER"
   }
 }
