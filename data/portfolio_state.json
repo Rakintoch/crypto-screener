@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 105.81083374431418,
+  "cash_eur": 79.27161370868647,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:edel": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.04481789763869698,
-      "last_score": 47.3,
+      "last_price_eur": 0.04471123763144751,
+      "last_score": 47.2,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
       "entry_venue": "Aerodrome (Base) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 34310786,
+      "last_market_cap": 34232457,
       "trailing_active": true,
       "trailing_peak_eur": 0.04481789763869698
     },
@@ -51,8 +51,8 @@
       "entry_price_eur": 0.09197550397081773,
       "entry_ts": 1791169371.2890131,
       "cost_eur": 27.30048472501299,
-      "last_price_eur": 0.09663580515530425,
-      "last_score": 64.2,
+      "last_price_eur": 0.09733398810572748,
+      "last_score": 64.4,
       "missed_updates": 0,
       "entry_market_cap": 52122898,
       "entry_venue": "Binance",
@@ -86,7 +86,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 55013062
+      "last_market_cap": 55415456
     },
     "cex_small_cap:mubarak": {
       "tier": "cex_small_cap",
@@ -98,8 +98,8 @@
       "entry_price_eur": 0.06898500501259994,
       "entry_ts": 1791183773.0260868,
       "cost_eur": 26.72438444392022,
-      "last_price_eur": 0.06769321654290497,
-      "last_score": 51.9,
+      "last_price_eur": 0.06718589025360856,
+      "last_score": 55.2,
       "missed_updates": 0,
       "entry_market_cap": 77193926,
       "entry_venue": "Binance",
@@ -120,7 +120,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 75912977
+      "last_market_cap": 75351242
+    },
+    "cex_small_cap:iexec-rlc": {
+      "tier": "cex_small_cap",
+      "id": "iexec-rlc",
+      "symbol": "RLC",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/iexec-rlc",
+      "qty": 42.4216186251657,
+      "entry_price_eur": 0.6256060210744503,
+      "entry_ts": 1791227203.3232133,
+      "cost_eur": 26.539220035627704,
+      "last_price_eur": 0.6256060210744503,
+      "last_score": 98.6,
+      "missed_updates": 0,
+      "entry_market_cap": 61042187,
+      "entry_venue": "Binance",
+      "entry_contract_address": "0x607f4c5bb672230e8672085532f7e901544a7375 (ETH)",
+      "entry_score": 98.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 115622338,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 6.5866,
+      "entry_chg_24h": 93.48377,
+      "entry_chg_7d": 102.4559,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.894138196588533,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2101,8 +2134,8 @@
       "pnl_pct": -8.254705909468116
     }
   ],
-  "last_run_ts": 1791226851.480831,
-  "last_eur_rate": 0.8917210035554513,
+  "last_run_ts": 1791227203.3232133,
+  "last_eur_rate": 0.8916389995303123,
   "last_rotation_ts": 1791121206.7815578,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
