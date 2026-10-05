@@ -150,6 +150,6 @@
     "mudanca": "screener/pump_watch.py, _maybe_close_review_cycle(): the summary's \"trades\" list now stores the full trade dict (dict(t) for t in trades) instead of a 5-field subset. No trading/entry/exit logic changed in either system -- this only stops discarding data that was already being computed and stored elsewhere. Added tests/test_pump_watch_offline.py scenario _scenario_review_cycle_keeps_full_trade_signals(), which fails against the old trimmed version and passes against the fix; full existing test_pump_watch_offline suite (18 scenarios total) re-run and passes, zero regressions.",
     "efeito_esperado": "Every future Pump Watch review cycle summary will retain the entry signals needed to correlate them with pnl_pct/exit_reason, enabling the threshold validation config.py already asks for once enough review cycles accumulate (this first cycle, n=3, is still too small on its own). No change expected to Pump Watch's trading behavior, balance, or open positions. On the Challenge side, no action was taken this review -- cycle #3 should keep being monitored for whether cex_small_cap's low win rate persists at the same asymmetric-payoff profile (small average loss, rare large win) or starts deteriorating in a way that would justify a tier-level change.",
     "num_trades_fechados_ate_aqui": 122,
-    "announced": false
+    "announced": true
   }
 ]
