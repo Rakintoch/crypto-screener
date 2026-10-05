@@ -70,8 +70,8 @@
     "symbol": "HOOKR"
   },
   "cex_small_cap:stargate-finance": {
-    "last_alert_ts": 1791082977.8902702,
-    "last_score": 64.6,
+    "last_alert_ts": 1791219792.4782584,
+    "last_score": 60.1,
     "symbol": "STG"
   },
   "cex_small_cap:my-neighbor-alice": {
@@ -80,8 +80,8 @@
     "symbol": "ALICE"
   },
   "cex_small_cap:dimo": {
-    "last_alert_ts": 1791205409.76069,
-    "last_score": 55.4,
+    "last_alert_ts": 1791219792.4782584,
+    "last_score": 75.0,
     "symbol": "DIMO"
   },
   "cex_small_cap:gitcoin": {
@@ -140,8 +140,8 @@
     "symbol": "NOM"
   },
   "cex_small_cap:hooked": {
-    "last_alert_ts": 1791147647.0844827,
-    "last_score": 69.2,
+    "last_alert_ts": 1791219792.4782584,
+    "last_score": 56.0,
     "symbol": "HOOKED"
   },
   "cex_small_cap:robin-the-frog": {
@@ -460,8 +460,8 @@
     "symbol": "SOCKET"
   },
   "dex_micro_cap:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
-    "last_alert_ts": 1791133375.4234064,
-    "last_score": 58.6,
+    "last_alert_ts": 1791219792.4782584,
+    "last_score": 75.5,
     "symbol": "JEANPHIL"
   },
   "cex_small_cap:agency": {
@@ -475,8 +475,8 @@
     "symbol": "HFT"
   },
   "cex_small_cap:collect-on-fanable": {
-    "last_alert_ts": 1791159978.1917856,
-    "last_score": 56.4,
+    "last_alert_ts": 1791219792.4782584,
+    "last_score": 57.5,
     "symbol": "COLLECT"
   },
   "cex_small_cap:what-the-hook": {
@@ -740,13 +740,13 @@
     "symbol": "B3"
   },
   "cex_small_cap:carv": {
-    "last_alert_ts": 1791176576.502748,
-    "last_score": 84.3,
+    "last_alert_ts": 1791219792.4782584,
+    "last_score": 66.5,
     "symbol": "CARV"
   },
   "cex_small_cap:nillion": {
-    "last_alert_ts": 1791205409.76069,
-    "last_score": 58.5,
+    "last_alert_ts": 1791219792.4782584,
+    "last_score": 83.6,
     "symbol": "NIL"
   },
   "cex_small_cap:zkpass": {
@@ -765,8 +765,8 @@
     "symbol": "BEAM"
   },
   "dex_micro_cap:BbJJUTuGV2B7tJ99YeryiCBFLG39Hoc4RTzEwchtpump": {
-    "last_alert_ts": 1791176576.502748,
-    "last_score": 60.7,
+    "last_alert_ts": 1791219792.4782584,
+    "last_score": 55.2,
     "symbol": "EGO"
   },
   "cex_small_cap:argentine-football-association-fan-token": {
@@ -850,8 +850,8 @@
     "symbol": "OGN"
   },
   "cex_small_cap:radicle": {
-    "last_alert_ts": 1791205409.76069,
-    "last_score": 58.1,
+    "last_alert_ts": 1791219792.4782584,
+    "last_score": 92.8,
     "symbol": "RAD"
   },
   "dex_micro_cap:3Dgwn5E7H5a8k6iGrz3qirkaJqUaJrKHEZ2xPcLRpump": {
@@ -883,5 +883,25 @@
     "last_alert_ts": 1791212605.0182083,
     "last_score": 56.7,
     "symbol": "SPCXB"
+  },
+  "cex_small_cap:hood-inu": {
+    "last_alert_ts": 1791219792.4782584,
+    "last_score": 84.4,
+    "symbol": "HI"
+  },
+  "cex_small_cap:octo-protocol": {
+    "last_alert_ts": 1791219792.4782584,
+    "last_score": 73.8,
+    "symbol": "OCTO"
+  },
+  "cex_small_cap:gamercoin": {
+    "last_alert_ts": 1791219792.4782584,
+    "last_score": 70.4,
+    "symbol": "GHX"
+  },
+  "dex_micro_cap:0x4f81f6ae802dec6c8e1846ad853019a5458186d1": {
+    "last_alert_ts": 1791219792.4782584,
+    "last_score": 57.0,
+    "symbol": "SM"
   }
 }
