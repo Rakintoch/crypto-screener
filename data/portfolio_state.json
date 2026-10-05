@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 127.46817942197455,
+  "cash_eur": 100.16769469696156,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:edel": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.04449211724559849,
-      "last_score": 44.3,
+      "last_price_eur": 0.04450607660390436,
+      "last_score": 42.0,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
       "entry_venue": "Aerodrome (Base) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 33975424,
+      "last_market_cap": 33923911,
       "trailing_active": true,
       "trailing_peak_eur": 0.044691136949685226
     },
@@ -51,8 +51,8 @@
       "entry_price_eur": 0.7795024057637173,
       "entry_ts": 1791073323.5601854,
       "cost_eur": 24.91508565122955,
-      "last_price_eur": 0.747864305383183,
-      "last_score": 48.8,
+      "last_price_eur": 0.7540516050841191,
+      "last_score": 47.6,
       "missed_updates": 0,
       "entry_market_cap": 73056727,
       "entry_venue": "Upbit",
@@ -87,7 +87,7 @@
           "source": "CryptoRank"
         }
       ],
-      "last_market_cap": 69872670
+      "last_market_cap": 70348432
     },
     "cex_small_cap:infinity-ground": {
       "tier": "cex_small_cap",
@@ -99,8 +99,8 @@
       "entry_price_eur": 0.04887312350674909,
       "entry_ts": 1791111770.0645268,
       "cost_eur": 11.81126741861485,
-      "last_price_eur": 0.058484345065106046,
-      "last_score": 92.4,
+      "last_price_eur": 0.0592079326542658,
+      "last_score": 99.4,
       "missed_updates": 0,
       "entry_market_cap": 10198247,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -121,9 +121,55 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12124864,
+      "last_market_cap": 12255738,
       "trailing_active": true,
-      "trailing_peak_eur": 0.05910667657091467
+      "trailing_peak_eur": 0.0592079326542658
+    },
+    "cex_small_cap:nillion": {
+      "tier": "cex_small_cap",
+      "id": "nillion",
+      "symbol": "NIL",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/nillion",
+      "qty": 296.82343174411926,
+      "entry_price_eur": 0.09197550397081773,
+      "entry_ts": 1791169371.2890131,
+      "cost_eur": 27.30048472501299,
+      "last_price_eur": 0.09197550397081773,
+      "last_score": 78.3,
+      "missed_updates": 0,
+      "entry_market_cap": 52122898,
+      "entry_venue": "Binance",
+      "entry_contract_address": "0x7cf9a80db3b29ee8efe3710aadb7b95270572d47 (ETH)",
+      "entry_score": 78.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 29451718,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 5.5274,
+      "entry_chg_24h": 24.90918,
+      "entry_chg_7d": 4.7888,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.5650437548579896,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Ethereum: Blacklight L1 mainnet launches with NIL node staking and inflation rewards - 05 Oct 2026 - TradingView",
+          "ts": 1790406000.0,
+          "source": "TradingView"
+        },
+        {
+          "title": "Nillion: Encrypted Covenants Go Live on Ethereum Mainnet - 28 Sep 2026 - TradingView",
+          "ts": 1789974000.0,
+          "source": "TradingView"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -1914,8 +1960,8 @@
       "pnl_pct": 47.80529630964046
     }
   ],
-  "last_run_ts": 1791168915.9737751,
-  "last_eur_rate": 0.8938870048314311,
+  "last_run_ts": 1791169371.2890131,
+  "last_eur_rate": 0.8951909987037465,
   "last_rotation_ts": 1791121206.7815578,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
