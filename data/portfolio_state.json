@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 136.93801396597684,
+  "cash_eur": 82.85570240161928,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:edel": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.04415014392697163,
-      "last_score": 42.4,
+      "last_price_eur": 0.0441428937986965,
+      "last_score": 39.5,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
       "entry_venue": "Aerodrome (Base) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 33697153,
+      "last_market_cap": 33601978,
       "trailing_active": true,
       "trailing_peak_eur": 0.044691136949685226
     },
@@ -51,8 +51,8 @@
       "entry_price_eur": 0.09197550397081773,
       "entry_ts": 1791169371.2890131,
       "cost_eur": 27.30048472501299,
-      "last_price_eur": 0.09174165786226586,
-      "last_score": 58.9,
+      "last_price_eur": 0.09212007003749145,
+      "last_score": 80.3,
       "missed_updates": 0,
       "entry_market_cap": 52122898,
       "entry_venue": "Binance",
@@ -86,7 +86,87 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 52063731
+      "last_market_cap": 52542153
+    },
+    "cex_small_cap:baton-3": {
+      "tier": "cex_small_cap",
+      "id": "baton-3",
+      "symbol": "BATON",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/baton-3",
+      "qty": 2998.9100333555716,
+      "entry_price_eur": 0.009016994668533488,
+      "entry_ts": 1791176576.875034,
+      "cost_eur": 27.041155782178773,
+      "last_price_eur": 0.009016994668533488,
+      "last_score": 98.5,
+      "missed_updates": 0,
+      "entry_market_cap": 10067169,
+      "entry_venue": "PumpSwap",
+      "entry_contract_address": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump (Solana)",
+      "entry_score": 98.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 11004488,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 11.5556,
+      "entry_chg_24h": 205.88739,
+      "entry_chg_7d": 305.3219,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.0931065128637456,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
+    },
+    "cex_small_cap:carv": {
+      "tier": "cex_small_cap",
+      "id": "carv",
+      "symbol": "CARV",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/carv",
+      "qty": 559.1283154265468,
+      "entry_price_eur": 0.04836305913348292,
+      "entry_ts": 1791176576.875034,
+      "cost_eur": 27.041155782178773,
+      "last_price_eur": 0.04836305913348292,
+      "last_score": 84.3,
+      "missed_updates": 0,
+      "entry_market_cap": 35837998,
+      "entry_venue": "Upbit",
+      "entry_contract_address": null,
+      "entry_score": 84.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 35277322,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.474,
+      "entry_chg_24h": 21.62532,
+      "entry_chg_7d": 23.4771,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.9843552644877094,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "restructuring",
+        "unlock"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "CARV unlock October 10: 38.8 million tokens free - CryptoTicker",
+          "ts": 1791106472.0,
+          "source": "CryptoTicker"
+        },
+        {
+          "title": "CARV Expands Identity Framework Using ERC‑8004 To Bridge Verified History And Reputation - Crypto Economy",
+          "ts": 1788973758.0,
+          "source": "Crypto Economy"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -1973,8 +2053,8 @@
       "pnl_pct": 17.314353547512756
     }
   ],
-  "last_run_ts": 1791176116.8737805,
-  "last_eur_rate": 0.8945780022258331,
+  "last_run_ts": 1791176576.875034,
+  "last_eur_rate": 0.894551996402096,
   "last_rotation_ts": 1791121206.7815578,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
