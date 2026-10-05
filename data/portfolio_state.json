@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 107.72623029039562,
+  "cash_eur": 81.0018458464754,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:edel": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.04383585371071629,
-      "last_score": 40.4,
+      "last_price_eur": 0.04396788362147457,
+      "last_score": 42.4,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
       "entry_venue": "Aerodrome (Base) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 33463285,
+      "last_market_cap": 33492245,
       "trailing_active": true,
       "trailing_peak_eur": 0.044691136949685226
     },
@@ -51,8 +51,8 @@
       "entry_price_eur": 0.09197550397081773,
       "entry_ts": 1791169371.2890131,
       "cost_eur": 27.30048472501299,
-      "last_price_eur": 0.0970187449656679,
-      "last_score": 78.2,
+      "last_price_eur": 0.0943845900943744,
+      "last_score": 70.0,
       "missed_updates": 0,
       "entry_market_cap": 52122898,
       "entry_venue": "Binance",
@@ -86,7 +86,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 54891149
+      "last_market_cap": 53697713
     },
     "cex_small_cap:carv": {
       "tier": "cex_small_cap",
@@ -98,8 +98,8 @@
       "entry_price_eur": 0.04836305913348292,
       "entry_ts": 1791176576.875034,
       "cost_eur": 27.041155782178773,
-      "last_price_eur": 0.04750320249933836,
-      "last_score": 63.8,
+      "last_price_eur": 0.04737949691436862,
+      "last_score": 74.9,
       "missed_updates": 0,
       "entry_market_cap": 35837998,
       "entry_venue": "Upbit",
@@ -134,7 +134,40 @@
           "source": "Crypto Economy"
         }
       ],
-      "last_market_cap": 35210439
+      "last_market_cap": 35220460
+    },
+    "cex_small_cap:mubarak": {
+      "tier": "cex_small_cap",
+      "id": "mubarak",
+      "symbol": "MUBARAK",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/mubarak",
+      "qty": 387.3941074446407,
+      "entry_price_eur": 0.06898500501259994,
+      "entry_ts": 1791183773.0260868,
+      "cost_eur": 26.72438444392022,
+      "last_price_eur": 0.06898500501259994,
+      "last_score": 91.0,
+      "missed_updates": 0,
+      "entry_market_cap": 77193926,
+      "entry_venue": "Binance",
+      "entry_contract_address": "0x5c85d6c6825ab4032337f11ee92a72df936b46f6 (BSC)",
+      "entry_score": 91.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 79100618,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 6.4141,
+      "entry_chg_24h": 17.22755,
+      "entry_chg_7d": 44.1494,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.024700026268906,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2061,8 +2094,8 @@
       "pnl_pct": -8.027126913092086
     }
   ],
-  "last_run_ts": 1791183354.1902893,
-  "last_eur_rate": 0.8939759959978614,
+  "last_run_ts": 1791183773.0260868,
+  "last_eur_rate": 0.8935649984793131,
   "last_rotation_ts": 1791121206.7815578,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
