@@ -333,11 +333,8 @@ def _maybe_close_review_cycle(state, now):
         "start_total_eur": rc["start_total_eur"],
         "end_total_eur": total,
         "open_positions_carried": [p["symbol"] for p in state["positions"].values()],
-        "trades": [
-            {"symbol": t.get("symbol"), "pnl_pct": t.get("pnl_pct"), "exit_reason": t.get("exit_reason"),
-             "entry_ts": t.get("entry_ts"), "exit_ts": t.get("exit_ts")}
-            for t in trades
-        ],
+        # Autoanálise 2026-10-05: guarda o trade completo no resumo do ciclo (antes só 5 campos) — ver changelog.json para o raciocínio
+        "trades": [dict(t) for t in trades],
     }
     state.setdefault("review_history", []).append(summary)
     state["review_cycle"] = {
