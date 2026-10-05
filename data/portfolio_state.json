@@ -15,8 +15,8 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.04423585347706865,
-      "last_score": 41.1,
+      "last_price_eur": 0.04421948121655647,
+      "last_score": 41.4,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
       "entry_venue": "Aerodrome (Base) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 33707013,
+      "last_market_cap": 33692111,
       "trailing_active": true,
       "trailing_peak_eur": 0.044691136949685226
     },
@@ -51,8 +51,8 @@
       "entry_price_eur": 0.09197550397081773,
       "entry_ts": 1791169371.2890131,
       "cost_eur": 27.30048472501299,
-      "last_price_eur": 0.09204542046132749,
-      "last_score": 59.0,
+      "last_price_eur": 0.0921895734768801,
+      "last_score": 59.1,
       "missed_updates": 0,
       "entry_market_cap": 52122898,
       "entry_venue": "Binance",
@@ -86,7 +86,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 52132174
+      "last_market_cap": 52257759
     }
   },
   "closed_trades": [
@@ -1973,8 +1973,8 @@
       "pnl_pct": 17.314353547512756
     }
   ],
-  "last_run_ts": 1791174318.2501323,
-  "last_eur_rate": 0.8954879991956988,
+  "last_run_ts": 1791174633.7693925,
+  "last_eur_rate": 0.8955399927812487,
   "last_rotation_ts": 1791121206.7815578,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
