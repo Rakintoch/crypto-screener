@@ -5401,5 +5401,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "POD (cex_small_cap) lost -8.0% in 1638 min (slow (>6h)) — stop-loss hit. Entry score: 89 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791182419.7563558,
+    "symbol": "BATON",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/baton-3",
+    "held_minutes": 97.4,
+    "exit_reason": "stop-loss hit (-8.0%)",
+    "pnl_pct": -8.03,
+    "pnl_eur": -2.17,
+    "entry_score": 98.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 11004488,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 11.5556,
+    "entry_chg_24h": 205.88739,
+    "entry_chg_7d": 305.3219,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.0931065128637456,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "BATON (cex_small_cap) lost -8.0% in 97 min (fast (1-6h)) — stop-loss hit. Entry score: 98 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
