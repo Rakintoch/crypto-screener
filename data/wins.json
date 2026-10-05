@@ -1321,5 +1321,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "CARNAGE (dex_micro_cap) gained +32.2% in 292 min — trailing stop caught extra upside after the target. Entry liquidity: $29,435. Entry score: 79. Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1791167116.4654887,
+    "symbol": "GTC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/gitcoin",
+    "held_minutes": 505.7,
+    "exit_reason": "trailing stop hit — dropped 7.3% from the peak (peak +59.5% since entry)",
+    "pnl_pct": 47.81,
+    "pnl_eur": 11.94,
+    "entry_score": 98.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 24964766,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 16.5456,
+    "entry_chg_24h": 30.29635,
+    "entry_chg_7d": 57.0254,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.9083406927253739,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "GTC (cex_small_cap) gained +47.8% in 506 min — trailing stop caught extra upside after the target. Entry score: 99. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
