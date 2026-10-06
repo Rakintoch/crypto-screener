@@ -35,8 +35,8 @@
     "symbol": "AUDIO"
   },
   "cex_small_cap:magic": {
-    "last_alert_ts": 1791126166.3242366,
-    "last_score": 79.1,
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 74.7,
     "symbol": "MAGIC"
   },
   "cex_small_cap:cap-4": {
@@ -75,8 +75,8 @@
     "symbol": "GTC"
   },
   "cex_small_cap:brew": {
-    "last_alert_ts": 1791212605.0182083,
-    "last_score": 55.4,
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 63.7,
     "symbol": "BREW"
   },
   "cex_small_cap:zip-coin": {
@@ -170,8 +170,8 @@
     "symbol": "ACT"
   },
   "cex_small_cap:pop-2": {
-    "last_alert_ts": 1791241378.8188179,
-    "last_score": 72.8,
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 55.6,
     "symbol": "POP"
   },
   "cex_small_cap:baton-3": {
@@ -270,8 +270,8 @@
     "symbol": "QI"
   },
   "cex_small_cap:infinity-ground": {
-    "last_alert_ts": 1791248609.974262,
-    "last_score": 65.4,
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 58.9,
     "symbol": "AIN"
   },
   "dex_micro_cap:6hTLdzZaaCjmqtn7RtaEMQsCbXT5Pg8q76tRViEGpump": {
@@ -410,8 +410,8 @@
     "symbol": "Aiden"
   },
   "cex_small_cap:netnet": {
-    "last_alert_ts": 1791090144.6128638,
-    "last_score": 66.6,
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 66.5,
     "symbol": "NET"
   },
   "cex_small_cap:zzz-2": {
@@ -615,8 +615,8 @@
     "symbol": "ARG"
   },
   "cex_small_cap:super-inu-force": {
-    "last_alert_ts": 1791241378.8188179,
-    "last_score": 76.8,
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 71.6,
     "symbol": "SIF"
   },
   "cex_small_cap:build-on-bnb": {
@@ -670,8 +670,8 @@
     "symbol": "ELIZAOS"
   },
   "cex_small_cap:binance-cat": {
-    "last_alert_ts": 1791263001.2327242,
-    "last_score": 56.2,
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 71.6,
     "symbol": "BNBCAT"
   },
   "cex_small_cap:uma": {
@@ -680,8 +680,8 @@
     "symbol": "UMA"
   },
   "cex_small_cap:edu-coin": {
-    "last_alert_ts": 1791248609.974262,
-    "last_score": 73.0,
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 75.3,
     "symbol": "EDU"
   },
   "cex_small_cap:origin-protocol": {
@@ -760,8 +760,8 @@
     "symbol": "API3"
   },
   "cex_small_cap:griffain": {
-    "last_alert_ts": 1791277412.2692368,
-    "last_score": 55.8,
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 75.3,
     "symbol": "GRIFFAIN"
   },
   "cex_small_cap:coin98": {
@@ -790,8 +790,8 @@
     "symbol": "DIA"
   },
   "cex_small_cap:endurance": {
-    "last_alert_ts": 1791241378.8188179,
-    "last_score": 56.3,
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 56.1,
     "symbol": "ACE"
   },
   "cex_small_cap:bundle-cat": {
@@ -968,5 +968,40 @@
     "last_alert_ts": 1791291775.1594887,
     "last_score": 56.2,
     "symbol": "SI"
+  },
+  "cex_small_cap:tellor": {
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 69.9,
+    "symbol": "TRB"
+  },
+  "cex_small_cap:zelcash": {
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 65.8,
+    "symbol": "FLUX"
+  },
+  "dex_micro_cap:5VnbrKp28Qs9CAH6PyZdxBNvLxZcbeX3YBsozgWnpump": {
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 64.8,
+    "symbol": "darwin"
+  },
+  "cex_small_cap:burnie-senders": {
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 64.4,
+    "symbol": "BURNIE"
+  },
+  "cex_small_cap:digitalbits": {
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 59.9,
+    "symbol": "XDB"
+  },
+  "cex_small_cap:lumentum-holdings-bstocks-tokenized-stock": {
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 57.7,
+    "symbol": "LITEB"
+  },
+  "cex_small_cap:boundless": {
+    "last_alert_ts": 1791299008.8157883,
+    "last_score": 57.1,
+    "symbol": "ZKC"
   }
 }
