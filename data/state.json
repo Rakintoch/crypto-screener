@@ -124,11 +124,6 @@
     "last_score": 90.8,
     "symbol": "TMX"
   },
-  "cex_small_cap:lumentum-holdings-bstocks-tokenized-stock": {
-    "last_alert_ts": 1791012761.4179137,
-    "last_score": 55.1,
-    "symbol": "LITEB"
-  },
   "cex_small_cap:surplus-intelligence": {
     "last_alert_ts": 1791054198.0258756,
     "last_score": 71.3,
@@ -165,8 +160,8 @@
     "symbol": "MUBARAK"
   },
   "cex_small_cap:dolphin-2": {
-    "last_alert_ts": 1791198201.7301817,
-    "last_score": 66.5,
+    "last_alert_ts": 1791275509.4551365,
+    "last_score": 65.0,
     "symbol": "POD"
   },
   "cex_small_cap:act-i-the-ai-prophecy": {
@@ -214,20 +209,10 @@
     "last_score": 98.1,
     "symbol": "STOCKER"
   },
-  "cex_small_cap:magma-finance": {
-    "last_alert_ts": 1791011020.6692178,
-    "last_score": 79.0,
-    "symbol": "MAGMA"
-  },
   "cex_small_cap:teller": {
     "last_alert_ts": 1791169370.7166812,
     "last_score": 58.8,
     "symbol": "DEBIT"
-  },
-  "cex_small_cap:delysium": {
-    "last_alert_ts": 1791011020.6692178,
-    "last_score": 55.0,
-    "symbol": "AGI"
   },
   "cex_small_cap:velvet": {
     "last_alert_ts": 1791227006.69275,
@@ -345,8 +330,8 @@
     "symbol": "JEANPHIL"
   },
   "cex_small_cap:agency": {
-    "last_alert_ts": 1791176576.502748,
-    "last_score": 56.5,
+    "last_alert_ts": 1791275509.4551365,
+    "last_score": 55.0,
     "symbol": "AGENCY"
   },
   "cex_small_cap:hashflow": {
@@ -605,8 +590,8 @@
     "symbol": "HNT"
   },
   "cex_small_cap:a-meme-coin": {
-    "last_alert_ts": 1791159978.1917856,
-    "last_score": 56.8,
+    "last_alert_ts": 1791275509.4551365,
+    "last_score": 56.6,
     "symbol": "AMC"
   },
   "dex_micro_cap:GYFLuEAZMDdpUsTmyGdHstuXQC3JB9ZqtZbfktpppump": {
@@ -790,8 +775,8 @@
     "symbol": "XEET"
   },
   "dex_micro_cap:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": {
-    "last_alert_ts": 1791227006.69275,
-    "last_score": 66.8,
+    "last_alert_ts": 1791275509.4551365,
+    "last_score": 62.1,
     "symbol": "BACKERS"
   },
   "cex_small_cap:api3": {
@@ -805,8 +790,8 @@
     "symbol": "GRIFFAIN"
   },
   "cex_small_cap:coin98": {
-    "last_alert_ts": 1791227006.69275,
-    "last_score": 59.5,
+    "last_alert_ts": 1791275509.4551365,
+    "last_score": 65.0,
     "symbol": "C98"
   },
   "cex_small_cap:cyberconnect": {
@@ -968,5 +953,20 @@
     "last_alert_ts": 1791270146.876293,
     "last_score": 55.0,
     "symbol": "HIGGS"
+  },
+  "dex_micro_cap:CBcjQNdtgb4SHwKDqKFxD3yPSk7pEMpKHQiMmZrgpump": {
+    "last_alert_ts": 1791275509.4551365,
+    "last_score": 75.2,
+    "symbol": "phubber"
+  },
+  "cex_small_cap:talus": {
+    "last_alert_ts": 1791275509.4551365,
+    "last_score": 63.4,
+    "symbol": "US"
+  },
+  "cex_small_cap:livepeer": {
+    "last_alert_ts": 1791275509.4551365,
+    "last_score": 56.3,
+    "symbol": "LPT"
   }
 }
