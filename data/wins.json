@@ -1373,5 +1373,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "AIN (cex_small_cap) gained +17.3% in 1003 min — trailing stop caught extra upside after the target. Entry score: 89. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791278720.0906746,
+    "symbol": "RLC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/iexec-rlc",
+    "held_minutes": 858.6,
+    "exit_reason": "trailing stop hit — dropped 8.0% from the peak (peak +35.3% since entry)",
+    "pnl_pct": 24.51,
+    "pnl_eur": 6.5,
+    "entry_score": 98.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 115622338,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.5866,
+    "entry_chg_24h": 93.48377,
+    "entry_chg_7d": 102.4559,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.894138196588533,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "RLC (cex_small_cap) gained +24.5% in 859 min — trailing stop caught extra upside after the target. Entry score: 99. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
