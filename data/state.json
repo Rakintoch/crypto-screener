@@ -135,14 +135,9 @@
     "symbol": "PRIORS"
   },
   "cex_small_cap:blockdag": {
-    "last_alert_ts": 1791241378.8188179,
-    "last_score": 59.6,
+    "last_alert_ts": 1791304179.9404242,
+    "last_score": 59.8,
     "symbol": "BDAG"
-  },
-  "cex_small_cap:wink": {
-    "last_alert_ts": 1791039813.717164,
-    "last_score": 63.0,
-    "symbol": "WIN"
   },
   "cex_small_cap:saga-2": {
     "last_alert_ts": 1791263001.2327242,
@@ -175,8 +170,8 @@
     "symbol": "POP"
   },
   "cex_small_cap:baton-3": {
-    "last_alert_ts": 1791277412.2692368,
-    "last_score": 57.5,
+    "last_alert_ts": 1791304179.9404242,
+    "last_score": 88.0,
     "symbol": "BATON"
   },
   "cex_small_cap:sapling": {
@@ -223,11 +218,6 @@
     "last_alert_ts": 1791270146.876293,
     "last_score": 63.0,
     "symbol": "SPCXC"
-  },
-  "dex_micro_cap:XLBLxbY1Mr7aadnqAbmqSBXLEyUdjvUXtXCnz8Mpump": {
-    "last_alert_ts": 1791039813.717164,
-    "last_score": 64.8,
-    "symbol": "SOCKET"
   },
   "cex_small_cap:cat-wif-sword-2": {
     "last_alert_ts": 1791270146.876293,
@@ -410,8 +400,8 @@
     "symbol": "Aiden"
   },
   "cex_small_cap:netnet": {
-    "last_alert_ts": 1791299008.8157883,
-    "last_score": 66.5,
+    "last_alert_ts": 1791304179.9404242,
+    "last_score": 81.6,
     "symbol": "NET"
   },
   "cex_small_cap:zzz-2": {
@@ -780,8 +770,8 @@
     "symbol": "OTC"
   },
   "cex_small_cap:taoillium": {
-    "last_alert_ts": 1791241378.8188179,
-    "last_score": 61.9,
+    "last_alert_ts": 1791304179.9404242,
+    "last_score": 61.5,
     "symbol": "SN109"
   },
   "cex_small_cap:dia-data": {
@@ -810,8 +800,8 @@
     "symbol": "CYBERLEEK"
   },
   "cex_small_cap:marinade": {
-    "last_alert_ts": 1791255811.300217,
-    "last_score": 76.7,
+    "last_alert_ts": 1791304179.9404242,
+    "last_score": 65.6,
     "symbol": "MNDE"
   },
   "cex_small_cap:attention-agents": {
@@ -1003,5 +993,30 @@
     "last_alert_ts": 1791299008.8157883,
     "last_score": 57.1,
     "symbol": "ZKC"
+  },
+  "cex_small_cap:raydium-cat": {
+    "last_alert_ts": 1791304179.9404242,
+    "last_score": 70.7,
+    "symbol": "RAYCAT"
+  },
+  "cex_small_cap:zhong-guo-ren-neng-fei": {
+    "last_alert_ts": 1791304179.9404242,
+    "last_score": 67.6,
+    "symbol": "中国人能飞"
+  },
+  "cex_small_cap:resolv": {
+    "last_alert_ts": 1791304179.9404242,
+    "last_score": 65.7,
+    "symbol": "RESOLV"
+  },
+  "cex_small_cap:synapse-2": {
+    "last_alert_ts": 1791304179.9404242,
+    "last_score": 57.8,
+    "symbol": "SYN"
+  },
+  "dex_micro_cap:8cp1WhUDxTbfX8nDe1kAB1ogPUyQvUSKgzFz365LbQyZ": {
+    "last_alert_ts": 1791304179.9404242,
+    "last_score": 57.7,
+    "symbol": "CAESAR"
   }
 }
