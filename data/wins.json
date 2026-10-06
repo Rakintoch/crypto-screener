@@ -1399,5 +1399,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "RLC (cex_small_cap) gained +24.5% in 859 min — trailing stop caught extra upside after the target. Entry score: 99. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791297038.0822449,
+    "symbol": "EDEL",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/edel",
+    "held_minutes": 5607.1,
+    "exit_reason": "trailing stop hit — dropped 7.3% from the peak (peak +34.3% since entry)",
+    "pnl_pct": 24.43,
+    "pnl_eur": 3.08,
+    "entry_score": 77.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 5464267,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 21.9902,
+    "entry_chg_24h": 21.01461,
+    "entry_chg_7d": 30.5128,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.20429260449800124,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "EDEL (cex_small_cap) gained +24.4% in 5607 min — trailing stop caught extra upside after the target. Entry score: 78. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
