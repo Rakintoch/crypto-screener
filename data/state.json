@@ -5,13 +5,13 @@
     "symbol": "HIPPO"
   },
   "cex_small_cap:moonriver": {
-    "last_alert_ts": 1791241378.8188179,
-    "last_score": 83.0,
+    "last_alert_ts": 1791284582.4963076,
+    "last_score": 58.2,
     "symbol": "MOVR"
   },
   "cex_small_cap:moonbeam": {
-    "last_alert_ts": 1791212605.0182083,
-    "last_score": 61.7,
+    "last_alert_ts": 1791284582.4963076,
+    "last_score": 60.9,
     "symbol": "GLMR"
   },
   "cex_small_cap:interfold": {
@@ -155,8 +155,8 @@
     "symbol": "www"
   },
   "cex_small_cap:mubarak": {
-    "last_alert_ts": 1791241378.8188179,
-    "last_score": 73.9,
+    "last_alert_ts": 1791284582.4963076,
+    "last_score": 67.0,
     "symbol": "MUBARAK"
   },
   "cex_small_cap:dolphin-2": {
@@ -220,8 +220,8 @@
     "symbol": "SPCX"
   },
   "cex_small_cap:b-money-2": {
-    "last_alert_ts": 1791227006.69275,
-    "last_score": 80.6,
+    "last_alert_ts": 1791284582.4963076,
+    "last_score": 74.0,
     "symbol": "B-MONEY"
   },
   "cex_small_cap:spacex-coinbase-tokenized-stock": {
@@ -690,8 +690,8 @@
     "symbol": "BNBCAT"
   },
   "cex_small_cap:uma": {
-    "last_alert_ts": 1791263001.2327242,
-    "last_score": 56.8,
+    "last_alert_ts": 1791284582.4963076,
+    "last_score": 78.7,
     "symbol": "UMA"
   },
   "cex_small_cap:edu-coin": {
@@ -700,8 +700,8 @@
     "symbol": "EDU"
   },
   "cex_small_cap:origin-protocol": {
-    "last_alert_ts": 1791248609.974262,
-    "last_score": 58.6,
+    "last_alert_ts": 1791284582.4963076,
+    "last_score": 84.8,
     "symbol": "OGN"
   },
   "cex_small_cap:radicle": {
@@ -958,5 +958,15 @@
     "last_alert_ts": 1791275509.4551365,
     "last_score": 56.3,
     "symbol": "LPT"
+  },
+  "cex_small_cap:meme-agency": {
+    "last_alert_ts": 1791284582.4963076,
+    "last_score": 82.5,
+    "symbol": "MEMEAGENCY"
+  },
+  "dex_micro_cap:F4K2SbLNgyz9gzNqT8bPeLpRkxy4oMA9twaffUDdZtB6": {
+    "last_alert_ts": 1791284582.4963076,
+    "last_score": 57.1,
+    "symbol": "POD"
   }
 }
