@@ -5617,5 +5617,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "RLC (cex_small_cap) lost -8.2% in 152 min (fast (1-6h)) — stop-loss hit. Entry score: 77 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791316846.6712608,
+    "symbol": "NIL",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/nillion",
+    "held_minutes": 2457.9,
+    "exit_reason": "momentum thesis invalidated (score dropped to 28)",
+    "pnl_pct": -7.21,
+    "pnl_eur": -1.97,
+    "entry_score": 78.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 29451718,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.5274,
+    "entry_chg_24h": 24.90918,
+    "entry_chg_7d": 4.7888,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.5650437548579896,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "NIL (cex_small_cap) lost -7.2% in 2458 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 78 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
