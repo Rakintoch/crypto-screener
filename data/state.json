@@ -345,8 +345,8 @@
     "symbol": "IO"
   },
   "cex_small_cap:aeon-3": {
-    "last_alert_ts": 1791270146.876293,
-    "last_score": 95.1,
+    "last_alert_ts": 1791324959.613103,
+    "last_score": 63.2,
     "symbol": "AEON"
   },
   "cex_small_cap:kiichain": {
@@ -670,8 +670,8 @@
     "symbol": "GRIFFAIN"
   },
   "cex_small_cap:coin98": {
-    "last_alert_ts": 1791277412.2692368,
-    "last_score": 83.4,
+    "last_alert_ts": 1791324959.613103,
+    "last_score": 57.4,
     "symbol": "C98"
   },
   "cex_small_cap:cyberconnect": {
@@ -953,5 +953,20 @@
     "last_alert_ts": 1791320602.0064495,
     "last_score": 55.7,
     "symbol": "STORJ"
+  },
+  "cex_small_cap:forta": {
+    "last_alert_ts": 1791324959.613103,
+    "last_score": 84.0,
+    "symbol": "FORT"
+  },
+  "cex_small_cap:aurum-2": {
+    "last_alert_ts": 1791324959.613103,
+    "last_score": 69.1,
+    "symbol": "AUR"
+  },
+  "cex_small_cap:palu": {
+    "last_alert_ts": 1791324959.613103,
+    "last_score": 62.5,
+    "symbol": "PALU"
   }
 }
