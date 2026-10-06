@@ -120,8 +120,8 @@
     "symbol": "PRIORS"
   },
   "cex_small_cap:blockdag": {
-    "last_alert_ts": 1791304179.9404242,
-    "last_score": 59.8,
+    "last_alert_ts": 1791327781.836578,
+    "last_score": 76.7,
     "symbol": "BDAG"
   },
   "cex_small_cap:saga-2": {
@@ -968,5 +968,25 @@
     "last_alert_ts": 1791324959.613103,
     "last_score": 62.5,
     "symbol": "PALU"
+  },
+  "dex_micro_cap:HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": {
+    "last_alert_ts": 1791327781.836578,
+    "last_score": 100.0,
+    "symbol": "SI276"
+  },
+  "cex_small_cap:self-aware-meme-2": {
+    "last_alert_ts": 1791327781.836578,
+    "last_score": 85.0,
+    "symbol": "SAM"
+  },
+  "cex_small_cap:openverse-network": {
+    "last_alert_ts": 1791327781.836578,
+    "last_score": 64.5,
+    "symbol": "BTG"
+  },
+  "dex_micro_cap:7VertkgF9KLhxxJXHX6uaWuoYZTP9LdGj2bWmVXVpump": {
+    "last_alert_ts": 1791327781.836578,
+    "last_score": 57.3,
+    "symbol": "Agency"
   }
 }
