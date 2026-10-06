@@ -15,8 +15,8 @@
       "entry_price_eur": 0.034797800126808935,
       "entry_ts": 1790960612.5393398,
       "cost_eur": 12.607236814279196,
-      "last_price_eur": 0.044265118014724894,
-      "last_score": 40.6,
+      "last_price_eur": 0.04426422560519419,
+      "last_score": 40.3,
       "missed_updates": 0,
       "entry_market_cap": 26747258,
       "entry_venue": "Aerodrome (Base) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 33987381,
+      "last_market_cap": 34032343,
       "trailing_active": true,
       "trailing_peak_eur": 0.04672781723216779
     },
@@ -51,8 +51,8 @@
       "entry_price_eur": 0.09197550397081773,
       "entry_ts": 1791169371.2890131,
       "cost_eur": 27.30048472501299,
-      "last_price_eur": 0.08965572633061386,
-      "last_score": 54.7,
+      "last_price_eur": 0.08947756408382157,
+      "last_score": 55.7,
       "missed_updates": 0,
       "entry_market_cap": 52122898,
       "entry_venue": "Binance",
@@ -86,7 +86,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 51144218
+      "last_market_cap": 51014904
     },
     "cex_small_cap:api3": {
       "tier": "cex_small_cap",
@@ -98,7 +98,7 @@
       "entry_price_eur": 0.35355634558695626,
       "entry_ts": 1791275510.013301,
       "cost_eur": 27.068295169889236,
-      "last_price_eur": 0.3353318671982789,
+      "last_price_eur": 0.33200618650877595,
       "last_score": 73.4,
       "missed_updates": 0,
       "entry_market_cap": 58205343,
@@ -133,7 +133,7 @@
           "source": "Cryptonews.net"
         }
       ],
-      "last_market_cap": 55210606
+      "last_market_cap": 54787576
     }
   },
   "closed_trades": [
@@ -2196,8 +2196,8 @@
       "pnl_pct": 24.508250892810512
     }
   ],
-  "last_run_ts": 1791278720.0906746,
-  "last_eur_rate": 0.8897859919077208,
+  "last_run_ts": 1791279033.6606052,
+  "last_eur_rate": 0.8898989943491822,
   "last_rotation_ts": 1791121206.7815578,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
