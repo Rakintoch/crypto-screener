@@ -89,11 +89,6 @@
     "last_score": 64.5,
     "symbol": "EDEL"
   },
-  "cex_small_cap:rock-dao": {
-    "last_alert_ts": 1791061350.1362197,
-    "last_score": 71.1,
-    "symbol": "ROCK"
-  },
   "cex_small_cap:orbio-so": {
     "last_alert_ts": 1791090144.6128638,
     "last_score": 70.6,
@@ -269,45 +264,20 @@
     "last_score": 58.3,
     "symbol": "SI"
   },
-  "dex_micro_cap:0x3b4cbdb0a05d08638d6c11a79d0455fb9ffa65ff": {
-    "last_alert_ts": 1791059659.316327,
-    "last_score": 67.4,
-    "symbol": "SHIELD"
-  },
   "cex_small_cap:olaxbt": {
     "last_alert_ts": 1791119020.5660985,
     "last_score": 61.2,
     "symbol": "AIO"
-  },
-  "cex_small_cap:lienfi": {
-    "last_alert_ts": 1791061350.1362197,
-    "last_score": 80.6,
-    "symbol": "LFI"
   },
   "dex_micro_cap:H7TuvDxEKygh27zGfGcjKG8JGWgrbyKpPtvJEpGosfas": {
     "last_alert_ts": 1791104594.9560215,
     "last_score": 61.0,
     "symbol": "CLAUDIA"
   },
-  "cex_small_cap:cheqd-network": {
-    "last_alert_ts": 1791061350.1362197,
-    "last_score": 69.5,
-    "symbol": "CHEQ"
-  },
-  "cex_small_cap:nearkat-2": {
-    "last_alert_ts": 1791061350.1362197,
-    "last_score": 62.3,
-    "symbol": "NEARKAT"
-  },
   "cex_small_cap:particle-network": {
     "last_alert_ts": 1791313408.1346896,
     "last_score": 65.5,
     "symbol": "PARTI"
-  },
-  "cex_small_cap:lmao": {
-    "last_alert_ts": 1791061350.1362197,
-    "last_score": 55.4,
-    "symbol": "LMAO!"
   },
   "cex_small_cap:basecat": {
     "last_alert_ts": 1791126166.3242366,
@@ -730,8 +700,8 @@
     "symbol": "ACE"
   },
   "cex_small_cap:bundle-cat": {
-    "last_alert_ts": 1791248609.974262,
-    "last_score": 63.4,
+    "last_alert_ts": 1791320602.0064495,
+    "last_score": 66.1,
     "symbol": "BUN"
   },
   "cex_small_cap:vethor-token": {
@@ -870,8 +840,8 @@
     "symbol": "phubber"
   },
   "cex_small_cap:talus": {
-    "last_alert_ts": 1791275509.4551365,
-    "last_score": 63.4,
+    "last_alert_ts": 1791320602.0064495,
+    "last_score": 80.9,
     "symbol": "US"
   },
   "cex_small_cap:livepeer": {
@@ -945,8 +915,8 @@
     "symbol": "RAYCAT"
   },
   "cex_small_cap:zhong-guo-ren-neng-fei": {
-    "last_alert_ts": 1791304179.9404242,
-    "last_score": 67.6,
+    "last_alert_ts": 1791320602.0064495,
+    "last_score": 84.4,
     "symbol": "中国人能飞"
   },
   "cex_small_cap:resolv": {
@@ -978,5 +948,10 @@
     "last_alert_ts": 1791313408.1346896,
     "last_score": 60.5,
     "symbol": "BASED"
+  },
+  "cex_small_cap:storj": {
+    "last_alert_ts": 1791320602.0064495,
+    "last_score": 55.7,
+    "symbol": "STORJ"
   }
 }
