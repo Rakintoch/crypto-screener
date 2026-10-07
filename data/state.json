@@ -139,11 +139,6 @@
     "last_score": 57.8,
     "symbol": "SPIKE"
   },
-  "cex_small_cap:gunz": {
-    "last_alert_ts": 1791126166.3242366,
-    "last_score": 60.2,
-    "symbol": "GUN"
-  },
   "cex_small_cap:teller": {
     "last_alert_ts": 1791334987.021739,
     "last_score": 60.6,
@@ -224,20 +219,10 @@
     "last_score": 58.3,
     "symbol": "SI"
   },
-  "cex_small_cap:olaxbt": {
-    "last_alert_ts": 1791119020.5660985,
-    "last_score": 61.2,
-    "symbol": "AIO"
-  },
   "cex_small_cap:particle-network": {
     "last_alert_ts": 1791356574.1306055,
     "last_score": 86.7,
     "symbol": "PARTI"
-  },
-  "cex_small_cap:basecat": {
-    "last_alert_ts": 1791126166.3242366,
-    "last_score": 73.4,
-    "symbol": "BASECAT"
   },
   "cex_small_cap:anyroute": {
     "last_alert_ts": 1791140574.8109555,
@@ -303,21 +288,6 @@
     "last_alert_ts": 1791334987.021739,
     "last_score": 73.4,
     "symbol": "POND"
-  },
-  "dex_micro_cap:9ZmkKpVR3NdUcCmG5NByMHBzvjuqGnYpCPYu4zSSBtJv": {
-    "last_alert_ts": 1791126166.3242366,
-    "last_score": 66.7,
-    "symbol": "TERMINAL"
-  },
-  "cex_small_cap:cradle": {
-    "last_alert_ts": 1791126166.3242366,
-    "last_score": 55.0,
-    "symbol": "CRADLE"
-  },
-  "cex_small_cap:claudia": {
-    "last_alert_ts": 1791126166.3242366,
-    "last_score": 55.0,
-    "symbol": "CLAUDIA"
   },
   "dex_micro_cap:DoVAVzViX8Bjy3r15nwikSaSbzE6dV4ovd28aWpJpump": {
     "last_alert_ts": 1791248609.974262,
@@ -765,8 +735,8 @@
     "symbol": "phubber"
   },
   "cex_small_cap:talus": {
-    "last_alert_ts": 1791320602.0064495,
-    "last_score": 80.9,
+    "last_alert_ts": 1791385410.0463543,
+    "last_score": 58.6,
     "symbol": "US"
   },
   "cex_small_cap:livepeer": {
@@ -1003,5 +973,20 @@
     "last_alert_ts": 1791378177.5177104,
     "last_score": 91.6,
     "symbol": "MADE"
+  },
+  "cex_small_cap:sandisk-bstocks-tokenized-stock": {
+    "last_alert_ts": 1791385410.0463543,
+    "last_score": 58.6,
+    "symbol": "SNDKB"
+  },
+  "cex_small_cap:atletico-madrid": {
+    "last_alert_ts": 1791385410.0463543,
+    "last_score": 56.3,
+    "symbol": "ATM"
+  },
+  "dex_micro_cap:9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump": {
+    "last_alert_ts": 1791385410.0463543,
+    "last_score": 55.4,
+    "symbol": "GOMO"
   }
 }
