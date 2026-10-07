@@ -170,8 +170,8 @@
     "symbol": "GUN"
   },
   "cex_small_cap:teller": {
-    "last_alert_ts": 1791169370.7166812,
-    "last_score": 58.8,
+    "last_alert_ts": 1791334987.021739,
+    "last_score": 60.6,
     "symbol": "DEBIT"
   },
   "cex_small_cap:velvet": {
@@ -208,11 +208,6 @@
     "last_alert_ts": 1791306186.2356765,
     "last_score": 56.7,
     "symbol": "VAI"
-  },
-  "cex_small_cap:harmony": {
-    "last_alert_ts": 1791073323.1460376,
-    "last_score": 78.0,
-    "symbol": "ONE"
   },
   "cex_small_cap:doppler-finance": {
     "last_alert_ts": 1791162206.1399252,
@@ -375,8 +370,8 @@
     "symbol": "SLOPCORE"
   },
   "cex_small_cap:marlin": {
-    "last_alert_ts": 1791126166.3242366,
-    "last_score": 73.6,
+    "last_alert_ts": 1791334987.021739,
+    "last_score": 73.4,
     "symbol": "POND"
   },
   "dex_micro_cap:9ZmkKpVR3NdUcCmG5NByMHBzvjuqGnYpCPYu4zSSBtJv": {
@@ -455,8 +450,8 @@
     "symbol": "BVeil"
   },
   "cex_small_cap:yolo-2": {
-    "last_alert_ts": 1791227006.69275,
-    "last_score": 82.1,
+    "last_alert_ts": 1791334987.021739,
+    "last_score": 63.8,
     "symbol": "YOLO"
   },
   "cex_small_cap:blast": {
@@ -605,8 +600,8 @@
     "symbol": "knightcat"
   },
   "cex_small_cap:cali": {
-    "last_alert_ts": 1791241378.8188179,
-    "last_score": 72.3,
+    "last_alert_ts": 1791334987.021739,
+    "last_score": 62.3,
     "symbol": "CALI"
   },
   "cex_small_cap:ravencoin": {
@@ -860,8 +855,8 @@
     "symbol": "POD"
   },
   "cex_small_cap:numeraire": {
-    "last_alert_ts": 1791291775.1594887,
-    "last_score": 94.6,
+    "last_alert_ts": 1791334987.021739,
+    "last_score": 71.5,
     "symbol": "NMR"
   },
   "cex_small_cap:arpa": {
@@ -988,5 +983,10 @@
     "last_alert_ts": 1791327781.836578,
     "last_score": 57.3,
     "symbol": "Agency"
+  },
+  "dex_micro_cap:0xc7d502941c73ef5abdbceebd3af243c62562a7f3": {
+    "last_alert_ts": 1791334987.021739,
+    "last_score": 68.8,
+    "symbol": "BI"
   }
 }
