@@ -15,8 +15,8 @@
       "entry_price_eur": 0.06313623854257294,
       "entry_ts": 1791342221.2207563,
       "cost_eur": 11.501678892096812,
-      "last_price_eur": 0.06056393120927507,
-      "last_score": 50.0,
+      "last_price_eur": 0.060525930139424075,
+      "last_score": 49.8,
       "missed_updates": 0,
       "entry_market_cap": 16722560,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 15993336
+      "last_market_cap": 15982746
     },
     "cex_small_cap:brew": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.011415348651618213,
       "entry_ts": 1791402234.6949036,
       "cost_eur": 23.3366421129381,
-      "last_price_eur": 0.010853712781325185,
-      "last_score": 48.1,
+      "last_price_eur": 0.010862466798241528,
+      "last_score": 48.3,
       "missed_updates": 0,
       "entry_market_cap": 11715319,
       "entry_venue": null,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11143107
+      "last_market_cap": 11151694
     }
   },
   "closed_trades": [
@@ -2898,8 +2898,8 @@
       "pnl_pct": -17.83933861559311
     }
   ],
-  "last_run_ts": 1791413125.779799,
-  "last_eur_rate": 0.8926939922362341,
+  "last_run_ts": 1791413423.9487228,
+  "last_eur_rate": 0.8927260009649711,
   "last_rotation_ts": 1791121206.7815578,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
