@@ -2,57 +2,9 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 77.94700777301045,
+  "cash_eur": 100.98984333127432,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
-    "cex_small_cap:magic": {
-      "tier": "cex_small_cap",
-      "id": "magic",
-      "symbol": "MAGIC",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/magic",
-      "qty": 398.3202012838275,
-      "entry_price_eur": 0.06306987654193728,
-      "entry_ts": 1791324960.207212,
-      "cost_eur": 25.122005919130608,
-      "last_price_eur": 0.0581365186275778,
-      "last_score": 51.9,
-      "missed_updates": 0,
-      "entry_market_cap": 23975090,
-      "entry_venue": "Bitrue",
-      "entry_contract_address": "0x539bde0d7dbd336b79148aa742883198bbf60342 (Arbitrum)",
-      "entry_score": 86.7,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 20947608,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 6.3883,
-      "entry_chg_24h": 13.72358,
-      "entry_chg_7d": 39.0009,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.8737238525486244,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "partnership",
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.30000000000000004,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Treasure AI Launches Personalization Studio To Turn Customer Context into Real-Time Website Experiences - Yahoo Finance",
-          "ts": 1791297000.0,
-          "source": "Yahoo Finance"
-        },
-        {
-          "title": "Treasure Global’s Subsidiary Tadaa Technology Secures US$52 Million Partnership to Deploy AI-Powered Agricultural Supply Chain Platform for Malaysian Government",
-          "ts": 1789542000.0,
-          "source": "Yahoo Finance"
-        }
-      ],
-      "last_market_cap": 21966475
-    },
     "cex_small_cap:resolv": {
       "tier": "cex_small_cap",
       "id": "resolv",
@@ -63,8 +15,8 @@
       "entry_price_eur": 0.019415111279943515,
       "entry_ts": 1791324960.207212,
       "cost_eur": 25.122005919130608,
-      "last_price_eur": 0.01821468852564441,
-      "last_score": 48.7,
+      "last_price_eur": 0.018383799512980012,
+      "last_score": 49.8,
       "missed_updates": 0,
       "entry_market_cap": 11000790,
       "entry_venue": null,
@@ -85,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10259301
+      "last_market_cap": 10336775
     },
     "cex_small_cap:aeon-3": {
       "tier": "cex_small_cap",
@@ -97,8 +49,8 @@
       "entry_price_eur": 0.06313623854257294,
       "entry_ts": 1791342221.2207563,
       "cost_eur": 11.501678892096812,
-      "last_price_eur": 0.0631194956264559,
-      "last_score": 53.4,
+      "last_price_eur": 0.0628029097635952,
+      "last_score": 53.9,
       "missed_updates": 0,
       "entry_market_cap": 16722560,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -119,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 16653348
+      "last_market_cap": 16567951
     },
     "cex_small_cap:numeraire": {
       "tier": "cex_small_cap",
@@ -131,8 +83,8 @@
       "entry_price_eur": 14.507325950040022,
       "entry_ts": 1791342221.2207563,
       "cost_eur": 24.64645476877888,
-      "last_price_eur": 14.992711859633232,
-      "last_score": 72.6,
+      "last_price_eur": 14.754970475103622,
+      "last_score": 72.5,
       "missed_updates": 0,
       "entry_market_cap": 116846341,
       "entry_venue": "Upbit",
@@ -153,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 120332244
+      "last_market_cap": 118449354
     }
   },
   "closed_trades": [
@@ -2562,10 +2514,64 @@
       "proceeds_eur": 24.01996876671868,
       "pnl_eur": -2.6616179033010106,
       "pnl_pct": -9.975485851790411
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "magic",
+      "symbol": "MAGIC",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/magic",
+      "qty": 398.3202012838275,
+      "entry_price_eur": 0.06306987654193728,
+      "entry_ts": 1791324960.207212,
+      "cost_eur": 25.122005919130608,
+      "last_price_eur": 0.05785002991059555,
+      "last_score": 51.2,
+      "missed_updates": 0,
+      "entry_market_cap": 23975090,
+      "entry_venue": "Bitrue",
+      "entry_contract_address": "0x539bde0d7dbd336b79148aa742883198bbf60342 (Arbitrum)",
+      "entry_score": 86.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 20947608,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 6.3883,
+      "entry_chg_24h": 13.72358,
+      "entry_chg_7d": 39.0009,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.8737238525486244,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "partnership",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.30000000000000004,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Treasure AI Launches Personalization Studio To Turn Customer Context into Real-Time Website Experiences - Yahoo Finance",
+          "ts": 1791297000.0,
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "Treasure Global’s Subsidiary Tadaa Technology Secures US$52 Million Partnership to Deploy AI-Powered Agricultural Supply Chain Platform for Malaysian Government",
+          "ts": 1789542000.0,
+          "source": "Yahoo Finance"
+        }
+      ],
+      "last_market_cap": 21812159,
+      "exit_price_eur": 0.05785002991059555,
+      "exit_ts": 1791368720.7021816,
+      "exit_reason": "stop-loss hit (-8.3%)",
+      "proceeds_eur": 23.04283555826386,
+      "pnl_eur": -2.0791703608667476,
+      "pnl_pct": -8.276291182956227
     }
   ],
-  "last_run_ts": 1791368425.4297802,
-  "last_eur_rate": 0.8934869999781425,
+  "last_run_ts": 1791368720.7021816,
+  "last_eur_rate": 0.893698999097736,
   "last_rotation_ts": 1791121206.7815578,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
