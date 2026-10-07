@@ -5833,5 +5833,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "ELIZAOS (cex_small_cap) lost -8.5% in 30 min (very fast (<1h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791378622.0646687,
+    "symbol": "MADE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/selfmade-by-sp3nd",
+    "held_minutes": 7.4,
+    "exit_reason": "stop-loss hit (-10.0%)",
+    "pnl_pct": -10.01,
+    "pnl_eur": -2.43,
+    "entry_score": 91.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 818478,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 11.3469,
+    "entry_chg_24h": 33.84511,
+    "entry_chg_7d": 36.6135,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.6747273401755904,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "MADE (cex_small_cap) lost -10.0% in 7 min (very fast (<1h)) — stop-loss hit. Entry score: 92 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
