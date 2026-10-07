@@ -24,11 +24,6 @@
     "last_score": 64.5,
     "symbol": "boar"
   },
-  "cex_small_cap:audius": {
-    "last_alert_ts": 1791090144.6128638,
-    "last_score": 63.0,
-    "symbol": "AUDIO"
-  },
   "cex_small_cap:magic": {
     "last_alert_ts": 1791342220.8570735,
     "last_score": 59.3,
@@ -84,11 +79,6 @@
     "last_score": 56.3,
     "symbol": "COHRON"
   },
-  "cex_small_cap:orbio-so": {
-    "last_alert_ts": 1791090144.6128638,
-    "last_score": 70.6,
-    "symbol": "ORBIO"
-  },
   "cex_small_cap:nomina": {
     "last_alert_ts": 1791111769.5356543,
     "last_score": 80.5,
@@ -103,11 +93,6 @@
     "last_alert_ts": 1791313408.1346896,
     "last_score": 64.4,
     "symbol": "龙虾"
-  },
-  "cex_small_cap:termmax": {
-    "last_alert_ts": 1791090144.6128638,
-    "last_score": 90.8,
-    "symbol": "TMX"
   },
   "cex_small_cap:priors-agent": {
     "last_alert_ts": 1791291775.1594887,
@@ -145,8 +130,8 @@
     "symbol": "POP"
   },
   "cex_small_cap:baton-3": {
-    "last_alert_ts": 1791304179.9404242,
-    "last_score": 88.0,
+    "last_alert_ts": 1791349373.4815204,
+    "last_score": 75.8,
     "symbol": "BATON"
   },
   "cex_small_cap:sapling": {
@@ -299,20 +284,10 @@
     "last_score": 55.5,
     "symbol": "HONEY"
   },
-  "dex_micro_cap:9dSMwFfPezQ8WPcW1uZV7ns4rcviEj2LssSAg75WBLXd": {
-    "last_alert_ts": 1791090144.6128638,
-    "last_score": 86.7,
-    "symbol": "Aiden"
-  },
   "cex_small_cap:netnet": {
-    "last_alert_ts": 1791304179.9404242,
-    "last_score": 81.6,
+    "last_alert_ts": 1791349373.4815204,
+    "last_score": 73.5,
     "symbol": "NET"
-  },
-  "cex_small_cap:zzz-2": {
-    "last_alert_ts": 1791090144.6128638,
-    "last_score": 63.6,
-    "symbol": "ZZZ"
   },
   "cex_small_cap:pod-the-squire": {
     "last_alert_ts": 1791140574.8109555,
@@ -850,8 +825,8 @@
     "symbol": "POD"
   },
   "cex_small_cap:numeraire": {
-    "last_alert_ts": 1791334987.021739,
-    "last_score": 71.5,
+    "last_alert_ts": 1791349373.4815204,
+    "last_score": 96.4,
     "symbol": "NMR"
   },
   "cex_small_cap:arpa": {
@@ -860,8 +835,8 @@
     "symbol": "ARPA"
   },
   "cex_small_cap:super-inu-2": {
-    "last_alert_ts": 1791291775.1594887,
-    "last_score": 56.2,
+    "last_alert_ts": 1791349373.4815204,
+    "last_score": 57.0,
     "symbol": "SI"
   },
   "cex_small_cap:tellor": {
@@ -910,8 +885,8 @@
     "symbol": "中国人能飞"
   },
   "cex_small_cap:resolv": {
-    "last_alert_ts": 1791304179.9404242,
-    "last_score": 65.7,
+    "last_alert_ts": 1791349373.4815204,
+    "last_score": 63.7,
     "symbol": "RESOLV"
   },
   "cex_small_cap:synapse-2": {
@@ -970,8 +945,8 @@
     "symbol": "SAM"
   },
   "cex_small_cap:openverse-network": {
-    "last_alert_ts": 1791327781.836578,
-    "last_score": 64.5,
+    "last_alert_ts": 1791349373.4815204,
+    "last_score": 87.8,
     "symbol": "BTG"
   },
   "dex_micro_cap:7VertkgF9KLhxxJXHX6uaWuoYZTP9LdGj2bWmVXVpump": {
@@ -1003,5 +978,20 @@
     "last_alert_ts": 1791345762.761102,
     "last_score": 61.8,
     "symbol": "BINDER"
+  },
+  "cex_small_cap:sundog": {
+    "last_alert_ts": 1791349373.4815204,
+    "last_score": 70.8,
+    "symbol": "SUNDOG"
+  },
+  "dex_micro_cap:39ahtL8ynzE4amH26J29C93PA5172V3ft9UuUcqQS8fz": {
+    "last_alert_ts": 1791349373.4815204,
+    "last_score": 59.6,
+    "symbol": "AUTON"
+  },
+  "cex_small_cap:yei-finance": {
+    "last_alert_ts": 1791349373.4815204,
+    "last_score": 57.9,
+    "symbol": "CLO"
   }
 }
