@@ -5,8 +5,8 @@
     "symbol": "HIPPO"
   },
   "cex_small_cap:moonriver": {
-    "last_alert_ts": 1791342220.8570735,
-    "last_score": 55.7,
+    "last_alert_ts": 1791406932.724667,
+    "last_score": 58.1,
     "symbol": "MOVR"
   },
   "cex_small_cap:moonbeam": {
@@ -33,11 +33,6 @@
     "last_alert_ts": 1791255811.300217,
     "last_score": 72.4,
     "symbol": "CAP"
-  },
-  "dex_micro_cap:C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE": {
-    "last_alert_ts": 1791147647.0844827,
-    "last_score": 70.7,
-    "symbol": "HOOKED"
   },
   "cex_small_cap:hookr-fun": {
     "last_alert_ts": 1791313408.1346896,
@@ -180,8 +175,8 @@
     "symbol": "XDP"
   },
   "cex_small_cap:gorbagana": {
-    "last_alert_ts": 1791241378.8188179,
-    "last_score": 55.8,
+    "last_alert_ts": 1791406932.724667,
+    "last_score": 56.8,
     "symbol": "GOR"
   },
   "cex_small_cap:infinity-ground": {
@@ -224,11 +219,6 @@
     "last_score": 56.8,
     "symbol": "SI"
   },
-  "dex_micro_cap:AVKpeeWaCku3Mni5THbY4bkBnMrPzAEnnQKtP3wPpump": {
-    "last_alert_ts": 1791147647.0844827,
-    "last_score": 83.7,
-    "symbol": "CARNAGE"
-  },
   "dex_micro_cap:BXoHJddsWJLHtAopeiSbKUSELsu8hSFMs8baGMDkpump": {
     "last_alert_ts": 1791356574.1306055,
     "last_score": 56.5,
@@ -255,8 +245,8 @@
     "symbol": "EDGE"
   },
   "cex_small_cap:aeon-3": {
-    "last_alert_ts": 1791342220.8570735,
-    "last_score": 83.9,
+    "last_alert_ts": 1791406932.724667,
+    "last_score": 56.3,
     "symbol": "AEON"
   },
   "cex_small_cap:arai": {
@@ -293,11 +283,6 @@
     "last_alert_ts": 1791263001.2327242,
     "last_score": 78.6,
     "symbol": "SN113"
-  },
-  "dex_micro_cap:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
-    "last_alert_ts": 1791147647.0844827,
-    "last_score": 72.9,
-    "symbol": "baton"
   },
   "dex_micro_cap:F5WvFdG9sCfhv3bVYAMJNWiwpx5e3X2uvpXDtLtdsDJs": {
     "last_alert_ts": 1791198201.7301817,
@@ -725,8 +710,8 @@
     "symbol": "POD"
   },
   "cex_small_cap:numeraire": {
-    "last_alert_ts": 1791349373.4815204,
-    "last_score": 96.4,
+    "last_alert_ts": 1791406932.724667,
+    "last_score": 56.9,
     "symbol": "NMR"
   },
   "cex_small_cap:arpa": {
@@ -998,5 +983,65 @@
     "last_alert_ts": 1791402234.1161437,
     "last_score": 63.7,
     "symbol": "DARWIN"
+  },
+  "cex_small_cap:dippy-speech": {
+    "last_alert_ts": 1791406932.724667,
+    "last_score": 89.6,
+    "symbol": "SN58"
+  },
+  "cex_small_cap:crawlnet": {
+    "last_alert_ts": 1791406932.724667,
+    "last_score": 83.9,
+    "symbol": "CRAWL"
+  },
+  "cex_small_cap:alpine-f1-team-fan-token": {
+    "last_alert_ts": 1791406932.724667,
+    "last_score": 69.8,
+    "symbol": "ALPINE"
+  },
+  "cex_small_cap:unipeg": {
+    "last_alert_ts": 1791406932.724667,
+    "last_score": 69.2,
+    "symbol": "UPEG"
+  },
+  "cex_small_cap:nearkat-2": {
+    "last_alert_ts": 1791406932.724667,
+    "last_score": 67.2,
+    "symbol": "NEARKAT"
+  },
+  "cex_small_cap:marina-protocol": {
+    "last_alert_ts": 1791406932.724667,
+    "last_score": 63.4,
+    "symbol": "BAY"
+  },
+  "dex_micro_cap:0x7ab8d02cbb51ff7223fde700eaaa2a91bf750314": {
+    "last_alert_ts": 1791406932.724667,
+    "last_score": 61.4,
+    "symbol": "TART"
+  },
+  "cex_small_cap:termmax": {
+    "last_alert_ts": 1791406932.724667,
+    "last_score": 61.2,
+    "symbol": "TMX"
+  },
+  "cex_small_cap:zzz-2": {
+    "last_alert_ts": 1791406932.724667,
+    "last_score": 60.7,
+    "symbol": "ZZZ"
+  },
+  "cex_small_cap:lazio-fan-token": {
+    "last_alert_ts": 1791406932.724667,
+    "last_score": 58.2,
+    "symbol": "LAZIO"
+  },
+  "cex_small_cap:yom": {
+    "last_alert_ts": 1791406932.724667,
+    "last_score": 57.4,
+    "symbol": "YOM"
+  },
+  "cex_small_cap:treehouse": {
+    "last_alert_ts": 1791406932.724667,
+    "last_score": 55.9,
+    "symbol": "TREE"
   }
 }
