@@ -70,8 +70,8 @@
     "symbol": "GTC"
   },
   "cex_small_cap:brew": {
-    "last_alert_ts": 1791299008.8157883,
-    "last_score": 63.7,
+    "last_alert_ts": 1791345762.761102,
+    "last_score": 66.3,
     "symbol": "BREW"
   },
   "cex_small_cap:zip-coin": {
@@ -95,8 +95,8 @@
     "symbol": "NOM"
   },
   "cex_small_cap:hooked": {
-    "last_alert_ts": 1791219792.4782584,
-    "last_score": 56.0,
+    "last_alert_ts": 1791345762.761102,
+    "last_score": 57.7,
     "symbol": "HOOKED"
   },
   "cex_small_cap:lobster-2": {
@@ -735,8 +735,8 @@
     "symbol": "SN116"
   },
   "cex_small_cap:zeus-network": {
-    "last_alert_ts": 1791270146.876293,
-    "last_score": 82.7,
+    "last_alert_ts": 1791345762.761102,
+    "last_score": 76.2,
     "symbol": "ZEUS"
   },
   "cex_small_cap:creo-engine": {
@@ -875,8 +875,8 @@
     "symbol": "FLUX"
   },
   "dex_micro_cap:5VnbrKp28Qs9CAH6PyZdxBNvLxZcbeX3YBsozgWnpump": {
-    "last_alert_ts": 1791299008.8157883,
-    "last_score": 64.8,
+    "last_alert_ts": 1791345762.761102,
+    "last_score": 65.0,
     "symbol": "darwin"
   },
   "cex_small_cap:burnie-senders": {
@@ -988,5 +988,20 @@
     "last_alert_ts": 1791342220.8570735,
     "last_score": 65.4,
     "symbol": "AIA"
+  },
+  "dex_micro_cap:HzYCHqAN2uoHGRnL9v2ChCfFQX3bvJuJd5zu2Hd5MZQy": {
+    "last_alert_ts": 1791345762.761102,
+    "last_score": 86.0,
+    "symbol": "TWEETCRAFT"
+  },
+  "cex_small_cap:paid": {
+    "last_alert_ts": 1791345762.761102,
+    "last_score": 66.2,
+    "symbol": "PAID"
+  },
+  "dex_micro_cap:BQxzR4pLkDw46gzbrkRjFuUSsgvN5BhTWHh6EXUwf3F": {
+    "last_alert_ts": 1791345762.761102,
+    "last_score": 61.8,
+    "symbol": "BINDER"
   }
 }
