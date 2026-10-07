@@ -5914,5 +5914,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "ZEUS (cex_small_cap) lost -10.6% in 17 min (very fast (<1h)) — stop-loss hit. Entry score: 83 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791408317.31699,
+    "symbol": "RDNT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/radiant-capital",
+    "held_minutes": 101.4,
+    "exit_reason": "stop-loss hit (-17.8%)",
+    "pnl_pct": -17.84,
+    "pnl_eur": -4.16,
+    "entry_score": 100.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 3568237,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 25.667,
+    "entry_chg_24h": 142.89846,
+    "entry_chg_7d": 88.8138,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.3946420757912934,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "RDNT (cex_small_cap) lost -17.8% in 101 min (fast (1-6h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
