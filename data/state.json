@@ -60,8 +60,8 @@
     "symbol": "DIMO"
   },
   "cex_small_cap:gitcoin": {
-    "last_alert_ts": 1791342220.8570735,
-    "last_score": 60.5,
+    "last_alert_ts": 1791356574.1306055,
+    "last_score": 92.3,
     "symbol": "GTC"
   },
   "cex_small_cap:brew": {
@@ -185,8 +185,8 @@
     "symbol": "GMT"
   },
   "cex_small_cap:vaiot": {
-    "last_alert_ts": 1791306186.2356765,
-    "last_score": 56.7,
+    "last_alert_ts": 1791356574.1306055,
+    "last_score": 74.2,
     "symbol": "VAI"
   },
   "cex_small_cap:doppler-finance": {
@@ -250,8 +250,8 @@
     "symbol": "CLAUDIA"
   },
   "cex_small_cap:particle-network": {
-    "last_alert_ts": 1791313408.1346896,
-    "last_score": 65.5,
+    "last_alert_ts": 1791356574.1306055,
+    "last_score": 86.7,
     "symbol": "PARTI"
   },
   "cex_small_cap:basecat": {
@@ -275,8 +275,8 @@
     "symbol": "CARNAGE"
   },
   "dex_micro_cap:BXoHJddsWJLHtAopeiSbKUSELsu8hSFMs8baGMDkpump": {
-    "last_alert_ts": 1791241378.8188179,
-    "last_score": 64.7,
+    "last_alert_ts": 1791356574.1306055,
+    "last_score": 56.5,
     "symbol": "CRAWL"
   },
   "cex_small_cap:hivemapper": {
@@ -300,8 +300,8 @@
     "symbol": "PHA"
   },
   "cex_small_cap:definitive": {
-    "last_alert_ts": 1791147647.0844827,
-    "last_score": 63.6,
+    "last_alert_ts": 1791356574.1306055,
+    "last_score": 59.9,
     "symbol": "EDGE"
   },
   "cex_small_cap:io": {
@@ -890,8 +890,8 @@
     "symbol": "RESOLV"
   },
   "cex_small_cap:synapse-2": {
-    "last_alert_ts": 1791304179.9404242,
-    "last_score": 57.8,
+    "last_alert_ts": 1791356574.1306055,
+    "last_score": 56.5,
     "symbol": "SYN"
   },
   "dex_micro_cap:8cp1WhUDxTbfX8nDe1kAB1ogPUyQvUSKgzFz365LbQyZ": {
@@ -993,5 +993,15 @@
     "last_alert_ts": 1791349373.4815204,
     "last_score": 57.9,
     "symbol": "CLO"
+  },
+  "cex_small_cap:quantus": {
+    "last_alert_ts": 1791356574.1306055,
+    "last_score": 66.6,
+    "symbol": "QTC"
+  },
+  "cex_small_cap:redteam": {
+    "last_alert_ts": 1791356574.1306055,
+    "last_score": 64.5,
+    "symbol": "SN61"
   }
 }
