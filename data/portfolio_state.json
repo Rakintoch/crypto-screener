@@ -15,8 +15,8 @@
       "entry_price_eur": 0.06306987654193728,
       "entry_ts": 1791324960.207212,
       "cost_eur": 25.122005919130608,
-      "last_price_eur": 0.05947031893016745,
-      "last_score": 58.3,
+      "last_price_eur": 0.059534786094579205,
+      "last_score": 58.4,
       "missed_updates": 0,
       "entry_market_cap": 23975090,
       "entry_venue": "Bitrue",
@@ -51,7 +51,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 22452756
+      "last_market_cap": 22489294
     },
     "cex_small_cap:resolv": {
       "tier": "cex_small_cap",
@@ -63,8 +63,8 @@
       "entry_price_eur": 0.019415111279943515,
       "entry_ts": 1791324960.207212,
       "cost_eur": 25.122005919130608,
-      "last_price_eur": 0.018107740400369575,
-      "last_score": 47.1,
+      "last_price_eur": 0.018070714737647715,
+      "last_score": 46.8,
       "missed_updates": 0,
       "entry_market_cap": 11000790,
       "entry_venue": null,
@@ -85,7 +85,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10164030
+      "last_market_cap": 10175767
     },
     "cex_small_cap:aeon-3": {
       "tier": "cex_small_cap",
@@ -97,8 +97,8 @@
       "entry_price_eur": 0.06313623854257294,
       "entry_ts": 1791342221.2207563,
       "cost_eur": 11.501678892096812,
-      "last_price_eur": 0.06230768766245785,
-      "last_score": 48.2,
+      "last_price_eur": 0.06207915285348498,
+      "last_score": 46.3,
       "missed_updates": 0,
       "entry_market_cap": 16722560,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -119,7 +119,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 16440125
+      "last_market_cap": 16374978
     },
     "cex_small_cap:numeraire": {
       "tier": "cex_small_cap",
@@ -131,8 +131,8 @@
       "entry_price_eur": 14.507325950040022,
       "entry_ts": 1791342221.2207563,
       "cost_eur": 24.64645476877888,
-      "last_price_eur": 15.125481710886472,
-      "last_score": 88.9,
+      "last_price_eur": 15.05886192046445,
+      "last_score": 89.0,
       "missed_updates": 0,
       "entry_market_cap": 116846341,
       "entry_venue": "Upbit",
@@ -153,7 +153,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 121921522
+      "last_market_cap": 120860813
     }
   },
   "closed_trades": [
@@ -2564,8 +2564,8 @@
       "pnl_pct": -9.975485851790411
     }
   ],
-  "last_run_ts": 1791361222.7476273,
-  "last_eur_rate": 0.8939409994613753,
+  "last_run_ts": 1791361516.4820209,
+  "last_eur_rate": 0.8937010041818664,
   "last_rotation_ts": 1791121206.7815578,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
