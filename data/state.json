@@ -1,7 +1,7 @@
 {
   "cex_small_cap:sudeng": {
-    "last_alert_ts": 1791241378.8188179,
-    "last_score": 58.1,
+    "last_alert_ts": 1791402234.1161437,
+    "last_score": 55.0,
     "symbol": "HIPPO"
   },
   "cex_small_cap:moonriver": {
@@ -845,8 +845,8 @@
     "symbol": "SAM"
   },
   "cex_small_cap:openverse-network": {
-    "last_alert_ts": 1791349373.4815204,
-    "last_score": 87.8,
+    "last_alert_ts": 1791402234.1161437,
+    "last_score": 68.0,
     "symbol": "BTG"
   },
   "dex_micro_cap:7VertkgF9KLhxxJXHX6uaWuoYZTP9LdGj2bWmVXVpump": {
@@ -865,8 +865,8 @@
     "symbol": "AIA"
   },
   "dex_micro_cap:HzYCHqAN2uoHGRnL9v2ChCfFQX3bvJuJd5zu2Hd5MZQy": {
-    "last_alert_ts": 1791345762.761102,
-    "last_score": 86.0,
+    "last_alert_ts": 1791402234.1161437,
+    "last_score": 66.2,
     "symbol": "TWEETCRAFT"
   },
   "cex_small_cap:paid": {
@@ -895,8 +895,8 @@
     "symbol": "CLO"
   },
   "cex_small_cap:quantus": {
-    "last_alert_ts": 1791356574.1306055,
-    "last_score": 66.6,
+    "last_alert_ts": 1791402234.1161437,
+    "last_score": 62.5,
     "symbol": "QTC"
   },
   "cex_small_cap:redteam": {
@@ -983,5 +983,20 @@
     "last_alert_ts": 1791399813.8116958,
     "last_score": 55.1,
     "symbol": "DRIFT"
+  },
+  "cex_small_cap:radiant-capital": {
+    "last_alert_ts": 1791402234.1161437,
+    "last_score": 100.0,
+    "symbol": "RDNT"
+  },
+  "cex_small_cap:antminer": {
+    "last_alert_ts": 1791402234.1161437,
+    "last_score": 86.8,
+    "symbol": "ANT"
+  },
+  "cex_small_cap:darwin-2": {
+    "last_alert_ts": 1791402234.1161437,
+    "last_score": 63.7,
+    "symbol": "DARWIN"
   }
 }
