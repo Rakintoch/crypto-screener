@@ -835,13 +835,13 @@
     "symbol": "ZKC"
   },
   "cex_small_cap:raydium-cat": {
-    "last_alert_ts": 1791304179.9404242,
-    "last_score": 70.7,
+    "last_alert_ts": 1791378177.5177104,
+    "last_score": 61.3,
     "symbol": "RAYCAT"
   },
   "cex_small_cap:zhong-guo-ren-neng-fei": {
-    "last_alert_ts": 1791371022.1403341,
-    "last_score": 57.7,
+    "last_alert_ts": 1791378177.5177104,
+    "last_score": 81.8,
     "symbol": "中国人能飞"
   },
   "cex_small_cap:resolv": {
@@ -998,5 +998,10 @@
     "last_alert_ts": 1791376506.9355774,
     "last_score": 55.0,
     "symbol": "SWORDINU"
+  },
+  "cex_small_cap:selfmade-by-sp3nd": {
+    "last_alert_ts": 1791378177.5177104,
+    "last_score": 91.6,
+    "symbol": "MADE"
   }
 }
