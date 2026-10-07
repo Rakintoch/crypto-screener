@@ -1425,5 +1425,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "EDEL (cex_small_cap) gained +24.4% in 5607 min — trailing stop caught extra upside after the target. Entry score: 78. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791373222.9971704,
+    "symbol": "ZEUS",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/zeus-network",
+    "held_minutes": 36.7,
+    "exit_reason": "trailing stop hit — dropped 7.5% from the peak (peak +46.5% since entry)",
+    "pnl_pct": 35.51,
+    "pnl_eur": 8.61,
+    "entry_score": 100.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 47006912,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 24.9313,
+    "entry_chg_24h": 141.89443,
+    "entry_chg_7d": 352.4348,
+    "entry_chg_6h": null,
+    "entry_turnover": 4.3695907076376095,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "ZEUS (cex_small_cap) gained +35.5% in 37 min — trailing stop caught extra upside after the target. Entry score: 100. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
