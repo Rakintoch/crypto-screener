@@ -5,8 +5,8 @@
     "symbol": "HIPPO"
   },
   "cex_small_cap:moonriver": {
-    "last_alert_ts": 1791284582.4963076,
-    "last_score": 58.2,
+    "last_alert_ts": 1791342220.8570735,
+    "last_score": 55.7,
     "symbol": "MOVR"
   },
   "cex_small_cap:moonbeam": {
@@ -30,8 +30,8 @@
     "symbol": "AUDIO"
   },
   "cex_small_cap:magic": {
-    "last_alert_ts": 1791299008.8157883,
-    "last_score": 74.7,
+    "last_alert_ts": 1791342220.8570735,
+    "last_score": 59.3,
     "symbol": "MAGIC"
   },
   "cex_small_cap:cap-4": {
@@ -65,8 +65,8 @@
     "symbol": "DIMO"
   },
   "cex_small_cap:gitcoin": {
-    "last_alert_ts": 1791241378.8188179,
-    "last_score": 59.7,
+    "last_alert_ts": 1791342220.8570735,
+    "last_score": 60.5,
     "symbol": "GTC"
   },
   "cex_small_cap:brew": {
@@ -83,11 +83,6 @@
     "last_alert_ts": 1791162206.1399252,
     "last_score": 56.3,
     "symbol": "COHRON"
-  },
-  "cex_small_cap:edel": {
-    "last_alert_ts": 1791082977.8902702,
-    "last_score": 64.5,
-    "symbol": "EDEL"
   },
   "cex_small_cap:orbio-so": {
     "last_alert_ts": 1791090144.6128638,
@@ -340,8 +335,8 @@
     "symbol": "IO"
   },
   "cex_small_cap:aeon-3": {
-    "last_alert_ts": 1791324959.613103,
-    "last_score": 63.2,
+    "last_alert_ts": 1791342220.8570735,
+    "last_score": 83.9,
     "symbol": "AEON"
   },
   "cex_small_cap:kiichain": {
@@ -660,8 +655,8 @@
     "symbol": "API3"
   },
   "cex_small_cap:griffain": {
-    "last_alert_ts": 1791299008.8157883,
-    "last_score": 75.3,
+    "last_alert_ts": 1791342220.8570735,
+    "last_score": 79.7,
     "symbol": "GRIFFAIN"
   },
   "cex_small_cap:coin98": {
@@ -988,5 +983,10 @@
     "last_alert_ts": 1791334987.021739,
     "last_score": 68.8,
     "symbol": "BI"
+  },
+  "cex_small_cap:aia": {
+    "last_alert_ts": 1791342220.8570735,
+    "last_score": 65.4,
+    "symbol": "AIA"
   }
 }
