@@ -15,8 +15,8 @@
       "entry_price_eur": 0.06306987654193728,
       "entry_ts": 1791324960.207212,
       "cost_eur": 25.122005919130608,
-      "last_price_eur": 0.0629457980829509,
-      "last_score": 64.6,
+      "last_price_eur": 0.0628256341389256,
+      "last_score": 64.4,
       "missed_updates": 0,
       "entry_market_cap": 23975090,
       "entry_venue": "Bitrue",
@@ -51,7 +51,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 23877703
+      "last_market_cap": 23820100
     },
     "cex_small_cap:resolv": {
       "tier": "cex_small_cap",
@@ -63,8 +63,8 @@
       "entry_price_eur": 0.019415111279943515,
       "entry_ts": 1791324960.207212,
       "cost_eur": 25.122005919130608,
-      "last_price_eur": 0.0191438331570669,
-      "last_score": 59.4,
+      "last_price_eur": 0.01941673102418468,
+      "last_score": 60.4,
       "missed_updates": 0,
       "entry_market_cap": 11000790,
       "entry_venue": null,
@@ -85,7 +85,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10825244
+      "last_market_cap": 10953826
     }
   },
   "closed_trades": [
@@ -2496,8 +2496,8 @@
       "pnl_pct": -9.975485851790411
     }
   ],
-  "last_run_ts": 1791339020.5037832,
-  "last_eur_rate": 0.889969998910628,
+  "last_run_ts": 1791339323.6815345,
+  "last_eur_rate": 0.8900580021381804,
   "last_rotation_ts": 1791121206.7815578,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
