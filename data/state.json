@@ -335,8 +335,8 @@
     "symbol": "knightcat"
   },
   "cex_small_cap:cali": {
-    "last_alert_ts": 1791334987.021739,
-    "last_score": 62.3,
+    "last_alert_ts": 1791464602.19449,
+    "last_score": 58.8,
     "symbol": "CALI"
   },
   "cex_small_cap:ravencoin": {
@@ -395,8 +395,8 @@
     "symbol": "API3"
   },
   "cex_small_cap:griffain": {
-    "last_alert_ts": 1791342220.8570735,
-    "last_score": 79.7,
+    "last_alert_ts": 1791464602.19449,
+    "last_score": 56.6,
     "symbol": "GRIFFAIN"
   },
   "cex_small_cap:coin98": {
@@ -1078,5 +1078,15 @@
     "last_alert_ts": 1791463495.9364035,
     "last_score": 61.1,
     "symbol": "BTR"
+  },
+  "cex_small_cap:hashflow": {
+    "last_alert_ts": 1791464602.19449,
+    "last_score": 83.4,
+    "symbol": "HFT"
+  },
+  "cex_small_cap:aevo-exchange": {
+    "last_alert_ts": 1791464602.19449,
+    "last_score": 59.1,
+    "symbol": "AEVO"
   }
 }
