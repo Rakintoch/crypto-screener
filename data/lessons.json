@@ -5968,5 +5968,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "MADE (cex_small_cap) lost -8.5% in 22 min (very fast (<1h)) — stop-loss hit. Entry score: 93 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791428602.9588015,
+    "symbol": "AEON",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/aeon-3",
+    "held_minutes": 1439.7,
+    "exit_reason": "rotated out — thesis fading (score 34, no unrealized gain) to free a slot for a new qualified candidate",
+    "pnl_pct": -6.04,
+    "pnl_eur": -0.7,
+    "entry_score": 83.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 18749634,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 8.0672,
+    "entry_chg_24h": 8.89419,
+    "entry_chg_7d": 30.7448,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.1212179235715105,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "AEON (cex_small_cap) lost -6.0% in 1440 min (slow (>6h)) — other. Entry score: 84 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
