@@ -15,8 +15,8 @@
       "entry_price_eur": 139.55410130145248,
       "entry_ts": 1791438339.0626469,
       "cost_eur": 21.84385455994158,
-      "last_price_eur": 145.3742738535021,
-      "last_score": 71.3,
+      "last_price_eur": 145.5149507457695,
+      "last_score": 69.7,
       "missed_updates": 0,
       "entry_market_cap": 42230960,
       "entry_venue": "Near Intents",
@@ -56,7 +56,7 @@
           "source": "ForkLog"
         }
       ],
-      "last_market_cap": 44150315
+      "last_market_cap": 44195295
     }
   },
   "closed_trades": [
@@ -3306,8 +3306,8 @@
       "pnl_pct": -12.371439773773515
     }
   ],
-  "last_run_ts": 1791483621.9213088,
-  "last_eur_rate": 0.8924689904444847,
+  "last_run_ts": 1791483917.0627356,
+  "last_eur_rate": 0.8924559996673996,
   "last_rotation_ts": 1791438339.0626469,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
