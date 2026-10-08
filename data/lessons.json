@@ -6052,5 +6052,32 @@
     "categoria": "other",
     "velocidade_queda": "slow (>6h)",
     "licao": "AEON (cex_small_cap) lost -7.0% in 1602 min (slow (>6h)) — other. Entry score: 84 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791440125.1693063,
+    "symbol": "BREW",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/brew",
+    "held_minutes": 631.5,
+    "exit_reason": "momentum thesis invalidated (score dropped to 30)",
+    "pnl_pct": -0.64,
+    "pnl_eur": -0.15,
+    "entry_score": 76.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 2564221,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.82,
+    "entry_chg_24h": 17.20429,
+    "entry_chg_7d": 60.1255,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.21887760802757483,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "BREW (cex_small_cap) lost -0.6% in 632 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
