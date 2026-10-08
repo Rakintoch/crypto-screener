@@ -15,7 +15,7 @@
       "entry_price_eur": 139.55410130145248,
       "entry_ts": 1791438339.0626469,
       "cost_eur": 21.84385455994158,
-      "last_price_eur": 153.31990452279828,
+      "last_price_eur": 152.22513563146566,
       "last_score": 70.5,
       "missed_updates": 0,
       "entry_market_cap": 42230960,
@@ -56,7 +56,7 @@
           "source": "ForkLog"
         }
       ],
-      "last_market_cap": 46381417
+      "last_market_cap": 46314729
     },
     "cex_small_cap:moonbeam": {
       "tier": "cex_small_cap",
@@ -68,8 +68,8 @@
       "entry_price_eur": 0.011072259986048709,
       "entry_ts": 1791442975.9938753,
       "cost_eur": 22.421998513115785,
-      "last_price_eur": 0.010567468841801951,
-      "last_score": 41.9,
+      "last_price_eur": 0.010438013854729755,
+      "last_score": 41.5,
       "missed_updates": 0,
       "entry_market_cap": 13632179,
       "entry_venue": "BtcTurk | Kripto",
@@ -98,7 +98,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 13025134
+      "last_market_cap": 12893989
     },
     "cex_small_cap:origin-protocol": {
       "tier": "cex_small_cap",
@@ -110,7 +110,7 @@
       "entry_price_eur": 0.030155522772187537,
       "entry_ts": 1791457324.5168383,
       "cost_eur": 22.164182068092874,
-      "last_price_eur": 0.03155668282763725,
+      "last_price_eur": 0.03198812266255733,
       "last_score": 99.8,
       "missed_updates": 0,
       "entry_market_cap": 23363221,
@@ -132,7 +132,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 24474226
+      "last_market_cap": 24747323
     }
   },
   "closed_trades": [
@@ -3204,8 +3204,8 @@
       "pnl_pct": -8.294733305983684
     }
   ],
-  "last_run_ts": 1791459035.0075831,
-  "last_eur_rate": 0.8947239993160497,
+  "last_run_ts": 1791459318.253211,
+  "last_eur_rate": 0.8945999978341894,
   "last_rotation_ts": 1791438339.0626469,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
