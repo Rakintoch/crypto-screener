@@ -15,7 +15,7 @@
       "entry_price_eur": 139.55410130145248,
       "entry_ts": 1791438339.0626469,
       "cost_eur": 21.84385455994158,
-      "last_price_eur": 145.71993835797878,
+      "last_price_eur": 144.9778163899006,
       "last_score": 71.3,
       "missed_updates": 0,
       "entry_market_cap": 42230960,
@@ -56,7 +56,7 @@
           "source": "ForkLog"
         }
       ],
-      "last_market_cap": 44268971
+      "last_market_cap": 44048005
     }
   },
   "closed_trades": [
@@ -3306,8 +3306,8 @@
       "pnl_pct": -12.371439773773515
     }
   ],
-  "last_run_ts": 1791485424.3408725,
-  "last_eur_rate": 0.8923449991303047,
+  "last_run_ts": 1791485720.146945,
+  "last_eur_rate": 0.8922809969836325,
   "last_rotation_ts": 1791438339.0626469,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
