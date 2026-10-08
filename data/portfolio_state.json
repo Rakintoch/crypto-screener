@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 88.94716431126665,
+  "cash_eur": 67.19409808833302,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:aeon-3": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.06313623854257294,
       "entry_ts": 1791342221.2207563,
       "cost_eur": 11.501678892096812,
-      "last_price_eur": 0.05886914487320984,
-      "last_score": 44.4,
+      "last_price_eur": 0.05893462292138221,
+      "last_score": 33.1,
       "missed_updates": 0,
       "entry_market_cap": 16722560,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 15550282
+      "last_market_cap": 15567555
     },
     "cex_small_cap:brew": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.011415348651618213,
       "entry_ts": 1791402234.6949036,
       "cost_eur": 23.3366421129381,
-      "last_price_eur": 0.011898242640779681,
-      "last_score": 38.3,
+      "last_price_eur": 0.011796250530088377,
+      "last_score": 37.5,
       "missed_updates": 0,
       "entry_market_cap": 11715319,
       "entry_venue": null,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12219106
+      "last_market_cap": 12114289
     },
     "cex_small_cap:gitcoin": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.16574207968671617,
       "entry_ts": 1791414177.476191,
       "cost_eur": 22.209339723471903,
-      "last_price_eur": 0.16093814870006887,
-      "last_score": 66.0,
+      "last_price_eur": 0.15837151615173822,
+      "last_score": 59.7,
       "missed_updates": 0,
       "entry_market_cap": 16339269,
       "entry_venue": "Bithumb",
@@ -105,7 +105,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 15777914
+      "last_market_cap": 15526285
+    },
+    "cex_small_cap:zeus-network": {
+      "tier": "cex_small_cap",
+      "id": "zeus-network",
+      "symbol": "ZEUS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/zeus-network",
+      "qty": 1850.61846736357,
+      "entry_price_eur": 0.01175448457181101,
+      "entry_ts": 1791435774.6514978,
+      "cost_eur": 21.753066222933622,
+      "last_price_eur": 0.01175448457181101,
+      "last_score": 99.7,
+      "missed_updates": 0,
+      "entry_market_cap": 12237917,
+      "entry_venue": "Gate",
+      "entry_contract_address": "ZEUS1aR7aX8DFFJf5QjWj2ftDDdNTroMNGo8YoQm3Gq (Solana)",
+      "entry_score": 99.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 58298707,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 9.0519,
+      "entry_chg_24h": 104.04507,
+      "entry_chg_7d": 483.9317,
+      "entry_chg_6h": null,
+      "entry_turnover": 4.763776956486958,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -3015,8 +3048,8 @@
       "pnl_pct": -8.708781101156571
     }
   ],
-  "last_run_ts": 1791435317.9777458,
-  "last_eur_rate": 0.8924299988358955,
+  "last_run_ts": 1791435774.6514978,
+  "last_eur_rate": 0.8924350059266213,
   "last_rotation_ts": 1791121206.7815578,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,

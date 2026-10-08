@@ -90,8 +90,8 @@
     "symbol": "BDAG"
   },
   "cex_small_cap:saga-2": {
-    "last_alert_ts": 1791263001.2327242,
-    "last_score": 64.0,
+    "last_alert_ts": 1791435774.2482948,
+    "last_score": 56.1,
     "symbol": "SAGA"
   },
   "cex_small_cap:mubarak": {
@@ -175,8 +175,8 @@
     "symbol": "AIN"
   },
   "dex_micro_cap:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": {
-    "last_alert_ts": 1791270146.876293,
-    "last_score": 89.8,
+    "last_alert_ts": 1791435774.2482948,
+    "last_score": 75.7,
     "symbol": "swordcat"
   },
   "dex_micro_cap:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
@@ -540,8 +540,8 @@
     "symbol": "SN116"
   },
   "cex_small_cap:zeus-network": {
-    "last_alert_ts": 1791414177.070825,
-    "last_score": 82.8,
+    "last_alert_ts": 1791435774.2482948,
+    "last_score": 99.7,
     "symbol": "ZEUS"
   },
   "cex_small_cap:creo-engine": {
@@ -1018,5 +1018,10 @@
     "last_alert_ts": 1791428602.359807,
     "last_score": 60.3,
     "symbol": "GSTOCK"
+  },
+  "cex_small_cap:ninjacat-2": {
+    "last_alert_ts": 1791435774.2482948,
+    "last_score": 83.9,
+    "symbol": "NINJACAT"
   }
 }
