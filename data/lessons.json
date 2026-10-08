@@ -5995,5 +5995,35 @@
     "categoria": "other",
     "velocidade_queda": "slow (>6h)",
     "licao": "AEON (cex_small_cap) lost -6.0% in 1440 min (slow (>6h)) — other. Entry score: 84 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791434116.5960262,
+    "symbol": "SI276",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/12jc1DzJpzbCDaKuM4brAKh9jcFry2TLG1FfGsL4ftCG",
+    "held_minutes": 273.6,
+    "exit_reason": "momentum thesis invalidated (score dropped to 29)",
+    "pnl_pct": -8.71,
+    "pnl_eur": -1.54,
+    "entry_score": 83.3,
+    "entry_liquidity_usd": 61662.6807,
+    "entry_volume_24h_usd": 700440.732619137,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 2.133,
+    "entry_chg_24h": 102.436,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 115.786,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 11.359232596891252,
+    "entry_boosted": true,
+    "entry_pool_age_minutes": 1714.9804090833334,
+    "entry_base_breakout": {
+      "is_breakout": true,
+      "pre_window_move_pct": -6.2
+    },
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "SI276 (dex_micro_cap) lost -8.7% in 274 min (fast (1-6h)) — momentum thesis invalidated (score dropped). Entry liquidity: $61,663. Entry score: 83 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
