@@ -1477,5 +1477,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "ZEUS (cex_small_cap) gained +11.5% in 142 min — trailing stop caught extra upside after the target. Entry score: 100. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791465622.43667,
+    "symbol": "OGN",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/origin-protocol",
+    "held_minutes": 138.3,
+    "exit_reason": "trailing stop hit — dropped 7.2% from the peak (peak +34.4% since entry)",
+    "pnl_pct": 24.7,
+    "pnl_eur": 5.47,
+    "entry_score": 90.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 63524000,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.4907,
+    "entry_chg_24h": 60.51078,
+    "entry_chg_7d": 32.0847,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.7189744085372474,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "OGN (cex_small_cap) gained +24.7% in 138 min — trailing stop caught extra upside after the target. Entry score: 91. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
