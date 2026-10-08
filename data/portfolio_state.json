@@ -15,8 +15,8 @@
       "entry_price_eur": 139.55410130145248,
       "entry_ts": 1791438339.0626469,
       "cost_eur": 21.84385455994158,
-      "last_price_eur": 143.94737077669933,
-      "last_score": 65.1,
+      "last_price_eur": 143.2474748728999,
+      "last_score": 69.3,
       "missed_updates": 0,
       "entry_market_cap": 42230960,
       "entry_venue": "Near Intents",
@@ -56,7 +56,7 @@
           "source": "ForkLog"
         }
       ],
-      "last_market_cap": 43601384
+      "last_market_cap": 43442684
     },
     "cex_small_cap:origin-protocol": {
       "tier": "cex_small_cap",
@@ -68,7 +68,7 @@
       "entry_price_eur": 0.030155522772187537,
       "entry_ts": 1791457324.5168383,
       "cost_eur": 22.164182068092874,
-      "last_price_eur": 0.03463120568018153,
+      "last_price_eur": 0.03365175937014159,
       "last_score": 99.8,
       "missed_updates": 0,
       "entry_market_cap": 23363221,
@@ -90,7 +90,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 26893372
+      "last_market_cap": 26249894
     }
   },
   "closed_trades": [
@@ -3210,8 +3210,8 @@
       "pnl_pct": -8.035606720372677
     }
   ],
-  "last_run_ts": 1791461724.9671147,
-  "last_eur_rate": 0.8939719958806318,
+  "last_run_ts": 1791462023.3433363,
+  "last_eur_rate": 0.8938999992068636,
   "last_rotation_ts": 1791438339.0626469,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
