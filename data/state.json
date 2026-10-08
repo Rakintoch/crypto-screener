@@ -115,8 +115,8 @@
     "symbol": "ACT"
   },
   "cex_small_cap:pop-2": {
-    "last_alert_ts": 1791299008.8157883,
-    "last_score": 55.6,
+    "last_alert_ts": 1791417702.892186,
+    "last_score": 60.2,
     "symbol": "POP"
   },
   "cex_small_cap:baton-3": {
@@ -204,11 +204,6 @@
     "last_score": 55.4,
     "symbol": "COLLECT"
   },
-  "cex_small_cap:super-iguana": {
-    "last_alert_ts": 1791154979.265777,
-    "last_score": 58.3,
-    "symbol": "SI"
-  },
   "cex_small_cap:particle-network": {
     "last_alert_ts": 1791399813.8116958,
     "last_score": 62.5,
@@ -288,11 +283,6 @@
     "last_alert_ts": 1791198201.7301817,
     "last_score": 71.1,
     "symbol": "Ash"
-  },
-  "cex_small_cap:portal-2": {
-    "last_alert_ts": 1791154979.265777,
-    "last_score": 74.7,
-    "symbol": "PORTAL"
   },
   "cex_small_cap:orca": {
     "last_alert_ts": 1791205409.76069,
@@ -545,8 +535,8 @@
     "symbol": "DIA"
   },
   "cex_small_cap:endurance": {
-    "last_alert_ts": 1791299008.8157883,
-    "last_score": 56.1,
+    "last_alert_ts": 1791417702.892186,
+    "last_score": 60.7,
     "symbol": "ACE"
   },
   "cex_small_cap:bundle-cat": {
@@ -845,8 +835,8 @@
     "symbol": "BI"
   },
   "cex_small_cap:aia": {
-    "last_alert_ts": 1791342220.8570735,
-    "last_score": 65.4,
+    "last_alert_ts": 1791417702.892186,
+    "last_score": 56.5,
     "symbol": "AIA"
   },
   "dex_micro_cap:HzYCHqAN2uoHGRnL9v2ChCfFQX3bvJuJd5zu2Hd5MZQy": {
@@ -880,8 +870,8 @@
     "symbol": "CLO"
   },
   "cex_small_cap:quantus": {
-    "last_alert_ts": 1791402234.1161437,
-    "last_score": 62.5,
+    "last_alert_ts": 1791417702.892186,
+    "last_score": 78.3,
     "symbol": "QTC"
   },
   "cex_small_cap:redteam": {
@@ -890,8 +880,8 @@
     "symbol": "SN61"
   },
   "cex_small_cap:sharex-2": {
-    "last_alert_ts": 1791371022.1403341,
-    "last_score": 75.0,
+    "last_alert_ts": 1791417702.892186,
+    "last_score": 61.9,
     "symbol": "SHARE"
   },
   "dex_micro_cap:0x75e2fc69ff2ac12af65ba7d321bbf4f878c535d2": {
@@ -1048,5 +1038,15 @@
     "last_alert_ts": 1791414177.070825,
     "last_score": 57.7,
     "symbol": "BASECAT"
+  },
+  "cex_small_cap:wormhole": {
+    "last_alert_ts": 1791417702.892186,
+    "last_score": 59.3,
+    "symbol": "W"
+  },
+  "cex_small_cap:hunter-biden-s-laptop-3": {
+    "last_alert_ts": 1791417702.892186,
+    "last_score": 55.8,
+    "symbol": "LAPTOP"
   }
 }
