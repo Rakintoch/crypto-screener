@@ -309,11 +309,6 @@
     "last_score": 55.2,
     "symbol": "EGO"
   },
-  "cex_small_cap:argentine-football-association-fan-token": {
-    "last_alert_ts": 1791176576.502748,
-    "last_score": 55.3,
-    "symbol": "ARG"
-  },
   "cex_small_cap:super-inu-force": {
     "last_alert_ts": 1791299008.8157883,
     "last_score": 71.6,
@@ -365,8 +360,8 @@
     "symbol": "TRUMP"
   },
   "cex_small_cap:elizaos": {
-    "last_alert_ts": 1791376506.9355774,
-    "last_score": 100.0,
+    "last_alert_ts": 1791438338.5541563,
+    "last_score": 93.5,
     "symbol": "ELIZAOS"
   },
   "cex_small_cap:binance-cat": {
@@ -565,8 +560,8 @@
     "symbol": "OTC"
   },
   "cex_small_cap:pnetwork": {
-    "last_alert_ts": 1791270146.876293,
-    "last_score": 66.1,
+    "last_alert_ts": 1791438338.5541563,
+    "last_score": 63.6,
     "symbol": "PNT"
   },
   "cex_small_cap:band-protocol": {
@@ -825,8 +820,8 @@
     "symbol": "CLO"
   },
   "cex_small_cap:quantus": {
-    "last_alert_ts": 1791417702.892186,
-    "last_score": 78.3,
+    "last_alert_ts": 1791438338.5541563,
+    "last_score": 94.8,
     "symbol": "QTC"
   },
   "cex_small_cap:redteam": {
@@ -900,8 +895,8 @@
     "symbol": "BUNKER"
   },
   "cex_small_cap:apm-fashion": {
-    "last_alert_ts": 1791399813.8116958,
-    "last_score": 68.6,
+    "last_alert_ts": 1791438338.5541563,
+    "last_score": 84.7,
     "symbol": "APM"
   },
   "cex_small_cap:hemi": {
@@ -955,8 +950,8 @@
     "symbol": "NEARKAT"
   },
   "cex_small_cap:marina-protocol": {
-    "last_alert_ts": 1791406932.724667,
-    "last_score": 63.4,
+    "last_alert_ts": 1791438338.5541563,
+    "last_score": 79.4,
     "symbol": "BAY"
   },
   "dex_micro_cap:0x7ab8d02cbb51ff7223fde700eaaa2a91bf750314": {
@@ -1023,5 +1018,35 @@
     "last_alert_ts": 1791435774.2482948,
     "last_score": 83.9,
     "symbol": "NINJACAT"
+  },
+  "cex_small_cap:orochi-network": {
+    "last_alert_ts": 1791438338.5541563,
+    "last_score": 66.7,
+    "symbol": "ON"
+  },
+  "cex_small_cap:jean-phil": {
+    "last_alert_ts": 1791438338.5541563,
+    "last_score": 66.5,
+    "symbol": "JEANPHIL"
+  },
+  "dex_micro_cap:85WdpEBNDSN9oNkPomBGspnBZsaKb7WF1NQ51pdouxML": {
+    "last_alert_ts": 1791438338.5541563,
+    "last_score": 58.2,
+    "symbol": "HASHERS"
+  },
+  "cex_small_cap:fc-porto": {
+    "last_alert_ts": 1791438338.5541563,
+    "last_score": 55.5,
+    "symbol": "PORTO"
+  },
+  "cex_small_cap:nomina": {
+    "last_alert_ts": 1791438338.5541563,
+    "last_score": 55.3,
+    "symbol": "NOM"
+  },
+  "cex_small_cap:tradr-2x-long-sndk-etf-bstocks-tokenized-stock": {
+    "last_alert_ts": 1791438338.5541563,
+    "last_score": 55.2,
+    "symbol": "SNXXB"
   }
 }
