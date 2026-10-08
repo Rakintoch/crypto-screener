@@ -1,7 +1,7 @@
 {
   "cex_small_cap:sudeng": {
-    "last_alert_ts": 1791402234.1161437,
-    "last_score": 55.0,
+    "last_alert_ts": 1791421379.15131,
+    "last_score": 82.6,
     "symbol": "HIPPO"
   },
   "cex_small_cap:moonriver": {
@@ -120,8 +120,8 @@
     "symbol": "POP"
   },
   "cex_small_cap:baton-3": {
-    "last_alert_ts": 1791349373.4815204,
-    "last_score": 75.8,
+    "last_alert_ts": 1791421379.15131,
+    "last_score": 57.4,
     "symbol": "BATON"
   },
   "cex_small_cap:sapling": {
@@ -229,11 +229,6 @@
     "last_score": 73.5,
     "symbol": "NET"
   },
-  "cex_small_cap:pha": {
-    "last_alert_ts": 1791159978.1917856,
-    "last_score": 55.6,
-    "symbol": "PHA"
-  },
   "cex_small_cap:definitive": {
     "last_alert_ts": 1791356574.1306055,
     "last_score": 59.9,
@@ -289,25 +284,10 @@
     "last_score": 59.4,
     "symbol": "ORCA"
   },
-  "dex_micro_cap:0x48619b0dd0680f2c9dcfdaacde80a3a732497777": {
-    "last_alert_ts": 1791159978.1917856,
-    "last_score": 94.6,
-    "symbol": "BVeil"
-  },
   "cex_small_cap:yolo-2": {
     "last_alert_ts": 1791414177.070825,
     "last_score": 58.7,
     "symbol": "YOLO"
-  },
-  "cex_small_cap:blast": {
-    "last_alert_ts": 1791159978.1917856,
-    "last_score": 73.5,
-    "symbol": "BLAST"
-  },
-  "cex_small_cap:helium": {
-    "last_alert_ts": 1791159978.1917856,
-    "last_score": 62.7,
-    "symbol": "HNT"
   },
   "cex_small_cap:a-meme-coin": {
     "last_alert_ts": 1791275509.4551365,
@@ -540,8 +520,8 @@
     "symbol": "ACE"
   },
   "cex_small_cap:bundle-cat": {
-    "last_alert_ts": 1791320602.0064495,
-    "last_score": 66.1,
+    "last_alert_ts": 1791421379.15131,
+    "last_score": 60.9,
     "symbol": "BUN"
   },
   "cex_small_cap:vethor-token": {
@@ -835,8 +815,8 @@
     "symbol": "BI"
   },
   "cex_small_cap:aia": {
-    "last_alert_ts": 1791417702.892186,
-    "last_score": 56.5,
+    "last_alert_ts": 1791421379.15131,
+    "last_score": 73.4,
     "symbol": "AIA"
   },
   "dex_micro_cap:HzYCHqAN2uoHGRnL9v2ChCfFQX3bvJuJd5zu2Hd5MZQy": {
@@ -900,8 +880,8 @@
     "symbol": "BAR"
   },
   "dex_micro_cap:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-    "last_alert_ts": 1791376506.9355774,
-    "last_score": 67.0,
+    "last_alert_ts": 1791421379.15131,
+    "last_score": 67.9,
     "symbol": "CLAUDIA"
   },
   "cex_small_cap:superform": {
@@ -915,8 +895,8 @@
     "symbol": "SWORDINU"
   },
   "cex_small_cap:selfmade-by-sp3nd": {
-    "last_alert_ts": 1791378177.5177104,
-    "last_score": 91.6,
+    "last_alert_ts": 1791421379.15131,
+    "last_score": 88.2,
     "symbol": "MADE"
   },
   "cex_small_cap:sandisk-bstocks-tokenized-stock": {
@@ -1048,5 +1028,10 @@
     "last_alert_ts": 1791417702.892186,
     "last_score": 55.8,
     "symbol": "LAPTOP"
+  },
+  "cex_small_cap:squid-3": {
+    "last_alert_ts": 1791421379.15131,
+    "last_score": 69.8,
+    "symbol": "QUID"
   }
 }
