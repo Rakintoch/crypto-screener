@@ -1,7 +1,7 @@
 {
   "cex_small_cap:sudeng": {
-    "last_alert_ts": 1791421379.15131,
-    "last_score": 82.6,
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 65.5,
     "symbol": "HIPPO"
   },
   "cex_small_cap:moonriver": {
@@ -155,8 +155,8 @@
     "symbol": "SPCXC"
   },
   "cex_small_cap:cat-wif-sword-2": {
-    "last_alert_ts": 1791457323.957506,
-    "last_score": 61.8,
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 95.2,
     "symbol": "SWORDCAT"
   },
   "cex_small_cap:vaiot": {
@@ -240,8 +240,8 @@
     "symbol": "SN113"
   },
   "cex_small_cap:yolo-2": {
-    "last_alert_ts": 1791414177.070825,
-    "last_score": 58.7,
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 58.1,
     "symbol": "YOLO"
   },
   "cex_small_cap:a-meme-coin": {
@@ -275,13 +275,13 @@
     "symbol": "BONE"
   },
   "cex_small_cap:iexec-rlc": {
-    "last_alert_ts": 1791471816.5899048,
-    "last_score": 68.9,
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 87.6,
     "symbol": "RLC"
   },
   "cex_small_cap:hot-bot": {
-    "last_alert_ts": 1791306186.2356765,
-    "last_score": 81.6,
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 74.0,
     "symbol": "HOTBOT"
   },
   "cex_small_cap:elizaos": {
@@ -875,8 +875,8 @@
     "symbol": "ZZZ"
   },
   "cex_small_cap:lazio-fan-token": {
-    "last_alert_ts": 1791406932.724667,
-    "last_score": 58.2,
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 74.2,
     "symbol": "LAZIO"
   },
   "cex_small_cap:yom": {
@@ -1078,5 +1078,60 @@
     "last_alert_ts": 1791471816.5899048,
     "last_score": 57.5,
     "symbol": "BOME"
+  },
+  "dex_micro_cap:BLXhcFAtJpCM3HCbdzvr8F3JwGqdMGkAoLXuRmXLpump": {
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 86.6,
+    "symbol": "SENTS"
+  },
+  "cex_small_cap:amp-token": {
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 79.6,
+    "symbol": "AMP"
+  },
+  "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 72.9,
+    "symbol": "SOXSB"
+  },
+  "cex_small_cap:aspecta": {
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 72.4,
+    "symbol": "ASP"
+  },
+  "cex_small_cap:publicai": {
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 71.3,
+    "symbol": "PUBLIC"
+  },
+  "cex_small_cap:jotchua": {
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 70.7,
+    "symbol": "JOTCHUA"
+  },
+  "cex_small_cap:audius": {
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 67.6,
+    "symbol": "AUDIO"
+  },
+  "cex_small_cap:memestock-3": {
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 66.4,
+    "symbol": "MEMESTOCK"
+  },
+  "cex_small_cap:rock-dao": {
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 59.3,
+    "symbol": "ROCK"
+  },
+  "dex_micro_cap:C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE": {
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 56.4,
+    "symbol": "HOOKED"
+  },
+  "cex_small_cap:united-founders-group": {
+    "last_alert_ts": 1791478949.8311546,
+    "last_score": 55.7,
+    "symbol": "UFG"
   }
 }
