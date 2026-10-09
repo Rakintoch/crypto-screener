@@ -1581,5 +1581,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "RLC (cex_small_cap) gained +41.1% in 670 min — trailing stop caught extra upside after the target. Entry score: 86. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791549316.9183981,
+    "symbol": "HOOKED",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/hooked",
+    "held_minutes": 248.8,
+    "exit_reason": "trailing stop hit — dropped 8.9% from the peak (peak +29.5% since entry)",
+    "pnl_pct": 18.05,
+    "pnl_eur": 4.06,
+    "entry_score": 88.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 6391330,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.2059,
+    "entry_chg_24h": 18.25942,
+    "entry_chg_7d": 63.8522,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.7760532366160192,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "HOOKED (cex_small_cap) gained +18.1% in 249 min — trailing stop caught extra upside after the target. Entry score: 88. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
