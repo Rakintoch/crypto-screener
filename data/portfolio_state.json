@@ -15,7 +15,7 @@
       "entry_price_eur": 139.55410130145248,
       "entry_ts": 1791438339.0626469,
       "cost_eur": 21.84385455994158,
-      "last_price_eur": 140.94506667747814,
+      "last_price_eur": 140.81001925910448,
       "last_score": 66.5,
       "missed_updates": 0,
       "entry_market_cap": 42230960,
@@ -56,7 +56,7 @@
           "source": "ForkLog"
         }
       ],
-      "last_market_cap": 43089045
+      "last_market_cap": 42989137
     },
     "cex_small_cap:iexec-rlc": {
       "tier": "cex_small_cap",
@@ -68,7 +68,7 @@
       "entry_price_eur": 0.7953553248750568,
       "entry_ts": 1791488425.256017,
       "cost_eur": 21.838717354494495,
-      "last_price_eur": 0.8292000844423186,
+      "last_price_eur": 0.8216198258573361,
       "last_score": 99.3,
       "missed_updates": 0,
       "entry_market_cap": 76461833,
@@ -90,7 +90,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 81303549
+      "last_market_cap": 80373573
     },
     "cex_small_cap:elysia": {
       "tier": "cex_small_cap",
@@ -102,8 +102,8 @@
       "entry_price_eur": 0.002179022202790478,
       "entry_ts": 1791514992.4385161,
       "cost_eur": 22.32788076435959,
-      "last_price_eur": 0.0021275738879312864,
-      "last_score": 63.8,
+      "last_price_eur": 0.002059191753775833,
+      "last_score": 63.4,
       "missed_updates": 0,
       "entry_market_cap": 16620922,
       "entry_venue": "Bithumb",
@@ -124,7 +124,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 15890974
+      "last_market_cap": 15919776
     },
     "cex_small_cap:saros-finance": {
       "tier": "cex_small_cap",
@@ -136,8 +136,8 @@
       "entry_price_eur": 0.000444016242773349,
       "entry_ts": 1791514992.4385161,
       "cost_eur": 22.32788076435959,
-      "last_price_eur": 0.00043277671781855915,
-      "last_score": 84.8,
+      "last_price_eur": 0.0004269553623755057,
+      "last_score": 84.6,
       "missed_updates": 0,
       "entry_market_cap": 1308632,
       "entry_venue": "Saros AMM",
@@ -158,7 +158,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1277105
+      "last_market_cap": 1257801
     }
   },
   "closed_trades": [
@@ -3530,8 +3530,8 @@
       "pnl_pct": 39.298608475842556
     }
   ],
-  "last_run_ts": 1791516021.8929472,
-  "last_eur_rate": 0.8908170059251558,
+  "last_run_ts": 1791516319.7340667,
+  "last_eur_rate": 0.8908079917701303,
   "last_rotation_ts": 1791438339.0626469,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
