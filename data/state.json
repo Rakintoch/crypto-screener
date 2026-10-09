@@ -60,8 +60,8 @@
     "symbol": "龙虾"
   },
   "cex_small_cap:priors-agent": {
-    "last_alert_ts": 1791399813.8116958,
-    "last_score": 68.8,
+    "last_alert_ts": 1791579830.1009276,
+    "last_score": 84.0,
     "symbol": "PRIORS"
   },
   "cex_small_cap:blockdag": {
@@ -160,8 +160,8 @@
     "symbol": "EDGE"
   },
   "cex_small_cap:aeon-3": {
-    "last_alert_ts": 1791534384.570886,
-    "last_score": 65.7,
+    "last_alert_ts": 1791579830.1009276,
+    "last_score": 58.6,
     "symbol": "AEON"
   },
   "cex_small_cap:marlin": {
@@ -210,13 +210,13 @@
     "symbol": "CALI"
   },
   "cex_small_cap:api3": {
-    "last_alert_ts": 1791529408.233727,
-    "last_score": 60.6,
+    "last_alert_ts": 1791579830.1009276,
+    "last_score": 61.2,
     "symbol": "API3"
   },
   "cex_small_cap:griffain": {
-    "last_alert_ts": 1791529408.233727,
-    "last_score": 58.3,
+    "last_alert_ts": 1791579830.1009276,
+    "last_score": 60.7,
     "symbol": "GRIFFAIN"
   },
   "cex_small_cap:coin98": {
@@ -329,11 +329,6 @@
     "last_score": 55.6,
     "symbol": "BASED"
   },
-  "cex_small_cap:storj": {
-    "last_alert_ts": 1791320602.0064495,
-    "last_score": 55.7,
-    "symbol": "STORJ"
-  },
   "cex_small_cap:forta": {
     "last_alert_ts": 1791564526.1605837,
     "last_score": 77.1,
@@ -420,8 +415,8 @@
     "symbol": "SN61"
   },
   "cex_small_cap:sharex-2": {
-    "last_alert_ts": 1791534384.570886,
-    "last_score": 82.7,
+    "last_alert_ts": 1791579830.1009276,
+    "last_score": 58.9,
     "symbol": "SHARE"
   },
   "dex_micro_cap:0x75e2fc69ff2ac12af65ba7d321bbf4f878c535d2": {
@@ -580,8 +575,8 @@
     "symbol": "BASECAT"
   },
   "cex_small_cap:wormhole": {
-    "last_alert_ts": 1791529408.233727,
-    "last_score": 65.5,
+    "last_alert_ts": 1791579830.1009276,
+    "last_score": 65.1,
     "symbol": "W"
   },
   "cex_small_cap:hunter-biden-s-laptop-3": {
@@ -615,8 +610,8 @@
     "symbol": "ON"
   },
   "cex_small_cap:jean-phil": {
-    "last_alert_ts": 1791529408.233727,
-    "last_score": 75.9,
+    "last_alert_ts": 1791579830.1009276,
+    "last_score": 80.2,
     "symbol": "JEANPHIL"
   },
   "dex_micro_cap:85WdpEBNDSN9oNkPomBGspnBZsaKb7WF1NQ51pdouxML": {
@@ -790,8 +785,8 @@
     "symbol": "PUBLIC"
   },
   "cex_small_cap:jotchua": {
-    "last_alert_ts": 1791478949.8311546,
-    "last_score": 70.7,
+    "last_alert_ts": 1791579830.1009276,
+    "last_score": 59.8,
     "symbol": "JOTCHUA"
   },
   "cex_small_cap:audius": {
@@ -1035,13 +1030,33 @@
     "symbol": "HUMA"
   },
   "cex_small_cap:stepn": {
-    "last_alert_ts": 1791572620.6544776,
-    "last_score": 58.4,
+    "last_alert_ts": 1791579830.1009276,
+    "last_score": 78.6,
     "symbol": "GMT"
   },
   "cex_small_cap:bordrless": {
     "last_alert_ts": 1791572620.6544776,
     "last_score": 55.0,
     "symbol": "BORDR"
+  },
+  "cex_small_cap:ulti": {
+    "last_alert_ts": 1791579830.1009276,
+    "last_score": 68.7,
+    "symbol": "ULTI"
+  },
+  "cex_small_cap:a-meme-coin": {
+    "last_alert_ts": 1791579830.1009276,
+    "last_score": 60.4,
+    "symbol": "AMC"
+  },
+  "cex_small_cap:xai-blockchain": {
+    "last_alert_ts": 1791579830.1009276,
+    "last_score": 55.2,
+    "symbol": "XAI"
+  },
+  "cex_small_cap:pqc-market": {
+    "last_alert_ts": 1791579830.1009276,
+    "last_score": 55.0,
+    "symbol": "PQC"
   }
 }
