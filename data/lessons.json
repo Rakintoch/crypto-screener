@@ -6268,5 +6268,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "QTC (cex_small_cap) lost -8.1% in 1365 min (slow (>6h)) — stop-loss hit. Entry score: 95 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791525916.3753934,
+    "symbol": "EL",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/elysia",
+    "held_minutes": 182.1,
+    "exit_reason": "stop-loss hit (-9.1%)",
+    "pnl_pct": -9.13,
+    "pnl_eur": -2.04,
+    "entry_score": 86.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 11157830,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.9455,
+    "entry_chg_24h": 53.11662,
+    "entry_chg_7d": 40.9611,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.6713123375466175,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "EL (cex_small_cap) lost -9.1% in 182 min (fast (1-6h)) — stop-loss hit. Entry score: 87 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
