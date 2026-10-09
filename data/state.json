@@ -179,11 +179,6 @@
     "last_score": 58.1,
     "symbol": "YOLO"
   },
-  "cex_small_cap:super-inu-force": {
-    "last_alert_ts": 1791299008.8157883,
-    "last_score": 71.6,
-    "symbol": "SIF"
-  },
   "cex_small_cap:iexec-rlc": {
     "last_alert_ts": 1791529408.233727,
     "last_score": 100.0,
@@ -199,11 +194,6 @@
     "last_score": 69.7,
     "symbol": "ELIZAOS"
   },
-  "cex_small_cap:binance-cat": {
-    "last_alert_ts": 1791299008.8157883,
-    "last_score": 71.6,
-    "symbol": "BNBCAT"
-  },
   "cex_small_cap:edu-coin": {
     "last_alert_ts": 1791536637.497584,
     "last_score": 57.3,
@@ -215,8 +205,8 @@
     "symbol": "OGN"
   },
   "cex_small_cap:radicle": {
-    "last_alert_ts": 1791550996.4701264,
-    "last_score": 56.1,
+    "last_alert_ts": 1791558211.8899288,
+    "last_score": 87.5,
     "symbol": "RAD"
   },
   "cex_small_cap:cali": {
@@ -319,40 +309,10 @@
     "last_score": 71.6,
     "symbol": "SI"
   },
-  "cex_small_cap:tellor": {
-    "last_alert_ts": 1791299008.8157883,
-    "last_score": 69.9,
-    "symbol": "TRB"
-  },
-  "cex_small_cap:zelcash": {
-    "last_alert_ts": 1791299008.8157883,
-    "last_score": 65.8,
-    "symbol": "FLUX"
-  },
   "dex_micro_cap:5VnbrKp28Qs9CAH6PyZdxBNvLxZcbeX3YBsozgWnpump": {
     "last_alert_ts": 1791345762.761102,
     "last_score": 65.0,
     "symbol": "darwin"
-  },
-  "cex_small_cap:burnie-senders": {
-    "last_alert_ts": 1791299008.8157883,
-    "last_score": 64.4,
-    "symbol": "BURNIE"
-  },
-  "cex_small_cap:digitalbits": {
-    "last_alert_ts": 1791299008.8157883,
-    "last_score": 59.9,
-    "symbol": "XDB"
-  },
-  "cex_small_cap:lumentum-holdings-bstocks-tokenized-stock": {
-    "last_alert_ts": 1791299008.8157883,
-    "last_score": 57.7,
-    "symbol": "LITEB"
-  },
-  "cex_small_cap:boundless": {
-    "last_alert_ts": 1791299008.8157883,
-    "last_score": 57.1,
-    "symbol": "ZKC"
   },
   "cex_small_cap:raydium-cat": {
     "last_alert_ts": 1791378177.5177104,
@@ -570,8 +530,8 @@
     "symbol": "RDNT"
   },
   "cex_small_cap:antminer": {
-    "last_alert_ts": 1791550996.4701264,
-    "last_score": 61.6,
+    "last_alert_ts": 1791558211.8899288,
+    "last_score": 81.8,
     "symbol": "ANT"
   },
   "cex_small_cap:darwin-2": {
@@ -1038,5 +998,25 @@
     "last_alert_ts": 1791550996.4701264,
     "last_score": 55.3,
     "symbol": "HYDX"
+  },
+  "dex_micro_cap:7pYdm6bXhVf1J9Qv1fyWB9nkxdnG5RhFKA9yjW1Dpump": {
+    "last_alert_ts": 1791558211.8899288,
+    "last_score": 79.6,
+    "symbol": "open"
+  },
+  "cex_small_cap:levva-protocol": {
+    "last_alert_ts": 1791558211.8899288,
+    "last_score": 68.3,
+    "symbol": "LVVA"
+  },
+  "cex_small_cap:lumentum-holdings-bstocks-tokenized-stock": {
+    "last_alert_ts": 1791558211.8899288,
+    "last_score": 67.5,
+    "symbol": "LITEB"
+  },
+  "cex_small_cap:heima": {
+    "last_alert_ts": 1791558211.8899288,
+    "last_score": 55.2,
+    "symbol": "HEI"
   }
 }
