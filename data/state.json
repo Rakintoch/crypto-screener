@@ -140,8 +140,8 @@
     "symbol": "COLLECT"
   },
   "cex_small_cap:particle-network": {
-    "last_alert_ts": 1791507812.4239097,
-    "last_score": 61.7,
+    "last_alert_ts": 1791564526.1605837,
+    "last_score": 56.3,
     "symbol": "PARTI"
   },
   "dex_micro_cap:BXoHJddsWJLHtAopeiSbKUSELsu8hSFMs8baGMDkpump": {
@@ -235,14 +235,9 @@
     "symbol": "C98"
   },
   "cex_small_cap:cyberconnect": {
-    "last_alert_ts": 1791514991.8354836,
-    "last_score": 65.2,
+    "last_alert_ts": 1791564526.1605837,
+    "last_score": 67.5,
     "symbol": "CYBER"
-  },
-  "cex_small_cap:taoillium": {
-    "last_alert_ts": 1791304179.9404242,
-    "last_score": 61.5,
-    "symbol": "SN109"
   },
   "cex_small_cap:dia-data": {
     "last_alert_ts": 1791471816.5899048,
@@ -263,11 +258,6 @@
     "last_alert_ts": 1791543775.2626898,
     "last_score": 74.1,
     "symbol": "CYBERLEEK"
-  },
-  "cex_small_cap:marinade": {
-    "last_alert_ts": 1791304179.9404242,
-    "last_score": 65.6,
-    "symbol": "MNDE"
   },
   "cex_small_cap:zeus-network": {
     "last_alert_ts": 1791543775.2626898,
@@ -360,8 +350,8 @@
     "symbol": "STORJ"
   },
   "cex_small_cap:forta": {
-    "last_alert_ts": 1791428602.359807,
-    "last_score": 67.7,
+    "last_alert_ts": 1791564526.1605837,
+    "last_score": 77.1,
     "symbol": "FORT"
   },
   "cex_small_cap:aurum-2": {
@@ -400,8 +390,8 @@
     "symbol": "BI"
   },
   "cex_small_cap:aia": {
-    "last_alert_ts": 1791428602.359807,
-    "last_score": 94.7,
+    "last_alert_ts": 1791564526.1605837,
+    "last_score": 55.2,
     "symbol": "AIA"
   },
   "dex_micro_cap:HzYCHqAN2uoHGRnL9v2ChCfFQX3bvJuJd5zu2Hd5MZQy": {
@@ -935,8 +925,8 @@
     "symbol": "PQC"
   },
   "cex_small_cap:doppler-finance": {
-    "last_alert_ts": 1791522171.4947464,
-    "last_score": 58.9,
+    "last_alert_ts": 1791564526.1605837,
+    "last_score": 83.2,
     "symbol": "XDP"
   },
   "cex_small_cap:mileverse": {
@@ -1018,5 +1008,30 @@
     "last_alert_ts": 1791558211.8899288,
     "last_score": 55.2,
     "symbol": "HEI"
+  },
+  "cex_small_cap:depinsim": {
+    "last_alert_ts": 1791564526.1605837,
+    "last_score": 77.2,
+    "symbol": "ESIM"
+  },
+  "cex_small_cap:bitlight": {
+    "last_alert_ts": 1791564526.1605837,
+    "last_score": 68.0,
+    "symbol": "LIGHT"
+  },
+  "cex_small_cap:chromaway": {
+    "last_alert_ts": 1791564526.1605837,
+    "last_score": 63.2,
+    "symbol": "CHR"
+  },
+  "dex_micro_cap:H72pex1VtfY2M7v2Tfk9D9PgvCocRuFN3owCveERSa4s": {
+    "last_alert_ts": 1791564526.1605837,
+    "last_score": 59.2,
+    "symbol": "vamp"
+  },
+  "cex_small_cap:puffer-finance": {
+    "last_alert_ts": 1791564526.1605837,
+    "last_score": 58.5,
+    "symbol": "PUFFER"
   }
 }
