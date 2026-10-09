@@ -15,8 +15,8 @@
     "symbol": "GLMR"
   },
   "cex_small_cap:magic": {
-    "last_alert_ts": 1791529408.233727,
-    "last_score": 87.8,
+    "last_alert_ts": 1791572620.6544776,
+    "last_score": 99.9,
     "symbol": "MAGIC"
   },
   "cex_small_cap:cap-4": {
@@ -35,8 +35,8 @@
     "symbol": "DIMO"
   },
   "cex_small_cap:gitcoin": {
-    "last_alert_ts": 1791529408.233727,
-    "last_score": 92.0,
+    "last_alert_ts": 1791572620.6544776,
+    "last_score": 57.4,
     "symbol": "GTC"
   },
   "cex_small_cap:brew": {
@@ -88,11 +88,6 @@
     "last_alert_ts": 1791536637.497584,
     "last_score": 88.6,
     "symbol": "BATON"
-  },
-  "cex_small_cap:spike-5": {
-    "last_alert_ts": 1791313408.1346896,
-    "last_score": 57.8,
-    "symbol": "SPIKE"
   },
   "cex_small_cap:teller": {
     "last_alert_ts": 1791550996.4701264,
@@ -180,8 +175,8 @@
     "symbol": "YOLO"
   },
   "cex_small_cap:iexec-rlc": {
-    "last_alert_ts": 1791529408.233727,
-    "last_score": 100.0,
+    "last_alert_ts": 1791572620.6544776,
+    "last_score": 72.8,
     "symbol": "RLC"
   },
   "cex_small_cap:hot-bot": {
@@ -200,8 +195,8 @@
     "symbol": "EDU"
   },
   "cex_small_cap:origin-protocol": {
-    "last_alert_ts": 1791522171.4947464,
-    "last_score": 96.4,
+    "last_alert_ts": 1791572620.6544776,
+    "last_score": 67.1,
     "symbol": "OGN"
   },
   "cex_small_cap:radicle": {
@@ -230,8 +225,8 @@
     "symbol": "C98"
   },
   "cex_small_cap:cyberconnect": {
-    "last_alert_ts": 1791564526.1605837,
-    "last_score": 67.5,
+    "last_alert_ts": 1791572620.6544776,
+    "last_score": 83.0,
     "symbol": "CYBER"
   },
   "cex_small_cap:dia-data": {
@@ -240,8 +235,8 @@
     "symbol": "DIA"
   },
   "cex_small_cap:endurance": {
-    "last_alert_ts": 1791493420.9736164,
-    "last_score": 64.4,
+    "last_alert_ts": 1791572620.6544776,
+    "last_score": 56.7,
     "symbol": "ACE"
   },
   "cex_small_cap:bundle-cat": {
@@ -280,8 +275,8 @@
     "symbol": "phubber"
   },
   "cex_small_cap:talus": {
-    "last_alert_ts": 1791529408.233727,
-    "last_score": 79.8,
+    "last_alert_ts": 1791572620.6544776,
+    "last_score": 70.6,
     "symbol": "US"
   },
   "cex_small_cap:numeraire": {
@@ -323,11 +318,6 @@
     "last_alert_ts": 1791363775.7638848,
     "last_score": 62.3,
     "symbol": "CAESAR"
-  },
-  "dex_micro_cap:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
-    "last_alert_ts": 1791313408.1346896,
-    "last_score": 77.0,
-    "symbol": "PAID"
   },
   "dex_micro_cap:HbPDWSqu8hpVMX6gMjwMDGe5rVgicWo3Qh3Jaojypump": {
     "last_alert_ts": 1791522171.4947464,
@@ -1038,5 +1028,20 @@
     "last_alert_ts": 1791565445.7935133,
     "last_score": 66.8,
     "symbol": "uPEG"
+  },
+  "cex_small_cap:huma-finance": {
+    "last_alert_ts": 1791572620.6544776,
+    "last_score": 59.4,
+    "symbol": "HUMA"
+  },
+  "cex_small_cap:stepn": {
+    "last_alert_ts": 1791572620.6544776,
+    "last_score": 58.4,
+    "symbol": "GMT"
+  },
+  "cex_small_cap:bordrless": {
+    "last_alert_ts": 1791572620.6544776,
+    "last_score": 55.0,
+    "symbol": "BORDR"
   }
 }
