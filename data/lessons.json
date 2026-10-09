@@ -6214,5 +6214,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "MEMESTOCK (cex_small_cap) lost -8.2% in 170 min (fast (1-6h)) — stop-loss hit. Entry score: 85 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791504925.755767,
+    "symbol": "OGN",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/origin-protocol",
+    "held_minutes": 275.0,
+    "exit_reason": "stop-loss hit (-14.3%)",
+    "pnl_pct": -14.26,
+    "pnl_eur": -3.11,
+    "entry_score": 97.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 259986570,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.1974,
+    "entry_chg_24h": 107.37812,
+    "entry_chg_7d": 137.4742,
+    "entry_chg_6h": null,
+    "entry_turnover": 7.617706233533551,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "OGN (cex_small_cap) lost -14.3% in 275 min (fast (1-6h)) — stop-loss hit. Entry score: 97 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
