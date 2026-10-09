@@ -6433,5 +6433,32 @@
     "categoria": "other",
     "velocidade_queda": "slow (>6h)",
     "licao": "BTR (cex_small_cap) lost -2.1% in 518 min (slow (>6h)) — other. Entry score: 87 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791585317.9605358,
+    "symbol": "DRMR",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/derekmercer",
+    "held_minutes": 22.7,
+    "exit_reason": "stop-loss hit (-10.4%)",
+    "pnl_pct": -10.44,
+    "pnl_eur": -2.59,
+    "entry_score": 83.7,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1366297,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 13.3895,
+    "entry_chg_24h": 305.71613,
+    "entry_chg_7d": null,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.1310564800994716,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "DRMR (cex_small_cap) lost -10.4% in 23 min (very fast (<1h)) — stop-loss hit. Entry score: 84 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
