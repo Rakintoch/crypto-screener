@@ -214,11 +214,6 @@
     "last_score": 61.8,
     "symbol": "CALI"
   },
-  "cex_small_cap:octo-protocol": {
-    "last_alert_ts": 1791306186.2356765,
-    "last_score": 56.6,
-    "symbol": "OCTO"
-  },
   "cex_small_cap:api3": {
     "last_alert_ts": 1791529408.233727,
     "last_score": 60.6,
@@ -680,8 +675,8 @@
     "symbol": "SIMD"
   },
   "cex_small_cap:caldera": {
-    "last_alert_ts": 1791500606.8968391,
-    "last_score": 59.0,
+    "last_alert_ts": 1791565445.7935133,
+    "last_score": 57.9,
     "symbol": "ERA"
   },
   "dex_micro_cap:6Mix12LiHrQFojaQEnfPUC65Qkwd6X4Y5Qg93oFbordr": {
@@ -735,8 +730,8 @@
     "symbol": "PLTR"
   },
   "cex_small_cap:cartesi": {
-    "last_alert_ts": 1791522171.4947464,
-    "last_score": 59.7,
+    "last_alert_ts": 1791565445.7935133,
+    "last_score": 62.9,
     "symbol": "CTSI"
   },
   "cex_small_cap:bitlayer-bitvm": {
@@ -1033,5 +1028,15 @@
     "last_alert_ts": 1791564526.1605837,
     "last_score": 58.5,
     "symbol": "PUFFER"
+  },
+  "cex_small_cap:ultcat": {
+    "last_alert_ts": 1791565445.7935133,
+    "last_score": 84.4,
+    "symbol": "ULTCAT"
+  },
+  "dex_micro_cap:0x44b28991b167582f18ba0259e0173176ca125505": {
+    "last_alert_ts": 1791565445.7935133,
+    "last_score": 66.8,
+    "symbol": "uPEG"
   }
 }
