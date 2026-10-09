@@ -15,7 +15,7 @@
       "entry_price_eur": 0.7953553248750568,
       "entry_ts": 1791488425.256017,
       "cost_eur": 21.838717354494495,
-      "last_price_eur": 1.0505882157033175,
+      "last_price_eur": 1.0864441610221602,
       "last_score": 100.0,
       "missed_updates": 0,
       "entry_market_cap": 76461833,
@@ -37,9 +37,9 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 102937616,
+      "last_market_cap": 106160597,
       "trailing_active": true,
-      "trailing_peak_eur": 1.0505882157033175
+      "trailing_peak_eur": 1.0864441610221602
     }
   },
   "closed_trades": [
@@ -3552,8 +3552,8 @@
       "pnl_pct": -9.13425086322233
     }
   ],
-  "last_run_ts": 1791525916.3753934,
-  "last_eur_rate": 0.8903289963587436,
+  "last_run_ts": 1791526222.9333348,
+  "last_eur_rate": 0.8905280008378362,
   "last_rotation_ts": 1791438339.0626469,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
