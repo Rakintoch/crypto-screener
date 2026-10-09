@@ -1529,5 +1529,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "BORDR (dex_micro_cap) gained +39.3% in 76 min — trailing stop caught extra upside after the target. Entry liquidity: $103,457. Entry score: 85. Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1791525648.8487682,
+    "symbol": "SAROS",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/saros-finance",
+    "held_minutes": 177.6,
+    "exit_reason": "trailing stop hit — dropped 9.7% from the peak (peak +22.6% since entry)",
+    "pnl_pct": 10.76,
+    "pnl_eur": 2.4,
+    "entry_score": 84.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 2055798,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 1.496,
+    "entry_chg_24h": 40.04048,
+    "entry_chg_7d": 131.6006,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.5709519559356642,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "SAROS (cex_small_cap) gained +10.8% in 178 min — trailing stop caught extra upside after the target. Entry score: 85. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
