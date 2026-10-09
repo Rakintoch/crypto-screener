@@ -1633,5 +1633,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "ULTCAT (cex_small_cap) gained +21.0% in 61 min — trailing stop caught extra upside after the target. Entry score: 84. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791583954.79948,
+    "symbol": "MAGIC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/magic",
+    "held_minutes": 909.1,
+    "exit_reason": "trailing stop hit — dropped 7.5% from the peak (peak +66.0% since entry)",
+    "pnl_pct": 53.55,
+    "pnl_eur": 12.39,
+    "entry_score": 87.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 17103291,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 14.9885,
+    "entry_chg_24h": 17.56053,
+    "entry_chg_7d": 39.5204,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.6662894479942528,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "MAGIC (cex_small_cap) gained +53.6% in 909 min — trailing stop caught extra upside after the target. Entry score: 88. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
