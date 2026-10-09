@@ -6325,5 +6325,32 @@
     "categoria": "momentum thesis invalidated (score dropped)",
     "velocidade_queda": "very fast (<1h)",
     "licao": "swordcat (dex_micro_cap) lost -9.7% in 57 min (very fast (<1h)) — momentum thesis invalidated (score dropped). Entry liquidity: $275,980. Entry score: 83 (minimum required to buy: 65). Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1791533120.1381848,
+    "symbol": "OGN",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/origin-protocol",
+    "held_minutes": 61.9,
+    "exit_reason": "stop-loss hit (-8.4%)",
+    "pnl_pct": -8.39,
+    "pnl_eur": -1.94,
+    "entry_score": 90.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 280464717,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 2.7525,
+    "entry_chg_24h": 90.11378,
+    "entry_chg_7d": 106.9841,
+    "entry_chg_6h": null,
+    "entry_turnover": 8.699311011639406,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "OGN (cex_small_cap) lost -8.4% in 62 min (fast (1-6h)) — stop-loss hit. Entry score: 90 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
