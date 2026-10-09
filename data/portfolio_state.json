@@ -2,62 +2,9 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 58.29577531822902,
+  "cash_eur": 78.3725710110292,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
-    "cex_small_cap:quantus": {
-      "tier": "cex_small_cap",
-      "id": "quantus",
-      "symbol": "QTC",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/quantus",
-      "qty": 0.1565260666381736,
-      "entry_price_eur": 139.55410130145248,
-      "entry_ts": 1791438339.0626469,
-      "cost_eur": 21.84385455994158,
-      "last_price_eur": 129.21822821574932,
-      "last_score": 46.8,
-      "missed_updates": 0,
-      "entry_market_cap": 42230960,
-      "entry_venue": "Near Intents",
-      "entry_contract_address": "qtc.omft.near (near-protocol)",
-      "entry_score": 94.8,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 32613294,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 8.0024,
-      "entry_chg_24h": 54.20998,
-      "entry_chg_7d": 87.2856,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.772260303815021,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "partnership",
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.30000000000000004,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Project Eleven and Quantus Plan Strongpoint Integration With Quantus Joining as a Development Partner - TradingView",
-          "ts": 1791427200.0,
-          "source": "TradingView"
-        },
-        {
-          "title": "Quantum-Safe Quantus Launches QTC Token Trading via Near Intents - Bitcoin News",
-          "ts": 1791410138.0,
-          "source": "Bitcoin News"
-        },
-        {
-          "title": "Quantus Post-Quantum Blockchain Token Launches on NEAR Ecosystem - ForkLog",
-          "ts": 1791370935.0,
-          "source": "ForkLog"
-        }
-      ],
-      "last_market_cap": 39494457
-    },
     "cex_small_cap:iexec-rlc": {
       "tier": "cex_small_cap",
       "id": "iexec-rlc",
@@ -68,8 +15,8 @@
       "entry_price_eur": 0.7953553248750568,
       "entry_ts": 1791488425.256017,
       "cost_eur": 21.838717354494495,
-      "last_price_eur": 0.8108143157649453,
-      "last_score": 71.5,
+      "last_price_eur": 0.7999770764822951,
+      "last_score": 71.4,
       "missed_updates": 0,
       "entry_market_cap": 76461833,
       "entry_venue": "Binance",
@@ -90,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 79388600
+      "last_market_cap": 78106188
     },
     "cex_small_cap:elysia": {
       "tier": "cex_small_cap",
@@ -102,8 +49,8 @@
       "entry_price_eur": 0.002179022202790478,
       "entry_ts": 1791514992.4385161,
       "cost_eur": 22.32788076435959,
-      "last_price_eur": 0.0020722220809027,
-      "last_score": 48.2,
+      "last_price_eur": 0.002094713753876608,
+      "last_score": 62.9,
       "missed_updates": 0,
       "entry_market_cap": 16620922,
       "entry_venue": "Bithumb",
@@ -124,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 15819440
+      "last_market_cap": 16098556
     },
     "cex_small_cap:saros-finance": {
       "tier": "cex_small_cap",
@@ -136,8 +83,8 @@
       "entry_price_eur": 0.000444016242773349,
       "entry_ts": 1791514992.4385161,
       "cost_eur": 22.32788076435959,
-      "last_price_eur": 0.00045594747592625067,
-      "last_score": 88.3,
+      "last_price_eur": 0.000456730910823948,
+      "last_score": 88.2,
       "missed_updates": 0,
       "entry_market_cap": 1308632,
       "entry_venue": "Saros AMM",
@@ -158,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1343504
+      "last_market_cap": 1345839
     }
   },
   "closed_trades": [
@@ -3528,10 +3475,69 @@
       "proceeds_eur": 24.02215072166103,
       "pnl_eur": 6.777074848683448,
       "pnl_pct": 39.298608475842556
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "quantus",
+      "symbol": "QTC",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/quantus",
+      "qty": 0.1565260666381736,
+      "entry_price_eur": 139.55410130145248,
+      "entry_ts": 1791438339.0626469,
+      "cost_eur": 21.84385455994158,
+      "last_price_eur": 128.26487066342628,
+      "last_score": 45.5,
+      "missed_updates": 0,
+      "entry_market_cap": 42230960,
+      "entry_venue": "Near Intents",
+      "entry_contract_address": "qtc.omft.near (near-protocol)",
+      "entry_score": 94.8,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 32613294,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 8.0024,
+      "entry_chg_24h": 54.20998,
+      "entry_chg_7d": 87.2856,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.772260303815021,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "partnership",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.30000000000000004,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Project Eleven and Quantus Plan Strongpoint Integration With Quantus Joining as a Development Partner - TradingView",
+          "ts": 1791427200.0,
+          "source": "TradingView"
+        },
+        {
+          "title": "Quantum-Safe Quantus Launches QTC Token Trading via Near Intents - Bitcoin News",
+          "ts": 1791410138.0,
+          "source": "Bitcoin News"
+        },
+        {
+          "title": "Quantus Post-Quantum Blockchain Token Launches on NEAR Ecosystem - ForkLog",
+          "ts": 1791370935.0,
+          "source": "ForkLog"
+        }
+      ],
+      "last_market_cap": 39171302,
+      "exit_price_eur": 128.26487066342628,
+      "exit_ts": 1791520235.7317753,
+      "exit_reason": "stop-loss hit (-8.1%)",
+      "proceeds_eur": 20.07679569280018,
+      "pnl_eur": -1.767058867141401,
+      "pnl_pct": -8.089501155999853
     }
   ],
-  "last_run_ts": 1791519917.677748,
-  "last_eur_rate": 0.8908530039003745,
+  "last_run_ts": 1791520235.7317753,
+  "last_eur_rate": 0.8908519979401743,
   "last_rotation_ts": 1791438339.0626469,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
