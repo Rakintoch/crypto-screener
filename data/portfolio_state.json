@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 77.44982231358537,
+  "cash_eur": 60.20474644060779,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:quantus": {
@@ -15,7 +15,7 @@
       "entry_price_eur": 139.55410130145248,
       "entry_ts": 1791438339.0626469,
       "cost_eur": 21.84385455994158,
-      "last_price_eur": 151.59479452634523,
+      "last_price_eur": 151.7434425546143,
       "last_score": 79.1,
       "missed_updates": 0,
       "entry_market_cap": 42230960,
@@ -56,7 +56,7 @@
           "source": "ForkLog"
         }
       ],
-      "last_market_cap": 46079592
+      "last_market_cap": 46123009
     },
     "cex_small_cap:origin-protocol": {
       "tier": "cex_small_cap",
@@ -68,7 +68,7 @@
       "entry_price_eur": 0.04347647638957697,
       "entry_ts": 1791488425.256017,
       "cost_eur": 21.838717354494495,
-      "last_price_eur": 0.04102752850385853,
+      "last_price_eur": 0.0407282646237949,
       "last_score": 72.2,
       "missed_updates": 0,
       "entry_market_cap": 34129246,
@@ -90,7 +90,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 33468762
+      "last_market_cap": 33310714
     },
     "cex_small_cap:iexec-rlc": {
       "tier": "cex_small_cap",
@@ -102,8 +102,8 @@
       "entry_price_eur": 0.7953553248750568,
       "entry_ts": 1791488425.256017,
       "cost_eur": 21.838717354494495,
-      "last_price_eur": 0.7975252489445533,
-      "last_score": 85.2,
+      "last_price_eur": 0.8030165944098865,
+      "last_score": 85.3,
       "missed_updates": 0,
       "entry_market_cap": 76461833,
       "entry_venue": "Binance",
@@ -124,7 +124,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 77759233
+      "last_market_cap": 78271654
+    },
+    "dex_micro_cap:6Mix12LiHrQFojaQEnfPUC65Qkwd6X4Y5Qg93oFbordr": {
+      "tier": "dex_micro_cap",
+      "id": "6Mix12LiHrQFojaQEnfPUC65Qkwd6X4Y5Qg93oFbordr",
+      "symbol": "BORDR",
+      "network": "solana",
+      "url": "https://dexscreener.com/solana/4xp7kN4nVt19caq4kM629vL8vJEqpSFVdZAh27wvYPh8",
+      "qty": 15500.94166710976,
+      "entry_price_eur": 0.0011125179517040933,
+      "entry_ts": 1791504557.4195821,
+      "cost_eur": 17.245075872977583,
+      "last_price_eur": 0.0011125179517040933,
+      "last_score": 85.0,
+      "missed_updates": 0,
+      "entry_market_cap": 1248677.24840764,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 85.0,
+      "entry_liquidity_usd": 103456.7916,
+      "entry_volume_24h_usd": 5727768.41531055,
+      "entry_security_notes": "no obvious red flags",
+      "entry_chg_1h": 32.328,
+      "entry_chg_24h": 1609.89,
+      "entry_chg_7d": null,
+      "entry_chg_6h": 221.901,
+      "entry_turnover": null,
+      "entry_vol_liq_ratio": 55.36387052728349,
+      "entry_boosted": false,
+      "entry_pool_age_minutes": 1368.48827705,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": null,
+      "entry_catalyst_score": null,
+      "entry_catalyst_headlines": null
     }
   },
   "closed_trades": [
@@ -3414,8 +3447,8 @@
       "pnl_pct": -8.18542184736288
     }
   ],
-  "last_run_ts": 1791504320.4547346,
-  "last_eur_rate": 0.8918390076852879,
+  "last_run_ts": 1791504557.4195821,
+  "last_eur_rate": 0.8918740011438481,
   "last_rotation_ts": 1791438339.0626469,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
