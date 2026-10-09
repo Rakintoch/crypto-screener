@@ -285,8 +285,8 @@
     "symbol": "BUN"
   },
   "cex_small_cap:cyberleek": {
-    "last_alert_ts": 1791471816.5899048,
-    "last_score": 69.5,
+    "last_alert_ts": 1791543775.2626898,
+    "last_score": 74.1,
     "symbol": "CYBERLEEK"
   },
   "cex_small_cap:marinade": {
@@ -295,8 +295,8 @@
     "symbol": "MNDE"
   },
   "cex_small_cap:zeus-network": {
-    "last_alert_ts": 1791488424.646718,
-    "last_score": 68.2,
+    "last_alert_ts": 1791543775.2626898,
+    "last_score": 55.6,
     "symbol": "ZEUS"
   },
   "cex_small_cap:ben-pasternak": {
@@ -650,8 +650,8 @@
     "symbol": "TMX"
   },
   "cex_small_cap:zzz-2": {
-    "last_alert_ts": 1791463495.9364035,
-    "last_score": 55.9,
+    "last_alert_ts": 1791543775.2626898,
+    "last_score": 60.4,
     "symbol": "ZZZ"
   },
   "cex_small_cap:lazio-fan-token": {
@@ -935,8 +935,8 @@
     "symbol": "HYPER"
   },
   "cex_small_cap:janction": {
-    "last_alert_ts": 1791536637.497584,
-    "last_score": 69.3,
+    "last_alert_ts": 1791543775.2626898,
+    "last_score": 86.1,
     "symbol": "JCT"
   },
   "cex_small_cap:quack-ai": {
@@ -1038,5 +1038,10 @@
     "last_alert_ts": 1791536637.497584,
     "last_score": 55.8,
     "symbol": "CPOOL"
+  },
+  "dex_micro_cap:8TiMkgvsrat9tM2esko8zVTt99LZLpefUM4SnZaziXaQ": {
+    "last_alert_ts": 1791543775.2626898,
+    "last_score": 80.7,
+    "symbol": "QI"
   }
 }
