@@ -105,7 +105,7 @@
     "symbol": "SPIKE"
   },
   "cex_small_cap:teller": {
-    "last_alert_ts": 1791334987.021739,
+    "last_alert_ts": 1791534384.570886,
     "last_score": 60.6,
     "symbol": "DEBIT"
   },
@@ -180,8 +180,8 @@
     "symbol": "EDGE"
   },
   "cex_small_cap:aeon-3": {
-    "last_alert_ts": 1791406932.724667,
-    "last_score": 56.3,
+    "last_alert_ts": 1791534384.570886,
+    "last_score": 65.7,
     "symbol": "AEON"
   },
   "cex_small_cap:marlin": {
@@ -535,8 +535,8 @@
     "symbol": "SN61"
   },
   "cex_small_cap:sharex-2": {
-    "last_alert_ts": 1791417702.892186,
-    "last_score": 61.9,
+    "last_alert_ts": 1791534384.570886,
+    "last_score": 82.7,
     "symbol": "SHARE"
   },
   "dex_micro_cap:0x75e2fc69ff2ac12af65ba7d321bbf4f878c535d2": {
@@ -840,8 +840,8 @@
     "symbol": "CTSI"
   },
   "cex_small_cap:bitlayer-bitvm": {
-    "last_alert_ts": 1791522171.4947464,
-    "last_score": 57.8,
+    "last_alert_ts": 1791534384.570886,
+    "last_score": 86.6,
     "symbol": "BTR"
   },
   "cex_small_cap:hashflow": {
@@ -1035,13 +1035,23 @@
     "symbol": "MVC"
   },
   "dex_micro_cap:a3W4qutoEJA4232T2gwZUfgYJTetr96pU4SJMwppump": {
-    "last_alert_ts": 1791529408.233727,
-    "last_score": 66.6,
+    "last_alert_ts": 1791534384.570886,
+    "last_score": 86.0,
     "symbol": "WhiteWhale"
   },
   "dex_micro_cap:9oxWMhM4QN1hLGNutaTFcBjMjJce6QxrvVxAcGW6pump": {
-    "last_alert_ts": 1791529408.233727,
-    "last_score": 58.9,
+    "last_alert_ts": 1791534384.570886,
+    "last_score": 76.1,
     "symbol": "Pack"
+  },
+  "cex_small_cap:nexst": {
+    "last_alert_ts": 1791534384.570886,
+    "last_score": 81.0,
+    "symbol": "NXT"
+  },
+  "dex_micro_cap:8ZCmwpW3MtC5UpNcZf7U4HMvRNTo71syU11BDiAFpump": {
+    "last_alert_ts": 1791534384.570886,
+    "last_score": 71.5,
+    "symbol": "Gary"
   }
 }
