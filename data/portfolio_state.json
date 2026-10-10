@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0048936982990186815,
       "entry_ts": 1791550997.0129898,
       "cost_eur": 22.95460832630588,
-      "last_price_eur": 0.00463779316853434,
-      "last_score": 46.0,
+      "last_price_eur": 0.004640051533914698,
+      "last_score": 46.3,
       "missed_updates": 0,
       "entry_market_cap": 33502530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 31744335
+      "last_market_cap": 31678899
     },
     "cex_small_cap:janction": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0021684759162010807,
       "entry_ts": 1791550997.0129898,
       "cost_eur": 10.712150552276078,
-      "last_price_eur": 0.002544202292363402,
-      "last_score": 84.9,
+      "last_price_eur": 0.002554288898745594,
+      "last_score": 86.0,
       "missed_updates": 0,
       "entry_market_cap": 27910537,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 32692546,
+      "last_market_cap": 32904324,
       "trailing_active": true,
       "trailing_peak_eur": 0.0026171916826605653
     },
@@ -85,8 +85,8 @@
       "entry_price_eur": 0.9567589351478292,
       "entry_ts": 1791583954.79948,
       "cost_eur": 24.816199479658,
-      "last_price_eur": 0.9461750746087937,
-      "last_score": 68.2,
+      "last_price_eur": 0.9399267571225273,
+      "last_score": 68.3,
       "missed_updates": 0,
       "entry_market_cap": 93186430,
       "entry_venue": "Binance",
@@ -107,7 +107,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 92200637
+      "last_market_cap": 91586306
     },
     "cex_small_cap:ultcat": {
       "tier": "cex_small_cap",
@@ -119,7 +119,7 @@
       "entry_price_eur": 0.001267375359791706,
       "entry_ts": 1791594205.4499352,
       "cost_eur": 11.478105286793824,
-      "last_price_eur": 0.0013855037993455446,
+      "last_price_eur": 0.001384611193839812,
       "last_score": 83.5,
       "missed_updates": 0,
       "entry_market_cap": 1420051,
@@ -141,7 +141,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1552867
+      "last_market_cap": 1551173
     }
   },
   "closed_trades": [
@@ -4041,8 +4041,8 @@
       "pnl_pct": -10.43763498614009
     }
   ],
-  "last_run_ts": 1791612624.3231597,
-  "last_eur_rate": 0.8926179949139562,
+  "last_run_ts": 1791612925.7234337,
+  "last_eur_rate": 0.8926180029653631,
   "last_rotation_ts": 1791565446.4010165,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
