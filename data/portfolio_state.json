@@ -2,56 +2,9 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 63.79232463733287,
+  "cash_eur": 85.26844075243407,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
-    "cex_small_cap:magic": {
-      "tier": "cex_small_cap",
-      "id": "magic",
-      "symbol": "MAGIC",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/magic",
-      "qty": 231.34321354811902,
-      "entry_price_eur": 0.10340533172382885,
-      "entry_ts": 1791633055.7450633,
-      "cost_eur": 23.922121738999824,
-      "last_price_eur": 0.09650361071325743,
-      "last_score": 70.6,
-      "missed_updates": 0,
-      "entry_market_cap": 39105419,
-      "entry_venue": "Bitrue",
-      "entry_contract_address": "0x539bde0d7dbd336b79148aa742883198bbf60342 (Arbitrum)",
-      "entry_score": 94.6,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 384411884,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 4.057,
-      "entry_chg_24h": 47.4659,
-      "entry_chg_7d": 99.3234,
-      "entry_chg_6h": null,
-      "entry_turnover": 9.830143592119548,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "XT.com launches interactive Treasure Hunt for its 8th anniversary - Traders Union",
-          "ts": 1791594827.0,
-          "source": "Traders Union"
-        },
-        {
-          "title": "Treasure AI Launches Personalization Studio To Turn Customer Context into Real-Time Website Experiences - Yahoo Finance",
-          "ts": 1791297000.0,
-          "source": "Yahoo Finance"
-        }
-      ],
-      "last_market_cap": 36501831
-    },
     "cex_small_cap:b-money-2": {
       "tier": "cex_small_cap",
       "id": "b-money-2",
@@ -62,7 +15,7 @@
       "entry_price_eur": 0.0012252877966591792,
       "entry_ts": 1791633055.7450633,
       "cost_eur": 23.922121738999824,
-      "last_price_eur": 0.001457555945479989,
+      "last_price_eur": 0.0014615994910354838,
       "last_score": 91.8,
       "missed_updates": 0,
       "entry_market_cap": 1366640,
@@ -84,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1633225,
+      "last_market_cap": 1637618,
       "trailing_active": true,
       "trailing_peak_eur": 0.0015516557210723857
     },
@@ -98,8 +51,8 @@
       "entry_price_eur": 0.016312522463864942,
       "entry_ts": 1791633055.7450633,
       "cost_eur": 23.92212173899982,
-      "last_price_eur": 0.016295893215694083,
-      "last_score": 63.4,
+      "last_price_eur": 0.01641526286444756,
+      "last_score": 64.1,
       "missed_updates": 0,
       "entry_market_cap": 18278640,
       "entry_venue": null,
@@ -120,7 +73,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 18260253
+      "last_market_cap": 18397276
     },
     "cex_small_cap:paperdao": {
       "tier": "cex_small_cap",
@@ -132,7 +85,7 @@
       "entry_price_eur": 0.0011538426522750861,
       "entry_ts": 1791633055.7450633,
       "cost_eur": 23.92212173899982,
-      "last_price_eur": 0.0011380968865493544,
+      "last_price_eur": 0.0011409354008700494,
       "last_score": 56.2,
       "missed_updates": 0,
       "entry_market_cap": 1335582,
@@ -154,7 +107,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1275015
+      "last_market_cap": 1278102
     }
   },
   "closed_trades": [
@@ -4214,10 +4167,63 @@
       "proceeds_eur": 9.838809998236933,
       "pnl_eur": -1.639295288556891,
       "pnl_pct": -14.281932841677172
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "magic",
+      "symbol": "MAGIC",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/magic",
+      "qty": 231.34321354811902,
+      "entry_price_eur": 0.10340533172382885,
+      "entry_ts": 1791633055.7450633,
+      "cost_eur": 23.922121738999824,
+      "last_price_eur": 0.09283227195525323,
+      "last_score": 70.4,
+      "missed_updates": 0,
+      "entry_market_cap": 39105419,
+      "entry_venue": "Bitrue",
+      "entry_contract_address": "0x539bde0d7dbd336b79148aa742883198bbf60342 (Arbitrum)",
+      "entry_score": 94.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 384411884,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 4.057,
+      "entry_chg_24h": 47.4659,
+      "entry_chg_7d": 99.3234,
+      "entry_chg_6h": null,
+      "entry_turnover": 9.830143592119548,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "XT.com launches interactive Treasure Hunt for its 8th anniversary - Traders Union",
+          "ts": 1791594827.0,
+          "source": "Traders Union"
+        },
+        {
+          "title": "Treasure AI Launches Personalization Studio To Turn Customer Context into Real-Time Website Experiences - Yahoo Finance",
+          "ts": 1791297000.0,
+          "source": "Yahoo Finance"
+        }
+      ],
+      "last_market_cap": 35135903,
+      "exit_price_eur": 0.09283227195525323,
+      "exit_ts": 1791637823.142084,
+      "exit_reason": "stop-loss hit (-10.2%)",
+      "proceeds_eur": 21.47611611510121,
+      "pnl_eur": -2.446005623898614,
+      "pnl_pct": -10.224869058796457
     }
   ],
-  "last_run_ts": 1791637517.9555485,
-  "last_eur_rate": 0.8926180081327632,
+  "last_run_ts": 1791637823.142084,
+  "last_eur_rate": 0.8926179995697426,
   "last_rotation_ts": 1791565446.4010165,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
