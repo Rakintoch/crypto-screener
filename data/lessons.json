@@ -6622,5 +6622,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "SQUIRE (cex_small_cap) lost -10.8% in 208 min (fast (1-6h)) — stop-loss hit. Entry score: 74 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791673373.3145897,
+    "symbol": "C98",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/coin98",
+    "held_minutes": 672.0,
+    "exit_reason": "rotated out — thesis fading (score 44, no unrealized gain) to free a slot for a new qualified candidate",
+    "pnl_pct": -2.18,
+    "pnl_eur": -0.52,
+    "entry_score": 78.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 27540830,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.495,
+    "entry_chg_24h": 13.37951,
+    "entry_chg_7d": 12.4249,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.5067220537195327,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "C98 (cex_small_cap) lost -2.2% in 672 min (slow (>6h)) — other. Entry score: 78 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

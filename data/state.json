@@ -265,8 +265,8 @@
     "symbol": "SI276"
   },
   "cex_small_cap:openverse-network": {
-    "last_alert_ts": 1791457323.957506,
-    "last_score": 97.2,
+    "last_alert_ts": 1791673372.6798584,
+    "last_score": 55.8,
     "symbol": "BTG"
   },
   "cex_small_cap:aia": {
@@ -1078,5 +1078,15 @@
     "last_alert_ts": 1791666204.188618,
     "last_score": 68.1,
     "symbol": "Altai"
+  },
+  "dex_micro_cap:8vYJgiQPkpDtbWkDy1wyYDcUq3D9fUXVJUtt6aNEpump": {
+    "last_alert_ts": 1791673372.6798584,
+    "last_score": 63.9,
+    "symbol": "SWITCHED"
+  },
+  "cex_small_cap:solayer": {
+    "last_alert_ts": 1791673372.6798584,
+    "last_score": 63.2,
+    "symbol": "LAYER"
   }
 }
