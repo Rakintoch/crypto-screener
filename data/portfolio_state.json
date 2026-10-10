@@ -15,8 +15,8 @@
       "entry_price_eur": 0.016312522463864942,
       "entry_ts": 1791633055.7450633,
       "cost_eur": 23.92212173899982,
-      "last_price_eur": 0.01606977516320417,
-      "last_score": 52.7,
+      "last_price_eur": 0.01612310000943528,
+      "last_score": 51.5,
       "missed_updates": 0,
       "entry_market_cap": 18278640,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 18002945
+      "last_market_cap": 18077976
     },
     "cex_small_cap:caldera": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.07386949452081702,
       "entry_ts": 1791644578.0581996,
       "cost_eur": 23.80810952340283,
-      "last_price_eur": 0.06950102309548942,
-      "last_score": 66.5,
+      "last_price_eur": 0.06921984776546143,
+      "last_score": 66.4,
       "missed_updates": 0,
       "entry_market_cap": 14461698,
       "entry_venue": "Upbit",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 13606313
+      "last_market_cap": 13569460
     },
     "cex_small_cap:sharex-2": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 1.5531553055515204,
       "entry_ts": 1791644578.0581996,
       "cost_eur": 23.80810952340283,
-      "last_price_eur": 1.624564768870447,
+      "last_price_eur": 1.6245647534158614,
       "last_score": 69.6,
       "missed_updates": 0,
       "entry_market_cap": 31179587,
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 32586660
+      "last_market_cap": 32615220
     },
     "cex_small_cap:omisego": {
       "tier": "cex_small_cap",
@@ -117,8 +117,8 @@
       "entry_price_eur": 0.052854589468787676,
       "entry_ts": 1791658986.4928222,
       "cost_eur": 23.374939248251813,
-      "last_price_eur": 0.05136748832647671,
-      "last_score": 70.7,
+      "last_price_eur": 0.05177987735214324,
+      "last_score": 71.2,
       "missed_updates": 0,
       "entry_market_cap": 8304525,
       "entry_venue": "BtcTurk | Kripto",
@@ -139,7 +139,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 8070644
+      "last_market_cap": 8176330
     }
   },
   "closed_trades": [
@@ -4376,8 +4376,8 @@
       "pnl_pct": -10.818998374115854
     }
   ],
-  "last_run_ts": 1791664822.3215978,
-  "last_eur_rate": 0.8926180048738719,
+  "last_run_ts": 1791665128.1792064,
+  "last_eur_rate": 0.8926179963823414,
   "last_rotation_ts": 1791565446.4010165,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
