@@ -144,11 +144,6 @@
     "last_score": 55.8,
     "symbol": "HONEY"
   },
-  "cex_small_cap:netnet": {
-    "last_alert_ts": 1791349373.4815204,
-    "last_score": 73.5,
-    "symbol": "NET"
-  },
   "cex_small_cap:definitive": {
     "last_alert_ts": 1791356574.1306055,
     "last_score": 59.9,
@@ -160,8 +155,8 @@
     "symbol": "AEON"
   },
   "cex_small_cap:yolo-2": {
-    "last_alert_ts": 1791594204.8876195,
-    "last_score": 64.0,
+    "last_alert_ts": 1791608579.2486885,
+    "last_score": 86.2,
     "symbol": "YOLO"
   },
   "cex_small_cap:iexec-rlc": {
@@ -289,11 +284,6 @@
     "last_score": 79.1,
     "symbol": "中国人能飞"
   },
-  "cex_small_cap:resolv": {
-    "last_alert_ts": 1791349373.4815204,
-    "last_score": 63.7,
-    "symbol": "RESOLV"
-  },
   "cex_small_cap:synapse-2": {
     "last_alert_ts": 1791463495.9364035,
     "last_score": 64.4,
@@ -340,19 +330,14 @@
     "symbol": "BTG"
   },
   "cex_small_cap:aia": {
-    "last_alert_ts": 1791564526.1605837,
-    "last_score": 55.2,
+    "last_alert_ts": 1791608579.2486885,
+    "last_score": 56.0,
     "symbol": "AIA"
   },
   "dex_micro_cap:HzYCHqAN2uoHGRnL9v2ChCfFQX3bvJuJd5zu2Hd5MZQy": {
     "last_alert_ts": 1791493420.9736164,
     "last_score": 81.1,
     "symbol": "TWEETCRAFT"
-  },
-  "cex_small_cap:sundog": {
-    "last_alert_ts": 1791349373.4815204,
-    "last_score": 70.8,
-    "symbol": "SUNDOG"
   },
   "dex_micro_cap:39ahtL8ynzE4amH26J29C93PA5172V3ft9UuUcqQS8fz": {
     "last_alert_ts": 1791399813.8116958,
@@ -865,8 +850,8 @@
     "symbol": "PQC"
   },
   "cex_small_cap:doppler-finance": {
-    "last_alert_ts": 1791564526.1605837,
-    "last_score": 83.2,
+    "last_alert_ts": 1791608579.2486885,
+    "last_score": 69.5,
     "symbol": "XDP"
   },
   "cex_small_cap:mileverse": {
@@ -1068,5 +1053,10 @@
     "last_alert_ts": 1791605157.2766159,
     "last_score": 55.4,
     "symbol": "ALT"
+  },
+  "cex_small_cap:livepeer": {
+    "last_alert_ts": 1791608579.2486885,
+    "last_score": 55.1,
+    "symbol": "LPT"
   }
 }
