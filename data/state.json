@@ -260,8 +260,8 @@
     "symbol": "SYN"
   },
   "dex_micro_cap:HbPDWSqu8hpVMX6gMjwMDGe5rVgicWo3Qh3Jaojypump": {
-    "last_alert_ts": 1791522171.4947464,
-    "last_score": 63.6,
+    "last_alert_ts": 1791651805.981256,
+    "last_score": 58.1,
     "symbol": "Frank"
   },
   "cex_small_cap:based-one": {
@@ -290,8 +290,8 @@
     "symbol": "BTG"
   },
   "cex_small_cap:aia": {
-    "last_alert_ts": 1791608579.2486885,
-    "last_score": 56.0,
+    "last_alert_ts": 1791651805.981256,
+    "last_score": 62.7,
     "symbol": "AIA"
   },
   "dex_micro_cap:HzYCHqAN2uoHGRnL9v2ChCfFQX3bvJuJd5zu2Hd5MZQy": {
@@ -475,8 +475,8 @@
     "symbol": "GSTOCK"
   },
   "cex_small_cap:ninjacat-2": {
-    "last_alert_ts": 1791601400.1632485,
-    "last_score": 56.0,
+    "last_alert_ts": 1791651805.981256,
+    "last_score": 56.7,
     "symbol": "NINJACAT"
   },
   "cex_small_cap:orochi-network": {
@@ -1108,5 +1108,15 @@
     "last_alert_ts": 1791651249.0858371,
     "last_score": 72.1,
     "symbol": "SWARM"
+  },
+  "cex_small_cap:act-i-the-ai-prophecy": {
+    "last_alert_ts": 1791651805.981256,
+    "last_score": 68.9,
+    "symbol": "ACT"
+  },
+  "cex_small_cap:bella-protocol": {
+    "last_alert_ts": 1791651805.981256,
+    "last_score": 58.7,
+    "symbol": "BEL"
   }
 }
