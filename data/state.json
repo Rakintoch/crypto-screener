@@ -570,13 +570,13 @@
     "symbol": "WIN"
   },
   "cex_small_cap:gstock": {
-    "last_alert_ts": 1791428602.359807,
-    "last_score": 60.3,
+    "last_alert_ts": 1791601400.1632485,
+    "last_score": 64.5,
     "symbol": "GSTOCK"
   },
   "cex_small_cap:ninjacat-2": {
-    "last_alert_ts": 1791486144.7140167,
-    "last_score": 95.5,
+    "last_alert_ts": 1791601400.1632485,
+    "last_score": 56.0,
     "symbol": "NINJACAT"
   },
   "cex_small_cap:orochi-network": {
@@ -910,8 +910,8 @@
     "symbol": "Gary"
   },
   "cex_small_cap:clearpool": {
-    "last_alert_ts": 1791536637.497584,
-    "last_score": 55.8,
+    "last_alert_ts": 1791601400.1632485,
+    "last_score": 70.0,
     "symbol": "CPOOL"
   },
   "dex_micro_cap:8TiMkgvsrat9tM2esko8zVTt99LZLpefUM4SnZaziXaQ": {
@@ -1063,5 +1063,10 @@
     "last_alert_ts": 1791594204.8876195,
     "last_score": 57.1,
     "symbol": "FLUX"
+  },
+  "cex_small_cap:opengradient": {
+    "last_alert_ts": 1791601400.1632485,
+    "last_score": 58.0,
+    "symbol": "OPG"
   }
 }
