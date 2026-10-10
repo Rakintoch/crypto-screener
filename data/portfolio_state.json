@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 84.93567655573194,
+  "cash_eur": 61.56073730748013,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:coin98": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.016312522463864942,
       "entry_ts": 1791633055.7450633,
       "cost_eur": 23.92212173899982,
-      "last_price_eur": 0.01592343932078486,
-      "last_score": 65.1,
+      "last_price_eur": 0.01595959025965368,
+      "last_score": 60.3,
       "missed_updates": 0,
       "entry_market_cap": 18278640,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 17843948
+      "last_market_cap": 17881222
     },
     "cex_small_cap:caldera": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.07386949452081702,
       "entry_ts": 1791644578.0581996,
       "cost_eur": 23.80810952340283,
-      "last_price_eur": 0.07112380241975813,
-      "last_score": 66.6,
+      "last_price_eur": 0.07093903009225952,
+      "last_score": 74.9,
       "missed_updates": 0,
       "entry_market_cap": 14461698,
       "entry_venue": "Upbit",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 13921143
+      "last_market_cap": 13886185
     },
     "cex_small_cap:sharex-2": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 1.5531553055515204,
       "entry_ts": 1791644578.0581996,
       "cost_eur": 23.80810952340283,
-      "last_price_eur": 1.5977862240382412,
-      "last_score": 75.2,
+      "last_price_eur": 1.606712394977755,
+      "last_score": 65.4,
       "missed_updates": 0,
       "entry_market_cap": 31179587,
       "entry_venue": null,
@@ -105,7 +105,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 32166902
+      "last_market_cap": 32226796
+    },
+    "cex_small_cap:omisego": {
+      "tier": "cex_small_cap",
+      "id": "omisego",
+      "symbol": "OMG",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/omisego",
+      "qty": 442.2499442939664,
+      "entry_price_eur": 0.052854589468787676,
+      "entry_ts": 1791658986.4928222,
+      "cost_eur": 23.374939248251813,
+      "last_price_eur": 0.052854589468787676,
+      "last_score": 86.5,
+      "missed_updates": 0,
+      "entry_market_cap": 8304525,
+      "entry_venue": "BtcTurk | Kripto",
+      "entry_contract_address": "0xd26114cd6ee289accf82350c8d8487fedb8a0c07 (ETH)",
+      "entry_score": 86.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 6710879,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 5.9301,
+      "entry_chg_24h": 21.34357,
+      "entry_chg_7d": 19.6804,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.8080990785144244,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -4342,8 +4375,8 @@
       "pnl_pct": -10.818998374115854
     }
   ],
-  "last_run_ts": 1791658521.3371582,
-  "last_eur_rate": 0.8926180022560006,
+  "last_run_ts": 1791658986.4928222,
+  "last_eur_rate": 0.8926179972098639,
   "last_rotation_ts": 1791565446.4010165,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,

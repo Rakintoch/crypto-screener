@@ -165,8 +165,8 @@
     "symbol": "OGN"
   },
   "cex_small_cap:radicle": {
-    "last_alert_ts": 1791605157.2766159,
-    "last_score": 91.6,
+    "last_alert_ts": 1791658986.0513473,
+    "last_score": 57.2,
     "symbol": "RAD"
   },
   "cex_small_cap:cali": {
@@ -470,8 +470,8 @@
     "symbol": "WIN"
   },
   "cex_small_cap:gstock": {
-    "last_alert_ts": 1791601400.1632485,
-    "last_score": 64.5,
+    "last_alert_ts": 1791658986.0513473,
+    "last_score": 59.4,
     "symbol": "GSTOCK"
   },
   "cex_small_cap:ninjacat-2": {
@@ -485,8 +485,8 @@
     "symbol": "ON"
   },
   "cex_small_cap:jean-phil": {
-    "last_alert_ts": 1791579830.1009276,
-    "last_score": 80.2,
+    "last_alert_ts": 1791658986.0513473,
+    "last_score": 70.7,
     "symbol": "JEANPHIL"
   },
   "dex_micro_cap:85WdpEBNDSN9oNkPomBGspnBZsaKb7WF1NQ51pdouxML": {
@@ -840,8 +840,8 @@
     "symbol": "SAPLING"
   },
   "cex_small_cap:hyperdex": {
-    "last_alert_ts": 1791587005.3588102,
-    "last_score": 86.5,
+    "last_alert_ts": 1791658986.0513473,
+    "last_score": 61.4,
     "symbol": "HYDX"
   },
   "dex_micro_cap:7pYdm6bXhVf1J9Qv1fyWB9nkxdnG5RhFKA9yjW1Dpump": {
@@ -1118,5 +1118,30 @@
     "last_alert_ts": 1791651805.981256,
     "last_score": 58.7,
     "symbol": "BEL"
+  },
+  "cex_small_cap:chip-2": {
+    "last_alert_ts": 1791658986.0513473,
+    "last_score": 79.5,
+    "symbol": "CHIP"
+  },
+  "cex_small_cap:rhea-2": {
+    "last_alert_ts": 1791658986.0513473,
+    "last_score": 77.0,
+    "symbol": "RHEA"
+  },
+  "dex_micro_cap:6KDpQM4BVDdtAkjtyFDiBCkbii8q8BieEyXXm6kNpump": {
+    "last_alert_ts": 1791658986.0513473,
+    "last_score": 66.9,
+    "symbol": "TM"
+  },
+  "cex_small_cap:hippius": {
+    "last_alert_ts": 1791658986.0513473,
+    "last_score": 59.2,
+    "symbol": "SN75"
+  },
+  "cex_small_cap:dappos": {
+    "last_alert_ts": 1791658986.0513473,
+    "last_score": 55.4,
+    "symbol": "DOS"
   }
 }
