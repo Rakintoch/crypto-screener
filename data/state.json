@@ -15,8 +15,8 @@
     "symbol": "GLMR"
   },
   "cex_small_cap:magic": {
-    "last_alert_ts": 1791622989.528137,
-    "last_score": 69.8,
+    "last_alert_ts": 1791630214.4801311,
+    "last_score": 91.1,
     "symbol": "MAGIC"
   },
   "cex_small_cap:cap-4": {
@@ -180,13 +180,13 @@
     "symbol": "API3"
   },
   "cex_small_cap:griffain": {
-    "last_alert_ts": 1791579830.1009276,
-    "last_score": 60.7,
+    "last_alert_ts": 1791630214.4801311,
+    "last_score": 62.6,
     "symbol": "GRIFFAIN"
   },
   "cex_small_cap:coin98": {
-    "last_alert_ts": 1791583954.1430163,
-    "last_score": 74.3,
+    "last_alert_ts": 1791630214.4801311,
+    "last_score": 58.9,
     "symbol": "C98"
   },
   "cex_small_cap:cyberconnect": {
@@ -800,8 +800,8 @@
     "symbol": "DOPU"
   },
   "cex_small_cap:justice-for-heehaw": {
-    "last_alert_ts": 1791522171.4947464,
-    "last_score": 70.0,
+    "last_alert_ts": 1791630214.4801311,
+    "last_score": 65.8,
     "symbol": "HEEHAW"
   },
   "cex_small_cap:the-white-whale": {
@@ -940,8 +940,8 @@
     "symbol": "HUMA"
   },
   "cex_small_cap:stepn": {
-    "last_alert_ts": 1791579830.1009276,
-    "last_score": 78.6,
+    "last_alert_ts": 1791630214.4801311,
+    "last_score": 60.1,
     "symbol": "GMT"
   },
   "cex_small_cap:bordrless": {
@@ -975,8 +975,8 @@
     "symbol": "DRMR"
   },
   "cex_small_cap:b-money-2": {
-    "last_alert_ts": 1791583954.1430163,
-    "last_score": 82.6,
+    "last_alert_ts": 1791630214.4801311,
+    "last_score": 82.9,
     "symbol": "B-MONEY"
   },
   "cex_small_cap:claus-2": {
@@ -1058,5 +1058,20 @@
     "last_alert_ts": 1791622989.528137,
     "last_score": 64.6,
     "symbol": "RON"
+  },
+  "cex_small_cap:district0x": {
+    "last_alert_ts": 1791630214.4801311,
+    "last_score": 81.0,
+    "symbol": "DNT"
+  },
+  "cex_small_cap:paperdao": {
+    "last_alert_ts": 1791630214.4801311,
+    "last_score": 76.7,
+    "symbol": "PULP"
+  },
+  "dex_micro_cap:BQAeeSowpwEx8Km8GcporcbuLKq4a7EQceH3F2qZpump": {
+    "last_alert_ts": 1791630214.4801311,
+    "last_score": 58.9,
+    "symbol": "qOMPUTE"
   }
 }
