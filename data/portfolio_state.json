@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0048936982990186815,
       "entry_ts": 1791550997.0129898,
       "cost_eur": 22.95460832630588,
-      "last_price_eur": 0.00469894642279081,
-      "last_score": 45.5,
+      "last_price_eur": 0.004679764116208213,
+      "last_score": 46.2,
       "missed_updates": 0,
       "entry_market_cap": 33502530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 32123469
+      "last_market_cap": 31951465
     },
     "cex_small_cap:janction": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0021684759162010807,
       "entry_ts": 1791550997.0129898,
       "cost_eur": 10.712150552276078,
-      "last_price_eur": 0.002337962902362196,
-      "last_score": 61.8,
+      "last_price_eur": 0.0022826473916641777,
+      "last_score": 59.9,
       "missed_updates": 0,
       "entry_market_cap": 27910537,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 30099116
+      "last_market_cap": 29406686
     },
     "cex_small_cap:iexec-rlc": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.9567589351478292,
       "entry_ts": 1791583954.79948,
       "cost_eur": 24.816199479658,
-      "last_price_eur": 0.9185039158721681,
-      "last_score": 66.0,
+      "last_price_eur": 0.9176113084879362,
+      "last_score": 65.6,
       "missed_updates": 0,
       "entry_market_cap": 93186430,
       "entry_venue": "Binance",
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 89289864
+      "last_market_cap": 89375281
     },
     "cex_small_cap:ultcat": {
       "tier": "cex_small_cap",
@@ -117,8 +117,8 @@
       "entry_price_eur": 0.001267375359791706,
       "entry_ts": 1791594205.4499352,
       "cost_eur": 11.478105286793824,
-      "last_price_eur": 0.0012761937984458272,
-      "last_score": 59.6,
+      "last_price_eur": 0.0012759885110607196,
+      "last_score": 59.7,
       "missed_updates": 0,
       "entry_market_cap": 1420051,
       "entry_venue": "VVS Finance (on-chain)",
@@ -139,7 +139,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1429708
+      "last_market_cap": 1427205
     }
   },
   "closed_trades": [
@@ -4039,8 +4039,8 @@
       "pnl_pct": -10.43763498614009
     }
   ],
-  "last_run_ts": 1791607524.1485198,
-  "last_eur_rate": 0.892617994044867,
+  "last_run_ts": 1791607821.4943407,
+  "last_eur_rate": 0.8926180043656966,
   "last_rotation_ts": 1791565446.4010165,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
