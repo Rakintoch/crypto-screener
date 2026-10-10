@@ -140,8 +140,8 @@
     "symbol": "YOLO"
   },
   "cex_small_cap:iexec-rlc": {
-    "last_alert_ts": 1791583954.1430163,
-    "last_score": 97.5,
+    "last_alert_ts": 1791644577.4435604,
+    "last_score": 56.9,
     "symbol": "RLC"
   },
   "cex_small_cap:hot-bot": {
@@ -190,8 +190,8 @@
     "symbol": "C98"
   },
   "cex_small_cap:cyberconnect": {
-    "last_alert_ts": 1791572620.6544776,
-    "last_score": 83.0,
+    "last_alert_ts": 1791644577.4435604,
+    "last_score": 60.0,
     "symbol": "CYBER"
   },
   "cex_small_cap:dia-data": {
@@ -895,8 +895,8 @@
     "symbol": "PUFFER"
   },
   "cex_small_cap:ultcat": {
-    "last_alert_ts": 1791622989.528137,
-    "last_score": 64.5,
+    "last_alert_ts": 1791644577.4435604,
+    "last_score": 79.9,
     "symbol": "ULTCAT"
   },
   "dex_micro_cap:0x44b28991b167582f18ba0259e0173176ca125505": {
@@ -1088,5 +1088,20 @@
     "last_alert_ts": 1791637382.2873478,
     "last_score": 56.8,
     "symbol": "QUBIT"
+  },
+  "dex_micro_cap:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": {
+    "last_alert_ts": 1791644577.4435604,
+    "last_score": 85.6,
+    "symbol": "CYBERLEEK"
+  },
+  "cex_small_cap:pod-the-squire": {
+    "last_alert_ts": 1791644577.4435604,
+    "last_score": 74.5,
+    "symbol": "SQUIRE"
+  },
+  "cex_small_cap:bem-2": {
+    "last_alert_ts": 1791644577.4435604,
+    "last_score": 60.3,
+    "symbol": "BEM"
   }
 }
