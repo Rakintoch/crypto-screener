@@ -334,11 +334,6 @@
     "last_score": 76.3,
     "symbol": "MADE"
   },
-  "cex_small_cap:sandisk-bstocks-tokenized-stock": {
-    "last_alert_ts": 1791385410.0463543,
-    "last_score": 58.6,
-    "symbol": "SNDKB"
-  },
   "cex_small_cap:atletico-madrid": {
     "last_alert_ts": 1791399813.8116958,
     "last_score": 72.4,
@@ -595,8 +590,8 @@
     "symbol": "PLTR"
   },
   "cex_small_cap:cartesi": {
-    "last_alert_ts": 1791565445.7935133,
-    "last_score": 62.9,
+    "last_alert_ts": 1791651249.0858371,
+    "last_score": 65.9,
     "symbol": "CTSI"
   },
   "cex_small_cap:bitlayer-bitvm": {
@@ -1103,5 +1098,15 @@
     "last_alert_ts": 1791644577.4435604,
     "last_score": 60.3,
     "symbol": "BEM"
+  },
+  "cex_small_cap:moviebloc": {
+    "last_alert_ts": 1791651249.0858371,
+    "last_score": 84.5,
+    "symbol": "MBL"
+  },
+  "cex_small_cap:swarm-engine": {
+    "last_alert_ts": 1791651249.0858371,
+    "last_score": 72.1,
+    "symbol": "SWARM"
   }
 }
