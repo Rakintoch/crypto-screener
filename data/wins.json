@@ -1685,5 +1685,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "JCT (cex_small_cap) gained +10.8% in 1102 min — trailing stop caught extra upside after the target. Entry score: 86. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791638424.7851264,
+    "symbol": "B-MONEY",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/b-money-2",
+    "held_minutes": 89.5,
+    "exit_reason": "trailing stop hit — dropped 8.1% from the peak (peak +26.6% since entry)",
+    "pnl_pct": 16.44,
+    "pnl_eur": 3.93,
+    "entry_score": 82.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1315830,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.6323,
+    "entry_chg_24h": 32.68782,
+    "entry_chg_7d": -1.8643,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.9628212257800152,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "B-MONEY (cex_small_cap) gained +16.4% in 89 min — trailing stop caught extra upside after the target. Entry score: 82. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
