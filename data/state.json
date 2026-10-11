@@ -30,8 +30,8 @@
     "symbol": "DIMO"
   },
   "cex_small_cap:gitcoin": {
-    "last_alert_ts": 1791633055.3108435,
-    "last_score": 60.3,
+    "last_alert_ts": 1791679240.7238247,
+    "last_score": 65.4,
     "symbol": "GTC"
   },
   "cex_small_cap:zip-coin": {
@@ -324,11 +324,6 @@
     "last_score": 69.5,
     "symbol": "APM"
   },
-  "cex_small_cap:hemi": {
-    "last_alert_ts": 1791414177.070825,
-    "last_score": 85.4,
-    "symbol": "HEMI"
-  },
   "cex_small_cap:drift-protocol": {
     "last_alert_ts": 1791450202.1709375,
     "last_score": 58.7,
@@ -374,20 +369,10 @@
     "last_score": 74.2,
     "symbol": "LAZIO"
   },
-  "cex_small_cap:basecat": {
-    "last_alert_ts": 1791414177.070825,
-    "last_score": 57.7,
-    "symbol": "BASECAT"
-  },
   "cex_small_cap:wormhole": {
     "last_alert_ts": 1791579830.1009276,
     "last_score": 65.1,
     "symbol": "W"
-  },
-  "cex_small_cap:hunter-biden-s-laptop-3": {
-    "last_alert_ts": 1791417702.892186,
-    "last_score": 55.8,
-    "symbol": "LAPTOP"
   },
   "cex_small_cap:squid-3": {
     "last_alert_ts": 1791507812.4239097,
@@ -680,8 +665,8 @@
     "symbol": "TikTok"
   },
   "dex_micro_cap:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
-    "last_alert_ts": 1791504556.9188447,
-    "last_score": 62.9,
+    "last_alert_ts": 1791679240.7238247,
+    "last_score": 56.7,
     "symbol": "baton"
   },
   "dex_micro_cap:0xf7e575be59e38a0bd0984a6de368029e57b48ae5": {
@@ -870,8 +855,8 @@
     "symbol": "DRMR"
   },
   "cex_small_cap:b-money-2": {
-    "last_alert_ts": 1791630214.4801311,
-    "last_score": 82.9,
+    "last_alert_ts": 1791679240.7238247,
+    "last_score": 60.0,
     "symbol": "B-MONEY"
   },
   "cex_small_cap:claus-2": {
@@ -1088,5 +1073,25 @@
     "last_alert_ts": 1791673372.6798584,
     "last_score": 63.2,
     "symbol": "LAYER"
+  },
+  "dex_micro_cap:3BAXtVzSRVnFHbdgJgBKQZaVvJpa6pLksAbBbXFppump": {
+    "last_alert_ts": 1791679240.7238247,
+    "last_score": 100.0,
+    "symbol": "LAUNCHER"
+  },
+  "cex_small_cap:bluefin": {
+    "last_alert_ts": 1791679240.7238247,
+    "last_score": 86.6,
+    "symbol": "BLUE"
+  },
+  "cex_small_cap:taoillium": {
+    "last_alert_ts": 1791679240.7238247,
+    "last_score": 73.6,
+    "symbol": "SN109"
+  },
+  "cex_small_cap:basecat": {
+    "last_alert_ts": 1791679240.7238247,
+    "last_score": 69.7,
+    "symbol": "BASECAT"
   }
 }
