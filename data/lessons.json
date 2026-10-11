@@ -6676,5 +6676,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "ERA (cex_small_cap) lost -8.7% in 582 min (slow (>6h)) — stop-loss hit. Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791689437.9579551,
+    "symbol": "OMG",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/omisego",
+    "held_minutes": 507.5,
+    "exit_reason": "stop-loss hit (-8.1%)",
+    "pnl_pct": -8.1,
+    "pnl_eur": -1.89,
+    "entry_score": 86.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 6710879,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.9301,
+    "entry_chg_24h": 21.34357,
+    "entry_chg_7d": 19.6804,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.8080990785144244,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "OMG (cex_small_cap) lost -8.1% in 508 min (slow (>6h)) — stop-loss hit. Entry score: 86 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
