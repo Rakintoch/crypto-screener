@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 136.90487029811027,
+  "cash_eur": 65.49045314997673,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:moviebloc": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0008652324778826401,
       "entry_ts": 1791673373.3145897,
       "cost_eur": 23.298225082647072,
-      "last_price_eur": 0.000832000310605069,
-      "last_score": 64.9,
+      "last_price_eur": 0.0008093635175609546,
+      "last_score": 63.7,
       "missed_updates": 0,
       "entry_market_cap": 19144340,
       "entry_venue": "Upbit",
@@ -37,7 +37,140 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 18408674
+      "last_market_cap": 17907911
+    },
+    "cex_small_cap:magic": {
+      "tier": "cex_small_cap",
+      "id": "magic",
+      "symbol": "MAGIC",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/magic",
+      "qty": 218.0725260181834,
+      "entry_price_eur": 0.10916004024303184,
+      "entry_ts": 1791706531.1772077,
+      "cost_eur": 23.80480571604451,
+      "last_price_eur": 0.10916004024303184,
+      "last_score": 91.7,
+      "missed_updates": 0,
+      "entry_market_cap": 41204843,
+      "entry_venue": "Bitrue",
+      "entry_contract_address": "0x539bde0d7dbd336b79148aa742883198bbf60342 (Arbitrum)",
+      "entry_score": 91.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 181764710,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 7.4513,
+      "entry_chg_24h": 13.33368,
+      "entry_chg_7d": 105.7915,
+      "entry_chg_6h": null,
+      "entry_turnover": 4.41124627025032,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "XT.com launches interactive Treasure Hunt for its 8th anniversary - Traders Union",
+          "ts": 1791594827.0,
+          "source": "Traders Union"
+        },
+        {
+          "title": "Treasure AI Launches Personalization Studio To Turn Customer Context into Real-Time Website Experiences - Yahoo Finance",
+          "ts": 1791297000.0,
+          "source": "Yahoo Finance"
+        }
+      ]
+    },
+    "cex_small_cap:lumia": {
+      "tier": "cex_small_cap",
+      "id": "lumia",
+      "symbol": "LUMIA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/lumia",
+      "qty": 159.56087133199523,
+      "entry_price_eur": 0.1491894943749355,
+      "entry_ts": 1791706531.1772077,
+      "cost_eur": 23.80480571604451,
+      "last_price_eur": 0.1491894943749355,
+      "last_score": 85.6,
+      "missed_updates": 0,
+      "entry_market_cap": 39988693,
+      "entry_venue": "Binance",
+      "entry_contract_address": null,
+      "entry_score": 85.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 104667496,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 1.7932,
+      "entry_chg_24h": 30.56173,
+      "entry_chg_7d": 96.8887,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.617427281256729,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
+    },
+    "cex_small_cap:doppler-finance": {
+      "tier": "cex_small_cap",
+      "id": "doppler-finance",
+      "symbol": "XDP",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/doppler-finance",
+      "qty": 993.1265050149027,
+      "entry_price_eur": 0.023969560369036066,
+      "entry_ts": 1791706531.1772077,
+      "cost_eur": 23.80480571604451,
+      "last_price_eur": 0.023969560369036066,
+      "last_score": 84.9,
+      "missed_updates": 0,
+      "entry_market_cap": 26895370,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 84.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 239357469,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.7791,
+      "entry_chg_24h": 13.46584,
+      "entry_chg_7d": 36.3639,
+      "entry_chg_6h": null,
+      "entry_turnover": 8.899578960988453,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing",
+        "partnership",
+        "unlock",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.7000000000000001,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Bithumb to list Doppler Finance's XDP token aga... - Pluang",
+          "ts": 1791542773.0,
+          "source": "Pluang"
+        },
+        {
+          "title": "Doppler Finance and Canton Network Integration Boosts XDP Price Today - Coin Gabbar",
+          "ts": 1790939700.0,
+          "source": "Coin Gabbar"
+        },
+        {
+          "title": "Doppler Finance (XDP) Token Unlocks and Vesting: Schedule and Tokenomics - CryptoRank",
+          "ts": 1790612685.0,
+          "source": "CryptoRank"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -4436,8 +4569,8 @@
       "pnl_pct": 34.48276076909023
     }
   ],
-  "last_run_ts": 1791706229.3496432,
-  "last_eur_rate": 0.8926179989111234,
+  "last_run_ts": 1791706531.1772077,
+  "last_eur_rate": 0.8926179982585275,
   "last_rotation_ts": 1791673373.3145897,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,

@@ -10,8 +10,8 @@
     "symbol": "GLMR"
   },
   "cex_small_cap:magic": {
-    "last_alert_ts": 1791687806.226382,
-    "last_score": 55.1,
+    "last_alert_ts": 1791706530.531835,
+    "last_score": 91.7,
     "symbol": "MAGIC"
   },
   "cex_small_cap:cap-4": {
@@ -170,8 +170,8 @@
     "symbol": "C98"
   },
   "cex_small_cap:cyberconnect": {
-    "last_alert_ts": 1791644577.4435604,
-    "last_score": 60.0,
+    "last_alert_ts": 1791706530.531835,
+    "last_score": 55.3,
     "symbol": "CYBER"
   },
   "cex_small_cap:dia-data": {
@@ -375,8 +375,8 @@
     "symbol": "NINJACAT"
   },
   "cex_small_cap:jean-phil": {
-    "last_alert_ts": 1791658986.0513473,
-    "last_score": 70.7,
+    "last_alert_ts": 1791706530.531835,
+    "last_score": 62.2,
     "symbol": "JEANPHIL"
   },
   "dex_micro_cap:HaQdrXRUoxxk1qLFZJNrSyzWNjn16o1r1np5h6jipump": {
@@ -965,13 +965,13 @@
     "symbol": "MBL"
   },
   "cex_small_cap:swarm-engine": {
-    "last_alert_ts": 1791651249.0858371,
-    "last_score": 72.1,
+    "last_alert_ts": 1791706530.531835,
+    "last_score": 67.7,
     "symbol": "SWARM"
   },
   "cex_small_cap:act-i-the-ai-prophecy": {
-    "last_alert_ts": 1791651805.981256,
-    "last_score": 68.9,
+    "last_alert_ts": 1791706530.531835,
+    "last_score": 63.1,
     "symbol": "ACT"
   },
   "cex_small_cap:bella-protocol": {
@@ -1078,5 +1078,15 @@
     "last_alert_ts": 1791702209.9560242,
     "last_score": 56.0,
     "symbol": "MAV"
+  },
+  "cex_small_cap:premium": {
+    "last_alert_ts": 1791706530.531835,
+    "last_score": 82.6,
+    "symbol": "PRM"
+  },
+  "dex_micro_cap:FDJqEqqS68jummd8XGtBqzJTu2Pgc3pGQjozrpUzpump": {
+    "last_alert_ts": 1791706530.531835,
+    "last_score": 65.2,
+    "symbol": "Altai"
   }
 }
