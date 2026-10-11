@@ -54,11 +54,6 @@
     "last_score": 71.1,
     "symbol": "PRIORS"
   },
-  "cex_small_cap:saga-2": {
-    "last_alert_ts": 1791435774.2482948,
-    "last_score": 56.1,
-    "symbol": "SAGA"
-  },
   "cex_small_cap:mubarak": {
     "last_alert_ts": 1791488424.646718,
     "last_score": 55.4,
@@ -70,8 +65,8 @@
     "symbol": "POP"
   },
   "cex_small_cap:baton-3": {
-    "last_alert_ts": 1791666204.188618,
-    "last_score": 56.8,
+    "last_alert_ts": 1791695004.4608357,
+    "last_score": 78.8,
     "symbol": "BATON"
   },
   "cex_small_cap:teller": {
@@ -105,7 +100,7 @@
     "symbol": "COLLECT"
   },
   "cex_small_cap:particle-network": {
-    "last_alert_ts": 1791615809.5652769,
+    "last_alert_ts": 1791695004.4608357,
     "last_score": 55.8,
     "symbol": "PARTI"
   },
@@ -440,8 +435,8 @@
     "symbol": "SIMD"
   },
   "cex_small_cap:caldera": {
-    "last_alert_ts": 1791680601.481188,
-    "last_score": 57.7,
+    "last_alert_ts": 1791695004.4608357,
+    "last_score": 93.6,
     "symbol": "ERA"
   },
   "dex_micro_cap:6Mix12LiHrQFojaQEnfPUC65Qkwd6X4Y5Qg93oFbordr": {
@@ -575,8 +570,8 @@
     "symbol": "AUDIO"
   },
   "cex_small_cap:memestock-3": {
-    "last_alert_ts": 1791486144.7140167,
-    "last_score": 85.1,
+    "last_alert_ts": 1791695004.4608357,
+    "last_score": 85.3,
     "symbol": "MEMESTOCK"
   },
   "cex_small_cap:rock-dao": {
@@ -755,8 +750,8 @@
     "symbol": "open"
   },
   "cex_small_cap:levva-protocol": {
-    "last_alert_ts": 1791558211.8899288,
-    "last_score": 68.3,
+    "last_alert_ts": 1791695004.4608357,
+    "last_score": 60.3,
     "symbol": "LVVA"
   },
   "cex_small_cap:lumentum-holdings-bstocks-tokenized-stock": {
@@ -905,8 +900,8 @@
     "symbol": "SWARMS"
   },
   "cex_small_cap:lumia": {
-    "last_alert_ts": 1791666204.188618,
-    "last_score": 74.7,
+    "last_alert_ts": 1791695004.4608357,
+    "last_score": 99.9,
     "symbol": "LUMIA"
   },
   "dex_micro_cap:0xfbb807360404094439b85e34c1d46d11014e611b": {
@@ -960,8 +955,8 @@
     "symbol": "SN21"
   },
   "cex_small_cap:omisego": {
-    "last_alert_ts": 1791680601.481188,
-    "last_score": 56.5,
+    "last_alert_ts": 1791695004.4608357,
+    "last_score": 77.8,
     "symbol": "OMG"
   },
   "dex_micro_cap:CvxQvqNQVRqq96oeoRnf6H64Memd8Weas9gte2xupump": {
@@ -1005,8 +1000,8 @@
     "symbol": "BEM"
   },
   "cex_small_cap:moviebloc": {
-    "last_alert_ts": 1791651249.0858371,
-    "last_score": 84.5,
+    "last_alert_ts": 1791695004.4608357,
+    "last_score": 63.9,
     "symbol": "MBL"
   },
   "cex_small_cap:swarm-engine": {
@@ -1103,5 +1098,15 @@
     "last_alert_ts": 1791687806.226382,
     "last_score": 58.6,
     "symbol": "KILOS"
+  },
+  "cex_small_cap:dkargo": {
+    "last_alert_ts": 1791695004.4608357,
+    "last_score": 74.2,
+    "symbol": "DKA"
+  },
+  "cex_small_cap:icon": {
+    "last_alert_ts": 1791695004.4608357,
+    "last_score": 69.1,
+    "symbol": "ICX"
   }
 }
