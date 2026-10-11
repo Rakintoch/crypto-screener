@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1791737610.1617885,
-  "cash_eur": 87.29757928225543,
+  "cash_eur": 76.20184883151876,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:moviebloc": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0008652324778826401,
       "entry_ts": 1791673373.3145897,
       "cost_eur": 23.298225082647072,
-      "last_price_eur": 0.0009192894202612966,
-      "last_score": 79.0,
+      "last_price_eur": 0.0008616887881212095,
+      "last_score": 64.1,
       "missed_updates": 0,
       "entry_market_cap": 19144340,
       "entry_venue": "Upbit",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 20338727
+      "last_market_cap": 20333710
     },
     "cex_small_cap:magic": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.10916004024303184,
       "entry_ts": 1791706531.1772077,
       "cost_eur": 23.80480571604451,
-      "last_price_eur": 0.1153815872158074,
-      "last_score": 70.4,
+      "last_price_eur": 0.11680531387287212,
+      "last_score": 96.4,
       "missed_updates": 0,
       "entry_market_cap": 41204843,
       "entry_venue": "Bitrue",
@@ -84,7 +84,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 43411012
+      "last_market_cap": 44205761
     },
     "cex_small_cap:doppler-finance": {
       "tier": "cex_small_cap",
@@ -96,8 +96,8 @@
       "entry_price_eur": 0.023969560369036066,
       "entry_ts": 1791706531.1772077,
       "cost_eur": 23.80480571604451,
-      "last_price_eur": 0.022647173489905737,
-      "last_score": 63.0,
+      "last_price_eur": 0.022694009341764583,
+      "last_score": 58.7,
       "missed_updates": 0,
       "entry_market_cap": 26895370,
       "entry_venue": null,
@@ -139,7 +139,40 @@
           "source": "CryptoRank"
         }
       ],
-      "last_market_cap": 25371088
+      "last_market_cap": 25459721
+    },
+    "cex_small_cap:sharex-2": {
+      "tier": "cex_small_cap",
+      "id": "sharex-2",
+      "symbol": "SHARE",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/sharex-2",
+      "qty": 5.500242246192829,
+      "entry_price_eur": 2.017316684263669,
+      "entry_ts": 1791723796.8553383,
+      "cost_eur": 11.095730450736673,
+      "last_price_eur": 2.017316684263669,
+      "last_score": 85.6,
+      "missed_updates": 0,
+      "entry_market_cap": 40548351,
+      "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
+      "entry_contract_address": "0x5fca51aff213bfbeab0b711b93c3374252fd6ac3 (BSC)",
+      "entry_score": 85.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 40196410,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 2.3436,
+      "entry_chg_24h": 28.96895,
+      "entry_chg_7d": 195.4672,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.9913204608493204,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -4578,8 +4611,8 @@
       "pnl_pct": -8.391917193507558
     }
   ],
-  "last_run_ts": 1791723318.584746,
-  "last_eur_rate": 0.892617994583152,
+  "last_run_ts": 1791723796.8553383,
+  "last_eur_rate": 0.8926180018865794,
   "last_rotation_ts": 1791673373.3145897,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
