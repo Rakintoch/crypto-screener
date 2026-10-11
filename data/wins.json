@@ -1711,5 +1711,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "B-MONEY (cex_small_cap) gained +16.4% in 89 min — trailing stop caught extra upside after the target. Entry score: 82. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791701123.9089282,
+    "symbol": "SHARE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/sharex-2",
+    "held_minutes": 942.4,
+    "exit_reason": "trailing stop hit — dropped 13.0% from the peak (peak +54.6% since entry)",
+    "pnl_pct": 34.48,
+    "pnl_eur": 8.21,
+    "entry_score": 68.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 16338585,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": -0.2582,
+    "entry_chg_24h": 42.18359,
+    "entry_chg_7d": 141.4253,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.5240154399735956,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "SHARE (cex_small_cap) gained +34.5% in 942 min — trailing stop caught extra upside after the target. Entry score: 68. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
