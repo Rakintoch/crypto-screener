@@ -295,8 +295,8 @@
     "symbol": "SHARE"
   },
   "dex_micro_cap:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-    "last_alert_ts": 1791637382.2873478,
-    "last_score": 59.9,
+    "last_alert_ts": 1791680601.481188,
+    "last_score": 63.7,
     "symbol": "CLAUDIA"
   },
   "cex_small_cap:inu-wif-sword": {
@@ -390,8 +390,8 @@
     "symbol": "GSTOCK"
   },
   "cex_small_cap:ninjacat-2": {
-    "last_alert_ts": 1791651805.981256,
-    "last_score": 56.7,
+    "last_alert_ts": 1791680601.481188,
+    "last_score": 83.8,
     "symbol": "NINJACAT"
   },
   "cex_small_cap:orochi-network": {
@@ -450,8 +450,8 @@
     "symbol": "SIMD"
   },
   "cex_small_cap:caldera": {
-    "last_alert_ts": 1791637382.2873478,
-    "last_score": 74.8,
+    "last_alert_ts": 1791680601.481188,
+    "last_score": 57.7,
     "symbol": "ERA"
   },
   "dex_micro_cap:6Mix12LiHrQFojaQEnfPUC65Qkwd6X4Y5Qg93oFbordr": {
@@ -855,8 +855,8 @@
     "symbol": "DRMR"
   },
   "cex_small_cap:b-money-2": {
-    "last_alert_ts": 1791679240.7238247,
-    "last_score": 60.0,
+    "last_alert_ts": 1791680601.481188,
+    "last_score": 79.4,
     "symbol": "B-MONEY"
   },
   "cex_small_cap:claus-2": {
@@ -940,8 +940,8 @@
     "symbol": "RON"
   },
   "cex_small_cap:district0x": {
-    "last_alert_ts": 1791630214.4801311,
-    "last_score": 81.0,
+    "last_alert_ts": 1791680601.481188,
+    "last_score": 63.0,
     "symbol": "DNT"
   },
   "cex_small_cap:paperdao": {
@@ -970,8 +970,8 @@
     "symbol": "SN21"
   },
   "cex_small_cap:omisego": {
-    "last_alert_ts": 1791637382.2873478,
-    "last_score": 83.6,
+    "last_alert_ts": 1791680601.481188,
+    "last_score": 56.5,
     "symbol": "OMG"
   },
   "dex_micro_cap:CvxQvqNQVRqq96oeoRnf6H64Memd8Weas9gte2xupump": {
@@ -1093,5 +1093,10 @@
     "last_alert_ts": 1791679240.7238247,
     "last_score": 69.7,
     "symbol": "BASECAT"
+  },
+  "cex_small_cap:lagrange": {
+    "last_alert_ts": 1791680601.481188,
+    "last_score": 75.9,
+    "symbol": "LA"
   }
 }
