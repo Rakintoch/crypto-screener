@@ -20,8 +20,8 @@
     "symbol": "HOOKR"
   },
   "cex_small_cap:gitcoin": {
-    "last_alert_ts": 1791679240.7238247,
-    "last_score": 65.4,
+    "last_alert_ts": 1791734942.6530237,
+    "last_score": 57.6,
     "symbol": "GTC"
   },
   "cex_small_cap:zip-coin": {
@@ -105,8 +105,8 @@
     "symbol": "YOLO"
   },
   "cex_small_cap:iexec-rlc": {
-    "last_alert_ts": 1791687806.226382,
-    "last_score": 71.9,
+    "last_alert_ts": 1791734942.6530237,
+    "last_score": 64.4,
     "symbol": "RLC"
   },
   "cex_small_cap:hot-bot": {
@@ -230,8 +230,8 @@
     "symbol": "SI276"
   },
   "cex_small_cap:openverse-network": {
-    "last_alert_ts": 1791673372.6798584,
-    "last_score": 55.8,
+    "last_alert_ts": 1791734942.6530237,
+    "last_score": 65.7,
     "symbol": "BTG"
   },
   "cex_small_cap:aia": {
@@ -250,19 +250,14 @@
     "symbol": "QTC"
   },
   "cex_small_cap:sharex-2": {
-    "last_alert_ts": 1791687806.226382,
-    "last_score": 89.6,
+    "last_alert_ts": 1791734942.6530237,
+    "last_score": 68.6,
     "symbol": "SHARE"
   },
   "dex_micro_cap:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
     "last_alert_ts": 1791680601.481188,
     "last_score": 63.7,
     "symbol": "CLAUDIA"
-  },
-  "cex_small_cap:selfmade-by-sp3nd": {
-    "last_alert_ts": 1791471816.5899048,
-    "last_score": 76.3,
-    "symbol": "MADE"
   },
   "dex_micro_cap:9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump": {
     "last_alert_ts": 1791486144.7140167,
@@ -378,26 +373,6 @@
     "last_alert_ts": 1791594204.8876195,
     "last_score": 60.6,
     "symbol": "SKL"
-  },
-  "dex_micro_cap:0xe34356dcd3d7bb991248f322e4ec31b5d60bc54e": {
-    "last_alert_ts": 1791471816.5899048,
-    "last_score": 83.7,
-    "symbol": "DGUY"
-  },
-  "dex_micro_cap:HXqxTwCzREUXNK4CbNDgNEUEh2jLzFKdC4tvTuojpump": {
-    "last_alert_ts": 1791471816.5899048,
-    "last_score": 82.2,
-    "symbol": "ZKDARK"
-  },
-  "cex_small_cap:enjincoin": {
-    "last_alert_ts": 1791471816.5899048,
-    "last_score": 57.6,
-    "symbol": "ENJ"
-  },
-  "cex_small_cap:book-of-meme": {
-    "last_alert_ts": 1791471816.5899048,
-    "last_score": 57.5,
-    "symbol": "BOME"
   },
   "dex_micro_cap:BLXhcFAtJpCM3HCbdzvr8F3JwGqdMGkAoLXuRmXLpump": {
     "last_alert_ts": 1791478949.8311546,
@@ -860,8 +835,8 @@
     "symbol": "SQUIRE"
   },
   "cex_small_cap:bem-2": {
-    "last_alert_ts": 1791709378.35,
-    "last_score": 65.4,
+    "last_alert_ts": 1791734942.6530237,
+    "last_score": 80.4,
     "symbol": "BEM"
   },
   "cex_small_cap:moviebloc": {
@@ -935,8 +910,8 @@
     "symbol": "BLUE"
   },
   "cex_small_cap:taoillium": {
-    "last_alert_ts": 1791679240.7238247,
-    "last_score": 73.6,
+    "last_alert_ts": 1791734942.6530237,
+    "last_score": 66.7,
     "symbol": "SN109"
   },
   "cex_small_cap:basecat": {
@@ -950,8 +925,8 @@
     "symbol": "LA"
   },
   "cex_small_cap:cat-wif-hood": {
-    "last_alert_ts": 1791687806.226382,
-    "last_score": 84.6,
+    "last_alert_ts": 1791734942.6530237,
+    "last_score": 55.8,
     "symbol": "HOODCAT"
   },
   "cex_small_cap:bunker-mode": {
@@ -960,8 +935,8 @@
     "symbol": "BUNKER"
   },
   "dex_micro_cap:8DAkjpoFytMqAFY4m2vTEUo6sVT65ZtMZSgNFB1Ppump": {
-    "last_alert_ts": 1791687806.226382,
-    "last_score": 58.6,
+    "last_alert_ts": 1791734942.6530237,
+    "last_score": 79.7,
     "symbol": "KILOS"
   },
   "cex_small_cap:dkargo": {
@@ -1053,5 +1028,30 @@
     "last_alert_ts": 1791730990.2572372,
     "last_score": 57.1,
     "symbol": "CKB"
+  },
+  "cex_small_cap:blue-chip-4": {
+    "last_alert_ts": 1791734942.6530237,
+    "last_score": 66.0,
+    "symbol": "BLUECHIP"
+  },
+  "cex_small_cap:asteroid-2": {
+    "last_alert_ts": 1791734942.6530237,
+    "last_score": 60.6,
+    "symbol": "ASTEROID"
+  },
+  "cex_small_cap:metis-token": {
+    "last_alert_ts": 1791734942.6530237,
+    "last_score": 59.6,
+    "symbol": "METIS"
+  },
+  "cex_small_cap:book-of-meme": {
+    "last_alert_ts": 1791734942.6530237,
+    "last_score": 58.4,
+    "symbol": "BOME"
+  },
+  "cex_small_cap:canopy": {
+    "last_alert_ts": 1791734942.6530237,
+    "last_score": 57.2,
+    "symbol": "CNPY"
   }
 }
