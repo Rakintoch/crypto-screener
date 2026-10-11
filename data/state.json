@@ -374,16 +374,6 @@
     "last_score": 86.6,
     "symbol": "BTR"
   },
-  "cex_small_cap:hashflow": {
-    "last_alert_ts": 1791464602.19449,
-    "last_score": 83.4,
-    "symbol": "HFT"
-  },
-  "cex_small_cap:aevo-exchange": {
-    "last_alert_ts": 1791464602.19449,
-    "last_score": 59.1,
-    "symbol": "AEVO"
-  },
   "cex_small_cap:skale": {
     "last_alert_ts": 1791594204.8876195,
     "last_score": 60.6,
@@ -590,13 +580,13 @@
     "symbol": "CPOOL"
   },
   "dex_micro_cap:8TiMkgvsrat9tM2esko8zVTt99LZLpefUM4SnZaziXaQ": {
-    "last_alert_ts": 1791587005.3588102,
-    "last_score": 85.8,
+    "last_alert_ts": 1791730990.2572372,
+    "last_score": 55.5,
     "symbol": "QI"
   },
   "cex_small_cap:higgspad": {
-    "last_alert_ts": 1791605157.2766159,
-    "last_score": 82.8,
+    "last_alert_ts": 1791730990.2572372,
+    "last_score": 85.0,
     "symbol": "HIGGS"
   },
   "cex_small_cap:octo-gaming": {
@@ -605,8 +595,8 @@
     "symbol": "OTK"
   },
   "dex_micro_cap:DoVAVzViX8Bjy3r15nwikSaSbzE6dV4ovd28aWpJpump": {
-    "last_alert_ts": 1791550996.4701264,
-    "last_score": 77.9,
+    "last_alert_ts": 1791730990.2572372,
+    "last_score": 89.5,
     "symbol": "HIGGS"
   },
   "cex_small_cap:sapling": {
@@ -950,8 +940,8 @@
     "symbol": "SN109"
   },
   "cex_small_cap:basecat": {
-    "last_alert_ts": 1791723796.3105714,
-    "last_score": 59.2,
+    "last_alert_ts": 1791730990.2572372,
+    "last_score": 75.8,
     "symbol": "BASECAT"
   },
   "cex_small_cap:lagrange": {
@@ -1038,5 +1028,30 @@
     "last_alert_ts": 1791723796.3105714,
     "last_score": 55.0,
     "symbol": "CLAUDIA"
+  },
+  "dex_micro_cap:0x2b8307f5bb90ba445e3e31c480be0bff13087777": {
+    "last_alert_ts": 1791730990.2572372,
+    "last_score": 76.8,
+    "symbol": "Kedaengee"
+  },
+  "cex_small_cap:tau-fa": {
+    "last_alert_ts": 1791730990.2572372,
+    "last_score": 70.5,
+    "symbol": "TAUFA"
+  },
+  "cex_small_cap:io": {
+    "last_alert_ts": 1791730990.2572372,
+    "last_score": 61.1,
+    "symbol": "IO"
+  },
+  "cex_small_cap:oasis-network": {
+    "last_alert_ts": 1791730990.2572372,
+    "last_score": 58.0,
+    "symbol": "ROSE"
+  },
+  "cex_small_cap:nervos-network": {
+    "last_alert_ts": 1791730990.2572372,
+    "last_score": 57.1,
+    "symbol": "CKB"
   }
 }
