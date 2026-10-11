@@ -10,8 +10,8 @@
     "symbol": "GLMR"
   },
   "cex_small_cap:magic": {
-    "last_alert_ts": 1791630214.4801311,
-    "last_score": 91.1,
+    "last_alert_ts": 1791687806.226382,
+    "last_score": 55.1,
     "symbol": "MAGIC"
   },
   "cex_small_cap:cap-4": {
@@ -50,8 +50,8 @@
     "symbol": "龙虾"
   },
   "cex_small_cap:priors-agent": {
-    "last_alert_ts": 1791637382.2873478,
-    "last_score": 71.5,
+    "last_alert_ts": 1791687806.226382,
+    "last_score": 71.1,
     "symbol": "PRIORS"
   },
   "cex_small_cap:saga-2": {
@@ -125,8 +125,8 @@
     "symbol": "YOLO"
   },
   "cex_small_cap:iexec-rlc": {
-    "last_alert_ts": 1791644577.4435604,
-    "last_score": 56.9,
+    "last_alert_ts": 1791687806.226382,
+    "last_score": 71.9,
     "symbol": "RLC"
   },
   "cex_small_cap:hot-bot": {
@@ -170,8 +170,8 @@
     "symbol": "GRIFFAIN"
   },
   "cex_small_cap:coin98": {
-    "last_alert_ts": 1791633055.3108435,
-    "last_score": 78.5,
+    "last_alert_ts": 1791687806.226382,
+    "last_score": 56.6,
     "symbol": "C98"
   },
   "cex_small_cap:cyberconnect": {
@@ -279,30 +279,20 @@
     "last_score": 81.1,
     "symbol": "TWEETCRAFT"
   },
-  "cex_small_cap:yei-finance": {
-    "last_alert_ts": 1791428602.359807,
-    "last_score": 79.4,
-    "symbol": "CLO"
-  },
   "cex_small_cap:quantus": {
     "last_alert_ts": 1791500606.8968391,
     "last_score": 93.0,
     "symbol": "QTC"
   },
   "cex_small_cap:sharex-2": {
-    "last_alert_ts": 1791666204.188618,
-    "last_score": 69.6,
+    "last_alert_ts": 1791687806.226382,
+    "last_score": 89.6,
     "symbol": "SHARE"
   },
   "dex_micro_cap:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
     "last_alert_ts": 1791680601.481188,
     "last_score": 63.7,
     "symbol": "CLAUDIA"
-  },
-  "cex_small_cap:inu-wif-sword": {
-    "last_alert_ts": 1791428602.359807,
-    "last_score": 81.5,
-    "symbol": "SWORDINU"
   },
   "cex_small_cap:selfmade-by-sp3nd": {
     "last_alert_ts": 1791471816.5899048,
@@ -960,8 +950,8 @@
     "symbol": "WAL"
   },
   "cex_small_cap:no-risk-no-rari": {
-    "last_alert_ts": 1791633055.3108435,
-    "last_score": 64.5,
+    "last_alert_ts": 1791687806.226382,
+    "last_score": 67.6,
     "symbol": "RARI"
   },
   "cex_small_cap:omega-any-to-any": {
@@ -1098,5 +1088,20 @@
     "last_alert_ts": 1791680601.481188,
     "last_score": 75.9,
     "symbol": "LA"
+  },
+  "cex_small_cap:cat-wif-hood": {
+    "last_alert_ts": 1791687806.226382,
+    "last_score": 84.6,
+    "symbol": "HOODCAT"
+  },
+  "cex_small_cap:bunker-mode": {
+    "last_alert_ts": 1791687806.226382,
+    "last_score": 66.6,
+    "symbol": "BUNKER"
+  },
+  "dex_micro_cap:8DAkjpoFytMqAFY4m2vTEUo6sVT65ZtMZSgNFB1Ppump": {
+    "last_alert_ts": 1791687806.226382,
+    "last_score": 58.6,
+    "symbol": "KILOS"
   }
 }
