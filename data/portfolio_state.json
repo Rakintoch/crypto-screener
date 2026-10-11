@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10916004024303184,
       "entry_ts": 1791706531.1772077,
       "cost_eur": 23.80480571604451,
-      "last_price_eur": 0.11212216376429138,
-      "last_score": 71.7,
+      "last_price_eur": 0.11070531134884591,
+      "last_score": 70.6,
       "missed_updates": 0,
       "entry_market_cap": 41204843,
       "entry_venue": "Bitrue",
@@ -50,7 +50,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 42844008
+      "last_market_cap": 41881627
     },
     "cex_small_cap:sharex-2": {
       "tier": "cex_small_cap",
@@ -62,7 +62,7 @@
       "entry_price_eur": 2.017316684263669,
       "entry_ts": 1791723796.8553383,
       "cost_eur": 11.095730450736673,
-      "last_price_eur": 2.0329916369047227,
+      "last_price_eur": 2.0329916385464144,
       "last_score": 69.1,
       "missed_updates": 0,
       "entry_market_cap": 40548351,
@@ -84,7 +84,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 40996324
+      "last_market_cap": 40971990
     },
     "cex_small_cap:bem-2": {
       "tier": "cex_small_cap",
@@ -96,8 +96,8 @@
       "entry_price_eur": 39.05483956457036,
       "entry_ts": 1791734943.322161,
       "cost_eur": 10.859563631314337,
-      "last_price_eur": 37.084264113538346,
-      "last_score": 80.6,
+      "last_price_eur": 35.97860202427537,
+      "last_score": 80.5,
       "missed_updates": 0,
       "entry_market_cap": 14492606,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -118,7 +118,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 13763421
+      "last_market_cap": 13369427
     },
     "cex_small_cap:basecat": {
       "tier": "cex_small_cap",
@@ -130,8 +130,8 @@
       "entry_price_eur": 0.014497236696038857,
       "entry_ts": 1791734943.322161,
       "cost_eur": 23.270493495673577,
-      "last_price_eur": 0.014137691341935033,
-      "last_score": 76.4,
+      "last_price_eur": 0.014176237944814016,
+      "last_score": 76.5,
       "missed_updates": 0,
       "entry_market_cap": 16324814,
       "entry_venue": "Coinbase Exchange",
@@ -152,7 +152,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 15859691
+      "last_market_cap": 15948041
     }
   },
   "closed_trades": [
@@ -4692,8 +4692,8 @@
       "pnl_pct": -8.056921639773966
     }
   ],
-  "last_run_ts": 1791735621.8685026,
-  "last_eur_rate": 0.8916629986424223,
+  "last_run_ts": 1791735918.6328754,
+  "last_eur_rate": 0.8916629993624626,
   "last_rotation_ts": 1791673373.3145897,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
