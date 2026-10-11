@@ -6649,5 +6649,32 @@
     "categoria": "other",
     "velocidade_queda": "slow (>6h)",
     "licao": "C98 (cex_small_cap) lost -2.2% in 672 min (slow (>6h)) — other. Entry score: 78 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791679527.313144,
+    "symbol": "ERA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/caldera",
+    "held_minutes": 582.5,
+    "exit_reason": "stop-loss hit (-8.7%)",
+    "pnl_pct": -8.67,
+    "pnl_eur": -2.06,
+    "entry_score": 76.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 63721166,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 0.2007,
+    "entry_chg_24h": 30.07644,
+    "entry_chg_7d": 31.6186,
+    "entry_chg_6h": null,
+    "entry_turnover": 4.406202231577509,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "ERA (cex_small_cap) lost -8.7% in 582 min (slow (>6h)) — stop-loss hit. Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
