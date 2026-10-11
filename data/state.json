@@ -1,12 +1,7 @@
 {
-  "cex_small_cap:moonbeam": {
-    "last_alert_ts": 1791488424.646718,
-    "last_score": 58.0,
-    "symbol": "GLMR"
-  },
   "cex_small_cap:magic": {
-    "last_alert_ts": 1791706530.531835,
-    "last_score": 91.7,
+    "last_alert_ts": 1791752575.7634213,
+    "last_score": 76.8,
     "symbol": "MAGIC"
   },
   "cex_small_cap:hookr-fun": {
@@ -75,8 +70,8 @@
     "symbol": "JEANPHIL"
   },
   "cex_small_cap:particle-network": {
-    "last_alert_ts": 1791695004.4608357,
-    "last_score": 55.8,
+    "last_alert_ts": 1791752575.7634213,
+    "last_score": 57.1,
     "symbol": "PARTI"
   },
   "cex_small_cap:hivemapper": {
@@ -90,8 +85,8 @@
     "symbol": "AEON"
   },
   "cex_small_cap:yolo-2": {
-    "last_alert_ts": 1791608579.2486885,
-    "last_score": 86.2,
+    "last_alert_ts": 1791752575.7634213,
+    "last_score": 59.5,
     "symbol": "YOLO"
   },
   "cex_small_cap:iexec-rlc": {
@@ -130,8 +125,8 @@
     "symbol": "GRIFFAIN"
   },
   "cex_small_cap:coin98": {
-    "last_alert_ts": 1791687806.226382,
-    "last_score": 56.6,
+    "last_alert_ts": 1791752575.7634213,
+    "last_score": 55.8,
     "symbol": "C98"
   },
   "cex_small_cap:cyberconnect": {
@@ -195,8 +190,8 @@
     "symbol": "中国人能飞"
   },
   "dex_micro_cap:HbPDWSqu8hpVMX6gMjwMDGe5rVgicWo3Qh3Jaojypump": {
-    "last_alert_ts": 1791651805.981256,
-    "last_score": 58.1,
+    "last_alert_ts": 1791752575.7634213,
+    "last_score": 64.3,
     "symbol": "Frank"
   },
   "cex_small_cap:forta": {
@@ -369,14 +364,9 @@
     "last_score": 55.5,
     "symbol": "OPN"
   },
-  "cex_small_cap:hyperlane": {
-    "last_alert_ts": 1791488424.646718,
-    "last_score": 60.8,
-    "symbol": "HYPER"
-  },
   "cex_small_cap:janction": {
-    "last_alert_ts": 1791615809.5652769,
-    "last_score": 85.6,
+    "last_alert_ts": 1791752575.7634213,
+    "last_score": 60.2,
     "symbol": "JCT"
   },
   "cex_small_cap:quack-ai": {
@@ -445,8 +435,8 @@
     "symbol": "PQC"
   },
   "cex_small_cap:doppler-finance": {
-    "last_alert_ts": 1791702209.9560242,
-    "last_score": 81.2,
+    "last_alert_ts": 1791752575.7634213,
+    "last_score": 55.6,
     "symbol": "XDP"
   },
   "cex_small_cap:mileverse": {
@@ -980,8 +970,8 @@
     "symbol": "CNPY"
   },
   "cex_small_cap:claudia-2": {
-    "last_alert_ts": 1791738199.874623,
-    "last_score": 55.8,
+    "last_alert_ts": 1791752575.7634213,
+    "last_score": 77.2,
     "symbol": "CLAUDIA"
   },
   "cex_small_cap:dymension": {
@@ -998,5 +988,10 @@
     "last_alert_ts": 1791745384.2145169,
     "last_score": 56.4,
     "symbol": "GOR"
+  },
+  "cex_small_cap:the-toad-pepe": {
+    "last_alert_ts": 1791752575.7634213,
+    "last_score": 58.3,
+    "symbol": "TOAD"
   }
 }
