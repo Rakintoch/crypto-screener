@@ -6757,5 +6757,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "MBL (cex_small_cap) lost -9.6% in 878 min (slow (>6h)) — stop-loss hit. Entry score: 90 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791726917.0148063,
+    "symbol": "XDP",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/doppler-finance",
+    "held_minutes": 339.8,
+    "exit_reason": "stop-loss hit (-8.1%)",
+    "pnl_pct": -8.06,
+    "pnl_eur": -1.92,
+    "entry_score": 84.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 239357469,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.7791,
+    "entry_chg_24h": 13.46584,
+    "entry_chg_7d": 36.3639,
+    "entry_chg_6h": null,
+    "entry_turnover": 8.899578960988453,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "XDP (cex_small_cap) lost -8.1% in 340 min (fast (1-6h)) — stop-loss hit. Entry score: 85 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
