@@ -6703,5 +6703,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "OMG (cex_small_cap) lost -8.1% in 508 min (slow (>6h)) — stop-loss hit. Entry score: 86 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791718239.3966675,
+    "symbol": "LUMIA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/lumia",
+    "held_minutes": 195.1,
+    "exit_reason": "stop-loss hit (-8.4%)",
+    "pnl_pct": -8.39,
+    "pnl_eur": -2.0,
+    "entry_score": 85.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 104667496,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 1.7932,
+    "entry_chg_24h": 30.56173,
+    "entry_chg_7d": 96.8887,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.617427281256729,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "LUMIA (cex_small_cap) lost -8.4% in 195 min (fast (1-6h)) — stop-loss hit. Entry score: 86 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
