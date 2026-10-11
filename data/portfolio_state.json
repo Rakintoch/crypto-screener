@@ -15,7 +15,7 @@
       "entry_price_eur": 0.10916004024303184,
       "entry_ts": 1791706531.1772077,
       "cost_eur": 23.80480571604451,
-      "last_price_eur": 0.11023362131572882,
+      "last_price_eur": 0.10971645662543456,
       "last_score": 93.5,
       "missed_updates": 0,
       "entry_market_cap": 41204843,
@@ -50,7 +50,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 41699761
+      "last_market_cap": 41511005
     },
     "cex_small_cap:doppler-finance": {
       "tier": "cex_small_cap",
@@ -62,8 +62,8 @@
       "entry_price_eur": 0.023969560369036066,
       "entry_ts": 1791706531.1772077,
       "cost_eur": 23.80480571604451,
-      "last_price_eur": 0.02206531543663079,
-      "last_score": 55.6,
+      "last_price_eur": 0.022075917279059516,
+      "last_score": 55.4,
       "missed_updates": 0,
       "entry_market_cap": 26895370,
       "entry_venue": null,
@@ -105,7 +105,7 @@
           "source": "CryptoRank"
         }
       ],
-      "last_market_cap": 24746249
+      "last_market_cap": 24758399
     },
     "cex_small_cap:sharex-2": {
       "tier": "cex_small_cap",
@@ -117,8 +117,8 @@
       "entry_price_eur": 2.017316684263669,
       "entry_ts": 1791723796.8553383,
       "cost_eur": 11.095730450736673,
-      "last_price_eur": 2.059741522801116,
-      "last_score": 96.4,
+      "last_price_eur": 2.1221579296409847,
+      "last_score": 96.6,
       "missed_updates": 0,
       "entry_market_cap": 40548351,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -139,7 +139,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 41466546
+      "last_market_cap": 42790154
     }
   },
   "closed_trades": [
@@ -4618,8 +4618,8 @@
       "pnl_pct": -9.577718475254411
     }
   ],
-  "last_run_ts": 1791726327.396408,
-  "last_eur_rate": 0.8916629968836001,
+  "last_run_ts": 1791726624.796086,
+  "last_eur_rate": 0.8916629956474725,
   "last_rotation_ts": 1791673373.3145897,
   "cycle_number": 3,
   "cycle_start_ts": 1790873610.1617885,
