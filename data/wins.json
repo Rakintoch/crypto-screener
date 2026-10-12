@@ -1763,5 +1763,31 @@
     "entry_base_breakout": null,
     "categoria": "other (manual/forced exit with profit)",
     "nota": "SHARE (cex_small_cap) gained +2.7% in 1037 min — other (manual/forced exit with profit). Entry score: 86. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791848116.428474,
+    "symbol": "FIGHT",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/BoW9h5GBqdNR55fKE3VHdzNgPLANzmYKY1eiqmx1DRLZ",
+    "held_minutes": 1112.4,
+    "exit_reason": "trailing stop hit — dropped 39.6% from the peak (peak +102.1% since entry)",
+    "pnl_pct": 22.11,
+    "pnl_eur": 3.94,
+    "entry_score": 92.4,
+    "entry_liquidity_usd": 40493.3105,
+    "entry_volume_24h_usd": 395108.951948862,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 18.211,
+    "entry_chg_24h": 371.815,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 371.815,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 9.757388246852823,
+    "entry_boosted": true,
+    "entry_pool_age_minutes": 190.4519051,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "FIGHT (dex_micro_cap) gained +22.1% in 1112 min — trailing stop caught extra upside after the target. Entry liquidity: $40,493. Entry score: 92. Entry security: no obvious red flags."
   }
 ]
