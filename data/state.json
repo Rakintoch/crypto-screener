@@ -1,7 +1,7 @@
 {
   "cex_small_cap:magic": {
-    "last_alert_ts": 1791752575.7634213,
-    "last_score": 76.8,
+    "last_alert_ts": 1791766682.4517303,
+    "last_score": 98.3,
     "symbol": "MAGIC"
   },
   "cex_small_cap:hookr-fun": {
@@ -95,8 +95,8 @@
     "symbol": "EDU"
   },
   "cex_small_cap:origin-protocol": {
-    "last_alert_ts": 1791702209.9560242,
-    "last_score": 59.9,
+    "last_alert_ts": 1791766682.4517303,
+    "last_score": 60.4,
     "symbol": "OGN"
   },
   "cex_small_cap:radicle": {
@@ -189,11 +189,6 @@
     "last_score": 77.1,
     "symbol": "FORT"
   },
-  "dex_micro_cap:HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": {
-    "last_alert_ts": 1791504556.9188447,
-    "last_score": 74.5,
-    "symbol": "SI276"
-  },
   "cex_small_cap:openverse-network": {
     "last_alert_ts": 1791734942.6530237,
     "last_score": 65.7,
@@ -205,8 +200,8 @@
     "symbol": "AIA"
   },
   "cex_small_cap:sharex-2": {
-    "last_alert_ts": 1791734942.6530237,
-    "last_score": 68.6,
+    "last_alert_ts": 1791766682.4517303,
+    "last_score": 89.7,
     "symbol": "SHARE"
   },
   "dex_micro_cap:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
@@ -720,8 +715,8 @@
     "symbol": "RHEA"
   },
   "dex_micro_cap:6KDpQM4BVDdtAkjtyFDiBCkbii8q8BieEyXXm6kNpump": {
-    "last_alert_ts": 1791723796.3105714,
-    "last_score": 64.7,
+    "last_alert_ts": 1791766682.4517303,
+    "last_score": 89.1,
     "symbol": "TM"
   },
   "cex_small_cap:hippius": {
@@ -810,8 +805,8 @@
     "symbol": "MAV"
   },
   "cex_small_cap:premium": {
-    "last_alert_ts": 1791706530.531835,
-    "last_score": 82.6,
+    "last_alert_ts": 1791766682.4517303,
+    "last_score": 73.4,
     "symbol": "PRM"
   },
   "dex_micro_cap:FDJqEqqS68jummd8XGtBqzJTu2Pgc3pGQjozrpUzpump": {
@@ -928,5 +923,10 @@
     "last_alert_ts": 1791752575.7634213,
     "last_score": 58.3,
     "symbol": "TOAD"
+  },
+  "cex_small_cap:quantus": {
+    "last_alert_ts": 1791766682.4517303,
+    "last_score": 55.0,
+    "symbol": "QTC"
   }
 }
