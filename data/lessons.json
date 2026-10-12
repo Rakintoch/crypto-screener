@@ -7000,5 +7000,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "CTK (cex_small_cap) lost -10.5% in 67 min (fast (1-6h)) — stop-loss hit. Entry score: 98 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791846186.9829211,
+    "symbol": "MAGIC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/magic",
+    "held_minutes": 2327.6,
+    "exit_reason": "rotated out — thesis fading (score 44, no unrealized gain) to free a slot for a new qualified candidate",
+    "pnl_pct": -4.32,
+    "pnl_eur": -1.03,
+    "entry_score": 91.7,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 181764710,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 7.4513,
+    "entry_chg_24h": 13.33368,
+    "entry_chg_7d": 105.7915,
+    "entry_chg_6h": null,
+    "entry_turnover": 4.41124627025032,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "MAGIC (cex_small_cap) lost -4.3% in 2328 min (slow (>6h)) — other. Entry score: 92 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
