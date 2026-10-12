@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10916004024303184,
       "entry_ts": 1791706531.1772077,
       "cost_eur": 23.80480571604451,
-      "last_price_eur": 0.11775638535781582,
-      "last_score": 81.7,
+      "last_price_eur": 0.11743437452968435,
+      "last_score": 81.8,
       "missed_updates": 0,
       "entry_market_cap": 41204843,
       "entry_venue": "Bitrue",
@@ -50,7 +50,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 44377903
+      "last_market_cap": 44294695
     },
     "dex_micro_cap:A8JUiZLzjGAsKxE74evdspHcuW4hvhPbvryDhaDZpump": {
       "tier": "dex_micro_cap",
@@ -62,8 +62,8 @@
       "entry_price_eur": 0.00019593684004940524,
       "entry_ts": 1791781374.4285967,
       "cost_eur": 17.807382466672404,
-      "last_price_eur": 0.00024584954526433674,
-      "last_score": 66.0,
+      "last_price_eur": 0.00025152237572989447,
+      "last_score": 69.2,
       "missed_updates": 0,
       "entry_market_cap": 215909.390777633,
       "entry_venue": null,
@@ -84,7 +84,7 @@
       "entry_catalyst_tags": null,
       "entry_catalyst_score": null,
       "entry_catalyst_headlines": null,
-      "last_market_cap": 240640.0
+      "last_market_cap": 246070.0
     },
     "cex_small_cap:baton-3": {
       "tier": "cex_small_cap",
@@ -96,8 +96,8 @@
       "entry_price_eur": 0.015906424797195555,
       "entry_ts": 1791788581.980812,
       "cost_eur": 21.922067533808065,
-      "last_price_eur": 0.014932058619997591,
-      "last_score": 61.3,
+      "last_price_eur": 0.0148947148594584,
+      "last_score": 62.4,
       "missed_updates": 0,
       "entry_market_cap": 17824984,
       "entry_venue": "Meteora",
@@ -118,7 +118,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 16679111
+      "last_market_cap": 16625068
     },
     "cex_small_cap:metis-token": {
       "tier": "cex_small_cap",
@@ -130,8 +130,8 @@
       "entry_price_eur": 3.667463971645209,
       "entry_ts": 1791788581.980812,
       "cost_eur": 21.922067533808065,
-      "last_price_eur": 3.4086126908920047,
-      "last_score": 56.9,
+      "last_price_eur": 3.42700355405726,
+      "last_score": 57.0,
       "missed_updates": 0,
       "entry_market_cap": 33364571,
       "entry_venue": "Binance",
@@ -160,7 +160,7 @@
           "source": "KuCoin"
         }
       ],
-      "last_market_cap": 30967962
+      "last_market_cap": 31059295
     }
   },
   "closed_trades": [
@@ -748,8 +748,8 @@
       "pnl_pct": 2.667631959534758
     }
   ],
-  "last_run_ts": 1791803427.0795443,
-  "last_eur_rate": 0.894649000234122,
+  "last_run_ts": 1791803731.2381918,
+  "last_eur_rate": 0.8947789958374047,
   "last_rotation_ts": 1791673373.3145897,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
