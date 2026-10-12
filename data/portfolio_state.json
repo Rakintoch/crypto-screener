@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 93.0994187408544,
+  "cash_eur": 82.4138286693202,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:magic": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10916004024303184,
       "entry_ts": 1791706531.1772077,
       "cost_eur": 23.80480571604451,
-      "last_price_eur": 0.12019706844538422,
-      "last_score": 75.8,
+      "last_price_eur": 0.1204564955729621,
+      "last_score": 71.6,
       "missed_updates": 0,
       "entry_market_cap": 41204843,
       "entry_venue": "Bitrue",
@@ -50,7 +50,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 45412917
+      "last_market_cap": 45555440
     },
     "cex_small_cap:sharex-2": {
       "tier": "cex_small_cap",
@@ -62,8 +62,8 @@
       "entry_price_eur": 2.017316684263669,
       "entry_ts": 1791723796.8553383,
       "cost_eur": 11.095730450736673,
-      "last_price_eur": 2.052225593125802,
-      "last_score": 64.1,
+      "last_price_eur": 2.0701591902549157,
+      "last_score": 62.0,
       "missed_updates": 0,
       "entry_market_cap": 40548351,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -84,7 +84,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 41369296
+      "last_market_cap": 41695474
     },
     "cex_small_cap:basecat": {
       "tier": "cex_small_cap",
@@ -96,8 +96,8 @@
       "entry_price_eur": 0.014497236696038857,
       "entry_ts": 1791734943.322161,
       "cost_eur": 23.270493495673577,
-      "last_price_eur": 0.013587749961206057,
-      "last_score": 41.1,
+      "last_price_eur": 0.013641715523682877,
+      "last_score": 40.7,
       "missed_updates": 0,
       "entry_market_cap": 16324814,
       "entry_venue": "Coinbase Exchange",
@@ -118,7 +118,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 15229253
+      "last_market_cap": 15285579
+    },
+    "cex_small_cap:touch-grass-2": {
+      "tier": "cex_small_cap",
+      "id": "touch-grass-2",
+      "symbol": "GRASS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/touch-grass-2",
+      "qty": 9085.26681684151,
+      "entry_price_eur": 0.001176144882363406,
+      "entry_ts": 1791774194.500315,
+      "cost_eur": 10.685590071534213,
+      "last_price_eur": 0.001176144882363406,
+      "last_score": 91.2,
+      "missed_updates": 0,
+      "entry_market_cap": 1289923,
+      "entry_venue": "Pons V2 Dex (on-chain)",
+      "entry_contract_address": "0x16391c40e85fb2246a2c8c17bfa2594c5d3ef84b (robinhood)",
+      "entry_score": 91.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 715728,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 12.3981,
+      "entry_chg_24h": 571.47842,
+      "entry_chg_7d": 127.1007,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.5548610265884087,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -546,8 +579,8 @@
       "pnl_pct": -8.016071056245577
     }
   ],
-  "last_run_ts": 1791773720.4628668,
-  "last_eur_rate": 0.8922719970112184,
+  "last_run_ts": 1791774194.500315,
+  "last_eur_rate": 0.8923099957995326,
   "last_rotation_ts": 1791673373.3145897,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,

@@ -14,11 +14,6 @@
     "last_score": 57.6,
     "symbol": "GTC"
   },
-  "cex_small_cap:hooked": {
-    "last_alert_ts": 1791507812.4239097,
-    "last_score": 91.0,
-    "symbol": "HOOKED"
-  },
   "cex_small_cap:lobster-2": {
     "last_alert_ts": 1791583954.1430163,
     "last_score": 58.8,
@@ -49,11 +44,6 @@
     "last_score": 94.5,
     "symbol": "SWORDCAT"
   },
-  "cex_small_cap:infinity-ground": {
-    "last_alert_ts": 1791507812.4239097,
-    "last_score": 62.9,
-    "symbol": "AIN"
-  },
   "dex_micro_cap:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": {
     "last_alert_ts": 1791633055.3108435,
     "last_score": 64.1,
@@ -68,11 +58,6 @@
     "last_alert_ts": 1791752575.7634213,
     "last_score": 57.1,
     "symbol": "PARTI"
-  },
-  "cex_small_cap:hivemapper": {
-    "last_alert_ts": 1791514991.8354836,
-    "last_score": 55.8,
-    "symbol": "HONEY"
   },
   "cex_small_cap:aeon-3": {
     "last_alert_ts": 1791579830.1009276,
@@ -103,11 +88,6 @@
     "last_alert_ts": 1791658986.0513473,
     "last_score": 57.2,
     "symbol": "RAD"
-  },
-  "cex_small_cap:cali": {
-    "last_alert_ts": 1791507812.4239097,
-    "last_score": 61.8,
-    "symbol": "CALI"
   },
   "cex_small_cap:api3": {
     "last_alert_ts": 1791579830.1009276,
@@ -229,11 +209,6 @@
     "last_score": 65.1,
     "symbol": "W"
   },
-  "cex_small_cap:squid-3": {
-    "last_alert_ts": 1791507812.4239097,
-    "last_score": 64.6,
-    "symbol": "QUID"
-  },
   "cex_small_cap:wink": {
     "last_alert_ts": 1791633055.3108435,
     "last_score": 65.0,
@@ -263,11 +238,6 @@
     "last_alert_ts": 1791522171.4947464,
     "last_score": 56.8,
     "symbol": "SLC"
-  },
-  "cex_small_cap:inverse-finance": {
-    "last_alert_ts": 1791514991.8354836,
-    "last_score": 62.3,
-    "symbol": "INV"
   },
   "cex_small_cap:cartesi": {
     "last_alert_ts": 1791702209.9560242,
@@ -338,16 +308,6 @@
     "last_alert_ts": 1791679240.7238247,
     "last_score": 56.7,
     "symbol": "baton"
-  },
-  "dex_micro_cap:0xf7e575be59e38a0bd0984a6de368029e57b48ae5": {
-    "last_alert_ts": 1791514991.8354836,
-    "last_score": 67.3,
-    "symbol": "BAI"
-  },
-  "cex_small_cap:dog-with-purpose": {
-    "last_alert_ts": 1791514991.8354836,
-    "last_score": 59.0,
-    "symbol": "DOPU"
   },
   "cex_small_cap:justice-for-heehaw": {
     "last_alert_ts": 1791630214.4801311,
@@ -725,8 +685,8 @@
     "symbol": "SN75"
   },
   "cex_small_cap:dappos": {
-    "last_alert_ts": 1791702209.9560242,
-    "last_score": 59.3,
+    "last_alert_ts": 1791774193.9429414,
+    "last_score": 57.8,
     "symbol": "DOS"
   },
   "dex_micro_cap:Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump": {
@@ -790,8 +750,8 @@
     "symbol": "DKA"
   },
   "cex_small_cap:icon": {
-    "last_alert_ts": 1791695004.4608357,
-    "last_score": 69.1,
+    "last_alert_ts": 1791774193.9429414,
+    "last_score": 62.7,
     "symbol": "ICX"
   },
   "cex_small_cap:quantum-inu": {
@@ -820,8 +780,8 @@
     "symbol": "MANTA"
   },
   "cex_small_cap:aztec": {
-    "last_alert_ts": 1791709378.35,
-    "last_score": 56.8,
+    "last_alert_ts": 1791774193.9429414,
+    "last_score": 63.3,
     "symbol": "AZTEC"
   },
   "dex_micro_cap:7536qC4LEs3W2GtSKbhVGNJSiRfuXJhKVthxsgfkpump": {
@@ -938,5 +898,35 @@
     "last_alert_ts": 1791767003.1421185,
     "last_score": 56.5,
     "symbol": "ACN"
+  },
+  "dex_micro_cap:0x8344a74abf9e31bfc9a4d0a2443826c768647777": {
+    "last_alert_ts": 1791774193.9429414,
+    "last_score": 99.7,
+    "symbol": "뽀로로"
+  },
+  "cex_small_cap:touch-grass-2": {
+    "last_alert_ts": 1791774193.9429414,
+    "last_score": 91.2,
+    "symbol": "GRASS"
+  },
+  "dex_micro_cap:9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump": {
+    "last_alert_ts": 1791774193.9429414,
+    "last_score": 82.6,
+    "symbol": "GOMO"
+  },
+  "cex_small_cap:gomo-app": {
+    "last_alert_ts": 1791774193.9429414,
+    "last_score": 79.4,
+    "symbol": "GOMO"
+  },
+  "dex_micro_cap:DzMwArmdzPqcqgvyqAmTxy79XdA9NwK9mMteqWLJpump": {
+    "last_alert_ts": 1791774193.9429414,
+    "last_score": 69.6,
+    "symbol": "Normie"
+  },
+  "cex_small_cap:dolphin-2": {
+    "last_alert_ts": 1791774193.9429414,
+    "last_score": 61.5,
+    "symbol": "POD"
   }
 }
