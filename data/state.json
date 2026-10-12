@@ -100,8 +100,8 @@
     "symbol": "BUN"
   },
   "cex_small_cap:cyberleek": {
-    "last_alert_ts": 1791716581.584023,
-    "last_score": 100.0,
+    "last_alert_ts": 1791838981.7761538,
+    "last_score": 61.2,
     "symbol": "CYBERLEEK"
   },
   "cex_small_cap:zeus-network": {
@@ -110,8 +110,8 @@
     "symbol": "ZEUS"
   },
   "cex_small_cap:talus": {
-    "last_alert_ts": 1791637382.2873478,
-    "last_score": 62.0,
+    "last_alert_ts": 1791838981.7761538,
+    "last_score": 55.6,
     "symbol": "US"
   },
   "cex_small_cap:super-inu-2": {
@@ -710,8 +710,8 @@
     "symbol": "BLEND"
   },
   "cex_small_cap:solidus-aitech": {
-    "last_alert_ts": 1791767003.1421185,
-    "last_score": 56.5,
+    "last_alert_ts": 1791838981.7761538,
+    "last_score": 59.8,
     "symbol": "ACN"
   },
   "dex_micro_cap:0x8344a74abf9e31bfc9a4d0a2443826c768647777": {
@@ -838,5 +838,55 @@
     "last_alert_ts": 1791831820.4501636,
     "last_score": 58.7,
     "symbol": "ZZZ"
+  },
+  "cex_small_cap:moby-ai": {
+    "last_alert_ts": 1791838981.7761538,
+    "last_score": 99.9,
+    "symbol": "MOBY"
+  },
+  "cex_small_cap:teh-epik-duck": {
+    "last_alert_ts": 1791838981.7761538,
+    "last_score": 70.1,
+    "symbol": "EPIK"
+  },
+  "cex_small_cap:sudeng": {
+    "last_alert_ts": 1791838981.7761538,
+    "last_score": 70.0,
+    "symbol": "HIPPO"
+  },
+  "dex_micro_cap:Fak3rJEBfR4Vb8DoFpecf6yoxbkkr1gGUH5tdj2rpump": {
+    "last_alert_ts": 1791838981.7761538,
+    "last_score": 67.1,
+    "symbol": "MarsX"
+  },
+  "cex_small_cap:lazio-fan-token": {
+    "last_alert_ts": 1791838981.7761538,
+    "last_score": 64.6,
+    "symbol": "LAZIO"
+  },
+  "cex_small_cap:make-no-mistakes-2": {
+    "last_alert_ts": 1791838981.7761538,
+    "last_score": 63.6,
+    "symbol": "MISTAKE"
+  },
+  "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
+    "last_alert_ts": 1791838981.7761538,
+    "last_score": 60.7,
+    "symbol": "SOXSB"
+  },
+  "cex_small_cap:ramses": {
+    "last_alert_ts": 1791838981.7761538,
+    "last_score": 59.6,
+    "symbol": "RAM"
+  },
+  "cex_small_cap:initia": {
+    "last_alert_ts": 1791838981.7761538,
+    "last_score": 58.7,
+    "symbol": "INIT"
+  },
+  "cex_small_cap:zhong-guo-ren-neng-fei": {
+    "last_alert_ts": 1791838981.7761538,
+    "last_score": 55.0,
+    "symbol": "中国人能飞"
   }
 }
