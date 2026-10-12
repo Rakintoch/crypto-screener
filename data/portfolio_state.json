@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 105.19347876034465,
+  "cash_eur": 61.349343692728525,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:magic": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10916004024303184,
       "entry_ts": 1791706531.1772077,
       "cost_eur": 23.80480571604451,
-      "last_price_eur": 0.10717947229882836,
-      "last_score": 66.0,
+      "last_price_eur": 0.10695074495997765,
+      "last_score": 58.5,
       "missed_updates": 0,
       "entry_market_cap": 41204843,
       "entry_venue": "Bitrue",
@@ -50,7 +50,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 40524227
+      "last_market_cap": 40413616
     },
     "dex_micro_cap:A8JUiZLzjGAsKxE74evdspHcuW4hvhPbvryDhaDZpump": {
       "tier": "dex_micro_cap",
@@ -62,8 +62,8 @@
       "entry_price_eur": 0.00019593684004940524,
       "entry_ts": 1791781374.4285967,
       "cost_eur": 17.807382466672404,
-      "last_price_eur": 0.00018754422467233612,
-      "last_score": 61.6,
+      "last_price_eur": 0.00019399188988702393,
+      "last_score": 66.0,
       "missed_updates": 0,
       "entry_market_cap": 215909.390777633,
       "entry_venue": null,
@@ -84,7 +84,81 @@
       "entry_catalyst_tags": null,
       "entry_catalyst_score": null,
       "entry_catalyst_headlines": null,
-      "last_market_cap": 184200.0
+      "last_market_cap": 190481.0
+    },
+    "cex_small_cap:baton-3": {
+      "tier": "cex_small_cap",
+      "id": "baton-3",
+      "symbol": "BATON",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/baton-3",
+      "qty": 1378.1894934475233,
+      "entry_price_eur": 0.015906424797195555,
+      "entry_ts": 1791788581.980812,
+      "cost_eur": 21.922067533808065,
+      "last_price_eur": 0.015906424797195555,
+      "last_score": 86.7,
+      "missed_updates": 0,
+      "entry_market_cap": 17824984,
+      "entry_venue": "Meteora",
+      "entry_contract_address": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump (Solana)",
+      "entry_score": 86.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 6826187,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 10.7172,
+      "entry_chg_24h": 39.83105,
+      "entry_chg_7d": 84.9214,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.38295613617381086,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
+    },
+    "cex_small_cap:metis-token": {
+      "tier": "cex_small_cap",
+      "id": "metis-token",
+      "symbol": "METIS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/metis-token",
+      "qty": 5.9774459144785865,
+      "entry_price_eur": 3.667463971645209,
+      "entry_ts": 1791788581.980812,
+      "cost_eur": 21.922067533808065,
+      "last_price_eur": 3.667463971645209,
+      "last_score": 83.2,
+      "missed_updates": 0,
+      "entry_market_cap": 33364571,
+      "entry_venue": "Binance",
+      "entry_contract_address": null,
+      "entry_score": 83.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 17918108,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 8.1001,
+      "entry_chg_24h": 17.83714,
+      "entry_chg_7d": 28.5012,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.5370399637387815,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Metis Launches Monthly Developer Incentive Program for AI Agent Deployment on Andromeda - KuCoin",
+          "ts": 1791429242.0,
+          "source": "KuCoin"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -672,8 +746,8 @@
       "pnl_pct": 2.667631959534758
     }
   ],
-  "last_run_ts": 1791788119.7500358,
-  "last_eur_rate": 0.892218005101504,
+  "last_run_ts": 1791788581.980812,
+  "last_eur_rate": 0.8923270004002941,
   "last_rotation_ts": 1791673373.3145897,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
