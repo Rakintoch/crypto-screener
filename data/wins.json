@@ -1737,5 +1737,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "SHARE (cex_small_cap) gained +34.5% in 942 min — trailing stop caught extra upside after the target. Entry score: 68. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791786024.4960585,
+    "symbol": "SHARE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/sharex-2",
+    "held_minutes": 1037.1,
+    "exit_reason": "momentum thesis invalidated (score dropped to 29)",
+    "pnl_pct": 2.67,
+    "pnl_eur": 0.3,
+    "entry_score": 85.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 40196410,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 2.3436,
+    "entry_chg_24h": 28.96895,
+    "entry_chg_7d": 195.4672,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.9913204608493204,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other (manual/forced exit with profit)",
+    "nota": "SHARE (cex_small_cap) gained +2.7% in 1037 min — other (manual/forced exit with profit). Entry score: 86. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
