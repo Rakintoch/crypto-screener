@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10916004024303184,
       "entry_ts": 1791706531.1772077,
       "cost_eur": 23.80480571604451,
-      "last_price_eur": 0.1158059597159797,
-      "last_score": 73.5,
+      "last_price_eur": 0.11019057227492367,
+      "last_score": 72.3,
       "missed_updates": 0,
       "entry_market_cap": 41204843,
       "entry_venue": "Bitrue",
@@ -50,7 +50,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 43795907
+      "last_market_cap": 41666403
     },
     "cex_small_cap:sharex-2": {
       "tier": "cex_small_cap",
@@ -62,8 +62,8 @@
       "entry_price_eur": 2.017316684263669,
       "entry_ts": 1791723796.8553383,
       "cost_eur": 11.095730450736673,
-      "last_price_eur": 2.078380957113619,
-      "last_score": 55.9,
+      "last_price_eur": 2.0874157177821426,
+      "last_score": 55.0,
       "missed_updates": 0,
       "entry_market_cap": 40548351,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -84,7 +84,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 41881067
+      "last_market_cap": 41992590
     },
     "cex_small_cap:basecat": {
       "tier": "cex_small_cap",
@@ -96,7 +96,7 @@
       "entry_price_eur": 0.014497236696038857,
       "entry_ts": 1791734943.322161,
       "cost_eur": 23.270493495673577,
-      "last_price_eur": 0.013592986103300746,
+      "last_price_eur": 0.01359883543727138,
       "last_score": 53.2,
       "missed_updates": 0,
       "entry_market_cap": 16324814,
@@ -118,7 +118,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 15258018
+      "last_market_cap": 15216011
     }
   },
   "closed_trades": [
@@ -586,8 +586,8 @@
       "pnl_pct": -8.983325345704026
     }
   ],
-  "last_run_ts": 1791778821.3660557,
-  "last_eur_rate": 0.8920089944693644,
+  "last_run_ts": 1791779116.6838362,
+  "last_eur_rate": 0.8920579990521977,
   "last_rotation_ts": 1791673373.3145897,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
