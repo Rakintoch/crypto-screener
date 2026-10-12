@@ -15,7 +15,7 @@
       "entry_price_eur": 0.10916004024303184,
       "entry_ts": 1791706531.1772077,
       "cost_eur": 23.80480571604451,
-      "last_price_eur": 0.10850432220803982,
+      "last_price_eur": 0.10753924947188882,
       "last_score": 55.6,
       "missed_updates": 0,
       "entry_market_cap": 41204843,
@@ -50,7 +50,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 40952951
+      "last_market_cap": 40532523
     },
     "dex_micro_cap:A8JUiZLzjGAsKxE74evdspHcuW4hvhPbvryDhaDZpump": {
       "tier": "dex_micro_cap",
@@ -62,8 +62,8 @@
       "entry_price_eur": 0.00019593684004940524,
       "entry_ts": 1791781374.4285967,
       "cost_eur": 17.807382466672404,
-      "last_price_eur": 0.00022345178767296944,
-      "last_score": 48.5,
+      "last_price_eur": 0.00022238637474318555,
+      "last_score": 46.1,
       "missed_updates": 0,
       "entry_market_cap": 215909.390777633,
       "entry_venue": null,
@@ -84,7 +84,7 @@
       "entry_catalyst_tags": null,
       "entry_catalyst_score": null,
       "entry_catalyst_headlines": null,
-      "last_market_cap": 218398.0
+      "last_market_cap": 217313.0
     },
     "cex_small_cap:gitcoin": {
       "tier": "cex_small_cap",
@@ -96,7 +96,7 @@
       "entry_price_eur": 0.26231448454050565,
       "entry_ts": 1791810189.3171842,
       "cost_eur": 21.98581938686142,
-      "last_price_eur": 0.2808503504007705,
+      "last_price_eur": 0.2787964461538976,
       "last_score": 85.9,
       "missed_updates": 0,
       "entry_market_cap": 25651805,
@@ -126,7 +126,7 @@
           "source": "Coin Gabbar"
         }
       ],
-      "last_market_cap": 27496259
+      "last_market_cap": 27256584
     }
   },
   "closed_trades": [
@@ -802,8 +802,8 @@
       "pnl_pct": -8.521186558089074
     }
   ],
-  "last_run_ts": 1791815443.636018,
-  "last_eur_rate": 0.8948810079013594,
+  "last_run_ts": 1791815721.2352288,
+  "last_eur_rate": 0.8949149889061792,
   "last_rotation_ts": 1791673373.3145897,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
