@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10916004024303184,
       "entry_ts": 1791706531.1772077,
       "cost_eur": 23.80480571604451,
-      "last_price_eur": 0.10594139901350473,
-      "last_score": 68.6,
+      "last_price_eur": 0.10583963599200767,
+      "last_score": 68.9,
       "missed_updates": 0,
       "entry_market_cap": 41204843,
       "entry_venue": "Bitrue",
@@ -50,7 +50,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 40057400
+      "last_market_cap": 40116817
     },
     "cex_small_cap:sharex-2": {
       "tier": "cex_small_cap",
@@ -62,8 +62,8 @@
       "entry_price_eur": 2.017316684263669,
       "entry_ts": 1791723796.8553383,
       "cost_eur": 11.095730450736673,
-      "last_price_eur": 2.1053040778042,
-      "last_score": 55.3,
+      "last_price_eur": 2.0696719978882325,
+      "last_score": 53.3,
       "missed_updates": 0,
       "entry_market_cap": 40548351,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -84,7 +84,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 42280972
+      "last_market_cap": 42436461
     }
   },
   "closed_trades": [
@@ -592,8 +592,8 @@
       "pnl_pct": -8.116174062975398
     }
   ],
-  "last_run_ts": 1791780325.3308523,
-  "last_eur_rate": 0.8920779990695762,
+  "last_run_ts": 1791780622.569383,
+  "last_eur_rate": 0.8920999990897555,
   "last_rotation_ts": 1791673373.3145897,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
