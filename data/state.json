@@ -1,7 +1,7 @@
 {
   "cex_small_cap:magic": {
-    "last_alert_ts": 1791766682.4517303,
-    "last_score": 98.3,
+    "last_alert_ts": 1791824579.398937,
+    "last_score": 63.3,
     "symbol": "MAGIC"
   },
   "cex_small_cap:gitcoin": {
@@ -60,8 +60,8 @@
     "symbol": "RLC"
   },
   "cex_small_cap:origin-protocol": {
-    "last_alert_ts": 1791766682.4517303,
-    "last_score": 60.4,
+    "last_alert_ts": 1791824579.398937,
+    "last_score": 76.3,
     "symbol": "OGN"
   },
   "cex_small_cap:radicle": {
@@ -110,8 +110,8 @@
     "symbol": "CYBERLEEK"
   },
   "cex_small_cap:zeus-network": {
-    "last_alert_ts": 1791810188.7575612,
-    "last_score": 62.0,
+    "last_alert_ts": 1791824579.398937,
+    "last_score": 85.4,
     "symbol": "ZEUS"
   },
   "cex_small_cap:talus": {
@@ -128,11 +128,6 @@
     "last_alert_ts": 1791817418.086435,
     "last_score": 57.0,
     "symbol": "Frank"
-  },
-  "cex_small_cap:forta": {
-    "last_alert_ts": 1791564526.1605837,
-    "last_score": 77.1,
-    "symbol": "FORT"
   },
   "cex_small_cap:openverse-network": {
     "last_alert_ts": 1791734942.6530237,
@@ -269,30 +264,10 @@
     "last_score": 60.3,
     "symbol": "LVVA"
   },
-  "cex_small_cap:depinsim": {
-    "last_alert_ts": 1791564526.1605837,
-    "last_score": 77.2,
-    "symbol": "ESIM"
-  },
-  "cex_small_cap:bitlight": {
-    "last_alert_ts": 1791564526.1605837,
-    "last_score": 68.0,
-    "symbol": "LIGHT"
-  },
   "cex_small_cap:chromaway": {
     "last_alert_ts": 1791615809.5652769,
     "last_score": 58.3,
     "symbol": "CHR"
-  },
-  "dex_micro_cap:H72pex1VtfY2M7v2Tfk9D9PgvCocRuFN3owCveERSa4s": {
-    "last_alert_ts": 1791564526.1605837,
-    "last_score": 59.2,
-    "symbol": "vamp"
-  },
-  "cex_small_cap:puffer-finance": {
-    "last_alert_ts": 1791564526.1605837,
-    "last_score": 58.5,
-    "symbol": "PUFFER"
   },
   "cex_small_cap:ultcat": {
     "last_alert_ts": 1791644577.4435604,
@@ -853,5 +828,15 @@
     "last_alert_ts": 1791817418.086435,
     "last_score": 58.9,
     "symbol": "TM"
+  },
+  "cex_small_cap:osmosis": {
+    "last_alert_ts": 1791824579.398937,
+    "last_score": 83.2,
+    "symbol": "OSMO"
+  },
+  "cex_small_cap:dodo": {
+    "last_alert_ts": 1791824579.398937,
+    "last_score": 56.3,
+    "symbol": "DODO"
   }
 }
