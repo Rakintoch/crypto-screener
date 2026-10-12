@@ -60,8 +60,8 @@
     "symbol": "RLC"
   },
   "cex_small_cap:origin-protocol": {
-    "last_alert_ts": 1791824579.398937,
-    "last_score": 76.3,
+    "last_alert_ts": 1791831820.4501636,
+    "last_score": 98.5,
     "symbol": "OGN"
   },
   "cex_small_cap:radicle": {
@@ -85,8 +85,8 @@
     "symbol": "C98"
   },
   "cex_small_cap:cyberconnect": {
-    "last_alert_ts": 1791788581.4230618,
-    "last_score": 64.9,
+    "last_alert_ts": 1791831820.4501636,
+    "last_score": 56.3,
     "symbol": "CYBER"
   },
   "cex_small_cap:dia-data": {
@@ -125,8 +125,8 @@
     "symbol": "SI"
   },
   "dex_micro_cap:HbPDWSqu8hpVMX6gMjwMDGe5rVgicWo3Qh3Jaojypump": {
-    "last_alert_ts": 1791817418.086435,
-    "last_score": 57.0,
+    "last_alert_ts": 1791831820.4501636,
+    "last_score": 74.8,
     "symbol": "Frank"
   },
   "cex_small_cap:openverse-network": {
@@ -273,11 +273,6 @@
     "last_alert_ts": 1791644577.4435604,
     "last_score": 79.9,
     "symbol": "ULTCAT"
-  },
-  "dex_micro_cap:0x44b28991b167582f18ba0259e0173176ca125505": {
-    "last_alert_ts": 1791565445.7935133,
-    "last_score": 66.8,
-    "symbol": "uPEG"
   },
   "cex_small_cap:huma-finance": {
     "last_alert_ts": 1791572620.6544776,
@@ -680,8 +675,8 @@
     "symbol": "ASTEROID"
   },
   "cex_small_cap:metis-token": {
-    "last_alert_ts": 1791781373.8480182,
-    "last_score": 73.9,
+    "last_alert_ts": 1791831820.4501636,
+    "last_score": 59.0,
     "symbol": "METIS"
   },
   "cex_small_cap:book-of-meme": {
@@ -838,5 +833,25 @@
     "last_alert_ts": 1791824579.398937,
     "last_score": 56.3,
     "symbol": "DODO"
+  },
+  "cex_small_cap:arai": {
+    "last_alert_ts": 1791831820.4501636,
+    "last_score": 86.1,
+    "symbol": "AA"
+  },
+  "dex_micro_cap:hKyXZVKmrBDPhKKhdSaaGf1qrFwUkwjqrdzRc63farm": {
+    "last_alert_ts": 1791831820.4501636,
+    "last_score": 67.0,
+    "symbol": "FARM"
+  },
+  "cex_small_cap:citrea": {
+    "last_alert_ts": 1791831820.4501636,
+    "last_score": 64.4,
+    "symbol": "CTR"
+  },
+  "cex_small_cap:zzz-2": {
+    "last_alert_ts": 1791831820.4501636,
+    "last_score": 58.7,
+    "symbol": "ZZZ"
   }
 }
