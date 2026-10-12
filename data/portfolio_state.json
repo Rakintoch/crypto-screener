@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 59.510530942315924,
+  "cash_eur": 79.56457820417793,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:magic": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10916004024303184,
       "entry_ts": 1791706531.1772077,
       "cost_eur": 23.80480571604451,
-      "last_price_eur": 0.10851886241362764,
-      "last_score": 45.1,
+      "last_price_eur": 0.10909589887023584,
+      "last_score": 46.4,
       "missed_updates": 0,
       "entry_market_cap": 41204843,
       "entry_venue": "Bitrue",
@@ -50,7 +50,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 40935334
+      "last_market_cap": 41024975
     },
     "dex_micro_cap:A8JUiZLzjGAsKxE74evdspHcuW4hvhPbvryDhaDZpump": {
       "tier": "dex_micro_cap",
@@ -62,8 +62,8 @@
       "entry_price_eur": 0.00019593684004940524,
       "entry_ts": 1791781374.4285967,
       "cost_eur": 17.807382466672404,
-      "last_price_eur": 0.0002240158544795743,
-      "last_score": 48.4,
+      "last_price_eur": 0.00022303724384010264,
+      "last_score": 45.4,
       "missed_updates": 0,
       "entry_market_cap": 215909.390777633,
       "entry_venue": null,
@@ -84,49 +84,7 @@
       "entry_catalyst_tags": null,
       "entry_catalyst_score": null,
       "entry_catalyst_headlines": null,
-      "last_market_cap": 218999.0
-    },
-    "cex_small_cap:metis-token": {
-      "tier": "cex_small_cap",
-      "id": "metis-token",
-      "symbol": "METIS",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/metis-token",
-      "qty": 5.9774459144785865,
-      "entry_price_eur": 3.667463971645209,
-      "entry_ts": 1791788581.980812,
-      "cost_eur": 21.922067533808065,
-      "last_price_eur": 3.4174942656228984,
-      "last_score": 52.9,
-      "missed_updates": 0,
-      "entry_market_cap": 33364571,
-      "entry_venue": "Binance",
-      "entry_contract_address": null,
-      "entry_score": 83.2,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 17918108,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 8.1001,
-      "entry_chg_24h": 17.83714,
-      "entry_chg_7d": 28.5012,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.5370399637387815,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Metis Launches Monthly Developer Incentive Program for AI Agent Deployment on Andromeda - KuCoin",
-          "ts": 1791429242.0,
-          "source": "KuCoin"
-        }
-      ],
-      "last_market_cap": 31005137
+      "last_market_cap": 218036.0
     },
     "cex_small_cap:gitcoin": {
       "tier": "cex_small_cap",
@@ -138,7 +96,7 @@
       "entry_price_eur": 0.26231448454050565,
       "entry_ts": 1791810189.3171842,
       "cost_eur": 21.98581938686142,
-      "last_price_eur": 0.2573247933533103,
+      "last_price_eur": 0.26095446994692667,
       "last_score": 68.8,
       "missed_updates": 0,
       "entry_market_cap": 25651805,
@@ -168,7 +126,7 @@
           "source": "Coin Gabbar"
         }
       ],
-      "last_market_cap": 25113204
+      "last_market_cap": 25604212
     }
   },
   "closed_trades": [
@@ -794,10 +752,58 @@
       "proceeds_eur": 20.147006636448825,
       "pnl_eur": -1.7750608973592392,
       "pnl_pct": -8.097141816672867
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "metis-token",
+      "symbol": "METIS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/metis-token",
+      "qty": 5.9774459144785865,
+      "entry_price_eur": 3.667463971645209,
+      "entry_ts": 1791788581.980812,
+      "cost_eur": 21.922067533808065,
+      "last_price_eur": 3.3549525246706176,
+      "last_score": 50.8,
+      "missed_updates": 0,
+      "entry_market_cap": 33364571,
+      "entry_venue": "Binance",
+      "entry_contract_address": null,
+      "entry_score": 83.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 17918108,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 8.1001,
+      "entry_chg_24h": 17.83714,
+      "entry_chg_7d": 28.5012,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.5370399637387815,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Metis Launches Monthly Developer Incentive Program for AI Agent Deployment on Andromeda - KuCoin",
+          "ts": 1791429242.0,
+          "source": "KuCoin"
+        }
+      ],
+      "last_market_cap": 30355650,
+      "exit_price_eur": 3.3549525246706176,
+      "exit_ts": 1791811522.9817567,
+      "exit_reason": "stop-loss hit (-8.5%)",
+      "proceeds_eur": 20.054047261862003,
+      "pnl_eur": -1.8680202719460617,
+      "pnl_pct": -8.521186558089074
     }
   ],
-  "last_run_ts": 1791811225.114568,
-  "last_eur_rate": 0.894632006707565,
+  "last_run_ts": 1791811522.9817567,
+  "last_eur_rate": 0.8946540065788313,
   "last_rotation_ts": 1791673373.3145897,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
