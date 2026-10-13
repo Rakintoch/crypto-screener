@@ -40,8 +40,8 @@
     "symbol": "PARTI"
   },
   "cex_small_cap:yolo-2": {
-    "last_alert_ts": 1791896568.1830604,
-    "last_score": 57.3,
+    "last_alert_ts": 1791918224.3413765,
+    "last_score": 75.9,
     "symbol": "YOLO"
   },
   "cex_small_cap:iexec-rlc": {
@@ -53,11 +53,6 @@
     "last_alert_ts": 1791889394.2589817,
     "last_score": 97.5,
     "symbol": "OGN"
-  },
-  "cex_small_cap:radicle": {
-    "last_alert_ts": 1791658986.0513473,
-    "last_score": 57.2,
-    "symbol": "RAD"
   },
   "cex_small_cap:coin98": {
     "last_alert_ts": 1791752575.7634213,
@@ -75,8 +70,8 @@
     "symbol": "CYBERLEEK"
   },
   "cex_small_cap:zeus-network": {
-    "last_alert_ts": 1791867793.5681095,
-    "last_score": 69.4,
+    "last_alert_ts": 1791918224.3413765,
+    "last_score": 83.6,
     "symbol": "ZEUS"
   },
   "cex_small_cap:talus": {
@@ -108,11 +103,6 @@
     "last_alert_ts": 1791680601.481188,
     "last_score": 63.7,
     "symbol": "CLAUDIA"
-  },
-  "cex_small_cap:gstock": {
-    "last_alert_ts": 1791658986.0513473,
-    "last_score": 59.4,
-    "symbol": "GSTOCK"
   },
   "cex_small_cap:ninjacat-2": {
     "last_alert_ts": 1791881677.5152748,
@@ -183,11 +173,6 @@
     "last_alert_ts": 1791730990.2572372,
     "last_score": 89.5,
     "symbol": "HIGGS"
-  },
-  "cex_small_cap:hyperdex": {
-    "last_alert_ts": 1791658986.0513473,
-    "last_score": 61.4,
-    "symbol": "HYDX"
   },
   "cex_small_cap:levva-protocol": {
     "last_alert_ts": 1791695004.4608357,
@@ -289,25 +274,10 @@
     "last_score": 56.5,
     "symbol": "BEL"
   },
-  "cex_small_cap:chip-2": {
-    "last_alert_ts": 1791658986.0513473,
-    "last_score": 79.5,
-    "symbol": "CHIP"
-  },
-  "cex_small_cap:rhea-2": {
-    "last_alert_ts": 1791658986.0513473,
-    "last_score": 77.0,
-    "symbol": "RHEA"
-  },
   "dex_micro_cap:6KDpQM4BVDdtAkjtyFDiBCkbii8q8BieEyXXm6kNpump": {
     "last_alert_ts": 1791766682.4517303,
     "last_score": 89.1,
     "symbol": "TM"
-  },
-  "cex_small_cap:hippius": {
-    "last_alert_ts": 1791658986.0513473,
-    "last_score": 59.2,
-    "symbol": "SN75"
   },
   "cex_small_cap:dappos": {
     "last_alert_ts": 1791833845.2878265,
@@ -855,8 +825,8 @@
     "symbol": "sanctuary"
   },
   "cex_small_cap:amp-token": {
-    "last_alert_ts": 1791889394.2589817,
-    "last_score": 66.4,
+    "last_alert_ts": 1791918224.3413765,
+    "last_score": 91.6,
     "symbol": "AMP"
   },
   "cex_small_cap:identity-md-6900": {
@@ -933,5 +903,10 @@
     "last_alert_ts": 1791912092.2801278,
     "last_score": 61.7,
     "symbol": "ACE"
+  },
+  "cex_small_cap:bluwhale": {
+    "last_alert_ts": 1791918224.3413765,
+    "last_score": 61.0,
+    "symbol": "BLUAI"
   }
 }
