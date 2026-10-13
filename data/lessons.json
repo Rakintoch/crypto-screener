@@ -7189,5 +7189,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "SKL (cex_small_cap) lost -8.2% in 372 min (slow (>6h)) — stop-loss hit. Entry score: 91 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791897026.931903,
+    "symbol": "IMD6900",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/identity-md-6900",
+    "held_minutes": 7.6,
+    "exit_reason": "stop-loss hit (-9.5%)",
+    "pnl_pct": -9.51,
+    "pnl_eur": -0.98,
+    "entry_score": 84.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 25269056,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 10.9033,
+    "entry_chg_24h": 133.91622,
+    "entry_chg_7d": null,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.2581839032682833,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "IMD6900 (cex_small_cap) lost -9.5% in 8 min (very fast (<1h)) — stop-loss hit. Entry score: 84 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
