@@ -100,8 +100,8 @@
     "symbol": "SHARE"
   },
   "dex_micro_cap:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-    "last_alert_ts": 1791680601.481188,
-    "last_score": 63.7,
+    "last_alert_ts": 1791925393.3061268,
+    "last_score": 74.5,
     "symbol": "CLAUDIA"
   },
   "cex_small_cap:ninjacat-2": {
@@ -785,8 +785,8 @@
     "symbol": "PAID"
   },
   "cex_small_cap:omega-labs": {
-    "last_alert_ts": 1791874978.096194,
-    "last_score": 64.2,
+    "last_alert_ts": 1791925393.3061268,
+    "last_score": 57.1,
     "symbol": "SN24"
   },
   "cex_small_cap:claudia-4": {
@@ -855,8 +855,8 @@
     "symbol": "AMC"
   },
   "cex_small_cap:gains-network": {
-    "last_alert_ts": 1791903806.0594318,
-    "last_score": 80.2,
+    "last_alert_ts": 1791925393.3061268,
+    "last_score": 96.7,
     "symbol": "GNS"
   },
   "cex_small_cap:meta-xstock": {
@@ -908,5 +908,15 @@
     "last_alert_ts": 1791918224.3413765,
     "last_score": 61.0,
     "symbol": "BLUAI"
+  },
+  "cex_small_cap:stonkbroker": {
+    "last_alert_ts": 1791925393.3061268,
+    "last_score": 71.2,
+    "symbol": "STONKBROKER"
+  },
+  "cex_small_cap:wormhole": {
+    "last_alert_ts": 1791925393.3061268,
+    "last_score": 60.8,
+    "symbol": "W"
   }
 }
