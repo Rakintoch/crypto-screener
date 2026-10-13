@@ -15,7 +15,7 @@
       "entry_price_eur": 0.0017550984267405332,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 0.0018966153734617413,
+      "last_price_eur": 0.0018692949113850877,
       "last_score": 98.3,
       "missed_updates": 0,
       "entry_market_cap": 1958219,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 2118131
+      "last_market_cap": 2088128
     },
     "cex_small_cap:commander-vrax-2": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.001940159307254876,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 9.83243942012048,
-      "last_price_eur": 0.0018788064841530412,
+      "last_price_eur": 0.0018920406476227484,
       "last_score": 71.8,
       "missed_updates": 0,
       "entry_market_cap": 1988076,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1927072
+      "last_market_cap": 1941119
     },
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 35.01539348973495,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 35.17904780989582,
+      "last_price_eur": 35.23306486872599,
       "last_score": 73.0,
       "missed_updates": 0,
       "entry_market_cap": 6356057,
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 5376998
+      "last_market_cap": 5388034
     }
   },
   "closed_trades": [
@@ -1063,8 +1063,8 @@
       "pnl_pct": -8.200965398396432
     }
   ],
-  "last_run_ts": 1791856847.260132,
-  "last_eur_rate": 0.8953689949069946,
+  "last_run_ts": 1791857118.0770462,
+  "last_eur_rate": 0.8951490058111279,
   "last_rotation_ts": 1791846186.9829211,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
