@@ -35,8 +35,8 @@
     "symbol": "swordcat"
   },
   "cex_small_cap:particle-network": {
-    "last_alert_ts": 1791860592.0791252,
-    "last_score": 64.9,
+    "last_alert_ts": 1791903806.0594318,
+    "last_score": 56.5,
     "symbol": "PARTI"
   },
   "cex_small_cap:yolo-2": {
@@ -125,8 +125,8 @@
     "symbol": "NINJACAT"
   },
   "cex_small_cap:jean-phil": {
-    "last_alert_ts": 1791706530.531835,
-    "last_score": 62.2,
+    "last_alert_ts": 1791903806.0594318,
+    "last_score": 75.7,
     "symbol": "JEANPHIL"
   },
   "cex_small_cap:caldera": {
@@ -199,11 +199,6 @@
     "last_score": 60.3,
     "symbol": "LVVA"
   },
-  "cex_small_cap:ultcat": {
-    "last_alert_ts": 1791644577.4435604,
-    "last_score": 79.9,
-    "symbol": "ULTCAT"
-  },
   "cex_small_cap:ulti": {
     "last_alert_ts": 1791709378.35,
     "last_score": 68.3,
@@ -263,31 +258,6 @@
     "last_alert_ts": 1791695004.4608357,
     "last_score": 77.8,
     "symbol": "OMG"
-  },
-  "dex_micro_cap:CvxQvqNQVRqq96oeoRnf6H64Memd8Weas9gte2xupump": {
-    "last_alert_ts": 1791637382.2873478,
-    "last_score": 66.6,
-    "symbol": "SEED"
-  },
-  "cex_small_cap:scallop-2": {
-    "last_alert_ts": 1791637382.2873478,
-    "last_score": 65.3,
-    "symbol": "SCA"
-  },
-  "cex_small_cap:tasq-network": {
-    "last_alert_ts": 1791637382.2873478,
-    "last_score": 60.1,
-    "symbol": "TASQ"
-  },
-  "cex_small_cap:hoodpork": {
-    "last_alert_ts": 1791637382.2873478,
-    "last_score": 59.9,
-    "symbol": "PORKU"
-  },
-  "dex_micro_cap:ERkmk5rs8KKD9u2fxoDZUmwwuVc7rT3sSeowGTrQuBit": {
-    "last_alert_ts": 1791637382.2873478,
-    "last_score": 56.8,
-    "symbol": "QUBIT"
   },
   "dex_micro_cap:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": {
     "last_alert_ts": 1791716581.584023,
@@ -515,8 +485,8 @@
     "symbol": "BOME"
   },
   "cex_small_cap:canopy": {
-    "last_alert_ts": 1791860592.0791252,
-    "last_score": 55.6,
+    "last_alert_ts": 1791903806.0594318,
+    "last_score": 63.4,
     "symbol": "CNPY"
   },
   "cex_small_cap:claudia-2": {
@@ -918,5 +888,35 @@
     "last_alert_ts": 1791896568.1830604,
     "last_score": 56.0,
     "symbol": "AMC"
+  },
+  "cex_small_cap:gains-network": {
+    "last_alert_ts": 1791903806.0594318,
+    "last_score": 80.2,
+    "symbol": "GNS"
+  },
+  "cex_small_cap:meta-xstock": {
+    "last_alert_ts": 1791903806.0594318,
+    "last_score": 67.5,
+    "symbol": "METAX"
+  },
+  "cex_small_cap:swarm-network": {
+    "last_alert_ts": 1791903806.0594318,
+    "last_score": 66.8,
+    "symbol": "TRUTH"
+  },
+  "cex_small_cap:concierge-io": {
+    "last_alert_ts": 1791903806.0594318,
+    "last_score": 60.5,
+    "symbol": "AVA"
+  },
+  "dex_micro_cap:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
+    "last_alert_ts": 1791903806.0594318,
+    "last_score": 59.7,
+    "symbol": "JEANPHIL"
+  },
+  "cex_small_cap:kora": {
+    "last_alert_ts": 1791903806.0594318,
+    "last_score": 56.4,
+    "symbol": "SN71"
   }
 }
