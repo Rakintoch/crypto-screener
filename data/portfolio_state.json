@@ -15,8 +15,8 @@
       "entry_price_eur": 35.01539348973495,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 33.07672000310989,
-      "last_score": 50.8,
+      "last_price_eur": 32.99653475426164,
+      "last_score": 50.5,
       "missed_updates": 0,
       "entry_market_cap": 6356057,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 5279489
+      "last_market_cap": 5264502
     },
     "cex_small_cap:solidus-aitech": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.004931424191946273,
       "entry_ts": 1791903806.6618383,
       "cost_eur": 21.433562465100685,
-      "last_price_eur": 0.0051950275004884385,
-      "last_score": 63.0,
+      "last_price_eur": 0.005188180449670074,
+      "last_score": 64.5,
       "missed_updates": 0,
       "entry_market_cap": 9848672,
       "entry_venue": "KuCoin",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10364988
+      "last_market_cap": 10365585
     },
     "cex_small_cap:gains-network": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.6380285272252131,
       "entry_ts": 1791911026.6641395,
       "cost_eur": 21.276120715799056,
-      "last_price_eur": 0.6665709200626713,
-      "last_score": 84.8,
+      "last_price_eur": 0.660444172960299,
+      "last_score": 84.9,
       "missed_updates": 0,
       "entry_market_cap": 16817872,
       "entry_venue": "Binance",
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 17753558
+      "last_market_cap": 17601025
     },
     "cex_small_cap:swarm-network": {
       "tier": "cex_small_cap",
@@ -117,8 +117,8 @@
       "entry_price_eur": 0.01612314956683542,
       "entry_ts": 1791912092.7408557,
       "cost_eur": 9.978122032214499,
-      "last_price_eur": 0.01734365847163066,
-      "last_score": 48.6,
+      "last_price_eur": 0.01748284110995798,
+      "last_score": 48.9,
       "missed_updates": 0,
       "entry_market_cap": 37649421,
       "entry_venue": "Bluefin (on-chain)",
@@ -139,7 +139,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 40479457
+      "last_market_cap": 40825149
     }
   },
   "closed_trades": [
@@ -1511,8 +1511,8 @@
       "pnl_pct": -10.321752625882477
     }
   ],
-  "last_run_ts": 1791931823.422274,
-  "last_eur_rate": 0.8930000000839603,
+  "last_run_ts": 1791932118.5372076,
+  "last_eur_rate": 0.8930050001153351,
   "last_rotation_ts": 1791846186.9829211,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
