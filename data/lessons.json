@@ -7270,5 +7270,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "JEANPHIL (cex_small_cap) lost -10.4% in 92 min (fast (1-6h)) — stop-loss hit. Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791911425.47052,
+    "symbol": "AA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/arai",
+    "held_minutes": 495.8,
+    "exit_reason": "stop-loss hit (-10.3%)",
+    "pnl_pct": -10.32,
+    "pnl_eur": -1.02,
+    "entry_score": 85.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1753203,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 13.3152,
+    "entry_chg_24h": 25.54954,
+    "entry_chg_7d": -10.2635,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.412365345389278,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "AA (cex_small_cap) lost -10.3% in 496 min (slow (>6h)) — stop-loss hit. Entry score: 86 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
