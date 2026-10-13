@@ -15,7 +15,7 @@
       "entry_price_eur": 0.04821479182347604,
       "entry_ts": 1791846186.9829211,
       "cost_eur": 22.519645172428973,
-      "last_price_eur": 0.046498032935892185,
+      "last_price_eur": 0.04653526852603199,
       "last_score": 72.7,
       "missed_updates": 0,
       "entry_market_cap": 40212330,
@@ -56,7 +56,7 @@
           "source": "shattered.io"
         }
       ],
-      "last_market_cap": 38637713
+      "last_market_cap": 38774937
     },
     "cex_small_cap:moby-ai": {
       "tier": "cex_small_cap",
@@ -68,7 +68,7 @@
       "entry_price_eur": 0.0017550984267405332,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 0.00187897796171425,
+      "last_price_eur": 0.0018970080184623744,
       "last_score": 67.5,
       "missed_updates": 0,
       "entry_market_cap": 1958219,
@@ -90,7 +90,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 2098100
+      "last_market_cap": 2118177
     },
     "cex_small_cap:commander-vrax-2": {
       "tier": "cex_small_cap",
@@ -102,7 +102,7 @@
       "entry_price_eur": 0.001940159307254876,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 9.83243942012048,
-      "last_price_eur": 0.0019436523437536186,
+      "last_price_eur": 0.0019360262166318613,
       "last_score": 70.2,
       "missed_updates": 0,
       "entry_market_cap": 1988076,
@@ -124,7 +124,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1998513
+      "last_market_cap": 1985274
     },
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -136,8 +136,8 @@
       "entry_price_eur": 35.01539348973495,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 34.98792725392038,
-      "last_score": 79.3,
+      "last_price_eur": 35.310708143742616,
+      "last_score": 80.1,
       "missed_updates": 0,
       "entry_market_cap": 6356057,
       "entry_venue": null,
@@ -158,7 +158,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6352660
+      "last_market_cap": 6415204
     }
   },
   "closed_trades": [
@@ -1057,8 +1057,8 @@
       "pnl_pct": -8.77891252219497
     }
   ],
-  "last_run_ts": 1791855625.7633703,
-  "last_eur_rate": 0.8955189980527356,
+  "last_run_ts": 1791855927.5427098,
+  "last_eur_rate": 0.895528991725656,
   "last_rotation_ts": 1791846186.9829211,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
