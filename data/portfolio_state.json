@@ -15,8 +15,8 @@
       "entry_price_eur": 0.26231448454050565,
       "entry_ts": 1791810189.3171842,
       "cost_eur": 21.98581938686142,
-      "last_price_eur": 0.25180128073648556,
-      "last_score": 89.8,
+      "last_price_eur": 0.25328312014546556,
+      "last_score": 78.9,
       "missed_updates": 0,
       "entry_market_cap": 25651805,
       "entry_venue": "Upbit",
@@ -45,7 +45,7 @@
           "source": "Coin Gabbar"
         }
       ],
-      "last_market_cap": 24561589
+      "last_market_cap": 24707505
     },
     "cex_small_cap:osmosis": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.04821479182347604,
       "entry_ts": 1791846186.9829211,
       "cost_eur": 22.519645172428973,
-      "last_price_eur": 0.04636834253381085,
-      "last_score": 96.7,
+      "last_price_eur": 0.046512996299711715,
+      "last_score": 69.0,
       "missed_updates": 0,
       "entry_market_cap": 40212330,
       "entry_venue": "Osmosis",
@@ -98,7 +98,7 @@
           "source": "shattered.io"
         }
       ],
-      "last_market_cap": 38679718
+      "last_market_cap": 38834781
     }
   },
   "closed_trades": [
@@ -949,8 +949,8 @@
       "pnl_pct": 22.109840745118785
     }
   ],
-  "last_run_ts": 1791849319.1640797,
-  "last_eur_rate": 0.895971992073946,
+  "last_run_ts": 1791849651.305885,
+  "last_eur_rate": 0.8959970006879279,
   "last_rotation_ts": 1791846186.9829211,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
