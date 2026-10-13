@@ -15,8 +15,8 @@
       "entry_price_eur": 0.04821479182347604,
       "entry_ts": 1791846186.9829211,
       "cost_eur": 22.519645172428973,
-      "last_price_eur": 0.047013251546392236,
-      "last_score": 69.3,
+      "last_price_eur": 0.04505944764185079,
+      "last_score": 69.1,
       "missed_updates": 0,
       "entry_market_cap": 40212330,
       "entry_venue": "Osmosis",
@@ -56,7 +56,7 @@
           "source": "shattered.io"
         }
       ],
-      "last_market_cap": 39239616
+      "last_market_cap": 37742484
     }
   },
   "closed_trades": [
@@ -955,8 +955,8 @@
       "pnl_pct": -8.77891252219497
     }
   ],
-  "last_run_ts": 1791852326.2802923,
-  "last_eur_rate": 0.8964979986345081,
+  "last_run_ts": 1791852624.514681,
+  "last_eur_rate": 0.8964199984452869,
   "last_rotation_ts": 1791846186.9829211,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
