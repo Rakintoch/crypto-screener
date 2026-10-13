@@ -15,8 +15,8 @@
       "entry_price_eur": 35.01539348973495,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 35.324759224281394,
-      "last_score": 66.1,
+      "last_price_eur": 35.33772701307596,
+      "last_score": 65.7,
       "missed_updates": 0,
       "entry_market_cap": 6356057,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 5568093
+      "last_market_cap": 5567838
     },
     "cex_small_cap:arai": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.007677738592411302,
       "entry_ts": 1791881678.1304483,
       "cost_eur": 9.881553311331489,
-      "last_price_eur": 0.007359128291931933,
-      "last_score": 50.8,
+      "last_price_eur": 0.007275988849767671,
+      "last_score": 49.9,
       "missed_updates": 0,
       "entry_market_cap": 1241324,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1190291
+      "last_market_cap": 1176942
     },
     "cex_small_cap:jean-phil": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.007981715992242892,
       "entry_ts": 1791903806.6618383,
       "cost_eur": 21.433562465100685,
-      "last_price_eur": 0.007843231156900606,
-      "last_score": 76.4,
+      "last_price_eur": 0.007877007192438105,
+      "last_score": 74.9,
       "missed_updates": 0,
       "entry_market_cap": 8615171,
       "entry_venue": "PumpSwap",
@@ -113,7 +113,7 @@
           "source": "CryptoRank"
         }
       ],
-      "last_market_cap": 8507344
+      "last_market_cap": 8547329
     },
     "cex_small_cap:solidus-aitech": {
       "tier": "cex_small_cap",
@@ -125,8 +125,8 @@
       "entry_price_eur": 0.004931424191946273,
       "entry_ts": 1791903806.6618383,
       "cost_eur": 21.433562465100685,
-      "last_price_eur": 0.004939024927868615,
-      "last_score": 59.0,
+      "last_price_eur": 0.004936604516652222,
+      "last_score": 59.9,
       "missed_updates": 0,
       "entry_market_cap": 9848672,
       "entry_venue": "KuCoin",
@@ -147,7 +147,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9861352
+      "last_market_cap": 9850527
     }
   },
   "closed_trades": [
@@ -1431,8 +1431,8 @@
       "pnl_pct": -9.373826075733604
     }
   ],
-  "last_run_ts": 1791904227.5195367,
-  "last_eur_rate": 0.89339300010828,
+  "last_run_ts": 1791904529.2132838,
+  "last_eur_rate": 0.8934949940095062,
   "last_rotation_ts": 1791846186.9829211,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
