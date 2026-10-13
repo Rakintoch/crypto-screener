@@ -1841,5 +1841,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "DOPE (cex_small_cap) gained +18.6% in 137 min — trailing stop caught extra upside after the target. Entry score: 66. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791889251.0713592,
+    "symbol": "MarsX",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/9dsiuydk5EFRCLk6VEywY95Nn3jjGbdWNijuACf1PXuA",
+    "held_minutes": 126.2,
+    "exit_reason": "trailing stop hit — dropped 12.8% from the peak (peak +48.5% since entry)",
+    "pnl_pct": 29.45,
+    "pnl_eur": 4.99,
+    "entry_score": 84.2,
+    "entry_liquidity_usd": 64829.5141,
+    "entry_volume_24h_usd": 4994624.7200814,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 29.581,
+    "entry_chg_24h": 1065.142,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 91.75,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 77.04245187426756,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 915.0294818166666,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "MarsX (dex_micro_cap) gained +29.4% in 126 min — trailing stop caught extra upside after the target. Entry liquidity: $64,830. Entry score: 84. Entry security: no obvious red flags."
   }
 ]
