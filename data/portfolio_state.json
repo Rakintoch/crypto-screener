@@ -15,7 +15,7 @@
       "entry_price_eur": 0.0017550984267405332,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 0.0023429030487550867,
+      "last_price_eur": 0.002361125315527023,
       "last_score": 77.2,
       "missed_updates": 0,
       "entry_market_cap": 1958219,
@@ -37,9 +37,9 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 2637589,
+      "last_market_cap": 2627697,
       "trailing_active": true,
-      "trailing_peak_eur": 0.0023520002363035986
+      "trailing_peak_eur": 0.002361125315527023
     },
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -51,8 +51,8 @@
       "entry_price_eur": 35.01539348973495,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 35.12886768215465,
-      "last_score": 64.5,
+      "last_price_eur": 35.26686130764743,
+      "last_score": 65.1,
       "missed_updates": 0,
       "entry_market_cap": 6356057,
       "entry_venue": null,
@@ -73,7 +73,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 5386233
+      "last_market_cap": 5405667
     },
     "cex_small_cap:skale": {
       "tier": "cex_small_cap",
@@ -85,8 +85,8 @@
       "entry_price_eur": 0.0052818478802019765,
       "entry_ts": 1791860592.599547,
       "cost_eur": 21.583736612543845,
-      "last_price_eur": 0.0049608315688490084,
-      "last_score": 54.4,
+      "last_price_eur": 0.004952317670696295,
+      "last_score": 53.9,
       "missed_updates": 0,
       "entry_market_cap": 35976833,
       "entry_venue": "Binance",
@@ -107,7 +107,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 33785104
+      "last_market_cap": 33695412
     },
     "cex_small_cap:doge-pepe": {
       "tier": "cex_small_cap",
@@ -119,7 +119,7 @@
       "entry_price_eur": 0.01176713608477023,
       "entry_ts": 1791860592.599547,
       "cost_eur": 10.072410419187129,
-      "last_price_eur": 0.013492751950891075,
+      "last_price_eur": 0.01374885748862657,
       "last_score": 45.9,
       "missed_updates": 0,
       "entry_market_cap": 13152372,
@@ -141,7 +141,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 15072085
+      "last_market_cap": 15359632
     }
   },
   "closed_trades": [
@@ -1139,8 +1139,8 @@
       "pnl_pct": -10.095010802065186
     }
   ],
-  "last_run_ts": 1791865840.8965752,
-  "last_eur_rate": 0.895002998271456,
+  "last_run_ts": 1791866118.4112203,
+  "last_eur_rate": 0.8950980027321683,
   "last_rotation_ts": 1791846186.9829211,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
