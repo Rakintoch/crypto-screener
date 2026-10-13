@@ -50,8 +50,8 @@
     "symbol": "RLC"
   },
   "cex_small_cap:origin-protocol": {
-    "last_alert_ts": 1791831820.4501636,
-    "last_score": 98.5,
+    "last_alert_ts": 1791881677.5152748,
+    "last_score": 77.9,
     "symbol": "OGN"
   },
   "cex_small_cap:radicle": {
@@ -130,8 +130,8 @@
     "symbol": "GSTOCK"
   },
   "cex_small_cap:ninjacat-2": {
-    "last_alert_ts": 1791680601.481188,
-    "last_score": 83.8,
+    "last_alert_ts": 1791881677.5152748,
+    "last_score": 56.6,
     "symbol": "NINJACAT"
   },
   "cex_small_cap:jean-phil": {
@@ -219,11 +219,6 @@
     "last_score": 60.3,
     "symbol": "LVVA"
   },
-  "cex_small_cap:chromaway": {
-    "last_alert_ts": 1791615809.5652769,
-    "last_score": 58.3,
-    "symbol": "CHR"
-  },
   "cex_small_cap:ultcat": {
     "last_alert_ts": 1791644577.4435604,
     "last_score": 79.9,
@@ -263,11 +258,6 @@
     "last_alert_ts": 1791666204.188618,
     "last_score": 58.2,
     "symbol": "SIB"
-  },
-  "cex_small_cap:swarms": {
-    "last_alert_ts": 1791615809.5652769,
-    "last_score": 56.4,
-    "symbol": "SWARMS"
   },
   "cex_small_cap:lumia": {
     "last_alert_ts": 1791860592.0791252,
@@ -730,8 +720,8 @@
     "symbol": "DODO"
   },
   "cex_small_cap:arai": {
-    "last_alert_ts": 1791831820.4501636,
-    "last_score": 86.1,
+    "last_alert_ts": 1791881677.5152748,
+    "last_score": 85.5,
     "symbol": "AA"
   },
   "dex_micro_cap:hKyXZVKmrBDPhKKhdSaaGf1qrFwUkwjqrdzRc63farm": {
@@ -745,8 +735,8 @@
     "symbol": "CTR"
   },
   "cex_small_cap:zzz-2": {
-    "last_alert_ts": 1791831820.4501636,
-    "last_score": 58.7,
+    "last_alert_ts": 1791881677.5152748,
+    "last_score": 56.3,
     "symbol": "ZZZ"
   },
   "cex_small_cap:moby-ai": {
@@ -765,8 +755,8 @@
     "symbol": "HIPPO"
   },
   "dex_micro_cap:Fak3rJEBfR4Vb8DoFpecf6yoxbkkr1gGUH5tdj2rpump": {
-    "last_alert_ts": 1791838981.7761538,
-    "last_score": 67.1,
+    "last_alert_ts": 1791881677.5152748,
+    "last_score": 84.2,
     "symbol": "MarsX"
   },
   "cex_small_cap:lazio-fan-token": {
@@ -935,8 +925,13 @@
     "symbol": "VEIL"
   },
   "cex_small_cap:stader": {
-    "last_alert_ts": 1791874978.096194,
-    "last_score": 56.0,
+    "last_alert_ts": 1791881677.5152748,
+    "last_score": 71.7,
     "symbol": "SD"
+  },
+  "cex_small_cap:vine": {
+    "last_alert_ts": 1791881677.5152748,
+    "last_score": 70.3,
+    "symbol": "VINE"
   }
 }
