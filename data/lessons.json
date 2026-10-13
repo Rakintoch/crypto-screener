@@ -7216,5 +7216,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "IMD6900 (cex_small_cap) lost -9.5% in 8 min (very fast (<1h)) — stop-loss hit. Entry score: 84 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791897918.2254632,
+    "symbol": "SD",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/stader",
+    "held_minutes": 22.5,
+    "exit_reason": "stop-loss hit (-9.4%)",
+    "pnl_pct": -9.37,
+    "pnl_eur": -2.06,
+    "entry_score": 96.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 13583915,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.7676,
+    "entry_chg_24h": 51.51863,
+    "entry_chg_7d": 46.7298,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.0207569489155441,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "SD (cex_small_cap) lost -9.4% in 22 min (very fast (<1h)) — stop-loss hit. Entry score: 96 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
