@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 69.27940345471919,
+  "cash_eur": 88.48209958342754,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 35.01539348973495,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 34.25015701408873,
-      "last_score": 57.2,
+      "last_price_eur": 33.88905165031039,
+      "last_score": 56.1,
       "missed_updates": 0,
       "entry_market_cap": 6356057,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 5404375
+      "last_market_cap": 5340590
     },
     "cex_small_cap:arai": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.007677738592411302,
       "entry_ts": 1791881678.1304483,
       "cost_eur": 9.881553311331489,
-      "last_price_eur": 0.007186038485700093,
-      "last_score": 51.3,
+      "last_price_eur": 0.007177786911983893,
+      "last_score": 51.2,
       "missed_updates": 0,
       "entry_market_cap": 1241324,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -71,49 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1167869
-    },
-    "cex_small_cap:jean-phil": {
-      "tier": "cex_small_cap",
-      "id": "jean-phil",
-      "symbol": "JEANPHIL",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/jean-phil",
-      "qty": 2685.3326384866486,
-      "entry_price_eur": 0.007981715992242892,
-      "entry_ts": 1791903806.6618383,
-      "cost_eur": 21.433562465100685,
-      "last_price_eur": 0.007386367064479681,
-      "last_score": 41.0,
-      "missed_updates": 0,
-      "entry_market_cap": 8615171,
-      "entry_venue": "PumpSwap",
-      "entry_contract_address": "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump (Solana)",
-      "entry_score": 75.7,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 2568182,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 13.0549,
-      "entry_chg_24h": 12.1463,
-      "entry_chg_7d": 46.8676,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.29809994485309693,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Did Jean Phil Go Viral First — or Was the Viral Persona Built to Launch a Memecoin? - CryptoRank",
-          "ts": 1791264310.0,
-          "source": "CryptoRank"
-        }
-      ],
-      "last_market_cap": 8016247
+      "last_market_cap": 1161570
     },
     "cex_small_cap:solidus-aitech": {
       "tier": "cex_small_cap",
@@ -125,7 +83,7 @@
       "entry_price_eur": 0.004931424191946273,
       "entry_ts": 1791903806.6618383,
       "cost_eur": 21.433562465100685,
-      "last_price_eur": 0.005180921377563086,
+      "last_price_eur": 0.005165315108682413,
       "last_score": 63.4,
       "missed_updates": 0,
       "entry_market_cap": 9848672,
@@ -147,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10343611
+      "last_market_cap": 10336247
     }
   },
   "closed_trades": [
@@ -1429,10 +1387,58 @@
       "proceeds_eur": 19.919903764511563,
       "pnl_eur": -2.0603949747445327,
       "pnl_pct": -9.373826075733604
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "jean-phil",
+      "symbol": "JEANPHIL",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/jean-phil",
+      "qty": 2685.3326384866486,
+      "entry_price_eur": 0.007981715992242892,
+      "entry_ts": 1791903806.6618383,
+      "cost_eur": 21.433562465100685,
+      "last_price_eur": 0.007150956218046144,
+      "last_score": 36.5,
+      "missed_updates": 0,
+      "entry_market_cap": 8615171,
+      "entry_venue": "PumpSwap",
+      "entry_contract_address": "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump (Solana)",
+      "entry_score": 75.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 2568182,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 13.0549,
+      "entry_chg_24h": 12.1463,
+      "entry_chg_7d": 46.8676,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.29809994485309693,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Did Jean Phil Go Viral First — or Was the Viral Persona Built to Launch a Memecoin? - CryptoRank",
+          "ts": 1791264310.0,
+          "source": "CryptoRank"
+        }
+      ],
+      "last_market_cap": 7757884,
+      "exit_price_eur": 0.007150956218046144,
+      "exit_ts": 1791909319.4321177,
+      "exit_reason": "stop-loss hit (-10.4%)",
+      "proceeds_eur": 19.202696128708357,
+      "pnl_eur": -2.230866336392328,
+      "pnl_pct": -10.408285323658856
     }
   ],
-  "last_run_ts": 1791909042.242465,
-  "last_eur_rate": 0.8933269956726324,
+  "last_run_ts": 1791909319.4321177,
+  "last_eur_rate": 0.8934630015900445,
   "last_rotation_ts": 1791846186.9829211,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
