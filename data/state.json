@@ -264,25 +264,10 @@
     "last_score": 65.6,
     "symbol": "LUMIA"
   },
-  "dex_micro_cap:0xfbb807360404094439b85e34c1d46d11014e611b": {
-    "last_alert_ts": 1791622989.528137,
-    "last_score": 85.4,
-    "symbol": "BrewDex"
-  },
   "cex_small_cap:arpa": {
     "last_alert_ts": 1791723796.3105714,
     "last_score": 56.2,
     "symbol": "ARPA"
-  },
-  "dex_micro_cap:2x3kudsxqCWdWeZA1vSNr9uKkHUBQG81m5mBGRAPpump": {
-    "last_alert_ts": 1791622989.528137,
-    "last_score": 76.9,
-    "symbol": "PAWS"
-  },
-  "cex_small_cap:ronin": {
-    "last_alert_ts": 1791622989.528137,
-    "last_score": 64.6,
-    "symbol": "RON"
   },
   "cex_small_cap:district0x": {
     "last_alert_ts": 1791680601.481188,
@@ -933,5 +918,10 @@
     "last_alert_ts": 1791881677.5152748,
     "last_score": 70.3,
     "symbol": "VINE"
+  },
+  "dex_micro_cap:0xe5ba039bbf35cde1e0661722529313b1d39deb58": {
+    "last_alert_ts": 1791882197.3452368,
+    "last_score": 62.1,
+    "symbol": "MARMOTA"
   }
 }
