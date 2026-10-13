@@ -15,7 +15,7 @@
       "entry_price_eur": 0.0017550984267405332,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 0.002325056980801125,
+      "last_price_eur": 0.0023520002363035986,
       "last_score": 77.2,
       "missed_updates": 0,
       "entry_market_cap": 1958219,
@@ -37,9 +37,9 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 2597742,
+      "last_market_cap": 2627605,
       "trailing_active": true,
-      "trailing_peak_eur": 0.002334043666936187
+      "trailing_peak_eur": 0.0023520002363035986
     },
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -51,8 +51,8 @@
       "entry_price_eur": 35.01539348973495,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 35.00262848663031,
-      "last_score": 63.9,
+      "last_price_eur": 34.98785628714482,
+      "last_score": 64.1,
       "missed_updates": 0,
       "entry_market_cap": 6356057,
       "entry_venue": null,
@@ -73,7 +73,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 5366547
+      "last_market_cap": 5365033
     },
     "cex_small_cap:skale": {
       "tier": "cex_small_cap",
@@ -85,8 +85,8 @@
       "entry_price_eur": 0.0052818478802019765,
       "entry_ts": 1791860592.599547,
       "cost_eur": 21.583736612543845,
-      "last_price_eur": 0.004902775481624255,
-      "last_score": 53.0,
+      "last_price_eur": 0.0049178390181575105,
+      "last_score": 53.5,
       "missed_updates": 0,
       "entry_market_cap": 35976833,
       "entry_venue": "Binance",
@@ -107,7 +107,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 33383571
+      "last_market_cap": 33461598
     },
     "cex_small_cap:doge-pepe": {
       "tier": "cex_small_cap",
@@ -119,8 +119,8 @@
       "entry_price_eur": 0.01176713608477023,
       "entry_ts": 1791860592.599547,
       "cost_eur": 10.072410419187129,
-      "last_price_eur": 0.011646844947990362,
-      "last_score": 39.7,
+      "last_price_eur": 0.013051159590534567,
+      "last_score": 45.2,
       "missed_updates": 0,
       "entry_market_cap": 13152372,
       "entry_venue": "Uniswap V3 (Ethereum) (on-chain)",
@@ -141,7 +141,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 13013543
+      "last_market_cap": 13991261
     }
   },
   "closed_trades": [
@@ -1139,8 +1139,8 @@
       "pnl_pct": -10.095010802065186
     }
   ],
-  "last_run_ts": 1791865223.106731,
-  "last_eur_rate": 0.894978994800059,
+  "last_run_ts": 1791865519.4247406,
+  "last_eur_rate": 0.895058999415319,
   "last_rotation_ts": 1791846186.9829211,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
