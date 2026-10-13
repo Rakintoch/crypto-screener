@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 88.48209958342754,
+  "cash_eur": 67.20597886762849,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 35.01539348973495,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 34.18207443660704,
-      "last_score": 56.6,
+      "last_price_eur": 34.42493881538873,
+      "last_score": 52.5,
       "missed_updates": 0,
       "entry_market_cap": 6356057,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 5421072
+      "last_market_cap": 5451140
     },
     "cex_small_cap:arai": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.007677738592411302,
       "entry_ts": 1791881678.1304483,
       "cost_eur": 9.881553311331489,
-      "last_price_eur": 0.007119594383987344,
-      "last_score": 51.4,
+      "last_price_eur": 0.007115130811980624,
+      "last_score": 49.6,
       "missed_updates": 0,
       "entry_market_cap": 1241324,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1151379
+      "last_market_cap": 1150675
     },
     "cex_small_cap:solidus-aitech": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.004931424191946273,
       "entry_ts": 1791903806.6618383,
       "cost_eur": 21.433562465100685,
-      "last_price_eur": 0.00532348499504201,
-      "last_score": 64.1,
+      "last_price_eur": 0.005403884262315659,
+      "last_score": 83.6,
       "missed_updates": 0,
       "entry_market_cap": 9848672,
       "entry_venue": "KuCoin",
@@ -105,7 +105,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10647381
+      "last_market_cap": 10785115
+    },
+    "cex_small_cap:gains-network": {
+      "tier": "cex_small_cap",
+      "id": "gains-network",
+      "symbol": "GNS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/gains-network",
+      "qty": 33.34666054561688,
+      "entry_price_eur": 0.6380285272252131,
+      "entry_ts": 1791911026.6641395,
+      "cost_eur": 21.276120715799056,
+      "last_price_eur": 0.6380285272252131,
+      "last_score": 85.3,
+      "missed_updates": 0,
+      "entry_market_cap": 16817872,
+      "entry_venue": "Binance",
+      "entry_contract_address": "0xe5417af564e4bfda1c483642db72007871397896 (Polygon)",
+      "entry_score": 85.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 7020181,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 11.9232,
+      "entry_chg_24h": 97.51068,
+      "entry_chg_7d": 29.7016,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.4174238571919206,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -1437,8 +1470,8 @@
       "pnl_pct": -10.408285323658856
     }
   ],
-  "last_run_ts": 1791910519.360559,
-  "last_eur_rate": 0.8936490048786153,
+  "last_run_ts": 1791911026.6641395,
+  "last_eur_rate": 0.8936900003994996,
   "last_rotation_ts": 1791846186.9829211,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,

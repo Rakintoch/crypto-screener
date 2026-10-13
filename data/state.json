@@ -1,7 +1,7 @@
 {
   "cex_small_cap:magic": {
-    "last_alert_ts": 1791867793.5681095,
-    "last_score": 56.0,
+    "last_alert_ts": 1791911026.2632596,
+    "last_score": 72.7,
     "symbol": "MAGIC"
   },
   "cex_small_cap:gitcoin": {
@@ -98,11 +98,6 @@
     "last_alert_ts": 1791853340.5896125,
     "last_score": 70.1,
     "symbol": "BTG"
-  },
-  "cex_small_cap:aia": {
-    "last_alert_ts": 1791651805.981256,
-    "last_score": 62.7,
-    "symbol": "AIA"
   },
   "cex_small_cap:sharex-2": {
     "last_alert_ts": 1791846186.5286534,
@@ -525,8 +520,8 @@
     "symbol": "BLEND"
   },
   "cex_small_cap:solidus-aitech": {
-    "last_alert_ts": 1791896568.1830604,
-    "last_score": 68.2,
+    "last_alert_ts": 1791911026.2632596,
+    "last_score": 83.6,
     "symbol": "ACN"
   },
   "dex_micro_cap:0x8344a74abf9e31bfc9a4d0a2443826c768647777": {
@@ -750,7 +745,7 @@
     "symbol": "BELIEVE"
   },
   "cex_small_cap:crawlerpad": {
-    "last_alert_ts": 1791853340.5896125,
+    "last_alert_ts": 1791911026.2632596,
     "last_score": 55.0,
     "symbol": "CRAWLER"
   },
@@ -785,8 +780,8 @@
     "symbol": "QI"
   },
   "cex_small_cap:hookr-fun": {
-    "last_alert_ts": 1791867793.5681095,
-    "last_score": 80.7,
+    "last_alert_ts": 1791911026.2632596,
+    "last_score": 69.7,
     "symbol": "HOOKR"
   },
   "cex_small_cap:lobster-2": {
@@ -800,8 +795,8 @@
     "symbol": "COLLECT"
   },
   "cex_small_cap:dusk-network": {
-    "last_alert_ts": 1791867793.5681095,
-    "last_score": 55.1,
+    "last_alert_ts": 1791911026.2632596,
+    "last_score": 59.0,
     "symbol": "DUSK"
   },
   "cex_small_cap:bellwether": {
@@ -918,5 +913,20 @@
     "last_alert_ts": 1791903806.0594318,
     "last_score": 56.4,
     "symbol": "SN71"
+  },
+  "cex_small_cap:atlas-navi": {
+    "last_alert_ts": 1791911026.2632596,
+    "last_score": 81.8,
+    "symbol": "NAVI"
+  },
+  "cex_small_cap:orbofi-ai": {
+    "last_alert_ts": 1791911026.2632596,
+    "last_score": 69.4,
+    "symbol": "OBI"
+  },
+  "dex_micro_cap:3sKaoPryg4KrXubLWtoqF7MznLT7QNqKRxMMkkxTpump": {
+    "last_alert_ts": 1791911026.2632596,
+    "last_score": 56.1,
+    "symbol": "SEALS"
   }
 }
