@@ -2,62 +2,9 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 65.41843045239654,
+  "cash_eur": 86.09124731639295,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
-    "cex_small_cap:osmosis": {
-      "tier": "cex_small_cap",
-      "id": "osmosis",
-      "symbol": "OSMO",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/osmosis",
-      "qty": 467.06921923209546,
-      "entry_price_eur": 0.04821479182347604,
-      "entry_ts": 1791846186.9829211,
-      "cost_eur": 22.519645172428973,
-      "last_price_eur": 0.04789942666673941,
-      "last_score": 72.7,
-      "missed_updates": 0,
-      "entry_market_cap": 40212330,
-      "entry_venue": "Osmosis",
-      "entry_contract_address": "uosmo (osmosis)",
-      "entry_score": 72.9,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 42974539,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": -0.763,
-      "entry_chg_24h": 43.48164,
-      "entry_chg_7d": 37.6069,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.0686905981324633,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "restructuring",
-        "supply_cut"
-      ],
-      "entry_catalyst_score": 0.9,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Osmosis proposes burning 17.4M unused OSMO toke... - Pluang",
-          "ts": 1790838000.0,
-          "source": "Pluang"
-        },
-        {
-          "title": "Stride Plans to Shut Down Chain, Move stToken Redemptions to Osmosis - TOKENPOST",
-          "ts": 1790693860.0,
-          "source": "TOKENPOST"
-        },
-        {
-          "title": "Nomic Bridge Bug Freezes 36% of Osmosis allBTC [2026] - shattered.io",
-          "ts": 1789542000.0,
-          "source": "shattered.io"
-        }
-      ],
-      "last_market_cap": 39940836
-    },
     "cex_small_cap:moby-ai": {
       "tier": "cex_small_cap",
       "id": "moby-ai",
@@ -68,7 +15,7 @@
       "entry_price_eur": 0.0017550984267405332,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 0.0019059560412914322,
+      "last_price_eur": 0.0019060164422706853,
       "last_score": 67.5,
       "missed_updates": 0,
       "entry_market_cap": 1958219,
@@ -90,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 2128151
+      "last_market_cap": 2128130
     },
     "cex_small_cap:commander-vrax-2": {
       "tier": "cex_small_cap",
@@ -102,7 +49,7 @@
       "entry_price_eur": 0.001940159307254876,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 9.83243942012048,
-      "last_price_eur": 0.0018879558080384645,
+      "last_price_eur": 0.0018669604166688207,
       "last_score": 70.2,
       "missed_updates": 0,
       "entry_market_cap": 1988076,
@@ -124,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1936032
+      "last_market_cap": 1914390
     },
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -136,8 +83,8 @@
       "entry_price_eur": 35.01539348973495,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 35.26612863193296,
-      "last_score": 80.0,
+      "last_price_eur": 35.06176111701453,
+      "last_score": 79.7,
       "missed_updates": 0,
       "entry_market_cap": 6356057,
       "entry_venue": null,
@@ -158,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 5392565
+      "last_market_cap": 5359356
     }
   },
   "closed_trades": [
@@ -1055,10 +1002,69 @@
       "proceeds_eur": 20.055703535601072,
       "pnl_eur": -1.9301158512603465,
       "pnl_pct": -8.77891252219497
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "osmosis",
+      "symbol": "OSMO",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/osmosis",
+      "qty": 467.06921923209546,
+      "entry_price_eur": 0.04821479182347604,
+      "entry_ts": 1791846186.9829211,
+      "cost_eur": 22.519645172428973,
+      "last_price_eur": 0.044260713429123896,
+      "last_score": 72.5,
+      "missed_updates": 0,
+      "entry_market_cap": 40212330,
+      "entry_venue": "Osmosis",
+      "entry_contract_address": "uosmo (osmosis)",
+      "entry_score": 72.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 42974539,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": -0.763,
+      "entry_chg_24h": 43.48164,
+      "entry_chg_7d": 37.6069,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.0686905981324633,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "restructuring",
+        "supply_cut"
+      ],
+      "entry_catalyst_score": 0.9,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Osmosis proposes burning 17.4M unused OSMO toke... - Pluang",
+          "ts": 1790838000.0,
+          "source": "Pluang"
+        },
+        {
+          "title": "Stride Plans to Shut Down Chain, Move stToken Redemptions to Osmosis - TOKENPOST",
+          "ts": 1790693860.0,
+          "source": "TOKENPOST"
+        },
+        {
+          "title": "Nomic Bridge Bug Freezes 36% of Osmosis allBTC [2026] - shattered.io",
+          "ts": 1789542000.0,
+          "source": "shattered.io"
+        }
+      ],
+      "last_market_cap": 36799333,
+      "exit_price_eur": 0.044260713429123896,
+      "exit_ts": 1791856519.2734878,
+      "exit_reason": "stop-loss hit (-8.2%)",
+      "proceeds_eur": 20.67281686399642,
+      "pnl_eur": -1.8468283084325527,
+      "pnl_pct": -8.200965398396432
     }
   ],
-  "last_run_ts": 1791856223.22507,
-  "last_eur_rate": 0.8955339926849405,
+  "last_run_ts": 1791856519.2734878,
+  "last_eur_rate": 0.8955749966031807,
   "last_rotation_ts": 1791846186.9829211,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
