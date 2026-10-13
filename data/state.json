@@ -50,8 +50,8 @@
     "symbol": "RLC"
   },
   "cex_small_cap:origin-protocol": {
-    "last_alert_ts": 1791881677.5152748,
-    "last_score": 77.9,
+    "last_alert_ts": 1791889394.2589817,
+    "last_score": 97.5,
     "symbol": "OGN"
   },
   "cex_small_cap:radicle": {
@@ -340,8 +340,8 @@
     "symbol": "SQUIRE"
   },
   "cex_small_cap:bem-2": {
-    "last_alert_ts": 1791734942.6530237,
-    "last_score": 80.4,
+    "last_alert_ts": 1791889394.2589817,
+    "last_score": 61.5,
     "symbol": "BEM"
   },
   "cex_small_cap:moviebloc": {
@@ -675,8 +675,8 @@
     "symbol": "ARX"
   },
   "cex_small_cap:certik": {
-    "last_alert_ts": 1791817418.086435,
-    "last_score": 90.4,
+    "last_alert_ts": 1791889394.2589817,
+    "last_score": 67.9,
     "symbol": "CTK"
   },
   "cex_small_cap:bitlayer-bitvm": {
@@ -720,8 +720,8 @@
     "symbol": "CTR"
   },
   "cex_small_cap:zzz-2": {
-    "last_alert_ts": 1791881677.5152748,
-    "last_score": 56.3,
+    "last_alert_ts": 1791889394.2589817,
+    "last_score": 82.4,
     "symbol": "ZZZ"
   },
   "cex_small_cap:moby-ai": {
@@ -775,13 +775,13 @@
     "symbol": "中国人能飞"
   },
   "cex_small_cap:standard": {
-    "last_alert_ts": 1791846186.5286534,
-    "last_score": 72.3,
+    "last_alert_ts": 1791889394.2589817,
+    "last_score": 79.3,
     "symbol": "STANDARD"
   },
   "dex_micro_cap:98AG3zJUawbvDnpgbDhmxpMKva43vtgPLLPSXqo1pump": {
-    "last_alert_ts": 1791846186.5286534,
-    "last_score": 66.6,
+    "last_alert_ts": 1791889394.2589817,
+    "last_score": 81.0,
     "symbol": "HIRE"
   },
   "cex_small_cap:puffer-finance": {
@@ -910,8 +910,8 @@
     "symbol": "VEIL"
   },
   "cex_small_cap:stader": {
-    "last_alert_ts": 1791881677.5152748,
-    "last_score": 71.7,
+    "last_alert_ts": 1791889394.2589817,
+    "last_score": 91.2,
     "symbol": "SD"
   },
   "cex_small_cap:vine": {
@@ -923,5 +923,15 @@
     "last_alert_ts": 1791882197.3452368,
     "last_score": 62.1,
     "symbol": "MARMOTA"
+  },
+  "dex_micro_cap:7hDr2fvmp62yVqqeUQRFsjcvJeHUG6eWR6xsiMdcpump": {
+    "last_alert_ts": 1791889394.2589817,
+    "last_score": 82.5,
+    "symbol": "sanctuary"
+  },
+  "cex_small_cap:amp-token": {
+    "last_alert_ts": 1791889394.2589817,
+    "last_score": 66.4,
+    "symbol": "AMP"
   }
 }
