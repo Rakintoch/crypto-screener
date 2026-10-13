@@ -1789,5 +1789,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "FIGHT (dex_micro_cap) gained +22.1% in 1112 min — trailing stop caught extra upside after the target. Entry liquidity: $40,493. Entry score: 92. Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1791867318.2252042,
+    "symbol": "MOBY",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/moby-ai",
+    "held_minutes": 233.0,
+    "exit_reason": "trailing stop hit — dropped 8.7% from the peak (peak +34.5% since entry)",
+    "pnl_pct": 22.8,
+    "pnl_eur": 4.8,
+    "entry_score": 93.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 7978622,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.0708,
+    "entry_chg_24h": 34.01823,
+    "entry_chg_7d": 54.2376,
+    "entry_chg_6h": null,
+    "entry_turnover": 4.074427834680391,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "MOBY (cex_small_cap) gained +22.8% in 233 min — trailing stop caught extra upside after the target. Entry score: 94. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
