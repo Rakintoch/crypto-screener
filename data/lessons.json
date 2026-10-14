@@ -7324,5 +7324,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "TRUTH (cex_small_cap) lost -11.6% in 609 min (slow (>6h)) — stop-loss hit. Entry score: 74 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791964223.9927554,
+    "symbol": "GNS",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/gains-network",
+    "held_minutes": 886.6,
+    "exit_reason": "stop-loss hit (-8.5%)",
+    "pnl_pct": -8.46,
+    "pnl_eur": -1.8,
+    "entry_score": 85.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 7020181,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 11.9232,
+    "entry_chg_24h": 97.51068,
+    "entry_chg_7d": 29.7016,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.4174238571919206,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "GNS (cex_small_cap) lost -8.5% in 887 min (slow (>6h)) — stop-loss hit. Entry score: 85 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
