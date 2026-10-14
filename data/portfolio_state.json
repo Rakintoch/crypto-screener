@@ -15,8 +15,8 @@
       "entry_price_eur": 35.01539348973495,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 32.90558512726229,
-      "last_score": 45.8,
+      "last_price_eur": 32.90746629436261,
+      "last_score": 46.2,
       "missed_updates": 0,
       "entry_market_cap": 6356057,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 3231298
+      "last_market_cap": 3231555
     },
     "cex_small_cap:solidus-aitech": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.004931424191946273,
       "entry_ts": 1791903806.6618383,
       "cost_eur": 21.433562465100685,
-      "last_price_eur": 0.00505435674701993,
+      "last_price_eur": 0.005054440527761988,
       "last_score": 52.6,
       "missed_updates": 0,
       "entry_market_cap": 9848672,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10109951
+      "last_market_cap": 10106836
     },
     "cex_small_cap:gains-network": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.6380285272252131,
       "entry_ts": 1791911026.6641395,
       "cost_eur": 21.276120715799056,
-      "last_price_eur": 0.6662020700460393,
+      "last_price_eur": 0.6577264975049392,
       "last_score": 76.4,
       "missed_updates": 0,
       "entry_market_cap": 16817872,
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 17794399
+      "last_market_cap": 17606316
     }
   },
   "closed_trades": [
@@ -1517,8 +1517,8 @@
       "pnl_pct": -11.630154256887941
     }
   ],
-  "last_run_ts": 1791948640.779101,
-  "last_eur_rate": 0.8919920067026915,
+  "last_run_ts": 1791948916.9762518,
+  "last_eur_rate": 0.8920430006604122,
   "last_rotation_ts": 1791846186.9829211,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
