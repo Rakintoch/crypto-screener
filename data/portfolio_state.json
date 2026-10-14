@@ -15,8 +15,8 @@
       "entry_price_eur": 35.01539348973495,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 34.28861526785119,
-      "last_score": 52.2,
+      "last_price_eur": 34.5222569226349,
+      "last_score": 41.2,
       "missed_updates": 0,
       "entry_market_cap": 6356057,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 3454162
+      "last_market_cap": 3479510
     },
     "cex_small_cap:solidus-aitech": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.004931424191946273,
       "entry_ts": 1791903806.6618383,
       "cost_eur": 21.433562465100685,
-      "last_price_eur": 0.005025631773482107,
-      "last_score": 47.3,
+      "last_price_eur": 0.005022260422621336,
+      "last_score": 47.1,
       "missed_updates": 0,
       "entry_market_cap": 9848672,
       "entry_venue": "KuCoin",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10034338
+      "last_market_cap": 10031871
     },
     "cex_small_cap:surplus-intelligence": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.00013704512054147497,
       "entry_ts": 1791969410.2520466,
       "cost_eur": 20.753276069204055,
-      "last_price_eur": 0.00014104074237456142,
+      "last_price_eur": 0.00014093834203939356,
       "last_score": 56.7,
       "missed_updates": 0,
       "entry_market_cap": 15347511,
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 15781984
+      "last_market_cap": 15779298
     }
   },
   "closed_trades": [
@@ -1597,8 +1597,8 @@
       "pnl_pct": -8.934884065531815
     }
   ],
-  "last_run_ts": 1791979519.1623518,
-  "last_eur_rate": 0.8933980007256693,
+  "last_run_ts": 1791979826.1927907,
+  "last_eur_rate": 0.8932019902363494,
   "last_rotation_ts": 1791846186.9829211,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
