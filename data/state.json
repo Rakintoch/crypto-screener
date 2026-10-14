@@ -179,20 +179,10 @@
     "last_score": 60.2,
     "symbol": "BASECAT"
   },
-  "cex_small_cap:cat-wif-hood": {
-    "last_alert_ts": 1791745384.2145169,
-    "last_score": 78.8,
-    "symbol": "HOODCAT"
-  },
   "cex_small_cap:bunker-mode": {
     "last_alert_ts": 1791795805.5293438,
     "last_score": 61.1,
     "symbol": "BUNKER"
-  },
-  "cex_small_cap:dkargo": {
-    "last_alert_ts": 1791745384.2145169,
-    "last_score": 57.5,
-    "symbol": "DKA"
   },
   "cex_small_cap:icon": {
     "last_alert_ts": 1791774193.9429414,
@@ -248,11 +238,6 @@
     "last_alert_ts": 1791946989.1050596,
     "last_score": 63.2,
     "symbol": "DOPE"
-  },
-  "cex_small_cap:gorbagana": {
-    "last_alert_ts": 1791745384.2145169,
-    "last_score": 56.4,
-    "symbol": "GOR"
   },
   "cex_small_cap:the-toad-pepe": {
     "last_alert_ts": 1791752575.7634213,
@@ -670,8 +655,8 @@
     "symbol": "NAVI"
   },
   "cex_small_cap:orbofi-ai": {
-    "last_alert_ts": 1791961380.7457633,
-    "last_score": 98.7,
+    "last_alert_ts": 1792007982.8961816,
+    "last_score": 67.5,
     "symbol": "OBI"
   },
   "dex_micro_cap:3sKaoPryg4KrXubLWtoqF7MznLT7QNqKRxMMkkxTpump": {
@@ -895,8 +880,8 @@
     "symbol": "MUSEBOOK"
   },
   "dex_micro_cap:A2yA6AFtfKkfVkfsnGpvsKoUV5kQPpMYboZsBPvmkA9T": {
-    "last_alert_ts": 1792004584.093736,
-    "last_score": 61.7,
+    "last_alert_ts": 1792007982.8961816,
+    "last_score": 77.5,
     "symbol": "SAINDRA"
   },
   "cex_small_cap:babycashcat": {
@@ -928,5 +913,15 @@
     "last_alert_ts": 1792004584.093736,
     "last_score": 55.7,
     "symbol": "DEEP"
+  },
+  "cex_small_cap:nillion": {
+    "last_alert_ts": 1792007982.8961816,
+    "last_score": 72.7,
+    "symbol": "NIL"
+  },
+  "dex_micro_cap:0xba41ff65fd0a19aa75dd4e6a04e9d3c15acab887": {
+    "last_alert_ts": 1792007982.8961816,
+    "last_score": 64.2,
+    "symbol": "DOGEBALL"
   }
 }

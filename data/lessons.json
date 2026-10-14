@@ -7540,5 +7540,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "ARCADES (dex_micro_cap) lost -24.9% in 232 min (fast (1-6h)) — stop-loss hit. Entry liquidity: $27,139. Entry score: 73 (minimum required to buy: 65). Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1792007983.5536585,
+    "symbol": "ASTRO",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/astronaut-2",
+    "held_minutes": 175.9,
+    "exit_reason": "stop-loss hit (-15.6%)",
+    "pnl_pct": -15.55,
+    "pnl_eur": -1.43,
+    "entry_score": 82.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 8668078,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.1852,
+    "entry_chg_24h": 96781.37435,
+    "entry_chg_7d": 1738.1251,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.3947682114801826,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "ASTRO (cex_small_cap) lost -15.6% in 176 min (fast (1-6h)) — stop-loss hit. Entry score: 82 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
