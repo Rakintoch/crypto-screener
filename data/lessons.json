@@ -7297,5 +7297,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "AA (cex_small_cap) lost -10.3% in 496 min (slow (>6h)) — stop-loss hit. Entry score: 86 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1791948640.779101,
+    "symbol": "TRUTH",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/swarm-network",
+    "held_minutes": 609.1,
+    "exit_reason": "stop-loss hit (-11.6%)",
+    "pnl_pct": -11.63,
+    "pnl_eur": -1.16,
+    "entry_score": 73.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 4779591,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.1889,
+    "entry_chg_24h": 23.08173,
+    "entry_chg_7d": 24.9451,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.12694992042507108,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "TRUTH (cex_small_cap) lost -11.6% in 609 min (slow (>6h)) — stop-loss hit. Entry score: 74 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
