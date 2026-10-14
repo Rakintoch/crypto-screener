@@ -7513,5 +7513,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "NAVI (cex_small_cap) lost -9.4% in 22 min (very fast (<1h)) — stop-loss hit. Entry score: 74 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792003527.032583,
+    "symbol": "ARCADES",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/7uNBbHWBpAMyAaupvAJQKBVuY3ayzVWeRviQJrUdh5om",
+    "held_minutes": 232.1,
+    "exit_reason": "stop-loss hit (-24.9%)",
+    "pnl_pct": -24.88,
+    "pnl_eur": -3.93,
+    "entry_score": 73.3,
+    "entry_liquidity_usd": 27138.6211,
+    "entry_volume_24h_usd": 1290261.73205256,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 25.165,
+    "entry_chg_24h": 130.753,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 16.181,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 47.54337839414251,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 976.1718546,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "ARCADES (dex_micro_cap) lost -24.9% in 232 min (fast (1-6h)) — stop-loss hit. Entry liquidity: $27,139. Entry score: 73 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
