@@ -620,8 +620,8 @@
     "symbol": "HIRE"
   },
   "cex_small_cap:puffer-finance": {
-    "last_alert_ts": 1791948035.6193316,
-    "last_score": 56.9,
+    "last_alert_ts": 1791954175.5987442,
+    "last_score": 77.4,
     "symbol": "PUFFER"
   },
   "cex_small_cap:safe": {
@@ -780,8 +780,8 @@
     "symbol": "WISP"
   },
   "cex_small_cap:a-meme-coin": {
-    "last_alert_ts": 1791896568.1830604,
-    "last_score": 58.9,
+    "last_alert_ts": 1791954175.5987442,
+    "last_score": 60.7,
     "symbol": "AMC"
   },
   "cex_small_cap:zest-protocol": {
@@ -893,5 +893,20 @@
     "last_alert_ts": 1791946989.1050596,
     "last_score": 59.0,
     "symbol": "牛来"
+  },
+  "cex_small_cap:up-2": {
+    "last_alert_ts": 1791954175.5987442,
+    "last_score": 83.7,
+    "symbol": "UP"
+  },
+  "cex_small_cap:surplus-intelligence": {
+    "last_alert_ts": 1791954175.5987442,
+    "last_score": 77.0,
+    "symbol": "SURPLUS"
+  },
+  "cex_small_cap:thinking-cat": {
+    "last_alert_ts": 1791954175.5987442,
+    "last_score": 58.6,
+    "symbol": "HMM"
   }
 }
