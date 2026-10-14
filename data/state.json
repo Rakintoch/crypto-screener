@@ -70,8 +70,8 @@
     "symbol": "CYBERLEEK"
   },
   "cex_small_cap:zeus-network": {
-    "last_alert_ts": 1791918224.3413765,
-    "last_score": 83.6,
+    "last_alert_ts": 1791968608.9665096,
+    "last_score": 62.4,
     "symbol": "ZEUS"
   },
   "cex_small_cap:talus": {
@@ -95,8 +95,8 @@
     "symbol": "SHARE"
   },
   "dex_micro_cap:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-    "last_alert_ts": 1791925393.3061268,
-    "last_score": 74.5,
+    "last_alert_ts": 1791968608.9665096,
+    "last_score": 65.4,
     "symbol": "CLAUDIA"
   },
   "cex_small_cap:ninjacat-2": {
@@ -108,11 +108,6 @@
     "last_alert_ts": 1791948035.6193316,
     "last_score": 56.4,
     "symbol": "JEANPHIL"
-  },
-  "cex_small_cap:cartesi": {
-    "last_alert_ts": 1791702209.9560242,
-    "last_score": 57.6,
-    "symbol": "CTSI"
   },
   "cex_small_cap:skale": {
     "last_alert_ts": 1791912092.2801278,
@@ -153,11 +148,6 @@
     "last_alert_ts": 1791730990.2572372,
     "last_score": 89.5,
     "symbol": "HIGGS"
-  },
-  "cex_small_cap:ulti": {
-    "last_alert_ts": 1791709378.35,
-    "last_score": 68.3,
-    "symbol": "ULTI"
   },
   "cex_small_cap:xai-blockchain": {
     "last_alert_ts": 1791833845.2878265,
@@ -209,21 +199,6 @@
     "last_score": 79.0,
     "symbol": "MBL"
   },
-  "cex_small_cap:swarm-engine": {
-    "last_alert_ts": 1791706530.531835,
-    "last_score": 67.7,
-    "symbol": "SWARM"
-  },
-  "cex_small_cap:act-i-the-ai-prophecy": {
-    "last_alert_ts": 1791706530.531835,
-    "last_score": 63.1,
-    "symbol": "ACT"
-  },
-  "cex_small_cap:bella-protocol": {
-    "last_alert_ts": 1791702209.9560242,
-    "last_score": 56.5,
-    "symbol": "BEL"
-  },
   "dex_micro_cap:6KDpQM4BVDdtAkjtyFDiBCkbii8q8BieEyXXm6kNpump": {
     "last_alert_ts": 1791766682.4517303,
     "last_score": 89.1,
@@ -269,25 +244,10 @@
     "last_score": 62.7,
     "symbol": "ICX"
   },
-  "cex_small_cap:quantum-inu": {
-    "last_alert_ts": 1791702209.9560242,
-    "last_score": 82.5,
-    "symbol": "QI"
-  },
-  "cex_small_cap:maverick-protocol": {
-    "last_alert_ts": 1791702209.9560242,
-    "last_score": 56.0,
-    "symbol": "MAV"
-  },
   "cex_small_cap:premium": {
     "last_alert_ts": 1791766682.4517303,
     "last_score": 73.4,
     "symbol": "PRM"
-  },
-  "dex_micro_cap:FDJqEqqS68jummd8XGtBqzJTu2Pgc3pGQjozrpUzpump": {
-    "last_alert_ts": 1791706530.531835,
-    "last_score": 65.2,
-    "symbol": "Altai"
   },
   "cex_small_cap:manta-network": {
     "last_alert_ts": 1791759815.1999521,
@@ -410,8 +370,8 @@
     "symbol": "BLEND"
   },
   "cex_small_cap:solidus-aitech": {
-    "last_alert_ts": 1791911026.2632596,
-    "last_score": 83.6,
+    "last_alert_ts": 1791968608.9665096,
+    "last_score": 57.5,
     "symbol": "ACN"
   },
   "dex_micro_cap:0x8344a74abf9e31bfc9a4d0a2443826c768647777": {
@@ -705,8 +665,8 @@
     "symbol": "PAID"
   },
   "cex_small_cap:omega-labs": {
-    "last_alert_ts": 1791925393.3061268,
-    "last_score": 57.1,
+    "last_alert_ts": 1791968608.9665096,
+    "last_score": 55.5,
     "symbol": "SN24"
   },
   "cex_small_cap:claudia-4": {
@@ -745,8 +705,8 @@
     "symbol": "sanctuary"
   },
   "cex_small_cap:amp-token": {
-    "last_alert_ts": 1791918224.3413765,
-    "last_score": 91.6,
+    "last_alert_ts": 1791968608.9665096,
+    "last_score": 71.7,
     "symbol": "AMP"
   },
   "cex_small_cap:identity-md-6900": {
@@ -775,8 +735,8 @@
     "symbol": "AMC"
   },
   "cex_small_cap:gains-network": {
-    "last_alert_ts": 1791925393.3061268,
-    "last_score": 96.7,
+    "last_alert_ts": 1791968608.9665096,
+    "last_score": 68.5,
     "symbol": "GNS"
   },
   "cex_small_cap:meta-xstock": {
@@ -800,8 +760,8 @@
     "symbol": "JEANPHIL"
   },
   "cex_small_cap:kora": {
-    "last_alert_ts": 1791903806.0594318,
-    "last_score": 56.4,
+    "last_alert_ts": 1791968608.9665096,
+    "last_score": 58.2,
     "symbol": "SN71"
   },
   "cex_small_cap:atlas-navi": {
@@ -903,5 +863,15 @@
     "last_alert_ts": 1791961380.7457633,
     "last_score": 81.6,
     "symbol": "SI276"
+  },
+  "cex_small_cap:what-the-hook": {
+    "last_alert_ts": 1791968608.9665096,
+    "last_score": 81.5,
+    "symbol": "WTH"
+  },
+  "dex_micro_cap:GU5NkUVLzmJQxJKuho5dG4d1owChpcSQnhARrjYQpump": {
+    "last_alert_ts": 1791968608.9665096,
+    "last_score": 73.8,
+    "symbol": "YILONGMA"
   }
 }
