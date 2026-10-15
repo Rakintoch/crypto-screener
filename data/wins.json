@@ -1893,5 +1893,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "ZEREBRO (cex_small_cap) gained +16.6% in 462 min — trailing stop caught extra upside after the target. Entry score: 72. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792061718.7527897,
+    "symbol": "ZEREBRO",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/zerebro",
+    "held_minutes": 126.0,
+    "exit_reason": "trailing stop hit — dropped 10.0% from the peak (peak +24.7% since entry)",
+    "pnl_pct": 12.19,
+    "pnl_eur": 2.2,
+    "entry_score": 88.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 32219505,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.8172,
+    "entry_chg_24h": 46.58274,
+    "entry_chg_7d": 45.2888,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.7497746452757468,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "ZEREBRO (cex_small_cap) gained +12.2% in 126 min — trailing stop caught extra upside after the target. Entry score: 88. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
