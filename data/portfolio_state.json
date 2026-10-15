@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 56.650156392525965,
+  "cash_eur": 39.02975666380607,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 35.01539348973495,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 40.64041927750552,
-      "last_score": 57.9,
+      "last_price_eur": 40.047567248303174,
+      "last_score": 62.4,
       "missed_updates": 0,
       "entry_market_cap": 6356057,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 3404084,
+      "last_market_cap": 3354586,
       "trailing_active": true,
       "trailing_peak_eur": 42.73836592381047
     },
@@ -51,8 +51,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.09975497253204697,
-      "last_score": 55.8,
+      "last_price_eur": 0.10047925703319256,
+      "last_score": 53.5,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -73,7 +73,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 68110025
+      "last_market_cap": 68651941
     },
     "cex_small_cap:siren-2": {
       "tier": "cex_small_cap",
@@ -85,8 +85,8 @@
       "entry_price_eur": 0.030765020766729673,
       "entry_ts": 1792075203.6811228,
       "cost_eur": 18.052243518300987,
-      "last_price_eur": 0.031082259979207598,
-      "last_score": 68.9,
+      "last_price_eur": 0.031106961239039506,
+      "last_score": 57.3,
       "missed_updates": 0,
       "entry_market_cap": 24968906,
       "entry_venue": "KuCoin",
@@ -115,7 +115,40 @@
           "source": "Moomoo"
         }
       ],
-      "last_market_cap": 25291213
+      "last_market_cap": 25233699
+    },
+    "cex_small_cap:priors-agent": {
+      "tier": "cex_small_cap",
+      "id": "priors-agent",
+      "symbol": "PRIORS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/priors-agent",
+      "qty": 2018.5395227126771,
+      "entry_price_eur": 0.00872928150796878,
+      "entry_ts": 1792091003.6051192,
+      "cost_eur": 17.6203997287199,
+      "last_price_eur": 0.00872928150796878,
+      "last_score": 83.2,
+      "missed_updates": 0,
+      "entry_market_cap": 8988046,
+      "entry_venue": "LBank",
+      "entry_contract_address": "0xedbf91223639800bcd5756815caf908df3b890be (robinhood)",
+      "entry_score": 83.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 2078947,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 17.2263,
+      "entry_chg_24h": 38.71818,
+      "entry_chg_7d": 176.5744,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.23130133067854794,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2271,8 +2304,8 @@
       "pnl_pct": -8.29815894032024
     }
   ],
-  "last_run_ts": 1792090519.2874231,
-  "last_eur_rate": 0.891823991167556,
+  "last_run_ts": 1792091003.6051192,
+  "last_eur_rate": 0.8919280010757945,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
