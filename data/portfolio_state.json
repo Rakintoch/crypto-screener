@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 65.58022037134532,
+  "cash_eur": 47.46003253201463,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 35.01539348973495,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 39.6705309097883,
-      "last_score": 79.4,
+      "last_price_eur": 39.63490620677576,
+      "last_score": 79.2,
       "missed_updates": 0,
       "entry_market_cap": 6356057,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 3149973
+      "last_market_cap": 3148692
     },
     "dex_micro_cap:HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": {
       "tier": "dex_micro_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0011467284147381976,
       "entry_ts": 1792018865.2679992,
       "cost_eur": 14.971194887665545,
-      "last_price_eur": 0.0010661343848005521,
-      "last_score": 30.6,
+      "last_price_eur": 0.0010707566172636703,
+      "last_score": 31.0,
       "missed_updates": 0,
       "entry_market_cap": 1288442.676,
       "entry_venue": null,
@@ -74,7 +74,7 @@
       "entry_catalyst_tags": null,
       "entry_catalyst_score": null,
       "entry_catalyst_headlines": null,
-      "last_market_cap": 1154990.0
+      "last_market_cap": 1160145.0
     },
     "cex_small_cap:moonbeam": {
       "tier": "cex_small_cap",
@@ -86,8 +86,8 @@
       "entry_price_eur": 0.009528300326328294,
       "entry_ts": 1792026178.7890422,
       "cost_eur": 18.578142706922588,
-      "last_price_eur": 0.00906349609224571,
-      "last_score": 49.6,
+      "last_price_eur": 0.00892022148804734,
+      "last_score": 47.4,
       "missed_updates": 0,
       "entry_market_cap": 11733322,
       "entry_venue": "BtcTurk | Kripto",
@@ -108,7 +108,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11212312
+      "last_market_cap": 11046147
+    },
+    "cex_small_cap:atlas-navi": {
+      "tier": "cex_small_cap",
+      "id": "atlas-navi",
+      "symbol": "NAVI",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/atlas-navi",
+      "qty": 2313.8875256269885,
+      "entry_price_eur": 0.007831058181801947,
+      "entry_ts": 1792033147.7701168,
+      "cost_eur": 18.12018783933069,
+      "last_price_eur": 0.007831058181801947,
+      "last_score": 87.9,
+      "missed_updates": 0,
+      "entry_market_cap": 1422724,
+      "entry_venue": "KuCoin",
+      "entry_contract_address": "0xfc1c93a2507975e98b9d0e9260ded61a00152bf1 (ETH)",
+      "entry_score": 87.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 633000,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 15.7111,
+      "entry_chg_24h": 30.34917,
+      "entry_chg_7d": 200.1858,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.44492115125632237,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2016,8 +2049,8 @@
       "pnl_pct": -8.187492033025984
     }
   ],
-  "last_run_ts": 1792032921.1092744,
-  "last_eur_rate": 0.8906720006687988,
+  "last_run_ts": 1792033147.7701168,
+  "last_eur_rate": 0.8900720010504325,
   "last_rotation_ts": 1791846186.9829211,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
