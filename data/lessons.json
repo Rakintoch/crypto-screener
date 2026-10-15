@@ -7789,5 +7789,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "RLC (cex_small_cap) lost -8.3% in 150 min (fast (1-6h)) — stop-loss hit. Entry score: 78 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792095326.2221274,
+    "symbol": "PRIORS",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/priors-agent",
+    "held_minutes": 72.0,
+    "exit_reason": "stop-loss hit (-9.7%)",
+    "pnl_pct": -9.72,
+    "pnl_eur": -1.71,
+    "entry_score": 83.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 2078947,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 17.2263,
+    "entry_chg_24h": 38.71818,
+    "entry_chg_7d": 176.5744,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.23130133067854794,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "PRIORS (cex_small_cap) lost -9.7% in 72 min (fast (1-6h)) — stop-loss hit. Entry score: 83 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
