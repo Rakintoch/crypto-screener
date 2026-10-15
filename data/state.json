@@ -1,7 +1,7 @@
 {
   "cex_small_cap:magic": {
-    "last_alert_ts": 1791911026.2632596,
-    "last_score": 72.7,
+    "last_alert_ts": 1792047810.245599,
+    "last_score": 74.0,
     "symbol": "MAGIC"
   },
   "cex_small_cap:gitcoin": {
@@ -13,11 +13,6 @@
     "last_alert_ts": 1791961380.7457633,
     "last_score": 58.0,
     "symbol": "PRIORS"
-  },
-  "cex_small_cap:mubarak": {
-    "last_alert_ts": 1791788581.4230618,
-    "last_score": 63.2,
-    "symbol": "MUBARAK"
   },
   "cex_small_cap:baton-3": {
     "last_alert_ts": 1791793917.0260653,
@@ -129,11 +124,6 @@
     "last_score": 59.0,
     "symbol": "XAI"
   },
-  "cex_small_cap:claus-2": {
-    "last_alert_ts": 1791788581.4230618,
-    "last_score": 65.5,
-    "symbol": "CLAUS"
-  },
   "cex_small_cap:lumia": {
     "last_alert_ts": 1791939793.7530513,
     "last_score": 57.0,
@@ -218,16 +208,6 @@
     "last_alert_ts": 1791846186.5286534,
     "last_score": 98.0,
     "symbol": "FIGHT"
-  },
-  "cex_small_cap:flow": {
-    "last_alert_ts": 1791788581.4230618,
-    "last_score": 59.1,
-    "symbol": "FLOW"
-  },
-  "cex_small_cap:lab": {
-    "last_alert_ts": 1791788581.4230618,
-    "last_score": 58.1,
-    "symbol": "LAB"
   },
   "cex_small_cap:axelar": {
     "last_alert_ts": 1791975788.5375261,
@@ -370,8 +350,8 @@
     "symbol": "HIRE"
   },
   "cex_small_cap:puffer-finance": {
-    "last_alert_ts": 1791997428.513076,
-    "last_score": 56.6,
+    "last_alert_ts": 1792047810.245599,
+    "last_score": 68.7,
     "symbol": "PUFFER"
   },
   "cex_small_cap:safe": {
@@ -785,8 +765,8 @@
     "symbol": "EXFIL"
   },
   "cex_small_cap:ai-rig-complex": {
-    "last_alert_ts": 1792004584.093736,
-    "last_score": 77.8,
+    "last_alert_ts": 1792047810.245599,
+    "last_score": 67.0,
     "symbol": "ARC"
   },
   "cex_small_cap:agent-wormhole": {
@@ -810,8 +790,8 @@
     "symbol": "SAINDRA"
   },
   "cex_small_cap:babycashcat": {
-    "last_alert_ts": 1792004584.093736,
-    "last_score": 61.2,
+    "last_alert_ts": 1792047810.245599,
+    "last_score": 56.7,
     "symbol": "BABY"
   },
   "cex_small_cap:storj": {
@@ -888,5 +868,20 @@
     "last_alert_ts": 1792026178.1662629,
     "last_score": 60.3,
     "symbol": "BFC"
+  },
+  "dex_micro_cap:9a98oQHtxfqmr4EyzsP6wfw69uYAK3JbUeVEuNW1pump": {
+    "last_alert_ts": 1792047810.245599,
+    "last_score": 75.2,
+    "symbol": "STREAM"
+  },
+  "cex_small_cap:chirp-token": {
+    "last_alert_ts": 1792047810.245599,
+    "last_score": 65.8,
+    "symbol": "CHIRP"
+  },
+  "cex_small_cap:avalon-2": {
+    "last_alert_ts": 1792047810.245599,
+    "last_score": 63.1,
+    "symbol": "AVL"
   }
 }
