@@ -159,11 +159,6 @@
     "last_score": 57.5,
     "symbol": "BEM"
   },
-  "dex_micro_cap:6KDpQM4BVDdtAkjtyFDiBCkbii8q8BieEyXXm6kNpump": {
-    "last_alert_ts": 1791766682.4517303,
-    "last_score": 89.1,
-    "symbol": "TM"
-  },
   "cex_small_cap:dappos": {
     "last_alert_ts": 1791833845.2878265,
     "last_score": 83.9,
@@ -183,16 +178,6 @@
     "last_alert_ts": 1791774193.9429414,
     "last_score": 62.7,
     "symbol": "ICX"
-  },
-  "cex_small_cap:premium": {
-    "last_alert_ts": 1791766682.4517303,
-    "last_score": 73.4,
-    "symbol": "PRM"
-  },
-  "cex_small_cap:manta-network": {
-    "last_alert_ts": 1791759815.1999521,
-    "last_score": 61.7,
-    "symbol": "MANTA"
   },
   "cex_small_cap:aztec": {
     "last_alert_ts": 1791774193.9429414,
@@ -228,11 +213,6 @@
     "last_alert_ts": 1792018864.696772,
     "last_score": 64.2,
     "symbol": "DOPE"
-  },
-  "cex_small_cap:quantus": {
-    "last_alert_ts": 1791766682.4517303,
-    "last_score": 55.0,
-    "symbol": "QTC"
   },
   "cex_small_cap:fluent-network": {
     "last_alert_ts": 1791767003.1421185,
@@ -415,8 +395,8 @@
     "symbol": "INIT"
   },
   "cex_small_cap:zhong-guo-ren-neng-fei": {
-    "last_alert_ts": 1791982936.960626,
-    "last_score": 59.9,
+    "last_alert_ts": 1792026178.1662629,
+    "last_score": 55.8,
     "symbol": "中国人能飞"
   },
   "cex_small_cap:standard": {
@@ -450,8 +430,8 @@
     "symbol": "ASTRO"
   },
   "cex_small_cap:bordrless": {
-    "last_alert_ts": 1791946989.1050596,
-    "last_score": 72.8,
+    "last_alert_ts": 1792026178.1662629,
+    "last_score": 59.4,
     "symbol": "BORDR"
   },
   "cex_small_cap:paperstrategy": {
@@ -550,8 +530,8 @@
     "symbol": "AVT"
   },
   "dex_micro_cap:HgTGdc29D5bDMrDvsCLnorxz899VyDj7ZN7FPa6vpump": {
-    "last_alert_ts": 1791896568.1830604,
-    "last_score": 82.6,
+    "last_alert_ts": 1792026178.1662629,
+    "last_score": 56.0,
     "symbol": "VEIL"
   },
   "cex_small_cap:stader": {
@@ -933,5 +913,20 @@
     "last_alert_ts": 1792018864.696772,
     "last_score": 60.9,
     "symbol": "我踏马来了"
+  },
+  "dex_micro_cap:0xc54a9e149d964a8e8620f685be8a09e0acbf0b07": {
+    "last_alert_ts": 1792026178.1662629,
+    "last_score": 80.8,
+    "symbol": "Paper"
+  },
+  "cex_small_cap:borro-markets": {
+    "last_alert_ts": 1792026178.1662629,
+    "last_score": 68.8,
+    "symbol": "BORRO"
+  },
+  "cex_small_cap:bifrost": {
+    "last_alert_ts": 1792026178.1662629,
+    "last_score": 60.3,
+    "symbol": "BFC"
   }
 }
