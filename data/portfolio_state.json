@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.09782707722370132,
-      "last_score": 54.9,
+      "last_price_eur": 0.09787843933964352,
+      "last_score": 54.5,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 66713987
+      "last_market_cap": 66902595
     },
     "cex_small_cap:siren-2": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.030765020766729673,
       "entry_ts": 1792075203.6811228,
       "cost_eur": 18.052243518300987,
-      "last_price_eur": 0.0316733987070989,
+      "last_price_eur": 0.03168608585297822,
       "last_score": 60.5,
       "missed_updates": 0,
       "entry_market_cap": 24968906,
@@ -79,7 +79,7 @@
           "source": "Moomoo"
         }
       ],
-      "last_market_cap": 25691567
+      "last_market_cap": 25705747
     },
     "cex_small_cap:anime": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.0031987135153152507,
       "entry_ts": 1792093319.879248,
       "cost_eur": 17.50394588615885,
-      "last_price_eur": 0.0029864912488353755,
-      "last_score": 61.6,
+      "last_price_eur": 0.002994184724338434,
+      "last_score": 61.9,
       "missed_updates": 0,
       "entry_market_cap": 20039095,
       "entry_venue": "Upbit",
@@ -113,7 +113,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 18522993
+      "last_market_cap": 18597355
     },
     "cex_small_cap:puffer-finance": {
       "tier": "cex_small_cap",
@@ -125,7 +125,7 @@
       "entry_price_eur": 0.04499218568227116,
       "entry_ts": 1792104824.7710705,
       "cost_eur": 16.97672111389687,
-      "last_price_eur": 0.04489897008373091,
+      "last_price_eur": 0.04490617173744808,
       "last_score": 79.5,
       "missed_updates": 0,
       "entry_market_cap": 29004799,
@@ -165,7 +165,7 @@
           "source": "Tech in Asia"
         }
       ],
-      "last_market_cap": 28970060
+      "last_market_cap": 28953624
     }
   },
   "closed_trades": [
@@ -2443,8 +2443,8 @@
       "pnl_pct": -10.281578706418031
     }
   ],
-  "last_run_ts": 1792105823.8923209,
-  "last_eur_rate": 0.8916309890327053,
+  "last_run_ts": 1792106125.3153577,
+  "last_eur_rate": 0.8917740038416094,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
