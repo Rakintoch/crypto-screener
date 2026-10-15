@@ -1919,5 +1919,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "ZEREBRO (cex_small_cap) gained +12.2% in 126 min — trailing stop caught extra upside after the target. Entry score: 88. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792091728.8976953,
+    "symbol": "SOXSB",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock",
+    "held_minutes": 3973.1,
+    "exit_reason": "trailing stop hit — dropped 7.8% from the peak (peak +22.1% since entry)",
+    "pnl_pct": 12.57,
+    "pnl_eur": 2.65,
+    "entry_score": 76.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 10806188,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 1.7209,
+    "entry_chg_24h": 13.90054,
+    "entry_chg_7d": 29.0163,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.7001401969806123,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "SOXSB (cex_small_cap) gained +12.6% in 3973 min — trailing stop caught extra upside after the target. Entry score: 76. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
