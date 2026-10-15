@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 62.74855153788552,
+  "cash_eur": 45.24460565172667,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:dusk-network": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.09975270849950041,
-      "last_score": 53.0,
+      "last_price_eur": 0.09903214046010403,
+      "last_score": 52.3,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 68106391
+      "last_market_cap": 67687915
     },
     "cex_small_cap:siren-2": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.030765020766729673,
       "entry_ts": 1792075203.6811228,
       "cost_eur": 18.052243518300987,
-      "last_price_eur": 0.030882054527572467,
-      "last_score": 57.2,
+      "last_price_eur": 0.030474016252828126,
+      "last_score": 57.1,
       "missed_updates": 0,
       "entry_market_cap": 24968906,
       "entry_venue": "KuCoin",
@@ -79,7 +79,7 @@
           "source": "Moomoo"
         }
       ],
-      "last_market_cap": 25047458
+      "last_market_cap": 24689252
     },
     "cex_small_cap:priors-agent": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.00872928150796878,
       "entry_ts": 1792091003.6051192,
       "cost_eur": 17.6203997287199,
-      "last_price_eur": 0.00901824350918403,
-      "last_score": 51.4,
+      "last_price_eur": 0.008848038061621145,
+      "last_score": 53.3,
       "missed_updates": 0,
       "entry_market_cap": 8988046,
       "entry_venue": "LBank",
@@ -113,7 +113,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9280053
+      "last_market_cap": 9110283
+    },
+    "cex_small_cap:anime": {
+      "tier": "cex_small_cap",
+      "id": "anime",
+      "symbol": "ANIME",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/anime",
+      "qty": 5472.183051827241,
+      "entry_price_eur": 0.0031987135153152507,
+      "entry_ts": 1792093319.879248,
+      "cost_eur": 17.50394588615885,
+      "last_price_eur": 0.0031987135153152507,
+      "last_score": 89.5,
+      "missed_updates": 0,
+      "entry_market_cap": 20039095,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x37a645648df29205c6261289983fb04ecd70b4b3 (Arbitrum)",
+      "entry_score": 89.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 41608683,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 6.3141,
+      "entry_chg_24h": 24.6982,
+      "entry_chg_7d": 10.937,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.0763753552742776,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2311,8 +2344,8 @@
       "pnl_pct": 12.574005984584552
     }
   ],
-  "last_run_ts": 1792092920.045732,
-  "last_eur_rate": 0.8924580041646946,
+  "last_run_ts": 1792093319.879248,
+  "last_eur_rate": 0.8920850039644725,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
