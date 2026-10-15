@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 60.33215268147387,
+  "cash_eur": 43.355431567577,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:dusk-network": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.09814520839361386,
-      "last_score": 49.5,
+      "last_price_eur": 0.09822622064852611,
+      "last_score": 49.3,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 67052271
+      "last_market_cap": 67112376
     },
     "cex_small_cap:siren-2": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.030765020766729673,
       "entry_ts": 1792075203.6811228,
       "cost_eur": 18.052243518300987,
-      "last_price_eur": 0.031095838813723447,
+      "last_price_eur": 0.0312306606003297,
       "last_score": 67.2,
       "missed_updates": 0,
       "entry_market_cap": 24968906,
@@ -79,7 +79,7 @@
           "source": "Moomoo"
         }
       ],
-      "last_market_cap": 25220640
+      "last_market_cap": 25331639
     },
     "cex_small_cap:anime": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.0031987135153152507,
       "entry_ts": 1792093319.879248,
       "cost_eur": 17.50394588615885,
-      "last_price_eur": 0.0030056434966543844,
-      "last_score": 62.8,
+      "last_price_eur": 0.00300900624989763,
+      "last_score": 62.6,
       "missed_updates": 0,
       "entry_market_cap": 20039095,
       "entry_venue": "Upbit",
@@ -113,7 +113,58 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 18665988
+      "last_market_cap": 18688056
+    },
+    "cex_small_cap:puffer-finance": {
+      "tier": "cex_small_cap",
+      "id": "puffer-finance",
+      "symbol": "PUFFER",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/puffer-finance",
+      "qty": 377.3259924242005,
+      "entry_price_eur": 0.04499218568227116,
+      "entry_ts": 1792104824.7710705,
+      "cost_eur": 16.97672111389687,
+      "last_price_eur": 0.04499218568227116,
+      "last_score": 90.7,
+      "missed_updates": 0,
+      "entry_market_cap": 29004799,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x4d1c297d39c5c1277964d0e3f8aa901493664530 (ETH)",
+      "entry_score": 90.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 58530998,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 2.8317,
+      "entry_chg_24h": 91.03721,
+      "entry_chg_7d": 135.1557,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.0179763355712272,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "partnership"
+      ],
+      "entry_catalyst_score": 0.1,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Puffer and Anchorage Digital Partner to Bring Institutional Settlement Infrastructure to Puffer UniFi - Crypto Economy",
+          "ts": 1790707869.0,
+          "source": "Crypto Economy"
+        },
+        {
+          "title": "Puffer Partners with Anchorage Digital to Introduce Institutional-Grade Custody and Settlement Infrastructure - KuCoin",
+          "ts": 1790696054.0,
+          "source": "KuCoin"
+        },
+        {
+          "title": "Google Cloud partners with Puffer on Ethereum infrastructure - Tech in Asia",
+          "ts": 1790146800.0,
+          "source": "Tech in Asia"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -2391,8 +2442,8 @@
       "pnl_pct": -10.281578706418031
     }
   ],
-  "last_run_ts": 1792104633.0674188,
-  "last_eur_rate": 0.891840000668925,
+  "last_run_ts": 1792104824.7710705,
+  "last_eur_rate": 0.8917820043263134,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,

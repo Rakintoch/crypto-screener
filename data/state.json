@@ -60,8 +60,8 @@
     "symbol": "SHARE"
   },
   "dex_micro_cap:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-    "last_alert_ts": 1791968608.9665096,
-    "last_score": 65.4,
+    "last_alert_ts": 1792104824.377941,
+    "last_score": 70.5,
     "symbol": "CLAUDIA"
   },
   "cex_small_cap:ninjacat-2": {
@@ -85,8 +85,8 @@
     "symbol": "JCT"
   },
   "cex_small_cap:doppler-finance": {
-    "last_alert_ts": 1791929804.395414,
-    "last_score": 59.3,
+    "last_alert_ts": 1792104824.377941,
+    "last_score": 56.3,
     "symbol": "XDP"
   },
   "cex_small_cap:octo-gaming": {
@@ -224,16 +224,6 @@
     "last_score": 84.2,
     "symbol": "MarsX"
   },
-  "cex_small_cap:lazio-fan-token": {
-    "last_alert_ts": 1791838981.7761538,
-    "last_score": 64.6,
-    "symbol": "LAZIO"
-  },
-  "cex_small_cap:make-no-mistakes-2": {
-    "last_alert_ts": 1791838981.7761538,
-    "last_score": 63.6,
-    "symbol": "MISTAKE"
-  },
   "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
     "last_alert_ts": 1792093319.46607,
     "last_score": 59.5,
@@ -244,14 +234,9 @@
     "last_score": 92.7,
     "symbol": "RAM"
   },
-  "cex_small_cap:initia": {
-    "last_alert_ts": 1791838981.7761538,
-    "last_score": 58.7,
-    "symbol": "INIT"
-  },
   "cex_small_cap:zhong-guo-ren-neng-fei": {
-    "last_alert_ts": 1792026178.1662629,
-    "last_score": 55.8,
+    "last_alert_ts": 1792104824.377941,
+    "last_score": 59.6,
     "symbol": "中国人能飞"
   },
   "cex_small_cap:standard": {
@@ -525,8 +510,8 @@
     "symbol": "AI"
   },
   "cex_small_cap:mushroom-2": {
-    "last_alert_ts": 1791997428.513076,
-    "last_score": 57.9,
+    "last_alert_ts": 1792104824.377941,
+    "last_score": 59.9,
     "symbol": "SHROOM"
   },
   "cex_small_cap:south-korea-bull-3x-etf-bstocks-tokenized-stock": {
@@ -1093,5 +1078,35 @@
     "last_alert_ts": 1792098167.78894,
     "last_score": 61.9,
     "symbol": "SNXXB"
+  },
+  "cex_small_cap:initia": {
+    "last_alert_ts": 1792104824.377941,
+    "last_score": 70.9,
+    "symbol": "INIT"
+  },
+  "cex_small_cap:ignition-2": {
+    "last_alert_ts": 1792104824.377941,
+    "last_score": 64.2,
+    "symbol": "IGNITION"
+  },
+  "cex_small_cap:selfmade-by-sp3nd": {
+    "last_alert_ts": 1792104824.377941,
+    "last_score": 60.2,
+    "symbol": "MADE"
+  },
+  "cex_small_cap:dimo": {
+    "last_alert_ts": 1792104824.377941,
+    "last_score": 60.0,
+    "symbol": "DIMO"
+  },
+  "dex_micro_cap:4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump": {
+    "last_alert_ts": 1792104824.377941,
+    "last_score": 57.9,
+    "symbol": "Groklet"
+  },
+  "cex_small_cap:usa-rare-earth-bstocks-tokenized-stock": {
+    "last_alert_ts": 1792104824.377941,
+    "last_score": 55.1,
+    "symbol": "USARB"
   }
 }
