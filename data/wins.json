@@ -1867,5 +1867,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "MarsX (dex_micro_cap) gained +29.4% in 126 min — trailing stop caught extra upside after the target. Entry liquidity: $64,830. Entry score: 84. Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1792025127.305893,
+    "symbol": "ZEREBRO",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/zerebro",
+    "held_minutes": 461.6,
+    "exit_reason": "trailing stop hit — dropped 7.1% from the peak (peak +25.4% since entry)",
+    "pnl_pct": 16.6,
+    "pnl_eur": 3.27,
+    "entry_score": 71.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 12635688,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.0296,
+    "entry_chg_24h": 39.31392,
+    "entry_chg_7d": 18.3103,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.32760869923689867,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "ZEREBRO (cex_small_cap) gained +16.6% in 462 min — trailing stop caught extra upside after the target. Entry score: 72. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
