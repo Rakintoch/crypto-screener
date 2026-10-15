@@ -15,8 +15,8 @@
       "entry_price_eur": 35.01539348973495,
       "entry_ts": 1791853341.2047508,
       "cost_eur": 21.06951304311531,
-      "last_price_eur": 40.10909639316537,
-      "last_score": 73.5,
+      "last_price_eur": 40.04358140592373,
+      "last_score": 78.8,
       "missed_updates": 0,
       "entry_market_cap": 6356057,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 3192222
+      "last_market_cap": 3186416
     },
     "cex_small_cap:moonbeam": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.009528300326328294,
       "entry_ts": 1792026178.7890422,
       "cost_eur": 18.578142706922588,
-      "last_price_eur": 0.008881240136732044,
-      "last_score": 42.5,
+      "last_price_eur": 0.00885536599513997,
+      "last_score": 50.3,
       "missed_updates": 0,
       "entry_market_cap": 11733322,
       "entry_venue": "BtcTurk | Kripto",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10994761
+      "last_market_cap": 10961159
     },
     "cex_small_cap:atlas-navi": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.007831058181801947,
       "entry_ts": 1792033147.7701168,
       "cost_eur": 18.12018783933069,
-      "last_price_eur": 0.007582845028318976,
-      "last_score": 85.3,
+      "last_price_eur": 0.007583739637604779,
+      "last_score": 54.9,
       "missed_updates": 0,
       "entry_market_cap": 1422724,
       "entry_venue": "KuCoin",
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1377248
+      "last_market_cap": 1377214
     },
     "cex_small_cap:dusk-network": {
       "tier": "cex_small_cap",
@@ -117,8 +117,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.09482217742866353,
-      "last_score": 72.7,
+      "last_price_eur": 0.09492652870310207,
+      "last_score": 43.6,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -139,7 +139,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 64877954
+      "last_market_cap": 64939644
     }
   },
   "closed_trades": [
@@ -2090,8 +2090,8 @@
       "pnl_pct": -4.843610020445534
     }
   ],
-  "last_run_ts": 1792036517.797133,
-  "last_eur_rate": 0.8903240042877997,
+  "last_run_ts": 1792036853.2131147,
+  "last_eur_rate": 0.8904509985751331,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
