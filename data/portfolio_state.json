@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 77.09219640105691,
+  "cash_eur": 92.5327409812698,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:dusk-network": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.09760464982062812,
-      "last_score": 49.6,
+      "last_price_eur": 0.09752001694329601,
+      "last_score": 49.8,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,59 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 66659327
-    },
-    "cex_small_cap:puffer-finance": {
-      "tier": "cex_small_cap",
-      "id": "puffer-finance",
-      "symbol": "PUFFER",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/puffer-finance",
-      "qty": 377.3259924242005,
-      "entry_price_eur": 0.04499218568227116,
-      "entry_ts": 1792104824.7710705,
-      "cost_eur": 16.97672111389687,
-      "last_price_eur": 0.04166918652220461,
-      "last_score": 70.5,
-      "missed_updates": 0,
-      "entry_market_cap": 29004799,
-      "entry_venue": "Upbit",
-      "entry_contract_address": "0x4d1c297d39c5c1277964d0e3f8aa901493664530 (ETH)",
-      "entry_score": 90.7,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 58530998,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 2.8317,
-      "entry_chg_24h": 91.03721,
-      "entry_chg_7d": 135.1557,
-      "entry_chg_6h": null,
-      "entry_turnover": 2.0179763355712272,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "partnership"
-      ],
-      "entry_catalyst_score": 0.1,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Puffer and Anchorage Digital Partner to Bring Institutional Settlement Infrastructure to Puffer UniFi - Crypto Economy",
-          "ts": 1790707869.0,
-          "source": "Crypto Economy"
-        },
-        {
-          "title": "Puffer Partners with Anchorage Digital to Introduce Institutional-Grade Custody and Settlement Infrastructure - KuCoin",
-          "ts": 1790696054.0,
-          "source": "KuCoin"
-        },
-        {
-          "title": "Google Cloud partners with Puffer on Ethereum infrastructure - Tech in Asia",
-          "ts": 1790146800.0,
-          "source": "Tech in Asia"
-        }
-      ],
-      "last_market_cap": 26912379
+      "last_market_cap": 66699673
     }
   },
   "closed_trades": [
@@ -2535,10 +2483,68 @@
       "proceeds_eur": 15.181359401923809,
       "pnl_eur": -1.9615916760883163,
       "pnl_pct": -11.442555410452586
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "puffer-finance",
+      "symbol": "PUFFER",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/puffer-finance",
+      "qty": 377.3259924242005,
+      "entry_price_eur": 0.04499218568227116,
+      "entry_ts": 1792104824.7710705,
+      "cost_eur": 16.97672111389687,
+      "last_price_eur": 0.0409209672543687,
+      "last_score": 70.5,
+      "missed_updates": 0,
+      "entry_market_cap": 29004799,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x4d1c297d39c5c1277964d0e3f8aa901493664530 (ETH)",
+      "entry_score": 90.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 58530998,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 2.8317,
+      "entry_chg_24h": 91.03721,
+      "entry_chg_7d": 135.1557,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.0179763355712272,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "partnership"
+      ],
+      "entry_catalyst_score": 0.1,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Puffer and Anchorage Digital Partner to Bring Institutional Settlement Infrastructure to Puffer UniFi - Crypto Economy",
+          "ts": 1790707869.0,
+          "source": "Crypto Economy"
+        },
+        {
+          "title": "Puffer Partners with Anchorage Digital to Introduce Institutional-Grade Custody and Settlement Infrastructure - KuCoin",
+          "ts": 1790696054.0,
+          "source": "KuCoin"
+        },
+        {
+          "title": "Google Cloud partners with Puffer on Ethereum infrastructure - Tech in Asia",
+          "ts": 1790146800.0,
+          "source": "Tech in Asia"
+        }
+      ],
+      "last_market_cap": 26817204,
+      "exit_price_eur": 0.0409209672543687,
+      "exit_ts": 1792124129.5922906,
+      "exit_reason": "stop-loss hit (-9.0%)",
+      "proceeds_eur": 15.440544580212881,
+      "pnl_eur": -1.536176533683987,
+      "pnl_pct": -9.048723386440612
     }
   ],
-  "last_run_ts": 1792123823.2086625,
-  "last_eur_rate": 0.8900579952820795,
+  "last_run_ts": 1792124129.5922906,
+  "last_eur_rate": 0.8907890034646498,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
