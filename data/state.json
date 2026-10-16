@@ -44,11 +44,6 @@
     "last_score": 69.6,
     "symbol": "US"
   },
-  "cex_small_cap:sharex-2": {
-    "last_alert_ts": 1791929804.395414,
-    "last_score": 56.4,
-    "symbol": "SHARE"
-  },
   "dex_micro_cap:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
     "last_alert_ts": 1792104824.377941,
     "last_score": 70.5,
@@ -194,11 +189,6 @@
     "last_score": 59.5,
     "symbol": "PSTR"
   },
-  "cex_small_cap:crawlerpad": {
-    "last_alert_ts": 1791929804.395414,
-    "last_score": 70.9,
-    "symbol": "CRAWLER"
-  },
   "cex_small_cap:doge-pepe": {
     "last_alert_ts": 1792170203.6293397,
     "last_score": 69.7,
@@ -213,11 +203,6 @@
     "last_alert_ts": 1792148601.6431563,
     "last_score": 65.1,
     "symbol": "HOOKR"
-  },
-  "cex_small_cap:lobster-2": {
-    "last_alert_ts": 1791929804.395414,
-    "last_score": 57.9,
-    "symbol": "龙虾"
   },
   "cex_small_cap:dusk-network": {
     "last_alert_ts": 1792184594.0665429,
@@ -700,8 +685,8 @@
     "symbol": "CRCL"
   },
   "cex_small_cap:based-one": {
-    "last_alert_ts": 1792148601.6431563,
-    "last_score": 56.2,
+    "last_alert_ts": 1792189730.7522676,
+    "last_score": 75.3,
     "symbol": "BASED"
   },
   "cex_small_cap:megaeth": {
@@ -835,8 +820,8 @@
     "symbol": "ALLINU"
   },
   "cex_small_cap:taonado": {
-    "last_alert_ts": 1792134206.2292342,
-    "last_score": 58.2,
+    "last_alert_ts": 1792189730.7522676,
+    "last_score": 68.6,
     "symbol": "SN113"
   },
   "cex_small_cap:commander-vrax-4": {
@@ -885,8 +870,8 @@
     "symbol": "CLAUDIA"
   },
   "dex_micro_cap:Diy4Q5aiNEcdn7CWhuwYtuoHtHD9rKBTHCa9hi4qpump": {
-    "last_alert_ts": 1792126995.4761765,
-    "last_score": 87.4,
+    "last_alert_ts": 1792189730.7522676,
+    "last_score": 58.1,
     "symbol": "STREAM"
   },
   "cex_small_cap:otc": {
@@ -1080,8 +1065,8 @@
     "symbol": "ALON"
   },
   "dex_micro_cap:7GCMYJcykHZ3qJH3e5vQi4J9qAPdb3Xninkgk6sYpump": {
-    "last_alert_ts": 1792170203.6293397,
-    "last_score": 64.6,
+    "last_alert_ts": 1792189730.7522676,
+    "last_score": 85.9,
     "symbol": "LOOM"
   },
   "cex_small_cap:hire-agents": {
@@ -1133,5 +1118,10 @@
     "last_alert_ts": 1792184594.0665429,
     "last_score": 61.3,
     "symbol": "RARI"
+  },
+  "dex_micro_cap:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
+    "last_alert_ts": 1792189730.7522676,
+    "last_score": 64.6,
+    "symbol": "fone"
   }
 }
