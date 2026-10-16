@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.09704570341068906,
-      "last_score": 51.3,
+      "last_price_eur": 0.09719866179994821,
+      "last_score": 50.4,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 66479350
+      "last_market_cap": 66338400
     },
     "cex_small_cap:puffer-finance": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.04499218568227116,
       "entry_ts": 1792104824.7710705,
       "cost_eur": 16.97672111389687,
-      "last_price_eur": 0.04202015754019775,
+      "last_price_eur": 0.04163078942053321,
       "last_score": 75.6,
       "missed_updates": 0,
       "entry_market_cap": 29004799,
@@ -89,7 +89,7 @@
           "source": "Tech in Asia"
         }
       ],
-      "last_market_cap": 27131198
+      "last_market_cap": 26848452
     }
   },
   "closed_trades": [
@@ -2537,8 +2537,8 @@
       "pnl_pct": -11.442555410452586
     }
   ],
-  "last_run_ts": 1792121718.8172116,
-  "last_eur_rate": 0.8914479980405561,
+  "last_run_ts": 1792122023.611501,
+  "last_eur_rate": 0.8915100094467262,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
