@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.10470640460660045,
-      "last_score": 64.8,
+      "last_price_eur": 0.1047848724031601,
+      "last_score": 65.9,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 71774653
+      "last_market_cap": 71856550
     },
     "cex_small_cap:siren-2": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.03460480753703164,
       "entry_ts": 1792140276.36989,
       "cost_eur": 16.766779432308077,
-      "last_price_eur": 0.03460480753703164,
-      "last_score": 87.1,
+      "last_price_eur": 0.03454890440396368,
+      "last_score": 87.2,
       "missed_updates": 0,
       "entry_market_cap": 28108251,
       "entry_venue": "KuCoin",
@@ -78,7 +78,8 @@
           "ts": 1791950789.0,
           "source": "Moomoo"
         }
-      ]
+      ],
+      "last_market_cap": 28020048
     },
     "cex_small_cap:commander-vrax-4": {
       "tier": "cex_small_cap",
@@ -90,8 +91,8 @@
       "entry_price_eur": 0.014515352563707761,
       "entry_ts": 1792140276.36989,
       "cost_eur": 7.8244970684104365,
-      "last_price_eur": 0.014515352563707761,
-      "last_score": 83.7,
+      "last_price_eur": 0.014625607590004187,
+      "last_score": 83.6,
       "missed_updates": 0,
       "entry_market_cap": 16315910,
       "entry_venue": "Uniswap V3 (Robinhood) (on-chain)",
@@ -111,7 +112,8 @@
       "entry_base_breakout": null,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": []
+      "entry_catalyst_headlines": [],
+      "last_market_cap": 16443454
     },
     "cex_small_cap:streamoors": {
       "tier": "cex_small_cap",
@@ -123,8 +125,8 @@
       "entry_price_eur": 0.025868234020311378,
       "entry_ts": 1792140276.36989,
       "cost_eur": 16.766779432308077,
-      "last_price_eur": 0.025868234020311378,
-      "last_score": 74.1,
+      "last_price_eur": 0.027361180428168878,
+      "last_score": 73.7,
       "missed_updates": 0,
       "entry_market_cap": 28476742,
       "entry_venue": null,
@@ -144,7 +146,8 @@
       "entry_base_breakout": null,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": []
+      "entry_catalyst_headlines": [],
+      "last_market_cap": 30755851
     }
   },
   "closed_trades": [
@@ -2650,8 +2653,8 @@
       "pnl_pct": -9.048723386440612
     }
   ],
-  "last_run_ts": 1792140276.36989,
-  "last_eur_rate": 0.8895890010925936,
+  "last_run_ts": 1792140625.8446326,
+  "last_eur_rate": 0.8895830106133754,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
