@@ -165,8 +165,8 @@
     "symbol": "CTR"
   },
   "cex_small_cap:zzz-2": {
-    "last_alert_ts": 1792093319.46607,
-    "last_score": 71.9,
+    "last_alert_ts": 1792140275.7776868,
+    "last_score": 73.6,
     "symbol": "ZZZ"
   },
   "cex_small_cap:moby-ai": {
@@ -800,8 +800,8 @@
     "symbol": "MEGA"
   },
   "cex_small_cap:stockereum-fun": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 60.3,
+    "last_alert_ts": 1792140275.7776868,
+    "last_score": 56.2,
     "symbol": "STOCKER"
   },
   "cex_small_cap:micron-technology-inc-coinbase-tokenized-stock": {
@@ -1088,5 +1088,25 @@
     "last_alert_ts": 1792134206.2292342,
     "last_score": 59.1,
     "symbol": "MARSCOIN"
+  },
+  "cex_small_cap:aligned": {
+    "last_alert_ts": 1792140275.7776868,
+    "last_score": 73.7,
+    "symbol": "ALIGN"
+  },
+  "cex_small_cap:lock-in": {
+    "last_alert_ts": 1792140275.7776868,
+    "last_score": 72.1,
+    "symbol": "LOCKIN"
+  },
+  "cex_small_cap:solv-protocol": {
+    "last_alert_ts": 1792140275.7776868,
+    "last_score": 65.8,
+    "symbol": "SOLV"
+  },
+  "cex_small_cap:goldstein": {
+    "last_alert_ts": 1792140275.7776868,
+    "last_score": 59.6,
+    "symbol": "GLDSTN"
   }
 }
