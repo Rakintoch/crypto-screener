@@ -279,11 +279,6 @@
     "last_score": 80.7,
     "symbol": "BUBI"
   },
-  "cex_small_cap:quantum-inu-2": {
-    "last_alert_ts": 1791860592.0791252,
-    "last_score": 55.1,
-    "symbol": "QI"
-  },
   "cex_small_cap:hookr-fun": {
     "last_alert_ts": 1792093319.46607,
     "last_score": 73.1,
@@ -375,8 +370,8 @@
     "symbol": "WISP"
   },
   "cex_small_cap:a-meme-coin": {
-    "last_alert_ts": 1791954175.5987442,
-    "last_score": 60.7,
+    "last_alert_ts": 1792119804.893852,
+    "last_score": 80.5,
     "symbol": "AMC"
   },
   "cex_small_cap:zest-protocol": {
@@ -770,13 +765,13 @@
     "symbol": "BLUR"
   },
   "cex_small_cap:hedgehood": {
-    "last_alert_ts": 1792062202.926765,
-    "last_score": 81.3,
+    "last_alert_ts": 1792119804.893852,
+    "last_score": 55.4,
     "symbol": "HEDGE"
   },
   "cex_small_cap:kaio": {
-    "last_alert_ts": 1792062202.926765,
-    "last_score": 80.3,
+    "last_alert_ts": 1792119804.893852,
+    "last_score": 60.9,
     "symbol": "KAIO"
   },
   "cex_small_cap:odos": {
@@ -985,8 +980,8 @@
     "symbol": "SN113"
   },
   "cex_small_cap:commander-vrax-4": {
-    "last_alert_ts": 1792091002.8658934,
-    "last_score": 55.0,
+    "last_alert_ts": 1792119804.893852,
+    "last_score": 84.7,
     "symbol": "VRAX"
   },
   "cex_small_cap:zip-coin": {
@@ -1108,5 +1103,10 @@
     "last_alert_ts": 1792119402.478334,
     "last_score": 60.0,
     "symbol": "B3"
+  },
+  "cex_small_cap:securitize-bstocks-tokenized-stock": {
+    "last_alert_ts": 1792119804.893852,
+    "last_score": 55.2,
+    "symbol": "SECZB"
   }
 }
