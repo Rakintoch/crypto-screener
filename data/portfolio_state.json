@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.10686351777510203,
-      "last_score": 59.4,
+      "last_price_eur": 0.10687871825797193,
+      "last_score": 64.2,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 73369749
+      "last_market_cap": 73397404
     },
     "cex_small_cap:commander-vrax-4": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.014515352563707761,
       "entry_ts": 1792140276.36989,
       "cost_eur": 7.8244970684104365,
-      "last_price_eur": 0.015298509916185511,
-      "last_score": 69.3,
+      "last_price_eur": 0.015497369747805457,
+      "last_score": 69.2,
       "missed_updates": 0,
       "entry_market_cap": 16315910,
       "entry_venue": "Uniswap V3 (Robinhood) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 17616298
+      "last_market_cap": 17909941
     }
   },
   "closed_trades": [
@@ -2669,8 +2669,8 @@
       "pnl_pct": 23.745835569816208
     }
   ],
-  "last_run_ts": 1792147823.076928,
-  "last_eur_rate": 0.8875560021851966,
+  "last_run_ts": 1792148121.0139775,
+  "last_eur_rate": 0.8879920094547352,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
