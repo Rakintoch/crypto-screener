@@ -8032,5 +8032,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "ASTRO (cex_small_cap) lost -8.5% in 19 min (very fast (<1h)) — stop-loss hit. Entry score: 98 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792169717.6603127,
+    "symbol": "STREAM",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/91TcJ2v9wFs11pkvyZkNTswC35cB1tUJXpkUgsGnRJcQ",
+    "held_minutes": 144.1,
+    "exit_reason": "stop-loss hit (-26.5%)",
+    "pnl_pct": -26.5,
+    "pnl_eur": -3.48,
+    "entry_score": 93.3,
+    "entry_liquidity_usd": 50036.6253,
+    "entry_volume_24h_usd": 2781061.13391192,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 32.696,
+    "entry_chg_24h": 504.169,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 30.633,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 55.58050962145762,
+    "entry_boosted": true,
+    "entry_pool_age_minutes": 1345.2129179,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "STREAM (dex_micro_cap) lost -26.5% in 144 min (fast (1-6h)) — stop-loss hit. Entry liquidity: $50,037. Entry score: 93 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
