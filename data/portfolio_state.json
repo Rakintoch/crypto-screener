@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.10939333808353706,
-      "last_score": 51.2,
+      "last_price_eur": 0.10731871965800652,
+      "last_score": 50.2,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 74863773
+      "last_market_cap": 73920597
     },
     "cex_small_cap:impossible-cloud-network-token": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.13256333943063264,
       "entry_ts": 1792155796.238657,
       "cost_eur": 17.509901995338357,
-      "last_price_eur": 0.15447685267987293,
-      "last_score": 81.0,
+      "last_price_eur": 0.1571191469654387,
+      "last_score": 82.0,
       "missed_updates": 0,
       "entry_market_cap": 37755462,
       "entry_venue": "Bybit",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 43876329
+      "last_market_cap": 44494909
     },
     "cex_small_cap:radicle": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.2915991370754458,
       "entry_ts": 1792178194.7605567,
       "cost_eur": 15.800691448008827,
-      "last_price_eur": 0.2931340386134027,
-      "last_score": 80.9,
+      "last_price_eur": 0.290680743218146,
+      "last_score": 80.4,
       "missed_updates": 0,
       "entry_market_cap": 19347532,
       "entry_venue": "Binance",
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 19455334
+      "last_market_cap": 19233937
     },
     "cex_small_cap:hoodpork": {
       "tier": "cex_small_cap",
@@ -117,7 +117,7 @@
       "entry_price_eur": 0.020948458155901885,
       "entry_ts": 1792178194.7605567,
       "cost_eur": 7.373656009070787,
-      "last_price_eur": 0.020974150300789453,
+      "last_price_eur": 0.020998518785595156,
       "last_score": 77.0,
       "missed_updates": 0,
       "entry_market_cap": 23526875,
@@ -139,7 +139,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 23560428
+      "last_market_cap": 23603010
     }
   },
   "closed_trades": [
@@ -2937,8 +2937,8 @@
       "pnl_pct": -10.039279207466748
     }
   ],
-  "last_run_ts": 1792184718.5397377,
-  "last_eur_rate": 0.8896949972635501,
+  "last_run_ts": 1792185026.4074485,
+  "last_eur_rate": 0.8897700072794743,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
