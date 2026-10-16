@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 59.27265650469463,
+  "cash_eur": 42.129705426682506,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:dusk-network": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.09715951334172343,
-      "last_score": 51.5,
+      "last_price_eur": 0.0973038509558938,
+      "last_score": 50.6,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 66394819
+      "last_market_cap": 66405694
     },
     "cex_small_cap:siren-2": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.030765020766729673,
       "entry_ts": 1792075203.6811228,
       "cost_eur": 18.052243518300987,
-      "last_price_eur": 0.03354692620442828,
-      "last_score": 63.5,
+      "last_price_eur": 0.03336050997833477,
+      "last_score": 82.4,
       "missed_updates": 0,
       "entry_market_cap": 24968906,
       "entry_venue": "KuCoin",
@@ -79,7 +79,7 @@
           "source": "Moomoo"
         }
       ],
-      "last_market_cap": 27284657
+      "last_market_cap": 27057235
     },
     "cex_small_cap:puffer-finance": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.04499218568227116,
       "entry_ts": 1792104824.7710705,
       "cost_eur": 16.97672111389687,
-      "last_price_eur": 0.04667531531847579,
-      "last_score": 85.7,
+      "last_price_eur": 0.04652029883232016,
+      "last_score": 90.5,
       "missed_updates": 0,
       "entry_market_cap": 29004799,
       "entry_venue": "Upbit",
@@ -131,7 +131,40 @@
           "source": "Tech in Asia"
         }
       ],
-      "last_market_cap": 30107947
+      "last_market_cap": 30043251
+    },
+    "cex_small_cap:zerebro": {
+      "tier": "cex_small_cap",
+      "id": "zerebro",
+      "symbol": "ZEREBRO",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/zerebro",
+      "qty": 375.0919977468679,
+      "entry_price_eur": 0.04570332393382891,
+      "entry_ts": 1792112597.6211147,
+      "cost_eur": 17.142951078012125,
+      "last_price_eur": 0.04570332393382891,
+      "last_score": 88.6,
+      "missed_updates": 0,
+      "entry_market_cap": 51289788,
+      "entry_venue": "Raydium",
+      "entry_contract_address": "8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn (Solana)",
+      "entry_score": 88.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 47088505,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.3192,
+      "entry_chg_24h": 28.57948,
+      "entry_chg_7d": 83.1851,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.9180873393354638,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2449,8 +2482,8 @@
       "pnl_pct": -9.064932897763992
     }
   ],
-  "last_run_ts": 1792112117.8278723,
-  "last_eur_rate": 0.8920100011175284,
+  "last_run_ts": 1792112597.6211147,
+  "last_eur_rate": 0.8918939939860842,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
