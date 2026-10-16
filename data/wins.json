@@ -1997,5 +1997,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "SIREN (cex_small_cap) gained +2.2% in 36 min — trailing stop caught extra upside after the target. Entry score: 87. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792143319.667835,
+    "symbol": "STREAM",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/streamoors",
+    "held_minutes": 50.7,
+    "exit_reason": "trailing stop hit — dropped 10.0% from the peak (peak +37.5% since entry)",
+    "pnl_pct": 23.75,
+    "pnl_eur": 3.98,
+    "entry_score": 74.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 19368055,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.2911,
+    "entry_chg_24h": 582.67728,
+    "entry_chg_7d": null,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.6801359158291352,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "STREAM (cex_small_cap) gained +23.7% in 51 min — trailing stop caught extra upside after the target. Entry score: 74. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
