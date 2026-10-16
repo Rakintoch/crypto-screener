@@ -184,11 +184,6 @@
     "last_score": 62.0,
     "symbol": "HIPPO"
   },
-  "dex_micro_cap:Fak3rJEBfR4Vb8DoFpecf6yoxbkkr1gGUH5tdj2rpump": {
-    "last_alert_ts": 1791881677.5152748,
-    "last_score": 84.2,
-    "symbol": "MarsX"
-  },
   "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
     "last_alert_ts": 1792093319.46607,
     "last_score": 59.5,
@@ -293,11 +288,6 @@
     "last_alert_ts": 1791932612.5467637,
     "last_score": 55.5,
     "symbol": "VINE"
-  },
-  "dex_micro_cap:0xe5ba039bbf35cde1e0661722529313b1d39deb58": {
-    "last_alert_ts": 1791882197.3452368,
-    "last_score": 62.1,
-    "symbol": "MARMOTA"
   },
   "dex_micro_cap:7hDr2fvmp62yVqqeUQRFsjcvJeHUG6eWR6xsiMdcpump": {
     "last_alert_ts": 1791889394.2589817,
@@ -785,8 +775,8 @@
     "symbol": "SI"
   },
   "cex_small_cap:circle-internet-group-robinhood-tokenized-stock": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 68.1,
+    "last_alert_ts": 1792141443.700854,
+    "last_score": 55.5,
     "symbol": "CRCL"
   },
   "cex_small_cap:based-one": {
@@ -1108,5 +1098,10 @@
     "last_alert_ts": 1792140275.7776868,
     "last_score": 59.6,
     "symbol": "GLDSTN"
+  },
+  "cex_small_cap:omega-any-to-any": {
+    "last_alert_ts": 1792141443.700854,
+    "last_score": 57.5,
+    "symbol": "SN21"
   }
 }
