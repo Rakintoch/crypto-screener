@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 57.90293876964019,
+  "cash_eur": 41.53491254995197,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:dusk-network": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.10845303504918931,
-      "last_score": 39.4,
+      "last_price_eur": 0.10699909571947692,
+      "last_score": 59.0,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 74298223
+      "last_market_cap": 73426187
     },
     "cex_small_cap:impossible-cloud-network-token": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.13256333943063264,
       "entry_ts": 1792155796.238657,
       "cost_eur": 17.509901995338357,
-      "last_price_eur": 0.13956706224438498,
-      "last_score": 78.6,
+      "last_price_eur": 0.13965954554983698,
+      "last_score": 83.1,
       "missed_updates": 0,
       "entry_market_cap": 37755462,
       "entry_venue": "Bybit",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 39965761
+      "last_market_cap": 39894708
     },
     "dex_micro_cap:Diy4Q5aiNEcdn7CWhuwYtuoHtHD9rKBTHCa9hi4qpump": {
       "tier": "dex_micro_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.0002609275768474372,
       "entry_ts": 1792161069.0702255,
       "cost_eur": 13.13104928294815,
-      "last_price_eur": 0.0002455996434987458,
-      "last_score": 59.8,
+      "last_price_eur": 0.00026036653970439944,
+      "last_score": 52.7,
       "missed_updates": 0,
       "entry_market_cap": 292318.641018897,
       "entry_venue": null,
@@ -105,7 +105,40 @@
       "entry_catalyst_tags": null,
       "entry_catalyst_score": null,
       "entry_catalyst_headlines": null,
-      "last_market_cap": 275168.0
+      "last_market_cap": 291672.0
+    },
+    "cex_small_cap:marlin": {
+      "tier": "cex_small_cap",
+      "id": "marlin",
+      "symbol": "POND",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/marlin",
+      "qty": 10172.83155975858,
+      "entry_price_eur": 0.0016089941255329962,
+      "entry_ts": 1792162987.6330695,
+      "cost_eur": 16.368026219688222,
+      "last_price_eur": 0.0016089941255329962,
+      "last_score": 84.2,
+      "missed_updates": 0,
+      "entry_market_cap": 14897422,
+      "entry_venue": "Kraken",
+      "entry_contract_address": "0x57b946008913b82e4df85f501cbaed910e58d26c (ETH)",
+      "entry_score": 84.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 8560545,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 8.648,
+      "entry_chg_24h": 36.57188,
+      "entry_chg_7d": 12.2939,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.5746326444937923,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2823,8 +2856,8 @@
       "pnl_pct": -8.542454148078445
     }
   ],
-  "last_run_ts": 1792162526.8298125,
-  "last_eur_rate": 0.888566003975202,
+  "last_run_ts": 1792162987.6330695,
+  "last_eur_rate": 0.8886230024040936,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
