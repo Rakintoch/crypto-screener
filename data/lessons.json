@@ -7897,5 +7897,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "1 (dex_micro_cap) lost -23.0% in 24 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $119,657. Entry score: 86 (minimum required to buy: 65). Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1792121116.81457,
+    "symbol": "ZEREBRO",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/zerebro",
+    "held_minutes": 142.0,
+    "exit_reason": "stop-loss hit (-11.4%)",
+    "pnl_pct": -11.44,
+    "pnl_eur": -1.96,
+    "entry_score": 88.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 47088505,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.3192,
+    "entry_chg_24h": 28.57948,
+    "entry_chg_7d": 83.1851,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.9180873393354638,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "ZEREBRO (cex_small_cap) lost -11.4% in 142 min (fast (1-6h)) — stop-loss hit. Entry score: 89 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
