@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.0973038509558938,
-      "last_score": 50.6,
+      "last_price_eur": 0.09753396080942363,
+      "last_score": 51.4,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 66405694
+      "last_market_cap": 66638648
     },
     "cex_small_cap:siren-2": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.030765020766729673,
       "entry_ts": 1792075203.6811228,
       "cost_eur": 18.052243518300987,
-      "last_price_eur": 0.03336050997833477,
+      "last_price_eur": 0.03389541490038793,
       "last_score": 82.4,
       "missed_updates": 0,
       "entry_market_cap": 24968906,
@@ -79,7 +79,7 @@
           "source": "Moomoo"
         }
       ],
-      "last_market_cap": 27057235
+      "last_market_cap": 27311040
     },
     "cex_small_cap:puffer-finance": {
       "tier": "cex_small_cap",
@@ -91,7 +91,7 @@
       "entry_price_eur": 0.04499218568227116,
       "entry_ts": 1792104824.7710705,
       "cost_eur": 16.97672111389687,
-      "last_price_eur": 0.04652029883232016,
+      "last_price_eur": 0.04713213869356955,
       "last_score": 90.5,
       "missed_updates": 0,
       "entry_market_cap": 29004799,
@@ -131,7 +131,7 @@
           "source": "Tech in Asia"
         }
       ],
-      "last_market_cap": 30043251
+      "last_market_cap": 30316710
     },
     "cex_small_cap:zerebro": {
       "tier": "cex_small_cap",
@@ -143,8 +143,8 @@
       "entry_price_eur": 0.04570332393382891,
       "entry_ts": 1792112597.6211147,
       "cost_eur": 17.142951078012125,
-      "last_price_eur": 0.04570332393382891,
-      "last_score": 88.6,
+      "last_price_eur": 0.04504956619192351,
+      "last_score": 70.0,
       "missed_updates": 0,
       "entry_market_cap": 51289788,
       "entry_venue": "Raydium",
@@ -164,7 +164,8 @@
       "entry_base_breakout": null,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": []
+      "entry_catalyst_headlines": [],
+      "last_market_cap": 50712088
     }
   },
   "closed_trades": [
@@ -2482,8 +2483,8 @@
       "pnl_pct": -9.064932897763992
     }
   ],
-  "last_run_ts": 1792112597.6211147,
-  "last_eur_rate": 0.8918939939860842,
+  "last_run_ts": 1792112718.3901927,
+  "last_eur_rate": 0.8918940049875967,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
