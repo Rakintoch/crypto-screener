@@ -1971,5 +1971,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "SIREN (cex_small_cap) gained +27.4% in 700 min — trailing stop caught extra upside after the target. Entry score: 76. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792142428.7591944,
+    "symbol": "SIREN",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/siren-2",
+    "held_minutes": 35.9,
+    "exit_reason": "trailing stop hit — dropped 15.9% from the peak (peak +21.5% since entry)",
+    "pnl_pct": 2.19,
+    "pnl_eur": 0.37,
+    "entry_score": 87.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 10847691,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 13.7402,
+    "entry_chg_24h": 73.02002,
+    "entry_chg_7d": 103.4395,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.385925506357546,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "SIREN (cex_small_cap) gained +2.2% in 36 min — trailing stop caught extra upside after the target. Entry score: 87. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
