@@ -220,8 +220,8 @@
     "symbol": "龙虾"
   },
   "cex_small_cap:dusk-network": {
-    "last_alert_ts": 1792134206.2292342,
-    "last_score": 58.5,
+    "last_alert_ts": 1792184594.0665429,
+    "last_score": 58.6,
     "symbol": "DUSK"
   },
   "cex_small_cap:bellwether": {
@@ -308,11 +308,6 @@
     "last_alert_ts": 1791969409.7503424,
     "last_score": 63.9,
     "symbol": "STONKBROKER"
-  },
-  "cex_small_cap:wormhole": {
-    "last_alert_ts": 1791925393.3061268,
-    "last_score": 60.8,
-    "symbol": "W"
   },
   "dex_micro_cap:Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump": {
     "last_alert_ts": 1791939793.7530513,
@@ -1123,5 +1118,20 @@
     "last_alert_ts": 1792178194.3271878,
     "last_score": 68.8,
     "symbol": "RIZ"
+  },
+  "cex_small_cap:aria-ai": {
+    "last_alert_ts": 1792184594.0665429,
+    "last_score": 69.9,
+    "symbol": "ARIA"
+  },
+  "cex_small_cap:omron": {
+    "last_alert_ts": 1792184594.0665429,
+    "last_score": 66.2,
+    "symbol": "SN2"
+  },
+  "cex_small_cap:rarible": {
+    "last_alert_ts": 1792184594.0665429,
+    "last_score": 61.3,
+    "symbol": "RARI"
   }
 }
