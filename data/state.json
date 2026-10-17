@@ -160,8 +160,8 @@
     "symbol": "中国人能飞"
   },
   "cex_small_cap:puffer-finance": {
-    "last_alert_ts": 1792119402.478334,
-    "last_score": 70.6,
+    "last_alert_ts": 1792205273.694389,
+    "last_score": 60.3,
     "symbol": "PUFFER"
   },
   "cex_small_cap:commander-vrax-2": {
@@ -280,8 +280,8 @@
     "symbol": "STONKBROKER"
   },
   "cex_small_cap:elsa": {
-    "last_alert_ts": 1792126995.4761765,
-    "last_score": 64.4,
+    "last_alert_ts": 1792205273.694389,
+    "last_score": 60.6,
     "symbol": "ELSA"
   },
   "cex_small_cap:artificial-inu-3": {
@@ -1103,5 +1103,20 @@
     "last_alert_ts": 1792199009.1445408,
     "last_score": 57.2,
     "symbol": "TOAD"
+  },
+  "dex_micro_cap:9KDhovVA2kdjngkFooqEn5FoKkuZeDMYiQtVk7Lbm9up": {
+    "last_alert_ts": 1792205273.694389,
+    "last_score": 66.4,
+    "symbol": "Glow"
+  },
+  "dex_micro_cap:2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump": {
+    "last_alert_ts": 1792205273.694389,
+    "last_score": 66.1,
+    "symbol": "NUBI"
+  },
+  "cex_small_cap:dkargo": {
+    "last_alert_ts": 1792205273.694389,
+    "last_score": 56.3,
+    "symbol": "DKA"
   }
 }
