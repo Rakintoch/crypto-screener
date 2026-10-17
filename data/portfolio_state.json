@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.11059574184968712,
-      "last_score": 54.8,
+      "last_price_eur": 0.1104427011215129,
+      "last_score": 54.4,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 75759049
+      "last_market_cap": 75692797
     },
     "cex_small_cap:hoodpork": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.020948458155901885,
       "entry_ts": 1792178194.7605567,
       "cost_eur": 7.373656009070787,
-      "last_price_eur": 0.02106739573991882,
+      "last_price_eur": 0.02104385237081795,
       "last_score": 76.8,
       "missed_updates": 0,
       "entry_market_cap": 23526875,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 23677352
+      "last_market_cap": 23654216
     }
   },
   "closed_trades": [
@@ -2951,8 +2951,8 @@
       "pnl_pct": 36.1939369784488
     }
   ],
-  "last_run_ts": 1792206049.2284713,
-  "last_eur_rate": 0.8897700012847223,
+  "last_run_ts": 1792206317.5098166,
+  "last_eur_rate": 0.8897699989648572,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
