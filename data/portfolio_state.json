@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.10979138848243296,
-      "last_score": 58.2,
+      "last_price_eur": 0.11003785449117999,
+      "last_score": 56.0,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 75202293
+      "last_market_cap": 75350698
     },
     "cex_small_cap:impossible-cloud-network-token": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.13256333943063264,
       "entry_ts": 1792155796.238657,
       "cost_eur": 17.509901995338357,
-      "last_price_eur": 0.1592634897443502,
-      "last_score": 75.0,
+      "last_price_eur": 0.16038548929657678,
+      "last_score": 74.5,
       "missed_updates": 0,
       "entry_market_cap": 37755462,
       "entry_venue": "Bybit",
@@ -71,9 +71,9 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 45283855,
+      "last_market_cap": 45396700,
       "trailing_active": true,
-      "trailing_peak_eur": 0.16021910372310938
+      "trailing_peak_eur": 0.16038548929657678
     },
     "cex_small_cap:radicle": {
       "tier": "cex_small_cap",
@@ -85,8 +85,8 @@
       "entry_price_eur": 0.2915991370754458,
       "entry_ts": 1792178194.7605567,
       "cost_eur": 15.800691448008827,
-      "last_price_eur": 0.2688502311288849,
-      "last_score": 45.6,
+      "last_price_eur": 0.27003985292266663,
+      "last_score": 50.2,
       "missed_updates": 0,
       "entry_market_cap": 19347532,
       "entry_venue": "Binance",
@@ -107,7 +107,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 17851547
+      "last_market_cap": 17919256
     },
     "cex_small_cap:hoodpork": {
       "tier": "cex_small_cap",
@@ -119,8 +119,8 @@
       "entry_price_eur": 0.020948458155901885,
       "entry_ts": 1792178194.7605567,
       "cost_eur": 7.373656009070787,
-      "last_price_eur": 0.021070652051302582,
-      "last_score": 77.6,
+      "last_price_eur": 0.021071666335718428,
+      "last_score": 76.1,
       "missed_updates": 0,
       "entry_market_cap": 23526875,
       "entry_venue": "Uniswap V4 (Robinhood) (on-chain)",
@@ -141,7 +141,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 23682171
+      "last_market_cap": 23681713
     }
   },
   "closed_trades": [
@@ -2939,8 +2939,8 @@
       "pnl_pct": -10.039279207466748
     }
   ],
-  "last_run_ts": 1792194917.3299477,
-  "last_eur_rate": 0.8897699908619854,
+  "last_run_ts": 1792195250.6447725,
+  "last_eur_rate": 0.8897699886082315,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
