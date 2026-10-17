@@ -74,11 +74,6 @@
     "last_score": 65.2,
     "symbol": "OTK"
   },
-  "cex_small_cap:walrus-2": {
-    "last_alert_ts": 1791946989.1050596,
-    "last_score": 57.4,
-    "symbol": "WAL"
-  },
   "cex_small_cap:pod-the-squire": {
     "last_alert_ts": 1792098167.78894,
     "last_score": 64.4,
@@ -299,11 +294,6 @@
     "last_score": 59.0,
     "symbol": "KORUB"
   },
-  "cex_small_cap:niu-lai": {
-    "last_alert_ts": 1791946989.1050596,
-    "last_score": 59.0,
-    "symbol": "牛来"
-  },
   "cex_small_cap:up-2": {
     "last_alert_ts": 1792155795.709901,
     "last_score": 75.3,
@@ -350,8 +340,8 @@
     "symbol": "ZEREBRO"
   },
   "cex_small_cap:ubik": {
-    "last_alert_ts": 1792162987.0481434,
-    "last_score": 77.8,
+    "last_alert_ts": 1792206212.850918,
+    "last_score": 71.5,
     "symbol": "UBIK"
   },
   "dex_micro_cap:jq4yKhqGNzWCQhgQYB89CDEYQYjLHGcvDy9WNJHpump": {
@@ -1100,8 +1090,8 @@
     "symbol": "fone"
   },
   "cex_small_cap:the-toad-pepe": {
-    "last_alert_ts": 1792199009.1445408,
-    "last_score": 57.2,
+    "last_alert_ts": 1792206212.850918,
+    "last_score": 76.7,
     "symbol": "TOAD"
   },
   "dex_micro_cap:9KDhovVA2kdjngkFooqEn5FoKkuZeDMYiQtVk7Lbm9up": {
@@ -1118,5 +1108,10 @@
     "last_alert_ts": 1792205273.694389,
     "last_score": 56.3,
     "symbol": "DKA"
+  },
+  "cex_small_cap:agency": {
+    "last_alert_ts": 1792206212.850918,
+    "last_score": 62.5,
+    "symbol": "AGENCY"
   }
 }
