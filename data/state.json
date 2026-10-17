@@ -155,8 +155,8 @@
     "symbol": "HOOKR"
   },
   "cex_small_cap:dusk-network": {
-    "last_alert_ts": 1792184594.0665429,
-    "last_score": 58.6,
+    "last_alert_ts": 1792271001.0773337,
+    "last_score": 57.8,
     "symbol": "DUSK"
   },
   "cex_small_cap:bellwether": {
@@ -750,8 +750,8 @@
     "symbol": "MLK"
   },
   "cex_small_cap:forta": {
-    "last_alert_ts": 1792162987.0481434,
-    "last_score": 59.8,
+    "last_alert_ts": 1792271001.0773337,
+    "last_score": 60.7,
     "symbol": "FORT"
   },
   "cex_small_cap:b3": {
@@ -1123,5 +1123,15 @@
     "last_alert_ts": 1792267347.0555224,
     "last_score": 58.7,
     "symbol": "OGN"
+  },
+  "cex_small_cap:hooked": {
+    "last_alert_ts": 1792271001.0773337,
+    "last_score": 67.5,
+    "symbol": "HOOKED"
+  },
+  "cex_small_cap:bundle-cat": {
+    "last_alert_ts": 1792271001.0773337,
+    "last_score": 55.6,
+    "symbol": "BUN"
   }
 }
