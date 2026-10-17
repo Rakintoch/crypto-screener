@@ -54,11 +54,6 @@
     "last_score": 56.3,
     "symbol": "XDP"
   },
-  "cex_small_cap:octo-gaming": {
-    "last_alert_ts": 1792004584.093736,
-    "last_score": 65.2,
-    "symbol": "OTK"
-  },
   "cex_small_cap:pod-the-squire": {
     "last_alert_ts": 1792098167.78894,
     "last_score": 64.4,
@@ -140,8 +135,8 @@
     "symbol": "ASTRO"
   },
   "cex_small_cap:bordrless": {
-    "last_alert_ts": 1792098167.78894,
-    "last_score": 64.7,
+    "last_alert_ts": 1792267347.0555224,
+    "last_score": 86.2,
     "symbol": "BORDR"
   },
   "cex_small_cap:paperstrategy": {
@@ -210,8 +205,8 @@
     "symbol": "NAVI"
   },
   "cex_small_cap:orbofi-ai": {
-    "last_alert_ts": 1792161068.6079128,
-    "last_score": 55.4,
+    "last_alert_ts": 1792267347.0555224,
+    "last_score": 66.1,
     "symbol": "OBI"
   },
   "dex_micro_cap:3sKaoPryg4KrXubLWtoqF7MznLT7QNqKRxMMkkxTpump": {
@@ -290,8 +285,8 @@
     "symbol": "DARK"
   },
   "cex_small_cap:crawlnet": {
-    "last_alert_ts": 1792170203.6293397,
-    "last_score": 67.1,
+    "last_alert_ts": 1792267347.0555224,
+    "last_score": 63.5,
     "symbol": "CRAWL"
   },
   "cex_small_cap:memory-cow-moo": {
@@ -319,20 +314,10 @@
     "last_score": 67.0,
     "symbol": "ARC"
   },
-  "cex_small_cap:agent-wormhole": {
-    "last_alert_ts": 1792004584.093736,
-    "last_score": 73.6,
-    "symbol": "WORM"
-  },
   "cex_small_cap:hot-bot": {
     "last_alert_ts": 1792098167.78894,
     "last_score": 63.4,
     "symbol": "HOTBOT"
-  },
-  "cex_small_cap:musebook": {
-    "last_alert_ts": 1792004584.093736,
-    "last_score": 64.0,
-    "symbol": "MUSEBOOK"
   },
   "dex_micro_cap:A2yA6AFtfKkfVkfsnGpvsKoUV5kQPpMYboZsBPvmkA9T": {
     "last_alert_ts": 1792076650.6192799,
@@ -344,25 +329,10 @@
     "last_score": 56.7,
     "symbol": "BABY"
   },
-  "cex_small_cap:storj": {
-    "last_alert_ts": 1792004584.093736,
-    "last_score": 59.5,
-    "symbol": "STORJ"
-  },
   "cex_small_cap:dent": {
     "last_alert_ts": 1792054158.648787,
     "last_score": 67.1,
     "symbol": "DENT"
-  },
-  "cex_small_cap:moderna-bstocks-tokenized-stock": {
-    "last_alert_ts": 1792004584.093736,
-    "last_score": 58.9,
-    "symbol": "MRNAB"
-  },
-  "cex_small_cap:cets-on-gold": {
-    "last_alert_ts": 1792004584.093736,
-    "last_score": 56.9,
-    "symbol": "CETS"
   },
   "cex_small_cap:deep": {
     "last_alert_ts": 1792018864.696772,
@@ -374,14 +344,9 @@
     "last_score": 68.3,
     "symbol": "NIL"
   },
-  "dex_micro_cap:0xba41ff65fd0a19aa75dd4e6a04e9d3c15acab887": {
-    "last_alert_ts": 1792007982.8961816,
-    "last_score": 64.2,
-    "symbol": "DOGEBALL"
-  },
   "cex_small_cap:robincat": {
-    "last_alert_ts": 1792148601.6431563,
-    "last_score": 82.7,
+    "last_alert_ts": 1792267347.0555224,
+    "last_score": 72.9,
     "symbol": "ROBINCAT"
   },
   "cex_small_cap:dragonx-2": {
@@ -1085,8 +1050,8 @@
     "symbol": "MAKERS"
   },
   "cex_small_cap:mistery": {
-    "last_alert_ts": 1792249413.5099561,
-    "last_score": 58.4,
+    "last_alert_ts": 1792267347.0555224,
+    "last_score": 73.4,
     "symbol": "MERY"
   },
   "cex_small_cap:altlayer": {
@@ -1133,5 +1098,30 @@
     "last_alert_ts": 1792263779.9687068,
     "last_score": 62.3,
     "symbol": "GAINS"
+  },
+  "cex_small_cap:elizaos": {
+    "last_alert_ts": 1792267347.0555224,
+    "last_score": 96.5,
+    "symbol": "ELIZAOS"
+  },
+  "cex_small_cap:reinforced-ai": {
+    "last_alert_ts": 1792267347.0555224,
+    "last_score": 80.8,
+    "symbol": "SN92"
+  },
+  "cex_small_cap:neon": {
+    "last_alert_ts": 1792267347.0555224,
+    "last_score": 73.4,
+    "symbol": "NEON"
+  },
+  "cex_small_cap:jotchua": {
+    "last_alert_ts": 1792267347.0555224,
+    "last_score": 59.3,
+    "symbol": "JOTCHUA"
+  },
+  "cex_small_cap:origin-protocol": {
+    "last_alert_ts": 1792267347.0555224,
+    "last_score": 58.7,
+    "symbol": "OGN"
   }
 }
