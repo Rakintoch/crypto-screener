@@ -2023,5 +2023,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "STREAM (cex_small_cap) gained +23.7% in 51 min — trailing stop caught extra upside after the target. Entry score: 74. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792206049.2284713,
+    "symbol": "ICNT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/impossible-cloud-network-token",
+    "held_minutes": 837.5,
+    "exit_reason": "trailing stop hit — dropped 7.3% from the peak (peak +46.9% since entry)",
+    "pnl_pct": 36.19,
+    "pnl_eur": 6.34,
+    "entry_score": 87.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 20567233,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.9998,
+    "entry_chg_24h": 24.79889,
+    "entry_chg_7d": 61.6039,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.5447485452568426,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "ICNT (cex_small_cap) gained +36.2% in 838 min — trailing stop caught extra upside after the target. Entry score: 87. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
