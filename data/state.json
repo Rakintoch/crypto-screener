@@ -34,11 +34,6 @@
     "last_score": 57.1,
     "symbol": "CYBERLEEK"
   },
-  "cex_small_cap:zeus-network": {
-    "last_alert_ts": 1791968608.9665096,
-    "last_score": 62.4,
-    "symbol": "ZEUS"
-  },
   "cex_small_cap:talus": {
     "last_alert_ts": 1792126995.4761765,
     "last_score": 69.6,
@@ -104,20 +99,10 @@
     "last_score": 59.6,
     "symbol": "DOPE"
   },
-  "cex_small_cap:solidus-aitech": {
-    "last_alert_ts": 1791968608.9665096,
-    "last_score": 57.5,
-    "symbol": "ACN"
-  },
   "cex_small_cap:dolphin-2": {
     "last_alert_ts": 1792040585.1697383,
     "last_score": 63.1,
     "symbol": "POD"
-  },
-  "cex_small_cap:axelar": {
-    "last_alert_ts": 1791975788.5375261,
-    "last_score": 69.6,
-    "symbol": "AXL"
   },
   "cex_small_cap:osmosis": {
     "last_alert_ts": 1792069402.5308669,
@@ -219,11 +204,6 @@
     "last_score": 57.9,
     "symbol": "AMC"
   },
-  "cex_small_cap:gains-network": {
-    "last_alert_ts": 1791969409.7503424,
-    "last_score": 98.1,
-    "symbol": "GNS"
-  },
   "cex_small_cap:swarm-network": {
     "last_alert_ts": 1792011809.0256698,
     "last_score": 58.0,
@@ -239,11 +219,6 @@
     "last_score": 65.0,
     "symbol": "JEANPHIL"
   },
-  "cex_small_cap:kora": {
-    "last_alert_ts": 1791968608.9665096,
-    "last_score": 58.2,
-    "symbol": "SN71"
-  },
   "cex_small_cap:atlas-navi": {
     "last_alert_ts": 1792033147.3646078,
     "last_score": 87.9,
@@ -258,16 +233,6 @@
     "last_alert_ts": 1792055002.764715,
     "last_score": 56.8,
     "symbol": "SEALS"
-  },
-  "cex_small_cap:endurance": {
-    "last_alert_ts": 1791969409.7503424,
-    "last_score": 55.0,
-    "symbol": "ACE"
-  },
-  "cex_small_cap:stonkbroker": {
-    "last_alert_ts": 1791969409.7503424,
-    "last_score": 63.9,
-    "symbol": "STONKBROKER"
   },
   "cex_small_cap:elsa": {
     "last_alert_ts": 1792205273.694389,
@@ -319,11 +284,6 @@
     "last_score": 76.2,
     "symbol": "WTH"
   },
-  "dex_micro_cap:GU5NkUVLzmJQxJKuho5dG4d1owChpcSQnhARrjYQpump": {
-    "last_alert_ts": 1791975788.5375261,
-    "last_score": 94.3,
-    "symbol": "YILONGMA"
-  },
   "cex_small_cap:zerebro": {
     "last_alert_ts": 1792199009.1445408,
     "last_score": 55.8,
@@ -333,16 +293,6 @@
     "last_alert_ts": 1792206212.850918,
     "last_score": 71.5,
     "symbol": "UBIK"
-  },
-  "dex_micro_cap:jq4yKhqGNzWCQhgQYB89CDEYQYjLHGcvDy9WNJHpump": {
-    "last_alert_ts": 1791975788.5375261,
-    "last_score": 71.1,
-    "symbol": "ARCADES"
-  },
-  "cex_small_cap:nesa": {
-    "last_alert_ts": 1791975788.5375261,
-    "last_score": 63.0,
-    "symbol": "NES"
   },
   "cex_small_cap:burnie-senders": {
     "last_alert_ts": 1792191782.1807883,
@@ -358,11 +308,6 @@
     "last_alert_ts": 1792220590.5619318,
     "last_score": 85.0,
     "symbol": "EPIC"
-  },
-  "cex_small_cap:chill-guy": {
-    "last_alert_ts": 1791975788.5375261,
-    "last_score": 57.4,
-    "symbol": "CHILLGUY"
   },
   "cex_small_cap:microduck": {
     "last_alert_ts": 1791982936.960626,
@@ -590,8 +535,8 @@
     "symbol": "RLC"
   },
   "cex_small_cap:siren-2": {
-    "last_alert_ts": 1792162987.0481434,
-    "last_score": 65.0,
+    "last_alert_ts": 1792235012.942286,
+    "last_score": 75.3,
     "symbol": "SIREN"
   },
   "dex_micro_cap:2ay4jNY3JxfuXJzhZ8DrAKkGzpirgD7Dv2ccL9zmpump": {
@@ -775,8 +720,8 @@
     "symbol": "ALLINU"
   },
   "cex_small_cap:taonado": {
-    "last_alert_ts": 1792189730.7522676,
-    "last_score": 68.6,
+    "last_alert_ts": 1792235012.942286,
+    "last_score": 56.9,
     "symbol": "SN113"
   },
   "cex_small_cap:commander-vrax-4": {
@@ -1085,8 +1030,8 @@
     "symbol": "TOAD"
   },
   "dex_micro_cap:9KDhovVA2kdjngkFooqEn5FoKkuZeDMYiQtVk7Lbm9up": {
-    "last_alert_ts": 1792205273.694389,
-    "last_score": 66.4,
+    "last_alert_ts": 1792235012.942286,
+    "last_score": 83.5,
     "symbol": "Glow"
   },
   "dex_micro_cap:2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump": {
@@ -1143,5 +1088,30 @@
     "last_alert_ts": 1792227786.2694693,
     "last_score": 73.2,
     "symbol": "AA"
+  },
+  "dex_micro_cap:rVWG97Yj6ZbuF9zeQo8TosQG6mUcUeL8BocfHu3pump": {
+    "last_alert_ts": 1792235012.942286,
+    "last_score": 83.7,
+    "symbol": "PRIME"
+  },
+  "dex_micro_cap:5x6QQvpRpd1PsFTTTJe6sJFFSqrA21H1j3GZLmo2pump": {
+    "last_alert_ts": 1792235012.942286,
+    "last_score": 69.6,
+    "symbol": "FTR"
+  },
+  "cex_small_cap:caldera": {
+    "last_alert_ts": 1792235012.942286,
+    "last_score": 66.3,
+    "symbol": "ERA"
+  },
+  "cex_small_cap:zeus-network": {
+    "last_alert_ts": 1792235012.942286,
+    "last_score": 65.3,
+    "symbol": "ZEUS"
+  },
+  "cex_small_cap:researchcoin": {
+    "last_alert_ts": 1792235012.942286,
+    "last_score": 61.5,
+    "symbol": "RSC"
   }
 }
