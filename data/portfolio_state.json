@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.11173333971408325,
-      "last_score": 55.9,
+      "last_price_eur": 0.11352053131639636,
+      "last_score": 57.3,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 76529235
+      "last_market_cap": 77564836
     },
     "cex_small_cap:hoodpork": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.020948458155901885,
       "entry_ts": 1792178194.7605567,
       "cost_eur": 7.373656009070787,
-      "last_price_eur": 0.021050232600841063,
-      "last_score": 35.6,
+      "last_price_eur": 0.021053053886778497,
+      "last_score": 35.5,
       "missed_updates": 0,
       "entry_market_cap": 23526875,
       "entry_venue": "Uniswap V4 (Robinhood) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 23652609
+      "last_market_cap": 23654193
     },
     "cex_small_cap:concierge-io": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.3384700089273801,
       "entry_ts": 1792255842.323912,
       "cost_eur": 15.224087896148815,
-      "last_price_eur": 0.333998470538528,
+      "last_price_eur": 0.33781405282540855,
       "last_score": 70.4,
       "missed_updates": 0,
       "entry_market_cap": 26707106,
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 26472049
+      "last_market_cap": 26611874
     },
     "cex_small_cap:epic-chain": {
       "tier": "cex_small_cap",
@@ -117,8 +117,8 @@
       "entry_price_eur": 0.2630216575285087,
       "entry_ts": 1792255842.323912,
       "cost_eur": 15.224087896148813,
-      "last_price_eur": 0.24557161359263435,
-      "last_score": 45.0,
+      "last_price_eur": 0.24351651897950538,
+      "last_score": 45.7,
       "missed_updates": 0,
       "entry_market_cap": 9923972,
       "entry_venue": "Binance",
@@ -157,7 +157,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 9267534
+      "last_market_cap": 9203013
     }
   },
   "closed_trades": [
@@ -3218,8 +3218,8 @@
       "pnl_pct": -8.591315789330523
     }
   ],
-  "last_run_ts": 1792267518.456391,
-  "last_eur_rate": 0.8900360027568006,
+  "last_run_ts": 1792267824.4548483,
+  "last_eur_rate": 0.8900359973374027,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
