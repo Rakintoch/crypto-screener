@@ -54,11 +54,6 @@
     "last_score": 65.9,
     "symbol": "JEANPHIL"
   },
-  "cex_small_cap:janction": {
-    "last_alert_ts": 1791989602.6659243,
-    "last_score": 58.7,
-    "symbol": "JCT"
-  },
   "cex_small_cap:doppler-finance": {
     "last_alert_ts": 1792104824.377941,
     "last_score": 56.3,
@@ -319,25 +314,10 @@
     "last_score": 63.0,
     "symbol": "MOO"
   },
-  "cex_small_cap:veil-2": {
-    "last_alert_ts": 1791989602.6659243,
-    "last_score": 62.5,
-    "symbol": "VEIL"
-  },
   "cex_small_cap:audius": {
     "last_alert_ts": 1792177396.8975248,
     "last_score": 58.3,
     "symbol": "AUDIO"
-  },
-  "cex_small_cap:eli-lilly-robinhood-tokenized-stock": {
-    "last_alert_ts": 1791989602.6659243,
-    "last_score": 59.4,
-    "symbol": "LLY"
-  },
-  "cex_small_cap:apriori": {
-    "last_alert_ts": 1791989602.6659243,
-    "last_score": 58.3,
-    "symbol": "APR"
   },
   "cex_small_cap:costco-ondo-tokenized-stock": {
     "last_alert_ts": 1792075202.9658337,
@@ -485,8 +465,8 @@
     "symbol": "OMG"
   },
   "cex_small_cap:impossible-cloud-network-token": {
-    "last_alert_ts": 1792243686.6529095,
-    "last_score": 71.4,
+    "last_alert_ts": 1792249413.5099561,
+    "last_score": 86.7,
     "symbol": "ICNT"
   },
   "cex_small_cap:blur": {
@@ -885,8 +865,8 @@
     "symbol": "SOLV"
   },
   "cex_small_cap:goldstein": {
-    "last_alert_ts": 1792199009.1445408,
-    "last_score": 81.3,
+    "last_alert_ts": 1792249413.5099561,
+    "last_score": 55.5,
     "symbol": "GLDSTN"
   },
   "cex_small_cap:omega-any-to-any": {
@@ -1010,8 +990,8 @@
     "symbol": "fone"
   },
   "cex_small_cap:the-toad-pepe": {
-    "last_alert_ts": 1792206212.850918,
-    "last_score": 76.7,
+    "last_alert_ts": 1792249413.5099561,
+    "last_score": 80.1,
     "symbol": "TOAD"
   },
   "dex_micro_cap:9KDhovVA2kdjngkFooqEn5FoKkuZeDMYiQtVk7Lbm9up": {
@@ -1113,5 +1093,25 @@
     "last_alert_ts": 1792243686.6529095,
     "last_score": 55.7,
     "symbol": "LSK"
+  },
+  "cex_small_cap:stat": {
+    "last_alert_ts": 1792249413.5099561,
+    "last_score": 82.6,
+    "symbol": "STAT"
+  },
+  "dex_micro_cap:3XEqNHe3jHTRWAZCTHbb1UwpSfNbJL9oU1ErsM86pump": {
+    "last_alert_ts": 1792249413.5099561,
+    "last_score": 64.5,
+    "symbol": "MAKERS"
+  },
+  "cex_small_cap:mistery": {
+    "last_alert_ts": 1792249413.5099561,
+    "last_score": 58.4,
+    "symbol": "MERY"
+  },
+  "cex_small_cap:altlayer": {
+    "last_alert_ts": 1792249413.5099561,
+    "last_score": 55.8,
+    "symbol": "ALT"
   }
 }
