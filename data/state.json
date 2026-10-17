@@ -5,8 +5,8 @@
     "symbol": "MAGIC"
   },
   "cex_small_cap:gitcoin": {
-    "last_alert_ts": 1792062202.926765,
-    "last_score": 56.8,
+    "last_alert_ts": 1792213404.3982239,
+    "last_score": 84.2,
     "symbol": "GTC"
   },
   "cex_small_cap:priors-agent": {
@@ -303,11 +303,6 @@
     "last_alert_ts": 1791997428.513076,
     "last_score": 61.1,
     "symbol": "SURPLUS"
-  },
-  "cex_small_cap:thinking-cat": {
-    "last_alert_ts": 1791954175.5987442,
-    "last_score": 58.6,
-    "symbol": "HMM"
   },
   "dex_micro_cap:Gjd3JUbNG2C3n5Ww98SfPxyWaqvDk2BkiKongGwEpump": {
     "last_alert_ts": 1792011809.0256698,
@@ -940,8 +935,8 @@
     "symbol": "CRWVON"
   },
   "cex_small_cap:orbio-so": {
-    "last_alert_ts": 1792134206.2292342,
-    "last_score": 66.1,
+    "last_alert_ts": 1792213404.3982239,
+    "last_score": 58.7,
     "symbol": "ORBIO"
   },
   "cex_small_cap:marscoin-4": {
@@ -950,8 +945,8 @@
     "symbol": "MARSCOIN"
   },
   "cex_small_cap:aligned": {
-    "last_alert_ts": 1792140275.7776868,
-    "last_score": 73.7,
+    "last_alert_ts": 1792213404.3982239,
+    "last_score": 57.1,
     "symbol": "ALIGN"
   },
   "cex_small_cap:lock-in": {
@@ -1000,8 +995,8 @@
     "symbol": "SYN"
   },
   "cex_small_cap:hoodpork": {
-    "last_alert_ts": 1792170203.6293397,
-    "last_score": 75.0,
+    "last_alert_ts": 1792213404.3982239,
+    "last_score": 77.2,
     "symbol": "PORKU"
   },
   "cex_small_cap:openverse-network": {
@@ -1020,8 +1015,8 @@
     "symbol": "FTR"
   },
   "cex_small_cap:dacity-coin": {
-    "last_alert_ts": 1792170203.6293397,
-    "last_score": 81.8,
+    "last_alert_ts": 1792213404.3982239,
+    "last_score": 58.7,
     "symbol": "DACITY"
   },
   "cex_small_cap:alon": {
@@ -1113,5 +1108,25 @@
     "last_alert_ts": 1792206212.850918,
     "last_score": 62.5,
     "symbol": "AGENCY"
+  },
+  "dex_micro_cap:8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4": {
+    "last_alert_ts": 1792213404.3982239,
+    "last_score": 65.1,
+    "symbol": "simulator"
+  },
+  "cex_small_cap:aleo": {
+    "last_alert_ts": 1792213404.3982239,
+    "last_score": 57.4,
+    "symbol": "ALEO"
+  },
+  "cex_small_cap:bluwhale": {
+    "last_alert_ts": 1792213404.3982239,
+    "last_score": 55.3,
+    "symbol": "BLUAI"
+  },
+  "dex_micro_cap:0x8b996930fcde8260145fb0c0445db5a9e8293b07": {
+    "last_alert_ts": 1792213404.3982239,
+    "last_score": 55.0,
+    "symbol": "Paper"
   }
 }
