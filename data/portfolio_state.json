@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 57.1747830393482,
+  "cash_eur": 72.15229905881743,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:dusk-network": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.10338480173758181,
-      "last_score": 33.0,
+      "last_price_eur": 0.10301543625112583,
+      "last_score": 34.5,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 70880619
+      "last_market_cap": 70589015
     },
     "cex_small_cap:hoodpork": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.020948458155901885,
       "entry_ts": 1792178194.7605567,
       "cost_eur": 7.373656009070787,
-      "last_price_eur": 0.02115414424878521,
+      "last_price_eur": 0.021153076093412406,
       "last_score": 74.3,
       "missed_updates": 0,
       "entry_market_cap": 23526875,
@@ -71,54 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 23768127
-    },
-    "cex_small_cap:gitcoin": {
-      "tier": "cex_small_cap",
-      "id": "gitcoin",
-      "symbol": "GTC",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/gitcoin",
-      "qty": 72.07958864433957,
-      "entry_price_eur": 0.22622668024637005,
-      "entry_ts": 1792224926.6100674,
-      "cost_eur": 16.306326052532892,
-      "last_price_eur": 0.20858260680803312,
-      "last_score": 66.0,
-      "missed_updates": 0,
-      "entry_market_cap": 22125088,
-      "entry_venue": "Upbit",
-      "entry_contract_address": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f (ETH)",
-      "entry_score": 78.7,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 49481715,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 0.8942,
-      "entry_chg_24h": 25.23665,
-      "entry_chg_7d": 33.7215,
-      "entry_chg_6h": null,
-      "entry_turnover": 2.236452799645362,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "listing"
-      ],
-      "entry_catalyst_score": 0.4,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Upbit Gitcoin Listing Today: GTC Price Rallies 93% as Trading Opens - Coin Gabbar",
-          "ts": 1791804000.0,
-          "source": "Coin Gabbar"
-        },
-        {
-          "title": "Gitcoin Jumps 100%, Tops $0.38 After Upbit Announces KRW and USDT Market Listing - bloomingbit",
-          "ts": 1791799857.0,
-          "source": "bloomingbit"
-        }
-      ],
-      "last_market_cap": 20473292
+      "last_market_cap": 23764178
     },
     "cex_small_cap:neosoul": {
       "tier": "cex_small_cap",
@@ -130,8 +83,8 @@
       "entry_price_eur": 0.2644786474331277,
       "entry_ts": 1792224926.6100674,
       "cost_eur": 7.60961882451535,
-      "last_price_eur": 0.24585464439790822,
-      "last_score": 36.1,
+      "last_price_eur": 0.2458742238860753,
+      "last_score": 40.1,
       "missed_updates": 0,
       "entry_market_cap": 38629458,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -160,7 +113,7 @@
           "source": "The Manila Times"
         }
       ],
-      "last_market_cap": 35846421
+      "last_market_cap": 35912754
     }
   },
   "closed_trades": [
@@ -3038,10 +2991,63 @@
       "proceeds_eur": 23.84742488851927,
       "pnl_eur": 6.337522893180914,
       "pnl_pct": 36.1939369784488
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "gitcoin",
+      "symbol": "GTC",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/gitcoin",
+      "qty": 72.07958864433957,
+      "entry_price_eur": 0.22622668024637005,
+      "entry_ts": 1792224926.6100674,
+      "cost_eur": 16.306326052532892,
+      "last_price_eur": 0.2077913637017603,
+      "last_score": 65.9,
+      "missed_updates": 0,
+      "entry_market_cap": 22125088,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f (ETH)",
+      "entry_score": 78.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 49481715,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 0.8942,
+      "entry_chg_24h": 25.23665,
+      "entry_chg_7d": 33.7215,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.236452799645362,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Upbit Gitcoin Listing Today: GTC Price Rallies 93% as Trading Opens - Coin Gabbar",
+          "ts": 1791804000.0,
+          "source": "Coin Gabbar"
+        },
+        {
+          "title": "Gitcoin Jumps 100%, Tops $0.38 After Upbit Announces KRW and USDT Market Listing - bloomingbit",
+          "ts": 1791799857.0,
+          "source": "bloomingbit"
+        }
+      ],
+      "last_market_cap": 20449833,
+      "exit_price_eur": 0.2077913637017603,
+      "exit_ts": 1792239324.7395878,
+      "exit_reason": "stop-loss hit (-8.1%)",
+      "proceeds_eur": 14.977516019469235,
+      "pnl_eur": -1.3288100330636574,
+      "pnl_pct": -8.149046135731176
     }
   ],
-  "last_run_ts": 1792239023.127026,
-  "last_eur_rate": 0.890036000426848,
+  "last_run_ts": 1792239324.7395878,
+  "last_eur_rate": 0.890035995707091,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
