@@ -8194,5 +8194,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "Glow (dex_micro_cap) lost -20.3% in 27 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $40,228. Entry score: 68 (minimum required to buy: 65). Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1792250718.5875962,
+    "symbol": "ZEUS",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/zeus-network",
+    "held_minutes": 142.1,
+    "exit_reason": "stop-loss hit (-8.6%)",
+    "pnl_pct": -8.59,
+    "pnl_eur": -1.36,
+    "entry_score": 89.7,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 7235370,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.4168,
+    "entry_chg_24h": 21.09047,
+    "entry_chg_7d": 43.897,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.7450376695877995,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "ZEUS (cex_small_cap) lost -8.6% in 142 min (fast (1-6h)) — stop-loss hit. Entry score: 90 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
