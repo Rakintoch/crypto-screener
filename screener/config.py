@@ -284,7 +284,22 @@ STOP_LOSS_PCT = {"cex_small_cap": -0.08, "dex_micro_cap": -0.20}
 # já visto. Isto também elimina o time.sleep() bloqueante que existia dentro do próprio ciclo
 # do screener (até 5 min por posição a atingir o alvo na mesma corrida).
 TRAILING_STOP_ENABLED = True
-TRAILING_STOP_DRAWDOWN_PCT = 0.07           # vende se cair 7% desde o pico mais alto já visto
+# Autoanalise 2026-10-17 (revisao do ciclo #3 da Challenge, fechado 2026-10-11, 108 trades):
+# os 46 fechos por trailing stop em cex_small_cap desde o ciclo #2 recuaram, em MEDIA, 10.8%
+# desde o pico antes de vender (mediana 9.6%, minimo exatamente 7.0%) -- bem mais do que os
+# 7% configurados, o mesmo efeito de "overshoot" por causa do intervalo entre verificacoes ja
+# documentado para o STOP_LOSS_PCT fixo (ver nota acima, Autoanalise 2026-09-19). Isto devolveu,
+# em media, 14.6 pontos percentuais do pico (pico medio +35.0%, realizado medio +20.4%) --
+# dinheiro deixado na mesa em TODO trade ganhador, nao so nos piores casos. Como o trailing so
+# arma depois de o TAKE_PROFIT_PCT ja ter sido atingido, apertar este limiar nao pode transformar
+# um trade ganhador num perdedor (o pior caso e sair com menos lucro) -- ao contrario de apertar
+# o STOP_LOSS_PCT, que teria esse risco. Descido de 7% para 5%: um exito de 2pp no limiar
+# configurado deve deslocar a distribuicao de recuo realizado para baixo por um valor semelhante
+# (o "overshoot" em si, dependente da volatilidade entre corridas, nao desaparece), capturando
+# mais do pico sem arriscar cortar rallies sustentadas mais cedo (o cex_small_cap continua com
+# expectativa negativa por trade nos ciclos #2-#4: -11.50%, -2.66%, -5.14% -- este ajuste nao
+# resolve isso, so reduz o valor devolvido nos poucos trades que chegam a ganhar).
+TRAILING_STOP_DRAWDOWN_PCT = 0.05           # vende se cair 5% desde o pico mais alto já visto
 
 # --- Monitor leve de posições (position_monitor.py, correndo dentro do bot_listener.yml) ---
 # Reavalia posições abertas e verifica saídas com muito mais frequência do que o screener
