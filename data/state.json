@@ -205,8 +205,8 @@
     "symbol": "TRUTH"
   },
   "cex_small_cap:concierge-io": {
-    "last_alert_ts": 1792220590.5619318,
-    "last_score": 79.7,
+    "last_alert_ts": 1792256601.1199725,
+    "last_score": 97.6,
     "symbol": "AVA"
   },
   "dex_micro_cap:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
@@ -685,8 +685,8 @@
     "symbol": "ALLINU"
   },
   "cex_small_cap:taonado": {
-    "last_alert_ts": 1792235012.942286,
-    "last_score": 56.9,
+    "last_alert_ts": 1792256601.1199725,
+    "last_score": 75.6,
     "symbol": "SN113"
   },
   "cex_small_cap:commander-vrax-4": {
@@ -1118,5 +1118,25 @@
     "last_alert_ts": 1792255841.86787,
     "last_score": 58.3,
     "symbol": "TEMO"
+  },
+  "cex_small_cap:claus-2": {
+    "last_alert_ts": 1792256601.1199725,
+    "last_score": 72.5,
+    "symbol": "CLAUS"
+  },
+  "cex_small_cap:aeon-3": {
+    "last_alert_ts": 1792256601.1199725,
+    "last_score": 64.2,
+    "symbol": "AEON"
+  },
+  "cex_small_cap:heima": {
+    "last_alert_ts": 1792256601.1199725,
+    "last_score": 63.0,
+    "symbol": "HEI"
+  },
+  "cex_small_cap:aia": {
+    "last_alert_ts": 1792256601.1199725,
+    "last_score": 61.0,
+    "symbol": "AIA"
   }
 }
