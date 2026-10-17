@@ -8275,5 +8275,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "EPIC (cex_small_cap) lost -9.1% in 205 min (fast (1-6h)) — stop-loss hit. Entry score: 69 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792274449.404018,
+    "symbol": "PORKU",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/hoodpork",
+    "held_minutes": 1604.2,
+    "exit_reason": "momentum thesis invalidated (score dropped to 28)",
+    "pnl_pct": -1.27,
+    "pnl_eur": -0.09,
+    "entry_score": 75.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 37289238,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": -0.2576,
+    "entry_chg_24h": 208.53555,
+    "entry_chg_7d": 31.6575,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.5849634938766837,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "PORKU (cex_small_cap) lost -1.3% in 1604 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 75 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
