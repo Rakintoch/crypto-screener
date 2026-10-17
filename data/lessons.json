@@ -8086,5 +8086,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "POND (cex_small_cap) lost -10.0% in 253 min (fast (1-6h)) — stop-loss hit. Entry score: 84 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792196717.3280177,
+    "symbol": "RAD",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/radicle",
+    "held_minutes": 308.7,
+    "exit_reason": "stop-loss hit (-8.2%)",
+    "pnl_pct": -8.19,
+    "pnl_eur": -1.29,
+    "entry_score": 82.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 16525300,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 13.7187,
+    "entry_chg_24h": 17.7358,
+    "entry_chg_7d": 2.8803,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.8541296119835853,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "RAD (cex_small_cap) lost -8.2% in 309 min (fast (1-6h)) — stop-loss hit. Entry score: 82 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
