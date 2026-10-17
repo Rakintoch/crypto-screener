@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.10503759913065042,
-      "last_score": 32.7,
+      "last_price_eur": 0.10514974366067328,
+      "last_score": 32.1,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 71867751
+      "last_market_cap": 72057822
     },
     "cex_small_cap:hoodpork": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.020948458155901885,
       "entry_ts": 1792178194.7605567,
       "cost_eur": 7.373656009070787,
-      "last_price_eur": 0.021183764755841147,
+      "last_price_eur": 0.021184734893755327,
       "last_score": 76.3,
       "missed_updates": 0,
       "entry_market_cap": 23526875,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 23800404
+      "last_market_cap": 23801471
     },
     "cex_small_cap:gitcoin": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.22622668024637005,
       "entry_ts": 1792224926.6100674,
       "cost_eur": 16.306326052532892,
-      "last_price_eur": 0.21399135668332228,
-      "last_score": 76.9,
+      "last_price_eur": 0.2151350529362342,
+      "last_score": 77.0,
       "missed_updates": 0,
       "entry_market_cap": 22125088,
       "entry_venue": "Upbit",
@@ -118,7 +118,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 21025707
+      "last_market_cap": 21119365
     },
     "cex_small_cap:neosoul": {
       "tier": "cex_small_cap",
@@ -130,7 +130,7 @@
       "entry_price_eur": 0.2644786474331277,
       "entry_ts": 1792224926.6100674,
       "cost_eur": 7.60961882451535,
-      "last_price_eur": 0.2570432882814131,
+      "last_price_eur": 0.2578852623259419,
       "last_score": 64.3,
       "missed_updates": 0,
       "entry_market_cap": 38629458,
@@ -160,7 +160,7 @@
           "source": "The Manila Times"
         }
       ],
-      "last_market_cap": 37719127
+      "last_market_cap": 37667028
     }
   },
   "closed_trades": [
@@ -3040,8 +3040,8 @@
       "pnl_pct": 36.1939369784488
     }
   ],
-  "last_run_ts": 1792232718.0117629,
-  "last_eur_rate": 0.8900360050048758,
+  "last_run_ts": 1792233037.591727,
+  "last_eur_rate": 0.8900360049489447,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
