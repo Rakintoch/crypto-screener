@@ -980,8 +980,8 @@
     "symbol": "FTR"
   },
   "cex_small_cap:caldera": {
-    "last_alert_ts": 1792235012.942286,
-    "last_score": 66.3,
+    "last_alert_ts": 1792280729.7911656,
+    "last_score": 57.6,
     "symbol": "ERA"
   },
   "cex_small_cap:zeus-network": {
@@ -1103,5 +1103,10 @@
     "last_alert_ts": 1792271001.0773337,
     "last_score": 55.6,
     "symbol": "BUN"
+  },
+  "dex_micro_cap:55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump": {
+    "last_alert_ts": 1792280729.7911656,
+    "last_score": 65.3,
+    "symbol": "Gato"
   }
 }
