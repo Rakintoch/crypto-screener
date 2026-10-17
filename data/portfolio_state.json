@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 81.09072791639645,
+  "cash_eur": 57.1747830393482,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:dusk-network": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.10889768368219371,
-      "last_score": 37.5,
+      "last_price_eur": 0.10970939744307534,
+      "last_score": 37.9,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 74611802
+      "last_market_cap": 75125687
     },
     "cex_small_cap:hoodpork": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.020948458155901885,
       "entry_ts": 1792178194.7605567,
       "cost_eur": 7.373656009070787,
-      "last_price_eur": 0.021169888783060028,
+      "last_price_eur": 0.021173128694761977,
       "last_score": 76.3,
       "missed_updates": 0,
       "entry_market_cap": 23526875,
@@ -71,7 +71,94 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 23785497
+      "last_market_cap": 23786171
+    },
+    "cex_small_cap:gitcoin": {
+      "tier": "cex_small_cap",
+      "id": "gitcoin",
+      "symbol": "GTC",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/gitcoin",
+      "qty": 72.07958864433957,
+      "entry_price_eur": 0.22622668024637005,
+      "entry_ts": 1792224926.6100674,
+      "cost_eur": 16.306326052532892,
+      "last_price_eur": 0.22622668024637005,
+      "last_score": 78.7,
+      "missed_updates": 0,
+      "entry_market_cap": 22125088,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f (ETH)",
+      "entry_score": 78.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 49481715,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 0.8942,
+      "entry_chg_24h": 25.23665,
+      "entry_chg_7d": 33.7215,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.236452799645362,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Upbit Gitcoin Listing Today: GTC Price Rallies 93% as Trading Opens - Coin Gabbar",
+          "ts": 1791804000.0,
+          "source": "Coin Gabbar"
+        },
+        {
+          "title": "Gitcoin Jumps 100%, Tops $0.38 After Upbit Announces KRW and USDT Market Listing - bloomingbit",
+          "ts": 1791799857.0,
+          "source": "bloomingbit"
+        }
+      ]
+    },
+    "cex_small_cap:neosoul": {
+      "tier": "cex_small_cap",
+      "id": "neosoul",
+      "symbol": "DNA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/neosoul",
+      "qty": 28.77214814265643,
+      "entry_price_eur": 0.2644786474331277,
+      "entry_ts": 1792224926.6100674,
+      "cost_eur": 7.60961882451535,
+      "last_price_eur": 0.2644786474331277,
+      "last_score": 77.2,
+      "missed_updates": 0,
+      "entry_market_cap": 38629458,
+      "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
+      "entry_contract_address": null,
+      "entry_score": 77.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 70869499,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.2538,
+      "entry_chg_24h": 100.1084,
+      "entry_chg_7d": null,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.8345972910103994,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Bitget Lists NeoSoul (DNA) for Spot Trading - The Manila Times",
+          "ts": 1792153303.0,
+          "source": "The Manila Times"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -2951,8 +3038,8 @@
       "pnl_pct": 36.1939369784488
     }
   ],
-  "last_run_ts": 1792224624.0881562,
-  "last_eur_rate": 0.8900359919101748,
+  "last_run_ts": 1792224926.6100674,
+  "last_eur_rate": 0.8900359995057384,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
