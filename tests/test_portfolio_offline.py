@@ -737,6 +737,7 @@ def _run_scenarios():
 
     _run_continuous_cycle_scenarios()
     _run_assumed_rug_scenarios()
+    _run_trailing_tightening_scenario()
 
     print("\n✅ Todos os testes offline do portfólio passaram.")
 
@@ -949,6 +950,74 @@ def _run_assumed_rug_scenarios():
             (config.PORTFOLIO_STATE_FILE, config.CHALLENGE_HISTORY_FILE, config.LESSONS_FILE,
              config.WINS_FILE, config.CHANGELOG_FILE,
              cg.fetch_by_ids, ds.fetch_market_data_for_addresses) = orig
+
+def _run_trailing_tightening_scenario():
+    """Corrida 11 — autoanálise 2026-10-17 (revisão do ciclo #3 da Challenge, fechado
+    2026-10-11, 108 trades): os fechos por trailing stop em cex_small_cap desde o ciclo #2
+    recuaram, em média, 10.8% desde o pico antes de vender (mediana 9.6%) — bem mais do que o
+    TRAILING_STOP_DRAWDOWN_PCT configurado (7%), devolvendo em média 14.6 pontos percentuais do
+    pico ao vendedor. Como o trailing só arma depois de o take-profit já ter sido atingido
+    (TAKE_PROFIT_PCT), apertar o limiar não pode transformar um trade ganhador num perdedor —
+    só reduz o lucro devolvido. Ver a nota em config.py (TRAILING_STOP_DRAWDOWN_PCT, 0.07 -> 0.05).
+    Este teste comprova que um recuo de 6% do pico — que NÃO disparava com o limiar antigo de
+    7% — agora fecha a posição corretamente com o novo limiar de 5%."""
+    import screener.sources_coingecko as cg
+
+    orig = (config.PORTFOLIO_STATE_FILE, config.CHALLENGE_HISTORY_FILE, config.LESSONS_FILE,
+            config.WINS_FILE, config.CHANGELOG_FILE, cg.fetch_by_ids)
+    with tempfile.TemporaryDirectory() as tmp:
+        config.PORTFOLIO_STATE_FILE = os.path.join(tmp, "portfolio_state.json")
+        config.CHALLENGE_HISTORY_FILE = os.path.join(tmp, "challenge_history.json")
+        config.LESSONS_FILE = os.path.join(tmp, "lessons.json")
+        config.WINS_FILE = os.path.join(tmp, "wins.json")
+        config.CHANGELOG_FILE = os.path.join(tmp, "changelog.json")
+        eur_rate = 0.9
+        try:
+            assert config.TRAILING_STOP_DRAWDOWN_PCT <= 0.05 + 1e-9, (
+                "FALHOU: este teste espera TRAILING_STOP_DRAWDOWN_PCT <= 0.05 (autoanálise "
+                f"2026-10-17); valor atual: {config.TRAILING_STOP_DRAWDOWN_PCT}"
+            )
+            now = time.time()
+            state = portfolio._default_state()
+            state.update({"status": "active", "start_ts": now, "end_ts": now + 10 * 86400,
+                          "cash_eur": 900.0, "starting_balance_eur": 1000.0,
+                          "cycle_start_equity_eur": 1000.0, "cycle_number": 1})
+            state["positions"]["cex_small_cap:deltacoin"] = {
+                "tier": "cex_small_cap", "id": "deltacoin", "symbol": "DELTA", "qty": 100.0,
+                "entry_price_eur": 1.0, "entry_ts": now - 7200, "cost_eur": 100.0,
+                "last_price_eur": 1.0, "last_score": 80, "missed_updates": 0,
+            }
+            portfolio.save_portfolio(state)
+
+            # sequência: +25% (dispara o take-profit de 20% em CEX e arma o trailing),
+            # pico +30%, depois recua para +22.2% — exatamente 6% abaixo do pico (1.30 -> 1.222)
+            actions11 = []
+            for price_eur in (1.25, 1.30, 1.222):
+                cg.fetch_by_ids = lambda ids, *_a, _p=price_eur, **_kw: {
+                    "deltacoin": {"id": "deltacoin", "price_usd": _p / eur_rate, "chg_1h": 5,
+                                  "chg_24h": 20, "chg_7d": 30, "turnover": 0.3,
+                                  "market_cap": 20_000_000}
+                }
+                state, actions11, _ = portfolio.run_portfolio_cycle([], eur_rate)
+
+            sells_11 = [a for a in actions11 if a["action"] == "sell"]
+            assert any(a["symbol"] == "DELTA" for a in sells_11), (
+                "FALHOU: um recuo de 6% do pico devia disparar o trailing stop apertado (5%) "
+                "— não disparava com o limiar antigo de 7%"
+            )
+            delta_trade = next(t for t in state["closed_trades"] if t["symbol"] == "DELTA")
+            assert "trailing stop" in delta_trade["exit_reason"], delta_trade["exit_reason"]
+            assert 21 < delta_trade["pnl_pct"] < 23, (
+                "FALHOU: esperava fechar perto de +22.2% (1.222 vs entrada 1.0), obtido "
+                f"{delta_trade['pnl_pct']:.1f}%"
+            )
+            print(f"✅ Corrida 11 OK — recuo de 6% do pico fechou DELTA com "
+                  f"{delta_trade['pnl_pct']:+.1f}% "
+                  f"(TRAILING_STOP_DRAWDOWN_PCT={config.TRAILING_STOP_DRAWDOWN_PCT:.0%}, "
+                  "não disparava com o limiar antigo de 7%)")
+        finally:
+            (config.PORTFOLIO_STATE_FILE, config.CHALLENGE_HISTORY_FILE, config.LESSONS_FILE,
+             config.WINS_FILE, config.CHANGELOG_FILE, cg.fetch_by_ids) = orig
 
 if __name__ == "__main__":
     run()
