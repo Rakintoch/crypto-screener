@@ -8464,5 +8464,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "CLAUDIA (cex_small_cap) lost -10.1% in 182 min (fast (1-6h)) — stop-loss hit. Entry score: 79 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792339248.602325,
+    "symbol": "AVA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/concierge-io",
+    "held_minutes": 1390.1,
+    "exit_reason": "stop-loss hit (-8.1%)",
+    "pnl_pct": -8.15,
+    "pnl_eur": -1.24,
+    "entry_score": 94.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 32950668,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.7428,
+    "entry_chg_24h": 36.40535,
+    "entry_chg_7d": 44.5066,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.2337790549077088,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "AVA (cex_small_cap) lost -8.1% in 1390 min (slow (>6h)) — stop-loss hit. Entry score: 94 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
