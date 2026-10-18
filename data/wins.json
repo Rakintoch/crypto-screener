@@ -2049,5 +2049,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "ICNT (cex_small_cap) gained +36.2% in 838 min — trailing stop caught extra upside after the target. Entry score: 87. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792307728.7558928,
+    "symbol": "GTC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/gitcoin",
+    "held_minutes": 450.0,
+    "exit_reason": "trailing stop hit — dropped 5.3% from the peak (peak +22.0% since entry)",
+    "pnl_pct": 15.56,
+    "pnl_eur": 2.38,
+    "entry_score": 80.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 28573329,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 1.9254,
+    "entry_chg_24h": 19.65222,
+    "entry_chg_7d": 27.786,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.3971325398655907,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "GTC (cex_small_cap) gained +15.6% in 450 min — trailing stop caught extra upside after the target. Entry score: 80. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
