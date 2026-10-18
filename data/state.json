@@ -5,8 +5,8 @@
     "symbol": "MAGIC"
   },
   "cex_small_cap:gitcoin": {
-    "last_alert_ts": 1792263779.9687068,
-    "last_score": 68.5,
+    "last_alert_ts": 1792291776.8863537,
+    "last_score": 97.3,
     "symbol": "GTC"
   },
   "cex_small_cap:priors-agent": {
@@ -338,11 +338,6 @@
     "last_alert_ts": 1792076650.6192799,
     "last_score": 58.2,
     "symbol": "ARGUS"
-  },
-  "dex_micro_cap:0xc54a9e149d964a8e8620f685be8a09e0acbf0b07": {
-    "last_alert_ts": 1792026178.1662629,
-    "last_score": 80.8,
-    "symbol": "Paper"
   },
   "cex_small_cap:borro-markets": {
     "last_alert_ts": 1792076650.6192799,
@@ -985,8 +980,8 @@
     "symbol": "ERA"
   },
   "cex_small_cap:zeus-network": {
-    "last_alert_ts": 1792242194.5879874,
-    "last_score": 89.7,
+    "last_alert_ts": 1792291776.8863537,
+    "last_score": 66.3,
     "symbol": "ZEUS"
   },
   "cex_small_cap:researchcoin": {
@@ -1113,5 +1108,15 @@
     "last_alert_ts": 1792285377.4187677,
     "last_score": 70.8,
     "symbol": "索拉纳"
+  },
+  "dex_micro_cap:3NxfWMHmfQg8NJFW5AG1ti2xACdczWz24e9SKyk1pump": {
+    "last_alert_ts": 1792291776.8863537,
+    "last_score": 98.6,
+    "symbol": "MINTER"
+  },
+  "cex_small_cap:dar-open-network": {
+    "last_alert_ts": 1792291776.8863537,
+    "last_score": 71.7,
+    "symbol": "D"
   }
 }

@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 49.18013134373047,
+  "cash_eur": 33.86172265822155,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:dusk-network": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.11151261072955858,
-      "last_score": 34.1,
+      "last_price_eur": 0.11131680299770384,
+      "last_score": 34.3,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 76378334
+      "last_market_cap": 76251669
     },
     "cex_small_cap:concierge-io": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.3384700089273801,
       "entry_ts": 1792255842.323912,
       "cost_eur": 15.224087896148815,
-      "last_price_eur": 0.3360838247246901,
-      "last_score": 80.3,
+      "last_price_eur": 0.3443406893017003,
+      "last_score": 80.6,
       "missed_updates": 0,
       "entry_market_cap": 26707106,
       "entry_venue": "LBank",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 26505615
+      "last_market_cap": 27170326
     },
     "cex_small_cap:gitcoin": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.2082114629434365,
       "entry_ts": 1792280730.2343557,
       "cost_eur": 15.31292656215218,
-      "last_price_eur": 0.2258582060544734,
-      "last_score": 97.2,
+      "last_price_eur": 0.23106402702358594,
+      "last_score": 97.5,
       "missed_updates": 0,
       "entry_market_cap": 20451409,
       "entry_venue": "Upbit",
@@ -118,7 +118,40 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 22233751
+      "last_market_cap": 22713801
+    },
+    "cex_small_cap:claudia-2": {
+      "tier": "cex_small_cap",
+      "id": "claudia-2",
+      "symbol": "CLAUDIA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/claudia-2",
+      "qty": 1747.4621036109322,
+      "entry_price_eur": 0.00876608920665871,
+      "entry_ts": 1792291777.4791658,
+      "cost_eur": 15.318408685508919,
+      "last_price_eur": 0.00876608920665871,
+      "last_score": 90.0,
+      "missed_updates": 0,
+      "entry_market_cap": 9319590,
+      "entry_venue": "PumpSwap",
+      "entry_contract_address": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM (Solana)",
+      "entry_score": 90.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 8300247,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.7281,
+      "entry_chg_24h": 103.46076,
+      "entry_chg_7d": 47.2864,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.8906236218546095,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -3317,8 +3350,8 @@
       "pnl_pct": -8.662556971110766
     }
   ],
-  "last_run_ts": 1792291525.6992311,
-  "last_eur_rate": 0.8900360023111068,
+  "last_run_ts": 1792291777.4791658,
+  "last_eur_rate": 0.8900360038194919,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
