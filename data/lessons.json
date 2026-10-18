@@ -8302,5 +8302,32 @@
     "categoria": "momentum thesis invalidated (score dropped)",
     "velocidade_queda": "slow (>6h)",
     "licao": "PORKU (cex_small_cap) lost -1.3% in 1604 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 75 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792285453.6055024,
+    "symbol": "PRIORS",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/priors-agent",
+    "held_minutes": 78.7,
+    "exit_reason": "stop-loss hit (-8.1%)",
+    "pnl_pct": -8.08,
+    "pnl_eur": -1.24,
+    "entry_score": 80.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1533553,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 10.9911,
+    "entry_chg_24h": 30.7533,
+    "entry_chg_7d": 74.1316,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.13538300324475402,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "PRIORS (cex_small_cap) lost -8.1% in 79 min (fast (1-6h)) — stop-loss hit. Entry score: 80 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
