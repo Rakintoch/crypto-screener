@@ -299,16 +299,6 @@
     "last_score": 57.1,
     "symbol": "SAINDRA"
   },
-  "cex_small_cap:dent": {
-    "last_alert_ts": 1792054158.648787,
-    "last_score": 67.1,
-    "symbol": "DENT"
-  },
-  "cex_small_cap:nillion": {
-    "last_alert_ts": 1792054158.648787,
-    "last_score": 68.3,
-    "symbol": "NIL"
-  },
   "cex_small_cap:robincat": {
     "last_alert_ts": 1792267347.0555224,
     "last_score": 72.9,
@@ -333,16 +323,6 @@
     "last_alert_ts": 1792126995.4761765,
     "last_score": 60.8,
     "symbol": "AVL"
-  },
-  "dex_micro_cap:8TiMkgvsrat9tM2esko8zVTt99LZLpefUM4SnZaziXaQ": {
-    "last_alert_ts": 1792054158.648787,
-    "last_score": 82.2,
-    "symbol": "QI"
-  },
-  "cex_small_cap:omisego": {
-    "last_alert_ts": 1792054158.648787,
-    "last_score": 80.5,
-    "symbol": "OMG"
   },
   "cex_small_cap:impossible-cloud-network-token": {
     "last_alert_ts": 1792299777.2600465,
@@ -1005,8 +985,8 @@
     "symbol": "CLAUS"
   },
   "cex_small_cap:aeon-3": {
-    "last_alert_ts": 1792256601.1199725,
-    "last_score": 64.2,
+    "last_alert_ts": 1792314175.4124644,
+    "last_score": 55.4,
     "symbol": "AEON"
   },
   "cex_small_cap:heima": {
@@ -1118,5 +1098,10 @@
     "last_alert_ts": 1792312349.83428,
     "last_score": 62.4,
     "symbol": "blocus"
+  },
+  "dex_micro_cap:6x4Z2dr5DgHUBCKvta8T8GNsFTxJhsBZxNrycWQ8pump": {
+    "last_alert_ts": 1792314175.4124644,
+    "last_score": 58.9,
+    "symbol": "hi"
   }
 }
