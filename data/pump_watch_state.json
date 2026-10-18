@@ -1,7 +1,7 @@
 {
   "status": "active",
   "start_ts": 1789402186.9931946,
-  "cash_eur": 34.136922309519406,
+  "cash_eur": 0.0,
   "reserve_eur": 1.9326204356193786,
   "starting_balance_eur": 100.0,
   "positions": {
@@ -12,10 +12,10 @@
       "entry_price_eur": 436.85462126479916,
       "entry_ts": 1789402186.9931946,
       "cost_eur": 33.33333333333333,
-      "last_price_eur": 474.9668316773889,
+      "last_price_eur": 474.98214659429186,
       "peak_price_eur": 491.3536000000001,
       "entry_market_cap": 1183197,
-      "last_market_cap": 1662385,
+      "last_market_cap": 1662292,
       "entry_venue": "Uniswap V3 (Base) (on-chain)"
     },
     "cex_small_cap:nvidia-robinhood-tokenized-stock": {
@@ -25,10 +25,10 @@
       "entry_price_eur": 204.8116000727527,
       "entry_ts": 1791925394.1920888,
       "cost_eur": 36.58991788191748,
-      "last_price_eur": 192.0344340483239,
+      "last_price_eur": 191.71250932149758,
       "peak_price_eur": 205.26497116891926,
       "entry_market_cap": 18437248,
-      "last_market_cap": 19410331,
+      "last_market_cap": 19376716,
       "entry_venue": null,
       "entry_contract_address": null,
       "entry_obv_score": 0.17972759448586326,
@@ -37,6 +37,29 @@
       "entry_chg_24h": 1.28972,
       "entry_chg_7d": -5.1433,
       "entry_turnover": 1.9250142429065336,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
+    },
+    "cex_small_cap:ethgas-2": {
+      "id": "ethgas-2",
+      "symbol": "GWEI",
+      "qty": 1749.2943536022437,
+      "entry_price_eur": 0.01951468158530482,
+      "entry_ts": 1792364637.440999,
+      "cost_eur": 34.136922309519406,
+      "last_price_eur": 0.01951468158530482,
+      "peak_price_eur": 0.01951468158530482,
+      "entry_market_cap": 43320500,
+      "last_market_cap": 43320500,
+      "entry_venue": "Bithumb",
+      "entry_contract_address": null,
+      "entry_obv_score": 0.24242540759948292,
+      "entry_price_change_3d": 0.02743881263800505,
+      "entry_volume_surge": 18.225823193060734,
+      "entry_chg_24h": 5.80035,
+      "entry_chg_7d": 9.1014,
+      "entry_turnover": 2.990862755508362,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": []
@@ -167,8 +190,8 @@
       "reserved_eur": 0.0
     }
   ],
-  "last_run_ts": 1792364117.6275694,
-  "last_eur_rate": 0.8918560005959684,
+  "last_run_ts": 1792364637.440999,
+  "last_eur_rate": 0.8919350019610011,
   "review_cycle": {
     "number": 2,
     "start_ts": 1791136772.761907,
