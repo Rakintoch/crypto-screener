@@ -8383,5 +8383,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "CLAUDIA (cex_small_cap) lost -8.6% in 56 min (very fast (<1h)) — stop-loss hit. Entry score: 90 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792319436.5782397,
+    "symbol": "MINTER",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/3p3yajJRqwrvgNs3M1UDVDXVUriZjZ8vE8bdpnpvkNRJ",
+    "held_minutes": 327.6,
+    "exit_reason": "stop-loss hit (-28.5%)",
+    "pnl_pct": -28.54,
+    "pnl_eur": -3.49,
+    "entry_score": 95.7,
+    "entry_liquidity_usd": 403077.3993,
+    "entry_volume_24h_usd": 6212552.54756294,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 23.95,
+    "entry_chg_24h": 33795.844,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 235.768,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 15.4128029960298,
+    "entry_boosted": true,
+    "entry_pool_age_minutes": 456.91976925,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "MINTER (dex_micro_cap) lost -28.5% in 328 min (fast (1-6h)) — stop-loss hit. Entry liquidity: $403,077. Entry score: 96 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
