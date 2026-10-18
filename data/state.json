@@ -59,11 +59,6 @@
     "last_score": 77.8,
     "symbol": "BEM"
   },
-  "cex_small_cap:basecat": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 64.9,
-    "symbol": "BASECAT"
-  },
   "cex_small_cap:metis-token": {
     "last_alert_ts": 1792126995.4761765,
     "last_score": 59.3,
@@ -133,11 +128,6 @@
     "last_alert_ts": 1792271001.0773337,
     "last_score": 57.8,
     "symbol": "DUSK"
-  },
-  "cex_small_cap:bellwether": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 60.9,
-    "symbol": "领头羊"
   },
   "cex_small_cap:omega-labs": {
     "last_alert_ts": 1792126995.4761765,
@@ -259,25 +249,10 @@
     "last_score": 63.4,
     "symbol": "HOTBOT"
   },
-  "dex_micro_cap:A2yA6AFtfKkfVkfsnGpvsKoUV5kQPpMYboZsBPvmkA9T": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 57.1,
-    "symbol": "SAINDRA"
-  },
   "cex_small_cap:robincat": {
     "last_alert_ts": 1792267347.0555224,
     "last_score": 72.9,
     "symbol": "ROBINCAT"
-  },
-  "cex_small_cap:argus-2": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 58.2,
-    "symbol": "ARGUS"
-  },
-  "cex_small_cap:borro-markets": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 69.8,
-    "symbol": "BORRO"
   },
   "cex_small_cap:avalon-2": {
     "last_alert_ts": 1792126995.4761765,
@@ -314,16 +289,6 @@
     "last_score": 83.5,
     "symbol": "STREAM"
   },
-  "dex_micro_cap:0x2a92793bd9db5d2efc6060804d2277da57e76666": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 97.1,
-    "symbol": "LEND"
-  },
-  "dex_micro_cap:5GDX5fJTQns4arM1J94wjxdA8KXFsV5qW46MLFpHpump": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 71.5,
-    "symbol": "OMNI"
-  },
   "cex_small_cap:super-inu-2": {
     "last_alert_ts": 1792224926.1883097,
     "last_score": 67.1,
@@ -339,105 +304,30 @@
     "last_score": 75.3,
     "symbol": "BASED"
   },
-  "cex_small_cap:megaeth": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 63.0,
-    "symbol": "MEGA"
-  },
   "cex_small_cap:stockereum-fun": {
     "last_alert_ts": 1792161068.6079128,
     "last_score": 81.5,
     "symbol": "STOCKER"
-  },
-  "cex_small_cap:micron-technology-inc-coinbase-tokenized-stock": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 59.2,
-    "symbol": "MUC"
-  },
-  "cex_small_cap:circle-xstock": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 58.5,
-    "symbol": "CRCLX"
-  },
-  "cex_small_cap:spacex-backpack-securities": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 57.7,
-    "symbol": "SPCX"
-  },
-  "cex_small_cap:spacex-robinhood-tokenized-stock": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 57.3,
-    "symbol": "SPCX"
   },
   "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
     "last_alert_ts": 1792126995.4761765,
     "last_score": 55.2,
     "symbol": "SOXLB"
   },
-  "cex_small_cap:chill-house": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 55.5,
-    "symbol": "CHILLHOUSE"
-  },
-  "cex_small_cap:circle-rstock-2": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 55.3,
-    "symbol": "RCRCL"
-  },
-  "cex_small_cap:sandisk-bstocks-tokenized-stock": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 55.2,
-    "symbol": "SNDKB"
-  },
-  "cex_small_cap:manta-network": {
-    "last_alert_ts": 1792076650.6192799,
-    "last_score": 55.2,
-    "symbol": "MANTA"
-  },
   "dex_micro_cap:0x7d0443cddfc8e11af105f4fe44dd28c630237777": {
     "last_alert_ts": 1792220590.5619318,
     "last_score": 85.2,
     "symbol": "DAWG"
-  },
-  "cex_small_cap:sword-inu": {
-    "last_alert_ts": 1792083793.4155135,
-    "last_score": 76.5,
-    "symbol": "SI"
-  },
-  "cex_small_cap:altai-the-tiger": {
-    "last_alert_ts": 1792083793.4155135,
-    "last_score": 68.6,
-    "symbol": "ALTAI"
   },
   "cex_small_cap:anime": {
     "last_alert_ts": 1792148601.6431563,
     "last_score": 62.7,
     "symbol": "ANIME"
   },
-  "cex_small_cap:no-crying-in-the-casino": {
-    "last_alert_ts": 1792083793.4155135,
-    "last_score": 66.3,
-    "symbol": "CASINO"
-  },
-  "cex_small_cap:goatseus-maximus": {
-    "last_alert_ts": 1792083793.4155135,
-    "last_score": 60.2,
-    "symbol": "GOAT"
-  },
-  "dex_micro_cap:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
-    "last_alert_ts": 1792083793.4155135,
-    "last_score": 57.6,
-    "symbol": "OTC"
-  },
   "cex_small_cap:incentiv": {
     "last_alert_ts": 1792242194.5879874,
     "last_score": 57.2,
     "symbol": "CENT"
-  },
-  "cex_small_cap:nexpace": {
-    "last_alert_ts": 1792083793.4155135,
-    "last_score": 57.0,
-    "symbol": "NXPC"
   },
   "dex_micro_cap:7fumw7GYTHZJJxkKJ8sSh1CqTdHmB234vX3xsKjepump": {
     "last_alert_ts": 1792091002.8658934,
@@ -565,8 +455,8 @@
     "symbol": "USARB"
   },
   "cex_small_cap:stbl": {
-    "last_alert_ts": 1792299777.2600465,
-    "last_score": 62.0,
+    "last_alert_ts": 1792343003.041234,
+    "last_score": 61.7,
     "symbol": "STBL"
   },
   "cex_small_cap:ultcat": {
@@ -755,8 +645,8 @@
     "symbol": "RIZ"
   },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1792328593.8141344,
-    "last_score": 68.6,
+    "last_alert_ts": 1792343003.041234,
+    "last_score": 88.2,
     "symbol": "ARIA"
   },
   "cex_small_cap:omron": {
@@ -990,8 +880,8 @@
     "symbol": "MINTER"
   },
   "cex_small_cap:dar-open-network": {
-    "last_alert_ts": 1792291776.8863537,
-    "last_score": 71.7,
+    "last_alert_ts": 1792343003.041234,
+    "last_score": 86.4,
     "symbol": "D"
   },
   "dex_micro_cap:DrLF1dG1K4U6ggx5BZ6bSwzGcPNVrQwYoTJzRDyZpump": {
@@ -1063,5 +953,35 @@
     "last_alert_ts": 1792335778.7467995,
     "last_score": 61.9,
     "symbol": "COLLECT"
+  },
+  "dex_micro_cap:3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump": {
+    "last_alert_ts": 1792343003.041234,
+    "last_score": 73.9,
+    "symbol": "mucron"
+  },
+  "cex_small_cap:quark-chain": {
+    "last_alert_ts": 1792343003.041234,
+    "last_score": 73.8,
+    "symbol": "QKC"
+  },
+  "cex_small_cap:torch": {
+    "last_alert_ts": 1792343003.041234,
+    "last_score": 67.2,
+    "symbol": "TORCH"
+  },
+  "cex_small_cap:moonbeam": {
+    "last_alert_ts": 1792343003.041234,
+    "last_score": 65.7,
+    "symbol": "GLMR"
+  },
+  "cex_small_cap:hoot-2": {
+    "last_alert_ts": 1792343003.041234,
+    "last_score": 65.5,
+    "symbol": "$HOOT"
+  },
+  "cex_small_cap:camp-network": {
+    "last_alert_ts": 1792343003.041234,
+    "last_score": 55.5,
+    "symbol": "CAMP"
   }
 }
