@@ -40,8 +40,8 @@
     "symbol": "CLAUDIA"
   },
   "cex_small_cap:ninjacat-2": {
-    "last_alert_ts": 1792263779.9687068,
-    "last_score": 60.1,
+    "last_alert_ts": 1792312349.83428,
+    "last_score": 55.8,
     "symbol": "NINJACAT"
   },
   "cex_small_cap:jean-phil": {
@@ -85,8 +85,8 @@
     "symbol": "DOPE"
   },
   "cex_small_cap:osmosis": {
-    "last_alert_ts": 1792069402.5308669,
-    "last_score": 91.6,
+    "last_alert_ts": 1792312349.83428,
+    "last_score": 75.7,
     "symbol": "OSMO"
   },
   "cex_small_cap:dodo": {
@@ -289,11 +289,6 @@
     "last_score": 66.9,
     "symbol": "EXFIL"
   },
-  "cex_small_cap:ai-rig-complex": {
-    "last_alert_ts": 1792047810.245599,
-    "last_score": 67.0,
-    "symbol": "ARC"
-  },
   "cex_small_cap:hot-bot": {
     "last_alert_ts": 1792098167.78894,
     "last_score": 63.4,
@@ -303,11 +298,6 @@
     "last_alert_ts": 1792076650.6192799,
     "last_score": 57.1,
     "symbol": "SAINDRA"
-  },
-  "cex_small_cap:babycashcat": {
-    "last_alert_ts": 1792047810.245599,
-    "last_score": 56.7,
-    "symbol": "BABY"
   },
   "cex_small_cap:dent": {
     "last_alert_ts": 1792054158.648787,
@@ -338,16 +328,6 @@
     "last_alert_ts": 1792075202.9658337,
     "last_score": 59.8,
     "symbol": "BFC"
-  },
-  "dex_micro_cap:9a98oQHtxfqmr4EyzsP6wfw69uYAK3JbUeVEuNW1pump": {
-    "last_alert_ts": 1792047810.245599,
-    "last_score": 75.2,
-    "symbol": "STREAM"
-  },
-  "cex_small_cap:chirp-token": {
-    "last_alert_ts": 1792047810.245599,
-    "last_score": 65.8,
-    "symbol": "CHIRP"
   },
   "cex_small_cap:avalon-2": {
     "last_alert_ts": 1792126995.4761765,
@@ -1128,5 +1108,15 @@
     "last_alert_ts": 1792307000.3712912,
     "last_score": 83.1,
     "symbol": "ALTHEA"
+  },
+  "cex_small_cap:ethgas-2": {
+    "last_alert_ts": 1792312349.83428,
+    "last_score": 62.6,
+    "symbol": "GWEI"
+  },
+  "dex_micro_cap:9kXG537MZvtTBUieRvrye9KG93FbA25QAk7zf5oYpump": {
+    "last_alert_ts": 1792312349.83428,
+    "last_score": 62.4,
+    "symbol": "blocus"
   }
 }
