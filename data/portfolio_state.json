@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 32.32285647875955,
+  "cash_eur": 46.39136001181385,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:dusk-network": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.10055371017983755,
       "entry_ts": 1792033390.0974672,
       "cost_eur": 18.482493530981944,
-      "last_price_eur": 0.11053802005476979,
-      "last_score": 43.4,
+      "last_price_eur": 0.11013305498841335,
+      "last_score": 44.1,
       "missed_updates": 0,
       "entry_market_cap": 68706530,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 75722945
+      "last_market_cap": 75480897
     },
     "cex_small_cap:concierge-io": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.3384700089273801,
       "entry_ts": 1792255842.323912,
       "cost_eur": 15.224087896148815,
-      "last_price_eur": 0.3667313202736615,
-      "last_score": 93.4,
+      "last_price_eur": 0.3713523915627983,
+      "last_score": 93.8,
       "missed_updates": 0,
       "entry_market_cap": 26707106,
       "entry_venue": "LBank",
@@ -71,49 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 28942580
-    },
-    "cex_small_cap:caldera": {
-      "tier": "cex_small_cap",
-      "id": "caldera",
-      "symbol": "ERA",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/caldera",
-      "qty": 220.3757064337308,
-      "entry_price_eur": 0.06939788734595873,
-      "entry_ts": 1792312350.3048139,
-      "cost_eur": 15.293608448874123,
-      "last_price_eur": 0.06440656454159475,
-      "last_score": 49.1,
-      "missed_updates": 0,
-      "entry_market_cap": 13433828,
-      "entry_venue": "Upbit",
-      "entry_contract_address": "0xe2ad0bf751834f2fbdc62a41014f84d67ca1de2a (ETH)",
-      "entry_score": 85.5,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 92404902,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 8.3147,
-      "entry_chg_24h": 29.8799,
-      "entry_chg_7d": -14.6422,
-      "entry_chg_6h": null,
-      "entry_turnover": 6.878523530299778,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Caldera + Lab Brings Men’s Skincare Expertise to Bodycare With Launch of The Deo - Yahoo Finance",
-          "ts": 1791892800.0,
-          "source": "Yahoo Finance"
-        }
-      ],
-      "last_market_cap": 12630591
+      "last_market_cap": 29285122
     },
     "cex_small_cap:claudia-2": {
       "tier": "cex_small_cap",
@@ -125,7 +83,7 @@
       "entry_price_eur": 0.00801366165239079,
       "entry_ts": 1792321379.9272103,
       "cost_eur": 14.444300544901454,
-      "last_price_eur": 0.007979457481842495,
+      "last_price_eur": 0.007964816484517233,
       "last_score": 59.6,
       "missed_updates": 0,
       "entry_market_cap": 8480920,
@@ -147,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 8477760
+      "last_market_cap": 8469457
     }
   },
   "closed_trades": [
@@ -3479,10 +3437,58 @@
       "proceeds_eur": 8.74878108694813,
       "pnl_eur": -3.4940989639381907,
       "pnl_pct": -28.5398447866459
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "caldera",
+      "symbol": "ERA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/caldera",
+      "qty": 220.3757064337308,
+      "entry_price_eur": 0.06939788734595873,
+      "entry_ts": 1792312350.3048139,
+      "cost_eur": 15.293608448874123,
+      "last_price_eur": 0.06383872233795809,
+      "last_score": 50.0,
+      "missed_updates": 0,
+      "entry_market_cap": 13433828,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0xe2ad0bf751834f2fbdc62a41014f84d67ca1de2a (ETH)",
+      "entry_score": 85.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 92404902,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 8.3147,
+      "entry_chg_24h": 29.8799,
+      "entry_chg_7d": -14.6422,
+      "entry_chg_6h": null,
+      "entry_turnover": 6.878523530299778,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Caldera + Lab Brings Men’s Skincare Expertise to Bodycare With Launch of The Deo - Yahoo Finance",
+          "ts": 1791892800.0,
+          "source": "Yahoo Finance"
+        }
+      ],
+      "last_market_cap": 12538114,
+      "exit_price_eur": 0.06383872233795809,
+      "exit_ts": 1792329022.5963206,
+      "exit_reason": "stop-loss hit (-8.0%)",
+      "proceeds_eur": 14.068503533054306,
+      "pnl_eur": -1.2251049158198164,
+      "pnl_pct": -8.010568074338305
     }
   ],
-  "last_run_ts": 1792328720.4173272,
-  "last_eur_rate": 0.8900359922281073,
+  "last_run_ts": 1792329022.5963206,
+  "last_eur_rate": 0.8900360028156888,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
