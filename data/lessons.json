@@ -8356,5 +8356,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "PRIORS (cex_small_cap) lost -8.7% in 85 min (fast (1-6h)) — stop-loss hit. Entry score: 80 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792295126.7979202,
+    "symbol": "CLAUDIA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/claudia-2",
+    "held_minutes": 55.8,
+    "exit_reason": "stop-loss hit (-8.6%)",
+    "pnl_pct": -8.62,
+    "pnl_eur": -1.32,
+    "entry_score": 90.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 8300247,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.7281,
+    "entry_chg_24h": 103.46076,
+    "entry_chg_7d": 47.2864,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.8906236218546095,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "CLAUDIA (cex_small_cap) lost -8.6% in 56 min (very fast (<1h)) — stop-loss hit. Entry score: 90 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
