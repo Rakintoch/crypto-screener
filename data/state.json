@@ -224,11 +224,6 @@
     "last_score": 67.1,
     "symbol": "SI"
   },
-  "cex_small_cap:circle-internet-group-robinhood-tokenized-stock": {
-    "last_alert_ts": 1792141443.700854,
-    "last_score": 55.5,
-    "symbol": "CRCL"
-  },
   "cex_small_cap:based-one": {
     "last_alert_ts": 1792189730.7522676,
     "last_score": 75.3,
@@ -338,11 +333,6 @@
     "last_alert_ts": 1792249413.5099561,
     "last_score": 55.5,
     "symbol": "GLDSTN"
-  },
-  "cex_small_cap:omega-any-to-any": {
-    "last_alert_ts": 1792141443.700854,
-    "last_score": 57.5,
-    "symbol": "SN21"
   },
   "dex_micro_cap:0x3f341b8931d780b3ed5ddda44d481e6885e4e50b": {
     "last_alert_ts": 1792148601.6431563,
@@ -828,5 +818,20 @@
     "last_alert_ts": 1792400605.7136018,
     "last_score": 56.8,
     "symbol": "BATON"
+  },
+  "cex_small_cap:apriori": {
+    "last_alert_ts": 1792402485.0722945,
+    "last_score": 62.6,
+    "symbol": "APR"
+  },
+  "dex_micro_cap:HqmFi85adLD8BQA7en1HfajdAfzVFps5REgQaYuw6Ax8": {
+    "last_alert_ts": 1792402485.0722945,
+    "last_score": 58.0,
+    "symbol": "WEFT"
+  },
+  "cex_small_cap:delivery-guy": {
+    "last_alert_ts": 1792402485.0722945,
+    "last_score": 57.8,
+    "symbol": "DGUY"
   }
 }
