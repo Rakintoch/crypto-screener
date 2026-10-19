@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0007140402879913272,
       "entry_ts": 1792353755.0663216,
       "cost_eur": 14.056396842662254,
-      "last_price_eur": 0.0007229190007784907,
-      "last_score": 43.3,
+      "last_price_eur": 0.0007308912390474879,
+      "last_score": 45.7,
       "missed_updates": 0,
       "entry_market_cap": 71999951,
       "entry_venue": "Binance",
@@ -57,7 +57,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 72844233
+      "last_market_cap": 73594244
     },
     "cex_small_cap:osmosis": {
       "tier": "cex_small_cap",
@@ -69,8 +69,8 @@
       "entry_price_eur": 0.0479314798186869,
       "entry_ts": 1792402485.8461742,
       "cost_eur": 14.67760407479448,
-      "last_price_eur": 0.04904193450889505,
-      "last_score": 67.7,
+      "last_price_eur": 0.048234575728635536,
+      "last_score": 67.0,
       "missed_updates": 0,
       "entry_market_cap": 40270359,
       "entry_venue": "Osmosis",
@@ -105,7 +105,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 41167357
+      "last_market_cap": 40422997
     },
     "cex_small_cap:concierge-io": {
       "tier": "cex_small_cap",
@@ -117,7 +117,7 @@
       "entry_price_eur": 0.39130005939431217,
       "entry_ts": 1792428489.0532444,
       "cost_eur": 14.399644055973658,
-      "last_price_eur": 0.3812237995814214,
+      "last_price_eur": 0.3818615923222585,
       "last_score": 76.1,
       "missed_updates": 0,
       "entry_market_cap": 30777461,
@@ -148,7 +148,7 @@
           "source": "Investing.com"
         }
       ],
-      "last_market_cap": 30031364
+      "last_market_cap": 30067128
     }
   },
   "closed_trades": [
@@ -3994,8 +3994,8 @@
       "pnl_pct": -22.326957573006712
     }
   ],
-  "last_run_ts": 1792437022.4498508,
-  "last_eur_rate": 0.8919310073638705,
+  "last_run_ts": 1792437327.4292722,
+  "last_eur_rate": 0.8920269955178284,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
