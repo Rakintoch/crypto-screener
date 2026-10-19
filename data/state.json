@@ -40,8 +40,8 @@
     "symbol": "DOPE"
   },
   "cex_small_cap:osmosis": {
-    "last_alert_ts": 1792400605.7136018,
-    "last_score": 76.9,
+    "last_alert_ts": 1792443807.2059453,
+    "last_score": 57.4,
     "symbol": "OSMO"
   },
   "cex_small_cap:zzz-2": {
@@ -239,25 +239,10 @@
     "last_score": 68.1,
     "symbol": "RAD"
   },
-  "cex_small_cap:rivalz-network": {
-    "last_alert_ts": 1792178194.3271878,
-    "last_score": 68.8,
-    "symbol": "RIZ"
-  },
   "cex_small_cap:aria-ai": {
     "last_alert_ts": 1792393393.572876,
     "last_score": 76.2,
     "symbol": "ARIA"
-  },
-  "cex_small_cap:omron": {
-    "last_alert_ts": 1792184594.0665429,
-    "last_score": 66.2,
-    "symbol": "SN2"
-  },
-  "cex_small_cap:rarible": {
-    "last_alert_ts": 1792184594.0665429,
-    "last_score": 61.3,
-    "symbol": "RARI"
   },
   "dex_micro_cap:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
     "last_alert_ts": 1792189730.7522676,
@@ -625,8 +610,8 @@
     "symbol": "startupSI"
   },
   "dex_micro_cap:FGkCj28xhabWTYg9QyzACvs4NsN6LUyesP6EwiHepump": {
-    "last_alert_ts": 1792400605.7136018,
-    "last_score": 86.7,
+    "last_alert_ts": 1792443807.2059453,
+    "last_score": 65.2,
     "symbol": "UHI"
   },
   "cex_small_cap:baton-3": {
@@ -718,5 +703,30 @@
     "last_alert_ts": 1792436617.9967175,
     "last_score": 55.3,
     "symbol": "Satoshi"
+  },
+  "cex_small_cap:wojak-7": {
+    "last_alert_ts": 1792443807.2059453,
+    "last_score": 72.6,
+    "symbol": "WOJAK"
+  },
+  "cex_small_cap:agent-wormhole": {
+    "last_alert_ts": 1792443807.2059453,
+    "last_score": 70.8,
+    "symbol": "WORM"
+  },
+  "dex_micro_cap:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": {
+    "last_alert_ts": 1792443807.2059453,
+    "last_score": 66.1,
+    "symbol": "COMPUTE"
+  },
+  "cex_small_cap:asteroid-2": {
+    "last_alert_ts": 1792443807.2059453,
+    "last_score": 65.1,
+    "symbol": "ASTEROID"
+  },
+  "cex_small_cap:tradr-2x-long-sndk-etf-bstocks-tokenized-stock": {
+    "last_alert_ts": 1792443807.2059453,
+    "last_score": 59.7,
+    "symbol": "SNXXB"
   }
 }
