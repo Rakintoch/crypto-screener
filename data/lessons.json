@@ -8599,5 +8599,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "ARIA (cex_small_cap) lost -8.6% in 363 min (slow (>6h)) — stop-loss hit. Entry score: 96 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792403424.1048756,
+    "symbol": "UHI",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/3ENsvQnHuHtQzMBxpDG4pkxwbBnzJvFcz2yyCfxC9QNH",
+    "held_minutes": 15.6,
+    "exit_reason": "stop-loss hit (-24.2%)",
+    "pnl_pct": -24.18,
+    "pnl_eur": -2.84,
+    "entry_score": 74.6,
+    "entry_liquidity_usd": 108573.9237,
+    "entry_volume_24h_usd": 4183218.37968355,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 12.7,
+    "entry_chg_24h": 2738.589,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 951.976,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 38.528757524156326,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 526.54518825,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "UHI (dex_micro_cap) lost -24.2% in 16 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $108,574. Entry score: 75 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
