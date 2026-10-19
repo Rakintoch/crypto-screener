@@ -15,8 +15,8 @@
       "entry_price_eur": 0.23498018549956887,
       "entry_ts": 1792331168.720713,
       "cost_eur": 14.495961902946195,
-      "last_price_eur": 0.2828365063165557,
-      "last_score": 86.9,
+      "last_price_eur": 0.27830209503375586,
+      "last_score": 86.8,
       "missed_updates": 0,
       "entry_market_cap": 23224136,
       "entry_venue": "Upbit",
@@ -55,7 +55,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 27779137,
+      "last_market_cap": 27297029,
       "trailing_active": true,
       "trailing_peak_eur": 0.2844729885130461
     },
@@ -69,8 +69,8 @@
       "entry_price_eur": 0.0007140402879913272,
       "entry_ts": 1792353755.0663216,
       "cost_eur": 14.056396842662254,
-      "last_price_eur": 0.0007797652832983118,
-      "last_score": 63.3,
+      "last_price_eur": 0.0007894942622570782,
+      "last_score": 64.4,
       "missed_updates": 0,
       "entry_market_cap": 71999951,
       "entry_venue": "Binance",
@@ -111,7 +111,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 78589969
+      "last_market_cap": 79652258
     },
     "cex_small_cap:osmosis": {
       "tier": "cex_small_cap",
@@ -123,7 +123,7 @@
       "entry_price_eur": 0.0479314798186869,
       "entry_ts": 1792402485.8461742,
       "cost_eur": 14.67760407479448,
-      "last_price_eur": 0.05141720700517342,
+      "last_price_eur": 0.051350668904521585,
       "last_score": 87.9,
       "missed_updates": 0,
       "entry_market_cap": 40270359,
@@ -159,7 +159,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 43216388
+      "last_market_cap": 43164940
     }
   },
   "closed_trades": [
@@ -3905,8 +3905,8 @@
       "pnl_pct": -24.175213151864472
     }
   ],
-  "last_run_ts": 1792416640.5319633,
-  "last_eur_rate": 0.8908040021686316,
+  "last_run_ts": 1792416919.1267128,
+  "last_eur_rate": 0.8908859976495764,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
