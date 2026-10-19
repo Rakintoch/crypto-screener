@@ -2153,5 +2153,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "PIERRE (dex_micro_cap) gained +39.6% in 298 min — trailing stop caught extra upside after the target. Entry liquidity: $107,043. Entry score: 73. Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1792421124.619612,
+    "symbol": "GTC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/gitcoin",
+    "held_minutes": 1499.3,
+    "exit_reason": "trailing stop hit — dropped 5.1% from the peak (peak +22.4% since entry)",
+    "pnl_pct": 16.16,
+    "pnl_eur": 2.34,
+    "entry_score": 77.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 27612916,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 2.9898,
+    "entry_chg_24h": 8.69533,
+    "entry_chg_7d": 44.5597,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.1889749526096471,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "GTC (cex_small_cap) gained +16.2% in 1499 min — trailing stop caught extra upside after the target. Entry score: 77. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
