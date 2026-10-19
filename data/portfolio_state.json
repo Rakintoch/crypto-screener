@@ -15,8 +15,8 @@
       "entry_price_eur": 0.23498018549956887,
       "entry_ts": 1792331168.720713,
       "cost_eur": 14.495961902946195,
-      "last_price_eur": 0.2544630563111311,
-      "last_score": 72.7,
+      "last_price_eur": 0.25278260084685966,
+      "last_score": 73.1,
       "missed_updates": 0,
       "entry_market_cap": 23224136,
       "entry_venue": "Upbit",
@@ -55,7 +55,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 24954462
+      "last_market_cap": 24806467
     },
     "cex_small_cap:amp-token": {
       "tier": "cex_small_cap",
@@ -67,8 +67,8 @@
       "entry_price_eur": 0.0007140402879913272,
       "entry_ts": 1792353755.0663216,
       "cost_eur": 14.056396842662254,
-      "last_price_eur": 0.0008062139351545121,
-      "last_score": 78.3,
+      "last_price_eur": 0.0007987009479638573,
+      "last_score": 76.9,
       "missed_updates": 0,
       "entry_market_cap": 71999951,
       "entry_venue": "Binance",
@@ -109,7 +109,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 81211856
+      "last_market_cap": 80413386
     },
     "cex_small_cap:osmosis": {
       "tier": "cex_small_cap",
@@ -121,8 +121,8 @@
       "entry_price_eur": 0.0479314798186869,
       "entry_ts": 1792402485.8461742,
       "cost_eur": 14.67760407479448,
-      "last_price_eur": 0.05257347174672321,
-      "last_score": 88.0,
+      "last_price_eur": 0.05433758832203161,
+      "last_score": 88.6,
       "missed_updates": 0,
       "entry_market_cap": 40270359,
       "entry_venue": "Osmosis",
@@ -157,7 +157,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 44169115
+      "last_market_cap": 45609915
     }
   },
   "closed_trades": [
@@ -3903,8 +3903,8 @@
       "pnl_pct": -24.175213151864472
     }
   ],
-  "last_run_ts": 1792407651.6595085,
-  "last_eur_rate": 0.891513994111058,
+  "last_run_ts": 1792407920.2098184,
+  "last_eur_rate": 0.8914670044465671,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
