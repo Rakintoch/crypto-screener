@@ -1,7 +1,7 @@
 {
   "cex_small_cap:gitcoin": {
-    "last_alert_ts": 1792436617.9967175,
-    "last_score": 62.1,
+    "last_alert_ts": 1792447162.279483,
+    "last_score": 77.9,
     "symbol": "GTC"
   },
   "cex_small_cap:priors-agent": {
@@ -50,8 +50,8 @@
     "symbol": "ZZZ"
   },
   "cex_small_cap:puffer-finance": {
-    "last_alert_ts": 1792364636.5547566,
-    "last_score": 57.1,
+    "last_alert_ts": 1792447162.279483,
+    "last_score": 58.7,
     "symbol": "PUFFER"
   },
   "cex_small_cap:bordrless": {
@@ -110,8 +110,8 @@
     "symbol": "ZEREBRO"
   },
   "cex_small_cap:ubik": {
-    "last_alert_ts": 1792371800.6395807,
-    "last_score": 59.9,
+    "last_alert_ts": 1792447162.279483,
+    "last_score": 68.1,
     "symbol": "UBIK"
   },
   "cex_small_cap:burnie-senders": {
@@ -728,5 +728,10 @@
     "last_alert_ts": 1792443807.2059453,
     "last_score": 59.7,
     "symbol": "SNXXB"
+  },
+  "cex_small_cap:sportstensor": {
+    "last_alert_ts": 1792447162.279483,
+    "last_score": 65.6,
+    "symbol": "SN41"
   }
 }
