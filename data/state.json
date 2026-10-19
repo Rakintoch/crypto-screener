@@ -134,20 +134,10 @@
     "last_score": 62.6,
     "symbol": "KORUB"
   },
-  "cex_small_cap:up-2": {
-    "last_alert_ts": 1792155795.709901,
-    "last_score": 75.3,
-    "symbol": "UP"
-  },
   "dex_micro_cap:HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": {
     "last_alert_ts": 1792362287.8741436,
     "last_score": 90.7,
     "symbol": "SI276"
-  },
-  "cex_small_cap:what-the-hook": {
-    "last_alert_ts": 1792155795.709901,
-    "last_score": 76.2,
-    "symbol": "WTH"
   },
   "cex_small_cap:zerebro": {
     "last_alert_ts": 1792393393.572876,
@@ -234,11 +224,6 @@
     "last_score": 57.2,
     "symbol": "CENT"
   },
-  "cex_small_cap:marlin": {
-    "last_alert_ts": 1792155795.709901,
-    "last_score": 78.5,
-    "symbol": "POND"
-  },
   "cex_small_cap:taonado": {
     "last_alert_ts": 1792256601.1199725,
     "last_score": 75.6,
@@ -295,8 +280,8 @@
     "symbol": "ALIGN"
   },
   "cex_small_cap:solv-protocol": {
-    "last_alert_ts": 1792364636.5547566,
-    "last_score": 58.8,
+    "last_alert_ts": 1792415003.287522,
+    "last_score": 60.2,
     "symbol": "SOLV"
   },
   "cex_small_cap:goldstein": {
@@ -308,16 +293,6 @@
     "last_alert_ts": 1792161068.6079128,
     "last_score": 77.4,
     "symbol": "OVPP"
-  },
-  "dex_micro_cap:D61pTaTqR93axxVvu7AX5TW6c3a4vhffPPMfCnsYpump": {
-    "last_alert_ts": 1792155795.709901,
-    "last_score": 82.8,
-    "symbol": "OWLDACITY"
-  },
-  "cex_small_cap:synapse-2": {
-    "last_alert_ts": 1792155795.709901,
-    "last_score": 55.6,
-    "symbol": "SYN"
   },
   "cex_small_cap:hoodpork": {
     "last_alert_ts": 1792213404.3982239,
@@ -610,8 +585,8 @@
     "symbol": "BUN"
   },
   "dex_micro_cap:55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump": {
-    "last_alert_ts": 1792350184.383871,
-    "last_score": 61.6,
+    "last_alert_ts": 1792415003.287522,
+    "last_score": 59.2,
     "symbol": "Gato"
   },
   "dex_micro_cap:FeSqDFg1vMsB7dsWXE3UWURwUVksJArWWWynnhgiaaQ6": {
@@ -710,8 +685,8 @@
     "symbol": "QKC"
   },
   "cex_small_cap:torch": {
-    "last_alert_ts": 1792400605.7136018,
-    "last_score": 57.0,
+    "last_alert_ts": 1792415003.287522,
+    "last_score": 83.8,
     "symbol": "TORCH"
   },
   "cex_small_cap:moonbeam": {
@@ -775,8 +750,8 @@
     "symbol": "UHI"
   },
   "cex_small_cap:baton-3": {
-    "last_alert_ts": 1792400605.7136018,
-    "last_score": 56.8,
+    "last_alert_ts": 1792415003.287522,
+    "last_score": 71.9,
     "symbol": "BATON"
   },
   "cex_small_cap:apriori": {
@@ -798,5 +773,25 @@
     "last_alert_ts": 1792407807.6075222,
     "last_score": 64.8,
     "symbol": "CBUCKS"
+  },
+  "cex_small_cap:nillion": {
+    "last_alert_ts": 1792415003.287522,
+    "last_score": 64.2,
+    "symbol": "NIL"
+  },
+  "dex_micro_cap:6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump": {
+    "last_alert_ts": 1792415003.287522,
+    "last_score": 64.2,
+    "symbol": "CATONICE"
+  },
+  "cex_small_cap:katana-network-token": {
+    "last_alert_ts": 1792415003.287522,
+    "last_score": 60.0,
+    "symbol": "KAT"
+  },
+  "cex_small_cap:startupsi": {
+    "last_alert_ts": 1792415003.287522,
+    "last_score": 55.0,
+    "symbol": "STARTUPSI"
   }
 }
