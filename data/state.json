@@ -49,19 +49,14 @@
     "last_score": 58.9,
     "symbol": "BEM"
   },
-  "cex_small_cap:canopy": {
-    "last_alert_ts": 1792134206.2292342,
-    "last_score": 59.4,
-    "symbol": "CNPY"
-  },
   "dex_micro_cap:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": {
     "last_alert_ts": 1792278203.8561077,
     "last_score": 68.2,
     "symbol": "DOPE"
   },
   "cex_small_cap:osmosis": {
-    "last_alert_ts": 1792312349.83428,
-    "last_score": 75.7,
+    "last_alert_ts": 1792400605.7136018,
+    "last_score": 76.9,
     "symbol": "OSMO"
   },
   "cex_small_cap:zzz-2": {
@@ -269,11 +264,6 @@
     "last_score": 78.5,
     "symbol": "POND"
   },
-  "cex_small_cap:baton-3": {
-    "last_alert_ts": 1792134206.2292342,
-    "last_score": 55.8,
-    "symbol": "BATON"
-  },
   "cex_small_cap:taonado": {
     "last_alert_ts": 1792256601.1199725,
     "last_score": 75.6,
@@ -298,11 +288,6 @@
     "last_alert_ts": 1792148601.6431563,
     "last_score": 65.7,
     "symbol": "INIT"
-  },
-  "cex_small_cap:ignition-2": {
-    "last_alert_ts": 1792134206.2292342,
-    "last_score": 79.8,
-    "symbol": "IGNITION"
   },
   "cex_small_cap:usa-rare-earth-bstocks-tokenized-stock": {
     "last_alert_ts": 1792148601.6431563,
@@ -339,20 +324,10 @@
     "last_score": 58.7,
     "symbol": "ORBIO"
   },
-  "cex_small_cap:marscoin-4": {
-    "last_alert_ts": 1792134206.2292342,
-    "last_score": 59.1,
-    "symbol": "MARSCOIN"
-  },
   "cex_small_cap:aligned": {
     "last_alert_ts": 1792213404.3982239,
     "last_score": 57.1,
     "symbol": "ALIGN"
-  },
-  "cex_small_cap:lock-in": {
-    "last_alert_ts": 1792140275.7776868,
-    "last_score": 72.1,
-    "symbol": "LOCKIN"
   },
   "cex_small_cap:solv-protocol": {
     "last_alert_ts": 1792364636.5547566,
@@ -785,8 +760,8 @@
     "symbol": "QKC"
   },
   "cex_small_cap:torch": {
-    "last_alert_ts": 1792343003.041234,
-    "last_score": 67.2,
+    "last_alert_ts": 1792400605.7136018,
+    "last_score": 57.0,
     "symbol": "TORCH"
   },
   "cex_small_cap:moonbeam": {
@@ -843,5 +818,15 @@
     "last_alert_ts": 1792393393.572876,
     "last_score": 97.3,
     "symbol": "startupSI"
+  },
+  "dex_micro_cap:FGkCj28xhabWTYg9QyzACvs4NsN6LUyesP6EwiHepump": {
+    "last_alert_ts": 1792400605.7136018,
+    "last_score": 86.7,
+    "symbol": "UHI"
+  },
+  "cex_small_cap:baton-3": {
+    "last_alert_ts": 1792400605.7136018,
+    "last_score": 56.8,
+    "symbol": "BATON"
   }
 }
