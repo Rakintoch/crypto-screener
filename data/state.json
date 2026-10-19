@@ -164,11 +164,6 @@
     "last_score": 71.0,
     "symbol": "ELSA"
   },
-  "cex_small_cap:artificial-inu-3": {
-    "last_alert_ts": 1792119402.478334,
-    "last_score": 57.6,
-    "symbol": "AI"
-  },
   "cex_small_cap:south-korea-bull-3x-etf-bstocks-tokenized-stock": {
     "last_alert_ts": 1792362287.8741436,
     "last_score": 60.4,
@@ -258,11 +253,6 @@
     "last_alert_ts": 1792235012.942286,
     "last_score": 75.3,
     "symbol": "SIREN"
-  },
-  "dex_micro_cap:2ay4jNY3JxfuXJzhZ8DrAKkGzpirgD7Dv2ccL9zmpump": {
-    "last_alert_ts": 1792119402.478334,
-    "last_score": 86.7,
-    "symbol": "Nihilism"
   },
   "cex_small_cap:super-inu-2": {
     "last_alert_ts": 1792224926.1883097,
@@ -363,11 +353,6 @@
     "last_alert_ts": 1792170203.6293397,
     "last_score": 75.6,
     "symbol": "1"
-  },
-  "cex_small_cap:milk-alliance": {
-    "last_alert_ts": 1792119402.478334,
-    "last_score": 76.6,
-    "symbol": "MLK"
   },
   "cex_small_cap:forta": {
     "last_alert_ts": 1792271001.0773337,
@@ -830,8 +815,8 @@
     "symbol": "TSI"
   },
   "dex_micro_cap:3ZAnpeVBHAvZsySNMXp4g9nYaE1jsx6khgh29VYKpump": {
-    "last_alert_ts": 1792331168.2183003,
-    "last_score": 63.3,
+    "last_alert_ts": 1792378948.5260913,
+    "last_score": 64.0,
     "symbol": "SUPERCORE"
   },
   "cex_small_cap:agenc": {
@@ -903,5 +888,10 @@
     "last_alert_ts": 1792371800.6395807,
     "last_score": 81.2,
     "symbol": "COVENANT"
+  },
+  "dex_micro_cap:D3S6J9s1byrNBt3ZKwEDiPsNRqHtoEP8zQKdhyBdpump": {
+    "last_alert_ts": 1792378948.5260913,
+    "last_score": 72.9,
+    "symbol": "PIERRE"
   }
 }
