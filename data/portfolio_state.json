@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 39.46146700877004,
+  "cash_eur": 48.40918031831599,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:amp-token": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0007140402879913272,
       "entry_ts": 1792353755.0663216,
       "cost_eur": 14.056396842662254,
-      "last_price_eur": 0.0007476660664667077,
-      "last_score": 56.8,
+      "last_price_eur": 0.0007405797241610946,
+      "last_score": 54.8,
       "missed_updates": 0,
       "entry_market_cap": 71999951,
       "entry_venue": "Binance",
@@ -57,7 +57,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 75199079
+      "last_market_cap": 74722825
     },
     "cex_small_cap:osmosis": {
       "tier": "cex_small_cap",
@@ -69,8 +69,8 @@
       "entry_price_eur": 0.0479314798186869,
       "entry_ts": 1792402485.8461742,
       "cost_eur": 14.67760407479448,
-      "last_price_eur": 0.05087783584405921,
-      "last_score": 68.7,
+      "last_price_eur": 0.05053620473245579,
+      "last_score": 68.6,
       "missed_updates": 0,
       "entry_market_cap": 40270359,
       "entry_venue": "Osmosis",
@@ -105,7 +105,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 42694244
+      "last_market_cap": 42404660
     },
     "cex_small_cap:concierge-io": {
       "tier": "cex_small_cap",
@@ -117,8 +117,8 @@
       "entry_price_eur": 0.39130005939431217,
       "entry_ts": 1792428489.0532444,
       "cost_eur": 14.399644055973658,
-      "last_price_eur": 0.3875751432076826,
-      "last_score": 94.7,
+      "last_price_eur": 0.3860492501610958,
+      "last_score": 93.9,
       "missed_updates": 0,
       "entry_market_cap": 30777461,
       "entry_venue": "Binance",
@@ -148,41 +148,7 @@
           "source": "Investing.com"
         }
       ],
-      "last_market_cap": 30482050
-    },
-    "dex_micro_cap:FGkCj28xhabWTYg9QyzACvs4NsN6LUyesP6EwiHepump": {
-      "tier": "dex_micro_cap",
-      "id": "FGkCj28xhabWTYg9QyzACvs4NsN6LUyesP6EwiHepump",
-      "symbol": "UHI",
-      "network": "solana",
-      "url": "https://dexscreener.com/solana/3ENsvQnHuHtQzMBxpDG4pkxwbBnzJvFcz2yyCfxC9QNH",
-      "qty": 11656.977288273514,
-      "entry_price_eur": 0.0009882249025540552,
-      "entry_ts": 1792428489.0532444,
-      "cost_eur": 11.519715244778927,
-      "last_price_eur": 0.0008172286396471537,
-      "last_score": 44.5,
-      "missed_updates": 0,
-      "entry_market_cap": 1111509.26929085,
-      "entry_venue": null,
-      "entry_contract_address": null,
-      "entry_score": 75.0,
-      "entry_liquidity_usd": 109657.7728,
-      "entry_volume_24h_usd": 5595958.9861127,
-      "entry_security_notes": "no obvious red flags",
-      "entry_chg_1h": 26.14,
-      "entry_chg_24h": 2619.068,
-      "entry_chg_7d": null,
-      "entry_chg_6h": 20.038,
-      "entry_turnover": null,
-      "entry_vol_liq_ratio": 51.0311202136024,
-      "entry_boosted": false,
-      "entry_pool_age_minutes": 959.91681465,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": null,
-      "entry_catalyst_score": null,
-      "entry_catalyst_headlines": null,
-      "last_market_cap": 879886.0
+      "last_market_cap": 30444739
     }
   },
   "closed_trades": [
@@ -3986,10 +3952,50 @@
       "proceeds_eur": 16.839220583248245,
       "pnl_eur": 2.34325868030205,
       "pnl_pct": 16.1649064476763
+    },
+    {
+      "tier": "dex_micro_cap",
+      "id": "FGkCj28xhabWTYg9QyzACvs4NsN6LUyesP6EwiHepump",
+      "symbol": "UHI",
+      "network": "solana",
+      "url": "https://dexscreener.com/solana/3ENsvQnHuHtQzMBxpDG4pkxwbBnzJvFcz2yyCfxC9QNH",
+      "qty": 11656.977288273514,
+      "entry_price_eur": 0.0009882249025540552,
+      "entry_ts": 1792428489.0532444,
+      "cost_eur": 11.519715244778927,
+      "last_price_eur": 0.0007675843478349244,
+      "last_score": 41.5,
+      "missed_updates": 0,
+      "entry_market_cap": 1111509.26929085,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 75.0,
+      "entry_liquidity_usd": 109657.7728,
+      "entry_volume_24h_usd": 5595958.9861127,
+      "entry_security_notes": "no obvious red flags",
+      "entry_chg_1h": 26.14,
+      "entry_chg_24h": 2619.068,
+      "entry_chg_7d": null,
+      "entry_chg_6h": 20.038,
+      "entry_turnover": null,
+      "entry_vol_liq_ratio": 51.0311202136024,
+      "entry_boosted": false,
+      "entry_pool_age_minutes": 959.91681465,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": null,
+      "entry_catalyst_score": null,
+      "entry_catalyst_headlines": null,
+      "last_market_cap": 826502.0,
+      "exit_price_eur": 0.0007675843478349244,
+      "exit_ts": 1792430723.601391,
+      "exit_reason": "stop-loss hit (-22.3%)",
+      "proceeds_eur": 8.94771330954595,
+      "pnl_eur": -2.5720019352329775,
+      "pnl_pct": -22.326957573006712
     }
   ],
-  "last_run_ts": 1792430423.7783897,
-  "last_eur_rate": 0.8921710039816089,
+  "last_run_ts": 1792430723.601391,
+  "last_eur_rate": 0.8921249974836406,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
