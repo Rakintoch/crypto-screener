@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0007140402879913272,
       "entry_ts": 1792353755.0663216,
       "cost_eur": 14.056396842662254,
-      "last_price_eur": 0.0007257504065865466,
-      "last_score": 54.1,
+      "last_price_eur": 0.0007134828677201846,
+      "last_score": 52.0,
       "missed_updates": 0,
       "entry_market_cap": 71999951,
       "entry_venue": "Binance",
@@ -57,7 +57,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 73086136
+      "last_market_cap": 71925579
     },
     "cex_small_cap:osmosis": {
       "tier": "cex_small_cap",
@@ -69,7 +69,7 @@
       "entry_price_eur": 0.0479314798186869,
       "entry_ts": 1792402485.8461742,
       "cost_eur": 14.67760407479448,
-      "last_price_eur": 0.05046744601911509,
+      "last_price_eur": 0.05040950339718443,
       "last_score": 63.6,
       "missed_updates": 0,
       "entry_market_cap": 40270359,
@@ -105,7 +105,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 42087527
+      "last_market_cap": 42323739
     },
     "cex_small_cap:concierge-io": {
       "tier": "cex_small_cap",
@@ -117,8 +117,8 @@
       "entry_price_eur": 0.39130005939431217,
       "entry_ts": 1792428489.0532444,
       "cost_eur": 14.399644055973658,
-      "last_price_eur": 0.3803435378332112,
-      "last_score": 71.5,
+      "last_price_eur": 0.37452856424942166,
+      "last_score": 71.1,
       "missed_updates": 0,
       "entry_market_cap": 30777461,
       "entry_venue": "Binance",
@@ -148,7 +148,7 @@
           "source": "Investing.com"
         }
       ],
-      "last_market_cap": 29955609
+      "last_market_cap": 29621940
     }
   },
   "closed_trades": [
@@ -3994,8 +3994,8 @@
       "pnl_pct": -22.326957573006712
     }
   ],
-  "last_run_ts": 1792434320.088286,
-  "last_eur_rate": 0.8916509897370157,
+  "last_run_ts": 1792434643.071431,
+  "last_eur_rate": 0.8918089942005207,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
