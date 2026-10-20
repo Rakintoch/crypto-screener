@@ -15,8 +15,8 @@
       "entry_price_eur": 0.06796684117474101,
       "entry_ts": 1792501381.4227936,
       "cost_eur": 12.918360405413706,
-      "last_price_eur": 0.06794032575942212,
-      "last_score": 89.2,
+      "last_price_eur": 0.068088039738355,
+      "last_score": 88.9,
       "missed_updates": 0,
       "entry_market_cap": 36013539,
       "entry_venue": "Upbit",
@@ -55,7 +55,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 36116127
+      "last_market_cap": 36164179
     },
     "cex_small_cap:claudia-5": {
       "tier": "cex_small_cap",
@@ -67,8 +67,8 @@
       "entry_price_eur": 0.014444245454567238,
       "entry_ts": 1792501381.4227936,
       "cost_eur": 12.918360405413702,
-      "last_price_eur": 0.0179400656174158,
-      "last_score": 74.6,
+      "last_price_eur": 0.01792487886929661,
+      "last_score": 74.5,
       "missed_updates": 0,
       "entry_market_cap": 16214350,
       "entry_venue": null,
@@ -89,7 +89,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 20196318,
+      "last_market_cap": 20166529,
       "trailing_active": true,
       "trailing_peak_eur": 0.0179400656174158
     }
@@ -4355,8 +4355,8 @@
       "pnl_pct": -8.916847681541043
     }
   ],
-  "last_run_ts": 1792506919.8963144,
-  "last_eur_rate": 0.8882830065950464,
+  "last_run_ts": 1792507226.236637,
+  "last_eur_rate": 0.8888429922895318,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
