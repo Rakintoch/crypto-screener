@@ -650,8 +650,8 @@
     "symbol": "TSLAB"
   },
   "cex_small_cap:citrea": {
-    "last_alert_ts": 1792428488.5049415,
-    "last_score": 63.5,
+    "last_alert_ts": 1792458171.3062763,
+    "last_score": 82.1,
     "symbol": "CTR"
   },
   "cex_small_cap:sandisk-bstocks-tokenized-stock": {
@@ -713,5 +713,15 @@
     "last_alert_ts": 1792450976.4166796,
     "last_score": 81.7,
     "symbol": "HEU"
+  },
+  "cex_small_cap:arcstocks": {
+    "last_alert_ts": 1792458171.3062763,
+    "last_score": 55.6,
+    "symbol": "ASTOCK"
+  },
+  "cex_small_cap:moonwell-artemis": {
+    "last_alert_ts": 1792458171.3062763,
+    "last_score": 55.5,
+    "symbol": "WELL"
   }
 }
