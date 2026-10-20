@@ -15,7 +15,7 @@
       "entry_price_eur": 0.06796684117474101,
       "entry_ts": 1792501381.4227936,
       "cost_eur": 12.918360405413706,
-      "last_price_eur": 0.06860345986082975,
+      "last_price_eur": 0.06895702310377316,
       "last_score": 69.1,
       "missed_updates": 0,
       "entry_market_cap": 36013539,
@@ -55,7 +55,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 36382546
+      "last_market_cap": 36430182
     },
     "cex_small_cap:claudia-5": {
       "tier": "cex_small_cap",
@@ -67,7 +67,7 @@
       "entry_price_eur": 0.014444245454567238,
       "entry_ts": 1792501381.4227936,
       "cost_eur": 12.918360405413702,
-      "last_price_eur": 0.016902074383603298,
+      "last_price_eur": 0.016713863422244513,
       "last_score": 75.0,
       "missed_updates": 0,
       "entry_market_cap": 16214350,
@@ -89,7 +89,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 18987114
+      "last_market_cap": 18771512
     }
   },
   "closed_trades": [
@@ -4353,8 +4353,8 @@
       "pnl_pct": -8.916847681541043
     }
   ],
-  "last_run_ts": 1792504224.9112976,
-  "last_eur_rate": 0.890191003306643,
+  "last_run_ts": 1792504519.4765136,
+  "last_eur_rate": 0.890239005199824,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
