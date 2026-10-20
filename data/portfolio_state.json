@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0007140402879913272,
       "entry_ts": 1792353755.0663216,
       "cost_eur": 14.056396842662254,
-      "last_price_eur": 0.0007008792864156564,
-      "last_score": 36.3,
+      "last_price_eur": 0.0007005589268020363,
+      "last_score": 37.2,
       "missed_updates": 0,
       "entry_market_cap": 71999951,
       "entry_venue": "Binance",
@@ -57,7 +57,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 70659517
+      "last_market_cap": 70645459
     },
     "cex_small_cap:osmosis": {
       "tier": "cex_small_cap",
@@ -69,8 +69,8 @@
       "entry_price_eur": 0.0479314798186869,
       "entry_ts": 1792402485.8461742,
       "cost_eur": 14.67760407479448,
-      "last_price_eur": 0.04665434235585935,
-      "last_score": 72.7,
+      "last_price_eur": 0.04697254995009052,
+      "last_score": 73.5,
       "missed_updates": 0,
       "entry_market_cap": 40270359,
       "entry_venue": "Osmosis",
@@ -105,7 +105,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 39214078
+      "last_market_cap": 39385383
     }
   },
   "closed_trades": [
@@ -4042,8 +4042,8 @@
       "pnl_pct": 21.300750501405208
     }
   ],
-  "last_run_ts": 1792470020.8257015,
-  "last_eur_rate": 0.8905029939466578,
+  "last_run_ts": 1792470318.0562599,
+  "last_eur_rate": 0.8904579998500601,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
