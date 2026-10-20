@@ -15,8 +15,8 @@
       "entry_price_eur": 0.32435999691980616,
       "entry_ts": 1792479793.4705796,
       "cost_eur": 13.615391838002525,
-      "last_price_eur": 0.3086675383205208,
-      "last_score": 64.1,
+      "last_price_eur": 0.30768382591413423,
+      "last_score": 63.6,
       "missed_updates": 0,
       "entry_market_cap": 31878187,
       "entry_venue": "Upbit",
@@ -50,7 +50,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 30313441
+      "last_market_cap": 30090340
     }
   },
   "closed_trades": [
@@ -4221,8 +4221,8 @@
       "pnl_pct": -1.3181595155404846
     }
   ],
-  "last_run_ts": 1792500694.455555,
-  "last_eur_rate": 0.8907459976293934,
+  "last_run_ts": 1792500919.356791,
+  "last_eur_rate": 0.8908739997455917,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
