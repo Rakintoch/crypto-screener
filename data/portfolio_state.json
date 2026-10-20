@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 61.93515298140588,
+  "cash_eur": 37.42744767300134,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:amp-token": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0007140402879913272,
       "entry_ts": 1792353755.0663216,
       "cost_eur": 14.056396842662254,
-      "last_price_eur": 0.0007270229584458725,
-      "last_score": 36.7,
+      "last_price_eur": 0.0007295804378285938,
+      "last_score": 57.9,
       "missed_updates": 0,
       "entry_market_cap": 71999951,
       "entry_venue": "Binance",
@@ -57,7 +57,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 73152002
+      "last_market_cap": 73648292
     },
     "cex_small_cap:osmosis": {
       "tier": "cex_small_cap",
@@ -69,8 +69,8 @@
       "entry_price_eur": 0.0479314798186869,
       "entry_ts": 1792402485.8461742,
       "cost_eur": 14.67760407479448,
-      "last_price_eur": 0.04723320826037427,
-      "last_score": 69.0,
+      "last_price_eur": 0.04725943475010254,
+      "last_score": 63.8,
       "missed_updates": 0,
       "entry_market_cap": 40270359,
       "entry_venue": "Osmosis",
@@ -105,7 +105,86 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 39718727
+      "last_market_cap": 39731261
+    },
+    "cex_small_cap:gitcoin": {
+      "tier": "cex_small_cap",
+      "id": "gitcoin",
+      "symbol": "GTC",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/gitcoin",
+      "qty": 41.97617451996941,
+      "entry_price_eur": 0.32435999691980616,
+      "entry_ts": 1792479793.4705796,
+      "cost_eur": 13.615391838002525,
+      "last_price_eur": 0.32435999691980616,
+      "last_score": 93.0,
+      "missed_updates": 0,
+      "entry_market_cap": 31878187,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f (ETH)",
+      "entry_score": 93.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 148423328,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 4.5179,
+      "entry_chg_24h": 24.68373,
+      "entry_chg_7d": 41.529,
+      "entry_chg_6h": null,
+      "entry_turnover": 4.655952611106773,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Upbit Listing Announcement Sends Gitcoin Soaring Over 100% on KRW and USDT Market Additions - BigGo Finance",
+          "ts": 1791801300.0,
+          "source": "BigGo Finance"
+        },
+        {
+          "title": "Gitcoin Jumps 100%, Tops $0.38 After Upbit Announces KRW and USDT Market Listing - bloomingbit",
+          "ts": 1791799857.0,
+          "source": "bloomingbit"
+        }
+      ]
+    },
+    "dex_micro_cap:8CYyivwMZPg6Edaofxo3eHiveZkDrU6TtUDwtMjTpump": {
+      "tier": "dex_micro_cap",
+      "id": "8CYyivwMZPg6Edaofxo3eHiveZkDrU6TtUDwtMjTpump",
+      "symbol": "Mimi",
+      "network": "solana",
+      "url": "https://dexscreener.com/solana/HaEwLk7YSUN3TSyiT87Zzwq1JDpGvP2mvFfpBdE8Seit",
+      "qty": 247077.6100254064,
+      "entry_price_eur": 4.408458325819967e-05,
+      "entry_ts": 1792479793.4705796,
+      "cost_eur": 10.89231347040202,
+      "last_price_eur": 4.408458325819967e-05,
+      "last_score": 90.1,
+      "missed_updates": 0,
+      "entry_market_cap": 49972.3276067571,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 90.1,
+      "entry_liquidity_usd": 19856.5791,
+      "entry_volume_24h_usd": 3033530.17614537,
+      "entry_security_notes": "no obvious red flags",
+      "entry_chg_1h": 48.702,
+      "entry_chg_24h": 28.93,
+      "entry_chg_7d": null,
+      "entry_chg_6h": 15.902,
+      "entry_turnover": null,
+      "entry_vol_liq_ratio": 152.77204400960335,
+      "entry_boosted": true,
+      "entry_pool_age_minutes": 1331.0737861666667,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": null,
+      "entry_catalyst_score": null,
+      "entry_catalyst_headlines": null
     }
   },
   "closed_trades": [
@@ -4122,8 +4201,8 @@
       "pnl_pct": -8.536802891095693
     }
   ],
-  "last_run_ts": 1792479322.2069666,
-  "last_eur_rate": 0.8904030060205906,
+  "last_run_ts": 1792479793.4705796,
+  "last_eur_rate": 0.8906119921246521,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
