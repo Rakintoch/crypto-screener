@@ -175,8 +175,8 @@
     "symbol": "FTR"
   },
   "cex_small_cap:caldera": {
-    "last_alert_ts": 1792515803.9664829,
-    "last_score": 57.9,
+    "last_alert_ts": 1792536991.0917706,
+    "last_score": 77.2,
     "symbol": "ERA"
   },
   "cex_small_cap:zeus-network": {
@@ -200,8 +200,8 @@
     "symbol": "ALT"
   },
   "cex_small_cap:claus-2": {
-    "last_alert_ts": 1792487000.0702174,
-    "last_score": 62.4,
+    "last_alert_ts": 1792536991.0917706,
+    "last_score": 67.1,
     "symbol": "CLAUS"
   },
   "cex_small_cap:aeon-3": {
@@ -230,8 +230,8 @@
     "symbol": "OGN"
   },
   "cex_small_cap:bundle-cat": {
-    "last_alert_ts": 1792457875.508097,
-    "last_score": 55.6,
+    "last_alert_ts": 1792536991.0917706,
+    "last_score": 59.1,
     "symbol": "BUN"
   },
   "dex_micro_cap:55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump": {
@@ -460,8 +460,8 @@
     "symbol": "TSLAB"
   },
   "cex_small_cap:citrea": {
-    "last_alert_ts": 1792502260.285803,
-    "last_score": 56.8,
+    "last_alert_ts": 1792536991.0917706,
+    "last_score": 72.4,
     "symbol": "CTR"
   },
   "cex_small_cap:sandisk-bstocks-tokenized-stock": {
@@ -595,8 +595,8 @@
     "symbol": "ANTI"
   },
   "cex_small_cap:limitless-3": {
-    "last_alert_ts": 1792487000.0702174,
-    "last_score": 56.6,
+    "last_alert_ts": 1792536991.0917706,
+    "last_score": 85.4,
     "symbol": "LMTS"
   },
   "dex_micro_cap:687h1VDXkAWCKBZqPmefvs4y4k1VtPogoriikhsqpump": {
@@ -778,5 +778,30 @@
     "last_alert_ts": 1792530206.9957304,
     "last_score": 57.1,
     "symbol": "BASED"
+  },
+  "cex_small_cap:tendies-2": {
+    "last_alert_ts": 1792536991.0917706,
+    "last_score": 68.6,
+    "symbol": "TENDIES"
+  },
+  "cex_small_cap:bordrless": {
+    "last_alert_ts": 1792536991.0917706,
+    "last_score": 62.1,
+    "symbol": "BORDR"
+  },
+  "cex_small_cap:incentiv": {
+    "last_alert_ts": 1792536991.0917706,
+    "last_score": 62.0,
+    "symbol": "CENT"
+  },
+  "cex_small_cap:nimiq-2": {
+    "last_alert_ts": 1792536991.0917706,
+    "last_score": 58.2,
+    "symbol": "NIM"
+  },
+  "cex_small_cap:spacex-robinhood-tokenized-stock": {
+    "last_alert_ts": 1792536991.0917706,
+    "last_score": 57.7,
+    "symbol": "SPCX"
   }
 }
