@@ -144,11 +144,6 @@
     "last_score": 56.6,
     "symbol": "SOXLB"
   },
-  "cex_small_cap:incentiv": {
-    "last_alert_ts": 1792242194.5879874,
-    "last_score": 57.2,
-    "symbol": "CENT"
-  },
   "cex_small_cap:taonado": {
     "last_alert_ts": 1792256601.1199725,
     "last_score": 75.6,
@@ -195,8 +190,8 @@
     "symbol": "RAD"
   },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1792393393.572876,
-    "last_score": 76.2,
+    "last_alert_ts": 1792502260.285803,
+    "last_score": 72.0,
     "symbol": "ARIA"
   },
   "cex_small_cap:the-toad-pepe": {
@@ -243,11 +238,6 @@
     "last_alert_ts": 1792243686.6529095,
     "last_score": 79.2,
     "symbol": "Aloooong"
-  },
-  "dex_micro_cap:0x7d03759e5b41e36899833cb2e008455d69a24444": {
-    "last_alert_ts": 1792242194.5879874,
-    "last_score": 57.1,
-    "symbol": "priceless"
   },
   "cex_small_cap:lisk": {
     "last_alert_ts": 1792243686.6529095,
@@ -575,8 +565,8 @@
     "symbol": "TSLAB"
   },
   "cex_small_cap:citrea": {
-    "last_alert_ts": 1792458171.3062763,
-    "last_score": 82.1,
+    "last_alert_ts": 1792502260.285803,
+    "last_score": 56.8,
     "symbol": "CTR"
   },
   "cex_small_cap:sandisk-bstocks-tokenized-stock": {
@@ -738,5 +728,10 @@
     "last_alert_ts": 1792501380.813294,
     "last_score": 72.4,
     "symbol": "BMT"
+  },
+  "cex_small_cap:cea-industries-bstocks-tokenized-stock": {
+    "last_alert_ts": 1792502260.285803,
+    "last_score": 61.9,
+    "symbol": "BNCB"
   }
 }
