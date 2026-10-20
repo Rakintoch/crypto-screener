@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0007140402879913272,
       "entry_ts": 1792353755.0663216,
       "cost_eur": 14.056396842662254,
-      "last_price_eur": 0.0007193631906030895,
-      "last_score": 58.6,
+      "last_price_eur": 0.0007198407425464677,
+      "last_score": 58.3,
       "missed_updates": 0,
       "entry_market_cap": 71999951,
       "entry_venue": "Binance",
@@ -57,7 +57,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 72545116
+      "last_market_cap": 72751747
     },
     "cex_small_cap:osmosis": {
       "tier": "cex_small_cap",
@@ -69,8 +69,8 @@
       "entry_price_eur": 0.0479314798186869,
       "entry_ts": 1792402485.8461742,
       "cost_eur": 14.67760407479448,
-      "last_price_eur": 0.046380803493196635,
-      "last_score": 61.0,
+      "last_price_eur": 0.04616221920942044,
+      "last_score": 60.3,
       "missed_updates": 0,
       "entry_market_cap": 40270359,
       "entry_venue": "Osmosis",
@@ -105,7 +105,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 39006992
+      "last_market_cap": 38913117
     },
     "cex_small_cap:gitcoin": {
       "tier": "cex_small_cap",
@@ -117,7 +117,7 @@
       "entry_price_eur": 0.32435999691980616,
       "entry_ts": 1792479793.4705796,
       "cost_eur": 13.615391838002525,
-      "last_price_eur": 0.32700358375697636,
+      "last_price_eur": 0.3218063374730275,
       "last_score": 97.3,
       "missed_updates": 0,
       "entry_market_cap": 31878187,
@@ -152,7 +152,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 32319705
+      "last_market_cap": 31769933
     }
   },
   "closed_trades": [
@@ -4209,8 +4209,8 @@
       "pnl_pct": -21.906562647230494
     }
   ],
-  "last_run_ts": 1792481720.8905933,
-  "last_eur_rate": 0.8903119971820066,
+  "last_run_ts": 1792482021.438876,
+  "last_eur_rate": 0.890285996594481,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
