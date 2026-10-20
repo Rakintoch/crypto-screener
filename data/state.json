@@ -170,8 +170,8 @@
     "symbol": "STBL"
   },
   "cex_small_cap:forta": {
-    "last_alert_ts": 1792436617.9967175,
-    "last_score": 69.2,
+    "last_alert_ts": 1792479983.2498565,
+    "last_score": 60.1,
     "symbol": "FORT"
   },
   "cex_small_cap:termmax": {
@@ -610,8 +610,8 @@
     "symbol": "SNDKB"
   },
   "cex_small_cap:pha": {
-    "last_alert_ts": 1792436617.9967175,
-    "last_score": 83.1,
+    "last_alert_ts": 1792479983.2498565,
+    "last_score": 70.5,
     "symbol": "PHA"
   },
   "dex_micro_cap:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
@@ -713,5 +713,10 @@
     "last_alert_ts": 1792479792.8443213,
     "last_score": 61.0,
     "symbol": "ARC"
+  },
+  "cex_small_cap:levva-protocol": {
+    "last_alert_ts": 1792479983.2498565,
+    "last_score": 70.2,
+    "symbol": "LVVA"
   }
 }
