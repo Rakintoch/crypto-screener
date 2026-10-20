@@ -2205,5 +2205,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "TORCH (cex_small_cap) gained +21.3% in 322 min — trailing stop caught extra upside after the target. Entry score: 80. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792511424.9260874,
+    "symbol": "CLAUDIA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/claudia-5",
+    "held_minutes": 167.4,
+    "exit_reason": "trailing stop hit — dropped 5.8% from the peak (peak +24.2% since entry)",
+    "pnl_pct": 17.01,
+    "pnl_eur": 2.2,
+    "entry_score": 75.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 8424127,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 42.2697,
+    "entry_chg_24h": 107.13635,
+    "entry_chg_7d": null,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.5195476229389399,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "CLAUDIA (cex_small_cap) gained +17.0% in 167 min — trailing stop caught extra upside after the target. Entry score: 75. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
