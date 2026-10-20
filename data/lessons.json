@@ -8761,5 +8761,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "Mimi (dex_micro_cap) lost -21.9% in 27 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $19,857. Entry score: 90 (minimum required to buy: 65). Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1792484423.0868595,
+    "symbol": "OSMO",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/osmosis",
+    "held_minutes": 1365.6,
+    "exit_reason": "stop-loss hit (-8.3%)",
+    "pnl_pct": -8.3,
+    "pnl_eur": -1.22,
+    "entry_score": 82.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 17934020,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 8.6908,
+    "entry_chg_24h": 16.52284,
+    "entry_chg_7d": 42.8126,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.4453404549981787,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "OSMO (cex_small_cap) lost -8.3% in 1366 min (slow (>6h)) — stop-loss hit. Entry score: 82 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
