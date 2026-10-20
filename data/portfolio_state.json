@@ -2,63 +2,9 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 59.39295221616246,
+  "cash_eur": 73.26406332630103,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
-    "cex_small_cap:amp-token": {
-      "tier": "cex_small_cap",
-      "id": "amp-token",
-      "symbol": "AMP",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/amp-token",
-      "qty": 19685.719530202456,
-      "entry_price_eur": 0.0007140402879913272,
-      "entry_ts": 1792353755.0663216,
-      "cost_eur": 14.056396842662254,
-      "last_price_eur": 0.0007059751776261139,
-      "last_score": 33.3,
-      "missed_updates": 0,
-      "entry_market_cap": 71999951,
-      "entry_venue": "Binance",
-      "entry_contract_address": null,
-      "entry_score": 73.6,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 29749561,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 4.9529,
-      "entry_chg_24h": 13.66976,
-      "entry_chg_7d": 24.2145,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.4131886284200388,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "listing",
-        "supply_cut",
-        "upgrade"
-      ],
-      "entry_catalyst_score": 1.0,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Atlassian (TEAM) Stock May Look Fully Priced Following Its AMP AI Launch - Yahoo Finance",
-          "ts": 1792257126.0,
-          "source": "Yahoo Finance"
-        },
-        {
-          "title": "AMP Has Delivered A$75 Million of A$150 Million On-Market Share Buyback - Moomoo",
-          "ts": 1792018449.0,
-          "source": "Moomoo"
-        },
-        {
-          "title": "The results are in: The Leap by AMP Futures - TradingView",
-          "ts": 1791834632.0,
-          "source": "TradingView"
-        }
-      ],
-      "last_market_cap": 71022953
-    },
     "cex_small_cap:gitcoin": {
       "tier": "cex_small_cap",
       "id": "gitcoin",
@@ -69,8 +15,8 @@
       "entry_price_eur": 0.32435999691980616,
       "entry_ts": 1792479793.4705796,
       "cost_eur": 13.615391838002525,
-      "last_price_eur": 0.3046492964902989,
-      "last_score": 68.1,
+      "last_price_eur": 0.3081251143452484,
+      "last_score": 71.7,
       "missed_updates": 0,
       "entry_market_cap": 31878187,
       "entry_venue": "Upbit",
@@ -104,7 +50,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 29894042
+      "last_market_cap": 30268440
     }
   },
   "closed_trades": [
@@ -4213,10 +4159,70 @@
       "proceeds_eur": 13.459322546885451,
       "pnl_eur": -1.2182815279090295,
       "pnl_pct": -8.300275179115623
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "amp-token",
+      "symbol": "AMP",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/amp-token",
+      "qty": 19685.719530202456,
+      "entry_price_eur": 0.0007140402879913272,
+      "entry_ts": 1792353755.0663216,
+      "cost_eur": 14.056396842662254,
+      "last_price_eur": 0.0007046280979903768,
+      "last_score": 29.5,
+      "missed_updates": 0,
+      "entry_market_cap": 71999951,
+      "entry_venue": "Binance",
+      "entry_contract_address": null,
+      "entry_score": 73.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 29749561,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 4.9529,
+      "entry_chg_24h": 13.66976,
+      "entry_chg_7d": 24.2145,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.4131886284200388,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing",
+        "supply_cut",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 1.0,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Atlassian (TEAM) Stock May Look Fully Priced Following Its AMP AI Launch - Yahoo Finance",
+          "ts": 1792257126.0,
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "AMP Has Delivered A$75 Million of A$150 Million On-Market Share Buyback - Moomoo",
+          "ts": 1792018449.0,
+          "source": "Moomoo"
+        },
+        {
+          "title": "The results are in: The Leap by AMP Futures - TradingView",
+          "ts": 1791834632.0,
+          "source": "TradingView"
+        }
+      ],
+      "last_market_cap": 70956326,
+      "exit_price_eur": 0.0007046280979903768,
+      "exit_ts": 1792490453.4662426,
+      "exit_reason": "momentum thesis invalidated (score dropped to 30)",
+      "proceeds_eur": 13.87111111013857,
+      "pnl_eur": -0.18528573252368474,
+      "pnl_pct": -1.3181595155404846
     }
   ],
-  "last_run_ts": 1792490121.6266055,
-  "last_eur_rate": 0.891652997911127,
+  "last_run_ts": 1792490453.4662426,
+  "last_eur_rate": 0.891607002480579,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
