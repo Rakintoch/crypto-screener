@@ -8896,5 +8896,35 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "MPLX (cex_small_cap) lost -9.2% in 187 min (fast (1-6h)) — stop-loss hit. Entry score: 78 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792525223.825029,
+    "symbol": "Dacity",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/G2UuRbmVDzDFP4qyoBJrSKBXSi7d6V4bPP9tHPs36y4b",
+    "held_minutes": 81.4,
+    "exit_reason": "stop-loss hit (-100.0%)",
+    "pnl_pct": -99.98,
+    "pnl_eur": -10.43,
+    "entry_score": 82.2,
+    "entry_liquidity_usd": 390116.0208,
+    "entry_volume_24h_usd": 4547616.00690067,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 15.067,
+    "entry_chg_24h": 42.873,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 70.553,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 11.657086006298847,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 13380.78390965,
+    "entry_base_breakout": {
+      "is_breakout": true,
+      "pre_window_move_pct": -16.2
+    },
+    "categoria": "near-total collapse (possible rug/dump)",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "Dacity (dex_micro_cap) lost -100.0% in 81 min (fast (1-6h)) — near-total collapse (possible rug/dump). Entry liquidity: $390,116. Entry score: 82 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
