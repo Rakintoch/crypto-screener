@@ -130,8 +130,8 @@
     "symbol": "ROBINCAT"
   },
   "cex_small_cap:impossible-cloud-network-token": {
-    "last_alert_ts": 1792407807.6075222,
-    "last_score": 61.7,
+    "last_alert_ts": 1792520337.8344455,
+    "last_score": 73.2,
     "symbol": "ICNT"
   },
   "cex_small_cap:super-inu-2": {
@@ -175,8 +175,8 @@
     "symbol": "PORKU"
   },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1792502260.285803,
-    "last_score": 72.0,
+    "last_alert_ts": 1792520337.8344455,
+    "last_score": 91.2,
     "symbol": "ARIA"
   },
   "cex_small_cap:the-toad-pepe": {
@@ -375,8 +375,8 @@
     "symbol": "SUPERCORE"
   },
   "cex_small_cap:agenc": {
-    "last_alert_ts": 1792472572.5567386,
-    "last_score": 66.0,
+    "last_alert_ts": 1792520337.8344455,
+    "last_score": 62.8,
     "symbol": "AGENC"
   },
   "cex_small_cap:collect-on-fanable": {
@@ -615,8 +615,8 @@
     "symbol": "GRIFT"
   },
   "cex_small_cap:grvt": {
-    "last_alert_ts": 1792472572.5567386,
-    "last_score": 78.5,
+    "last_alert_ts": 1792520337.8344455,
+    "last_score": 71.4,
     "symbol": "GRVT"
   },
   "cex_small_cap:lobster-2": {
@@ -808,5 +808,10 @@
     "last_alert_ts": 1792515803.9664829,
     "last_score": 56.0,
     "symbol": "ALTSZN"
+  },
+  "cex_small_cap:astronaut-2": {
+    "last_alert_ts": 1792520337.8344455,
+    "last_score": 99.5,
+    "symbol": "ASTRO"
   }
 }
