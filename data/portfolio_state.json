@@ -2,56 +2,9 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 46.840832191555116,
+  "cash_eur": 59.242160278117986,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
-    "cex_small_cap:gitcoin": {
-      "tier": "cex_small_cap",
-      "id": "gitcoin",
-      "symbol": "GTC",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/gitcoin",
-      "qty": 41.97617451996941,
-      "entry_price_eur": 0.32435999691980616,
-      "entry_ts": 1792479793.4705796,
-      "cost_eur": 13.615391838002525,
-      "last_price_eur": 0.3006570684436701,
-      "last_score": 60.0,
-      "missed_updates": 0,
-      "entry_market_cap": 31878187,
-      "entry_venue": "Upbit",
-      "entry_contract_address": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f (ETH)",
-      "entry_score": 93.0,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 148423328,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 4.5179,
-      "entry_chg_24h": 24.68373,
-      "entry_chg_7d": 41.529,
-      "entry_chg_6h": null,
-      "entry_turnover": 4.655952611106773,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "listing"
-      ],
-      "entry_catalyst_score": 0.4,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Upbit Listing Announcement Sends Gitcoin Soaring Over 100% on KRW and USDT Market Additions - BigGo Finance",
-          "ts": 1791801300.0,
-          "source": "BigGo Finance"
-        },
-        {
-          "title": "Gitcoin Jumps 100%, Tops $0.38 After Upbit Announces KRW and USDT Market Listing - bloomingbit",
-          "ts": 1791799857.0,
-          "source": "bloomingbit"
-        }
-      ],
-      "last_market_cap": 29529212
-    },
     "cex_small_cap:metaplex": {
       "tier": "cex_small_cap",
       "id": "metaplex",
@@ -62,7 +15,7 @@
       "entry_price_eur": 0.06796684117474101,
       "entry_ts": 1792501381.4227936,
       "cost_eur": 12.918360405413706,
-      "last_price_eur": 0.0685346214788754,
+      "last_price_eur": 0.06896708749578769,
       "last_score": 69.0,
       "missed_updates": 0,
       "entry_market_cap": 36013539,
@@ -102,7 +55,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 36320528
+      "last_market_cap": 36553678
     },
     "cex_small_cap:claudia-5": {
       "tier": "cex_small_cap",
@@ -114,7 +67,7 @@
       "entry_price_eur": 0.014444245454567238,
       "entry_ts": 1792501381.4227936,
       "cost_eur": 12.918360405413702,
-      "last_price_eur": 0.01642253796367275,
+      "last_price_eur": 0.015906180994882013,
       "last_score": 75.2,
       "missed_updates": 0,
       "entry_market_cap": 16214350,
@@ -136,7 +89,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 18435467
+      "last_market_cap": 17854541
     }
   },
   "closed_trades": [
@@ -4345,10 +4298,63 @@
       "proceeds_eur": 5.442057865274565,
       "pnl_eur": -0.5865103239184979,
       "pnl_pct": -9.728849463291938
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "gitcoin",
+      "symbol": "GTC",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/gitcoin",
+      "qty": 41.97617451996941,
+      "entry_price_eur": 0.32435999691980616,
+      "entry_ts": 1792479793.4705796,
+      "cost_eur": 13.615391838002525,
+      "last_price_eur": 0.2954373100546158,
+      "last_score": 58.8,
+      "missed_updates": 0,
+      "entry_market_cap": 31878187,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f (ETH)",
+      "entry_score": 93.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 148423328,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 4.5179,
+      "entry_chg_24h": 24.68373,
+      "entry_chg_7d": 41.529,
+      "entry_chg_6h": null,
+      "entry_turnover": 4.655952611106773,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Upbit Listing Announcement Sends Gitcoin Soaring Over 100% on KRW and USDT Market Additions - BigGo Finance",
+          "ts": 1791801300.0,
+          "source": "BigGo Finance"
+        },
+        {
+          "title": "Gitcoin Jumps 100%, Tops $0.38 After Upbit Announces KRW and USDT Market Listing - bloomingbit",
+          "ts": 1791799857.0,
+          "source": "bloomingbit"
+        }
+      ],
+      "last_market_cap": 28968829,
+      "exit_price_eur": 0.2954373100546158,
+      "exit_ts": 1792503319.3380768,
+      "exit_reason": "stop-loss hit (-8.9%)",
+      "proceeds_eur": 12.401328086562868,
+      "pnl_eur": -1.2140637514396566,
+      "pnl_pct": -8.916847681541043
     }
   ],
-  "last_run_ts": 1792503043.3871224,
-  "last_eur_rate": 0.8908120033648587,
+  "last_run_ts": 1792503319.3380768,
+  "last_eur_rate": 0.8908749918722171,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,

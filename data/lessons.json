@@ -8842,5 +8842,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "JCT (cex_small_cap) lost -9.7% in 17 min (very fast (<1h)) — stop-loss hit. Entry score: 90 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792503319.3380768,
+    "symbol": "GTC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/gitcoin",
+    "held_minutes": 392.1,
+    "exit_reason": "stop-loss hit (-8.9%)",
+    "pnl_pct": -8.92,
+    "pnl_eur": -1.21,
+    "entry_score": 93.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 148423328,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.5179,
+    "entry_chg_24h": 24.68373,
+    "entry_chg_7d": 41.529,
+    "entry_chg_6h": null,
+    "entry_turnover": 4.655952611106773,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "GTC (cex_small_cap) lost -8.9% in 392 min (slow (>6h)) — stop-loss hit. Entry score: 93 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
