@@ -140,8 +140,8 @@
     "symbol": "SIREN"
   },
   "cex_small_cap:super-inu-2": {
-    "last_alert_ts": 1792224926.1883097,
-    "last_score": 67.1,
+    "last_alert_ts": 1792465410.4453688,
+    "last_score": 56.3,
     "symbol": "SI"
   },
   "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
@@ -233,16 +233,6 @@
     "last_alert_ts": 1792235012.942286,
     "last_score": 83.5,
     "symbol": "Glow"
-  },
-  "dex_micro_cap:2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump": {
-    "last_alert_ts": 1792205273.694389,
-    "last_score": 66.1,
-    "symbol": "NUBI"
-  },
-  "cex_small_cap:dkargo": {
-    "last_alert_ts": 1792205273.694389,
-    "last_score": 56.3,
-    "symbol": "DKA"
   },
   "cex_small_cap:agency": {
     "last_alert_ts": 1792285377.4187677,
@@ -525,8 +515,8 @@
     "symbol": "QKC"
   },
   "cex_small_cap:torch": {
-    "last_alert_ts": 1792415003.287522,
-    "last_score": 83.8,
+    "last_alert_ts": 1792465410.4453688,
+    "last_score": 78.2,
     "symbol": "TORCH"
   },
   "cex_small_cap:moonbeam": {
@@ -615,8 +605,8 @@
     "symbol": "CBUCKS"
   },
   "cex_small_cap:nillion": {
-    "last_alert_ts": 1792415003.287522,
-    "last_score": 64.2,
+    "last_alert_ts": 1792465410.4453688,
+    "last_score": 65.9,
     "symbol": "NIL"
   },
   "dex_micro_cap:6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump": {
@@ -723,5 +713,20 @@
     "last_alert_ts": 1792458171.3062763,
     "last_score": 55.5,
     "symbol": "WELL"
+  },
+  "dex_micro_cap:ESnW5ZbLmoEAg2QEMxnMsY9R3aS8Kw58HJacYURmpump": {
+    "last_alert_ts": 1792465410.4453688,
+    "last_score": 66.9,
+    "symbol": "COLLECTOOOR"
+  },
+  "cex_small_cap:dolphin-2": {
+    "last_alert_ts": 1792465410.4453688,
+    "last_score": 64.6,
+    "symbol": "POD"
+  },
+  "dex_micro_cap:87sEXKPMBeoryaqFQQnq1Yq6mUvjeNzhiFGxJbRjpump": {
+    "last_alert_ts": 1792465410.4453688,
+    "last_score": 62.9,
+    "symbol": "WORTHLESS"
   }
 }
