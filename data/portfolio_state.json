@@ -2,61 +2,9 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 47.87351255939303,
+  "cash_eur": 59.609201015145956,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
-    "cex_small_cap:metaplex": {
-      "tier": "cex_small_cap",
-      "id": "metaplex",
-      "symbol": "MPLX",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/metaplex",
-      "qty": 190.0685714111817,
-      "entry_price_eur": 0.06796684117474101,
-      "entry_ts": 1792501381.4227936,
-      "cost_eur": 12.918360405413706,
-      "last_price_eur": 0.06293631232148467,
-      "last_score": 69.3,
-      "missed_updates": 0,
-      "entry_market_cap": 36013539,
-      "entry_venue": "Upbit",
-      "entry_contract_address": null,
-      "entry_score": 78.4,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 41093149,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 0.2692,
-      "entry_chg_24h": 55.37296,
-      "entry_chg_7d": 74.3009,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.1410472322645102,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Metaplex Launches MPL-3643 Standard for Permissioned Real-World Assets and Tokenized Securities on Solana - Crypto Reporter",
-          "ts": 1790838000.0,
-          "source": "Crypto Reporter"
-        },
-        {
-          "title": "Metaplex launches MPL-3643, a Solana token stan... - Pluang",
-          "ts": 1790665200.0,
-          "source": "Pluang"
-        },
-        {
-          "title": "Metaplex launches Vantage, a new Solana asset-t... - Pluang",
-          "ts": 1790146800.0,
-          "source": "Pluang"
-        }
-      ],
-      "last_market_cap": 33390773
-    },
     "cex_small_cap:bubblemaps": {
       "tier": "cex_small_cap",
       "id": "bubblemaps",
@@ -67,8 +15,8 @@
       "entry_price_eur": 0.017697353899997357,
       "entry_ts": 1792508578.5379848,
       "cost_eur": 13.24230734942027,
-      "last_price_eur": 0.019209335648321592,
-      "last_score": 89.2,
+      "last_price_eur": 0.018871504285258245,
+      "last_score": 89.1,
       "missed_updates": 0,
       "entry_market_cap": 14953719,
       "entry_venue": "Binance",
@@ -89,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 16332277
+      "last_market_cap": 15937146
     },
     "cex_small_cap:aria-ai": {
       "tier": "cex_small_cap",
@@ -101,8 +49,8 @@
       "entry_price_eur": 0.04869756601710688,
       "entry_ts": 1792508578.5379848,
       "cost_eur": 13.24230734942027,
-      "last_price_eur": 0.04871382936106201,
-      "last_score": 76.3,
+      "last_price_eur": 0.048418045909826804,
+      "last_score": 76.5,
       "missed_updates": 0,
       "entry_market_cap": 10018738,
       "entry_venue": "Gate",
@@ -123,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9958167
+      "last_market_cap": 9977132
     }
   },
   "closed_trades": [
@@ -4427,10 +4375,68 @@
       "proceeds_eur": 15.115966980115589,
       "pnl_eur": 2.1976065747018865,
       "pnl_pct": 17.011497633871052
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "metaplex",
+      "symbol": "MPLX",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/metaplex",
+      "qty": 190.0685714111817,
+      "entry_price_eur": 0.06796684117474101,
+      "entry_ts": 1792501381.4227936,
+      "cost_eur": 12.918360405413706,
+      "last_price_eur": 0.06174449762325367,
+      "last_score": 69.0,
+      "missed_updates": 0,
+      "entry_market_cap": 36013539,
+      "entry_venue": "Upbit",
+      "entry_contract_address": null,
+      "entry_score": 78.4,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 41093149,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 0.2692,
+      "entry_chg_24h": 55.37296,
+      "entry_chg_7d": 74.3009,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.1410472322645102,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Metaplex Launches MPL-3643 Standard for Permissioned Real-World Assets and Tokenized Securities on Solana - Crypto Reporter",
+          "ts": 1790838000.0,
+          "source": "Crypto Reporter"
+        },
+        {
+          "title": "Metaplex launches MPL-3643, a Solana token stan... - Pluang",
+          "ts": 1790665200.0,
+          "source": "Pluang"
+        },
+        {
+          "title": "Metaplex launches Vantage, a new Solana asset-t... - Pluang",
+          "ts": 1790146800.0,
+          "source": "Pluang"
+        }
+      ],
+      "last_market_cap": 32791853,
+      "exit_price_eur": 0.06174449762325367,
+      "exit_ts": 1792512626.2245352,
+      "exit_reason": "stop-loss hit (-9.2%)",
+      "proceeds_eur": 11.735688455752928,
+      "pnl_eur": -1.1826719496607776,
+      "pnl_pct": -9.154969458547962
     }
   ],
-  "last_run_ts": 1792512320.6950974,
-  "last_eur_rate": 0.8903520070378522,
+  "last_run_ts": 1792512626.2245352,
+  "last_eur_rate": 0.8906269941473549,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
