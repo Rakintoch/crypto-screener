@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0007140402879913272,
       "entry_ts": 1792353755.0663216,
       "cost_eur": 14.056396842662254,
-      "last_price_eur": 0.0006991607209339374,
-      "last_score": 36.0,
+      "last_price_eur": 0.0006948551163564813,
+      "last_score": 34.7,
       "missed_updates": 0,
       "entry_market_cap": 71999951,
       "entry_venue": "Binance",
@@ -57,7 +57,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 70515672
+      "last_market_cap": 70071996
     },
     "cex_small_cap:osmosis": {
       "tier": "cex_small_cap",
@@ -69,8 +69,8 @@
       "entry_price_eur": 0.0479314798186869,
       "entry_ts": 1792402485.8461742,
       "cost_eur": 14.67760407479448,
-      "last_price_eur": 0.048666336631081684,
-      "last_score": 60.3,
+      "last_price_eur": 0.04829880912047523,
+      "last_score": 60.0,
       "missed_updates": 0,
       "entry_market_cap": 40270359,
       "entry_venue": "Osmosis",
@@ -105,7 +105,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 40912563
+      "last_market_cap": 40617114
     },
     "cex_small_cap:citrea": {
       "tier": "cex_small_cap",
@@ -117,8 +117,8 @@
       "entry_price_eur": 0.014768784679123327,
       "entry_ts": 1792472573.1399837,
       "cost_eur": 6.374932111412304,
-      "last_price_eur": 0.013882445322487912,
-      "last_score": 58.0,
+      "last_price_eur": 0.013617070008831682,
+      "last_score": 57.4,
       "missed_updates": 0,
       "entry_market_cap": 25047221,
       "entry_venue": "Aerodrome Slipstream 3 (on-chain)",
@@ -139,7 +139,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 23418482
+      "last_market_cap": 22958665
     }
   },
   "closed_trades": [
@@ -4116,8 +4116,8 @@
       "pnl_pct": -8.147694744074146
     }
   ],
-  "last_run_ts": 1792475124.0640845,
-  "last_eur_rate": 0.89026500742855,
+  "last_run_ts": 1792475422.1061852,
+  "last_eur_rate": 0.8902349895026217,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
