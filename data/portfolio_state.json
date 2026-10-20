@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 42.06219181599104,
+  "cash_eur": 55.299833691220094,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:amp-token": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0007140402879913272,
       "entry_ts": 1792353755.0663216,
       "cost_eur": 14.056396842662254,
-      "last_price_eur": 0.0007367467068565334,
-      "last_score": 52.8,
+      "last_price_eur": 0.000733925047371005,
+      "last_score": 53.7,
       "missed_updates": 0,
       "entry_market_cap": 71999951,
       "entry_venue": "Binance",
@@ -57,7 +57,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 74223191
+      "last_market_cap": 73901344
     },
     "cex_small_cap:osmosis": {
       "tier": "cex_small_cap",
@@ -69,8 +69,8 @@
       "entry_price_eur": 0.0479314798186869,
       "entry_ts": 1792402485.8461742,
       "cost_eur": 14.67760407479448,
-      "last_price_eur": 0.046922453962309346,
-      "last_score": 55.8,
+      "last_price_eur": 0.047140268609198566,
+      "last_score": 56.1,
       "missed_updates": 0,
       "entry_market_cap": 40270359,
       "entry_venue": "Osmosis",
@@ -105,50 +105,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 39433173
-    },
-    "cex_small_cap:concierge-io": {
-      "tier": "cex_small_cap",
-      "id": "concierge-io",
-      "symbol": "AVA",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/concierge-io",
-      "qty": 36.7994936629007,
-      "entry_price_eur": 0.39130005939431217,
-      "entry_ts": 1792428489.0532444,
-      "cost_eur": 14.399644055973658,
-      "last_price_eur": 0.3651126707422081,
-      "last_score": 68.4,
-      "missed_updates": 0,
-      "entry_market_cap": 30777461,
-      "entry_venue": "Binance",
-      "entry_contract_address": "0xa6c0c097741d55ecd9a3a7def3a8253fd022ceb9 (ETH)",
-      "entry_score": 93.1,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 50809933,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 3.7918,
-      "entry_chg_24h": 31.83751,
-      "entry_chg_7d": 75.3096,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.6508812406585456,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "supply_cut",
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.7,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Travala Launches Permanent AVA Strategic Reserve, Doubles Monthly Open-Market Buybacks By Chainwire - Investing.com",
-          "ts": 1790146800.0,
-          "source": "Investing.com"
-        }
-      ],
-      "last_market_cap": 28767709
+      "last_market_cap": 39592333
     },
     "cex_small_cap:torch": {
       "tier": "cex_small_cap",
@@ -160,7 +117,7 @@
       "entry_price_eur": 0.008340556506577418,
       "entry_ts": 1792443807.7889168,
       "cost_eur": 6.34698850232495,
-      "last_price_eur": 0.010029924121964698,
+      "last_price_eur": 0.01009344854911523,
       "last_score": 82.0,
       "missed_updates": 0,
       "entry_market_cap": 9351487,
@@ -182,7 +139,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11171663,
+      "last_market_cap": 11321851,
       "trailing_active": true,
       "trailing_peak_eur": 0.010300733293930608
     }
@@ -4028,10 +3985,59 @@
       "proceeds_eur": 8.94771330954595,
       "pnl_eur": -2.5720019352329775,
       "pnl_pct": -22.326957573006712
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "concierge-io",
+      "symbol": "AVA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/concierge-io",
+      "qty": 36.7994936629007,
+      "entry_price_eur": 0.39130005939431217,
+      "entry_ts": 1792428489.0532444,
+      "cost_eur": 14.399644055973658,
+      "last_price_eur": 0.35972347871119054,
+      "last_score": 68.3,
+      "missed_updates": 0,
+      "entry_market_cap": 30777461,
+      "entry_venue": "Binance",
+      "entry_contract_address": "0xa6c0c097741d55ecd9a3a7def3a8253fd022ceb9 (ETH)",
+      "entry_score": 93.1,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 50809933,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.7918,
+      "entry_chg_24h": 31.83751,
+      "entry_chg_7d": 75.3096,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.6508812406585456,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "supply_cut",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.7,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Travala Launches Permanent AVA Strategic Reserve, Doubles Monthly Open-Market Buybacks By Chainwire - Investing.com",
+          "ts": 1790146800.0,
+          "source": "Investing.com"
+        }
+      ],
+      "last_market_cap": 28362291,
+      "exit_price_eur": 0.35972347871119054,
+      "exit_ts": 1792460119.1486053,
+      "exit_reason": "stop-loss hit (-8.1%)",
+      "proceeds_eur": 13.237641875229052,
+      "pnl_eur": -1.1620021807446062,
+      "pnl_pct": -8.069659057041429
     }
   ],
-  "last_run_ts": 1792459836.7129443,
-  "last_eur_rate": 0.8913840038432627,
+  "last_run_ts": 1792460119.1486053,
+  "last_eur_rate": 0.891508001762554,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
