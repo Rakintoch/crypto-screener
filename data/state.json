@@ -149,11 +149,6 @@
     "last_score": 69.2,
     "symbol": "RSC"
   },
-  "cex_small_cap:stat": {
-    "last_alert_ts": 1792331168.2183003,
-    "last_score": 60.3,
-    "symbol": "STAT"
-  },
   "cex_small_cap:altlayer": {
     "last_alert_ts": 1792530206.9957304,
     "last_score": 59.4,
@@ -180,8 +175,8 @@
     "symbol": "NEON"
   },
   "cex_small_cap:bundle-cat": {
-    "last_alert_ts": 1792536991.0917706,
-    "last_score": 59.1,
+    "last_alert_ts": 1792594305.9571915,
+    "last_score": 68.3,
     "symbol": "BUN"
   },
   "dex_micro_cap:55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump": {
@@ -720,8 +715,8 @@
     "symbol": "BIRB"
   },
   "cex_small_cap:enso": {
-    "last_alert_ts": 1792544594.581209,
-    "last_score": 55.2,
+    "last_alert_ts": 1792594305.9571915,
+    "last_score": 56.6,
     "symbol": "ENSO"
   },
   "cex_small_cap:cat-in-a-dogs-world": {
@@ -855,8 +850,23 @@
     "symbol": "AT"
   },
   "cex_small_cap:bort": {
-    "last_alert_ts": 1792587807.5435295,
-    "last_score": 58.9,
+    "last_alert_ts": 1792594305.9571915,
+    "last_score": 76.6,
     "symbol": "BORT"
+  },
+  "cex_small_cap:wormhole": {
+    "last_alert_ts": 1792594305.9571915,
+    "last_score": 72.7,
+    "symbol": "W"
+  },
+  "cex_small_cap:universal-high-income-2": {
+    "last_alert_ts": 1792594305.9571915,
+    "last_score": 70.1,
+    "symbol": "UHI"
+  },
+  "cex_small_cap:magma-finance": {
+    "last_alert_ts": 1792594305.9571915,
+    "last_score": 61.0,
+    "symbol": "MAGMA"
   }
 }
