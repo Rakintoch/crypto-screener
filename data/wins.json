@@ -2257,5 +2257,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "DOOD (cex_small_cap) gained +18.7% in 476 min — trailing stop caught extra upside after the target. Entry score: 95. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792555520.2815468,
+    "symbol": "IOST",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/iostoken",
+    "held_minutes": 62.3,
+    "exit_reason": "trailing stop hit — dropped 5.6% from the peak (peak +25.8% since entry)",
+    "pnl_pct": 18.66,
+    "pnl_eur": 2.25,
+    "entry_score": 96.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 66169209,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 10.4847,
+    "entry_chg_24h": 30.68409,
+    "entry_chg_7d": 31.3051,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.8770801882810244,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "IOST (cex_small_cap) gained +18.7% in 62 min — trailing stop caught extra upside after the target. Entry score: 97. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
