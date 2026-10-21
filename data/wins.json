@@ -2231,5 +2231,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "CLAUDIA (cex_small_cap) gained +17.0% in 167 min — trailing stop caught extra upside after the target. Entry score: 75. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792548925.9363947,
+    "symbol": "DOOD",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/doodles",
+    "held_minutes": 476.5,
+    "exit_reason": "trailing stop hit — dropped 6.8% from the peak (peak +27.4% since entry)",
+    "pnl_pct": 18.72,
+    "pnl_eur": 2.44,
+    "entry_score": 94.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 73609039,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.2201,
+    "entry_chg_24h": 82.90664,
+    "entry_chg_7d": 65.8064,
+    "entry_chg_6h": null,
+    "entry_turnover": 3.915991600165494,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "DOOD (cex_small_cap) gained +18.7% in 476 min — trailing stop caught extra upside after the target. Entry score: 95. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
