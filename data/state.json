@@ -120,8 +120,8 @@
     "symbol": "PORKU"
   },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1792566205.9229093,
-    "last_score": 99.0,
+    "last_alert_ts": 1792616611.9169533,
+    "last_score": 67.3,
     "symbol": "ARIA"
   },
   "cex_small_cap:the-toad-pepe": {
@@ -173,11 +173,6 @@
     "last_alert_ts": 1792415003.287522,
     "last_score": 59.2,
     "symbol": "Gato"
-  },
-  "dex_micro_cap:3NxfWMHmfQg8NJFW5AG1ti2xACdczWz24e9SKyk1pump": {
-    "last_alert_ts": 1792357404.5113478,
-    "last_score": 72.7,
-    "symbol": "MINTER"
   },
   "cex_small_cap:ethgas-2": {
     "last_alert_ts": 1792479792.8443213,
@@ -755,8 +750,8 @@
     "symbol": "IRYS"
   },
   "cex_small_cap:argus-2": {
-    "last_alert_ts": 1792573384.460147,
-    "last_score": 67.6,
+    "last_alert_ts": 1792616611.9169533,
+    "last_score": 56.4,
     "symbol": "ARGUS"
   },
   "cex_small_cap:trusta-ai": {
@@ -978,5 +973,45 @@
     "last_alert_ts": 1792612559.9558995,
     "last_score": 55.1,
     "symbol": "CNPY"
+  },
+  "dex_micro_cap:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": {
+    "last_alert_ts": 1792616611.9169533,
+    "last_score": 79.4,
+    "symbol": "DOPE"
+  },
+  "cex_small_cap:world-of-dypians": {
+    "last_alert_ts": 1792616611.9169533,
+    "last_score": 78.1,
+    "symbol": "WOD"
+  },
+  "cex_small_cap:meta-platforms-robinhood-tokenized-stock": {
+    "last_alert_ts": 1792616611.9169533,
+    "last_score": 70.7,
+    "symbol": "META"
+  },
+  "cex_small_cap:doge-pepe-4": {
+    "last_alert_ts": 1792616611.9169533,
+    "last_score": 70.0,
+    "symbol": "DOPE"
+  },
+  "cex_small_cap:meta-xstock": {
+    "last_alert_ts": 1792616611.9169533,
+    "last_score": 66.0,
+    "symbol": "METAX"
+  },
+  "cex_small_cap:billions-network": {
+    "last_alert_ts": 1792616611.9169533,
+    "last_score": 64.2,
+    "symbol": "BILL"
+  },
+  "cex_small_cap:meta-platforms-ondo-tokenized-stock": {
+    "last_alert_ts": 1792616611.9169533,
+    "last_score": 59.3,
+    "symbol": "METAON"
+  },
+  "cex_small_cap:sherwood-protocol": {
+    "last_alert_ts": 1792616611.9169533,
+    "last_score": 58.1,
+    "symbol": "WOOD"
   }
 }
