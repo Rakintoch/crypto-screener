@@ -15,7 +15,7 @@
       "entry_price_eur": 0.0025600197183140495,
       "entry_ts": 1792573384.9250615,
       "cost_eur": 11.975788936010638,
-      "last_price_eur": 0.003973779939983227,
+      "last_price_eur": 0.004149028185820902,
       "last_score": 100.0,
       "missed_updates": 0,
       "entry_market_cap": 22324967,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 34913615,
+      "last_market_cap": 36425768,
       "trailing_active": true,
       "trailing_peak_eur": 0.004180697879622909
     },
@@ -51,8 +51,8 @@
       "entry_price_eur": 0.03478932190643323,
       "entry_ts": 1792573384.9250615,
       "cost_eur": 11.975788936010638,
-      "last_price_eur": 0.03615537718226928,
-      "last_score": 89.9,
+      "last_price_eur": 0.033935329296351,
+      "last_score": 89.4,
       "missed_updates": 0,
       "entry_market_cap": 9101356,
       "entry_venue": "LBank",
@@ -73,7 +73,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9399506
+      "last_market_cap": 8894512
     },
     "cex_small_cap:dacity-coin-2": {
       "tier": "cex_small_cap",
@@ -85,7 +85,7 @@
       "entry_price_eur": 0.011129120171121422,
       "entry_ts": 1792573384.9250615,
       "cost_eur": 11.975788936010638,
-      "last_price_eur": 0.011571930772879758,
+      "last_price_eur": 0.011828812568832267,
       "last_score": 53.1,
       "missed_updates": 0,
       "entry_market_cap": 12258190,
@@ -120,7 +120,7 @@
           "source": "The Sunday Guardian"
         }
       ],
-      "last_market_cap": 12758467
+      "last_market_cap": 13039794
     }
   },
   "closed_trades": [
@@ -4735,8 +4735,8 @@
       "pnl_pct": 20.797576291474922
     }
   ],
-  "last_run_ts": 1792588227.263183,
-  "last_eur_rate": 0.8904409966104064,
+  "last_run_ts": 1792588528.6081347,
+  "last_eur_rate": 0.8906379933886092,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
