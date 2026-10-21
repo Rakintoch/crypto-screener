@@ -2361,5 +2361,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "DOOD (cex_small_cap) gained +63.5% in 272 min — trailing stop caught extra upside after the target. Entry score: 97. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792592130.353678,
+    "symbol": "DACITY",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/dacity-coin-2",
+    "held_minutes": 312.4,
+    "exit_reason": "trailing stop hit — dropped 5.6% from the peak (peak +24.3% since entry)",
+    "pnl_pct": 17.33,
+    "pnl_eur": 2.07,
+    "entry_score": 81.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 10880424,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 12.7792,
+    "entry_chg_24h": 100.21129,
+    "entry_chg_7d": null,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.8876044505754928,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "DACITY (cex_small_cap) gained +17.3% in 312 min — trailing stop caught extra upside after the target. Entry score: 82. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

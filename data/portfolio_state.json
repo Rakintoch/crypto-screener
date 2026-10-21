@@ -2,59 +2,9 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1792601717.289205,
-  "cash_eur": 76.60066740903594,
+  "cash_eur": 90.65140316061287,
   "starting_balance_eur": 877.2059999287995,
-  "positions": {
-    "cex_small_cap:dacity-coin-2": {
-      "tier": "cex_small_cap",
-      "id": "dacity-coin-2",
-      "symbol": "DACITY",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/dacity-coin-2",
-      "qty": 1076.0768822576117,
-      "entry_price_eur": 0.011129120171121422,
-      "entry_ts": 1792573384.9250615,
-      "cost_eur": 11.975788936010638,
-      "last_price_eur": 0.013280867902962864,
-      "last_score": 82.8,
-      "missed_updates": 0,
-      "entry_market_cap": 12258190,
-      "entry_venue": null,
-      "entry_contract_address": null,
-      "entry_score": 81.9,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 10880424,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 12.7792,
-      "entry_chg_24h": 100.21129,
-      "entry_chg_7d": null,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.8876044505754928,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Rockstar Games Releases GTA 6 Launch Trailer: Dacity Coin Jumps 29x - Coin Gabbar",
-          "ts": 1792411500.0,
-          "source": "Coin Gabbar"
-        },
-        {
-          "title": "GTA 6 Latest News: Dacity Coin Spotted on Stunt Plane in Rockstar’s New Launch Trailer as Real-World Solana Meme Coin Surges 2,900% to $3.18 Million Market Cap ",
-          "ts": 1792167045.0,
-          "source": "The Sunday Guardian"
-        }
-      ],
-      "last_market_cap": 14639669,
-      "trailing_active": true,
-      "trailing_peak_eur": 0.013829356645849666
-    }
-  },
+  "positions": {},
   "closed_trades": [
     {
       "tier": "cex_small_cap",
@@ -4747,10 +4697,65 @@
       "proceeds_eur": 10.46645072453262,
       "pnl_eur": -1.509338211478017,
       "pnl_pct": -12.603246596468543
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "dacity-coin-2",
+      "symbol": "DACITY",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/dacity-coin-2",
+      "qty": 1076.0768822576117,
+      "entry_price_eur": 0.011129120171121422,
+      "entry_ts": 1792573384.9250615,
+      "cost_eur": 11.975788936010638,
+      "last_price_eur": 0.013057371627665171,
+      "last_score": 82.8,
+      "missed_updates": 0,
+      "entry_market_cap": 12258190,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 81.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 10880424,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 12.7792,
+      "entry_chg_24h": 100.21129,
+      "entry_chg_7d": null,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.8876044505754928,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Rockstar Games Releases GTA 6 Launch Trailer: Dacity Coin Jumps 29x - Coin Gabbar",
+          "ts": 1792411500.0,
+          "source": "Coin Gabbar"
+        },
+        {
+          "title": "GTA 6 Latest News: Dacity Coin Spotted on Stunt Plane in Rockstar’s New Launch Trailer as Real-World Solana Meme Coin Surges 2,900% to $3.18 Million Market Cap ",
+          "ts": 1792167045.0,
+          "source": "The Sunday Guardian"
+        }
+      ],
+      "last_market_cap": 14390338,
+      "trailing_active": true,
+      "trailing_peak_eur": 0.013829356645849666,
+      "exit_price_eur": 0.013057371627665171,
+      "exit_ts": 1792592130.353678,
+      "exit_reason": "trailing stop hit — dropped 5.6% from the peak (peak +24.3% since entry)",
+      "proceeds_eur": 14.050735751576935,
+      "pnl_eur": 2.074946815566298,
+      "pnl_pct": 17.326180568588928
     }
   ],
-  "last_run_ts": 1792591827.6383975,
-  "last_eur_rate": 0.8906919985113314,
+  "last_run_ts": 1792592130.353678,
+  "last_eur_rate": 0.8908710070004879,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
