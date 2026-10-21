@@ -149,25 +149,10 @@
     "last_score": 59.7,
     "symbol": "TOAD"
   },
-  "cex_small_cap:agency": {
-    "last_alert_ts": 1792285377.4187677,
-    "last_score": 60.7,
-    "symbol": "AGENCY"
-  },
   "cex_small_cap:neosoul": {
     "last_alert_ts": 1792307000.3712912,
     "last_score": 55.3,
     "symbol": "DNA"
-  },
-  "dex_micro_cap:rVWG97Yj6ZbuF9zeQo8TosQG6mUcUeL8BocfHu3pump": {
-    "last_alert_ts": 1792285377.4187677,
-    "last_score": 86.2,
-    "symbol": "PRIME"
-  },
-  "dex_micro_cap:5x6QQvpRpd1PsFTTTJe6sJFFSqrA21H1j3GZLmo2pump": {
-    "last_alert_ts": 1792285377.4187677,
-    "last_score": 67.9,
-    "symbol": "FTR"
   },
   "cex_small_cap:caldera": {
     "last_alert_ts": 1792536991.0917706,
@@ -233,11 +218,6 @@
     "last_alert_ts": 1792415003.287522,
     "last_score": 59.2,
     "symbol": "Gato"
-  },
-  "dex_micro_cap:FeSqDFg1vMsB7dsWXE3UWURwUVksJArWWWynnhgiaaQ6": {
-    "last_alert_ts": 1792285377.4187677,
-    "last_score": 70.8,
-    "symbol": "索拉纳"
   },
   "dex_micro_cap:3NxfWMHmfQg8NJFW5AG1ti2xACdczWz24e9SKyk1pump": {
     "last_alert_ts": 1792357404.5113478,
@@ -798,5 +778,15 @@
     "last_alert_ts": 1792536991.0917706,
     "last_score": 57.7,
     "symbol": "SPCX"
+  },
+  "cex_small_cap:moonbirds": {
+    "last_alert_ts": 1792544594.581209,
+    "last_score": 57.7,
+    "symbol": "BIRB"
+  },
+  "cex_small_cap:enso": {
+    "last_alert_ts": 1792544594.581209,
+    "last_score": 55.2,
+    "symbol": "ENSO"
   }
 }
