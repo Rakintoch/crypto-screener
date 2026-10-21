@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 47.404193286352104,
+  "cash_eur": 34.320773953020414,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:irys": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.01693628814383764,
       "entry_ts": 1792594306.402259,
       "cost_eur": 13.597710474091933,
-      "last_price_eur": 0.016882016368146183,
-      "last_score": 72.8,
+      "last_price_eur": 0.016679017228323493,
+      "last_score": 68.9,
       "missed_updates": 0,
       "entry_market_cap": 38267069,
       "entry_venue": "Upbit",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 37921988
+      "last_market_cap": 37400200
     },
     "cex_small_cap:bort": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0013782213288508576,
       "entry_ts": 1792594306.402259,
       "cost_eur": 13.597710474091933,
-      "last_price_eur": 0.0013675905669950357,
-      "last_score": 59.7,
+      "last_price_eur": 0.0013660095733848319,
+      "last_score": 54.7,
       "missed_updates": 0,
       "entry_market_cap": 1505075,
       "entry_venue": null,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1495931
+      "last_market_cap": 1494174
     },
     "cex_small_cap:wormhole": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.013585370340484031,
       "entry_ts": 1792594306.402259,
       "cost_eur": 13.597710474091933,
-      "last_price_eur": 0.012964507118243833,
-      "last_score": 44.6,
+      "last_price_eur": 0.012938467764872456,
+      "last_score": 47.4,
       "missed_updates": 0,
       "entry_market_cap": 101264968,
       "entry_venue": null,
@@ -126,7 +126,40 @@
           "source": "CoinMarketCap"
         }
       ],
-      "last_market_cap": 97029431
+      "last_market_cap": 96826500
+    },
+    "cex_small_cap:billions-network": {
+      "tier": "cex_small_cap",
+      "id": "billions-network",
+      "symbol": "BILL",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/billions-network",
+      "qty": 1975.2818776509364,
+      "entry_price_eur": 0.006623570783168871,
+      "entry_ts": 1792623708.463883,
+      "cost_eur": 13.083419333331692,
+      "last_price_eur": 0.006623570783168871,
+      "last_score": 81.6,
+      "missed_updates": 0,
+      "entry_market_cap": 18119562,
+      "entry_venue": "BtcTurk | Kripto",
+      "entry_contract_address": "0xb1110919016846972056ab995054d65560d5f05e (ETH)",
+      "entry_score": 81.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 14464625,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 8.6576,
+      "entry_chg_24h": 32.6991,
+      "entry_chg_7d": -15.3544,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.7982877842190667,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -599,8 +632,8 @@
       "pnl_pct": -9.043274812678977
     }
   ],
-  "last_run_ts": 1792623317.584721,
-  "last_eur_rate": 0.8904280067420863,
+  "last_run_ts": 1792623708.463883,
+  "last_eur_rate": 0.8904480065347943,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
