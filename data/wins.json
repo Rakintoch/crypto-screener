@@ -2309,5 +2309,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "ARIA (cex_small_cap) gained +15.7% in 982 min — trailing stop caught extra upside after the target. Entry score: 87. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792588227.263183,
+    "symbol": "BMT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/bubblemaps",
+    "held_minutes": 1327.5,
+    "exit_reason": "trailing stop hit — dropped 5.5% from the peak (peak +27.9% since entry)",
+    "pnl_pct": 20.8,
+    "pnl_eur": 2.75,
+    "entry_score": 89.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 30569040,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.5581,
+    "entry_chg_24h": 20.51006,
+    "entry_chg_7d": 13.458,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.0442433083034395,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "BMT (cex_small_cap) gained +20.8% in 1327 min — trailing stop caught extra upside after the target. Entry score: 89. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
