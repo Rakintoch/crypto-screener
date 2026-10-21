@@ -99,11 +99,6 @@
     "last_score": 55.6,
     "symbol": "SOXLB"
   },
-  "cex_small_cap:stbl": {
-    "last_alert_ts": 1792343003.041234,
-    "last_score": 61.7,
-    "symbol": "STBL"
-  },
   "cex_small_cap:forta": {
     "last_alert_ts": 1792551781.1566837,
     "last_score": 63.9,
@@ -145,8 +140,8 @@
     "symbol": "ERA"
   },
   "cex_small_cap:altlayer": {
-    "last_alert_ts": 1792530206.9957304,
-    "last_score": 59.4,
+    "last_alert_ts": 1792602209.2012043,
+    "last_score": 95.5,
     "symbol": "ALT"
   },
   "cex_small_cap:claus-2": {
@@ -183,11 +178,6 @@
     "last_alert_ts": 1792357404.5113478,
     "last_score": 72.7,
     "symbol": "MINTER"
-  },
-  "cex_small_cap:dar-open-network": {
-    "last_alert_ts": 1792343003.041234,
-    "last_score": 86.4,
-    "symbol": "D"
   },
   "cex_small_cap:ethgas-2": {
     "last_alert_ts": 1792479792.8443213,
@@ -229,25 +219,10 @@
     "last_score": 59.7,
     "symbol": "mucron"
   },
-  "cex_small_cap:quark-chain": {
-    "last_alert_ts": 1792343003.041234,
-    "last_score": 73.8,
-    "symbol": "QKC"
-  },
   "cex_small_cap:torch": {
     "last_alert_ts": 1792566205.9229093,
     "last_score": 55.6,
     "symbol": "TORCH"
-  },
-  "cex_small_cap:moonbeam": {
-    "last_alert_ts": 1792343003.041234,
-    "last_score": 65.7,
-    "symbol": "GLMR"
-  },
-  "cex_small_cap:hoot-2": {
-    "last_alert_ts": 1792343003.041234,
-    "last_score": 65.5,
-    "symbol": "$HOOT"
   },
   "cex_small_cap:camp-network": {
     "last_alert_ts": 1792587807.5435295,
@@ -450,13 +425,13 @@
     "symbol": "WORTHLESS"
   },
   "cex_small_cap:grift-world": {
-    "last_alert_ts": 1792551781.1566837,
-    "last_score": 78.6,
+    "last_alert_ts": 1792602209.2012043,
+    "last_score": 77.4,
     "symbol": "GRIFT"
   },
   "cex_small_cap:grvt": {
-    "last_alert_ts": 1792566205.9229093,
-    "last_score": 56.1,
+    "last_alert_ts": 1792602209.2012043,
+    "last_score": 79.0,
     "symbol": "GRVT"
   },
   "cex_small_cap:lobster-2": {
@@ -530,8 +505,8 @@
     "symbol": "BNCB"
   },
   "cex_small_cap:iostoken": {
-    "last_alert_ts": 1792595045.1150794,
-    "last_score": 70.3,
+    "last_alert_ts": 1792602209.2012043,
+    "last_score": 100.0,
     "symbol": "IOST"
   },
   "cex_small_cap:renzo": {
@@ -720,8 +695,8 @@
     "symbol": "MEW"
   },
   "cex_small_cap:particle-network": {
-    "last_alert_ts": 1792551781.1566837,
-    "last_score": 83.2,
+    "last_alert_ts": 1792602209.2012043,
+    "last_score": 58.1,
     "symbol": "PARTI"
   },
   "cex_small_cap:ignition-3": {
@@ -750,8 +725,8 @@
     "symbol": "ID"
   },
   "cex_small_cap:b3": {
-    "last_alert_ts": 1792552017.4729621,
-    "last_score": 67.8,
+    "last_alert_ts": 1792602209.2012043,
+    "last_score": 56.9,
     "symbol": "B3"
   },
   "cex_small_cap:stockereum-fun": {
@@ -930,8 +905,8 @@
     "symbol": "SOON"
   },
   "cex_small_cap:gstock": {
-    "last_alert_ts": 1792595045.1150794,
-    "last_score": 57.7,
+    "last_alert_ts": 1792602209.2012043,
+    "last_score": 82.3,
     "symbol": "GSTOCK"
   },
   "cex_small_cap:reinforced-ai": {
@@ -953,5 +928,20 @@
     "last_alert_ts": 1792595045.1150794,
     "last_score": 55.1,
     "symbol": "PEPINA"
+  },
+  "cex_small_cap:nuance-2": {
+    "last_alert_ts": 1792602209.2012043,
+    "last_score": 78.0,
+    "symbol": "SN23"
+  },
+  "cex_small_cap:block-street": {
+    "last_alert_ts": 1792602209.2012043,
+    "last_score": 70.5,
+    "symbol": "BSB"
+  },
+  "cex_small_cap:aura-final-boss-2": {
+    "last_alert_ts": 1792602209.2012043,
+    "last_score": 55.0,
+    "symbol": "KIMCHI"
   }
 }
