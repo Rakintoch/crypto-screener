@@ -8926,5 +8926,32 @@
     "categoria": "near-total collapse (possible rug/dump)",
     "velocidade_queda": "fast (1-6h)",
     "licao": "Dacity (dex_micro_cap) lost -100.0% in 81 min (fast (1-6h)) — near-total collapse (possible rug/dump). Entry liquidity: $390,116. Entry score: 82 (minimum required to buy: 65). Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1792566624.227982,
+    "symbol": "AGENC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/agenc",
+    "held_minutes": 606.9,
+    "exit_reason": "stop-loss hit (-23.5%)",
+    "pnl_pct": -23.51,
+    "pnl_eur": -2.69,
+    "entry_score": 84.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 371130,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 11.2947,
+    "entry_chg_24h": 40.47877,
+    "entry_chg_7d": 136.5142,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.2878212813875106,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "AGENC (cex_small_cap) lost -23.5% in 607 min (slow (>6h)) — stop-loss hit. Entry score: 84 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
