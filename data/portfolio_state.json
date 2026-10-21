@@ -15,7 +15,7 @@
       "entry_price_eur": 0.03478932190643323,
       "entry_ts": 1792573384.9250615,
       "cost_eur": 11.975788936010638,
-      "last_price_eur": 0.03345796476057145,
+      "last_price_eur": 0.03387387417917454,
       "last_score": 89.2,
       "missed_updates": 0,
       "entry_market_cap": 9101356,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 8790741
+      "last_market_cap": 8849972
     },
     "cex_small_cap:dacity-coin-2": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.011129120171121422,
       "entry_ts": 1792573384.9250615,
       "cost_eur": 11.975788936010638,
-      "last_price_eur": 0.012979449048227159,
-      "last_score": 53.0,
+      "last_price_eur": 0.013152974853956613,
+      "last_score": 53.1,
       "missed_updates": 0,
       "entry_market_cap": 12258190,
       "entry_venue": null,
@@ -84,7 +84,7 @@
           "source": "The Sunday Guardian"
         }
       ],
-      "last_market_cap": 14510071
+      "last_market_cap": 14488427
     }
   },
   "closed_trades": [
@@ -4741,8 +4741,8 @@
       "pnl_pct": 63.45057721546432
     }
   ],
-  "last_run_ts": 1792589720.1783504,
-  "last_eur_rate": 0.8904139947894959,
+  "last_run_ts": 1792590025.2839737,
+  "last_eur_rate": 0.8904310034110764,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 4,
   "cycle_start_ts": 1791737717.289205,
