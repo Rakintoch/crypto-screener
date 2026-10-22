@@ -9142,5 +9142,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "PHA (cex_small_cap) lost -8.3% in 151 min (fast (1-6h)) — stop-loss hit. Entry score: 89 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792674323.1023867,
+    "symbol": "KIMCHIBULL",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/Ds6CaQYBQL7GjDATf9CVH189S9ef1mz7dkTrSoV7RWEM",
+    "held_minutes": 236.2,
+    "exit_reason": "stop-loss hit (-26.1%)",
+    "pnl_pct": -26.05,
+    "pnl_eur": -2.89,
+    "entry_score": 96.2,
+    "entry_liquidity_usd": 230479.2927,
+    "entry_volume_24h_usd": 8057743.02656167,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 25.342,
+    "entry_chg_24h": 1332.313,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 89.968,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 34.96081115213207,
+    "entry_boosted": true,
+    "entry_pool_age_minutes": 820.6951611333334,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "KIMCHIBULL (dex_micro_cap) lost -26.1% in 236 min (fast (1-6h)) — stop-loss hit. Entry liquidity: $230,479. Entry score: 96 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]

@@ -2465,5 +2465,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "HP (cex_small_cap) gained +11.5% in 600 min — trailing stop caught extra upside after the target. Entry score: 85. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792674323.1023867,
+    "symbol": "HP",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/hippo-protocol",
+    "held_minutes": 602.1,
+    "exit_reason": "trailing stop hit — dropped 8.4% from the peak (peak +20.2% since entry)",
+    "pnl_pct": 10.13,
+    "pnl_eur": 1.36,
+    "entry_score": 85.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 8707297,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 7.2746,
+    "entry_chg_24h": 35.67458,
+    "entry_chg_7d": 18.1727,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.566293453833244,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "HP (cex_small_cap) gained +10.1% in 602 min — trailing stop caught extra upside after the target. Entry score: 85. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
