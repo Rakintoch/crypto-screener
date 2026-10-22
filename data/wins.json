@@ -2413,5 +2413,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "IRYS (cex_small_cap) gained +18.7% in 764 min — trailing stop caught extra upside after the target. Entry score: 93. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792644917.312368,
+    "symbol": "PHP",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/YQ4NNeQxHAtdcB8ohx21eJ9U8eTzxNRvGNHkRaA4Pnw",
+    "held_minutes": 112.0,
+    "exit_reason": "trailing stop hit — dropped 5.6% from the peak (peak +41.7% since entry)",
+    "pnl_pct": 33.72,
+    "pnl_eur": 3.62,
+    "entry_score": 84.0,
+    "entry_liquidity_usd": 103273.6879,
+    "entry_volume_24h_usd": 6014604.15938195,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 30.245,
+    "entry_chg_24h": 2236.241,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 67.28,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 58.23946332976795,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 1307.5852454166668,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "PHP (dex_micro_cap) gained +33.7% in 112 min — trailing stop caught extra upside after the target. Entry liquidity: $103,274. Entry score: 84. Entry security: no obvious red flags."
   }
 ]
