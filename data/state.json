@@ -49,11 +49,6 @@
     "last_score": 71.0,
     "symbol": "ZEREBRO"
   },
-  "cex_small_cap:ubik": {
-    "last_alert_ts": 1792447162.279483,
-    "last_score": 68.1,
-    "symbol": "UBIK"
-  },
   "cex_small_cap:impossible-cloud-network-token": {
     "last_alert_ts": 1792573596.7694569,
     "last_score": 77.4,
@@ -174,11 +169,6 @@
     "last_score": 57.6,
     "symbol": "startupSI"
   },
-  "dex_micro_cap:FGkCj28xhabWTYg9QyzACvs4NsN6LUyesP6EwiHepump": {
-    "last_alert_ts": 1792443807.2059453,
-    "last_score": 65.2,
-    "symbol": "UHI"
-  },
   "cex_small_cap:baton-3": {
     "last_alert_ts": 1792587807.5435295,
     "last_score": 63.4,
@@ -233,11 +223,6 @@
     "last_alert_ts": 1792566205.9229093,
     "last_score": 56.3,
     "symbol": "Satoshi"
-  },
-  "cex_small_cap:wojak-7": {
-    "last_alert_ts": 1792443807.2059453,
-    "last_score": 72.6,
-    "symbol": "WOJAK"
   },
   "cex_small_cap:agent-wormhole": {
     "last_alert_ts": 1792537404.857651,
@@ -800,8 +785,8 @@
     "symbol": "PEPINA"
   },
   "cex_small_cap:nuance-2": {
-    "last_alert_ts": 1792659807.7286863,
-    "last_score": 64.6,
+    "last_alert_ts": 1792709916.2733653,
+    "last_score": 72.5,
     "symbol": "SN23"
   },
   "cex_small_cap:block-street": {
@@ -940,8 +925,8 @@
     "symbol": "RAD"
   },
   "cex_small_cap:waves": {
-    "last_alert_ts": 1792652609.9337668,
-    "last_score": 57.8,
+    "last_alert_ts": 1792709916.2733653,
+    "last_score": 56.6,
     "symbol": "WAVES"
   },
   "cex_small_cap:onlyagent": {
@@ -1078,5 +1063,15 @@
     "last_alert_ts": 1792702992.185413,
     "last_score": 55.3,
     "symbol": "Kimchi"
+  },
+  "dex_micro_cap:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": {
+    "last_alert_ts": 1792709916.2733653,
+    "last_score": 71.3,
+    "symbol": "SHAVCOIN"
+  },
+  "dex_micro_cap:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": {
+    "last_alert_ts": 1792709916.2733653,
+    "last_score": 67.5,
+    "symbol": "SHAV"
   }
 }
