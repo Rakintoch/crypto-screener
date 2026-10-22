@@ -15,7 +15,7 @@
       "entry_price_eur": 0.01693628814383764,
       "entry_ts": 1792594306.402259,
       "cost_eur": 13.597710474091933,
-      "last_price_eur": 0.01938256524129816,
+      "last_price_eur": 0.019298267629940767,
       "last_score": 99.6,
       "missed_updates": 0,
       "entry_market_cap": 38267069,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 43556776
+      "last_market_cap": 43078845
     },
     "cex_small_cap:bort": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0013782213288508576,
       "entry_ts": 1792594306.402259,
       "cost_eur": 13.597710474091933,
-      "last_price_eur": 0.001371590857071457,
-      "last_score": 32.1,
+      "last_price_eur": 0.0013712769811397778,
+      "last_score": 32.2,
       "missed_updates": 0,
       "entry_market_cap": 1505075,
       "entry_venue": null,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1500441
+      "last_market_cap": 1499971
     },
     "cex_small_cap:wormhole": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.013585370340484031,
       "entry_ts": 1792594306.402259,
       "cost_eur": 13.597710474091933,
-      "last_price_eur": 0.012848782657277244,
-      "last_score": 49.4,
+      "last_price_eur": 0.012917583909685481,
+      "last_score": 48.8,
       "missed_updates": 0,
       "entry_market_cap": 101264968,
       "entry_venue": null,
@@ -126,7 +126,7 @@
           "source": "CoinMarketCap"
         }
       ],
-      "last_market_cap": 96170300
+      "last_market_cap": 96743232
     },
     "cex_small_cap:billions-network": {
       "tier": "cex_small_cap",
@@ -138,8 +138,8 @@
       "entry_price_eur": 0.006623570783168871,
       "entry_ts": 1792623708.463883,
       "cost_eur": 13.083419333331692,
-      "last_price_eur": 0.0062920382820520855,
-      "last_score": 66.6,
+      "last_price_eur": 0.006253644872595687,
+      "last_score": 67.4,
       "missed_updates": 0,
       "entry_market_cap": 18119562,
       "entry_venue": "BtcTurk | Kripto",
@@ -160,7 +160,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 17109852
+      "last_market_cap": 17067864
     }
   },
   "closed_trades": [
@@ -633,8 +633,8 @@
       "pnl_pct": -9.043274812678977
     }
   ],
-  "last_run_ts": 1792632316.420633,
-  "last_eur_rate": 0.8903369990012898,
+  "last_run_ts": 1792632642.2969904,
+  "last_eur_rate": 0.8903759998570088,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
