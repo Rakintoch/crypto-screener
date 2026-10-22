@@ -184,11 +184,6 @@
     "last_score": 70.3,
     "symbol": "HI"
   },
-  "dex_micro_cap:3ZAnpeVBHAvZsySNMXp4g9nYaE1jsx6khgh29VYKpump": {
-    "last_alert_ts": 1792378948.5260913,
-    "last_score": 64.0,
-    "symbol": "SUPERCORE"
-  },
   "cex_small_cap:agenc": {
     "last_alert_ts": 1792530206.9957304,
     "last_score": 84.5,
@@ -415,8 +410,8 @@
     "symbol": "ARC"
   },
   "cex_small_cap:levva-protocol": {
-    "last_alert_ts": 1792587807.5435295,
-    "last_score": 91.5,
+    "last_alert_ts": 1792638195.6652563,
+    "last_score": 76.7,
     "symbol": "LVVA"
   },
   "cex_small_cap:claudia-5": {
@@ -590,8 +585,8 @@
     "symbol": "ALTSZN"
   },
   "cex_small_cap:astronaut-2": {
-    "last_alert_ts": 1792520337.8344455,
-    "last_score": 99.5,
+    "last_alert_ts": 1792638195.6652563,
+    "last_score": 100.0,
     "symbol": "ASTRO"
   },
   "cex_small_cap:darkswap": {
@@ -715,8 +710,8 @@
     "symbol": "NDOF"
   },
   "cex_small_cap:irys": {
-    "last_alert_ts": 1792587807.5435295,
-    "last_score": 89.2,
+    "last_alert_ts": 1792638195.6652563,
+    "last_score": 97.0,
     "symbol": "IRYS"
   },
   "cex_small_cap:argus-2": {
@@ -770,8 +765,8 @@
     "symbol": "ARDR"
   },
   "cex_small_cap:siacoin": {
-    "last_alert_ts": 1792580588.0281746,
-    "last_score": 59.7,
+    "last_alert_ts": 1792638195.6652563,
+    "last_score": 63.9,
     "symbol": "SC"
   },
   "cex_small_cap:dacity-coin-3": {
@@ -1008,5 +1003,10 @@
     "last_alert_ts": 1792631003.745344,
     "last_score": 56.1,
     "symbol": "PROM"
+  },
+  "cex_small_cap:hippo-protocol": {
+    "last_alert_ts": 1792638195.6652563,
+    "last_score": 85.1,
+    "symbol": "HP"
   }
 }
