@@ -14,20 +14,10 @@
     "last_score": 61.4,
     "symbol": "XDP"
   },
-  "cex_small_cap:bem-2": {
-    "last_alert_ts": 1792386173.5589392,
-    "last_score": 58.9,
-    "symbol": "BEM"
-  },
   "cex_small_cap:osmosis": {
     "last_alert_ts": 1792450976.4166796,
     "last_score": 72.9,
     "symbol": "OSMO"
-  },
-  "cex_small_cap:zzz-2": {
-    "last_alert_ts": 1792386173.5589392,
-    "last_score": 62.9,
-    "symbol": "ZZZ"
   },
   "cex_small_cap:puffer-finance": {
     "last_alert_ts": 1792537404.857651,
@@ -50,8 +40,8 @@
     "symbol": "AVA"
   },
   "cex_small_cap:elsa": {
-    "last_alert_ts": 1792623707.6726172,
-    "last_score": 55.7,
+    "last_alert_ts": 1792645408.5403008,
+    "last_score": 74.0,
     "symbol": "ELSA"
   },
   "cex_small_cap:south-korea-bull-3x-etf-bstocks-tokenized-stock": {
@@ -68,11 +58,6 @@
     "last_alert_ts": 1792447162.279483,
     "last_score": 68.1,
     "symbol": "UBIK"
-  },
-  "cex_small_cap:epic-chain": {
-    "last_alert_ts": 1792386173.5589392,
-    "last_score": 67.5,
-    "symbol": "EPIC"
   },
   "cex_small_cap:impossible-cloud-network-token": {
     "last_alert_ts": 1792573596.7694569,
@@ -125,8 +110,8 @@
     "symbol": "DNA"
   },
   "cex_small_cap:caldera": {
-    "last_alert_ts": 1792536991.0917706,
-    "last_score": 77.2,
+    "last_alert_ts": 1792645408.5403008,
+    "last_score": 68.4,
     "symbol": "ERA"
   },
   "cex_small_cap:altlayer": {
@@ -169,20 +154,10 @@
     "last_score": 59.1,
     "symbol": "GWEI"
   },
-  "cex_small_cap:vine": {
-    "last_alert_ts": 1792386173.5589392,
-    "last_score": 56.5,
-    "symbol": "VINE"
-  },
   "cex_small_cap:boomer-4": {
     "last_alert_ts": 1792393393.572876,
     "last_score": 74.2,
     "symbol": "BOOMER"
-  },
-  "cex_small_cap:hi": {
-    "last_alert_ts": 1792386173.5589392,
-    "last_score": 70.3,
-    "symbol": "HI"
   },
   "cex_small_cap:agenc": {
     "last_alert_ts": 1792530206.9957304,
@@ -305,8 +280,8 @@
     "symbol": "SNDKB"
   },
   "cex_small_cap:pha": {
-    "last_alert_ts": 1792609390.3164556,
-    "last_score": 60.6,
+    "last_alert_ts": 1792645408.5403008,
+    "last_score": 90.0,
     "symbol": "PHA"
   },
   "dex_micro_cap:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
@@ -410,8 +385,8 @@
     "symbol": "ARC"
   },
   "cex_small_cap:levva-protocol": {
-    "last_alert_ts": 1792638195.6652563,
-    "last_score": 76.7,
+    "last_alert_ts": 1792645408.5403008,
+    "last_score": 94.7,
     "symbol": "LVVA"
   },
   "cex_small_cap:claudia-5": {
@@ -770,8 +745,8 @@
     "symbol": "SC"
   },
   "cex_small_cap:dacity-coin-3": {
-    "last_alert_ts": 1792587807.5435295,
-    "last_score": 77.8,
+    "last_alert_ts": 1792645408.5403008,
+    "last_score": 58.7,
     "symbol": "DACITY"
   },
   "cex_small_cap:apro": {
@@ -790,8 +765,8 @@
     "symbol": "W"
   },
   "cex_small_cap:universal-high-income-2": {
-    "last_alert_ts": 1792594305.9571915,
-    "last_score": 70.1,
+    "last_alert_ts": 1792645408.5403008,
+    "last_score": 74.4,
     "symbol": "UHI"
   },
   "cex_small_cap:magma-finance": {
@@ -1008,5 +983,10 @@
     "last_alert_ts": 1792638195.6652563,
     "last_score": 85.1,
     "symbol": "HP"
+  },
+  "cex_small_cap:iotex": {
+    "last_alert_ts": 1792645408.5403008,
+    "last_score": 66.1,
+    "symbol": "IOTX"
   }
 }
