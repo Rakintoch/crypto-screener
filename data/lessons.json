@@ -9061,5 +9061,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "BILL (cex_small_cap) lost -9.4% in 164 min (fast (1-6h)) — stop-loss hit. Entry score: 82 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792634451.1801643,
+    "symbol": "BORT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/bort",
+    "held_minutes": 669.1,
+    "exit_reason": "momentum thesis invalidated (score dropped to 25)",
+    "pnl_pct": -1.41,
+    "pnl_eur": -0.19,
+    "entry_score": 76.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 263504,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.4504,
+    "entry_chg_24h": 34.92953,
+    "entry_chg_7d": 23.7444,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.17507698951879475,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "BORT (cex_small_cap) lost -1.4% in 669 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 77 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
