@@ -2387,5 +2387,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "DACITY (cex_small_cap) gained +17.3% in 312 min — trailing stop caught extra upside after the target. Entry score: 82. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792640121.2420382,
+    "symbol": "IRYS",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/irys",
+    "held_minutes": 763.6,
+    "exit_reason": "trailing stop hit — dropped 5.0% from the peak (peak +25.0% since entry)",
+    "pnl_pct": 18.74,
+    "pnl_eur": 2.55,
+    "entry_score": 93.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 53127505,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.9281,
+    "entry_chg_24h": 45.76468,
+    "entry_chg_7d": 27.6148,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.3883348369325073,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "IRYS (cex_small_cap) gained +18.7% in 764 min — trailing stop caught extra upside after the target. Entry score: 93. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
