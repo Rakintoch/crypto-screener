@@ -15,8 +15,8 @@
       "entry_price_eur": 0.009170370791242185,
       "entry_ts": 1792638196.1626372,
       "cost_eur": 13.41750665284147,
-      "last_price_eur": 0.008676417855673859,
-      "last_score": 62.9,
+      "last_price_eur": 0.00885565527433762,
+      "last_score": 63.5,
       "missed_updates": 0,
       "entry_market_cap": 15375945,
       "entry_venue": "Upbit",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 14427087
+      "last_market_cap": 14622132
     }
   },
   "closed_trades": [
@@ -735,8 +735,8 @@
       "pnl_pct": -8.110230783437508
     }
   ],
-  "last_run_ts": 1792654825.7817278,
-  "last_eur_rate": 0.8896909975599132,
+  "last_run_ts": 1792655127.4484928,
+  "last_eur_rate": 0.8897249917702881,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
