@@ -90,8 +90,8 @@
     "symbol": "DNA"
   },
   "cex_small_cap:caldera": {
-    "last_alert_ts": 1792738983.763942,
-    "last_score": 57.1,
+    "last_alert_ts": 1792753385.1565492,
+    "last_score": 74.2,
     "symbol": "ERA"
   },
   "cex_small_cap:altlayer": {
@@ -950,8 +950,8 @@
     "symbol": "VIRTUAL"
   },
   "dex_micro_cap:6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump": {
-    "last_alert_ts": 1792688586.1303067,
-    "last_score": 86.4,
+    "last_alert_ts": 1792753385.1565492,
+    "last_score": 62.6,
     "symbol": "Au"
   },
   "cex_small_cap:xpla": {
@@ -1040,8 +1040,8 @@
     "symbol": "McRib"
   },
   "cex_small_cap:sophon": {
-    "last_alert_ts": 1792746209.729768,
-    "last_score": 66.1,
+    "last_alert_ts": 1792753385.1565492,
+    "last_score": 84.9,
     "symbol": "SOPH"
   },
   "dex_micro_cap:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
@@ -1053,5 +1053,10 @@
     "last_alert_ts": 1792746209.729768,
     "last_score": 56.4,
     "symbol": "COTI"
+  },
+  "cex_small_cap:superform": {
+    "last_alert_ts": 1792753385.1565492,
+    "last_score": 82.1,
+    "symbol": "UP"
   }
 }

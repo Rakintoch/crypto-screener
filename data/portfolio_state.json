@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 53.21495884321448,
+  "cash_eur": 40.21971593003959,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:gitcoin": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.2607034849546019,
       "entry_ts": 1792680756.0453858,
       "cost_eur": 13.285596609648882,
-      "last_price_eur": 0.2658981690913706,
-      "last_score": 56.7,
+      "last_price_eur": 0.2627930711467017,
+      "last_score": 53.6,
       "missed_updates": 0,
       "entry_market_cap": 25488725,
       "entry_venue": null,
@@ -55,7 +55,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 26055844
+      "last_market_cap": 25736646
     },
     "cex_small_cap:bitlayer-bitvm": {
       "tier": "cex_small_cap",
@@ -67,8 +67,8 @@
       "entry_price_eur": 0.05421518466988126,
       "entry_ts": 1792731780.3536668,
       "cost_eur": 13.71749031881405,
-      "last_price_eur": 0.054530508301452126,
-      "last_score": 77.0,
+      "last_price_eur": 0.05433719191821903,
+      "last_score": 75.0,
       "missed_updates": 0,
       "entry_market_cap": 15800052,
       "entry_venue": "Bithumb",
@@ -97,7 +97,7 @@
           "source": "CoinMarketCap"
         }
       ],
-      "last_market_cap": 15977109
+      "last_market_cap": 15883405
     },
     "cex_small_cap:torch": {
       "tier": "cex_small_cap",
@@ -109,8 +109,8 @@
       "entry_price_eur": 0.01150317371817367,
       "entry_ts": 1792738984.250892,
       "cost_eur": 6.2637503367843,
-      "last_price_eur": 0.011217338498420645,
-      "last_score": 57.2,
+      "last_price_eur": 0.011532189833833292,
+      "last_score": 78.0,
       "missed_updates": 0,
       "entry_market_cap": 12894976,
       "entry_venue": "Uniswap V4 (Robinhood) (on-chain)",
@@ -131,7 +131,49 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12563594
+      "last_market_cap": 12643469
+    },
+    "cex_small_cap:irys": {
+      "tier": "cex_small_cap",
+      "id": "irys",
+      "symbol": "IRYS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/irys",
+      "qty": 356.02341004188463,
+      "entry_price_eur": 0.036501091070517126,
+      "entry_ts": 1792753385.7525618,
+      "cost_eur": 12.995242913174893,
+      "last_price_eur": 0.036501091070517126,
+      "last_score": 99.9,
+      "missed_updates": 0,
+      "entry_market_cap": 81826172,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x50f41f589afaca2ef41fdf590fe7b90cd26dee64 (ETH)",
+      "entry_score": 99.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 315494983,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 12.0057,
+      "entry_chg_24h": 106.35282,
+      "entry_chg_7d": 208.5215,
+      "entry_chg_6h": null,
+      "entry_turnover": 3.8556732557402293,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing",
+        "unlock"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Best Crypto To Invest In: Irys Surges 60% as AlphaPepe Unlocks a Live AI DEX and 100x Pre-Listing Upside - openPR.com",
+          "ts": 1792746830.0,
+          "source": "openPR.com"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -1193,8 +1235,8 @@
       "pnl_pct": -9.620067566681328
     }
   ],
-  "last_run_ts": 1792752918.093471,
-  "last_eur_rate": 0.8928449987957778,
+  "last_run_ts": 1792753385.7525618,
+  "last_eur_rate": 0.8932190080748776,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
