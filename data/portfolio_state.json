@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 70.08572605386152,
+  "cash_eur": 41.12891511364546,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:gitcoin": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.2607034849546019,
       "entry_ts": 1792680756.0453858,
       "cost_eur": 13.285596609648882,
-      "last_price_eur": 0.24990781180342128,
-      "last_score": 51.6,
+      "last_price_eur": 0.24782783848940532,
+      "last_score": 48.4,
       "missed_updates": 0,
       "entry_market_cap": 25488725,
       "entry_venue": null,
@@ -55,7 +55,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 24459962
+      "last_market_cap": 24284940
     },
     "cex_small_cap:bitlayer-bitvm": {
       "tier": "cex_small_cap",
@@ -67,8 +67,8 @@
       "entry_price_eur": 0.05421518466988126,
       "entry_ts": 1792731780.3536668,
       "cost_eur": 13.71749031881405,
-      "last_price_eur": 0.054626996476355424,
-      "last_score": 58.5,
+      "last_price_eur": 0.054571048201719465,
+      "last_score": 72.0,
       "missed_updates": 0,
       "entry_market_cap": 15800052,
       "entry_venue": "Bithumb",
@@ -97,7 +97,73 @@
           "source": "CoinMarketCap"
         }
       ],
-      "last_market_cap": 15980883
+      "last_market_cap": 15984860
+    },
+    "cex_small_cap:dappos": {
+      "tier": "cex_small_cap",
+      "id": "dappos",
+      "symbol": "DOS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/dappos",
+      "qty": 59.913044896178796,
+      "entry_price_eur": 0.24165697963101598,
+      "entry_ts": 1792782198.9651353,
+      "cost_eur": 14.478405470108026,
+      "last_price_eur": 0.24165697963101598,
+      "last_score": 98.1,
+      "missed_updates": 0,
+      "entry_market_cap": 54033740,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x951f086a127e280724fd93ccc543f65065afeb5e (ETH)",
+      "entry_score": 98.1,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 98116623,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 11.3527,
+      "entry_chg_24h": 25.2719,
+      "entry_chg_7d": 67.7725,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.8158399363064632,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
+    },
+    "cex_small_cap:bifrost": {
+      "tier": "cex_small_cap",
+      "id": "bifrost",
+      "symbol": "BFC",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/bifrost",
+      "qty": 495.75919871119214,
+      "entry_price_eur": 0.029204512004511525,
+      "entry_ts": 1792782198.9651353,
+      "cost_eur": 14.478405470108026,
+      "last_price_eur": 0.029204512004511525,
+      "last_score": 95.4,
+      "missed_updates": 0,
+      "entry_market_cap": 45342435,
+      "entry_venue": "Upbit",
+      "entry_contract_address": null,
+      "entry_score": 95.4,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 77574661,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 9.1301,
+      "entry_chg_24h": 51.23544,
+      "entry_chg_7d": 22.3043,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.7108622640138316,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -1250,8 +1316,8 @@
       "pnl_pct": 85.48626628052604
     }
   ],
-  "last_run_ts": 1792781721.2107866,
-  "last_eur_rate": 0.8932840003982703,
+  "last_run_ts": 1792782198.9651353,
+  "last_eur_rate": 0.8934210016489491,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
