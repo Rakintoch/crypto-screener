@@ -20,8 +20,8 @@
     "symbol": "PUFFER"
   },
   "cex_small_cap:concierge-io": {
-    "last_alert_ts": 1792724979.7114997,
-    "last_score": 59.1,
+    "last_alert_ts": 1792784803.2860434,
+    "last_score": 59.2,
     "symbol": "AVA"
   },
   "cex_small_cap:elsa": {
@@ -875,8 +875,8 @@
     "symbol": "BTR"
   },
   "dex_micro_cap:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": {
-    "last_alert_ts": 1792698282.2849746,
-    "last_score": 66.9,
+    "last_alert_ts": 1792784803.2860434,
+    "last_score": 65.3,
     "symbol": "BLACKTOBER"
   },
   "dex_micro_cap:0xa551def8a44ea423caa58da45b3f5764004286ea": {
@@ -1048,5 +1048,20 @@
     "last_alert_ts": 1792782198.4559274,
     "last_score": 58.9,
     "symbol": "EMBER"
+  },
+  "dex_micro_cap:2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump": {
+    "last_alert_ts": 1792784803.2860434,
+    "last_score": 98.0,
+    "symbol": "ARCTIS"
+  },
+  "cex_small_cap:initia": {
+    "last_alert_ts": 1792784803.2860434,
+    "last_score": 62.9,
+    "symbol": "INIT"
+  },
+  "cex_small_cap:bluwhale": {
+    "last_alert_ts": 1792784803.2860434,
+    "last_score": 56.8,
+    "symbol": "BLUAI"
   }
 }
