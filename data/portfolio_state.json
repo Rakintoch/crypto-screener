@@ -15,8 +15,8 @@
       "entry_price_eur": 0.2607034849546019,
       "entry_ts": 1792680756.0453858,
       "cost_eur": 13.285596609648882,
-      "last_price_eur": 0.26188926097663845,
-      "last_score": 62.3,
+      "last_price_eur": 0.26204724039482846,
+      "last_score": 61.1,
       "missed_updates": 0,
       "entry_market_cap": 25488725,
       "entry_venue": null,
@@ -55,7 +55,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 25634103
+      "last_market_cap": 25673349
     },
     "cex_small_cap:bitlayer-bitvm": {
       "tier": "cex_small_cap",
@@ -67,8 +67,8 @@
       "entry_price_eur": 0.05421518466988126,
       "entry_ts": 1792731780.3536668,
       "cost_eur": 13.71749031881405,
-      "last_price_eur": 0.054596420455799995,
-      "last_score": 70.9,
+      "last_price_eur": 0.05395471085497061,
+      "last_score": 70.8,
       "missed_updates": 0,
       "entry_market_cap": 15800052,
       "entry_venue": "Bithumb",
@@ -97,7 +97,7 @@
           "source": "CoinMarketCap"
         }
       ],
-      "last_market_cap": 15960793
+      "last_market_cap": 15814454
     },
     "cex_small_cap:torch": {
       "tier": "cex_small_cap",
@@ -109,8 +109,8 @@
       "entry_price_eur": 0.01150317371817367,
       "entry_ts": 1792738984.250892,
       "cost_eur": 6.2637503367843,
-      "last_price_eur": 0.010947388931739343,
-      "last_score": 52.9,
+      "last_price_eur": 0.010805114223846177,
+      "last_score": 53.0,
       "missed_updates": 0,
       "entry_market_cap": 12894976,
       "entry_venue": "Uniswap V4 (Robinhood) (on-chain)",
@@ -131,7 +131,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12275378
+      "last_market_cap": 12063983
     },
     "cex_small_cap:irys": {
       "tier": "cex_small_cap",
@@ -143,7 +143,7 @@
       "entry_price_eur": 0.036501091070517126,
       "entry_ts": 1792753385.7525618,
       "cost_eur": 12.995242913174893,
-      "last_price_eur": 0.04080058629009602,
+      "last_price_eur": 0.04083079159793564,
       "last_score": 89.7,
       "missed_updates": 0,
       "entry_market_cap": 81826172,
@@ -174,7 +174,7 @@
           "source": "openPR.com"
         }
       ],
-      "last_market_cap": 92198118
+      "last_market_cap": 91764488
     }
   },
   "closed_trades": [
@@ -1236,8 +1236,8 @@
       "pnl_pct": -9.620067566681328
     }
   ],
-  "last_run_ts": 1792768230.003398,
-  "last_eur_rate": 0.8927840082383529,
+  "last_run_ts": 1792768528.5905032,
+  "last_eur_rate": 0.8930090013898047,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
