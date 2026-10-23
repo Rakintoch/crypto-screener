@@ -15,8 +15,8 @@
       "entry_price_eur": 0.024164138398964655,
       "entry_ts": 1792680756.0453858,
       "cost_eur": 13.285596609648882,
-      "last_price_eur": 0.023899502957950413,
-      "last_score": 71.4,
+      "last_price_eur": 0.02405431083372338,
+      "last_score": 69.7,
       "missed_updates": 0,
       "entry_market_cap": 20355243,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 20148311
+      "last_market_cap": 20302613
     },
     "cex_small_cap:gitcoin": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.2607034849546019,
       "entry_ts": 1792680756.0453858,
       "cost_eur": 13.285596609648882,
-      "last_price_eur": 0.2836546773946148,
-      "last_score": 67.3,
+      "last_price_eur": 0.2816124327300762,
+      "last_score": 66.7,
       "missed_updates": 0,
       "entry_market_cap": 25488725,
       "entry_venue": null,
@@ -89,7 +89,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 27792245
+      "last_market_cap": 27556433
     },
     "cex_small_cap:bitlayer-bitvm": {
       "tier": "cex_small_cap",
@@ -101,8 +101,8 @@
       "entry_price_eur": 0.05421518466988126,
       "entry_ts": 1792731780.3536668,
       "cost_eur": 13.71749031881405,
-      "last_price_eur": 0.05414010423329408,
-      "last_score": 72.4,
+      "last_price_eur": 0.054928707757380374,
+      "last_score": 72.5,
       "missed_updates": 0,
       "entry_market_cap": 15800052,
       "entry_venue": "Bithumb",
@@ -131,7 +131,7 @@
           "source": "CoinMarketCap"
         }
       ],
-      "last_market_cap": 15860810
+      "last_market_cap": 16077546
     },
     "cex_small_cap:torch": {
       "tier": "cex_small_cap",
@@ -143,8 +143,8 @@
       "entry_price_eur": 0.01150317371817367,
       "entry_ts": 1792738984.250892,
       "cost_eur": 6.2637503367843,
-      "last_price_eur": 0.01150158875073627,
-      "last_score": 60.6,
+      "last_price_eur": 0.0113578326237777,
+      "last_score": 60.4,
       "missed_updates": 0,
       "entry_market_cap": 12894976,
       "entry_venue": "Uniswap V4 (Robinhood) (on-chain)",
@@ -165,7 +165,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12880313
+      "last_market_cap": 12716291
     }
   },
   "closed_trades": [
@@ -1187,8 +1187,8 @@
       "pnl_pct": -9.216212535096394
     }
   ],
-  "last_run_ts": 1792742454.3906288,
-  "last_eur_rate": 0.8929590010439399,
+  "last_run_ts": 1792742719.4480164,
+  "last_eur_rate": 0.8929899978439689,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
