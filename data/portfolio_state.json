@@ -15,8 +15,8 @@
       "entry_price_eur": 0.2607034849546019,
       "entry_ts": 1792680756.0453858,
       "cost_eur": 13.285596609648882,
-      "last_price_eur": 0.24511946412437693,
-      "last_score": 62.2,
+      "last_price_eur": 0.24671806426908022,
+      "last_score": 62.7,
       "missed_updates": 0,
       "entry_market_cap": 25488725,
       "entry_venue": null,
@@ -55,7 +55,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 24034683
+      "last_market_cap": 24153120
     },
     "cex_small_cap:bitlayer-bitvm": {
       "tier": "cex_small_cap",
@@ -67,8 +67,8 @@
       "entry_price_eur": 0.05421518466988126,
       "entry_ts": 1792731780.3536668,
       "cost_eur": 13.71749031881405,
-      "last_price_eur": 0.052605816346857355,
-      "last_score": 48.9,
+      "last_price_eur": 0.052411785424116876,
+      "last_score": 49.3,
       "missed_updates": 0,
       "entry_market_cap": 15800052,
       "entry_venue": "Bithumb",
@@ -97,7 +97,7 @@
           "source": "CoinMarketCap"
         }
       ],
-      "last_market_cap": 15384147
+      "last_market_cap": 15346510
     }
   },
   "closed_trades": [
@@ -1330,8 +1330,8 @@
       "pnl_pct": -9.85873363062391
     }
   ],
-  "last_run_ts": 1792788024.0339248,
-  "last_eur_rate": 0.8934260006938971,
+  "last_run_ts": 1792788329.75925,
+  "last_eur_rate": 0.8934690070765394,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
