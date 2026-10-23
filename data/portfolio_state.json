@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 47.471195940834846,
+  "cash_eur": 41.20744560405055,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:bubblemaps": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.024164138398964655,
       "entry_ts": 1792680756.0453858,
       "cost_eur": 13.285596609648882,
-      "last_price_eur": 0.02433473133141562,
-      "last_score": 83.0,
+      "last_price_eur": 0.024283731519391984,
+      "last_score": 69.2,
       "missed_updates": 0,
       "entry_market_cap": 20355243,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 20534897
+      "last_market_cap": 20506682
     },
     "cex_small_cap:gitcoin": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.2607034849546019,
       "entry_ts": 1792680756.0453858,
       "cost_eur": 13.285596609648882,
-      "last_price_eur": 0.2885387638720215,
-      "last_score": 78.2,
+      "last_price_eur": 0.29054065287730785,
+      "last_score": 68.1,
       "missed_updates": 0,
       "entry_market_cap": 25488725,
       "entry_venue": null,
@@ -89,7 +89,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 28453386
+      "last_market_cap": 28491899
     },
     "cex_small_cap:bitlayer-bitvm": {
       "tier": "cex_small_cap",
@@ -101,8 +101,8 @@
       "entry_price_eur": 0.05421518466988126,
       "entry_ts": 1792731780.3536668,
       "cost_eur": 13.71749031881405,
-      "last_price_eur": 0.054697896874021955,
-      "last_score": 75.7,
+      "last_price_eur": 0.0547526780846929,
+      "last_score": 78.5,
       "missed_updates": 0,
       "entry_market_cap": 15800052,
       "entry_venue": "Bithumb",
@@ -131,7 +131,40 @@
           "source": "CoinMarketCap"
         }
       ],
-      "last_market_cap": 16071896
+      "last_market_cap": 16052093
+    },
+    "cex_small_cap:torch": {
+      "tier": "cex_small_cap",
+      "id": "torch",
+      "symbol": "TORCH",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/torch",
+      "qty": 544.5236671413826,
+      "entry_price_eur": 0.01150317371817367,
+      "entry_ts": 1792738984.250892,
+      "cost_eur": 6.2637503367843,
+      "last_price_eur": 0.01150317371817367,
+      "last_score": 73.1,
+      "missed_updates": 0,
+      "entry_market_cap": 12894976,
+      "entry_venue": "Uniswap V4 (Robinhood) (on-chain)",
+      "entry_contract_address": "0x000050e18ffa3f8f7ad170eb9cef160eb3ed1111 (robinhood)",
+      "entry_score": 73.1,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 3815473,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 2.7585,
+      "entry_chg_24h": 22.76002,
+      "entry_chg_7d": 368.8376,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.2958883366669314,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -1153,8 +1186,8 @@
       "pnl_pct": -9.216212535096394
     }
   ],
-  "last_run_ts": 1792738519.5510366,
-  "last_eur_rate": 0.8918620067507248,
+  "last_run_ts": 1792738984.250892,
+  "last_eur_rate": 0.8920279909529635,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
