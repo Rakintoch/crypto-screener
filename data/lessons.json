@@ -9331,5 +9331,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "TORCH (cex_small_cap) lost -8.0% in 568 min (slow (>6h)) — stop-loss hit. Entry score: 73 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792785320.1545975,
+    "symbol": "BFC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/bifrost",
+    "held_minutes": 52.0,
+    "exit_reason": "stop-loss hit (-11.7%)",
+    "pnl_pct": -11.72,
+    "pnl_eur": -1.7,
+    "entry_score": 95.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 77574661,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 9.1301,
+    "entry_chg_24h": 51.23544,
+    "entry_chg_7d": 22.3043,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.7108622640138316,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "BFC (cex_small_cap) lost -11.7% in 52 min (very fast (<1h)) — stop-loss hit. Entry score: 95 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
