@@ -15,8 +15,8 @@
       "entry_price_eur": 0.2607034849546019,
       "entry_ts": 1792680756.0453858,
       "cost_eur": 13.285596609648882,
-      "last_price_eur": 0.277394988528462,
-      "last_score": 71.6,
+      "last_price_eur": 0.2788872324533954,
+      "last_score": 72.5,
       "missed_updates": 0,
       "entry_market_cap": 25488725,
       "entry_venue": null,
@@ -55,7 +55,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 27221625
+      "last_market_cap": 27321899
     },
     "cex_small_cap:bitlayer-bitvm": {
       "tier": "cex_small_cap",
@@ -67,7 +67,7 @@
       "entry_price_eur": 0.05421518466988126,
       "entry_ts": 1792731780.3536668,
       "cost_eur": 13.71749031881405,
-      "last_price_eur": 0.05476748574096399,
+      "last_price_eur": 0.054548410432441914,
       "last_score": 77.4,
       "missed_updates": 0,
       "entry_market_cap": 15800052,
@@ -97,7 +97,7 @@
           "source": "CoinMarketCap"
         }
       ],
-      "last_market_cap": 16031800
+      "last_market_cap": 15978503
     },
     "cex_small_cap:torch": {
       "tier": "cex_small_cap",
@@ -109,8 +109,8 @@
       "entry_price_eur": 0.01150317371817367,
       "entry_ts": 1792738984.250892,
       "cost_eur": 6.2637503367843,
-      "last_price_eur": 0.010878246227996503,
-      "last_score": 52.8,
+      "last_price_eur": 0.010871262430024668,
+      "last_score": 53.2,
       "missed_updates": 0,
       "entry_market_cap": 12894976,
       "entry_venue": "Uniswap V4 (Robinhood) (on-chain)",
@@ -131,7 +131,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12214370
+      "last_market_cap": 12172979
     }
   },
   "closed_trades": [
@@ -1193,8 +1193,8 @@
       "pnl_pct": -9.620067566681328
     }
   ],
-  "last_run_ts": 1792748424.448025,
-  "last_eur_rate": 0.893185996395192,
+  "last_run_ts": 1792748552.35858,
+  "last_eur_rate": 0.8930650038055323,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
