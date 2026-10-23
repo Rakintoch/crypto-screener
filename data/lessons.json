@@ -9385,5 +9385,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "DOS (cex_small_cap) lost -9.9% in 58 min (very fast (<1h)) — stop-loss hit. Entry score: 98 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792793725.9932811,
+    "symbol": "BTR",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/bitlayer-bitvm",
+    "held_minutes": 1032.4,
+    "exit_reason": "stop-loss hit (-8.2%)",
+    "pnl_pct": -8.16,
+    "pnl_eur": -1.12,
+    "entry_score": 76.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 41484707,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 0.3227,
+    "entry_chg_24h": 38.11514,
+    "entry_chg_7d": 27.1806,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.625605725854573,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "BTR (cex_small_cap) lost -8.2% in 1032 min (slow (>6h)) — stop-loss hit. Entry score: 77 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

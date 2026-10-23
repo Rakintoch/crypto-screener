@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 66.9618254629229,
+  "cash_eur": 79.5597733052209,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:gitcoin": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.2607034849546019,
       "entry_ts": 1792680756.0453858,
       "cost_eur": 13.285596609648882,
-      "last_price_eur": 0.24635356660825689,
-      "last_score": 46.2,
+      "last_price_eur": 0.24486897713520667,
+      "last_score": 45.8,
       "missed_updates": 0,
       "entry_market_cap": 25488725,
       "entry_venue": null,
@@ -55,49 +55,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 24137342
-    },
-    "cex_small_cap:bitlayer-bitvm": {
-      "tier": "cex_small_cap",
-      "id": "bitlayer-bitvm",
-      "symbol": "BTR",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/bitlayer-bitvm",
-      "qty": 253.0193413955975,
-      "entry_price_eur": 0.05421518466988126,
-      "entry_ts": 1792731780.3536668,
-      "cost_eur": 13.71749031881405,
-      "last_price_eur": 0.05000202790738869,
-      "last_score": 38.8,
-      "missed_updates": 0,
-      "entry_market_cap": 15800052,
-      "entry_venue": "Bithumb",
-      "entry_contract_address": "0x0e4cf4affdb72b39ea91fa726d291781cbd020bf (bitlayer)",
-      "entry_score": 76.6,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 41484707,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 0.3227,
-      "entry_chg_24h": 38.11514,
-      "entry_chg_7d": 27.1806,
-      "entry_chg_6h": null,
-      "entry_turnover": 2.625605725854573,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Bitlayer Launches $100K USDT Airdrop for DeAgentAI Community - CoinMarketCap",
-          "ts": 1792479289.0,
-          "source": "CoinMarketCap"
-        }
-      ],
-      "last_market_cap": 14686537
+      "last_market_cap": 23998585
     }
   },
   "closed_trades": [
@@ -1328,10 +1286,58 @@
       "proceeds_eur": 13.051018040848394,
       "pnl_eur": -1.4273874292596318,
       "pnl_pct": -9.85873363062391
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "bitlayer-bitvm",
+      "symbol": "BTR",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/bitlayer-bitvm",
+      "qty": 253.0193413955975,
+      "entry_price_eur": 0.05421518466988126,
+      "entry_ts": 1792731780.3536668,
+      "cost_eur": 13.71749031881405,
+      "last_price_eur": 0.04979045385546642,
+      "last_score": 38.6,
+      "missed_updates": 0,
+      "entry_market_cap": 15800052,
+      "entry_venue": "Bithumb",
+      "entry_contract_address": "0x0e4cf4affdb72b39ea91fa726d291781cbd020bf (bitlayer)",
+      "entry_score": 76.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 41484707,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 0.3227,
+      "entry_chg_24h": 38.11514,
+      "entry_chg_7d": 27.1806,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.625605725854573,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Bitlayer Launches $100K USDT Airdrop for DeAgentAI Community - CoinMarketCap",
+          "ts": 1792479289.0,
+          "source": "CoinMarketCap"
+        }
+      ],
+      "last_market_cap": 14590452,
+      "exit_price_eur": 0.04979045385546642,
+      "exit_ts": 1792793725.9932811,
+      "exit_reason": "stop-loss hit (-8.2%)",
+      "proceeds_eur": 12.597947842298002,
+      "pnl_eur": -1.1195424765160489,
+      "pnl_pct": -8.161423485610591
     }
   ],
-  "last_run_ts": 1792793423.0644703,
-  "last_eur_rate": 0.8927180001676223,
+  "last_run_ts": 1792793725.9932811,
+  "last_eur_rate": 0.8927180022136914,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
