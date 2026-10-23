@@ -2517,5 +2517,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "IRYS (cex_small_cap) gained +21.5% in 743 min — trailing stop caught extra upside after the target. Entry score: 91. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792773043.3835585,
+    "symbol": "IRYS",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/irys",
+    "held_minutes": 327.6,
+    "exit_reason": "trailing stop hit — dropped 6.4% from the peak (peak +98.3% since entry)",
+    "pnl_pct": 85.49,
+    "pnl_eur": 11.11,
+    "entry_score": 99.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 315494983,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 12.0057,
+    "entry_chg_24h": 106.35282,
+    "entry_chg_7d": 208.5215,
+    "entry_chg_6h": null,
+    "entry_turnover": 3.8556732557402293,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "IRYS (cex_small_cap) gained +85.5% in 328 min — trailing stop caught extra upside after the target. Entry score: 100. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

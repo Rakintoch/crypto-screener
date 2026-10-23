@@ -9304,5 +9304,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "BMT (cex_small_cap) lost -9.6% in 1128 min (slow (>6h)) — stop-loss hit. Entry score: 91 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792773043.3835585,
+    "symbol": "TORCH",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/torch",
+    "held_minutes": 567.7,
+    "exit_reason": "stop-loss hit (-8.0%)",
+    "pnl_pct": -8.02,
+    "pnl_eur": -0.5,
+    "entry_score": 73.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 3815473,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 2.7585,
+    "entry_chg_24h": 22.76002,
+    "entry_chg_7d": 368.8376,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.2958883366669314,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "TORCH (cex_small_cap) lost -8.0% in 568 min (slow (>6h)) — stop-loss hit. Entry score: 73 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
