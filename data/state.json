@@ -170,8 +170,8 @@
     "symbol": "APR"
   },
   "cex_small_cap:cartoon-money": {
-    "last_alert_ts": 1792580588.0281746,
-    "last_score": 61.6,
+    "last_alert_ts": 1792731779.9413373,
+    "last_score": 73.2,
     "symbol": "CBUCKS"
   },
   "cex_small_cap:startupsi": {
@@ -258,11 +258,6 @@
     "last_alert_ts": 1792602209.2012043,
     "last_score": 79.0,
     "symbol": "GRVT"
-  },
-  "cex_small_cap:lobster-2": {
-    "last_alert_ts": 1792472572.5567386,
-    "last_score": 61.7,
-    "symbol": "龙虾"
   },
   "cex_small_cap:janction": {
     "last_alert_ts": 1792681398.585894,
@@ -870,8 +865,8 @@
     "symbol": "PROM"
   },
   "cex_small_cap:hippo-protocol": {
-    "last_alert_ts": 1792681398.585894,
-    "last_score": 85.1,
+    "last_alert_ts": 1792731779.9413373,
+    "last_score": 56.8,
     "symbol": "HP"
   },
   "cex_small_cap:iotex": {
@@ -1058,5 +1053,10 @@
     "last_alert_ts": 1792724611.2067106,
     "last_score": 56.8,
     "symbol": "BFC"
+  },
+  "cex_small_cap:delivery-guy": {
+    "last_alert_ts": 1792731779.9413373,
+    "last_score": 71.2,
+    "symbol": "DGUY"
   }
 }
