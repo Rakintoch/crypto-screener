@@ -161,7 +161,23 @@ POSITION_SIZE_PCT_OF_EQUITY = 0.25   # fallback para camadas sem valor específi
 # (ganhos e perdas escalam com o mesmo fator), mas reduz o risco de cauda — a AIN sozinha, a
 # 25% de tamanho, custou ~20% do equity total numa única posição, perigosamente perto do
 # disjuntor de -75% (MAX_DRAWDOWN_HALT_PCT).
-POSITION_SIZE_PCT_BY_TIER = {"cex_small_cap": 0.15, "dex_micro_cap": 0.12}
+# Autoanálise 2026-10-23 (revisão do ciclo #4 da Challenge, fechado 2026-10-21, 102 trades,
+# -41,26%): medido pela primeira vez o overshoot real do stop-loss em dex_micro_cap (-20%)
+# nos 4 ciclos completos até agora (24 fechos por stop-loss): perda real média -27,17%
+# (mediana -23,0%), sempre pior que o gatilho em CADA um dos 4 ciclos isolados (-23,1% /
+# -26,0% / -21,9% / -30,9%), incluindo um rug quase total (Dacity, -99,98%, ciclo #4) e
+# KIMCHIBULL (-26,1%) já no ciclo #5 em curso. missed_updates=0 em todos os casos — não é
+# falta de dados, é a mesma dinâmica já descrita para o cex_small_cap (saltos de preço entre
+# verificações maiores do que qualquer gatilho consegue apanhar a tempo), só que mais extrema
+# aqui. Nem liquidez de entrada nem idade da pool separam vencedores de perdedores nesta
+# amostra (os perdedores tiveram, em média, liquidez E idade de pool MAIORES que os
+# vencedores — n pequeno, 3 vitórias vs. 12 derrotas só no ciclo #4 — por isso ainda não há
+# um filtro de entrada numericamente justificável). Aplica-se a mesma lógica já usada 3x
+# antes (dex 2026-08-30, cex_small_cap 2026-09-18, venue on-chain 2026-09-24): quando o
+# risco de cauda medido excede o que o tamanho de posição atual pressupõe, reduz-se esse
+# tamanho na proporção do excesso (0,20 / 0,2717 ≈ 0,74 -> 12% * 0,74 ≈ 8,8%, arredondado a
+# 9%).
+POSITION_SIZE_PCT_BY_TIER = {"cex_small_cap": 0.15, "dex_micro_cap": 0.09}
 MIN_TRADE_EUR = 5.0                  # não abre/fecha posições de valor residual
 
 # Autoanálise 2026-09-24 (85 trades cex_small_cap fechados nas duas challenges até agora, 12
