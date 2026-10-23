@@ -15,7 +15,7 @@
       "entry_price_eur": 0.024164138398964655,
       "entry_ts": 1792680756.0453858,
       "cost_eur": 13.285596609648882,
-      "last_price_eur": 0.025813202581156765,
+      "last_price_eur": 0.025821070959145424,
       "last_score": 81.6,
       "missed_updates": 0,
       "entry_market_cap": 20355243,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 21783255
+      "last_market_cap": 21797199
     },
     "cex_small_cap:gitcoin": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.2607034849546019,
       "entry_ts": 1792680756.0453858,
       "cost_eur": 13.285596609648882,
-      "last_price_eur": 0.2894098891419469,
-      "last_score": 91.1,
+      "last_price_eur": 0.2873518800176005,
+      "last_score": 90.0,
       "missed_updates": 0,
       "entry_market_cap": 25488725,
       "entry_venue": null,
@@ -89,7 +89,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 28384302
+      "last_market_cap": 28280843
     }
   },
   "closed_trades": [
@@ -1071,8 +1071,8 @@
       "pnl_pct": -8.057647671124705
     }
   ],
-  "last_run_ts": 1792731258.6361704,
-  "last_eur_rate": 0.8920729944207175,
+  "last_run_ts": 1792731319.2050476,
+  "last_eur_rate": 0.8920730045840503,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
