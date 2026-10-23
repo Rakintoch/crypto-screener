@@ -15,8 +15,8 @@
       "entry_price_eur": 0.2607034849546019,
       "entry_ts": 1792680756.0453858,
       "cost_eur": 13.285596609648882,
-      "last_price_eur": 0.2606095943640685,
-      "last_score": 52.2,
+      "last_price_eur": 0.2655082720443608,
+      "last_score": 54.4,
       "missed_updates": 0,
       "entry_market_cap": 25488725,
       "entry_venue": null,
@@ -55,7 +55,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 25548463
+      "last_market_cap": 25994613
     },
     "cex_small_cap:bitlayer-bitvm": {
       "tier": "cex_small_cap",
@@ -67,7 +67,7 @@
       "entry_price_eur": 0.05421518466988126,
       "entry_ts": 1792731780.3536668,
       "cost_eur": 13.71749031881405,
-      "last_price_eur": 0.05524983017179622,
+      "last_price_eur": 0.05536307372630112,
       "last_score": 74.3,
       "missed_updates": 0,
       "entry_market_cap": 15800052,
@@ -97,7 +97,7 @@
           "source": "CoinMarketCap"
         }
       ],
-      "last_market_cap": 16194911
+      "last_market_cap": 16189049
     },
     "cex_small_cap:torch": {
       "tier": "cex_small_cap",
@@ -109,7 +109,7 @@
       "entry_price_eur": 0.01150317371817367,
       "entry_ts": 1792738984.250892,
       "cost_eur": 6.2637503367843,
-      "last_price_eur": 0.011114312760180017,
+      "last_price_eur": 0.011051300649427076,
       "last_score": 77.5,
       "missed_updates": 0,
       "entry_market_cap": 12894976,
@@ -131,7 +131,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12453496
+      "last_market_cap": 12300575
     },
     "cex_small_cap:irys": {
       "tier": "cex_small_cap",
@@ -143,7 +143,7 @@
       "entry_price_eur": 0.036501091070517126,
       "entry_ts": 1792753385.7525618,
       "cost_eur": 12.995242913174893,
-      "last_price_eur": 0.03830348181442776,
+      "last_price_eur": 0.03762903165392402,
       "last_score": 99.6,
       "missed_updates": 0,
       "entry_market_cap": 81826172,
@@ -174,7 +174,7 @@
           "source": "openPR.com"
         }
       ],
-      "last_market_cap": 85837504
+      "last_market_cap": 83918985
     }
   },
   "closed_trades": [
@@ -1236,8 +1236,8 @@
       "pnl_pct": -9.620067566681328
     }
   ],
-  "last_run_ts": 1792765846.2603345,
-  "last_eur_rate": 0.8924649905793566,
+  "last_run_ts": 1792766121.7981942,
+  "last_eur_rate": 0.8929239980371781,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
