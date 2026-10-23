@@ -9,11 +9,6 @@
     "last_score": 73.7,
     "symbol": "PRIORS"
   },
-  "cex_small_cap:doppler-finance": {
-    "last_alert_ts": 1792508577.9549189,
-    "last_score": 61.4,
-    "symbol": "XDP"
-  },
   "cex_small_cap:osmosis": {
     "last_alert_ts": 1792738983.763942,
     "last_score": 60.7,
@@ -60,8 +55,8 @@
     "symbol": "FORT"
   },
   "cex_small_cap:termmax": {
-    "last_alert_ts": 1792652609.9337668,
-    "last_score": 62.3,
+    "last_alert_ts": 1792767827.7130146,
+    "last_score": 55.5,
     "symbol": "TMX"
   },
   "cex_small_cap:solv-protocol": {
@@ -133,11 +128,6 @@
     "last_alert_ts": 1792595045.1150794,
     "last_score": 68.1,
     "symbol": "REGENT"
-  },
-  "dex_micro_cap:EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump": {
-    "last_alert_ts": 1792508577.9549189,
-    "last_score": 57.6,
-    "symbol": "startupSI"
   },
   "cex_small_cap:baton-3": {
     "last_alert_ts": 1792587807.5435295,
@@ -284,30 +274,10 @@
     "last_score": 68.5,
     "symbol": "SECZB"
   },
-  "cex_small_cap:hookr-fun": {
-    "last_alert_ts": 1792508577.9549189,
-    "last_score": 64.2,
-    "symbol": "HOOKR"
-  },
-  "cex_small_cap:usa-rare-earth-bstocks-tokenized-stock": {
-    "last_alert_ts": 1792508577.9549189,
-    "last_score": 60.3,
-    "symbol": "USARB"
-  },
-  "cex_small_cap:lab": {
-    "last_alert_ts": 1792508577.9549189,
-    "last_score": 59.0,
-    "symbol": "LAB"
-  },
   "cex_small_cap:kernel-2": {
     "last_alert_ts": 1792724979.7114997,
     "last_score": 77.2,
     "symbol": "KERNEL"
-  },
-  "cex_small_cap:burnie-senders": {
-    "last_alert_ts": 1792508577.9549189,
-    "last_score": 58.1,
-    "symbol": "BURNIE"
   },
   "cex_small_cap:dell-bstocks-tokenized-stock": {
     "last_alert_ts": 1792580588.0281746,
@@ -318,16 +288,6 @@
     "last_alert_ts": 1792623707.6726172,
     "last_score": 60.0,
     "symbol": "SAGA"
-  },
-  "cex_small_cap:micron-technology-inc-coinbase-tokenized-stock": {
-    "last_alert_ts": 1792508577.9549189,
-    "last_score": 56.3,
-    "symbol": "MUC"
-  },
-  "cex_small_cap:superfortune": {
-    "last_alert_ts": 1792508577.9549189,
-    "last_score": 55.6,
-    "symbol": "GUA"
   },
   "dex_micro_cap:2qgnTgJbZU6Tu6CMrm5Z5ePDGuUAyGTACbBoBCw6pump": {
     "last_alert_ts": 1792566205.9229093,
@@ -355,8 +315,8 @@
     "symbol": "LYN"
   },
   "cex_small_cap:dappos": {
-    "last_alert_ts": 1792738983.763942,
-    "last_score": 62.9,
+    "last_alert_ts": 1792767827.7130146,
+    "last_score": 81.3,
     "symbol": "DOS"
   },
   "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
@@ -445,8 +405,8 @@
     "symbol": "SPCX"
   },
   "cex_small_cap:moonbirds": {
-    "last_alert_ts": 1792724611.2067106,
-    "last_score": 89.4,
+    "last_alert_ts": 1792767827.7130146,
+    "last_score": 97.5,
     "symbol": "BIRB"
   },
   "cex_small_cap:enso": {
@@ -515,8 +475,8 @@
     "symbol": "NDOF"
   },
   "cex_small_cap:irys": {
-    "last_alert_ts": 1792724611.2067106,
-    "last_score": 95.4,
+    "last_alert_ts": 1792767827.7130146,
+    "last_score": 99.6,
     "symbol": "IRYS"
   },
   "cex_small_cap:argus-2": {
@@ -985,8 +945,8 @@
     "symbol": "SHAV"
   },
   "cex_small_cap:pair": {
-    "last_alert_ts": 1792710206.1053004,
-    "last_score": 65.5,
+    "last_alert_ts": 1792767827.7130146,
+    "last_score": 86.2,
     "symbol": "PAIR"
   },
   "cex_small_cap:aligned": {
@@ -1053,5 +1013,15 @@
     "last_alert_ts": 1792766354.481823,
     "last_score": 59.7,
     "symbol": "ZZZ"
+  },
+  "cex_small_cap:captainbnb": {
+    "last_alert_ts": 1792767827.7130146,
+    "last_score": 59.8,
+    "symbol": "CAPTAINBNB"
+  },
+  "cex_small_cap:blackberry-bstocks-tokenized-stock": {
+    "last_alert_ts": 1792767827.7130146,
+    "last_score": 55.3,
+    "symbol": "BBB"
   }
 }
