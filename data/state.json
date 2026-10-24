@@ -119,11 +119,6 @@
     "last_score": 63.4,
     "symbol": "BATON"
   },
-  "cex_small_cap:apriori": {
-    "last_alert_ts": 1792559002.9581132,
-    "last_score": 61.0,
-    "symbol": "APR"
-  },
   "cex_small_cap:cartoon-money": {
     "last_alert_ts": 1792789414.0703335,
     "last_score": 80.4,
@@ -265,8 +260,8 @@
     "symbol": "MRNAB"
   },
   "cex_small_cap:dappos": {
-    "last_alert_ts": 1792782198.4559274,
-    "last_score": 98.1,
+    "last_alert_ts": 1792825398.6934657,
+    "last_score": 81.9,
     "symbol": "DOS"
   },
   "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
@@ -349,21 +344,6 @@
     "last_score": 56.9,
     "symbol": "B3"
   },
-  "cex_small_cap:stockereum-fun": {
-    "last_alert_ts": 1792559002.9581132,
-    "last_score": 76.1,
-    "symbol": "STOCKER"
-  },
-  "cex_small_cap:costco-ondo-tokenized-stock": {
-    "last_alert_ts": 1792559002.9581132,
-    "last_score": 57.9,
-    "symbol": "COSTON"
-  },
-  "cex_small_cap:coherent-ondo-tokenized": {
-    "last_alert_ts": 1792559002.9581132,
-    "last_score": 57.3,
-    "symbol": "COHRON"
-  },
   "dex_micro_cap:0x3752c75b0e7b280929fc54e9eb739c20ace85cde": {
     "last_alert_ts": 1792566205.9229093,
     "last_score": 71.3,
@@ -400,8 +380,8 @@
     "symbol": "SKYAI"
   },
   "cex_small_cap:antfun": {
-    "last_alert_ts": 1792631003.745344,
-    "last_score": 61.6,
+    "last_alert_ts": 1792825398.6934657,
+    "last_score": 67.9,
     "symbol": "ANTFUN"
   },
   "cex_small_cap:lagrange": {
@@ -410,8 +390,8 @@
     "symbol": "LA"
   },
   "dex_micro_cap:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": {
-    "last_alert_ts": 1792766354.481823,
-    "last_score": 70.7,
+    "last_alert_ts": 1792825398.6934657,
+    "last_score": 56.0,
     "symbol": "PHP"
   },
   "dex_micro_cap:0x6fe63c4520eace064c5443dd7e10cbe7d4487777": {
@@ -450,8 +430,8 @@
     "symbol": "W"
   },
   "cex_small_cap:universal-high-income-2": {
-    "last_alert_ts": 1792766354.481823,
-    "last_score": 74.1,
+    "last_alert_ts": 1792825398.6934657,
+    "last_score": 68.7,
     "symbol": "UHI"
   },
   "cex_small_cap:magma-finance": {
@@ -850,8 +830,8 @@
     "symbol": "ALIGN"
   },
   "cex_small_cap:bifrost": {
-    "last_alert_ts": 1792782198.4559274,
-    "last_score": 95.4,
+    "last_alert_ts": 1792825398.6934657,
+    "last_score": 81.1,
     "symbol": "BFC"
   },
   "cex_small_cap:delivery-guy": {
@@ -895,8 +875,8 @@
     "symbol": "PANGEA"
   },
   "cex_small_cap:infinit": {
-    "last_alert_ts": 1792775003.1284602,
-    "last_score": 85.5,
+    "last_alert_ts": 1792825398.6934657,
+    "last_score": 100.0,
     "symbol": "IN"
   },
   "dex_micro_cap:5UHeHyfB4fo7sy4hHN9gGBJvYSQdz7w6ienZoSTDpump": {
@@ -920,13 +900,13 @@
     "symbol": "BBB"
   },
   "cex_small_cap:ark": {
-    "last_alert_ts": 1792775003.1284602,
-    "last_score": 91.7,
+    "last_alert_ts": 1792825398.6934657,
+    "last_score": 78.8,
     "symbol": "ARK"
   },
   "cex_small_cap:interfold": {
-    "last_alert_ts": 1792775003.1284602,
-    "last_score": 85.5,
+    "last_alert_ts": 1792825398.6934657,
+    "last_score": 85.0,
     "symbol": "FOLD"
   },
   "dex_micro_cap:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": {
@@ -955,8 +935,8 @@
     "symbol": "ZKP"
   },
   "cex_small_cap:fluent-network": {
-    "last_alert_ts": 1792775003.1284602,
-    "last_score": 58.0,
+    "last_alert_ts": 1792825398.6934657,
+    "last_score": 60.4,
     "symbol": "BLEND"
   },
   "cex_small_cap:polyswarm": {
@@ -990,8 +970,8 @@
     "symbol": "ARCTIS"
   },
   "cex_small_cap:initia": {
-    "last_alert_ts": 1792784803.2860434,
-    "last_score": 62.9,
+    "last_alert_ts": 1792825398.6934657,
+    "last_score": 86.0,
     "symbol": "INIT"
   },
   "cex_small_cap:bluwhale": {
@@ -1058,5 +1038,15 @@
     "last_alert_ts": 1792818185.4051006,
     "last_score": 56.0,
     "symbol": "DATA"
+  },
+  "cex_small_cap:superfortune": {
+    "last_alert_ts": 1792825398.6934657,
+    "last_score": 66.5,
+    "symbol": "GUA"
+  },
+  "cex_small_cap:bitlight": {
+    "last_alert_ts": 1792825398.6934657,
+    "last_score": 62.4,
+    "symbol": "LIGHT"
   }
 }
