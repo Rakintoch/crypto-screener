@@ -9817,5 +9817,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "STONKS (cex_small_cap) lost -10.7% in 127 min (fast (1-6h)) — stop-loss hit. Entry score: 96 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792867526.161575,
+    "symbol": "ERA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/caldera",
+    "held_minutes": 295.0,
+    "exit_reason": "stop-loss hit (-9.5%)",
+    "pnl_pct": -9.5,
+    "pnl_eur": -1.42,
+    "entry_score": 74.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 138336237,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 0.2383,
+    "entry_chg_24h": 24.52541,
+    "entry_chg_7d": 27.7578,
+    "entry_chg_6h": null,
+    "entry_turnover": 8.575166252970071,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "ERA (cex_small_cap) lost -9.5% in 295 min (fast (1-6h)) — stop-loss hit. Entry score: 75 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
