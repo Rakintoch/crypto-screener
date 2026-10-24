@@ -550,8 +550,8 @@
     "symbol": "COTI"
   },
   "cex_small_cap:superform": {
-    "last_alert_ts": 1792846999.9674516,
-    "last_score": 73.2,
+    "last_alert_ts": 1792886383.8400476,
+    "last_score": 93.0,
     "symbol": "UP"
   },
   "dex_micro_cap:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": {
@@ -715,8 +715,8 @@
     "symbol": "ZORA"
   },
   "cex_small_cap:treehouse": {
-    "last_alert_ts": 1792839778.1715455,
-    "last_score": 99.5,
+    "last_alert_ts": 1792886383.8400476,
+    "last_score": 56.6,
     "symbol": "TREE"
   },
   "cex_small_cap:intuition": {
@@ -898,5 +898,10 @@
     "last_alert_ts": 1792882992.1505697,
     "last_score": 60.0,
     "symbol": "NIL"
+  },
+  "dex_micro_cap:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": {
+    "last_alert_ts": 1792886383.8400476,
+    "last_score": 56.0,
+    "symbol": "███"
   }
 }
