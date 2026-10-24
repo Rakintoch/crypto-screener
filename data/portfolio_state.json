@@ -2,51 +2,9 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 79.56133146953503,
+  "cash_eur": 85.13060290236527,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
-    "cex_small_cap:janction": {
-      "tier": "cex_small_cap",
-      "id": "janction",
-      "symbol": "JCT",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/janction",
-      "qty": 1745.9300449226705,
-      "entry_price_eur": 0.004211333450093771,
-      "entry_ts": 1792839778.671665,
-      "cost_eur": 7.352693599706562,
-      "last_price_eur": 0.004347918540882967,
-      "last_score": 93.7,
-      "missed_updates": 0,
-      "entry_market_cap": 54192913,
-      "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
-      "entry_contract_address": null,
-      "entry_score": 90.7,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 56545776,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 26.9032,
-      "entry_chg_24h": 13.25506,
-      "entry_chg_7d": 131.7911,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.0434164334366007,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "unlock"
-      ],
-      "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Janction (JCT) Price Prediction 2026-2030: Unlock Schedule - Phemex",
-          "ts": 1792665694.0,
-          "source": "Phemex"
-        }
-      ],
-      "last_market_cap": 56056036
-    },
     "cex_small_cap:lagrange": {
       "tier": "cex_small_cap",
       "id": "lagrange",
@@ -57,8 +15,8 @@
       "entry_price_eur": 0.06084699309789433,
       "entry_ts": 1792839778.671665,
       "cost_eur": 15.755771999371202,
-      "last_price_eur": 0.057029608078206936,
-      "last_score": 85.9,
+      "last_price_eur": 0.056691336671737966,
+      "last_score": 85.3,
       "missed_updates": 0,
       "entry_market_cap": 24351086,
       "entry_venue": null,
@@ -79,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 22811449
+      "last_market_cap": 22667825
     }
   },
   "closed_trades": [
@@ -1986,10 +1944,58 @@
       "proceeds_eur": 14.090311052778903,
       "pnl_eur": -1.7329869840721521,
       "pnl_pct": -10.952122497068432
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "janction",
+      "symbol": "JCT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/janction",
+      "qty": 1745.9300449226705,
+      "entry_price_eur": 0.004211333450093771,
+      "entry_ts": 1792839778.671665,
+      "cost_eur": 7.352693599706562,
+      "last_price_eur": 0.003189859438541772,
+      "last_score": 70.0,
+      "missed_updates": 0,
+      "entry_market_cap": 54192913,
+      "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
+      "entry_contract_address": null,
+      "entry_score": 90.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 56545776,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 26.9032,
+      "entry_chg_24h": 13.25506,
+      "entry_chg_7d": 131.7911,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.0434164334366007,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "unlock"
+      ],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Janction (JCT) Price Prediction 2026-2030: Unlock Schedule - Phemex",
+          "ts": 1792665694.0,
+          "source": "Phemex"
+        }
+      ],
+      "last_market_cap": 41052282,
+      "exit_price_eur": 0.003189859438541772,
+      "exit_ts": 1792842325.0677958,
+      "exit_reason": "stop-loss hit (-24.3%)",
+      "proceeds_eur": 5.569271432830241,
+      "pnl_eur": -1.7834221668763215,
+      "pnl_pct": -24.25535815809727
     }
   ],
-  "last_run_ts": 1792842023.7773046,
-  "last_eur_rate": 0.8925380004727517,
+  "last_run_ts": 1792842325.0677958,
+  "last_eur_rate": 0.892538008277122,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,

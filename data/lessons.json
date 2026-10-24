@@ -9709,5 +9709,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "BMT (cex_small_cap) lost -11.0% in 392 min (slow (>6h)) — stop-loss hit. Entry score: 98 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792842325.0677958,
+    "symbol": "JCT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/janction",
+    "held_minutes": 42.4,
+    "exit_reason": "stop-loss hit (-24.3%)",
+    "pnl_pct": -24.26,
+    "pnl_eur": -1.78,
+    "entry_score": 90.7,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 56545776,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 26.9032,
+    "entry_chg_24h": 13.25506,
+    "entry_chg_7d": 131.7911,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.0434164334366007,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "JCT (cex_small_cap) lost -24.3% in 42 min (very fast (<1h)) — stop-loss hit. Entry score: 91 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
