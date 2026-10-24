@@ -79,20 +79,10 @@
     "last_score": 73.1,
     "symbol": "TORCH"
   },
-  "cex_small_cap:camp-network": {
-    "last_alert_ts": 1792587807.5435295,
-    "last_score": 62.8,
-    "symbol": "CAMP"
-  },
   "cex_small_cap:regent-coin": {
     "last_alert_ts": 1792595045.1150794,
     "last_score": 68.1,
     "symbol": "REGENT"
-  },
-  "cex_small_cap:baton-3": {
-    "last_alert_ts": 1792587807.5435295,
-    "last_score": 63.4,
-    "symbol": "BATON"
   },
   "cex_small_cap:cartoon-money": {
     "last_alert_ts": 1792789414.0703335,
@@ -105,8 +95,8 @@
     "symbol": "TSLAB"
   },
   "cex_small_cap:citrea": {
-    "last_alert_ts": 1792803798.0321155,
-    "last_score": 60.7,
+    "last_alert_ts": 1792849828.0037847,
+    "last_score": 66.2,
     "symbol": "CTR"
   },
   "cex_small_cap:pha": {
@@ -223,11 +213,6 @@
     "last_alert_ts": 1792717415.799371,
     "last_score": 58.0,
     "symbol": "SOXSB"
-  },
-  "cex_small_cap:yei-finance": {
-    "last_alert_ts": 1792587807.5435295,
-    "last_score": 61.3,
-    "symbol": "CLO"
   },
   "cex_small_cap:altseason": {
     "last_alert_ts": 1792688586.1303067,
@@ -680,8 +665,8 @@
     "symbol": "KIMCHIBULL"
   },
   "cex_small_cap:axis-robotics": {
-    "last_alert_ts": 1792803798.0321155,
-    "last_score": 82.9,
+    "last_alert_ts": 1792849828.0037847,
+    "last_score": 59.8,
     "symbol": "AXIS"
   },
   "cex_small_cap:php-up-2026": {
@@ -1023,5 +1008,15 @@
     "last_alert_ts": 1792846999.9674516,
     "last_score": 65.0,
     "symbol": "DacityCoin"
+  },
+  "cex_small_cap:creora": {
+    "last_alert_ts": 1792849828.0037847,
+    "last_score": 66.0,
+    "symbol": "CREORA"
+  },
+  "cex_small_cap:zignaly": {
+    "last_alert_ts": 1792849828.0037847,
+    "last_score": 65.4,
+    "symbol": "ZIG"
   }
 }

@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 60.02226267167207,
+  "cash_eur": 45.11518144320242,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:stonks-9": {
@@ -15,7 +15,7 @@
       "entry_price_eur": 0.0010954208190608447,
       "entry_ts": 1792847000.3368633,
       "cost_eur": 14.929633200955402,
-      "last_price_eur": 0.0011615935903555048,
+      "last_price_eur": 0.0011591212472108687,
       "last_score": 95.7,
       "missed_updates": 0,
       "entry_market_cap": 1227313,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1299331
+      "last_market_cap": 1298682
     },
     "cex_small_cap:polyswarm": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.00942094392775713,
       "entry_ts": 1792847000.3368633,
       "cost_eur": 14.929633200955402,
-      "last_price_eur": 0.00948189537747398,
-      "last_score": 73.7,
+      "last_price_eur": 0.009402316584353563,
+      "last_score": 72.1,
       "missed_updates": 0,
       "entry_market_cap": 19897725,
       "entry_venue": null,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 20039172
+      "last_market_cap": 19862542
     },
     "dex_micro_cap:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": {
       "tier": "dex_micro_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.0034342711739722117,
       "entry_ts": 1792847000.3368633,
       "cost_eur": 8.957779920573241,
-      "last_price_eur": 0.00324794581067554,
-      "last_score": 45.5,
+      "last_price_eur": 0.003320241352468993,
+      "last_score": 43.2,
       "missed_updates": 0,
       "entry_market_cap": 3949623.52388154,
       "entry_venue": null,
@@ -108,7 +108,48 @@
       "entry_catalyst_tags": null,
       "entry_catalyst_score": null,
       "entry_catalyst_headlines": null,
-      "last_market_cap": 3592982.0
+      "last_market_cap": 3672564.0
+    },
+    "cex_small_cap:caldera": {
+      "tier": "cex_small_cap",
+      "id": "caldera",
+      "symbol": "ERA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/caldera",
+      "qty": 181.73401239598635,
+      "entry_price_eur": 0.08202691962794566,
+      "entry_ts": 1792849828.4010715,
+      "cost_eur": 14.907081228469654,
+      "last_price_eur": 0.08202691962794566,
+      "last_score": 74.9,
+      "missed_updates": 0,
+      "entry_market_cap": 16132193,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0xe2ad0bf751834f2fbdc62a41014f84d67ca1de2a (ETH)",
+      "entry_score": 74.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 138336237,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 0.2383,
+      "entry_chg_24h": 24.52541,
+      "entry_chg_7d": 27.7578,
+      "entry_chg_6h": null,
+      "entry_turnover": 8.575166252970071,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Caldera + Lab Brings Men’s Skincare Expertise to Bodycare With Launch of The Deo - Yahoo Finance",
+          "ts": 1791874800.0,
+          "source": "Yahoo Finance"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -2145,8 +2186,8 @@
       "pnl_pct": -9.926265476343982
     }
   ],
-  "last_run_ts": 1792849528.70412,
-  "last_eur_rate": 0.8925380078800605,
+  "last_run_ts": 1792849828.4010715,
+  "last_eur_rate": 0.8925379979755357,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
