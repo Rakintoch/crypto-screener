@@ -15,8 +15,8 @@
       "entry_price_eur": 0.3826010774627875,
       "entry_ts": 1792803798.6447687,
       "cost_eur": 16.659374160644226,
-      "last_price_eur": 0.3860701825149018,
-      "last_score": 87.5,
+      "last_price_eur": 0.38446596570288954,
+      "last_score": 87.0,
       "missed_updates": 0,
       "entry_market_cap": 30098549,
       "entry_venue": "LBank",
@@ -45,7 +45,7 @@
           "source": "Investing.com"
         }
       ],
-      "last_market_cap": 30525905
+      "last_market_cap": 30259990
     },
     "cex_small_cap:axis-robotics": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.3127708906101715,
       "entry_ts": 1792803798.6447687,
       "cost_eur": 16.659374160644226,
-      "last_price_eur": 0.2965510996458513,
-      "last_score": 63.9,
+      "last_price_eur": 0.30151550243029085,
+      "last_score": 64.4,
       "missed_updates": 0,
       "entry_market_cap": 57809065,
       "entry_venue": "Upbit",
@@ -99,7 +99,7 @@
           "source": "Coin Gabbar"
         }
       ],
-      "last_market_cap": 55191306
+      "last_market_cap": 55463871
     },
     "cex_small_cap:aria-ai": {
       "tier": "cex_small_cap",
@@ -111,8 +111,8 @@
       "entry_price_eur": 0.05932646770202242,
       "entry_ts": 1792811198.2637365,
       "cost_eur": 16.35462557842782,
-      "last_price_eur": 0.05873102449087992,
-      "last_score": 57.4,
+      "last_price_eur": 0.0586658556852968,
+      "last_score": 56.4,
       "missed_updates": 0,
       "entry_market_cap": 12154068,
       "entry_venue": "Gate",
@@ -133,7 +133,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12029635
+      "last_market_cap": 12024415
     },
     "cex_small_cap:bubblemaps": {
       "tier": "cex_small_cap",
@@ -145,8 +145,8 @@
       "entry_price_eur": 0.03398335498778562,
       "entry_ts": 1792818185.900374,
       "cost_eur": 15.823298036851055,
-      "last_price_eur": 0.03398335498778562,
-      "last_score": 98.5,
+      "last_price_eur": 0.034746182286709906,
+      "last_score": 69.6,
       "missed_updates": 0,
       "entry_market_cap": 28659664,
       "entry_venue": "Upbit",
@@ -166,7 +166,8 @@
       "entry_base_breakout": null,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": []
+      "entry_catalyst_headlines": [],
+      "last_market_cap": 29415968
     }
   },
   "closed_trades": [
@@ -1717,8 +1718,8 @@
       "pnl_pct": -9.385032481777925
     }
   ],
-  "last_run_ts": 1792818185.900374,
-  "last_eur_rate": 0.8927179998309736,
+  "last_run_ts": 1792818317.7010467,
+  "last_eur_rate": 0.8927179938720677,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
