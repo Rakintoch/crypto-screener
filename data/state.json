@@ -20,8 +20,8 @@
     "symbol": "PUFFER"
   },
   "cex_small_cap:concierge-io": {
-    "last_alert_ts": 1792811003.2230442,
-    "last_score": 94.4,
+    "last_alert_ts": 1792861922.3156893,
+    "last_score": 63.7,
     "symbol": "AVA"
   },
   "cex_small_cap:elsa": {
@@ -119,16 +119,6 @@
     "last_score": 57.9,
     "symbol": "WELL"
   },
-  "cex_small_cap:grift-world": {
-    "last_alert_ts": 1792602209.2012043,
-    "last_score": 77.4,
-    "symbol": "GRIFT"
-  },
-  "cex_small_cap:grvt": {
-    "last_alert_ts": 1792602209.2012043,
-    "last_score": 79.0,
-    "symbol": "GRVT"
-  },
   "cex_small_cap:janction": {
     "last_alert_ts": 1792839778.1715455,
     "last_score": 90.7,
@@ -155,8 +145,8 @@
     "symbol": "MPLX"
   },
   "cex_small_cap:bubblemaps": {
-    "last_alert_ts": 1792861387.0028548,
-    "last_score": 70.2,
+    "last_alert_ts": 1792861922.3156893,
+    "last_score": 94.8,
     "symbol": "BMT"
   },
   "cex_small_cap:cea-industries-bstocks-tokenized-stock": {
@@ -185,8 +175,8 @@
     "symbol": "SAGA"
   },
   "cex_small_cap:dacity-coin-2": {
-    "last_alert_ts": 1792796003.3338068,
-    "last_score": 55.8,
+    "last_alert_ts": 1792861922.3156893,
+    "last_score": 55.9,
     "symbol": "DACITY"
   },
   "cex_small_cap:dappos": {
@@ -233,11 +223,6 @@
     "last_alert_ts": 1792846999.9674516,
     "last_score": 58.1,
     "symbol": "PARTI"
-  },
-  "cex_small_cap:b3": {
-    "last_alert_ts": 1792602209.2012043,
-    "last_score": 56.9,
-    "symbol": "B3"
   },
   "cex_small_cap:irys": {
     "last_alert_ts": 1792854198.2247329,
@@ -328,16 +313,6 @@
     "last_alert_ts": 1792760598.5781486,
     "last_score": 59.3,
     "symbol": "SN23"
-  },
-  "cex_small_cap:block-street": {
-    "last_alert_ts": 1792602209.2012043,
-    "last_score": 70.5,
-    "symbol": "BSB"
-  },
-  "cex_small_cap:aura-final-boss-2": {
-    "last_alert_ts": 1792602209.2012043,
-    "last_score": 55.0,
-    "symbol": "KIMCHI"
   },
   "dex_micro_cap:0xed71b42b07cc1664c0f82361d48d0417a6ed7777": {
     "last_alert_ts": 1792609390.3164556,
@@ -805,8 +780,8 @@
     "symbol": "STONKS"
   },
   "cex_small_cap:katana-network-token": {
-    "last_alert_ts": 1792818185.4051006,
-    "last_score": 81.1,
+    "last_alert_ts": 1792861922.3156893,
+    "last_score": 66.5,
     "symbol": "KAT"
   },
   "cex_small_cap:binance-super-cz-2": {
@@ -815,8 +790,8 @@
     "symbol": "BSC"
   },
   "cex_small_cap:zora": {
-    "last_alert_ts": 1792811003.2230442,
-    "last_score": 56.1,
+    "last_alert_ts": 1792861922.3156893,
+    "last_score": 71.6,
     "symbol": "ZORA"
   },
   "cex_small_cap:treehouse": {
@@ -958,5 +933,15 @@
     "last_alert_ts": 1792861387.0028548,
     "last_score": 56.6,
     "symbol": "ZBT"
+  },
+  "cex_small_cap:hooked": {
+    "last_alert_ts": 1792861922.3156893,
+    "last_score": 96.4,
+    "symbol": "HOOKED"
+  },
+  "cex_small_cap:sahara-ai": {
+    "last_alert_ts": 1792861922.3156893,
+    "last_score": 55.7,
+    "symbol": "SAHARA"
   }
 }
