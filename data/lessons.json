@@ -9493,5 +9493,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "TRUTH (dex_micro_cap) lost -21.5% in 7 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $47,632. Entry score: 81 (minimum required to buy: 65). Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1792813525.471833,
+    "symbol": "STONKS",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/stonks-9",
+    "held_minutes": 38.8,
+    "exit_reason": "stop-loss hit (-9.4%)",
+    "pnl_pct": -9.39,
+    "pnl_eur": -1.53,
+    "entry_score": 90.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 607444,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 37.7535,
+    "entry_chg_24h": 133.56281,
+    "entry_chg_7d": 117.1762,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.5228315552552643,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "STONKS (cex_small_cap) lost -9.4% in 39 min (very fast (<1h)) — stop-loss hit. Entry score: 90 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
