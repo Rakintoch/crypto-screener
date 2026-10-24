@@ -225,8 +225,8 @@
     "symbol": "IOST"
   },
   "cex_small_cap:renzo": {
-    "last_alert_ts": 1792738983.763942,
-    "last_score": 69.8,
+    "last_alert_ts": 1792818185.4051006,
+    "last_score": 78.9,
     "symbol": "REZ"
   },
   "cex_small_cap:securitize-bstocks-tokenized-stock": {
@@ -315,8 +315,8 @@
     "symbol": "SPCX"
   },
   "cex_small_cap:moonbirds": {
-    "last_alert_ts": 1792767827.7130146,
-    "last_score": 97.5,
+    "last_alert_ts": 1792818185.4051006,
+    "last_score": 70.0,
     "symbol": "BIRB"
   },
   "cex_small_cap:enso": {
@@ -885,8 +885,8 @@
     "symbol": "UP"
   },
   "dex_micro_cap:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": {
-    "last_alert_ts": 1792760598.5781486,
-    "last_score": 64.7,
+    "last_alert_ts": 1792818185.4051006,
+    "last_score": 80.9,
     "symbol": "GUST"
   },
   "cex_small_cap:pangea-2": {
@@ -940,8 +940,8 @@
     "symbol": "VINE"
   },
   "cex_small_cap:squid-3": {
-    "last_alert_ts": 1792775003.1284602,
-    "last_score": 66.7,
+    "last_alert_ts": 1792818185.4051006,
+    "last_score": 86.0,
     "symbol": "QUID"
   },
   "cex_small_cap:connect-token-wct": {
@@ -1030,8 +1030,8 @@
     "symbol": "STONKS"
   },
   "cex_small_cap:katana-network-token": {
-    "last_alert_ts": 1792811003.2230442,
-    "last_score": 65.3,
+    "last_alert_ts": 1792818185.4051006,
+    "last_score": 81.1,
     "symbol": "KAT"
   },
   "cex_small_cap:binance-super-cz-2": {
@@ -1043,5 +1043,20 @@
     "last_alert_ts": 1792811003.2230442,
     "last_score": 56.1,
     "symbol": "ZORA"
+  },
+  "cex_small_cap:treehouse": {
+    "last_alert_ts": 1792818185.4051006,
+    "last_score": 79.8,
+    "symbol": "TREE"
+  },
+  "cex_small_cap:intuition": {
+    "last_alert_ts": 1792818185.4051006,
+    "last_score": 58.9,
+    "symbol": "TRUST"
+  },
+  "cex_small_cap:story-2": {
+    "last_alert_ts": 1792818185.4051006,
+    "last_score": 56.0,
+    "symbol": "DATA"
   }
 }
