@@ -2569,5 +2569,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "BIRB (cex_small_cap) gained +132.1% in 112 min — trailing stop caught extra upside after the target. Entry score: 92. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792804223.8330717,
+    "symbol": "IN",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/infinit",
+    "held_minutes": 137.0,
+    "exit_reason": "trailing stop hit — dropped 6.1% from the peak (peak +20.3% since entry)",
+    "pnl_pct": 12.94,
+    "pnl_eur": 1.79,
+    "entry_score": 81.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 22103716,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 2.1999,
+    "entry_chg_24h": 27.11766,
+    "entry_chg_7d": 16.0873,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.9039303867800208,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "IN (cex_small_cap) gained +12.9% in 137 min — trailing stop caught extra upside after the target. Entry score: 81. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

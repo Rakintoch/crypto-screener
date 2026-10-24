@@ -9466,5 +9466,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "GTC (cex_small_cap) lost -8.5% in 2023 min (slow (>6h)) — stop-loss hit. Entry score: 80 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792804223.8330717,
+    "symbol": "TRUTH",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/GUkDEvSyoJJ5yFHUYKuePjwTTAZYLBmWsHQ2fYaCMKYm",
+    "held_minutes": 7.1,
+    "exit_reason": "stop-loss hit (-21.5%)",
+    "pnl_pct": -21.46,
+    "pnl_eur": -2.15,
+    "entry_score": 80.8,
+    "entry_liquidity_usd": 47631.8569,
+    "entry_volume_24h_usd": 6428034.85098696,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 20.913,
+    "entry_chg_24h": 405.206,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 405.206,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 134.952430355218,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 270.01348513333335,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "TRUTH (dex_micro_cap) lost -21.5% in 7 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $47,632. Entry score: 81 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
