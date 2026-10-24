@@ -15,8 +15,8 @@
       "entry_price_eur": 0.00942094392775713,
       "entry_ts": 1792847000.3368633,
       "cost_eur": 14.929633200955402,
-      "last_price_eur": 0.009134189321465718,
-      "last_score": 54.8,
+      "last_price_eur": 0.009129664150569565,
+      "last_score": 56.0,
       "missed_updates": 0,
       "entry_market_cap": 19897725,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 19296120
+      "last_market_cap": 19286560
     },
     "dex_micro_cap:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": {
       "tier": "dex_micro_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0034342711739722117,
       "entry_ts": 1792847000.3368633,
       "cost_eur": 8.957779920573241,
-      "last_price_eur": 0.0034175280230890545,
-      "last_score": 36.2,
+      "last_price_eur": 0.003378256349659572,
+      "last_score": 34.6,
       "missed_updates": 0,
       "entry_market_cap": 3949623.52388154,
       "entry_venue": null,
@@ -74,7 +74,7 @@
       "entry_catalyst_tags": null,
       "entry_catalyst_score": null,
       "entry_catalyst_headlines": null,
-      "last_market_cap": 3780552.0
+      "last_market_cap": 3736880.0
     },
     "dex_micro_cap:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": {
       "tier": "dex_micro_cap",
@@ -86,8 +86,8 @@
       "entry_price_eur": 0.0018455399202274483,
       "entry_ts": 1792861387.537163,
       "cost_eur": 8.621069251459403,
-      "last_price_eur": 0.0021429837512240324,
-      "last_score": 45.1,
+      "last_price_eur": 0.002133165832413838,
+      "last_score": 45.4,
       "missed_updates": 0,
       "entry_market_cap": 2004131.06859014,
       "entry_venue": null,
@@ -111,7 +111,7 @@
       "entry_catalyst_tags": null,
       "entry_catalyst_score": null,
       "entry_catalyst_headlines": null,
-      "last_market_cap": 2304976.0
+      "last_market_cap": 2294252.0
     }
   },
   "closed_trades": [
@@ -2236,8 +2236,8 @@
       "pnl_pct": -9.49805697103416
     }
   ],
-  "last_run_ts": 1792867526.161575,
-  "last_eur_rate": 0.8925380055077187,
+  "last_run_ts": 1792867821.9081554,
+  "last_eur_rate": 0.8925380051940746,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
