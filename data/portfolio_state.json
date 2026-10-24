@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 74.58181390791026,
+  "cash_eur": 41.872562751054616,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:concierge-io": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.3826010774627875,
       "entry_ts": 1792803798.6447687,
       "cost_eur": 16.659374160644226,
-      "last_price_eur": 0.435310723865058,
-      "last_score": 95.4,
+      "last_price_eur": 0.4318094841760511,
+      "last_score": 95.6,
       "missed_updates": 0,
       "entry_market_cap": 30098549,
       "entry_venue": "LBank",
@@ -45,7 +45,7 @@
           "source": "Investing.com"
         }
       ],
-      "last_market_cap": 34476416
+      "last_market_cap": 34079527
     },
     "cex_small_cap:axis-robotics": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.3127708906101715,
       "entry_ts": 1792803798.6447687,
       "cost_eur": 16.659374160644226,
-      "last_price_eur": 0.29842580875864677,
-      "last_score": 55.3,
+      "last_price_eur": 0.2937640355618968,
+      "last_score": 55.2,
       "missed_updates": 0,
       "entry_market_cap": 57809065,
       "entry_venue": "Upbit",
@@ -99,7 +99,73 @@
           "source": "Coin Gabbar"
         }
       ],
-      "last_market_cap": 55157654
+      "last_market_cap": 54203871
+    },
+    "cex_small_cap:stonks-9": {
+      "tier": "cex_small_cap",
+      "id": "stonks-9",
+      "symbol": "STONKS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/stonks-9",
+      "qty": 15767.986875585837,
+      "entry_price_eur": 0.001037204413440393,
+      "entry_ts": 1792811198.2637365,
+      "cost_eur": 16.35462557842782,
+      "last_price_eur": 0.001037204413440393,
+      "last_score": 90.5,
+      "missed_updates": 0,
+      "entry_market_cap": 1161835,
+      "entry_venue": "MEXC",
+      "entry_contract_address": "0xc9d825e83aada475bd4d38c8ca984ed746277777 (BSC)",
+      "entry_score": 90.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 607444,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 37.7535,
+      "entry_chg_24h": 133.56281,
+      "entry_chg_7d": 117.1762,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.5228315552552643,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
+    },
+    "cex_small_cap:aria-ai": {
+      "tier": "cex_small_cap",
+      "id": "aria-ai",
+      "symbol": "ARIA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/aria-ai",
+      "qty": 275.6716557030126,
+      "entry_price_eur": 0.05932646770202242,
+      "entry_ts": 1792811198.2637365,
+      "cost_eur": 16.35462557842782,
+      "last_price_eur": 0.05932646770202242,
+      "last_score": 72.7,
+      "missed_updates": 0,
+      "entry_market_cap": 12154068,
+      "entry_venue": "Gate",
+      "entry_contract_address": null,
+      "entry_score": 72.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 10237480,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 2.3991,
+      "entry_chg_24h": 8.57011,
+      "entry_chg_7d": 53.9838,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.8423089289939796,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -1610,8 +1676,8 @@
       "pnl_pct": -21.460485687764784
     }
   ],
-  "last_run_ts": 1792810850.2052238,
-  "last_eur_rate": 0.8927180037591628,
+  "last_run_ts": 1792811198.2637365,
+  "last_eur_rate": 0.8927180044243171,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
