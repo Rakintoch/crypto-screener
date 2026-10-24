@@ -2621,5 +2621,34 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "ORDER (cex_small_cap) gained +45.1% in 138 min — trailing stop caught extra upside after the target. Entry score: 95. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792876526.8017075,
+    "symbol": "swordcat",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/8ewuF2o8ACro7fqWepZ3tKhkbBjndZU4Ldk9scRPw83d",
+    "held_minutes": 252.3,
+    "exit_reason": "trailing stop hit — dropped 10.4% from the peak (peak +46.7% since entry)",
+    "pnl_pct": 31.45,
+    "pnl_eur": 2.71,
+    "entry_score": 84.9,
+    "entry_liquidity_usd": 192326.8358,
+    "entry_volume_24h_usd": 1176586.99882165,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 19.708,
+    "entry_chg_24h": 142.851,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 98.569,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 6.117643405963267,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 37908.69029028333,
+    "entry_base_breakout": {
+      "is_breakout": true,
+      "pre_window_move_pct": 22.3
+    },
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "swordcat (dex_micro_cap) gained +31.4% in 252 min — trailing stop caught extra upside after the target. Entry liquidity: $192,327. Entry score: 85. Entry security: no obvious red flags."
   }
 ]
