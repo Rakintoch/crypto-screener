@@ -2595,5 +2595,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "IN (cex_small_cap) gained +12.9% in 137 min — trailing stop caught extra upside after the target. Entry score: 81. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792839318.3237178,
+    "symbol": "ORDER",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/orderly-network",
+    "held_minutes": 137.9,
+    "exit_reason": "trailing stop hit — dropped 26.5% from the peak (peak +97.3% since entry)",
+    "pnl_pct": 45.07,
+    "pnl_eur": 6.97,
+    "entry_score": 95.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 40249000,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 9.6551,
+    "entry_chg_24h": 71.46559,
+    "entry_chg_7d": 20.9169,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.814198309287434,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "ORDER (cex_small_cap) gained +45.1% in 138 min — trailing stop caught extra upside after the target. Entry score: 95. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
