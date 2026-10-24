@@ -9655,5 +9655,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "BIRB (cex_small_cap) lost -8.9% in 88 min (fast (1-6h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792840821.4809484,
+    "symbol": "TREE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/treehouse",
+    "held_minutes": 17.4,
+    "exit_reason": "stop-loss hit (-8.8%)",
+    "pnl_pct": -8.76,
+    "pnl_eur": -1.38,
+    "entry_score": 99.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 135166547,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 29.1332,
+    "entry_chg_24h": 50.00277,
+    "entry_chg_7d": 52.2611,
+    "entry_chg_6h": null,
+    "entry_turnover": 14.159862192118316,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "TREE (cex_small_cap) lost -8.8% in 17 min (very fast (<1h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
