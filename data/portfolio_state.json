@@ -15,8 +15,8 @@
       "entry_price_eur": 0.3826010774627875,
       "entry_ts": 1792803798.6447687,
       "cost_eur": 16.659374160644226,
-      "last_price_eur": 0.40716510695821795,
-      "last_score": 72.5,
+      "last_price_eur": 0.4091871151827509,
+      "last_score": 72.7,
       "missed_updates": 0,
       "entry_market_cap": 30098549,
       "entry_venue": "LBank",
@@ -45,7 +45,7 @@
           "source": "Investing.com"
         }
       ],
-      "last_market_cap": 32031092
+      "last_market_cap": 32316551
     },
     "cex_small_cap:axis-robotics": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.3127708906101715,
       "entry_ts": 1792803798.6447687,
       "cost_eur": 16.659374160644226,
-      "last_price_eur": 0.3036785587448648,
-      "last_score": 80.7,
+      "last_price_eur": 0.30310900611870406,
+      "last_score": 80.4,
       "missed_updates": 0,
       "entry_market_cap": 57809065,
       "entry_venue": "Upbit",
@@ -99,7 +99,7 @@
           "source": "Coin Gabbar"
         }
       ],
-      "last_market_cap": 56128358
+      "last_market_cap": 56064851
     }
   },
   "closed_trades": [
@@ -1610,8 +1610,8 @@
       "pnl_pct": -21.460485687764784
     }
   ],
-  "last_run_ts": 1792806621.1888916,
-  "last_eur_rate": 0.8927179956812117,
+  "last_run_ts": 1792806917.1312249,
+  "last_eur_rate": 0.8927179999667313,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
