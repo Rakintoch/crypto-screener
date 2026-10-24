@@ -9901,5 +9901,32 @@
     "categoria": "momentum thesis invalidated (score dropped)",
     "velocidade_queda": "slow (>6h)",
     "licao": "DOPE (dex_micro_cap) lost -7.8% in 417 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry liquidity: $263,400. Entry score: 81 (minimum required to buy: 65). Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1792879519.5290062,
+    "symbol": "BIRB",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/moonbirds",
+    "held_minutes": 115.9,
+    "exit_reason": "stop-loss hit (-8.6%)",
+    "pnl_pct": -8.65,
+    "pnl_eur": -1.21,
+    "entry_score": 88.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 118544584,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 2.5818,
+    "entry_chg_24h": 27.83805,
+    "entry_chg_7d": 93.7982,
+    "entry_chg_6h": null,
+    "entry_turnover": 4.4141274468760345,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "BIRB (cex_small_cap) lost -8.6% in 116 min (fast (1-6h)) — stop-loss hit. Entry score: 89 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
