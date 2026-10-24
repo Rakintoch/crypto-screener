@@ -9928,5 +9928,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "BIRB (cex_small_cap) lost -8.6% in 116 min (fast (1-6h)) — stop-loss hit. Entry score: 89 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792886119.6196861,
+    "symbol": "REMUS",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/6JDiSPsWBwcSN8xBa4LNBzMZRikxksbxcto8J3ELR4cG",
+    "held_minutes": 52.1,
+    "exit_reason": "stop-loss hit (-21.0%)",
+    "pnl_pct": -21.04,
+    "pnl_eur": -1.8,
+    "entry_score": 98.5,
+    "entry_liquidity_usd": 82605.8436,
+    "entry_volume_24h_usd": 2224755.74689933,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 34.156,
+    "entry_chg_24h": 560.029,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 90.758,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 26.932183607641655,
+    "entry_boosted": true,
+    "entry_pool_age_minutes": 1431.3716088833332,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "REMUS (dex_micro_cap) lost -21.0% in 52 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $82,606. Entry score: 98 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
