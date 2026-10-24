@@ -9736,5 +9736,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "JCT (cex_small_cap) lost -24.3% in 42 min (very fast (<1h)) — stop-loss hit. Entry score: 91 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792843517.5158446,
+    "symbol": "LA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/lagrange",
+    "held_minutes": 62.3,
+    "exit_reason": "stop-loss hit (-8.6%)",
+    "pnl_pct": -8.6,
+    "pnl_eur": -1.36,
+    "entry_score": 91.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 33348618,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.7391,
+    "entry_chg_24h": 25.19527,
+    "entry_chg_7d": 22.0773,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.3694920218342623,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "LA (cex_small_cap) lost -8.6% in 62 min (fast (1-6h)) — stop-loss hit. Entry score: 92 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
