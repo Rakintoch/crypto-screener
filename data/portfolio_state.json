@@ -15,8 +15,8 @@
       "entry_price_eur": 0.025924560784423126,
       "entry_ts": 1792899855.1353474,
       "cost_eur": 13.421526369575288,
-      "last_price_eur": 0.02477130987213761,
-      "last_score": 44.7,
+      "last_price_eur": 0.02452045734620067,
+      "last_score": 33.4,
       "missed_updates": 0,
       "entry_market_cap": 18993090,
       "entry_venue": "Bithumb",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 18093136
+      "last_market_cap": 17909823
     },
     "cex_small_cap:aria-ai": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.06468222887771982,
       "entry_ts": 1792915370.8485453,
       "cost_eur": 6.8445833156646,
-      "last_price_eur": 0.06436043557277454,
-      "last_score": 55.7,
+      "last_price_eur": 0.06405962307277785,
+      "last_score": 53.6,
       "missed_updates": 0,
       "entry_market_cap": 13274472,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 13208804
+      "last_market_cap": 13133174
     },
     "cex_small_cap:musebook": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 1.2068195416084256e-05,
       "entry_ts": 1792944187.4996636,
       "cost_eur": 13.55270678156517,
-      "last_price_eur": 1.2166383324645534e-05,
-      "last_score": 76.2,
+      "last_price_eur": 1.2487725758550875e-05,
+      "last_score": 76.6,
       "missed_updates": 0,
       "entry_market_cap": 1350736,
       "entry_venue": "LBank",
@@ -113,7 +113,7 @@
           "source": "Traders Union"
         }
       ],
-      "last_market_cap": 1362125
+      "last_market_cap": 1398706
     },
     "cex_small_cap:evmzone": {
       "tier": "cex_small_cap",
@@ -125,8 +125,8 @@
       "entry_price_eur": 0.015663616105893174,
       "entry_ts": 1792944187.4996636,
       "cost_eur": 6.324596498063747,
-      "last_price_eur": 0.01641411137442473,
-      "last_score": 43.6,
+      "last_price_eur": 0.017186993532046897,
+      "last_score": 43.8,
       "missed_updates": 0,
       "entry_market_cap": 17547939,
       "entry_venue": "Uniswap V3 (Ethereum) (on-chain)",
@@ -147,7 +147,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 18387542
+      "last_market_cap": 19254592
     }
   },
   "closed_trades": [
@@ -2964,8 +2964,8 @@
       "pnl_pct": -9.41945512029871
     }
   ],
-  "last_run_ts": 1792944623.7976966,
-  "last_eur_rate": 0.8926179988734801,
+  "last_run_ts": 1792944923.7480114,
+  "last_eur_rate": 0.8926179956076394,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
