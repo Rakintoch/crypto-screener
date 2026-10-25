@@ -24,11 +24,6 @@
     "last_score": 58.1,
     "symbol": "ELSA"
   },
-  "cex_small_cap:south-korea-bull-3x-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1792680755.3091443,
-    "last_score": 56.7,
-    "symbol": "KORUB"
-  },
   "cex_small_cap:impossible-cloud-network-token": {
     "last_alert_ts": 1792831044.8240318,
     "last_score": 61.1,
@@ -69,11 +64,6 @@
     "last_score": 58.7,
     "symbol": "CBUCKS"
   },
-  "cex_small_cap:tesla-bstocks-tokenized-stock": {
-    "last_alert_ts": 1792680755.3091443,
-    "last_score": 62.0,
-    "symbol": "TSLAB"
-  },
   "cex_small_cap:citrea": {
     "last_alert_ts": 1792849828.0037847,
     "last_score": 66.2,
@@ -89,20 +79,10 @@
     "last_score": 87.0,
     "symbol": "Dacity"
   },
-  "dex_micro_cap:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": {
-    "last_alert_ts": 1792680755.3091443,
-    "last_score": 59.0,
-    "symbol": "COMPUTE"
-  },
   "cex_small_cap:asteroid-2": {
     "last_alert_ts": 1792782198.4559274,
     "last_score": 63.1,
     "symbol": "ASTEROID"
-  },
-  "cex_small_cap:tradr-2x-long-sndk-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1792681398.585894,
-    "last_score": 61.1,
-    "symbol": "SNXXB"
   },
   "cex_small_cap:janction": {
     "last_alert_ts": 1792929793.7289233,
@@ -135,8 +115,8 @@
     "symbol": "IOST"
   },
   "cex_small_cap:renzo": {
-    "last_alert_ts": 1792868580.318565,
-    "last_score": 69.9,
+    "last_alert_ts": 1792944186.9759054,
+    "last_score": 62.8,
     "symbol": "REZ"
   },
   "cex_small_cap:kernel-2": {
@@ -298,26 +278,6 @@
     "last_alert_ts": 1792746209.729768,
     "last_score": 56.2,
     "symbol": "ACNON"
-  },
-  "cex_small_cap:capybobo": {
-    "last_alert_ts": 1792680755.3091443,
-    "last_score": 58.7,
-    "symbol": "PYBOBO"
-  },
-  "cex_small_cap:sandisk-coinbase-tokenized-stock": {
-    "last_alert_ts": 1792680755.3091443,
-    "last_score": 55.1,
-    "symbol": "SNDKC"
-  },
-  "cex_small_cap:tesla-coinbase-tokenized-stocks": {
-    "last_alert_ts": 1792681398.585894,
-    "last_score": 62.7,
-    "symbol": "TSLAC"
-  },
-  "cex_small_cap:take-two-interactive-software-backpack-securities": {
-    "last_alert_ts": 1792681398.585894,
-    "last_score": 56.3,
-    "symbol": "TTWO"
   },
   "dex_micro_cap:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": {
     "last_alert_ts": 1792839778.1715455,
@@ -540,8 +500,8 @@
     "symbol": "ARCTIS"
   },
   "cex_small_cap:initia": {
-    "last_alert_ts": 1792882992.1505697,
-    "last_score": 71.5,
+    "last_alert_ts": 1792944186.9759054,
+    "last_score": 61.3,
     "symbol": "INIT"
   },
   "cex_small_cap:bluwhale": {
@@ -615,8 +575,8 @@
     "symbol": "GUA"
   },
   "cex_small_cap:bitlight": {
-    "last_alert_ts": 1792882992.1505697,
-    "last_score": 94.8,
+    "last_alert_ts": 1792944186.9759054,
+    "last_score": 68.6,
     "symbol": "LIGHT"
   },
   "cex_small_cap:orderly-network": {
@@ -810,8 +770,8 @@
     "symbol": "APR"
   },
   "cex_small_cap:pepina-2": {
-    "last_alert_ts": 1792899854.5626225,
-    "last_score": 67.9,
+    "last_alert_ts": 1792944186.9759054,
+    "last_score": 65.0,
     "symbol": "PEPINA"
   },
   "cex_small_cap:metal": {
@@ -820,8 +780,8 @@
     "symbol": "MTL"
   },
   "cex_small_cap:evmzone": {
-    "last_alert_ts": 1792899854.5626225,
-    "last_score": 55.0,
+    "last_alert_ts": 1792944186.9759054,
+    "last_score": 73.0,
     "symbol": "EVMZONE"
   },
   "cex_small_cap:sonic-svm": {
@@ -908,5 +868,15 @@
     "last_alert_ts": 1792937190.9792998,
     "last_score": 66.1,
     "symbol": "WIN"
+  },
+  "cex_small_cap:musebook": {
+    "last_alert_ts": 1792944186.9759054,
+    "last_score": 76.4,
+    "symbol": "MUSEBOOK"
+  },
+  "dex_micro_cap:5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump": {
+    "last_alert_ts": 1792944186.9759054,
+    "last_score": 59.9,
+    "symbol": "WILDWOOD"
   }
 }

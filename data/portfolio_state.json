@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 70.57499657035174,
+  "cash_eur": 50.697693290722825,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:forta": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.025924560784423126,
       "entry_ts": 1792899855.1353474,
       "cost_eur": 13.421526369575288,
-      "last_price_eur": 0.024780807342925412,
-      "last_score": 43.9,
+      "last_price_eur": 0.024861580477278673,
+      "last_score": 45.9,
       "missed_updates": 0,
       "entry_market_cap": 18993090,
       "entry_venue": "Bithumb",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 18083654
+      "last_market_cap": 18159882
     },
     "cex_small_cap:aria-ai": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.06468222887771982,
       "entry_ts": 1792915370.8485453,
       "cost_eur": 6.8445833156646,
-      "last_price_eur": 0.06475497276820438,
-      "last_score": 41.3,
+      "last_price_eur": 0.06525483919325738,
+      "last_score": 57.3,
       "missed_updates": 0,
       "entry_market_cap": 13274472,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -71,7 +71,81 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 13263735
+      "last_market_cap": 13403942
+    },
+    "cex_small_cap:musebook": {
+      "tier": "cex_small_cap",
+      "id": "musebook",
+      "symbol": "MUSEBOOK",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/musebook",
+      "qty": 1123010.219365721,
+      "entry_price_eur": 1.2068195416084256e-05,
+      "entry_ts": 1792944187.4996636,
+      "cost_eur": 13.55270678156517,
+      "last_price_eur": 1.2068195416084256e-05,
+      "last_score": 76.4,
+      "missed_updates": 0,
+      "entry_market_cap": 1350736,
+      "entry_venue": "LBank",
+      "entry_contract_address": "0x91a2dae9699f0b82540b5886b0d8759c22820ba3 (robinhood)",
+      "entry_score": 76.4,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 1576497,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 5.5645,
+      "entry_chg_24h": 15.8235,
+      "entry_chg_7d": -32.593,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.1671392485282097,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Bitrue to list MUU/USDT and musebook/USDT perpetual futures pairs with up to 25× leverage - Traders Union",
+          "ts": 1792564399.0,
+          "source": "Traders Union"
+        }
+      ]
+    },
+    "cex_small_cap:evmzone": {
+      "tier": "cex_small_cap",
+      "id": "evmzone",
+      "symbol": "EVMZONE",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/evmzone",
+      "qty": 403.77627077340225,
+      "entry_price_eur": 0.015663616105893174,
+      "entry_ts": 1792944187.4996636,
+      "cost_eur": 6.324596498063747,
+      "last_price_eur": 0.015663616105893174,
+      "last_score": 73.0,
+      "missed_updates": 0,
+      "entry_market_cap": 17547939,
+      "entry_venue": "Uniswap V3 (Ethereum) (on-chain)",
+      "entry_contract_address": null,
+      "entry_score": 73.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 7937314,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 7.5834,
+      "entry_chg_24h": 57.82372,
+      "entry_chg_7d": null,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.4523217227960503,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2888,8 +2962,8 @@
       "pnl_pct": -9.41945512029871
     }
   ],
-  "last_run_ts": 1792943717.4598904,
-  "last_eur_rate": 0.8926179994238663,
+  "last_run_ts": 1792944187.4996636,
+  "last_eur_rate": 0.8926180041482439,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
