@@ -2650,5 +2650,31 @@
     },
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "swordcat (dex_micro_cap) gained +31.4% in 252 min — trailing stop caught extra upside after the target. Entry liquidity: $192,327. Entry score: 85. Entry security: no obvious red flags."
+  },
+  {
+    "closed_ts": 1792908924.5454006,
+    "symbol": "APR",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/apriori",
+    "held_minutes": 151.2,
+    "exit_reason": "trailing stop hit — dropped 9.7% from the peak (peak +77.7% since entry)",
+    "pnl_pct": 60.35,
+    "pnl_eur": 8.1,
+    "entry_score": 78.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 11467864,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 14.7773,
+    "entry_chg_24h": 16.21838,
+    "entry_chg_7d": -21.4129,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.9396369507190299,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "APR (cex_small_cap) gained +60.4% in 151 min — trailing stop caught extra upside after the target. Entry score: 78. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
