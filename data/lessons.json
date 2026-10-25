@@ -10225,5 +10225,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "EVMZONE (cex_small_cap) lost -8.3% in 62 min (fast (1-6h)) — stop-loss hit. Entry score: 73 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792958593.1018896,
+    "symbol": "FORT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/forta",
+    "held_minutes": 979.0,
+    "exit_reason": "rotated out — thesis fading (score 38, no unrealized gain) to free a slot for a new qualified candidate",
+    "pnl_pct": -1.18,
+    "pnl_eur": -0.16,
+    "entry_score": 90.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 15804939,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 11.9188,
+    "entry_chg_24h": 16.13496,
+    "entry_chg_7d": 48.7555,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.8321415314727619,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "FORT (cex_small_cap) lost -1.2% in 979 min (slow (>6h)) — other. Entry score: 90 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
