@@ -1,7 +1,7 @@
 {
   "cex_small_cap:gitcoin": {
-    "last_alert_ts": 1792861387.0028548,
-    "last_score": 59.8,
+    "last_alert_ts": 1792893792.7371094,
+    "last_score": 79.2,
     "symbol": "GTC"
   },
   "cex_small_cap:osmosis": {
@@ -45,8 +45,8 @@
     "symbol": "TMX"
   },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1792846999.9674516,
-    "last_score": 80.6,
+    "last_alert_ts": 1792893792.7371094,
+    "last_score": 60.8,
     "symbol": "ARIA"
   },
   "cex_small_cap:neosoul": {
@@ -109,11 +109,6 @@
     "last_score": 61.1,
     "symbol": "SNXXB"
   },
-  "cex_small_cap:moonwell-artemis": {
-    "last_alert_ts": 1792631003.745344,
-    "last_score": 57.9,
-    "symbol": "WELL"
-  },
   "cex_small_cap:janction": {
     "last_alert_ts": 1792882992.1505697,
     "last_score": 88.7,
@@ -133,11 +128,6 @@
     "last_alert_ts": 1792811003.2230442,
     "last_score": 67.3,
     "symbol": "DOOD"
-  },
-  "cex_small_cap:metaplex": {
-    "last_alert_ts": 1792631003.745344,
-    "last_score": 72.6,
-    "symbol": "MPLX"
   },
   "cex_small_cap:bubblemaps": {
     "last_alert_ts": 1792861922.3156893,
@@ -235,8 +225,8 @@
     "symbol": "SC"
   },
   "cex_small_cap:dacity-coin-3": {
-    "last_alert_ts": 1792839778.1715455,
-    "last_score": 57.9,
+    "last_alert_ts": 1792893792.7371094,
+    "last_score": 67.7,
     "symbol": "DACITY"
   },
   "cex_small_cap:apro": {
@@ -323,16 +313,6 @@
     "last_alert_ts": 1792674191.640409,
     "last_score": 84.6,
     "symbol": "CYBER"
-  },
-  "cex_small_cap:send-3": {
-    "last_alert_ts": 1792631003.745344,
-    "last_score": 57.9,
-    "symbol": "SEND"
-  },
-  "cex_small_cap:prometeus": {
-    "last_alert_ts": 1792631003.745344,
-    "last_score": 56.1,
-    "symbol": "PROM"
   },
   "cex_small_cap:hippo-protocol": {
     "last_alert_ts": 1792731779.9413373,
@@ -903,5 +883,25 @@
     "last_alert_ts": 1792886383.8400476,
     "last_score": 56.0,
     "symbol": "███"
+  },
+  "cex_small_cap:threshold-network-token": {
+    "last_alert_ts": 1792893792.7371094,
+    "last_score": 83.6,
+    "symbol": "T"
+  },
+  "dex_micro_cap:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": {
+    "last_alert_ts": 1792893792.7371094,
+    "last_score": 73.7,
+    "symbol": "SWORDOPE"
+  },
+  "cex_small_cap:super-inu-2": {
+    "last_alert_ts": 1792893792.7371094,
+    "last_score": 66.9,
+    "symbol": "SI"
+  },
+  "cex_small_cap:mossland": {
+    "last_alert_ts": 1792893792.7371094,
+    "last_score": 58.1,
+    "symbol": "MOC"
   }
 }
