@@ -105,8 +105,8 @@
     "symbol": "SNXXB"
   },
   "cex_small_cap:janction": {
-    "last_alert_ts": 1792882992.1505697,
-    "last_score": 88.7,
+    "last_alert_ts": 1792929793.7289233,
+    "last_score": 90.2,
     "symbol": "JCT"
   },
   "cex_small_cap:levva-protocol": {
@@ -289,16 +289,6 @@
     "last_score": 56.6,
     "symbol": "WAVES"
   },
-  "cex_small_cap:mask-network": {
-    "last_alert_ts": 1792667001.7258222,
-    "last_score": 65.7,
-    "symbol": "MASK"
-  },
-  "cex_small_cap:arkham": {
-    "last_alert_ts": 1792667001.7258222,
-    "last_score": 64.5,
-    "symbol": "ARKM"
-  },
   "cex_small_cap:darkwoods": {
     "last_alert_ts": 1792674191.640409,
     "last_score": 84.6,
@@ -310,8 +300,8 @@
     "symbol": "AEON"
   },
   "cex_small_cap:sentinel-protocol": {
-    "last_alert_ts": 1792674191.640409,
-    "last_score": 68.2,
+    "last_alert_ts": 1792929793.7289233,
+    "last_score": 88.8,
     "symbol": "BOUNTY"
   },
   "cex_small_cap:digibyte": {
@@ -785,8 +775,8 @@
     "symbol": "SAHARA"
   },
   "dex_micro_cap:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": {
-    "last_alert_ts": 1792882992.1505697,
-    "last_score": 98.5,
+    "last_alert_ts": 1792929793.7289233,
+    "last_score": 58.1,
     "symbol": "REMUS"
   },
   "dex_micro_cap:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
@@ -810,8 +800,8 @@
     "symbol": "KET"
   },
   "cex_small_cap:trusta-ai": {
-    "last_alert_ts": 1792882992.1505697,
-    "last_score": 61.0,
+    "last_alert_ts": 1792929793.7289233,
+    "last_score": 61.4,
     "symbol": "TA"
   },
   "cex_small_cap:nillion": {
@@ -898,5 +888,25 @@
     "last_alert_ts": 1792918589.860699,
     "last_score": 56.0,
     "symbol": "SKYAI"
+  },
+  "cex_small_cap:gstock": {
+    "last_alert_ts": 1792929793.7289233,
+    "last_score": 61.6,
+    "symbol": "GSTOCK"
+  },
+  "cex_small_cap:civic": {
+    "last_alert_ts": 1792929793.7289233,
+    "last_score": 60.6,
+    "symbol": "CVC"
+  },
+  "cex_small_cap:baton-3": {
+    "last_alert_ts": 1792929793.7289233,
+    "last_score": 58.9,
+    "symbol": "BATON"
+  },
+  "cex_small_cap:dao-maker": {
+    "last_alert_ts": 1792929793.7289233,
+    "last_score": 58.3,
+    "symbol": "DAO"
   }
 }
