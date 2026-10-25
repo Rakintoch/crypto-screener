@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 42.94888438264091,
+  "cash_eur": 55.25032019226031,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:forta": {
@@ -15,7 +15,7 @@
       "entry_price_eur": 0.025924560784423126,
       "entry_ts": 1792899855.1353474,
       "cost_eur": 13.421526369575288,
-      "last_price_eur": 0.025885270801754904,
+      "last_price_eur": 0.02575953019194232,
       "last_score": 85.0,
       "missed_updates": 0,
       "entry_market_cap": 18993090,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 18961681
+      "last_market_cap": 18816535
     },
     "cex_small_cap:janction": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.00554062603943894,
       "entry_ts": 1792899855.1353474,
       "cost_eur": 6.263378972468469,
-      "last_price_eur": 0.005534940474061251,
+      "last_price_eur": 0.005526755931239413,
       "last_score": 69.1,
       "missed_updates": 0,
       "entry_market_cap": 71124389,
@@ -79,7 +79,7 @@
           "source": "Phemex"
         }
       ],
-      "last_market_cap": 71245854
+      "last_market_cap": 71170956
     },
     "cex_small_cap:apriori": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.02707493517143028,
       "entry_ts": 1792899855.1353474,
       "cost_eur": 13.421526369575288,
-      "last_price_eur": 0.04506959842263329,
-      "last_score": 92.1,
+      "last_price_eur": 0.043938520970392164,
+      "last_score": 95.3,
       "missed_updates": 0,
       "entry_market_cap": 12204569,
       "entry_venue": null,
@@ -113,62 +113,9 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 19713438,
+      "last_market_cap": 19794057,
       "trailing_active": true,
       "trailing_peak_eur": 0.04506959842263329
-    },
-    "cex_small_cap:initia": {
-      "tier": "cex_small_cap",
-      "id": "initia",
-      "symbol": "INIT",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/initia",
-      "qty": 90.55125316040288,
-      "entry_price_eur": 0.1482202167406821,
-      "entry_ts": 1792899855.1353474,
-      "cost_eur": 13.421526369575288,
-      "last_price_eur": 0.13660918737668298,
-      "last_score": 51.3,
-      "missed_updates": 0,
-      "entry_market_cap": 34956267,
-      "entry_venue": null,
-      "entry_contract_address": null,
-      "entry_score": 72.8,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 19487540,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 2.0255,
-      "entry_chg_24h": 20.66728,
-      "entry_chg_7d": 27.9121,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.5574834406660185,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "restructuring",
-        "security_incident"
-      ],
-      "entry_catalyst_score": 0.4,
-      "entry_catalyst_headlines": [
-        {
-          "title": "LayerZero (ZRO) Drops 3.6% Amid Market Risk-Off, Initia Exploit - CoinMarketCap",
-          "ts": 1792861380.0,
-          "source": "CoinMarketCap"
-        },
-        {
-          "title": "Initia Exploit Sends AUSD, USDC and Ether to Ethereum in 7 Minutes, 21 Seconds - TOKENPOST",
-          "ts": 1792853638.0,
-          "source": "TOKENPOST"
-        },
-        {
-          "title": "Initia Exploit AUSD Stablecoin: Key Details and Impact - The Cryptonomist",
-          "ts": 1792840362.0,
-          "source": "The Cryptonomist"
-        }
-      ],
-      "last_market_cap": 32262794
     }
   },
   "closed_trades": [
@@ -2672,10 +2619,69 @@
       "proceeds_eur": 5.620762141100823,
       "pnl_eur": -1.0259658710147113,
       "pnl_pct": -15.435652988125877
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "initia",
+      "symbol": "INIT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/initia",
+      "qty": 90.55125316040288,
+      "entry_price_eur": 0.1482202167406821,
+      "entry_ts": 1792899855.1353474,
+      "cost_eur": 13.421526369575288,
+      "last_price_eur": 0.13585053083504636,
+      "last_score": 50.2,
+      "missed_updates": 0,
+      "entry_market_cap": 34956267,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 72.8,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 19487540,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 2.0255,
+      "entry_chg_24h": 20.66728,
+      "entry_chg_7d": 27.9121,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.5574834406660185,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "restructuring",
+        "security_incident"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "LayerZero (ZRO) Drops 3.6% Amid Market Risk-Off, Initia Exploit - CoinMarketCap",
+          "ts": 1792861380.0,
+          "source": "CoinMarketCap"
+        },
+        {
+          "title": "Initia Exploit Sends AUSD, USDC and Ether to Ethereum in 7 Minutes, 21 Seconds - TOKENPOST",
+          "ts": 1792853638.0,
+          "source": "TOKENPOST"
+        },
+        {
+          "title": "Initia Exploit AUSD Stablecoin: Key Details and Impact - The Cryptonomist",
+          "ts": 1792840362.0,
+          "source": "The Cryptonomist"
+        }
+      ],
+      "last_market_cap": 32084538,
+      "exit_price_eur": 0.13585053083504636,
+      "exit_ts": 1792906520.9572196,
+      "exit_reason": "stop-loss hit (-8.3%)",
+      "proceeds_eur": 12.3014358096194,
+      "pnl_eur": -1.1200905599558872,
+      "pnl_pct": -8.345478219936108
     }
   ],
-  "last_run_ts": 1792906237.537327,
-  "last_eur_rate": 0.8925379915762296,
+  "last_run_ts": 1792906520.9572196,
+  "last_eur_rate": 0.8925379965116346,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
