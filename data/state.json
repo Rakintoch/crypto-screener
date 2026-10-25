@@ -15,8 +15,8 @@
     "symbol": "PUFFER"
   },
   "cex_small_cap:concierge-io": {
-    "last_alert_ts": 1792861922.3156893,
-    "last_score": 63.7,
+    "last_alert_ts": 1792915370.28079,
+    "last_score": 65.8,
     "symbol": "AVA"
   },
   "cex_small_cap:elsa": {
@@ -35,8 +35,8 @@
     "symbol": "ICNT"
   },
   "cex_small_cap:forta": {
-    "last_alert_ts": 1792868580.318565,
-    "last_score": 83.0,
+    "last_alert_ts": 1792915370.28079,
+    "last_score": 78.3,
     "symbol": "FORT"
   },
   "cex_small_cap:termmax": {
@@ -50,8 +50,8 @@
     "symbol": "ARIA"
   },
   "cex_small_cap:neosoul": {
-    "last_alert_ts": 1792861387.0028548,
-    "last_score": 68.3,
+    "last_alert_ts": 1792915370.28079,
+    "last_score": 68.1,
     "symbol": "DNA"
   },
   "cex_small_cap:caldera": {
@@ -113,11 +113,6 @@
     "last_alert_ts": 1792882992.1505697,
     "last_score": 88.7,
     "symbol": "JCT"
-  },
-  "cex_small_cap:ai-rig-complex": {
-    "last_alert_ts": 1792652609.9337668,
-    "last_score": 63.2,
-    "symbol": "ARC"
   },
   "cex_small_cap:levva-protocol": {
     "last_alert_ts": 1792710206.1053004,
@@ -309,20 +304,10 @@
     "last_score": 56.8,
     "symbol": "HP"
   },
-  "cex_small_cap:lumia": {
-    "last_alert_ts": 1792652609.9337668,
-    "last_score": 75.2,
-    "symbol": "LUMIA"
-  },
   "dex_micro_cap:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": {
     "last_alert_ts": 1792710206.1053004,
     "last_score": 62.9,
     "symbol": "OA"
-  },
-  "cex_small_cap:radicle": {
-    "last_alert_ts": 1792652609.9337668,
-    "last_score": 58.8,
-    "symbol": "RAD"
   },
   "cex_small_cap:waves": {
     "last_alert_ts": 1792709916.2733653,
@@ -500,8 +485,8 @@
     "symbol": "McRib"
   },
   "cex_small_cap:sophon": {
-    "last_alert_ts": 1792832586.0861936,
-    "last_score": 55.3,
+    "last_alert_ts": 1792915370.28079,
+    "last_score": 55.2,
     "symbol": "SOPH"
   },
   "dex_micro_cap:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
@@ -780,8 +765,8 @@
     "symbol": "CREORA"
   },
   "cex_small_cap:zignaly": {
-    "last_alert_ts": 1792849828.0037847,
-    "last_score": 65.4,
+    "last_alert_ts": 1792915370.28079,
+    "last_score": 57.1,
     "symbol": "ZIG"
   },
   "cex_small_cap:silencio": {
@@ -870,8 +855,8 @@
     "symbol": "███"
   },
   "cex_small_cap:threshold-network-token": {
-    "last_alert_ts": 1792893792.7371094,
-    "last_score": 83.6,
+    "last_alert_ts": 1792915370.28079,
+    "last_score": 99.0,
     "symbol": "T"
   },
   "dex_micro_cap:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": {
@@ -923,5 +908,15 @@
     "last_alert_ts": 1792908194.6875947,
     "last_score": 58.9,
     "symbol": "QKC"
+  },
+  "dex_micro_cap:FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump": {
+    "last_alert_ts": 1792915370.28079,
+    "last_score": 66.3,
+    "symbol": "Marvin"
+  },
+  "dex_micro_cap:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
+    "last_alert_ts": 1792915370.28079,
+    "last_score": 56.0,
+    "symbol": "BTC"
   }
 }
