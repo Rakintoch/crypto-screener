@@ -10090,5 +10090,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "INIT (cex_small_cap) lost -8.3% in 111 min (fast (1-6h)) — stop-loss hit. Entry score: 73 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792926317.999089,
+    "symbol": "SWORDOPE",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/3tXP9X2W1aL9jtZF1tuAwEZMuX4w3PWNvVAHPJjd3MAq",
+    "held_minutes": 128.8,
+    "exit_reason": "stop-loss hit (-28.0%)",
+    "pnl_pct": -28.04,
+    "pnl_eur": -2.47,
+    "entry_score": 72.0,
+    "entry_liquidity_usd": 123942.4909,
+    "entry_volume_24h_usd": 5140341.68586979,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 13.289,
+    "entry_chg_24h": 480.165,
+    "entry_chg_7d": null,
+    "entry_chg_6h": -7.09,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 41.47360318921741,
+    "entry_boosted": true,
+    "entry_pool_age_minutes": 790.8856595666667,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "SWORDOPE (dex_micro_cap) lost -28.0% in 129 min (fast (1-6h)) — stop-loss hit. Entry liquidity: $123,942. Entry score: 72 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
