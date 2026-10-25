@@ -2676,5 +2676,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "APR (cex_small_cap) gained +60.4% in 151 min — trailing stop caught extra upside after the target. Entry score: 78. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792917317.2854495,
+    "symbol": "JCT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/janction",
+    "held_minutes": 291.0,
+    "exit_reason": "trailing stop hit — dropped 13.0% from the peak (peak +26.9% since entry)",
+    "pnl_pct": 10.36,
+    "pnl_eur": 0.65,
+    "entry_score": 79.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 84301777,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 0.3615,
+    "entry_chg_24h": 134.68627,
+    "entry_chg_7d": 217.3777,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.1852724246249764,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "JCT (cex_small_cap) gained +10.4% in 291 min — trailing stop caught extra upside after the target. Entry score: 79. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
