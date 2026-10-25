@@ -255,8 +255,8 @@
     "symbol": "DYM"
   },
   "cex_small_cap:canopy": {
-    "last_alert_ts": 1792882992.1505697,
-    "last_score": 55.6,
+    "last_alert_ts": 1792936978.5899823,
+    "last_score": 61.0,
     "symbol": "CNPY"
   },
   "dex_micro_cap:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": {
@@ -265,14 +265,9 @@
     "symbol": "DOPE"
   },
   "cex_small_cap:billions-network": {
-    "last_alert_ts": 1792738983.763942,
-    "last_score": 63.3,
+    "last_alert_ts": 1792936978.5899823,
+    "last_score": 55.0,
     "symbol": "BILL"
-  },
-  "dex_micro_cap:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": {
-    "last_alert_ts": 1792674191.640409,
-    "last_score": 84.6,
-    "symbol": "CYBER"
   },
   "cex_small_cap:hippo-protocol": {
     "last_alert_ts": 1792731779.9413373,
@@ -289,40 +284,15 @@
     "last_score": 56.6,
     "symbol": "WAVES"
   },
-  "cex_small_cap:darkwoods": {
-    "last_alert_ts": 1792674191.640409,
-    "last_score": 84.6,
-    "symbol": "DARK"
-  },
-  "cex_small_cap:aeon-2": {
-    "last_alert_ts": 1792674191.640409,
-    "last_score": 83.1,
-    "symbol": "AEON"
-  },
   "cex_small_cap:sentinel-protocol": {
     "last_alert_ts": 1792929793.7289233,
     "last_score": 88.8,
     "symbol": "BOUNTY"
   },
-  "cex_small_cap:digibyte": {
-    "last_alert_ts": 1792674191.640409,
-    "last_score": 68.0,
-    "symbol": "DGB"
-  },
   "cex_small_cap:cluster-protocol": {
     "last_alert_ts": 1792872564.1278832,
     "last_score": 55.7,
     "symbol": "CP"
-  },
-  "cex_small_cap:zhong-guo-ren-neng-fei": {
-    "last_alert_ts": 1792674191.640409,
-    "last_score": 65.3,
-    "symbol": "中国人能飞"
-  },
-  "cex_small_cap:sleepless-ai": {
-    "last_alert_ts": 1792674191.640409,
-    "last_score": 55.3,
-    "symbol": "AI"
   },
   "cex_small_cap:accenture-ondo-tokenized-stock": {
     "last_alert_ts": 1792746209.729768,
@@ -490,8 +460,8 @@
     "symbol": "ZZZ"
   },
   "cex_small_cap:captainbnb": {
-    "last_alert_ts": 1792882992.1505697,
-    "last_score": 69.3,
+    "last_alert_ts": 1792936978.5899823,
+    "last_score": 55.0,
     "symbol": "CAPTAINBNB"
   },
   "cex_small_cap:blackberry-bstocks-tokenized-stock": {
@@ -908,5 +878,30 @@
     "last_alert_ts": 1792929793.7289233,
     "last_score": 58.3,
     "symbol": "DAO"
+  },
+  "dex_micro_cap:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": {
+    "last_alert_ts": 1792936978.5899823,
+    "last_score": 84.1,
+    "symbol": "CATTLEAXE"
+  },
+  "cex_small_cap:gamebuild": {
+    "last_alert_ts": 1792936978.5899823,
+    "last_score": 74.8,
+    "symbol": "GAME"
+  },
+  "cex_small_cap:aura-final-boss-2": {
+    "last_alert_ts": 1792936978.5899823,
+    "last_score": 67.5,
+    "symbol": "KIMCHI"
+  },
+  "cex_small_cap:stonk-3": {
+    "last_alert_ts": 1792936978.5899823,
+    "last_score": 65.6,
+    "symbol": "STONK"
+  },
+  "cex_small_cap:babylon": {
+    "last_alert_ts": 1792936978.5899823,
+    "last_score": 59.8,
+    "symbol": "BABY"
   }
 }
