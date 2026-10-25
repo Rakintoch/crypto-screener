@@ -15,8 +15,8 @@
       "entry_price_eur": 0.025924560784423126,
       "entry_ts": 1792899855.1353474,
       "cost_eur": 13.421526369575288,
-      "last_price_eur": 0.026525916843314998,
-      "last_score": 77.6,
+      "last_price_eur": 0.02670675400887528,
+      "last_score": 78.0,
       "missed_updates": 0,
       "entry_market_cap": 18993090,
       "entry_venue": "Bithumb",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 19395079
+      "last_market_cap": 19507566
     },
     "cex_small_cap:janction": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.00554062603943894,
       "entry_ts": 1792899855.1353474,
       "cost_eur": 6.263378972468469,
-      "last_price_eur": 0.005759574462263754,
-      "last_score": 88.9,
+      "last_price_eur": 0.005746980760237603,
+      "last_score": 89.0,
       "missed_updates": 0,
       "entry_market_cap": 71124389,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -79,7 +79,7 @@
           "source": "Phemex"
         }
       ],
-      "last_market_cap": 74134847
+      "last_market_cap": 74042527
     }
   },
   "closed_trades": [
@@ -2686,8 +2686,8 @@
       "pnl_pct": 60.35424005962159
     }
   ],
-  "last_run_ts": 1792911650.04375,
-  "last_eur_rate": 0.8925379956801307,
+  "last_run_ts": 1792911917.1179047,
+  "last_eur_rate": 0.892537997092308,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
