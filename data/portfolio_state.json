@@ -15,8 +15,8 @@
       "entry_price_eur": 0.025924560784423126,
       "entry_ts": 1792899855.1353474,
       "cost_eur": 13.421526369575288,
-      "last_price_eur": 0.025771552944715375,
-      "last_score": 67.4,
+      "last_price_eur": 0.02580821821746379,
+      "last_score": 68.4,
       "missed_updates": 0,
       "entry_market_cap": 18993090,
       "entry_venue": "Bithumb",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 18881470
+      "last_market_cap": 18852012
     },
     "cex_small_cap:janction": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.00554062603943894,
       "entry_ts": 1792899855.1353474,
       "cost_eur": 6.263378972468469,
-      "last_price_eur": 0.005789278191898195,
+      "last_price_eur": 0.005723783711226561,
       "last_score": 91.1,
       "missed_updates": 0,
       "entry_market_cap": 71124389,
@@ -79,7 +79,7 @@
           "source": "Phemex"
         }
       ],
-      "last_market_cap": 74305375
+      "last_market_cap": 74025547
     }
   },
   "closed_trades": [
@@ -2686,8 +2686,8 @@
       "pnl_pct": 60.35424005962159
     }
   ],
-  "last_run_ts": 1792908924.5454006,
-  "last_eur_rate": 0.8925380057225442,
+  "last_run_ts": 1792909222.9980361,
+  "last_eur_rate": 0.8925379992026361,
   "last_rotation_ts": 1792033390.0974672,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
