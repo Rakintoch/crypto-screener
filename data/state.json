@@ -45,8 +45,8 @@
     "symbol": "TMX"
   },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1792893792.7371094,
-    "last_score": 60.8,
+    "last_alert_ts": 1792908194.6875947,
+    "last_score": 76.8,
     "symbol": "ARIA"
   },
   "cex_small_cap:neosoul": {
@@ -140,8 +140,8 @@
     "symbol": "BNCB"
   },
   "cex_small_cap:iostoken": {
-    "last_alert_ts": 1792667001.7258222,
-    "last_score": 56.1,
+    "last_alert_ts": 1792908194.6875947,
+    "last_score": 73.7,
     "symbol": "IOST"
   },
   "cex_small_cap:renzo": {
@@ -308,11 +308,6 @@
     "last_alert_ts": 1792731779.9413373,
     "last_score": 56.8,
     "symbol": "HP"
-  },
-  "cex_small_cap:iotex": {
-    "last_alert_ts": 1792645408.5403008,
-    "last_score": 66.1,
-    "symbol": "IOTX"
   },
   "cex_small_cap:lumia": {
     "last_alert_ts": 1792652609.9337668,
@@ -665,8 +660,8 @@
     "symbol": "SWORDCAT"
   },
   "cex_small_cap:stonks-9": {
-    "last_alert_ts": 1792861387.0028548,
-    "last_score": 84.3,
+    "last_alert_ts": 1792908194.6875947,
+    "last_score": 68.6,
     "symbol": "STONKS"
   },
   "cex_small_cap:katana-network-token": {
@@ -895,8 +890,8 @@
     "symbol": "MOC"
   },
   "cex_small_cap:apriori": {
-    "last_alert_ts": 1792899854.5626225,
-    "last_score": 78.2,
+    "last_alert_ts": 1792908194.6875947,
+    "last_score": 98.5,
     "symbol": "APR"
   },
   "cex_small_cap:pepina-2": {
@@ -918,5 +913,15 @@
     "last_alert_ts": 1792901000.7284365,
     "last_score": 56.3,
     "symbol": "SONIC"
+  },
+  "cex_small_cap:farming-season": {
+    "last_alert_ts": 1792908194.6875947,
+    "last_score": 74.9,
+    "symbol": "SEASON"
+  },
+  "cex_small_cap:quark-chain": {
+    "last_alert_ts": 1792908194.6875947,
+    "last_score": 58.9,
+    "symbol": "QKC"
   }
 }
