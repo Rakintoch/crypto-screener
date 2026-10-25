@@ -10198,5 +10198,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "APR (cex_small_cap) lost -9.4% in 88 min (fast (1-6h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1792947919.4173942,
+    "symbol": "EVMZONE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/evmzone",
+    "held_minutes": 62.2,
+    "exit_reason": "stop-loss hit (-8.3%)",
+    "pnl_pct": -8.33,
+    "pnl_eur": -0.53,
+    "entry_score": 73.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 7937314,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 7.5834,
+    "entry_chg_24h": 57.82372,
+    "entry_chg_7d": null,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.4523217227960503,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "EVMZONE (cex_small_cap) lost -8.3% in 62 min (fast (1-6h)) — stop-loss hit. Entry score: 73 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
