@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 57.73690729023966,
+  "cash_eur": 44.10019637964977,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:musebook": {
@@ -15,7 +15,7 @@
       "entry_price_eur": 1.2068195416084256e-05,
       "entry_ts": 1792944187.4996636,
       "cost_eur": 13.55270678156517,
-      "last_price_eur": 1.2029059864646224e-05,
+      "last_price_eur": 1.2033376768001268e-05,
       "last_score": 46.6,
       "missed_updates": 0,
       "entry_market_cap": 1350736,
@@ -45,7 +45,7 @@
           "source": "Traders Union"
         }
       ],
-      "last_market_cap": 1348530
+      "last_market_cap": 1349004
     },
     "cex_small_cap:trusta-ai": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.05371060982839336,
       "entry_ts": 1792951373.6470547,
       "cost_eur": 6.354229599875723,
-      "last_price_eur": 0.054700566963443886,
-      "last_score": 61.1,
+      "last_price_eur": 0.0546309953135263,
+      "last_score": 60.5,
       "missed_updates": 0,
       "entry_market_cap": 10847454,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -79,7 +79,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11041914
+      "last_market_cap": 11024400
     },
     "cex_small_cap:dodo": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.022849368807969363,
       "entry_ts": 1792965792.2820544,
       "cost_eur": 13.65624946820864,
-      "last_price_eur": 0.022048856548980464,
-      "last_score": 76.8,
+      "last_price_eur": 0.022082263274361313,
+      "last_score": 77.8,
       "missed_updates": 0,
       "entry_market_cap": 25625070,
       "entry_venue": "Binance",
@@ -113,7 +113,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 24726713
+      "last_market_cap": 24745915
+    },
+    "cex_small_cap:doodles": {
+      "tier": "cex_small_cap",
+      "id": "doodles",
+      "symbol": "DOOD",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/doodles",
+      "qty": 5899.356507185668,
+      "entry_price_eur": 0.002311559047835096,
+      "entry_ts": 1793007535.741706,
+      "cost_eur": 13.636710910589882,
+      "last_price_eur": 0.002311559047835096,
+      "last_score": 99.9,
+      "missed_updates": 0,
+      "entry_market_cap": 20241603,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV (Solana)",
+      "entry_score": 99.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 128658560,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 35.0786,
+      "entry_chg_24h": 77.95232,
+      "entry_chg_7d": 79.2564,
+      "entry_chg_6h": null,
+      "entry_turnover": 6.356144817186663,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -3052,8 +3085,8 @@
       "pnl_pct": 20.611740035690946
     }
   ],
-  "last_run_ts": 1793007321.440928,
-  "last_eur_rate": 0.8917019914489418,
+  "last_run_ts": 1793007535.741706,
+  "last_eur_rate": 0.8920219991105462,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
