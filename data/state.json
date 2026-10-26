@@ -55,8 +55,8 @@
     "symbol": "CBUCKS"
   },
   "cex_small_cap:citrea": {
-    "last_alert_ts": 1792849828.0037847,
-    "last_score": 66.2,
+    "last_alert_ts": 1793016211.5286303,
+    "last_score": 65.4,
     "symbol": "CTR"
   },
   "dex_micro_cap:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
@@ -223,11 +223,6 @@
     "last_alert_ts": 1792839778.1715455,
     "last_score": 93.1,
     "symbol": "VIRTUAL"
-  },
-  "dex_micro_cap:6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump": {
-    "last_alert_ts": 1792753385.1565492,
-    "last_score": 62.6,
-    "symbol": "Au"
   },
   "cex_small_cap:axis-robotics": {
     "last_alert_ts": 1792983508.0104551,
@@ -425,8 +420,8 @@
     "symbol": "STONKS"
   },
   "cex_small_cap:katana-network-token": {
-    "last_alert_ts": 1793007535.3709867,
-    "last_score": 69.0,
+    "last_alert_ts": 1793016211.5286303,
+    "last_score": 88.1,
     "symbol": "KAT"
   },
   "cex_small_cap:binance-super-cz-2": {
@@ -460,8 +455,8 @@
     "symbol": "GUA"
   },
   "cex_small_cap:bitlight": {
-    "last_alert_ts": 1792994599.6219728,
-    "last_score": 57.9,
+    "last_alert_ts": 1793016211.5286303,
+    "last_score": 81.9,
     "symbol": "LIGHT"
   },
   "cex_small_cap:orderly-network": {
@@ -640,8 +635,8 @@
     "symbol": "SWORDOPE"
   },
   "cex_small_cap:super-inu-2": {
-    "last_alert_ts": 1792893792.7371094,
-    "last_score": 66.9,
+    "last_alert_ts": 1793016211.5286303,
+    "last_score": 60.4,
     "symbol": "SI"
   },
   "cex_small_cap:mossland": {
@@ -858,5 +853,15 @@
     "last_alert_ts": 1793007535.3709867,
     "last_score": 60.5,
     "symbol": "Bow"
+  },
+  "dex_micro_cap:0xa551def8a44ea423caa58da45b3f5764004286ea": {
+    "last_alert_ts": 1793016211.5286303,
+    "last_score": 64.5,
+    "symbol": "PANGEA"
+  },
+  "cex_small_cap:soon-2": {
+    "last_alert_ts": 1793016211.5286303,
+    "last_score": 57.8,
+    "symbol": "SOON"
   }
 }
