@@ -9,11 +9,6 @@
     "last_score": 56.1,
     "symbol": "OSMO"
   },
-  "cex_small_cap:puffer-finance": {
-    "last_alert_ts": 1792717415.799371,
-    "last_score": 55.6,
-    "symbol": "PUFFER"
-  },
   "cex_small_cap:concierge-io": {
     "last_alert_ts": 1792915370.28079,
     "last_score": 65.8,
@@ -30,8 +25,8 @@
     "symbol": "ICNT"
   },
   "cex_small_cap:forta": {
-    "last_alert_ts": 1792915370.28079,
-    "last_score": 78.3,
+    "last_alert_ts": 1792980183.4126065,
+    "last_score": 70.0,
     "symbol": "FORT"
   },
   "cex_small_cap:termmax": {
@@ -50,8 +45,8 @@
     "symbol": "DNA"
   },
   "cex_small_cap:caldera": {
-    "last_alert_ts": 1792951373.0512936,
-    "last_score": 65.2,
+    "last_alert_ts": 1792980183.4126065,
+    "last_score": 96.1,
     "symbol": "ERA"
   },
   "cex_small_cap:torch": {
@@ -129,11 +124,6 @@
     "last_score": 78.4,
     "symbol": "DOS"
   },
-  "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1792717415.799371,
-    "last_score": 58.0,
-    "symbol": "SOXSB"
-  },
   "cex_small_cap:bordrless": {
     "last_alert_ts": 1792782198.4559274,
     "last_score": 59.9,
@@ -155,8 +145,8 @@
     "symbol": "PARTI"
   },
   "cex_small_cap:irys": {
-    "last_alert_ts": 1792966649.7823946,
-    "last_score": 58.8,
+    "last_alert_ts": 1792980183.4126065,
+    "last_score": 78.4,
     "symbol": "IRYS"
   },
   "cex_small_cap:antfun": {
@@ -340,8 +330,8 @@
     "symbol": "GUST"
   },
   "cex_small_cap:pangea-2": {
-    "last_alert_ts": 1792922576.1050093,
-    "last_score": 58.4,
+    "last_alert_ts": 1792980183.4126065,
+    "last_score": 64.8,
     "symbol": "PANGEA"
   },
   "cex_small_cap:infinit": {
@@ -375,8 +365,8 @@
     "symbol": "ARK"
   },
   "cex_small_cap:interfold": {
-    "last_alert_ts": 1792825398.6934657,
-    "last_score": 85.0,
+    "last_alert_ts": 1792980183.4126065,
+    "last_score": 64.0,
     "symbol": "FOLD"
   },
   "dex_micro_cap:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": {
@@ -550,8 +540,8 @@
     "symbol": "YMB"
   },
   "cex_small_cap:big-time": {
-    "last_alert_ts": 1792882992.1505697,
-    "last_score": 60.7,
+    "last_alert_ts": 1792980183.4126065,
+    "last_score": 59.6,
     "symbol": "BIGTIME"
   },
   "dex_micro_cap:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": {
@@ -670,8 +660,8 @@
     "symbol": "KET"
   },
   "cex_small_cap:trusta-ai": {
-    "last_alert_ts": 1792929793.7289233,
-    "last_score": 61.4,
+    "last_alert_ts": 1792980183.4126065,
+    "last_score": 57.8,
     "symbol": "TA"
   },
   "cex_small_cap:nillion": {
@@ -680,8 +670,8 @@
     "symbol": "NIL"
   },
   "dex_micro_cap:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": {
-    "last_alert_ts": 1792886383.8400476,
-    "last_score": 56.0,
+    "last_alert_ts": 1792980183.4126065,
+    "last_score": 66.9,
     "symbol": "███"
   },
   "cex_small_cap:threshold-network-token": {
@@ -878,5 +868,10 @@
     "last_alert_ts": 1792972981.8977046,
     "last_score": 84.1,
     "symbol": "WORM"
+  },
+  "cex_small_cap:sapling": {
+    "last_alert_ts": 1792980183.4126065,
+    "last_score": 59.6,
+    "symbol": "SAPLING"
   }
 }
