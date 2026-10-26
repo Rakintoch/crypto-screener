@@ -15,8 +15,8 @@
       "entry_price_eur": 1.2068195416084256e-05,
       "entry_ts": 1792944187.4996636,
       "cost_eur": 13.55270678156517,
-      "last_price_eur": 1.1677938414337638e-05,
-      "last_score": 38.2,
+      "last_price_eur": 1.161482660054689e-05,
+      "last_score": 37.8,
       "missed_updates": 0,
       "entry_market_cap": 1350736,
       "entry_venue": "LBank",
@@ -45,7 +45,7 @@
           "source": "Traders Union"
         }
       ],
-      "last_market_cap": 1305910
+      "last_market_cap": 1300061
     },
     "cex_small_cap:trusta-ai": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.05371060982839336,
       "entry_ts": 1792951373.6470547,
       "cost_eur": 6.354229599875723,
-      "last_price_eur": 0.054276482522993455,
-      "last_score": 40.2,
+      "last_price_eur": 0.054388504423253756,
+      "last_score": 40.6,
       "missed_updates": 0,
       "entry_market_cap": 10847454,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -79,7 +79,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10926308
+      "last_market_cap": 10933675
     },
     "cex_small_cap:caldera": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.0796014140514983,
       "entry_ts": 1793030588.099926,
       "cost_eur": 13.320225586651432,
-      "last_price_eur": 0.07654414717324232,
-      "last_score": 64.6,
+      "last_price_eur": 0.07619916379716757,
+      "last_score": 64.2,
       "missed_updates": 0,
       "entry_market_cap": 15554885,
       "entry_venue": "Upbit",
@@ -121,7 +121,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 14953568
+      "last_market_cap": 14885883
     },
     "cex_small_cap:bitlight": {
       "tier": "cex_small_cap",
@@ -133,8 +133,8 @@
       "entry_price_eur": 0.2520256685390024,
       "entry_ts": 1793030588.099926,
       "cost_eur": 6.216105273770669,
-      "last_price_eur": 0.2491120654367519,
-      "last_score": 64.2,
+      "last_price_eur": 0.24923683260939522,
+      "last_score": 64.3,
       "missed_updates": 0,
       "entry_market_cap": 12133745,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -155,7 +155,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12001255
+      "last_market_cap": 12028407
     }
   },
   "closed_trades": [
@@ -3174,8 +3174,8 @@
       "pnl_pct": -8.237536605889376
     }
   ],
-  "last_run_ts": 1793040624.7506905,
-  "last_eur_rate": 0.8941759888466797,
+  "last_run_ts": 1793040919.699032,
+  "last_eur_rate": 0.8941359969628092,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
