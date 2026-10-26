@@ -45,8 +45,8 @@
     "symbol": "DNA"
   },
   "cex_small_cap:caldera": {
-    "last_alert_ts": 1792980183.4126065,
-    "last_score": 96.1,
+    "last_alert_ts": 1793023415.8707123,
+    "last_score": 69.3,
     "symbol": "ERA"
   },
   "cex_small_cap:cartoon-money": {
@@ -124,11 +124,6 @@
     "last_score": 58.2,
     "symbol": "BIRB"
   },
-  "cex_small_cap:cat-in-a-dogs-world": {
-    "last_alert_ts": 1792760598.5781486,
-    "last_score": 56.8,
-    "symbol": "MEW"
-  },
   "cex_small_cap:particle-network": {
     "last_alert_ts": 1793009002.3479815,
     "last_score": 55.9,
@@ -189,11 +184,6 @@
     "last_score": 57.8,
     "symbol": "US"
   },
-  "cex_small_cap:nuance-2": {
-    "last_alert_ts": 1792760598.5781486,
-    "last_score": 59.3,
-    "symbol": "SN23"
-  },
   "cex_small_cap:canopy": {
     "last_alert_ts": 1792936978.5899823,
     "last_score": 61.0,
@@ -238,11 +228,6 @@
     "last_alert_ts": 1792784803.2860434,
     "last_score": 65.3,
     "symbol": "BLACKTOBER"
-  },
-  "dex_micro_cap:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": {
-    "last_alert_ts": 1792760598.5781486,
-    "last_score": 57.3,
-    "symbol": "SHAV"
   },
   "cex_small_cap:pair": {
     "last_alert_ts": 1792767827.7130146,
@@ -863,5 +848,25 @@
     "last_alert_ts": 1793016211.5286303,
     "last_score": 57.8,
     "symbol": "SOON"
+  },
+  "cex_small_cap:lorenzo-protocol": {
+    "last_alert_ts": 1793023415.8707123,
+    "last_score": 75.7,
+    "symbol": "BANK"
+  },
+  "cex_small_cap:infinity-ground": {
+    "last_alert_ts": 1793023415.8707123,
+    "last_score": 68.6,
+    "symbol": "AIN"
+  },
+  "cex_small_cap:anthropic-prestocks-2": {
+    "last_alert_ts": 1793023415.8707123,
+    "last_score": 60.7,
+    "symbol": "ANTHROPIC"
+  },
+  "cex_small_cap:huma-finance": {
+    "last_alert_ts": 1793023415.8707123,
+    "last_score": 55.7,
+    "symbol": "HUMA"
   }
 }
