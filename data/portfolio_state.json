@@ -2,51 +2,9 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 49.620196853894385,
+  "cash_eur": 62.68446194853535,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
-    "cex_small_cap:musebook": {
-      "tier": "cex_small_cap",
-      "id": "musebook",
-      "symbol": "MUSEBOOK",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/musebook",
-      "qty": 1123010.219365721,
-      "entry_price_eur": 1.2068195416084256e-05,
-      "entry_ts": 1792944187.4996636,
-      "cost_eur": 13.55270678156517,
-      "last_price_eur": 1.161482660054689e-05,
-      "last_score": 37.8,
-      "missed_updates": 0,
-      "entry_market_cap": 1350736,
-      "entry_venue": "LBank",
-      "entry_contract_address": "0x91a2dae9699f0b82540b5886b0d8759c22820ba3 (robinhood)",
-      "entry_score": 76.4,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 1576497,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 5.5645,
-      "entry_chg_24h": 15.8235,
-      "entry_chg_7d": -32.593,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.1671392485282097,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "listing"
-      ],
-      "entry_catalyst_score": 0.4,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Bitrue to list MUU/USDT and musebook/USDT perpetual futures pairs with up to 25× leverage - Traders Union",
-          "ts": 1792564399.0,
-          "source": "Traders Union"
-        }
-      ],
-      "last_market_cap": 1300061
-    },
     "cex_small_cap:trusta-ai": {
       "tier": "cex_small_cap",
       "id": "trusta-ai",
@@ -57,8 +15,8 @@
       "entry_price_eur": 0.05371060982839336,
       "entry_ts": 1792951373.6470547,
       "cost_eur": 6.354229599875723,
-      "last_price_eur": 0.054388504423253756,
-      "last_score": 40.6,
+      "last_price_eur": 0.05442414384171435,
+      "last_score": 36.6,
       "missed_updates": 0,
       "entry_market_cap": 10847454,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -79,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10933675
+      "last_market_cap": 10955175
     },
     "cex_small_cap:caldera": {
       "tier": "cex_small_cap",
@@ -91,8 +49,8 @@
       "entry_price_eur": 0.0796014140514983,
       "entry_ts": 1793030588.099926,
       "cost_eur": 13.320225586651432,
-      "last_price_eur": 0.07619916379716757,
-      "last_score": 64.2,
+      "last_price_eur": 0.07630289109414296,
+      "last_score": 60.2,
       "missed_updates": 0,
       "entry_market_cap": 15554885,
       "entry_venue": "Upbit",
@@ -121,7 +79,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 14885883
+      "last_market_cap": 14894927
     },
     "cex_small_cap:bitlight": {
       "tier": "cex_small_cap",
@@ -133,8 +91,8 @@
       "entry_price_eur": 0.2520256685390024,
       "entry_ts": 1793030588.099926,
       "cost_eur": 6.216105273770669,
-      "last_price_eur": 0.24923683260939522,
-      "last_score": 64.3,
+      "last_price_eur": 0.25062378596124313,
+      "last_score": 69.1,
       "missed_updates": 0,
       "entry_market_cap": 12133745,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -155,7 +113,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12028407
+      "last_market_cap": 12065945
     }
   },
   "closed_trades": [
@@ -3172,10 +3130,58 @@
       "proceeds_eur": 12.53131091927338,
       "pnl_eur": -1.1249385489352601,
       "pnl_pct": -8.237536605889376
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "musebook",
+      "symbol": "MUSEBOOK",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/musebook",
+      "qty": 1123010.219365721,
+      "entry_price_eur": 1.2068195416084256e-05,
+      "entry_ts": 1792944187.4996636,
+      "cost_eur": 13.55270678156517,
+      "last_price_eur": 1.1633255752578719e-05,
+      "last_score": 29.0,
+      "missed_updates": 0,
+      "entry_market_cap": 1350736,
+      "entry_venue": "LBank",
+      "entry_contract_address": "0x91a2dae9699f0b82540b5886b0d8759c22820ba3 (robinhood)",
+      "entry_score": 76.4,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 1576497,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 5.5645,
+      "entry_chg_24h": 15.8235,
+      "entry_chg_7d": -32.593,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.1671392485282097,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Bitrue to list MUU/USDT and musebook/USDT perpetual futures pairs with up to 25× leverage - Traders Union",
+          "ts": 1792564399.0,
+          "source": "Traders Union"
+        }
+      ],
+      "last_market_cap": 1300994,
+      "exit_price_eur": 1.1633255752578719e-05,
+      "exit_ts": 1793041258.347126,
+      "exit_reason": "momentum thesis invalidated (score dropped to 29)",
+      "proceeds_eur": 13.064265094640964,
+      "pnl_eur": -0.4884416869242063,
+      "pnl_pct": -3.6040157497438106
     }
   ],
-  "last_run_ts": 1793040919.699032,
-  "last_eur_rate": 0.8941359969628092,
+  "last_run_ts": 1793041258.347126,
+  "last_eur_rate": 0.8941779978922919,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,

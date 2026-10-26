@@ -10360,5 +10360,32 @@
     "categoria": "other",
     "velocidade_queda": "slow (>6h)",
     "licao": "MUSEBOOK (cex_small_cap) lost -0.5% in 1561 min (slow (>6h)) — other. Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793041258.347126,
+    "symbol": "MUSEBOOK",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/musebook",
+    "held_minutes": 1617.8,
+    "exit_reason": "momentum thesis invalidated (score dropped to 29)",
+    "pnl_pct": -3.6,
+    "pnl_eur": -0.49,
+    "entry_score": 76.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1576497,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.5645,
+    "entry_chg_24h": 15.8235,
+    "entry_chg_7d": -32.593,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.1671392485282097,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "MUSEBOOK (cex_small_cap) lost -3.6% in 1618 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
