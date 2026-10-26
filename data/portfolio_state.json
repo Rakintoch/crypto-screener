@@ -15,8 +15,8 @@
       "entry_price_eur": 0.06468222887771982,
       "entry_ts": 1792915370.8485453,
       "cost_eur": 6.8445833156646,
-      "last_price_eur": 0.07147577714808176,
-      "last_score": 58.0,
+      "last_price_eur": 0.07119870016189087,
+      "last_score": 57.8,
       "missed_updates": 0,
       "entry_market_cap": 13274472,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 14637968
+      "last_market_cap": 14620105
     },
     "cex_small_cap:musebook": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 1.2068195416084256e-05,
       "entry_ts": 1792944187.4996636,
       "cost_eur": 13.55270678156517,
-      "last_price_eur": 1.178426835650056e-05,
-      "last_score": 46.6,
+      "last_price_eur": 1.1701429862257664e-05,
+      "last_score": 45.8,
       "missed_updates": 0,
       "entry_market_cap": 1350736,
       "entry_venue": "LBank",
@@ -79,7 +79,7 @@
           "source": "Traders Union"
         }
       ],
-      "last_market_cap": 1321479
+      "last_market_cap": 1312546
     },
     "cex_small_cap:trusta-ai": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.05371060982839336,
       "entry_ts": 1792951373.6470547,
       "cost_eur": 6.354229599875723,
-      "last_price_eur": 0.05309873657034987,
-      "last_score": 55.4,
+      "last_price_eur": 0.05363586099239263,
+      "last_score": 56.2,
       "missed_updates": 0,
       "entry_market_cap": 10847454,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -113,7 +113,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10739563
+      "last_market_cap": 10833096
     },
     "cex_small_cap:dodo": {
       "tier": "cex_small_cap",
@@ -125,8 +125,8 @@
       "entry_price_eur": 0.022849368807969363,
       "entry_ts": 1792965792.2820544,
       "cost_eur": 13.65624946820864,
-      "last_price_eur": 0.02451781212154031,
-      "last_score": 67.1,
+      "last_price_eur": 0.02225260827785739,
+      "last_score": 61.5,
       "missed_updates": 0,
       "entry_market_cap": 25625070,
       "entry_venue": "Binance",
@@ -147,7 +147,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 27505823
+      "last_market_cap": 24969321
     }
   },
   "closed_trades": [
@@ -3044,8 +3044,8 @@
       "pnl_pct": -3.168484650349166
     }
   ],
-  "last_run_ts": 1792979124.7880218,
-  "last_eur_rate": 0.8913970012481511,
+  "last_run_ts": 1792979423.420421,
+  "last_eur_rate": 0.8911980093113224,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
