@@ -35,8 +35,8 @@
     "symbol": "TMX"
   },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1792958592.3048177,
-    "last_score": 66.0,
+    "last_alert_ts": 1793001772.9230258,
+    "last_score": 84.5,
     "symbol": "ARIA"
   },
   "cex_small_cap:neosoul": {
@@ -49,11 +49,6 @@
     "last_score": 96.1,
     "symbol": "ERA"
   },
-  "cex_small_cap:torch": {
-    "last_alert_ts": 1792738983.763942,
-    "last_score": 73.1,
-    "symbol": "TORCH"
-  },
   "cex_small_cap:cartoon-money": {
     "last_alert_ts": 1792922576.1050093,
     "last_score": 58.7,
@@ -63,11 +58,6 @@
     "last_alert_ts": 1792849828.0037847,
     "last_score": 66.2,
     "symbol": "CTR"
-  },
-  "cex_small_cap:pha": {
-    "last_alert_ts": 1792738983.763942,
-    "last_score": 59.7,
-    "symbol": "PHA"
   },
   "dex_micro_cap:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
     "last_alert_ts": 1792861387.0028548,
@@ -370,8 +360,8 @@
     "symbol": "VINE"
   },
   "cex_small_cap:squid-3": {
-    "last_alert_ts": 1792861387.0028548,
-    "last_score": 66.4,
+    "last_alert_ts": 1793001772.9230258,
+    "last_score": 67.8,
     "symbol": "QUID"
   },
   "cex_small_cap:connect-token-wct": {
@@ -385,8 +375,8 @@
     "symbol": "ZKP"
   },
   "cex_small_cap:fluent-network": {
-    "last_alert_ts": 1792832586.0861936,
-    "last_score": 91.9,
+    "last_alert_ts": 1793001772.9230258,
+    "last_score": 56.3,
     "symbol": "BLEND"
   },
   "cex_small_cap:polyswarm": {
@@ -830,8 +820,8 @@
     "symbol": "Kimchi"
   },
   "dex_micro_cap:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": {
-    "last_alert_ts": 1792965791.7499046,
-    "last_score": 66.5,
+    "last_alert_ts": 1793001772.9230258,
+    "last_score": 83.6,
     "symbol": "LAUNCH"
   },
   "cex_small_cap:zhong-guo-ren-neng-fei": {
@@ -873,5 +863,10 @@
     "last_alert_ts": 1792994599.6219728,
     "last_score": 55.3,
     "symbol": "PMUP"
+  },
+  "cex_small_cap:pha": {
+    "last_alert_ts": 1793001772.9230258,
+    "last_score": 57.1,
+    "symbol": "PHA"
   }
 }
