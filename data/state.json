@@ -25,8 +25,8 @@
     "symbol": "ICNT"
   },
   "cex_small_cap:forta": {
-    "last_alert_ts": 1792980183.4126065,
-    "last_score": 70.0,
+    "last_alert_ts": 1793037840.0221324,
+    "last_score": 72.0,
     "symbol": "FORT"
   },
   "cex_small_cap:aria-ai": {
@@ -65,8 +65,8 @@
     "symbol": "ASTEROID"
   },
   "cex_small_cap:janction": {
-    "last_alert_ts": 1792994599.6219728,
-    "last_score": 72.6,
+    "last_alert_ts": 1793037840.0221324,
+    "last_score": 57.0,
     "symbol": "JCT"
   },
   "cex_small_cap:doodles": {
@@ -120,8 +120,8 @@
     "symbol": "BIRB"
   },
   "cex_small_cap:particle-network": {
-    "last_alert_ts": 1793009002.3479815,
-    "last_score": 55.9,
+    "last_alert_ts": 1793037840.0221324,
+    "last_score": 71.4,
     "symbol": "PARTI"
   },
   "cex_small_cap:irys": {
@@ -228,11 +228,6 @@
     "last_alert_ts": 1792825398.6934657,
     "last_score": 81.1,
     "symbol": "BFC"
-  },
-  "cex_small_cap:delivery-guy": {
-    "last_alert_ts": 1792775003.1284602,
-    "last_score": 58.7,
-    "symbol": "DGUY"
   },
   "cex_small_cap:sophon": {
     "last_alert_ts": 1792915370.28079,
@@ -883,5 +878,35 @@
     "last_alert_ts": 1793032089.2243404,
     "last_score": 80.7,
     "symbol": "ZRC"
+  },
+  "dex_micro_cap:VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": {
+    "last_alert_ts": 1793037840.0221324,
+    "last_score": 100.0,
+    "symbol": "ANT"
+  },
+  "cex_small_cap:verona": {
+    "last_alert_ts": 1793037840.0221324,
+    "last_score": 67.7,
+    "symbol": "VERONA"
+  },
+  "cex_small_cap:tradr-2x-long-sndk-etf-bstocks-tokenized-stock": {
+    "last_alert_ts": 1793037840.0221324,
+    "last_score": 64.1,
+    "symbol": "SNXXB"
+  },
+  "cex_small_cap:fight-2": {
+    "last_alert_ts": 1793037840.0221324,
+    "last_score": 64.0,
+    "symbol": "FIGHT"
+  },
+  "cex_small_cap:robostrategy-backpack-securities": {
+    "last_alert_ts": 1793037840.0221324,
+    "last_score": 61.8,
+    "symbol": "BOT"
+  },
+  "cex_small_cap:sandisk-coinbase-tokenized-stock": {
+    "last_alert_ts": 1793037840.0221324,
+    "last_score": 56.3,
+    "symbol": "SNDKC"
   }
 }
