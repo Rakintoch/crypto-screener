@@ -10306,5 +10306,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "DOOD (cex_small_cap) lost -8.2% in 7 min (very fast (<1h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793013626.136296,
+    "symbol": "DODO",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/dodo",
+    "held_minutes": 797.2,
+    "exit_reason": "stop-loss hit (-8.2%)",
+    "pnl_pct": -8.24,
+    "pnl_eur": -1.12,
+    "entry_score": 78.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 19842477,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.9663,
+    "entry_chg_24h": 15.87056,
+    "entry_chg_7d": 15.5517,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.7743384505876472,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "DODO (cex_small_cap) lost -8.2% in 797 min (slow (>6h)) — stop-loss hit. Entry score: 78 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
