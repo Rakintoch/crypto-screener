@@ -2702,5 +2702,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "JCT (cex_small_cap) gained +10.4% in 291 min — trailing stop caught extra upside after the target. Entry score: 79. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793005257.581697,
+    "symbol": "ARIA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/aria-ai",
+    "held_minutes": 1498.1,
+    "exit_reason": "trailing stop hit — dropped 5.9% from the peak (peak +28.1% since entry)",
+    "pnl_pct": 20.61,
+    "pnl_eur": 1.41,
+    "entry_score": 84.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 8991305,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.87,
+    "entry_chg_24h": 15.78065,
+    "entry_chg_7d": 73.0522,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.6773380515624275,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "ARIA (cex_small_cap) gained +20.6% in 1498 min — trailing stop caught extra upside after the target. Entry score: 85. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
