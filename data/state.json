@@ -65,8 +65,8 @@
     "symbol": "JCT"
   },
   "cex_small_cap:doodles": {
-    "last_alert_ts": 1793007535.3709867,
-    "last_score": 99.9,
+    "last_alert_ts": 1793052199.5108008,
+    "last_score": 96.0,
     "symbol": "DOOD"
   },
   "cex_small_cap:bubblemaps": {
@@ -138,11 +138,6 @@
     "last_alert_ts": 1792893792.7371094,
     "last_score": 67.7,
     "symbol": "DACITY"
-  },
-  "cex_small_cap:apro": {
-    "last_alert_ts": 1792789414.0703335,
-    "last_score": 55.5,
-    "symbol": "AT"
   },
   "cex_small_cap:universal-high-income-2": {
     "last_alert_ts": 1792825398.6934657,
@@ -530,8 +525,8 @@
     "symbol": "NIL"
   },
   "dex_micro_cap:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": {
-    "last_alert_ts": 1792980183.4126065,
-    "last_score": 66.9,
+    "last_alert_ts": 1793052199.5108008,
+    "last_score": 65.0,
     "symbol": "███"
   },
   "cex_small_cap:threshold-network-token": {
@@ -750,8 +745,8 @@
     "symbol": "PHA"
   },
   "cex_small_cap:bulla-3": {
-    "last_alert_ts": 1793007535.3709867,
-    "last_score": 79.9,
+    "last_alert_ts": 1793052199.5108008,
+    "last_score": 55.9,
     "symbol": "BULLA"
   },
   "cex_small_cap:toshi": {
@@ -780,8 +775,8 @@
     "symbol": "BANK"
   },
   "cex_small_cap:infinity-ground": {
-    "last_alert_ts": 1793023415.8707123,
-    "last_score": 68.6,
+    "last_alert_ts": 1793052199.5108008,
+    "last_score": 98.3,
     "symbol": "AIN"
   },
   "cex_small_cap:anthropic-prestocks-2": {
@@ -903,5 +898,25 @@
     "last_alert_ts": 1793044993.2680972,
     "last_score": 55.0,
     "symbol": "LAUNCH"
+  },
+  "cex_small_cap:vulcan-forged": {
+    "last_alert_ts": 1793052199.5108008,
+    "last_score": 86.7,
+    "symbol": "PYR"
+  },
+  "cex_small_cap:basecat": {
+    "last_alert_ts": 1793052199.5108008,
+    "last_score": 64.9,
+    "symbol": "BASECAT"
+  },
+  "cex_small_cap:talus": {
+    "last_alert_ts": 1793052199.5108008,
+    "last_score": 56.8,
+    "symbol": "US"
+  },
+  "cex_small_cap:grvt": {
+    "last_alert_ts": 1793052199.5108008,
+    "last_score": 55.9,
+    "symbol": "GRVT"
   }
 }
