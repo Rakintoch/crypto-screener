@@ -90,8 +90,8 @@
     "symbol": "DOOD"
   },
   "cex_small_cap:bubblemaps": {
-    "last_alert_ts": 1792937190.9792998,
-    "last_score": 67.3,
+    "last_alert_ts": 1792983508.0104551,
+    "last_score": 75.8,
     "symbol": "BMT"
   },
   "cex_small_cap:cea-industries-bstocks-tokenized-stock": {
@@ -120,8 +120,8 @@
     "symbol": "DACITY"
   },
   "cex_small_cap:dappos": {
-    "last_alert_ts": 1792937190.9792998,
-    "last_score": 78.4,
+    "last_alert_ts": 1792983508.0104551,
+    "last_score": 56.7,
     "symbol": "DOS"
   },
   "cex_small_cap:bordrless": {
@@ -130,8 +130,8 @@
     "symbol": "BORDR"
   },
   "cex_small_cap:moonbirds": {
-    "last_alert_ts": 1792937190.9792998,
-    "last_score": 65.8,
+    "last_alert_ts": 1792983508.0104551,
+    "last_score": 58.2,
     "symbol": "BIRB"
   },
   "cex_small_cap:cat-in-a-dogs-world": {
@@ -260,8 +260,8 @@
     "symbol": "Au"
   },
   "cex_small_cap:axis-robotics": {
-    "last_alert_ts": 1792937190.9792998,
-    "last_score": 74.0,
+    "last_alert_ts": 1792983508.0104551,
+    "last_score": 59.3,
     "symbol": "AXIS"
   },
   "cex_small_cap:bitlayer-bitvm": {
@@ -530,8 +530,8 @@
     "symbol": "DACITYCOIN"
   },
   "cex_small_cap:brevis": {
-    "last_alert_ts": 1792832586.0861936,
-    "last_score": 62.0,
+    "last_alert_ts": 1792983508.0104551,
+    "last_score": 58.9,
     "symbol": "BREV"
   },
   "dex_micro_cap:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": {
@@ -873,5 +873,10 @@
     "last_alert_ts": 1792980183.4126065,
     "last_score": 59.6,
     "symbol": "SAPLING"
+  },
+  "cex_small_cap:alpha-trader-exchange-atx": {
+    "last_alert_ts": 1792983508.0104551,
+    "last_score": 65.0,
+    "symbol": "SN63"
   }
 }
