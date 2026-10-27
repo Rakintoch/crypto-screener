@@ -10414,5 +10414,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "DOOD (cex_small_cap) lost -9.1% in 82 min (fast (1-6h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793073804.9361703,
+    "symbol": "TA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/trusta-ai",
+    "held_minutes": 2040.5,
+    "exit_reason": "rotated out — thesis fading (score 38, no unrealized gain) to free a slot for a new qualified candidate",
+    "pnl_pct": -0.2,
+    "pnl_eur": -0.01,
+    "entry_score": 73.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 2772225,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.8705,
+    "entry_chg_24h": 18.52763,
+    "entry_chg_7d": 45.427,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.25556457764190565,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "TA (cex_small_cap) lost -0.2% in 2041 min (slow (>6h)) — other. Entry score: 73 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
