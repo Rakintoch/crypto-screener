@@ -10468,5 +10468,32 @@
     "categoria": "other",
     "velocidade_queda": "slow (>6h)",
     "licao": "ERA (cex_small_cap) lost -5.9% in 1080 min (slow (>6h)) — other. Entry score: 89 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793095825.8403978,
+    "symbol": "POKT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/pocket-network",
+    "held_minutes": 127.5,
+    "exit_reason": "stop-loss hit (-8.4%)",
+    "pnl_pct": -8.4,
+    "pnl_eur": -1.12,
+    "entry_score": 77.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 33220458,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": -0.0011,
+    "entry_chg_24h": 37.10509,
+    "entry_chg_7d": 50.1946,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.3000547134688782,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "POKT (cex_small_cap) lost -8.4% in 127 min (fast (1-6h)) — stop-loss hit. Entry score: 77 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
