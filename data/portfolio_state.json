@@ -15,8 +15,8 @@
       "entry_price_eur": 0.05371060982839336,
       "entry_ts": 1792951373.6470547,
       "cost_eur": 6.354229599875723,
-      "last_price_eur": 0.055877992247018234,
-      "last_score": 43.4,
+      "last_price_eur": 0.056037803053015006,
+      "last_score": 44.3,
       "missed_updates": 0,
       "entry_market_cap": 10847454,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11204537
+      "last_market_cap": 11245359
     },
     "cex_small_cap:caldera": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0796014140514983,
       "entry_ts": 1793030588.099926,
       "cost_eur": 13.320225586651432,
-      "last_price_eur": 0.07787664377814085,
-      "last_score": 57.4,
+      "last_price_eur": 0.07737780645337802,
+      "last_score": 57.1,
       "missed_updates": 0,
       "entry_market_cap": 15554885,
       "entry_venue": "Upbit",
@@ -79,7 +79,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 15179543
+      "last_market_cap": 15074804
     },
     "cex_small_cap:dolphin-2": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.5785655535352894,
       "entry_ts": 1793102596.4170115,
       "cost_eur": 13.122080302703624,
-      "last_price_eur": 0.601436117836019,
-      "last_score": 85.8,
+      "last_price_eur": 0.5955593013203244,
+      "last_score": 85.9,
       "missed_updates": 0,
       "entry_market_cap": 53774456,
       "entry_venue": "Upbit",
@@ -121,7 +121,7 @@
           "source": "CryptoRank"
         }
       ],
-      "last_market_cap": 55849344
+      "last_market_cap": 55240641
     }
   },
   "closed_trades": [
@@ -3432,8 +3432,8 @@
       "pnl_pct": -10.896963122941447
     }
   ],
-  "last_run_ts": 1793107225.0334687,
-  "last_eur_rate": 0.897062004286695,
+  "last_run_ts": 1793107520.7619462,
+  "last_eur_rate": 0.8969779916927842,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
