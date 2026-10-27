@@ -10387,5 +10387,32 @@
     "categoria": "momentum thesis invalidated (score dropped)",
     "velocidade_queda": "slow (>6h)",
     "licao": "MUSEBOOK (cex_small_cap) lost -3.6% in 1618 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793071518.6298268,
+    "symbol": "DOOD",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/doodles",
+    "held_minutes": 82.2,
+    "exit_reason": "stop-loss hit (-9.1%)",
+    "pnl_pct": -9.08,
+    "pnl_eur": -1.2,
+    "entry_score": 100.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 291535919,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 40.0167,
+    "entry_chg_24h": 98.2009,
+    "entry_chg_7d": 109.8886,
+    "entry_chg_6h": null,
+    "entry_turnover": 13.389206781498075,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "DOOD (cex_small_cap) lost -9.1% in 82 min (fast (1-6h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
