@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 52.57247236568733,
+  "cash_eur": 46.63143383232954,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:trusta-ai": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.05371060982839336,
       "entry_ts": 1792951373.6470547,
       "cost_eur": 6.354229599875723,
-      "last_price_eur": 0.05618995870131607,
-      "last_score": 37.1,
+      "last_price_eur": 0.05599790434407138,
+      "last_score": 38.6,
       "missed_updates": 0,
       "entry_market_cap": 10847454,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11258731
+      "last_market_cap": 11219884
     },
     "cex_small_cap:caldera": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0796014140514983,
       "entry_ts": 1793030588.099926,
       "cost_eur": 13.320225586651432,
-      "last_price_eur": 0.07351032514758883,
-      "last_score": 38.8,
+      "last_price_eur": 0.0735854408740459,
+      "last_score": 46.7,
       "missed_updates": 0,
       "entry_market_cap": 15554885,
       "entry_venue": "Upbit",
@@ -79,7 +79,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 14315129
+      "last_market_cap": 14310307
     },
     "cex_small_cap:haedal": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.02502977316230309,
       "entry_ts": 1793115800.5619504,
       "cost_eur": 12.819467784541908,
-      "last_price_eur": 0.026219664282024942,
-      "last_score": 78.5,
+      "last_price_eur": 0.026087388775417147,
+      "last_score": 98.4,
       "missed_updates": 0,
       "entry_market_cap": 5437659,
       "entry_venue": "Binance",
@@ -113,7 +113,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 5703157
+      "last_market_cap": 5644579
+    },
+    "cex_small_cap:apriori": {
+      "tier": "cex_small_cap",
+      "id": "apriori",
+      "symbol": "APR",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/apriori",
+      "qty": 156.75799102724974,
+      "entry_price_eur": 0.037899430162543,
+      "entry_ts": 1793124195.3464968,
+      "cost_eur": 5.941038533357793,
+      "last_price_eur": 0.037899430162543,
+      "last_score": 89.0,
+      "missed_updates": 0,
+      "entry_market_cap": 16889058,
+      "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
+      "entry_contract_address": "0x5a9610919f5e81183823a2be4bd1beb2b4da2a20 (ETH)",
+      "entry_score": 89.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 15276078,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 4.1847,
+      "entry_chg_24h": 25.80145,
+      "entry_chg_7d": 36.4333,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.9044955615641797,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -3512,8 +3545,8 @@
       "pnl_pct": -10.343591284999407
     }
   ],
-  "last_run_ts": 1793123719.4395037,
-  "last_eur_rate": 0.8978469984071724,
+  "last_run_ts": 1793124195.3464968,
+  "last_eur_rate": 0.8981939906018346,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
