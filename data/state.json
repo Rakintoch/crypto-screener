@@ -45,8 +45,8 @@
     "symbol": "CBUCKS"
   },
   "cex_small_cap:citrea": {
-    "last_alert_ts": 1793016211.5286303,
-    "last_score": 65.4,
+    "last_alert_ts": 1793095403.1721063,
+    "last_score": 56.7,
     "symbol": "CTR"
   },
   "dex_micro_cap:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
@@ -60,8 +60,8 @@
     "symbol": "JCT"
   },
   "cex_small_cap:doodles": {
-    "last_alert_ts": 1793052199.5108008,
-    "last_score": 96.0,
+    "last_alert_ts": 1793095403.1721063,
+    "last_score": 63.4,
     "symbol": "DOOD"
   },
   "cex_small_cap:bubblemaps": {
@@ -235,8 +235,8 @@
     "symbol": "ARCTIS"
   },
   "cex_small_cap:initia": {
-    "last_alert_ts": 1793009002.3479815,
-    "last_score": 62.0,
+    "last_alert_ts": 1793095403.1721063,
+    "last_score": 59.1,
     "symbol": "INIT"
   },
   "cex_small_cap:bluwhale": {
@@ -625,8 +625,8 @@
     "symbol": "中国人能飞"
   },
   "cex_small_cap:big-titty-coin": {
-    "last_alert_ts": 1793044993.2680972,
-    "last_score": 83.0,
+    "last_alert_ts": 1793095403.1721063,
+    "last_score": 79.5,
     "symbol": "BTC"
   },
   "dex_micro_cap:9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump": {
@@ -695,8 +695,8 @@
     "symbol": "BANK"
   },
   "cex_small_cap:infinity-ground": {
-    "last_alert_ts": 1793052199.5108008,
-    "last_score": 98.3,
+    "last_alert_ts": 1793095403.1721063,
+    "last_score": 95.9,
     "symbol": "AIN"
   },
   "cex_small_cap:anthropic-prestocks-2": {
@@ -943,5 +943,10 @@
     "last_alert_ts": 1793093694.914651,
     "last_score": 55.3,
     "symbol": "CRWVON"
+  },
+  "cex_small_cap:puffer-finance": {
+    "last_alert_ts": 1793095403.1721063,
+    "last_score": 57.3,
+    "symbol": "PUFFER"
   }
 }
