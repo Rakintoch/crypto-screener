@@ -10549,5 +10549,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "TAG (cex_small_cap) lost -10.9% in 77 min (fast (1-6h)) — stop-loss hit. Entry score: 87 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793112027.5292823,
+    "symbol": "POD",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/dolphin-2",
+    "held_minutes": 157.2,
+    "exit_reason": "stop-loss hit (-8.4%)",
+    "pnl_pct": -8.43,
+    "pnl_eur": -1.11,
+    "entry_score": 84.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 43343017,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 10.3684,
+    "entry_chg_24h": 49.48589,
+    "entry_chg_7d": -2.3807,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.8060149785615683,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "POD (cex_small_cap) lost -8.4% in 157 min (fast (1-6h)) — stop-loss hit. Entry score: 85 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

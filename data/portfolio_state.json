@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 53.99462911063101,
+  "cash_eur": 66.01073704808366,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:trusta-ai": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.05371060982839336,
       "entry_ts": 1792951373.6470547,
       "cost_eur": 6.354229599875723,
-      "last_price_eur": 0.056060949241037175,
-      "last_score": 45.1,
+      "last_price_eur": 0.05615311406832807,
+      "last_score": 44.8,
       "missed_updates": 0,
       "entry_market_cap": 10847454,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11255495
+      "last_market_cap": 11269898
     },
     "cex_small_cap:caldera": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0796014140514983,
       "entry_ts": 1793030588.099926,
       "cost_eur": 13.320225586651432,
-      "last_price_eur": 0.0769304518931388,
-      "last_score": 44.7,
+      "last_price_eur": 0.0770445011905212,
+      "last_score": 45.3,
       "missed_updates": 0,
       "entry_market_cap": 15554885,
       "entry_venue": "Upbit",
@@ -79,49 +79,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 14988536
-    },
-    "cex_small_cap:dolphin-2": {
-      "tier": "cex_small_cap",
-      "id": "dolphin-2",
-      "symbol": "POD",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/dolphin-2",
-      "qty": 22.680369099961027,
-      "entry_price_eur": 0.5785655535352894,
-      "entry_ts": 1793102596.4170115,
-      "cost_eur": 13.122080302703624,
-      "last_price_eur": 0.5352559747498687,
-      "last_score": 56.3,
-      "missed_updates": 0,
-      "entry_market_cap": 53774456,
-      "entry_venue": "Upbit",
-      "entry_contract_address": null,
-      "entry_score": 84.8,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 43343017,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 10.3684,
-      "entry_chg_24h": 49.48589,
-      "entry_chg_7d": -2.3807,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.8060149785615683,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "unlock"
-      ],
-      "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Dolphin AI (POD) Token Unlocks and Vesting: Schedule and Tokenomics - CryptoRank",
-          "ts": 1790959368.0,
-          "source": "CryptoRank"
-        }
-      ],
-      "last_market_cap": 49772744
+      "last_market_cap": 15011950
     }
   },
   "closed_trades": [
@@ -3430,10 +3388,58 @@
       "proceeds_eur": 5.456346957205783,
       "pnl_eur": -0.6672905173892429,
       "pnl_pct": -10.896963122941447
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "dolphin-2",
+      "symbol": "POD",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/dolphin-2",
+      "qty": 22.680369099961027,
+      "entry_price_eur": 0.5785655535352894,
+      "entry_ts": 1793102596.4170115,
+      "cost_eur": 13.122080302703624,
+      "last_price_eur": 0.5298021334879107,
+      "last_score": 56.3,
+      "missed_updates": 0,
+      "entry_market_cap": 53774456,
+      "entry_venue": "Upbit",
+      "entry_contract_address": null,
+      "entry_score": 84.8,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 43343017,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 10.3684,
+      "entry_chg_24h": 49.48589,
+      "entry_chg_7d": -2.3807,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.8060149785615683,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "unlock"
+      ],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Dolphin AI (POD) Token Unlocks and Vesting: Schedule and Tokenomics - CryptoRank",
+          "ts": 1790959368.0,
+          "source": "CryptoRank"
+        }
+      ],
+      "last_market_cap": 49094801,
+      "exit_price_eur": 0.5298021334879107,
+      "exit_ts": 1793112027.5292823,
+      "exit_reason": "stop-loss hit (-8.4%)",
+      "proceeds_eur": 12.016107937452638,
+      "pnl_eur": -1.1059723652509863,
+      "pnl_pct": -8.428331024792737
     }
   ],
-  "last_run_ts": 1793111720.0541856,
-  "last_eur_rate": 0.8968030016802723,
+  "last_run_ts": 1793112027.5292823,
+  "last_eur_rate": 0.8968570070487306,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
