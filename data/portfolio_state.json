@@ -15,8 +15,8 @@
       "entry_price_eur": 0.05371060982839336,
       "entry_ts": 1792951373.6470547,
       "cost_eur": 6.354229599875723,
-      "last_price_eur": 0.05619458066667488,
-      "last_score": 43.1,
+      "last_price_eur": 0.05623409773909481,
+      "last_score": 43.3,
       "missed_updates": 0,
       "entry_market_cap": 10847454,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11268039
+      "last_market_cap": 11281637
     },
     "cex_small_cap:caldera": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0796014140514983,
       "entry_ts": 1793030588.099926,
       "cost_eur": 13.320225586651432,
-      "last_price_eur": 0.07683763434667748,
-      "last_score": 47.1,
+      "last_price_eur": 0.07702714795135346,
+      "last_score": 45.7,
       "missed_updates": 0,
       "entry_market_cap": 15554885,
       "entry_venue": "Upbit",
@@ -79,7 +79,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 14957747
+      "last_market_cap": 15002522
     },
     "cex_small_cap:dolphin-2": {
       "tier": "cex_small_cap",
@@ -91,7 +91,7 @@
       "entry_price_eur": 0.5785655535352894,
       "entry_ts": 1793102596.4170115,
       "cost_eur": 13.122080302703624,
-      "last_price_eur": 0.5528813831130939,
+      "last_price_eur": 0.5584829357118668,
       "last_score": 56.8,
       "missed_updates": 0,
       "entry_market_cap": 53774456,
@@ -121,7 +121,7 @@
           "source": "CryptoRank"
         }
       ],
-      "last_market_cap": 51426496
+      "last_market_cap": 51787779
     }
   },
   "closed_trades": [
@@ -3432,8 +3432,8 @@
       "pnl_pct": -10.896963122941447
     }
   ],
-  "last_run_ts": 1793109921.7156062,
-  "last_eur_rate": 0.8972899973920974,
+  "last_run_ts": 1793110226.630254,
+  "last_eur_rate": 0.8972189951352163,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
