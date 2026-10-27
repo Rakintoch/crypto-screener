@@ -15,8 +15,8 @@
       "entry_price_eur": 0.05371060982839336,
       "entry_ts": 1792951373.6470547,
       "cost_eur": 6.354229599875723,
-      "last_price_eur": 0.05610595426367237,
-      "last_score": 50.4,
+      "last_price_eur": 0.056089793677792724,
+      "last_score": 46.0,
       "missed_updates": 0,
       "entry_market_cap": 10847454,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11263732
+      "last_market_cap": 11256290
     },
     "cex_small_cap:caldera": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0796014140514983,
       "entry_ts": 1793030588.099926,
       "cost_eur": 13.320225586651432,
-      "last_price_eur": 0.07911463168495785,
-      "last_score": 67.5,
+      "last_price_eur": 0.07856588545914778,
+      "last_score": 59.3,
       "missed_updates": 0,
       "entry_market_cap": 15554885,
       "entry_venue": "Upbit",
@@ -79,7 +79,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 15419848
+      "last_market_cap": 15308216
     },
     "cex_small_cap:tagger": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.0007270585721220465,
       "entry_ts": 1793102596.4170115,
       "cost_eur": 6.123637474595026,
-      "last_price_eur": 0.0007186737349790109,
-      "last_score": 72.1,
+      "last_price_eur": 0.0007223484460468055,
+      "last_score": 63.5,
       "missed_updates": 0,
       "entry_market_cap": 87977383,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -113,7 +113,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 87242519
+      "last_market_cap": 87182898
     },
     "cex_small_cap:dolphin-2": {
       "tier": "cex_small_cap",
@@ -125,8 +125,8 @@
       "entry_price_eur": 0.5785655535352894,
       "entry_ts": 1793102596.4170115,
       "cost_eur": 13.122080302703624,
-      "last_price_eur": 0.5986945373666144,
-      "last_score": 75.6,
+      "last_price_eur": 0.6084246838382543,
+      "last_score": 85.3,
       "missed_updates": 0,
       "entry_market_cap": 53774456,
       "entry_venue": "Upbit",
@@ -155,7 +155,7 @@
           "source": "CryptoRank"
         }
       ],
-      "last_market_cap": 55759162
+      "last_market_cap": 56456320
     }
   },
   "closed_trades": [
@@ -3426,8 +3426,8 @@
       "pnl_pct": -8.140479031279018
     }
   ],
-  "last_run_ts": 1793105720.4466105,
-  "last_eur_rate": 0.8966049965429616,
+  "last_run_ts": 1793106053.3802037,
+  "last_eur_rate": 0.896747996383461,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
