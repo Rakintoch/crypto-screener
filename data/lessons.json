@@ -10765,5 +10765,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "AIN (cex_small_cap) lost -8.4% in 428 min (slow (>6h)) — stop-loss hit. Entry score: 95 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793186426.1362422,
+    "symbol": "JOB",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/HAUVBmNthCFmG9SRXMvZ1GAXNpU955hkPdSAsC2cx4C8",
+    "held_minutes": 77.5,
+    "exit_reason": "stop-loss hit (-20.0%)",
+    "pnl_pct": -20.01,
+    "pnl_eur": -1.46,
+    "entry_score": 93.7,
+    "entry_liquidity_usd": 143117.9512,
+    "entry_volume_24h_usd": 802890.84382794,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 22.774,
+    "entry_chg_24h": 5253.184,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 54.215,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 5.609993974172682,
+    "entry_boosted": true,
+    "entry_pool_age_minutes": 888.4461918,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "JOB (dex_micro_cap) lost -20.0% in 77 min (fast (1-6h)) — stop-loss hit. Entry liquidity: $143,118. Entry score: 94 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
