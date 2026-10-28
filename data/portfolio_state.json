@@ -15,7 +15,7 @@
       "entry_price_eur": 0.001202626409177756,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.0013116269201236279,
+      "last_price_eur": 0.0013099796212609634,
       "last_score": 71.4,
       "missed_updates": 0,
       "entry_market_cap": 1326239,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1448544
+      "last_market_cap": 1447750
     },
     "cex_small_cap:evaa-protocol": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 1.258075004861002,
       "entry_ts": 1793199009.886858,
       "cost_eur": 11.465214578531041,
-      "last_price_eur": 1.2824182745282535,
+      "last_price_eur": 1.3084023690900055,
       "last_score": 75.2,
       "missed_updates": 0,
       "entry_market_cap": 9261640,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9461863
+      "last_market_cap": 9645397
     },
     "cex_small_cap:dappos": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.29541330506713187,
       "entry_ts": 1793210596.8379421,
       "cost_eur": 11.394503547778971,
-      "last_price_eur": 0.2914784282683371,
-      "last_score": 75.5,
+      "last_price_eur": 0.29297548692142034,
+      "last_score": 75.3,
       "missed_updates": 0,
       "entry_market_cap": 65792380,
       "entry_venue": "Upbit",
@@ -113,7 +113,7 @@
           "source": "Phemex"
         }
       ],
-      "last_market_cap": 65004313
+      "last_market_cap": 65385435
     }
   },
   "closed_trades": [
@@ -4185,8 +4185,8 @@
       "pnl_pct": -21.25023640755031
     }
   ],
-  "last_run_ts": 1793214322.3454697,
-  "last_eur_rate": 0.896795996173604,
+  "last_run_ts": 1793214625.4366677,
+  "last_eur_rate": 0.8961660062260312,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
