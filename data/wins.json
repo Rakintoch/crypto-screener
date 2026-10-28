@@ -2806,5 +2806,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "APR (cex_small_cap) gained +17.3% in 487 min — trailing stop caught extra upside after the target. Entry score: 89. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793165119.9755147,
+    "symbol": "TA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/trusta-ai",
+    "held_minutes": 3562.4,
+    "exit_reason": "momentum thesis invalidated (score dropped to 30)",
+    "pnl_pct": 1.3,
+    "pnl_eur": 0.08,
+    "entry_score": 73.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 2772225,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.8705,
+    "entry_chg_24h": 18.52763,
+    "entry_chg_7d": 45.427,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.25556457764190565,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other (manual/forced exit with profit)",
+    "nota": "TA (cex_small_cap) gained +1.3% in 3562 min — other (manual/forced exit with profit). Entry score: 73. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
