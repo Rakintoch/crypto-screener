@@ -20,8 +20,8 @@
     "symbol": "FORT"
   },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1793093694.914651,
-    "last_score": 57.0,
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 57.8,
     "symbol": "ARIA"
   },
   "cex_small_cap:neosoul": {
@@ -90,8 +90,8 @@
     "symbol": "BIRB"
   },
   "cex_small_cap:particle-network": {
-    "last_alert_ts": 1793145779.6429636,
-    "last_score": 56.7,
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 57.8,
     "symbol": "PARTI"
   },
   "cex_small_cap:irys": {
@@ -249,11 +249,6 @@
     "last_score": 57.2,
     "symbol": "███"
   },
-  "cex_small_cap:threshold-network-token": {
-    "last_alert_ts": 1792958592.3048177,
-    "last_score": 65.0,
-    "symbol": "T"
-  },
   "cex_small_cap:super-inu-2": {
     "last_alert_ts": 1793203406.196793,
     "last_score": 65.9,
@@ -330,13 +325,13 @@
     "symbol": "AI"
   },
   "cex_small_cap:a-meme-coin": {
-    "last_alert_ts": 1793167380.2228603,
-    "last_score": 75.5,
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 65.3,
     "symbol": "AMC"
   },
   "cex_small_cap:bundle-cat": {
-    "last_alert_ts": 1793153014.6051197,
-    "last_score": 58.7,
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 65.6,
     "symbol": "BUN"
   },
   "cex_small_cap:dodo": {
@@ -375,8 +370,8 @@
     "symbol": "MDT"
   },
   "cex_small_cap:agent-wormhole": {
-    "last_alert_ts": 1793145779.6429636,
-    "last_score": 82.5,
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 82.9,
     "symbol": "WORM"
   },
   "cex_small_cap:sapling": {
@@ -460,8 +455,8 @@
     "symbol": "BEAT"
   },
   "cex_small_cap:nebius-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793030587.5530238,
-    "last_score": 60.2,
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 58.9,
     "symbol": "NBISB"
   },
   "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
@@ -545,8 +540,8 @@
     "symbol": "AEON"
   },
   "cex_small_cap:apeonfone": {
-    "last_alert_ts": 1793044993.2680972,
-    "last_score": 56.1,
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 58.2,
     "symbol": "FONE"
   },
   "cex_small_cap:launch": {
@@ -845,13 +840,13 @@
     "symbol": "XAN"
   },
   "cex_small_cap:ket-3": {
-    "last_alert_ts": 1793138579.1638567,
-    "last_score": 73.2,
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 75.6,
     "symbol": "KET"
   },
   "cex_small_cap:memory-cow-moo": {
-    "last_alert_ts": 1793138579.1638567,
-    "last_score": 72.7,
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 83.6,
     "symbol": "MOO"
   },
   "dex_micro_cap:8BnNS15Q6h6D5Vcq1sNPaUxhpRVdK8FGRbLvCrLxibSx": {
@@ -890,8 +885,8 @@
     "symbol": "SN91"
   },
   "cex_small_cap:sk-hynix-robinhood-token": {
-    "last_alert_ts": 1793145779.6429636,
-    "last_score": 56.0,
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 67.2,
     "symbol": "SKYHY"
   },
   "cex_small_cap:programmable-2": {
@@ -940,8 +935,8 @@
     "symbol": "牛来"
   },
   "cex_small_cap:wealth-and-prosperity-2": {
-    "last_alert_ts": 1793160173.415331,
-    "last_score": 81.6,
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 66.2,
     "symbol": "富贵"
   },
   "cex_small_cap:tole-tole": {
@@ -980,8 +975,8 @@
     "symbol": "JOB"
   },
   "cex_small_cap:bless-2": {
-    "last_alert_ts": 1793210596.0454633,
-    "last_score": 59.9,
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 81.0,
     "symbol": "BLESS"
   },
   "cex_small_cap:ubik": {
@@ -990,8 +985,8 @@
     "symbol": "UBIK"
   },
   "cex_small_cap:blur": {
-    "last_alert_ts": 1793174022.3055692,
-    "last_score": 63.3,
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 61.9,
     "symbol": "BLUR"
   },
   "cex_small_cap:pair": {
@@ -1148,5 +1143,75 @@
     "last_alert_ts": 1793210596.0454633,
     "last_score": 62.6,
     "symbol": "SN87"
+  },
+  "cex_small_cap:xmoney-2": {
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 84.2,
+    "symbol": "XMN"
+  },
+  "cex_small_cap:ramses": {
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 74.7,
+    "symbol": "RAM"
+  },
+  "cex_small_cap:raeto": {
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 72.7,
+    "symbol": "RAETO"
+  },
+  "cex_small_cap:fables": {
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 68.4,
+    "symbol": "FABLES"
+  },
+  "cex_small_cap:artificial-inu-3": {
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 68.3,
+    "symbol": "AI"
+  },
+  "cex_small_cap:meet48": {
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 68.2,
+    "symbol": "IDOL"
+  },
+  "cex_small_cap:infinite-money-glitch-3": {
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 68.0,
+    "symbol": "GLITCH"
+  },
+  "cex_small_cap:frong": {
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 64.5,
+    "symbol": "FRONG"
+  },
+  "cex_small_cap:microstrategy-coinbase-tokenized-stock": {
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 61.4,
+    "symbol": "MSTRC"
+  },
+  "cex_small_cap:superfortune": {
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 60.4,
+    "symbol": "GUA"
+  },
+  "cex_small_cap:paid": {
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 58.9,
+    "symbol": "PAID"
+  },
+  "cex_small_cap:ravencoin": {
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 58.2,
+    "symbol": "RVN"
+  },
+  "cex_small_cap:baby-shark-universe": {
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 57.4,
+    "symbol": "BSU"
+  },
+  "cex_small_cap:4stock": {
+    "last_alert_ts": 1793217795.1921136,
+    "last_score": 56.6,
+    "symbol": "4STOCK"
   }
 }
