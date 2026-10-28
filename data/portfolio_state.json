@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 31.100614408782576,
+  "cash_eur": 41.66472155194648,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:metaplex": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.07090850846119763,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.07090850846119763,
-      "last_score": 90.4,
+      "last_price_eur": 0.07489786444497293,
+      "last_score": 93.4,
       "missed_updates": 0,
       "entry_market_cap": 37162799,
       "entry_venue": "Upbit",
@@ -56,7 +56,8 @@
           "ts": 1790838000.0,
           "source": "Crypto Reporter"
         }
-      ]
+      ],
+      "last_market_cap": 39051369
     },
     "cex_small_cap:initia": {
       "tier": "cex_small_cap",
@@ -68,8 +69,8 @@
       "entry_price_eur": 0.20450881763083184,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.20450881763083184,
-      "last_score": 97.1,
+      "last_price_eur": 0.2048078852129394,
+      "last_score": 71.4,
       "missed_updates": 0,
       "entry_market_cap": 48053726,
       "entry_venue": "Binance",
@@ -108,7 +109,8 @@
           "ts": 1793003839.0,
           "source": "The Crypto Times"
         }
-      ]
+      ],
+      "last_market_cap": 48002832
     },
     "cex_small_cap:zcash-shielded-assets": {
       "tier": "cex_small_cap",
@@ -120,7 +122,7 @@
       "entry_price_eur": 0.001202626409177756,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.001202626409177756,
+      "last_price_eur": 0.001210897904605887,
       "last_score": 97.7,
       "missed_updates": 0,
       "entry_market_cap": 1326239,
@@ -141,54 +143,8 @@
       "entry_base_breakout": null,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": []
-    },
-    "cex_small_cap:grove-2": {
-      "tier": "cex_small_cap",
-      "id": "grove-2",
-      "symbol": "GROVE",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/grove-2",
-      "qty": 678.0948773506237,
-      "entry_price_eur": 0.017199260446946273,
-      "entry_ts": 1793196202.426829,
-      "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.017199260446946273,
-      "last_score": 88.6,
-      "missed_updates": 0,
-      "entry_market_cap": 17182222,
-      "entry_venue": null,
-      "entry_contract_address": null,
-      "entry_score": 88.6,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 7632901,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 23.446,
-      "entry_chg_24h": 262.56074,
-      "entry_chg_7d": 282.2423,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.44423247470554156,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "partnership",
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.30000000000000004,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Idea Grove Named One of Inc.'s Best Power Partners in the United States - Yahoo Finance",
-          "ts": 1793106300.0,
-          "source": "Yahoo Finance"
-        },
-        {
-          "title": "Authority Grove Launches Specialized Search and Online Visibility Services - Yahoo Finance",
-          "ts": 1792480680.0,
-          "source": "Yahoo Finance"
-        }
-      ]
+      "entry_catalyst_headlines": [],
+      "last_market_cap": 1334139
     }
   },
   "closed_trades": [
@@ -4045,10 +4001,64 @@
       "proceeds_eur": 11.002105195735485,
       "pnl_eur": -1.0400132665513002,
       "pnl_pct": -8.636464338134427
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "grove-2",
+      "symbol": "GROVE",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/grove-2",
+      "qty": 678.0948773506237,
+      "entry_price_eur": 0.017199260446946273,
+      "entry_ts": 1793196202.426829,
+      "cost_eur": 11.662730403293466,
+      "last_price_eur": 0.015579098878373472,
+      "last_score": 99.3,
+      "missed_updates": 0,
+      "entry_market_cap": 17182222,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 88.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 7632901,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 23.446,
+      "entry_chg_24h": 262.56074,
+      "entry_chg_7d": 282.2423,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.44423247470554156,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "partnership",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.30000000000000004,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Idea Grove Named One of Inc.'s Best Power Partners in the United States - Yahoo Finance",
+          "ts": 1793106300.0,
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "Authority Grove Launches Specialized Search and Online Visibility Services - Yahoo Finance",
+          "ts": 1792480680.0,
+          "source": "Yahoo Finance"
+        }
+      ],
+      "last_market_cap": 16030376,
+      "exit_price_eur": 0.015579098878373472,
+      "exit_ts": 1793196319.7713308,
+      "exit_reason": "stop-loss hit (-9.4%)",
+      "proceeds_eur": 10.5641071431639,
+      "pnl_eur": -1.0986232601295658,
+      "pnl_pct": -9.419949035427614
     }
   ],
-  "last_run_ts": 1793196202.426829,
-  "last_eur_rate": 0.8980990001924872,
+  "last_run_ts": 1793196319.7713308,
+  "last_eur_rate": 0.8980990028895022,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
