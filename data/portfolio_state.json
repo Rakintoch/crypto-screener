@@ -15,8 +15,8 @@
       "entry_price_eur": 0.001202626409177756,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.0013037310332150317,
-      "last_score": 95.0,
+      "last_price_eur": 0.0013042986953678006,
+      "last_score": 94.9,
       "missed_updates": 0,
       "entry_market_cap": 1326239,
       "entry_venue": "PumpSwap",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1437517
+      "last_market_cap": 1436642
     },
     "cex_small_cap:evaa-protocol": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 1.258075004861002,
       "entry_ts": 1793199009.886858,
       "cost_eur": 11.465214578531041,
-      "last_price_eur": 1.27549938141374,
+      "last_price_eur": 1.275958049672952,
       "last_score": 97.4,
       "missed_updates": 0,
       "entry_market_cap": 9261640,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9403521
+      "last_market_cap": 9431407
     },
     "cex_small_cap:dappos": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.29541330506713187,
       "entry_ts": 1793210596.8379421,
       "cost_eur": 11.394503547778971,
-      "last_price_eur": 0.29449304591041064,
+      "last_price_eur": 0.292829676713922,
       "last_score": 76.3,
       "missed_updates": 0,
       "entry_market_cap": 65792380,
@@ -113,7 +113,7 @@
           "source": "Phemex"
         }
       ],
-      "last_market_cap": 65571193
+      "last_market_cap": 65187500
     }
   },
   "closed_trades": [
@@ -4185,8 +4185,8 @@
       "pnl_pct": -21.25023640755031
     }
   ],
-  "last_run_ts": 1793211920.0200627,
-  "last_eur_rate": 0.8982390009955916,
+  "last_run_ts": 1793212245.6485577,
+  "last_eur_rate": 0.898562006811938,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
