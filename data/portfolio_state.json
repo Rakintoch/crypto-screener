@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 30.19950697341544,
+  "cash_eur": 40.38246514934765,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:metaplex": {
@@ -15,7 +15,7 @@
       "entry_price_eur": 0.07090850846119763,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.06730212244146964,
+      "last_price_eur": 0.06752154672485354,
       "last_score": 61.2,
       "missed_updates": 0,
       "entry_market_cap": 37162799,
@@ -57,60 +57,7 @@
           "source": "Crypto Reporter"
         }
       ],
-      "last_market_cap": 35307966
-    },
-    "cex_small_cap:initia": {
-      "tier": "cex_small_cap",
-      "id": "initia",
-      "symbol": "INIT",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/initia",
-      "qty": 57.028007586188245,
-      "entry_price_eur": 0.20450881763083184,
-      "entry_ts": 1793196202.426829,
-      "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.18972905991563785,
-      "last_score": 72.6,
-      "missed_updates": 0,
-      "entry_market_cap": 48053726,
-      "entry_venue": "Binance",
-      "entry_contract_address": "uinit (initia)",
-      "entry_score": 97.1,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 60161526,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 6.0121,
-      "entry_chg_24h": 39.35144,
-      "entry_chg_7d": 86.1952,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.251963812337882,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "restructuring",
-        "security_incident"
-      ],
-      "entry_catalyst_score": 0.4,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Initia Halts L1 and Rollups After Infinite Mint Exploit Drains $2.7M - CoinCodex",
-          "ts": 1793025780.0,
-          "source": "CoinCodex"
-        },
-        {
-          "title": "Initia Exploit: L1 and Rollups Halted After $2.7M Drained - Altcoin Buzz",
-          "ts": 1793013437.0,
-          "source": "Altcoin Buzz"
-        },
-        {
-          "title": "Bithumb and Upbit Flag Initia (INIT) as High-Risk After $2.7M Exploit - The Crypto Times",
-          "ts": 1793003839.0,
-          "source": "The Crypto Times"
-        }
-      ],
-      "last_market_cap": 44528441
+      "last_market_cap": 35388229
     },
     "cex_small_cap:zcash-shielded-assets": {
       "tier": "cex_small_cap",
@@ -122,7 +69,7 @@
       "entry_price_eur": 0.001202626409177756,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.001184705250877073,
+      "last_price_eur": 0.00118529125036526,
       "last_score": 73.7,
       "missed_updates": 0,
       "entry_market_cap": 1326239,
@@ -144,7 +91,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1306383
+      "last_market_cap": 1307131
     },
     "cex_small_cap:evaa-protocol": {
       "tier": "cex_small_cap",
@@ -156,7 +103,7 @@
       "entry_price_eur": 1.258075004861002,
       "entry_ts": 1793199009.886858,
       "cost_eur": 11.465214578531041,
-      "last_price_eur": 1.302337788959884,
+      "last_price_eur": 1.3201834657046005,
       "last_score": 99.4,
       "missed_updates": 0,
       "entry_market_cap": 9261640,
@@ -178,7 +125,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9594294
+      "last_market_cap": 9711519
     }
   },
   "closed_trades": [
@@ -4089,10 +4036,69 @@
       "proceeds_eur": 10.5641071431639,
       "pnl_eur": -1.0986232601295658,
       "pnl_pct": -9.419949035427614
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "initia",
+      "symbol": "INIT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/initia",
+      "qty": 57.028007586188245,
+      "entry_price_eur": 0.20450881763083184,
+      "entry_ts": 1793196202.426829,
+      "cost_eur": 11.662730403293466,
+      "last_price_eur": 0.17856065128248402,
+      "last_score": 70.6,
+      "missed_updates": 0,
+      "entry_market_cap": 48053726,
+      "entry_venue": "Binance",
+      "entry_contract_address": "uinit (initia)",
+      "entry_score": 97.1,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 60161526,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 6.0121,
+      "entry_chg_24h": 39.35144,
+      "entry_chg_7d": 86.1952,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.251963812337882,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "restructuring",
+        "security_incident"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Initia Halts L1 and Rollups After Infinite Mint Exploit Drains $2.7M - CoinCodex",
+          "ts": 1793025780.0,
+          "source": "CoinCodex"
+        },
+        {
+          "title": "Initia Exploit: L1 and Rollups Halted After $2.7M Drained - Altcoin Buzz",
+          "ts": 1793013437.0,
+          "source": "Altcoin Buzz"
+        },
+        {
+          "title": "Bithumb and Upbit Flag Initia (INIT) as High-Risk After $2.7M Exploit - The Crypto Times",
+          "ts": 1793003839.0,
+          "source": "The Crypto Times"
+        }
+      ],
+      "last_market_cap": 42019697,
+      "exit_price_eur": 0.17856065128248402,
+      "exit_ts": 1793201446.105769,
+      "exit_reason": "stop-loss hit (-12.7%)",
+      "proceeds_eur": 10.182958175932212,
+      "pnl_eur": -1.479772227361254,
+      "pnl_pct": -12.688042818372766
     }
   ],
-  "last_run_ts": 1793201120.6321058,
-  "last_eur_rate": 0.8981639923861269,
+  "last_run_ts": 1793201446.105769,
+  "last_eur_rate": 0.8980839902752386,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
