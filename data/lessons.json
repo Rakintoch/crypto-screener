@@ -10927,5 +10927,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "MPLX (cex_small_cap) lost -8.8% in 197 min (fast (1-6h)) — stop-loss hit. Entry score: 90 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793211920.0200627,
+    "symbol": "Robotaxi",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/CcuQGu7LYTrXCSePPf58ufMyZtewHBQardcWJ6HuVRYN",
+    "held_minutes": 22.1,
+    "exit_reason": "stop-loss hit (-21.3%)",
+    "pnl_pct": -21.25,
+    "pnl_eur": -1.45,
+    "entry_score": 79.5,
+    "entry_liquidity_usd": 45408.9232,
+    "entry_volume_24h_usd": 3965713.60057963,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 34.622,
+    "entry_chg_24h": 361.385,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 27.528,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 87.3333547926904,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 926.4718472833333,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "Robotaxi (dex_micro_cap) lost -21.3% in 22 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $45,409. Entry score: 80 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
