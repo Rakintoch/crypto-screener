@@ -11008,5 +11008,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "STAMP (cex_small_cap) lost -15.1% in 418 min (slow (>6h)) — stop-loss hit. Entry score: 98 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793222718.932575,
+    "symbol": "INVERSE",
+    "tier": "dex_micro_cap",
+    "network": "solana",
+    "url": "https://dexscreener.com/solana/Rwq7WrFAzyBtDzGBxYKEHAtHfhAedW6vYqghPT1xBau",
+    "held_minutes": 38.9,
+    "exit_reason": "stop-loss hit (-21.1%)",
+    "pnl_pct": -21.06,
+    "pnl_eur": -1.34,
+    "entry_score": 84.5,
+    "entry_liquidity_usd": 110414.4285,
+    "entry_volume_24h_usd": 3638405.11944796,
+    "entry_security_notes": "no obvious red flags",
+    "entry_chg_1h": 30.148,
+    "entry_chg_24h": 2762.694,
+    "entry_chg_7d": null,
+    "entry_chg_6h": 110.847,
+    "entry_turnover": null,
+    "entry_vol_liq_ratio": 32.952261483180706,
+    "entry_boosted": false,
+    "entry_pool_age_minutes": 1389.65323715,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "INVERSE (dex_micro_cap) lost -21.1% in 39 min (very fast (<1h)) — stop-loss hit. Entry liquidity: $110,414. Entry score: 84 (minimum required to buy: 65). Entry security: no obvious red flags."
   }
 ]
