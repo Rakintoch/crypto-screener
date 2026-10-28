@@ -15,8 +15,8 @@
       "entry_price_eur": 0.001235201345249291,
       "entry_ts": 1793174022.6579418,
       "cost_eur": 12.042118462286785,
-      "last_price_eur": 0.00121899494686494,
-      "last_score": 79.4,
+      "last_price_eur": 0.0012120259556132314,
+      "last_score": 78.4,
       "missed_updates": 0,
       "entry_market_cap": 1256369,
       "entry_venue": "LBank",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1241200
+      "last_market_cap": 1234249
     }
   },
   "closed_trades": [
@@ -3856,8 +3856,8 @@
       "pnl_pct": -20.01155893741844
     }
   ],
-  "last_run_ts": 1793187042.02668,
-  "last_eur_rate": 0.8988179991925646,
+  "last_run_ts": 1793187320.3749673,
+  "last_eur_rate": 0.8987690061942777,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
