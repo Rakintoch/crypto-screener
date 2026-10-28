@@ -195,8 +195,8 @@
     "symbol": "NCT"
   },
   "cex_small_cap:initia": {
-    "last_alert_ts": 1793124194.8073971,
-    "last_score": 77.5,
+    "last_alert_ts": 1793174022.3055692,
+    "last_score": 61.3,
     "symbol": "INIT"
   },
   "cex_small_cap:stonks-9": {
@@ -295,8 +295,8 @@
     "symbol": "SI"
   },
   "cex_small_cap:apriori": {
-    "last_alert_ts": 1793124194.8073971,
-    "last_score": 89.0,
+    "last_alert_ts": 1793174022.3055692,
+    "last_score": 71.2,
     "symbol": "APR"
   },
   "cex_small_cap:pepina-2": {
@@ -308,16 +308,6 @@
     "last_alert_ts": 1792944186.9759054,
     "last_score": 73.0,
     "symbol": "EVMZONE"
-  },
-  "cex_small_cap:farming-season": {
-    "last_alert_ts": 1792908194.6875947,
-    "last_score": 74.9,
-    "symbol": "SEASON"
-  },
-  "cex_small_cap:quark-chain": {
-    "last_alert_ts": 1792908194.6875947,
-    "last_score": 58.9,
-    "symbol": "QKC"
   },
   "dex_micro_cap:FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump": {
     "last_alert_ts": 1792972981.8977046,
@@ -375,8 +365,8 @@
     "symbol": "KIMCHI"
   },
   "cex_small_cap:stonk-3": {
-    "last_alert_ts": 1793124194.8073971,
-    "last_score": 57.2,
+    "last_alert_ts": 1793174022.3055692,
+    "last_score": 58.1,
     "symbol": "STONK"
   },
   "cex_small_cap:babylon": {
@@ -535,8 +525,8 @@
     "symbol": "CHIP"
   },
   "cex_small_cap:audiera": {
-    "last_alert_ts": 1793131383.614687,
-    "last_score": 57.5,
+    "last_alert_ts": 1793174022.3055692,
+    "last_score": 86.7,
     "symbol": "BEAT"
   },
   "cex_small_cap:nebius-bstocks-tokenized-stock": {
@@ -915,8 +905,8 @@
     "symbol": "Frongus"
   },
   "dex_micro_cap:Pmfm2RprxQRKZH1XWVsBUc2KgCTyzeDTSFbT1vJmogz": {
-    "last_alert_ts": 1793132739.803354,
-    "last_score": 61.1,
+    "last_alert_ts": 1793174022.3055692,
+    "last_score": 86.9,
     "symbol": "MOGZ"
   },
   "cex_small_cap:anoma": {
@@ -1000,8 +990,8 @@
     "symbol": "SKHYB"
   },
   "dex_micro_cap:28vWTtEwxoWp5MpHutAMSK5DeVf8xXk8jEEtbrtppump": {
-    "last_alert_ts": 1793153014.6051197,
-    "last_score": 66.6,
+    "last_alert_ts": 1793174022.3055692,
+    "last_score": 83.9,
     "symbol": "MOONX"
   },
   "cex_small_cap:gamercoin": {
@@ -1063,5 +1053,20 @@
     "last_alert_ts": 1793167380.2228603,
     "last_score": 68.2,
     "symbol": "BLESS"
+  },
+  "cex_small_cap:ubik": {
+    "last_alert_ts": 1793174022.3055692,
+    "last_score": 69.5,
+    "symbol": "UBIK"
+  },
+  "cex_small_cap:blur": {
+    "last_alert_ts": 1793174022.3055692,
+    "last_score": 63.3,
+    "symbol": "BLUR"
+  },
+  "cex_small_cap:pair": {
+    "last_alert_ts": 1793174022.3055692,
+    "last_score": 61.9,
+    "symbol": "PAIR"
   }
 }

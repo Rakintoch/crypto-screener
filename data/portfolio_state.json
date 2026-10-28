@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 48.42079435469021,
+  "cash_eur": 36.37867589240342,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:haedal": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.02502977316230309,
       "entry_ts": 1793115800.5619504,
       "cost_eur": 12.819467784541908,
-      "last_price_eur": 0.025465535049078548,
-      "last_score": 80.5,
+      "last_price_eur": 0.025180799370411237,
+      "last_score": 79.9,
       "missed_updates": 0,
       "entry_market_cap": 5437659,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 5540163
+      "last_market_cap": 5465255
     },
     "cex_small_cap:infinity-ground": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.13893071603664264,
       "entry_ts": 1793160174.0887322,
       "cost_eur": 12.509580293114716,
-      "last_price_eur": 0.14008834804516682,
-      "last_score": 68.7,
+      "last_price_eur": 0.14093973292213616,
+      "last_score": 68.0,
       "missed_updates": 0,
       "entry_market_cap": 28617871,
       "entry_venue": "Gate",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 28860594
+      "last_market_cap": 28989357
     },
     "dex_micro_cap:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": {
       "tier": "dex_micro_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.0013845253142664331,
       "entry_ts": 1793167380.7827153,
       "cost_eur": 7.4679875634937005,
-      "last_price_eur": 0.001165304872057357,
-      "last_score": 39.1,
+      "last_price_eur": 0.0011629254815979301,
+      "last_score": 42.5,
       "missed_updates": 0,
       "entry_market_cap": 1546623.68096542,
       "entry_venue": null,
@@ -105,7 +105,40 @@
       "entry_catalyst_tags": null,
       "entry_catalyst_score": null,
       "entry_catalyst_headlines": null,
-      "last_market_cap": 1291362.0
+      "last_market_cap": 1287837.0
+    },
+    "cex_small_cap:hooked": {
+      "tier": "cex_small_cap",
+      "id": "hooked",
+      "symbol": "HOOKED",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/hooked",
+      "qty": 9749.11378505374,
+      "entry_price_eur": 0.001235201345249291,
+      "entry_ts": 1793174022.6579418,
+      "cost_eur": 12.042118462286785,
+      "last_price_eur": 0.001235201345249291,
+      "last_score": 87.7,
+      "missed_updates": 0,
+      "entry_market_cap": 1256369,
+      "entry_venue": "LBank",
+      "entry_contract_address": "C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE (Solana)",
+      "entry_score": 87.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 1609444,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 2.4627,
+      "entry_chg_24h": 29.91861,
+      "entry_chg_7d": 102.4353,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.2810281055963655,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -3762,8 +3795,8 @@
       "pnl_pct": -10.306391604443617
     }
   ],
-  "last_run_ts": 1793173827.4894109,
-  "last_eur_rate": 0.8991549938714173,
+  "last_run_ts": 1793174022.6579418,
+  "last_eur_rate": 0.8994009911816938,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
