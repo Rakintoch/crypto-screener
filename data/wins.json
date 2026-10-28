@@ -2780,5 +2780,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "AIN (cex_small_cap) gained +12.9% in 70 min — trailing stop caught extra upside after the target. Entry score: 100. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793153427.8272903,
+    "symbol": "APR",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/apriori",
+    "held_minutes": 487.2,
+    "exit_reason": "trailing stop hit — dropped 16.0% from the peak (peak +39.6% since entry)",
+    "pnl_pct": 17.34,
+    "pnl_eur": 1.03,
+    "entry_score": 89.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 15276078,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.1847,
+    "entry_chg_24h": 25.80145,
+    "entry_chg_7d": 36.4333,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.9044955615641797,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "APR (cex_small_cap) gained +17.3% in 487 min — trailing stop caught extra upside after the target. Entry score: 89. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
