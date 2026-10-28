@@ -15,7 +15,7 @@
       "entry_price_eur": 0.07090850846119763,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.07222402141505169,
+      "last_price_eur": 0.07030357489896218,
       "last_score": 93.4,
       "missed_updates": 0,
       "entry_market_cap": 37162799,
@@ -57,7 +57,7 @@
           "source": "Crypto Reporter"
         }
       ],
-      "last_market_cap": 37891525
+      "last_market_cap": 36909800
     },
     "cex_small_cap:initia": {
       "tier": "cex_small_cap",
@@ -69,8 +69,8 @@
       "entry_price_eur": 0.20450881763083184,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.20372911293431753,
-      "last_score": 72.0,
+      "last_price_eur": 0.20631592529476558,
+      "last_score": 72.2,
       "missed_updates": 0,
       "entry_market_cap": 48053726,
       "entry_venue": "Binance",
@@ -110,7 +110,7 @@
           "source": "The Crypto Times"
         }
       ],
-      "last_market_cap": 47816027
+      "last_market_cap": 48430321
     },
     "cex_small_cap:zcash-shielded-assets": {
       "tier": "cex_small_cap",
@@ -122,7 +122,7 @@
       "entry_price_eur": 0.001202626409177756,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.0012361591767189948,
+      "last_price_eur": 0.0012052657387710097,
       "last_score": 97.7,
       "missed_updates": 0,
       "entry_market_cap": 1326239,
@@ -144,7 +144,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1363176
+      "last_market_cap": 1328856
     }
   },
   "closed_trades": [
@@ -4057,8 +4057,8 @@
       "pnl_pct": -9.419949035427614
     }
   ],
-  "last_run_ts": 1793196627.0447598,
-  "last_eur_rate": 0.898129991731144,
+  "last_run_ts": 1793196934.6868544,
+  "last_eur_rate": 0.8982990033472034,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
