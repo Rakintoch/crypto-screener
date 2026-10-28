@@ -10900,5 +10900,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "INIT (cex_small_cap) lost -12.7% in 87 min (fast (1-6h)) — stop-loss hit. Entry score: 97 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793208029.338934,
+    "symbol": "MPLX",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/metaplex",
+    "held_minutes": 197.1,
+    "exit_reason": "stop-loss hit (-8.8%)",
+    "pnl_pct": -8.85,
+    "pnl_eur": -1.03,
+    "entry_score": 90.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 74587966,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 16.5919,
+    "entry_chg_24h": 63.78863,
+    "entry_chg_7d": 3.0075,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.0070599633789694,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "MPLX (cex_small_cap) lost -8.8% in 197 min (fast (1-6h)) — stop-loss hit. Entry score: 90 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
