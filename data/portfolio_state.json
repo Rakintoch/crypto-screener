@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 51.013114364289045,
+  "cash_eur": 32.78190868784269,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:zcash-shielded-assets": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.001202626409177756,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.0012750585965620735,
-      "last_score": 96.8,
+      "last_price_eur": 0.0013325354621333554,
+      "last_score": 95.2,
       "missed_updates": 0,
       "entry_market_cap": 1326239,
       "entry_venue": "PumpSwap",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1406737
+      "last_market_cap": 1472334
     },
     "cex_small_cap:evaa-protocol": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 1.258075004861002,
       "entry_ts": 1793199009.886858,
       "cost_eur": 11.465214578531041,
-      "last_price_eur": 1.3106434643193468,
-      "last_score": 70.1,
+      "last_price_eur": 1.3197953963684115,
+      "last_score": 97.4,
       "missed_updates": 0,
       "entry_market_cap": 9261640,
       "entry_venue": "Gate",
@@ -71,7 +71,81 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9636828
+      "last_market_cap": 9692192
+    },
+    "cex_small_cap:dappos": {
+      "tier": "cex_small_cap",
+      "id": "dappos",
+      "symbol": "DOS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/dappos",
+      "qty": 38.57139591322605,
+      "entry_price_eur": 0.29541330506713187,
+      "entry_ts": 1793210596.8379421,
+      "cost_eur": 11.394503547778971,
+      "last_price_eur": 0.29541330506713187,
+      "last_score": 80.3,
+      "missed_updates": 0,
+      "entry_market_cap": 65792380,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x951f086a127e280724fd93ccc543f65065afeb5e (ETH)",
+      "entry_score": 80.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 70032273,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 1.0501,
+      "entry_chg_24h": 30.64295,
+      "entry_chg_7d": 58.3605,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.0644435267427625,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "unlock"
+      ],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": [
+        {
+          "title": "DAPPOS (DOS) Price Prediction 2026-2030: The Unlock Schedule - Phemex",
+          "ts": 1792844199.0,
+          "source": "Phemex"
+        }
+      ]
+    },
+    "dex_micro_cap:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": {
+      "tier": "dex_micro_cap",
+      "id": "6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump",
+      "symbol": "Robotaxi",
+      "network": "solana",
+      "url": "https://dexscreener.com/solana/CcuQGu7LYTrXCSePPf58ufMyZtewHBQardcWJ6HuVRYN",
+      "qty": 37935.59692331144,
+      "entry_price_eur": 0.00018021865169244843,
+      "entry_ts": 1793210596.8379421,
+      "cost_eur": 6.836702128667382,
+      "last_price_eur": 0.00018021865169244843,
+      "last_score": 79.5,
+      "missed_updates": 0,
+      "entry_market_cap": 208487.593256787,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 79.5,
+      "entry_liquidity_usd": 45408.9232,
+      "entry_volume_24h_usd": 3965713.60057963,
+      "entry_security_notes": "no obvious red flags",
+      "entry_chg_1h": 34.622,
+      "entry_chg_24h": 361.385,
+      "entry_chg_7d": null,
+      "entry_chg_6h": 27.528,
+      "entry_turnover": null,
+      "entry_vol_liq_ratio": 87.3333547926904,
+      "entry_boosted": false,
+      "entry_pool_age_minutes": 926.4718472833333,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": null,
+      "entry_catalyst_score": null,
+      "entry_catalyst_headlines": null
     }
   },
   "closed_trades": [
@@ -4103,8 +4177,8 @@
       "pnl_pct": -8.849395918991831
     }
   ],
-  "last_run_ts": 1793210120.2461824,
-  "last_eur_rate": 0.8977010029584567,
+  "last_run_ts": 1793210596.8379421,
+  "last_eur_rate": 0.8978199975295316,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,

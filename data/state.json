@@ -145,8 +145,8 @@
     "symbol": "IN"
   },
   "cex_small_cap:captainbnb": {
-    "last_alert_ts": 1793102595.8919396,
-    "last_score": 71.0,
+    "last_alert_ts": 1793210596.0454633,
+    "last_score": 60.6,
     "symbol": "CAPTAINBNB"
   },
   "cex_small_cap:interfold": {
@@ -505,8 +505,8 @@
     "symbol": "SNXXB"
   },
   "cex_small_cap:fight-2": {
-    "last_alert_ts": 1793037840.0221324,
-    "last_score": 64.0,
+    "last_alert_ts": 1793210596.0454633,
+    "last_score": 69.8,
     "symbol": "FIGHT"
   },
   "cex_small_cap:robostrategy-backpack-securities": {
@@ -580,8 +580,8 @@
     "symbol": "RLS"
   },
   "cex_small_cap:harmonic-agent": {
-    "last_alert_ts": 1793102595.8919396,
-    "last_score": 62.7,
+    "last_alert_ts": 1793210596.0454633,
+    "last_score": 66.9,
     "symbol": "HARMONIC"
   },
   "cex_small_cap:cets-on-gold": {
@@ -745,8 +745,8 @@
     "symbol": "GINNAN"
   },
   "cex_small_cap:grove-2": {
-    "last_alert_ts": 1793203406.196793,
-    "last_score": 69.6,
+    "last_alert_ts": 1793210596.0454633,
+    "last_score": 99.7,
     "symbol": "GROVE"
   },
   "cex_small_cap:hana-network": {
@@ -880,8 +880,8 @@
     "symbol": "TSLAC"
   },
   "cex_small_cap:sk-hynix-ondo-tokenized": {
-    "last_alert_ts": 1793145779.6429636,
-    "last_score": 59.6,
+    "last_alert_ts": 1793210596.0454633,
+    "last_score": 64.1,
     "symbol": "SKHYON"
   },
   "cex_small_cap:tensorprox": {
@@ -900,8 +900,8 @@
     "symbol": "V4"
   },
   "cex_small_cap:zzz-2": {
-    "last_alert_ts": 1793167380.2228603,
-    "last_score": 75.3,
+    "last_alert_ts": 1793210596.0454633,
+    "last_score": 55.2,
     "symbol": "ZZZ"
   },
   "cex_small_cap:micron-technology-inc-coinbase-tokenized-stock": {
@@ -970,8 +970,8 @@
     "symbol": "Something"
   },
   "cex_small_cap:omega-labs": {
-    "last_alert_ts": 1793167380.2228603,
-    "last_score": 75.3,
+    "last_alert_ts": 1793210596.0454633,
+    "last_score": 65.7,
     "symbol": "SN24"
   },
   "dex_micro_cap:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
@@ -980,8 +980,8 @@
     "symbol": "JOB"
   },
   "cex_small_cap:bless-2": {
-    "last_alert_ts": 1793167380.2228603,
-    "last_score": 68.2,
+    "last_alert_ts": 1793210596.0454633,
+    "last_score": 59.9,
     "symbol": "BLESS"
   },
   "cex_small_cap:ubik": {
@@ -1113,5 +1113,40 @@
     "last_alert_ts": 1793203406.196793,
     "last_score": 59.8,
     "symbol": "GANG"
+  },
+  "dex_micro_cap:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": {
+    "last_alert_ts": 1793210596.0454633,
+    "last_score": 80.5,
+    "symbol": "Rapport"
+  },
+  "cex_small_cap:goldstein": {
+    "last_alert_ts": 1793210596.0454633,
+    "last_score": 74.2,
+    "symbol": "GLDSTN"
+  },
+  "cex_small_cap:wayfinder": {
+    "last_alert_ts": 1793210596.0454633,
+    "last_score": 70.4,
+    "symbol": "PROMPT"
+  },
+  "cex_small_cap:adex": {
+    "last_alert_ts": 1793210596.0454633,
+    "last_score": 66.9,
+    "symbol": "ADX"
+  },
+  "cex_small_cap:embercurve": {
+    "last_alert_ts": 1793210596.0454633,
+    "last_score": 64.3,
+    "symbol": "EMBER"
+  },
+  "cex_small_cap:the-index": {
+    "last_alert_ts": 1793210596.0454633,
+    "last_score": 63.9,
+    "symbol": "INDEX"
+  },
+  "cex_small_cap:checkerchain-2": {
+    "last_alert_ts": 1793210596.0454633,
+    "last_score": 62.6,
+    "symbol": "SN87"
   }
 }
