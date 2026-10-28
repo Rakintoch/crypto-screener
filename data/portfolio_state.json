@@ -15,8 +15,8 @@
       "entry_price_eur": 0.001202626409177756,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.0013107155402350076,
-      "last_score": 71.4,
+      "last_price_eur": 0.0013734439281334644,
+      "last_score": 71.6,
       "missed_updates": 0,
       "entry_market_cap": 1326239,
       "entry_venue": "PumpSwap",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1448012
+      "last_market_cap": 1481298
     },
     "cex_small_cap:evaa-protocol": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 1.258075004861002,
       "entry_ts": 1793199009.886858,
       "cost_eur": 11.465214578531041,
-      "last_price_eur": 1.3089045900487755,
+      "last_price_eur": 1.3087162563061578,
       "last_score": 75.2,
       "missed_updates": 0,
       "entry_market_cap": 9261640,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9686288
+      "last_market_cap": 9685584
     }
   },
   "closed_trades": [
@@ -4191,8 +4191,8 @@
       "pnl_pct": -25.479344107086998
     }
   ],
-  "last_run_ts": 1793217026.8943546,
-  "last_eur_rate": 0.8965099931840929,
+  "last_run_ts": 1793217318.0792568,
+  "last_eur_rate": 0.8963809974699711,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
