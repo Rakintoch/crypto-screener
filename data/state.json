@@ -275,8 +275,8 @@
     "symbol": "TAG"
   },
   "cex_small_cap:gstock": {
-    "last_alert_ts": 1793115800.0227149,
-    "last_score": 72.0,
+    "last_alert_ts": 1793220383.5094264,
+    "last_score": 76.2,
     "symbol": "GSTOCK"
   },
   "cex_small_cap:baton-3": {
@@ -835,8 +835,8 @@
     "symbol": "MOGZ"
   },
   "cex_small_cap:anoma": {
-    "last_alert_ts": 1793189010.1055982,
-    "last_score": 65.8,
+    "last_alert_ts": 1793220383.5094264,
+    "last_score": 81.1,
     "symbol": "XAN"
   },
   "cex_small_cap:ket-3": {
@@ -980,8 +980,8 @@
     "symbol": "BLESS"
   },
   "cex_small_cap:ubik": {
-    "last_alert_ts": 1793174022.3055692,
-    "last_score": 69.5,
+    "last_alert_ts": 1793220383.5094264,
+    "last_score": 63.5,
     "symbol": "UBIK"
   },
   "cex_small_cap:blur": {
@@ -1110,8 +1110,8 @@
     "symbol": "GANG"
   },
   "dex_micro_cap:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": {
-    "last_alert_ts": 1793210596.0454633,
-    "last_score": 80.5,
+    "last_alert_ts": 1793220383.5094264,
+    "last_score": 97.2,
     "symbol": "Rapport"
   },
   "cex_small_cap:goldstein": {
@@ -1213,5 +1213,30 @@
     "last_alert_ts": 1793217795.1921136,
     "last_score": 56.6,
     "symbol": "4STOCK"
+  },
+  "cex_small_cap:mushroom-2": {
+    "last_alert_ts": 1793220383.5094264,
+    "last_score": 61.6,
+    "symbol": "SHROOM"
+  },
+  "cex_small_cap:allinu": {
+    "last_alert_ts": 1793220383.5094264,
+    "last_score": 60.5,
+    "symbol": "ALLINU"
+  },
+  "cex_small_cap:casper-network": {
+    "last_alert_ts": 1793220383.5094264,
+    "last_score": 60.3,
+    "symbol": "CSPR"
+  },
+  "dex_micro_cap:0x8e6442663a4f8c50b6132c68d42a30e7dfe4ae15": {
+    "last_alert_ts": 1793220383.5094264,
+    "last_score": 57.1,
+    "symbol": "JAGENT"
+  },
+  "cex_small_cap:open-loot": {
+    "last_alert_ts": 1793220383.5094264,
+    "last_score": 56.9,
+    "symbol": "OL"
   }
 }
