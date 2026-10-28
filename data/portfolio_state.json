@@ -15,7 +15,7 @@
       "entry_price_eur": 0.07090850846119763,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.06548451488115481,
+      "last_price_eur": 0.06548253219118866,
       "last_score": 70.7,
       "missed_updates": 0,
       "entry_market_cap": 37162799,
@@ -57,7 +57,7 @@
           "source": "Crypto Reporter"
         }
       ],
-      "last_market_cap": 34489823
+      "last_market_cap": 34491470
     },
     "cex_small_cap:zcash-shielded-assets": {
       "tier": "cex_small_cap",
@@ -69,7 +69,7 @@
       "entry_price_eur": 0.001202626409177756,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.0012531076008023296,
+      "last_price_eur": 0.0012524924664097659,
       "last_score": 96.8,
       "missed_updates": 0,
       "entry_market_cap": 1326239,
@@ -91,7 +91,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1383626
+      "last_market_cap": 1383374
     },
     "cex_small_cap:evaa-protocol": {
       "tier": "cex_small_cap",
@@ -103,7 +103,7 @@
       "entry_price_eur": 1.258075004861002,
       "entry_ts": 1793199009.886858,
       "cost_eur": 11.465214578531041,
-      "last_price_eur": 1.210948647876267,
+      "last_price_eur": 1.2468591745993458,
       "last_score": 70.1,
       "missed_updates": 0,
       "entry_market_cap": 9261640,
@@ -125,7 +125,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 8941816
+      "last_market_cap": 9185955
     }
   },
   "closed_trades": [
@@ -4097,8 +4097,8 @@
       "pnl_pct": -12.688042818372766
     }
   ],
-  "last_run_ts": 1793207428.306117,
-  "last_eur_rate": 0.8969989984268644,
+  "last_run_ts": 1793207730.245926,
+  "last_eur_rate": 0.8970209889203927,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
