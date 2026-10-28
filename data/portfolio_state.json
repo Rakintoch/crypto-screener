@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 41.66472155194648,
+  "cash_eur": 30.19950697341544,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:metaplex": {
@@ -15,7 +15,7 @@
       "entry_price_eur": 0.07090850846119763,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.06751635471148947,
+      "last_price_eur": 0.06805826326296632,
       "last_score": 93.4,
       "missed_updates": 0,
       "entry_market_cap": 37162799,
@@ -57,7 +57,7 @@
           "source": "Crypto Reporter"
         }
       ],
-      "last_market_cap": 35407759
+      "last_market_cap": 35686263
     },
     "cex_small_cap:initia": {
       "tier": "cex_small_cap",
@@ -69,8 +69,8 @@
       "entry_price_eur": 0.20450881763083184,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.20091742263927823,
-      "last_score": 72.1,
+      "last_price_eur": 0.20670441917367308,
+      "last_score": 71.7,
       "missed_updates": 0,
       "entry_market_cap": 48053726,
       "entry_venue": "Binance",
@@ -110,7 +110,7 @@
           "source": "The Crypto Times"
         }
       ],
-      "last_market_cap": 47137650
+      "last_market_cap": 48487631
     },
     "cex_small_cap:zcash-shielded-assets": {
       "tier": "cex_small_cap",
@@ -122,7 +122,7 @@
       "entry_price_eur": 0.001202626409177756,
       "entry_ts": 1793196202.426829,
       "cost_eur": 11.662730403293466,
-      "last_price_eur": 0.0012241623922724086,
+      "last_price_eur": 0.0012155610559467349,
       "last_score": 97.8,
       "missed_updates": 0,
       "entry_market_cap": 1326239,
@@ -144,7 +144,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1349412
+      "last_market_cap": 1339718
+    },
+    "cex_small_cap:evaa-protocol": {
+      "tier": "cex_small_cap",
+      "id": "evaa-protocol",
+      "symbol": "EVAA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/evaa-protocol",
+      "qty": 9.11329971125034,
+      "entry_price_eur": 1.258075004861002,
+      "entry_ts": 1793199009.886858,
+      "cost_eur": 11.465214578531041,
+      "last_price_eur": 1.258075004861002,
+      "last_score": 98.4,
+      "missed_updates": 0,
+      "entry_market_cap": 9261640,
+      "entry_venue": "Gate",
+      "entry_contract_address": "EQBKMfjX_a_dsOLm-juxyVZytFP7_KKnzGv6J01kGc72gVBp (the-open-network)",
+      "entry_score": 98.4,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 69503954,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 6.311,
+      "entry_chg_24h": 98.53331,
+      "entry_chg_7d": 127.8644,
+      "entry_chg_6h": null,
+      "entry_turnover": 7.504497475609071,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -4057,8 +4090,8 @@
       "pnl_pct": -9.419949035427614
     }
   ],
-  "last_run_ts": 1793198730.6318378,
-  "last_eur_rate": 0.8984809995540549,
+  "last_run_ts": 1793199009.886858,
+  "last_eur_rate": 0.8986250034721444,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
