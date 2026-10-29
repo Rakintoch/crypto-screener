@@ -274,11 +274,6 @@
     "last_score": 70.8,
     "symbol": "MUSEBOOK"
   },
-  "cex_small_cap:gensyn": {
-    "last_alert_ts": 1793009002.3479815,
-    "last_score": 64.9,
-    "symbol": "AI"
-  },
   "cex_small_cap:a-meme-coin": {
     "last_alert_ts": 1793217795.1921136,
     "last_score": 65.3,
@@ -350,8 +345,8 @@
     "symbol": "BANK"
   },
   "cex_small_cap:infinity-ground": {
-    "last_alert_ts": 1793196201.7954614,
-    "last_score": 57.7,
+    "last_alert_ts": 1793275405.4144409,
+    "last_score": 70.6,
     "symbol": "AIN"
   },
   "cex_small_cap:anthropic-prestocks-2": {
@@ -420,8 +415,8 @@
     "symbol": "VERONA"
   },
   "cex_small_cap:tradr-2x-long-sndk-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793203406.196793,
-    "last_score": 69.3,
+    "last_alert_ts": 1793275405.4144409,
+    "last_score": 56.6,
     "symbol": "SNXXB"
   },
   "cex_small_cap:fight-2": {
@@ -715,8 +710,8 @@
     "symbol": "ACU"
   },
   "cex_small_cap:lab": {
-    "last_alert_ts": 1793124194.8073971,
-    "last_score": 58.7,
+    "last_alert_ts": 1793275405.4144409,
+    "last_score": 55.2,
     "symbol": "LAB"
   },
   "cex_small_cap:solv-protocol": {
@@ -1080,8 +1075,8 @@
     "symbol": "RAM"
   },
   "cex_small_cap:raeto": {
-    "last_alert_ts": 1793217795.1921136,
-    "last_score": 72.7,
+    "last_alert_ts": 1793275405.4144409,
+    "last_score": 66.5,
     "symbol": "RAETO"
   },
   "cex_small_cap:fables": {
@@ -1258,5 +1253,20 @@
     "last_alert_ts": 1793268199.1585326,
     "last_score": 64.7,
     "symbol": "NAP"
+  },
+  "dex_micro_cap:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": {
+    "last_alert_ts": 1793275405.4144409,
+    "last_score": 69.5,
+    "symbol": "PODCAT"
+  },
+  "dex_micro_cap:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": {
+    "last_alert_ts": 1793275405.4144409,
+    "last_score": 55.9,
+    "symbol": "CATBOT"
+  },
+  "dex_micro_cap:AN4mNPb3rP61d3b2u1LCKKhBdEgdW9BiNDp7ZHKupump": {
+    "last_alert_ts": 1793275405.4144409,
+    "last_score": 55.0,
+    "symbol": "omni"
   }
 }
