@@ -11143,5 +11143,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "MPLX (cex_small_cap) lost -8.1% in 9 min (very fast (<1h)) — stop-loss hit. Entry score: 82 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793240126.7563949,
+    "symbol": "LITEB",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/lumentum-holdings-bstocks-tokenized-stock",
+    "held_minutes": 252.2,
+    "exit_reason": "stop-loss hit (-8.5%)",
+    "pnl_pct": -8.48,
+    "pnl_eur": -0.87,
+    "entry_score": 91.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 4224835,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 15.2603,
+    "entry_chg_24h": 18.74954,
+    "entry_chg_7d": 19.6447,
+    "entry_chg_6h": null,
+    "entry_turnover": 3.5239466741402277,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "LITEB (cex_small_cap) lost -8.5% in 252 min (fast (1-6h)) — stop-loss hit. Entry score: 91 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
