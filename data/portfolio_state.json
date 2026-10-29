@@ -15,7 +15,7 @@
       "entry_price_eur": 0.05649826341238287,
       "entry_ts": 1793237496.6296604,
       "cost_eur": 8.955931206872183,
-      "last_price_eur": 0.05502131576733152,
+      "last_price_eur": 0.054994844545751854,
       "last_score": 46.8,
       "missed_updates": 0,
       "entry_market_cap": 9045811,
@@ -45,7 +45,7 @@
           "source": "Tech Times"
         }
       ],
-      "last_market_cap": 8791555
+      "last_market_cap": 8788331
     },
     "cex_small_cap:initia": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.1961501151793858,
       "entry_ts": 1793253784.9849868,
       "cost_eur": 8.99459217889516,
-      "last_price_eur": 0.19753582252779914,
-      "last_score": 63.5,
+      "last_price_eur": 0.19964466062214112,
+      "last_score": 64.8,
       "missed_updates": 0,
       "entry_market_cap": 45954362,
       "entry_venue": "Binance",
@@ -98,7 +98,7 @@
           "source": "Altcoin Buzz"
         }
       ],
-      "last_market_cap": 46481046
+      "last_market_cap": 46977045
     }
   },
   "closed_trades": [
@@ -4680,8 +4680,8 @@
       "pnl_pct": -8.133835149808991
     }
   ],
-  "last_run_ts": 1793301327.3760564,
-  "last_eur_rate": 0.8958500076090319,
+  "last_run_ts": 1793301624.63266,
+  "last_eur_rate": 0.8958420001262744,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
