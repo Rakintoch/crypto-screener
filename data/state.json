@@ -90,8 +90,8 @@
     "symbol": "BIRB"
   },
   "cex_small_cap:particle-network": {
-    "last_alert_ts": 1793217795.1921136,
-    "last_score": 57.8,
+    "last_alert_ts": 1793268199.1585326,
+    "last_score": 55.9,
     "symbol": "PARTI"
   },
   "cex_small_cap:irys": {
@@ -145,8 +145,8 @@
     "symbol": "QUID"
   },
   "cex_small_cap:fluent-network": {
-    "last_alert_ts": 1793066585.673855,
-    "last_score": 55.9,
+    "last_alert_ts": 1793268199.1585326,
+    "last_score": 64.3,
     "symbol": "BLEND"
   },
   "cex_small_cap:polyswarm": {
@@ -230,8 +230,8 @@
     "symbol": "SI"
   },
   "cex_small_cap:apriori": {
-    "last_alert_ts": 1793203406.196793,
-    "last_score": 92.3,
+    "last_alert_ts": 1793268199.1585326,
+    "last_score": 82.1,
     "symbol": "APR"
   },
   "dex_micro_cap:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
@@ -268,11 +268,6 @@
     "last_alert_ts": 1793093694.914651,
     "last_score": 56.8,
     "symbol": "BABY"
-  },
-  "cex_small_cap:wink": {
-    "last_alert_ts": 1793007535.3709867,
-    "last_score": 67.2,
-    "symbol": "WIN"
   },
   "cex_small_cap:musebook": {
     "last_alert_ts": 1793224994.568154,
@@ -339,11 +334,6 @@
     "last_score": 72.9,
     "symbol": "TOSHI"
   },
-  "dex_micro_cap:5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": {
-    "last_alert_ts": 1793007535.3709867,
-    "last_score": 60.5,
-    "symbol": "Bow"
-  },
   "dex_micro_cap:0xa551def8a44ea423caa58da45b3f5764004286ea": {
     "last_alert_ts": 1793016211.5286303,
     "last_score": 64.5,
@@ -385,8 +375,8 @@
     "symbol": "CHIP"
   },
   "cex_small_cap:audiera": {
-    "last_alert_ts": 1793174022.3055692,
-    "last_score": 86.7,
+    "last_alert_ts": 1793268199.1585326,
+    "last_score": 63.0,
     "symbol": "BEAT"
   },
   "cex_small_cap:nebius-bstocks-tokenized-stock": {
@@ -810,8 +800,8 @@
     "symbol": "TSLAC"
   },
   "cex_small_cap:sk-hynix-ondo-tokenized": {
-    "last_alert_ts": 1793210596.0454633,
-    "last_score": 64.1,
+    "last_alert_ts": 1793268199.1585326,
+    "last_score": 57.5,
     "symbol": "SKHYON"
   },
   "cex_small_cap:tensorprox": {
@@ -1175,8 +1165,8 @@
     "symbol": "OL"
   },
   "cex_small_cap:lumentum-holdings-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793224994.568154,
-    "last_score": 91.4,
+    "last_alert_ts": 1793268199.1585326,
+    "last_score": 61.2,
     "symbol": "LITEB"
   },
   "cex_small_cap:permacast": {
@@ -1263,5 +1253,10 @@
     "last_alert_ts": 1793261003.5047204,
     "last_score": 55.1,
     "symbol": "CPOOL"
+  },
+  "cex_small_cap:napoli-fan-token": {
+    "last_alert_ts": 1793268199.1585326,
+    "last_score": 64.7,
+    "symbol": "NAP"
   }
 }
