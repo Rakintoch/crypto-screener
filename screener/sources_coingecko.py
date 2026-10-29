@@ -153,6 +153,42 @@ def fetch_market_chart(coin_id, days):
 COIN_DETAIL_URL = "https://api.coingecko.com/api/v3/coins/{id}"
 
 
+# Autoanálise 2026-10-29: o sinal original de "is_onchain" (campo "base" do ticker a
+# começar por "0x") só cobre chains EVM. Cruzando challenge_history.json com o venue
+# resolvido em cada trade cex_small_cap fechado, 31 trades (em 4 ciclos) vieram de pools
+# on-chain em chains não-EVM — Raydium/PumpSwap/Meteora/Orca (Solana, endereços base58,
+# sem "0x"), Saros (idem) e Near Intents (contas "x.y.near", confirmado pelo próprio
+# entry_contract_address gravado nesses trades) — e nenhum foi marcado "(on-chain)": todos
+# foram dimensionados à taxa normal de cex_small_cap (15-25% do equity, conforme o ciclo) em
+# vez dos 7% já decididos desde 2026-09-24 para este risco (CEX_ONCHAIN_VENUE_POSITION_SIZE_PCT).
+# Resultado medido: 31 trades, 12,9% win rate, -107,45 EUR líquidos — o mesmo perfil de risco
+# de cauda que o desconto de 7% foi criado para conter, mas aplicado ao dobro (ou mais) do
+# tamanho pretendido. Adicionam-se dois sinais de reforço ao "0x" original: a forma do próprio
+# campo "base" (um símbolo real de exchange nunca é tão longo nem tem pontos/barras; um
+# endereço on-chain de qualquer chain não-EVM sim) e o nome da venue coincidir com uma AMM
+# on-chain já observada nos dados. Qualquer um dos três sinais basta.
+KNOWN_ONCHAIN_VENUE_NAMES = (
+    "raydium", "pumpswap", "pump.fun", "orca", "jupiter", "meteora",
+    "uniswap", "pancakeswap", "sushiswap", "balancer", "curve",
+    "aerodrome", "camelot", "quickswap", "1inch", "osmosis", "saros",
+    "trader joe", "near intents",
+)
+
+
+def _is_onchain_ticker(best):
+    """
+    True se este ticker do CoinGecko vier de uma pool on-chain, não de uma exchange
+    centralizada — ver autoanálise 2026-10-29 acima para o porquê dos três sinais.
+    """
+    base = str(best.get("base") or "")
+    if base.lower().startswith("0x"):
+        return True
+    if len(base) > 20 or "." in base or "/" in base:
+        return True
+    name = str((best.get("market") or {}).get("name") or "").lower()
+    return any(k in name for k in KNOWN_ONCHAIN_VENUE_NAMES)
+
+
 def fetch_top_venue(coin_id):
     """
     Devolve o nome da venue (exchange centralizada ou pool on-chain) com mais volume
@@ -191,10 +227,10 @@ def fetch_top_venue(coin_id):
     if not name:
         return None
 
-    # tickers de pools on-chain (DEX) trazem o endereço do contrato (0x...) em vez do
-    # símbolo no campo "base" — é o único sinal fiável, nos dados do CoinGecko, para
-    # distinguir uma venue centralizada de uma pool on-chain sem outra chamada à API.
-    is_onchain = str(best.get("base") or "").lower().startswith("0x")
+    # Ver _is_onchain_ticker()/KNOWN_ONCHAIN_VENUE_NAMES acima (autoanálise 2026-10-29) —
+    # cobre tanto o endereço de contrato EVM (0x...) como pools on-chain de chains
+    # não-EVM (Solana, NEAR, ...) que o CoinGecko não marca com esse prefixo.
+    is_onchain = _is_onchain_ticker(best)
     return f"{name} (on-chain)" if is_onchain else name
 
 
