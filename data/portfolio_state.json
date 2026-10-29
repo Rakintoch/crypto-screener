@@ -15,8 +15,8 @@
       "entry_price_eur": 1.258075004861002,
       "entry_ts": 1793199009.886858,
       "cost_eur": 11.465214578531041,
-      "last_price_eur": 1.2917404738176115,
-      "last_score": 91.6,
+      "last_price_eur": 1.2920457588741134,
+      "last_score": 91.5,
       "missed_updates": 0,
       "entry_market_cap": 9261640,
       "entry_venue": "Gate",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9520450
+      "last_market_cap": 9505720
     },
     "cex_small_cap:lumentum-holdings-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 918.3548730908448,
       "entry_ts": 1793224995.0463421,
       "cost_eur": 10.210890064676947,
-      "last_price_eur": 879.0921853725841,
-      "last_score": 59.3,
+      "last_price_eur": 877.7387247351398,
+      "last_score": 59.4,
       "missed_updates": 0,
       "entry_market_cap": 1198893,
       "entry_venue": "Binance",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1142891
+      "last_market_cap": 1140444
     }
   },
   "closed_trades": [
@@ -4351,8 +4351,8 @@
       "pnl_pct": -10.522115466927843
     }
   ],
-  "last_run_ts": 1793232928.1389425,
-  "last_eur_rate": 0.8970419957066746,
+  "last_run_ts": 1793233224.8459332,
+  "last_eur_rate": 0.8972539992181343,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
