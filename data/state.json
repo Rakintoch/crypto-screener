@@ -279,11 +279,6 @@
     "last_score": 70.8,
     "symbol": "MUSEBOOK"
   },
-  "cex_small_cap:palu": {
-    "last_alert_ts": 1792994599.6219728,
-    "last_score": 57.3,
-    "symbol": "PALU"
-  },
   "cex_small_cap:gensyn": {
     "last_alert_ts": 1793009002.3479815,
     "last_score": 64.9,
@@ -333,11 +328,6 @@
     "last_alert_ts": 1793030587.5530238,
     "last_score": 55.0,
     "symbol": "SN63"
-  },
-  "dex_micro_cap:35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump": {
-    "last_alert_ts": 1792994599.6219728,
-    "last_score": 55.3,
-    "symbol": "PMUP"
   },
   "cex_small_cap:pha": {
     "last_alert_ts": 1793001772.9230258,
@@ -450,8 +440,8 @@
     "symbol": "SNXXB"
   },
   "cex_small_cap:fight-2": {
-    "last_alert_ts": 1793210596.0454633,
-    "last_score": 69.8,
+    "last_alert_ts": 1793260740.5024133,
+    "last_score": 62.7,
     "symbol": "FIGHT"
   },
   "cex_small_cap:robostrategy-backpack-securities": {
@@ -1005,8 +995,8 @@
     "symbol": "Robotaxi"
   },
   "cex_small_cap:yom": {
-    "last_alert_ts": 1793196201.7954614,
-    "last_score": 67.3,
+    "last_alert_ts": 1793260740.5024133,
+    "last_score": 64.4,
     "symbol": "YOM"
   },
   "cex_small_cap:sk-hynix-rstock": {
@@ -1045,8 +1035,8 @@
     "symbol": "GINNAN"
   },
   "cex_small_cap:zeus-network": {
-    "last_alert_ts": 1793246606.8897207,
-    "last_score": 61.5,
+    "last_alert_ts": 1793260740.5024133,
+    "last_score": 87.5,
     "symbol": "ZEUS"
   },
   "cex_small_cap:naoris": {
@@ -1268,5 +1258,10 @@
     "last_alert_ts": 1793253784.3547583,
     "last_score": 65.4,
     "symbol": "HOUSECOIN"
+  },
+  "cex_small_cap:moonbeam": {
+    "last_alert_ts": 1793260740.5024133,
+    "last_score": 63.2,
+    "symbol": "GLMR"
   }
 }

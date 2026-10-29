@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 30.045577454254875,
+  "cash_eur": 21.264181518271954,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:squid-3": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.05649826341238287,
       "entry_ts": 1793237496.6296604,
       "cost_eur": 8.955931206872183,
-      "last_price_eur": 0.06345522447190781,
-      "last_score": 89.2,
+      "last_price_eur": 0.0636471257369307,
+      "last_score": 88.2,
       "missed_updates": 0,
       "entry_market_cap": 9045811,
       "entry_venue": "Upbit",
@@ -45,7 +45,7 @@
           "source": "Tech Times"
         }
       ],
-      "last_market_cap": 10131025
+      "last_market_cap": 10104857
     },
     "cex_small_cap:initia": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.1961501151793858,
       "entry_ts": 1793253784.9849868,
       "cost_eur": 8.99459217889516,
-      "last_price_eur": 0.18599084355713835,
-      "last_score": 66.8,
+      "last_price_eur": 0.18639194985101573,
+      "last_score": 67.2,
       "missed_updates": 0,
       "entry_market_cap": 45954362,
       "entry_venue": "Binance",
@@ -98,7 +98,7 @@
           "source": "Altcoin Buzz"
         }
       ],
-      "last_market_cap": 43530377
+      "last_market_cap": 43795032
     },
     "cex_small_cap:zcash-shielded-assets": {
       "tier": "cex_small_cap",
@@ -110,8 +110,8 @@
       "entry_price_eur": 0.0011319664779087875,
       "entry_ts": 1793253784.9849868,
       "cost_eur": 8.99459217889516,
-      "last_price_eur": 0.0012198999927927779,
-      "last_score": 90.7,
+      "last_price_eur": 0.0012409772028023425,
+      "last_score": 91.2,
       "missed_updates": 0,
       "entry_market_cap": 1249477,
       "entry_venue": "PumpSwap",
@@ -132,7 +132,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1379259
+      "last_market_cap": 1347077
+    },
+    "cex_small_cap:zeus-network": {
+      "tier": "cex_small_cap",
+      "id": "zeus-network",
+      "symbol": "ZEUS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/zeus-network",
+      "qty": 1236.32502019388,
+      "entry_price_eur": 0.007102821501263337,
+      "entry_ts": 1793260740.9463236,
+      "cost_eur": 8.78139593598292,
+      "last_price_eur": 0.007102821501263337,
+      "last_score": 87.5,
+      "missed_updates": 0,
+      "entry_market_cap": 7376615,
+      "entry_venue": "Gate",
+      "entry_contract_address": "ZEUS1aR7aX8DFFJf5QjWj2ftDDdNTroMNGo8YoQm3Gq (Solana)",
+      "entry_score": 87.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 15938127,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 8.4295,
+      "entry_chg_24h": 41.62451,
+      "entry_chg_7d": -6.7461,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.1606288250098453,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -4592,8 +4625,8 @@
       "pnl_pct": -34.50687973798025
     }
   ],
-  "last_run_ts": 1793260520.3046203,
-  "last_eur_rate": 0.8974009966328357,
+  "last_run_ts": 1793260740.9463236,
+  "last_eur_rate": 0.8971459987727038,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
