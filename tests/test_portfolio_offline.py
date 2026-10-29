@@ -739,8 +739,11 @@ def _run_scenarios():
     _run_assumed_rug_scenarios()
     _run_trailing_tightening_scenario()
     _run_dex_sizing_scenario()
+    _run_dex_sizing_followup_scenario()
+    _run_onchain_venue_detection_scenario()
 
-    print("\n✅ Todos os testes offline do portfólio passaram.")
+    print("
+✅ Todos os testes offline do portfólio passaram.")
 
 def _run_continuous_cycle_scenarios():
     """Corridas 9/9b/9c — pedido do Ricardo 2026-09-24: sem reset entre ciclos, o fim de cada
