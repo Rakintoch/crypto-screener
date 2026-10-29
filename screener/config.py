@@ -145,7 +145,7 @@ POSITION_SIZE_PCT_OF_EQUITY = 0.25   # fallback para camadas sem valor específi
 # TODOS os 37 casos, ou seja, o preço estava a ser lido em toda corrida). 12 dos 37 (32%)
 # fecharam pior que -15%, incluindo um colapso de -80,08% (AIN) e vários entre -20% e -29%
 # (OTC -29,3%, LOOM -27,6%, PERPSPAD -26,3%, POWER -23,5%, CVC -20,6%) — mesmo excluindo o
-# outlier da AIN, a média fica em -13,52%, ainda ~70% pior que o gatilho, Não há correlação
+# outlier da AIN, a média fica em -13,52%, ainda ~70% pior que o gatilho. Não há correlação
 # forte com liquidez/volume de entrada (ex: CVC e REZ tinham >150M$ e 190M$ de volume 24h e
 # mesmo assim ultrapassaram o gatilho em >10 pontos) nem com o tempo de posse (correlação
 # 0,07 entre horas até ao fecho e pnl_pct; ANON perdeu -17% em 24 min, mas BFC só -8,3% em
