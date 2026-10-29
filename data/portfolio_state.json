@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 50.237717231695456,
+  "cash_eur": 32.32585481795109,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:lumentum-holdings-bstocks-tokenized-stock": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 918.3548730908448,
       "entry_ts": 1793224995.0463421,
       "cost_eur": 10.210890064676947,
-      "last_price_eur": 852.6126893474504,
-      "last_score": 54.2,
+      "last_price_eur": 851.5843990958965,
+      "last_score": 54.3,
       "missed_updates": 0,
       "entry_market_cap": 1198893,
       "entry_venue": "Binance",
@@ -37,7 +37,101 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1108313
+      "last_market_cap": 1108926
+    },
+    "cex_small_cap:squid-3": {
+      "tier": "cex_small_cap",
+      "id": "squid-3",
+      "symbol": "QUID",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/squid-3",
+      "qty": 158.51692894527602,
+      "entry_price_eur": 0.05649826341238287,
+      "entry_ts": 1793237496.6296604,
+      "cost_eur": 8.955931206872183,
+      "last_price_eur": 0.05649826341238287,
+      "last_score": 82.7,
+      "missed_updates": 0,
+      "entry_market_cap": 9045811,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x1a44233fae8d50f1aeb3a5d58dd426ff4814cb53 (Base)",
+      "entry_score": 82.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 13306364,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 9.9234,
+      "entry_chg_24h": 10.40075,
+      "entry_chg_7d": 13.1181,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.4709973489386414,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "South Korea Launches Quarterly Ocean Forecasts as Pollock Vanishes, Squid Collapses 90 Percent - Tech Times",
+          "ts": 1792047600.0,
+          "source": "Tech Times"
+        }
+      ]
+    },
+    "cex_small_cap:metaplex": {
+      "tier": "cex_small_cap",
+      "id": "metaplex",
+      "symbol": "MPLX",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/metaplex",
+      "qty": 137.19368516617556,
+      "entry_price_eur": 0.06527947110702896,
+      "entry_ts": 1793237496.6296604,
+      "cost_eur": 8.955931206872185,
+      "last_price_eur": 0.06527947110702896,
+      "last_score": 82.0,
+      "missed_updates": 0,
+      "entry_market_cap": 34310640,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 82.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 94871790,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 1.9576,
+      "entry_chg_24h": 50.56428,
+      "entry_chg_7d": 18.7235,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.7650836591797763,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing",
+        "supply_cut",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 1.0,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Metaplex (MPLX) Price Prediction 2026-2030: Buyback Outlook - Phemex",
+          "ts": 1792653061.0,
+          "source": "Phemex"
+        },
+        {
+          "title": "Gate.io lists Metaplex (MPLX) perpetual futures with up to 50× leverage - Traders Union",
+          "ts": 1792496000.0,
+          "source": "Traders Union"
+        },
+        {
+          "title": "Metaplex Jumps 10% to $0.0575 on Upbit KRW Market Listing News - bloomingbit",
+          "ts": 1792487265.0,
+          "source": "bloomingbit"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -4357,8 +4451,8 @@
       "pnl_pct": -8.015461869342236
     }
   ],
-  "last_run_ts": 1793237118.1962125,
-  "last_eur_rate": 0.8970809942315062,
+  "last_run_ts": 1793237496.6296604,
+  "last_eur_rate": 0.8964989989429377,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,

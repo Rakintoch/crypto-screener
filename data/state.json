@@ -80,8 +80,8 @@
     "symbol": "DACITY"
   },
   "cex_small_cap:dappos": {
-    "last_alert_ts": 1793189010.1055982,
-    "last_score": 79.7,
+    "last_alert_ts": 1793237496.1074207,
+    "last_score": 56.5,
     "symbol": "DOS"
   },
   "cex_small_cap:moonbirds": {
@@ -125,8 +125,8 @@
     "symbol": "AXIS"
   },
   "cex_small_cap:superform": {
-    "last_alert_ts": 1793109820.977011,
-    "last_score": 55.0,
+    "last_alert_ts": 1793237496.1074207,
+    "last_score": 57.9,
     "symbol": "UP"
   },
   "cex_small_cap:pangea-2": {
@@ -150,8 +150,8 @@
     "symbol": "FOLD"
   },
   "cex_small_cap:squid-3": {
-    "last_alert_ts": 1793001772.9230258,
-    "last_score": 67.8,
+    "last_alert_ts": 1793237496.1074207,
+    "last_score": 82.7,
     "symbol": "QUID"
   },
   "cex_small_cap:fluent-network": {
@@ -165,8 +165,8 @@
     "symbol": "NCT"
   },
   "cex_small_cap:initia": {
-    "last_alert_ts": 1793189010.1055982,
-    "last_score": 97.1,
+    "last_alert_ts": 1793237496.1074207,
+    "last_score": 78.3,
     "symbol": "INIT"
   },
   "cex_small_cap:stonks-9": {
@@ -675,8 +675,8 @@
     "symbol": "SECZB"
   },
   "cex_small_cap:priors-agent": {
-    "last_alert_ts": 1793189010.1055982,
-    "last_score": 71.8,
+    "last_alert_ts": 1793237496.1074207,
+    "last_score": 55.7,
     "symbol": "PRIORS"
   },
   "cex_small_cap:arcium": {
@@ -720,13 +720,13 @@
     "symbol": "GROVE"
   },
   "cex_small_cap:hana-network": {
-    "last_alert_ts": 1793115800.0227149,
-    "last_score": 62.8,
+    "last_alert_ts": 1793237496.1074207,
+    "last_score": 64.0,
     "symbol": "HANA"
   },
   "cex_small_cap:orochi-network": {
-    "last_alert_ts": 1793189010.1055982,
-    "last_score": 82.0,
+    "last_alert_ts": 1793237496.1074207,
+    "last_score": 62.7,
     "symbol": "ON"
   },
   "cex_small_cap:microduck": {
@@ -1200,8 +1200,8 @@
     "symbol": "ALLINU"
   },
   "cex_small_cap:casper-network": {
-    "last_alert_ts": 1793220383.5094264,
-    "last_score": 60.3,
+    "last_alert_ts": 1793237496.1074207,
+    "last_score": 78.6,
     "symbol": "CSPR"
   },
   "dex_micro_cap:0x8e6442663a4f8c50b6132c68d42a30e7dfe4ae15": {
@@ -1248,5 +1248,35 @@
     "last_alert_ts": 1793232206.6548615,
     "last_score": 55.2,
     "symbol": "GTA6"
+  },
+  "dex_micro_cap:ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump": {
+    "last_alert_ts": 1793237496.1074207,
+    "last_score": 73.0,
+    "symbol": "HERMIT"
+  },
+  "cex_small_cap:up-2": {
+    "last_alert_ts": 1793237496.1074207,
+    "last_score": 70.4,
+    "symbol": "UP"
+  },
+  "cex_small_cap:stonkbroker": {
+    "last_alert_ts": 1793237496.1074207,
+    "last_score": 69.7,
+    "symbol": "STONKBROKER"
+  },
+  "dex_micro_cap:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": {
+    "last_alert_ts": 1793237496.1074207,
+    "last_score": 69.7,
+    "symbol": "DUBBLE"
+  },
+  "cex_small_cap:b3": {
+    "last_alert_ts": 1793237496.1074207,
+    "last_score": 66.2,
+    "symbol": "B3"
+  },
+  "cex_small_cap:biconomy": {
+    "last_alert_ts": 1793237496.1074207,
+    "last_score": 55.9,
+    "symbol": "BICO"
   }
 }
