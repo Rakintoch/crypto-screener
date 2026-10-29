@@ -11224,5 +11224,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "XMN (cex_small_cap) lost -9.4% in 38 min (very fast (<1h)) — stop-loss hit. Entry score: 92 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793295318.6375198,
+    "symbol": "ZEUS",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/zeus-network",
+    "held_minutes": 576.3,
+    "exit_reason": "stop-loss hit (-8.1%)",
+    "pnl_pct": -8.13,
+    "pnl_eur": -0.71,
+    "entry_score": 87.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 15938127,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 8.4295,
+    "entry_chg_24h": 41.62451,
+    "entry_chg_7d": -6.7461,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.1606288250098453,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "ZEUS (cex_small_cap) lost -8.1% in 576 min (slow (>6h)) — stop-loss hit. Entry score: 88 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
