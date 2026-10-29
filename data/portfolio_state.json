@@ -15,7 +15,7 @@
       "entry_price_eur": 918.3548730908448,
       "entry_ts": 1793224995.0463421,
       "cost_eur": 10.210890064676947,
-      "last_price_eur": 852.5461502686089,
+      "last_price_eur": 852.2940561769339,
       "last_score": 53.5,
       "missed_updates": 0,
       "entry_market_cap": 1198893,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1107688
+      "last_market_cap": 1107045
     },
     "cex_small_cap:squid-3": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.05649826341238287,
       "entry_ts": 1793237496.6296604,
       "cost_eur": 8.955931206872183,
-      "last_price_eur": 0.056929433434191865,
-      "last_score": 84.1,
+      "last_price_eur": 0.05661829822853856,
+      "last_score": 83.4,
       "missed_updates": 0,
       "entry_market_cap": 9045811,
       "entry_venue": "Upbit",
@@ -79,7 +79,7 @@
           "source": "Tech Times"
         }
       ],
-      "last_market_cap": 9145823
+      "last_market_cap": 9041906
     }
   },
   "closed_trades": [
@@ -4459,8 +4459,8 @@
       "pnl_pct": -8.149092020518346
     }
   ],
-  "last_run_ts": 1793238621.5616667,
-  "last_eur_rate": 0.8973319898837046,
+  "last_run_ts": 1793238917.9319725,
+  "last_eur_rate": 0.8973499996598552,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
