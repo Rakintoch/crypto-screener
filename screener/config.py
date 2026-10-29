@@ -145,7 +145,7 @@ POSITION_SIZE_PCT_OF_EQUITY = 0.25   # fallback para camadas sem valor específi
 # TODOS os 37 casos, ou seja, o preço estava a ser lido em toda corrida). 12 dos 37 (32%)
 # fecharam pior que -15%, incluindo um colapso de -80,08% (AIN) e vários entre -20% e -29%
 # (OTC -29,3%, LOOM -27,6%, PERPSPAD -26,3%, POWER -23,5%, CVC -20,6%) — mesmo excluindo o
-# outlier da AIN, a média fica em -13,52%, ainda ~70% pior que o gatilho. Não há correlação
+# outlier da AIN, a média fica em -13,52%, ainda ~70% pior que o gatilho, Não há correlação
 # forte com liquidez/volume de entrada (ex: CVC e REZ tinham >150M$ e 190M$ de volume 24h e
 # mesmo assim ultrapassaram o gatilho em >10 pontos) nem com o tempo de posse (correlação
 # 0,07 entre horas até ao fecho e pnl_pct; ANON perdeu -17% em 24 min, mas BFC só -8,3% em
@@ -175,9 +175,23 @@ POSITION_SIZE_PCT_OF_EQUITY = 0.25   # fallback para camadas sem valor específi
 # um filtro de entrada numericamente justificável). Aplica-se a mesma lógica já usada 3x
 # antes (dex 2026-08-30, cex_small_cap 2026-09-18, venue on-chain 2026-09-24): quando o
 # risco de cauda medido excede o que o tamanho de posição atual pressupõe, reduz-se esse
-# tamanho na proporção do excesso (0,20 / 0,2717 ≈ 0,74 -> 12% * 0,74 ≈ 8,8%, arredondado a
+# tamanho na proporção do excesso (0,20 / 0,2717 ≈ 0,74 -> 12% * 0,74 ≈ 8.8%, arredondado a
 # 9%).
-POSITION_SIZE_PCT_BY_TIER = {"cex_small_cap": 0.15, "dex_micro_cap": 0.09}
+# Autoanálise 2026-10-29 (revisão intercalar do ciclo #5, 18 trades fechados desde a última
+# entrada do changelog): o corte de 12% -> 9% acima NÃO reverteu a tendência de agravamento
+# do overshoot do stop-loss em dex_micro_cap — confirma-se exatamente a dúvida que a própria
+# entrada anterior deixou em aberto ("verificar se a tendência continua a agravar-se mesmo
+# depois deste corte"). Juntando os 12 fechos por stop-loss já ocorridos no ciclo #5 (perda
+# real média -33,5%, pior que qualquer um dos 4 ciclos anteriores) aos 24 já medidos nos
+# ciclos #1-#4, o conjunto combinado (36 fechos) dá uma perda real média de -29,28% contra o
+# gatilho de -20% — pior que os -27,17% já medidos antes do corte, o que é esperado: reduzir
+# o tamanho da posição não muda a percentagem de overshoot (um problema de granularidade de
+# verificação temporal, não de dimensionamento), só reduz o impacto em euros. Mesma lógica
+# proporcional de sempre: 0,20 / 0,2928 ≈ 0,683 -> 9% * 0,683 ≈ 6,1%, arredondado a 6%. Isto
+# não resolve a causa raiz (ver nota 2026-10-23 acima) — só continua a conter o impacto em
+# euros enquanto não há um mecanismo de saída que reaja mais rápido do que o intervalo entre
+# verificações.
+POSITION_SIZE_PCT_BY_TIER = {"cex_small_cap": 0.15, "dex_micro_cap": 0.06}
 MIN_TRADE_EUR = 5.0                  # não abre/fecha posições de valor residual
 
 # Autoanálise 2026-09-24 (85 trades cex_small_cap fechados nas duas challenges até agora, 12
@@ -221,7 +235,6 @@ SCORE_DECAY_EXIT = 30           # se o score cair abaixo disto, a tese de moment
 # trade — só o score final), mas justifica deixar de tratar o topo do intervalo (90-100)
 # como "melhor" para efeitos de escolha entre candidatos elegíveis em simultâneo: acima
 # deste teto, o score deixa de ser tratado como diferenciador (ver portfolio._check_entries).
-# Não mexe no stop-loss nem no take-profit — o problema medido está na seleção, não na saída.
 SELECTION_SCORE_CEILING = 90
 
 # --- Rotação de posições fracas (pedido do Ricardo 2026-09-16) ---
@@ -255,7 +268,7 @@ ROTATION_MIN_INTERVAL_HOURS = 12  # cooldown global — no máximo 1 rotação a
 # 43,2%) foi o único ganho nessa vizinhança (+4,5%) — o corte de 45% separa-os sem sacrificar
 # esse caso. Faz sentido mecanicamente: um candidato que já subiu >45% SÓ na última hora está
 # mais perto da exaustão/reversão do que do início de um movimento sustentável, ao contrário de
-# chg_24h/chg_7d altos (que podem refletir uma subida mais gradual e ainda saudável). Isto é uma
+# chg_24h/chg_7d altos (que podem refletir uma subida mais gradual e ainda saudável). Isto é um
 # NOVA porta de entrada (elimina candidatos, não só desempata como o SELECTION_SCORE_CEILING) —
 # só afeta a compra automática no desafio (portfolio._check_entries), não os alertas do Telegram
 # (Ricardo pode querer ver o candidato para investigação manual mesmo que o bot não lhe arrisque
@@ -264,7 +277,7 @@ CEX_MAX_ENTRY_CHG_1H_PCT = 45.0
 
 # Autoanálise 2026-10-02 (fecho da challenge #2, -74,0%, 76 trades): mesma lógica do corte
 # acima, agora replicada para dex_micro_cap (nunca tinha sido aplicada a este tier — a
-# autoanálise de 2026-09-23 decidiu explicitamente NÃO a estender ao DEX, por falta de dados
+# autoanálise de 2026-09-23 decidiu explicitamente Não a estender ao DEX, por falta de dados
 # próprios na altura). Combinando lessons.json + wins.json + challenge_history.json (16 trades
 # dex_micro_cap com entry_chg_1h guardado, em 3 ciclos distintos, 2026-09-19 a 2026-10-02): os
 # 5 com entry_chg_1h >= 50% (GOD 294%, BOB 75,9%, BTCBIRD 276%, swordcat 50,9%, Jane 93,9%)
@@ -292,7 +305,7 @@ STOP_LOSS_PCT = {"cex_small_cap": -0.08, "dex_micro_cap": -0.20}
 # Autoanálise 2026-09-12: o desenho original vigiava só TRAILING_STOP_WINDOW_SECONDS (5 min)
 # bloqueantes logo a seguir ao primeiro toque no take-profit, e fechava a posição incondicio-
 # nalmente no fim dessa janela — mesmo que o preço continuasse a subir com força. Numa corrida
-# sustentada (ex.: um token que continua a subir horas a fio depois do alvo, +2000% num dia),
+# sustentada (ex.: om token que continua a subir horas a fio depois do alvo, +2000% num dia),
 # isto venderia quase no início do movimento, perdendo a maior parte do lucro potencial. Agora
 # o pico é persistido na própria posição (`trailing_active`/`trailing_peak_eur`) e reavaliado
 # em CADA corrida (screener principal a cada 2h, monitor leve a cada poucos minutos via
@@ -370,7 +383,7 @@ PUMP_WATCH_MIN_PRICE_MOVE_PCT = -0.08       # abaixo disto pode ser capitulaçã
 # Sem prazo fixo que force o encerramento (ao contrário do desafio principal, de 10 dias) —
 # pedido do Ricardo 2026-09-14 foi deixar isto como um teste de sinal contínuo, não uma corrida
 # com fim. Mas para não ficar sem nenhum ponto de avaliação formal, este é o marco que uma
-# futura revisão periódica deve usar para fazer a PRIMEIRA análise séria deste sistema
+# futura revisão periódica deve usar para fazer a PRIMEIRA análise série deste sistema
 # (correlação sinal->resultado, comparar com o desafio de momentum, decidir se ajusta limiares,
 # expande ao tier DEX, ou descontinua) — o que vier primeiro:
 PUMP_WATCH_REVIEW_AFTER_TRADES = 10
