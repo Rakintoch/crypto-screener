@@ -742,8 +742,7 @@ def _run_scenarios():
     _run_dex_sizing_followup_scenario()
     _run_onchain_venue_detection_scenario()
 
-    print("
-✅ Todos os testes offline do portfólio passaram.")
+    print("\n✅ Todos os testes offline do portfólio passaram.")
 
 def _run_continuous_cycle_scenarios():
     """Corridas 9/9b/9c — pedido do Ricardo 2026-09-24: sem reset entre ciclos, o fim de cada
@@ -1062,6 +1061,107 @@ def _run_dex_sizing_scenario():
         finally:
             (config.PORTFOLIO_STATE_FILE, config.CHALLENGE_HISTORY_FILE, config.LESSONS_FILE,
              config.WINS_FILE, config.CHANGELOG_FILE) = orig
+
+def _run_dex_sizing_followup_scenario():
+    """Corrida 13 — autoanálise 2026-10-29 (revisão intercalar do ciclo #5): o corte 12% -> 9%
+    da Corrida 12 NÃO reverteu o agravamento do overshoot do stop-loss em dex_micro_cap — os
+    12 fechos por stop-loss já ocorridos no ciclo #5 tiveram perda real média -33,5%, pior do
+    que qualquer um dos 4 ciclos anteriores. Combinando com os 24 já medidos antes (36 fechos
+    no total), a média combinada é -29,28% contra o gatilho de -20%, pior que os -27,17% que
+    justificaram o corte para 9%. Mesma lógica proporcional outra vez: 9% -> 6%. Este teste
+    fixa essa expectativa — se o tamanho voltar a subir sem nova justificação numérica, falha."""
+    orig = (config.PORTFOLIO_STATE_FILE, config.CHALLENGE_HISTORY_FILE, config.LESSONS_FILE,
+            config.WINS_FILE, config.CHANGELOG_FILE)
+    with tempfile.TemporaryDirectory() as tmp:
+        config.PORTFOLIO_STATE_FILE = os.path.join(tmp, "portfolio_state.json")
+        config.CHALLENGE_HISTORY_FILE = os.path.join(tmp, "challenge_history.json")
+        config.LESSONS_FILE = os.path.join(tmp, "lessons.json")
+        config.WINS_FILE = os.path.join(tmp, "wins.json")
+        config.CHANGELOG_FILE = os.path.join(tmp, "changelog.json")
+        eur_rate = 0.9
+        try:
+            assert config.POSITION_SIZE_PCT_BY_TIER["dex_micro_cap"] <= 0.06 + 1e-9, (
+                "FALHOU: este teste espera POSITION_SIZE_PCT_BY_TIER['dex_micro_cap'] <= 0.06 "
+                "(autoanálise 2026-10-29); valor atual: "
+                f"{config.POSITION_SIZE_PCT_BY_TIER['dex_micro_cap']}"
+            )
+            dex_candidate = fake_candidate("THETA", score=80, price_usd=1.0, tier="dex_micro_cap")
+            state, actions13, _ = portfolio.run_portfolio_cycle([dex_candidate], eur_rate)
+            buy13 = next(a for a in actions13 if a["action"] == "buy")
+            expected_cost = config.STARTING_BALANCE_EUR * config.POSITION_SIZE_PCT_BY_TIER["dex_micro_cap"]
+            assert abs(buy13["cost_eur"] - expected_cost) < 0.01, (
+                "FALHOU: compra dex_micro_cap devia usar "
+                f"{config.POSITION_SIZE_PCT_BY_TIER['dex_micro_cap']:.0%} do equity "
+                f"({expected_cost:.2f} EUR), obtido {buy13['cost_eur']:.2f} EUR"
+            )
+            print(f"✅ Corrida 13 OK — compra dex_micro_cap dimensionada a "
+                  f"{config.POSITION_SIZE_PCT_BY_TIER['dex_micro_cap']:.0%} do equity "
+                  "(reduzido de 9% — overshoot do stop-loss continuou a agravar-se mesmo "
+                  "depois do corte anterior, confirmando a hipótese estrutural já registada)")
+        finally:
+            (config.PORTFOLIO_STATE_FILE, config.CHALLENGE_HISTORY_FILE, config.LESSONS_FILE,
+             config.WINS_FILE, config.CHANGELOG_FILE) = orig
+
+def _run_onchain_venue_detection_scenario():
+    """Corrida 14 — autoanálise 2026-10-29: o sinal original de fetch_top_venue() para
+    distinguir uma pool on-chain de uma exchange centralizada ("base" do ticker a começar
+    por "0x") só cobre chains EVM. Cruzando challenge_history.json com a venue resolvida em
+    cada trade cex_small_cap fechado, 31 trades (4 ciclos) vieram de pools on-chain em chains
+    não-EVM (Raydium/PumpSwap/Meteora/Orca/Saros no Solana, Near Intents na NEAR) e nunca
+    foram marcados "(on-chain)" — custou-lhes o dimensionamento normal de cex_small_cap
+    (15-25%) em vez dos 7% já decididos para este risco. Este teste mock a resposta do
+    CoinGecko diretamente (sources_coingecko.get_json), não só o fetch_top_venue já resolvido
+    como a Corrida 6d faz, para validar a própria lógica de deteção ponta-a-ponta."""
+    import screener.sources_coingecko as cg
+    orig_get_json = cg.get_json
+    try:
+        def _ticker_response(base, market_name):
+            return {"tickers": [{"volume": 1000.0, "base": base, "market": {"name": market_name}}]}
+
+        # Exchange centralizada real — símbolo curto, sem pontos/barras, sem "0x".
+        cg.get_json = lambda *a, **k: _ticker_response("LOOM", "Gate")
+        venue = cg.fetch_top_venue("loom-network")
+        assert venue == "Gate", f"FALHOU: esperava 'Gate' (CEX normal), obtido {venue!r}"
+
+        # Pool on-chain EVM — sinal original (endereço 0x...), continua a funcionar.
+        cg.get_json = lambda *a, **k: _ticker_response(
+            "0xabc123def4567890abc123def4567890abc1234", "Uniswap V3 (Base)"
+        )
+        venue = cg.fetch_top_venue("some-evm-token")
+        assert venue == "Uniswap V3 (Base) (on-chain)", (
+            f"FALHOU: esperava marca '(on-chain)' em pool EVM, obtido {venue!r}"
+        )
+
+        # Pool on-chain Solana (PumpSwap) — endereço base58 longo, sem "0x": caso que
+        # escapava à deteção antes desta autoanálise.
+        cg.get_json = lambda *a, **k: _ticker_response(
+            "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263", "PumpSwap"
+        )
+        venue = cg.fetch_top_venue("some-solana-token")
+        assert venue == "PumpSwap (on-chain)", (
+            f"FALHOU: PumpSwap devia ser marcado '(on-chain)', obtido {venue!r}"
+        )
+
+        # Pool on-chain NEAR (Near Intents) — conta com pontos, sem "0x" e mais curta que o
+        # limiar de comprimento, só é apanhada pelo nome de venue conhecido.
+        cg.get_json = lambda *a, **k: _ticker_response("token.rhealab.near", "Near Intents")
+        venue = cg.fetch_top_venue("rhea-protocol")
+        assert venue == "Near Intents (on-chain)", (
+            f"FALHOU: Near Intents devia ser marcado '(on-chain)', obtido {venue!r}"
+        )
+
+        # Nome de exchange real nunca deve ser marcado por engano (sem falsos positivos).
+        for base, market_name in [("SN80", "Subnet Tokens"), ("DEBIT", "KCEX"), ("BTC", "Binance")]:
+            cg.get_json = lambda *a, b=base, m=market_name, **k: _ticker_response(b, m)
+            venue = cg.fetch_top_venue("x")
+            assert venue == market_name, (
+                f"FALHOU: {market_name} não devia ser marcado on-chain, obtido {venue!r}"
+            )
+
+        print("✅ Corrida 14 OK — deteção de venue on-chain cobre pools não-EVM (Solana, NEAR) "
+              "além do sinal 0x original, sem falsos positivos em exchanges centralizadas reais")
+    finally:
+        cg.get_json = orig_get_json
 
 if __name__ == "__main__":
     run()
