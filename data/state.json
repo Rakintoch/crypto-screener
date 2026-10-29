@@ -344,11 +344,6 @@
     "last_score": 70.6,
     "symbol": "AIN"
   },
-  "cex_small_cap:anthropic-prestocks-2": {
-    "last_alert_ts": 1793023415.8707123,
-    "last_score": 60.7,
-    "symbol": "ANTHROPIC"
-  },
   "cex_small_cap:huma-finance": {
     "last_alert_ts": 1793145779.6429636,
     "last_score": 64.1,
@@ -585,8 +580,8 @@
     "symbol": "COLLECT"
   },
   "cex_small_cap:coreweave-ondo-tokenized": {
-    "last_alert_ts": 1793093694.914651,
-    "last_score": 55.3,
+    "last_alert_ts": 1793286060.1040213,
+    "last_score": 64.4,
     "symbol": "CRWVON"
   },
   "cex_small_cap:puffer-finance": {
@@ -605,13 +600,13 @@
     "symbol": "OFC"
   },
   "cex_small_cap:usa-rare-earth-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793181775.5448253,
-    "last_score": 66.6,
+    "last_alert_ts": 1793286060.1040213,
+    "last_score": 68.5,
     "symbol": "USARB"
   },
   "cex_small_cap:securitize-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793109820.977011,
-    "last_score": 60.0,
+    "last_alert_ts": 1793286060.1040213,
+    "last_score": 56.0,
     "symbol": "SECZB"
   },
   "cex_small_cap:priors-agent": {
@@ -670,8 +665,8 @@
     "symbol": "ON"
   },
   "cex_small_cap:microduck": {
-    "last_alert_ts": 1793199009.4519708,
-    "last_score": 86.3,
+    "last_alert_ts": 1793286060.1040213,
+    "last_score": 66.4,
     "symbol": "MICRODUCK"
   },
   "dex_micro_cap:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": {
@@ -855,8 +850,8 @@
     "symbol": "富贵"
   },
   "cex_small_cap:tole-tole": {
-    "last_alert_ts": 1793232206.6548615,
-    "last_score": 95.6,
+    "last_alert_ts": 1793286060.1040213,
+    "last_score": 57.2,
     "symbol": "MEIMEI"
   },
   "cex_small_cap:thinking-cat": {
@@ -910,8 +905,8 @@
     "symbol": "PAIR"
   },
   "cex_small_cap:vertiv-ondo-tokenized": {
-    "last_alert_ts": 1793224994.568154,
-    "last_score": 62.6,
+    "last_alert_ts": 1793286060.1040213,
+    "last_score": 72.9,
     "symbol": "VRTON"
   },
   "cex_small_cap:metaplex": {
@@ -1050,8 +1045,8 @@
     "symbol": "EMBER"
   },
   "cex_small_cap:the-index": {
-    "last_alert_ts": 1793210596.0454633,
-    "last_score": 63.9,
+    "last_alert_ts": 1793286060.1040213,
+    "last_score": 68.6,
     "symbol": "INDEX"
   },
   "cex_small_cap:checkerchain-2": {
@@ -1085,8 +1080,8 @@
     "symbol": "AI"
   },
   "cex_small_cap:meet48": {
-    "last_alert_ts": 1793282564.8665776,
-    "last_score": 77.0,
+    "last_alert_ts": 1793286060.1040213,
+    "last_score": 92.8,
     "symbol": "IDOL"
   },
   "cex_small_cap:infinite-money-glitch-3": {
@@ -1190,8 +1185,8 @@
     "symbol": "GTA6"
   },
   "dex_micro_cap:ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump": {
-    "last_alert_ts": 1793237496.1074207,
-    "last_score": 73.0,
+    "last_alert_ts": 1793286060.1040213,
+    "last_score": 67.6,
     "symbol": "HERMIT"
   },
   "cex_small_cap:up-2": {
@@ -1205,8 +1200,8 @@
     "symbol": "STONKBROKER"
   },
   "dex_micro_cap:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": {
-    "last_alert_ts": 1793237496.1074207,
-    "last_score": 69.7,
+    "last_alert_ts": 1793286060.1040213,
+    "last_score": 61.2,
     "symbol": "DUBBLE"
   },
   "cex_small_cap:b3": {
@@ -1298,5 +1293,30 @@
     "last_alert_ts": 1793282564.8665776,
     "last_score": 55.6,
     "symbol": "BBB"
+  },
+  "cex_small_cap:signal-2": {
+    "last_alert_ts": 1793286060.1040213,
+    "last_score": 79.4,
+    "symbol": "SIGNAL"
+  },
+  "cex_small_cap:xhype-3": {
+    "last_alert_ts": 1793286060.1040213,
+    "last_score": 77.6,
+    "symbol": "XHYPE"
+  },
+  "cex_small_cap:cetus-protocol": {
+    "last_alert_ts": 1793286060.1040213,
+    "last_score": 68.4,
+    "symbol": "CETUS"
+  },
+  "cex_small_cap:lisk": {
+    "last_alert_ts": 1793286060.1040213,
+    "last_score": 64.9,
+    "symbol": "LSK"
+  },
+  "cex_small_cap:unifai-network": {
+    "last_alert_ts": 1793286060.1040213,
+    "last_score": 56.6,
+    "symbol": "UAI"
   }
 }
