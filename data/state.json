@@ -30,8 +30,8 @@
     "symbol": "DNA"
   },
   "cex_small_cap:caldera": {
-    "last_alert_ts": 1793073804.49944,
-    "last_score": 63.6,
+    "last_alert_ts": 1793282564.8665776,
+    "last_score": 62.2,
     "symbol": "ERA"
   },
   "cex_small_cap:citrea": {
@@ -140,8 +140,8 @@
     "symbol": "CAPTAINBNB"
   },
   "cex_small_cap:squid-3": {
-    "last_alert_ts": 1793237496.1074207,
-    "last_score": 82.7,
+    "last_alert_ts": 1793282564.8665776,
+    "last_score": 66.8,
     "symbol": "QUID"
   },
   "cex_small_cap:fluent-network": {
@@ -270,8 +270,8 @@
     "symbol": "BABY"
   },
   "cex_small_cap:musebook": {
-    "last_alert_ts": 1793224994.568154,
-    "last_score": 70.8,
+    "last_alert_ts": 1793282564.8665776,
+    "last_score": 68.0,
     "symbol": "MUSEBOOK"
   },
   "cex_small_cap:a-meme-coin": {
@@ -295,8 +295,8 @@
     "symbol": "LAUNCH"
   },
   "cex_small_cap:zhong-guo-ren-neng-fei": {
-    "last_alert_ts": 1793145779.6429636,
-    "last_score": 62.1,
+    "last_alert_ts": 1793282564.8665776,
+    "last_score": 57.9,
     "symbol": "中国人能飞"
   },
   "cex_small_cap:big-titty-coin": {
@@ -328,11 +328,6 @@
     "last_alert_ts": 1793066585.673855,
     "last_score": 72.9,
     "symbol": "TOSHI"
-  },
-  "dex_micro_cap:0xa551def8a44ea423caa58da45b3f5764004286ea": {
-    "last_alert_ts": 1793016211.5286303,
-    "last_score": 64.5,
-    "symbol": "PANGEA"
   },
   "cex_small_cap:soon-2": {
     "last_alert_ts": 1793071855.717283,
@@ -670,8 +665,8 @@
     "symbol": "HANA"
   },
   "cex_small_cap:orochi-network": {
-    "last_alert_ts": 1793237496.1074207,
-    "last_score": 62.7,
+    "last_alert_ts": 1793282564.8665776,
+    "last_score": 68.9,
     "symbol": "ON"
   },
   "cex_small_cap:microduck": {
@@ -1065,8 +1060,8 @@
     "symbol": "SN87"
   },
   "cex_small_cap:xmoney-2": {
-    "last_alert_ts": 1793217795.1921136,
-    "last_score": 84.2,
+    "last_alert_ts": 1793282564.8665776,
+    "last_score": 92.5,
     "symbol": "XMN"
   },
   "cex_small_cap:ramses": {
@@ -1090,8 +1085,8 @@
     "symbol": "AI"
   },
   "cex_small_cap:meet48": {
-    "last_alert_ts": 1793232206.6548615,
-    "last_score": 88.2,
+    "last_alert_ts": 1793282564.8665776,
+    "last_score": 77.0,
     "symbol": "IDOL"
   },
   "cex_small_cap:infinite-money-glitch-3": {
@@ -1220,8 +1215,8 @@
     "symbol": "B3"
   },
   "cex_small_cap:biconomy": {
-    "last_alert_ts": 1793237496.1074207,
-    "last_score": 55.9,
+    "last_alert_ts": 1793282564.8665776,
+    "last_score": 55.0,
     "symbol": "BICO"
   },
   "cex_small_cap:starpower": {
@@ -1268,5 +1263,40 @@
     "last_alert_ts": 1793275405.4144409,
     "last_score": 55.0,
     "symbol": "omni"
+  },
+  "cex_small_cap:ast-spacemobile-bstocks-tokenized-stock": {
+    "last_alert_ts": 1793282564.8665776,
+    "last_score": 66.3,
+    "symbol": "ASTSB"
+  },
+  "cex_small_cap:elizaos": {
+    "last_alert_ts": 1793282564.8665776,
+    "last_score": 62.0,
+    "symbol": "ELIZAOS"
+  },
+  "cex_small_cap:nearkat-2": {
+    "last_alert_ts": 1793282564.8665776,
+    "last_score": 58.3,
+    "symbol": "NEARKAT"
+  },
+  "cex_small_cap:eli-lilly-ondo-tokenized-stock": {
+    "last_alert_ts": 1793282564.8665776,
+    "last_score": 55.9,
+    "symbol": "LLYON"
+  },
+  "cex_small_cap:coreweave-bstocks-tokenized-stock": {
+    "last_alert_ts": 1793282564.8665776,
+    "last_score": 55.8,
+    "symbol": "CRWVB"
+  },
+  "cex_small_cap:the-last-play": {
+    "last_alert_ts": 1793282564.8665776,
+    "last_score": 55.6,
+    "symbol": "RETIRE"
+  },
+  "cex_small_cap:blackberry-bstocks-tokenized-stock": {
+    "last_alert_ts": 1793282564.8665776,
+    "last_score": 55.6,
+    "symbol": "BBB"
   }
 }
