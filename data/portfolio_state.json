@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 39.1323164286548,
+  "cash_eur": 30.59773052017559,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:squid-3": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.05649826341238287,
       "entry_ts": 1793237496.6296604,
       "cost_eur": 8.955931206872183,
-      "last_price_eur": 0.054728551193853885,
-      "last_score": 44.8,
+      "last_price_eur": 0.05538589714266758,
+      "last_score": 57.4,
       "missed_updates": 0,
       "entry_market_cap": 9045811,
       "entry_venue": "Upbit",
@@ -45,7 +45,7 @@
           "source": "Tech Times"
         }
       ],
-      "last_market_cap": 8738853
+      "last_market_cap": 8850321
     },
     "cex_small_cap:initia": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.1961501151793858,
       "entry_ts": 1793253784.9849868,
       "cost_eur": 8.99459217889516,
-      "last_price_eur": 0.19614788701286087,
-      "last_score": 59.6,
+      "last_price_eur": 0.19594792551599702,
+      "last_score": 57.1,
       "missed_updates": 0,
       "entry_market_cap": 45954362,
       "entry_venue": "Binance",
@@ -98,7 +98,40 @@
           "source": "Altcoin Buzz"
         }
       ],
-      "last_market_cap": 46161155
+      "last_market_cap": 46104528
+    },
+    "cex_small_cap:particle-network": {
+      "tier": "cex_small_cap",
+      "id": "particle-network",
+      "symbol": "PARTI",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/particle-network",
+      "qty": 157.3094405899659,
+      "entry_price_eur": 0.05425348838869114,
+      "entry_ts": 1793304194.1925373,
+      "cost_eur": 8.534585908479214,
+      "last_price_eur": 0.05425348838869114,
+      "last_score": 95.4,
+      "missed_updates": 0,
+      "entry_market_cap": 14038090,
+      "entry_venue": "Binance",
+      "entry_contract_address": "0x59264f02d301281f3393e1385c0aefd446eb0f00 (BSC)",
+      "entry_score": 95.4,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 156082167,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 4.3666,
+      "entry_chg_24h": 54.51412,
+      "entry_chg_7d": 83.7385,
+      "entry_chg_6h": null,
+      "entry_turnover": 11.118476017748852,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -4680,8 +4713,8 @@
       "pnl_pct": -8.133835149808991
     }
   ],
-  "last_run_ts": 1793303719.443421,
-  "last_eur_rate": 0.8956769912091695,
+  "last_run_ts": 1793304194.1925373,
+  "last_eur_rate": 0.8958930015636437,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
