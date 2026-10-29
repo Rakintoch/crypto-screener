@@ -2858,5 +2858,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "HAEDAL (cex_small_cap) gained +12.4% in 1152 min — trailing stop caught extra upside after the target. Entry score: 99. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793278519.5073721,
+    "symbol": "STAMP",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/zcash-shielded-assets",
+    "held_minutes": 412.2,
+    "exit_reason": "trailing stop hit — dropped 5.1% from the peak (peak +24.5% since entry)",
+    "pnl_pct": 18.2,
+    "pnl_eur": 1.64,
+    "entry_score": 95.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1000984,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 27.3409,
+    "entry_chg_24h": 109.64716,
+    "entry_chg_7d": 643.1042,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.8011223896078119,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "STAMP (cex_small_cap) gained +18.2% in 412 min — trailing stop caught extra upside after the target. Entry score: 96. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
