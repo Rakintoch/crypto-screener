@@ -45,8 +45,8 @@
     "symbol": "REZ"
   },
   "cex_small_cap:dacity-coin-2": {
-    "last_alert_ts": 1793340203.5779195,
-    "last_score": 58.9,
+    "last_alert_ts": 1793397804.25112,
+    "last_score": 63.3,
     "symbol": "DACITY"
   },
   "cex_small_cap:dappos": {
@@ -75,8 +75,8 @@
     "symbol": "UP"
   },
   "cex_small_cap:pangea-2": {
-    "last_alert_ts": 1793145779.6429636,
-    "last_score": 59.5,
+    "last_alert_ts": 1793397804.25112,
+    "last_score": 83.3,
     "symbol": "PANGEA"
   },
   "cex_small_cap:captainbnb": {
@@ -123,11 +123,6 @@
     "last_alert_ts": 1793333000.559244,
     "last_score": 58.3,
     "symbol": "XDP"
-  },
-  "cex_small_cap:anime": {
-    "last_alert_ts": 1793138579.1638567,
-    "last_score": 58.3,
-    "symbol": "ANIME"
   },
   "cex_small_cap:hooked": {
     "last_alert_ts": 1793224994.568154,
@@ -205,8 +200,8 @@
     "symbol": "SAPLING"
   },
   "cex_small_cap:infinity-ground": {
-    "last_alert_ts": 1793390547.7480035,
-    "last_score": 63.4,
+    "last_alert_ts": 1793397804.25112,
+    "last_score": 83.3,
     "symbol": "AIN"
   },
   "cex_small_cap:huma-finance": {
@@ -389,16 +384,6 @@
     "last_score": 85.1,
     "symbol": "ASP"
   },
-  "cex_small_cap:dar-open-network": {
-    "last_alert_ts": 1793132739.803354,
-    "last_score": 93.1,
-    "symbol": "D"
-  },
-  "dex_micro_cap:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": {
-    "last_alert_ts": 1793132739.803354,
-    "last_score": 86.2,
-    "symbol": "Frongus"
-  },
   "dex_micro_cap:Pmfm2RprxQRKZH1XWVsBUc2KgCTyzeDTSFbT1vJmogz": {
     "last_alert_ts": 1793174022.3055692,
     "last_score": 86.9,
@@ -418,31 +403,6 @@
     "last_alert_ts": 1793217795.1921136,
     "last_score": 83.6,
     "symbol": "MOO"
-  },
-  "dex_micro_cap:8BnNS15Q6h6D5Vcq1sNPaUxhpRVdK8FGRbLvCrLxibSx": {
-    "last_alert_ts": 1793138579.1638567,
-    "last_score": 66.1,
-    "symbol": "ELON2028"
-  },
-  "dex_micro_cap:EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump": {
-    "last_alert_ts": 1793138579.1638567,
-    "last_score": 62.4,
-    "symbol": "wiener"
-  },
-  "dex_micro_cap:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": {
-    "last_alert_ts": 1793138579.1638567,
-    "last_score": 59.6,
-    "symbol": "HACHI"
-  },
-  "cex_small_cap:zauthx402": {
-    "last_alert_ts": 1793138579.1638567,
-    "last_score": 57.1,
-    "symbol": "ZAUTH"
-  },
-  "cex_small_cap:tesla-coinbase-tokenized-stocks": {
-    "last_alert_ts": 1793138579.1638567,
-    "last_score": 55.3,
-    "symbol": "TSLAC"
   },
   "cex_small_cap:sk-hynix-ondo-tokenized": {
     "last_alert_ts": 1793268199.1585326,
@@ -725,8 +685,8 @@
     "symbol": "RAM"
   },
   "cex_small_cap:raeto": {
-    "last_alert_ts": 1793275405.4144409,
-    "last_score": 66.5,
+    "last_alert_ts": 1793397804.25112,
+    "last_score": 57.5,
     "symbol": "RAETO"
   },
   "cex_small_cap:fables": {
@@ -1100,8 +1060,8 @@
     "symbol": "NEURAL"
   },
   "cex_small_cap:alien-worlds": {
-    "last_alert_ts": 1793354578.8814425,
-    "last_score": 69.0,
+    "last_alert_ts": 1793397804.25112,
+    "last_score": 64.9,
     "symbol": "TLM"
   },
   "dex_micro_cap:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": {
@@ -1228,5 +1188,20 @@
     "last_alert_ts": 1793391748.1839154,
     "last_score": 67.4,
     "symbol": "FLUKE"
+  },
+  "cex_small_cap:holotoken": {
+    "last_alert_ts": 1793397804.25112,
+    "last_score": 70.6,
+    "symbol": "HOT"
+  },
+  "dex_micro_cap:0x19d5a29c82afab60fe6047b8437c1858789b3150": {
+    "last_alert_ts": 1793397804.25112,
+    "last_score": 60.3,
+    "symbol": "GTA6"
+  },
+  "cex_small_cap:sudeng": {
+    "last_alert_ts": 1793397804.25112,
+    "last_score": 58.6,
+    "symbol": "HIPPO"
   }
 }
