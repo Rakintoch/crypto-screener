@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 46.12019741632698,
+  "cash_eur": 29.62637336295864,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:initia": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.1961501151793858,
       "entry_ts": 1793253784.9849868,
       "cost_eur": 8.99459217889516,
-      "last_price_eur": 0.1930974827764547,
-      "last_score": 62.8,
+      "last_price_eur": 0.19319789300634205,
+      "last_score": 52.9,
       "missed_updates": 0,
       "entry_market_cap": 45954362,
       "entry_venue": "Binance",
@@ -56,7 +56,81 @@
           "source": "Altcoin Buzz"
         }
       ],
-      "last_market_cap": 45518949
+      "last_market_cap": 45543255
+    },
+    "cex_small_cap:infinity-ground": {
+      "tier": "cex_small_cap",
+      "id": "infinity-ground",
+      "symbol": "AIN",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/infinity-ground",
+      "qty": 54.63495174777954,
+      "entry_price_eur": 0.15094571813215416,
+      "entry_ts": 1793347291.7162607,
+      "cost_eur": 8.246912026684173,
+      "last_price_eur": 0.15094571813215416,
+      "last_score": 81.6,
+      "missed_updates": 0,
+      "entry_market_cap": 31306864,
+      "entry_venue": "Gate",
+      "entry_contract_address": "0x9558a9254890b2a8b057a789f413631b9084f4a3 (BSC)",
+      "entry_score": 81.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 11041089,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 12.7225,
+      "entry_chg_24h": 17.27601,
+      "entry_chg_7d": 339.7177,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.3526731070860371,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "supply_cut"
+      ],
+      "entry_catalyst_score": 0.5,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Infinity Ground (AIN) Price Prediction 2026-2030: Buyback - Phemex",
+          "ts": 1793166018.0,
+          "source": "Phemex"
+        }
+      ]
+    },
+    "cex_small_cap:meet48": {
+      "tier": "cex_small_cap",
+      "id": "meet48",
+      "symbol": "IDOL",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/meet48",
+      "qty": 571.4330747221509,
+      "entry_price_eur": 0.014431982311654058,
+      "entry_ts": 1793347291.7162607,
+      "cost_eur": 8.246912026684173,
+      "last_price_eur": 0.014431982311654058,
+      "last_score": 79.1,
+      "missed_updates": 0,
+      "entry_market_cap": 35328102,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 79.1,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 9439050,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 5.3509,
+      "entry_chg_24h": 22.0639,
+      "entry_chg_7d": 109.3998,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.2671824826592722,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -4786,8 +4860,8 @@
       "pnl_pct": -8.809217718220784
     }
   ],
-  "last_run_ts": 1793346917.942552,
-  "last_eur_rate": 0.8939449958633311,
+  "last_run_ts": 1793347291.7162607,
+  "last_eur_rate": 0.8942069982474002,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
