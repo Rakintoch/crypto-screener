@@ -45,8 +45,8 @@
     "symbol": "JCT"
   },
   "cex_small_cap:doodles": {
-    "last_alert_ts": 1793145779.6429636,
-    "last_score": 66.5,
+    "last_alert_ts": 1793333000.559244,
+    "last_score": 58.5,
     "symbol": "DOOD"
   },
   "cex_small_cap:bubblemaps": {
@@ -58,11 +58,6 @@
     "last_alert_ts": 1793116994.0192368,
     "last_score": 56.9,
     "symbol": "BNCB"
-  },
-  "cex_small_cap:iostoken": {
-    "last_alert_ts": 1793071855.717283,
-    "last_score": 57.9,
-    "symbol": "IOST"
   },
   "cex_small_cap:renzo": {
     "last_alert_ts": 1793203406.196793,
@@ -98,11 +93,6 @@
     "last_alert_ts": 1793073804.49944,
     "last_score": 60.1,
     "symbol": "DACITY"
-  },
-  "cex_small_cap:canopy": {
-    "last_alert_ts": 1793066585.673855,
-    "last_score": 60.1,
-    "symbol": "CNPY"
   },
   "cex_small_cap:billions-network": {
     "last_alert_ts": 1793131383.614687,
@@ -140,8 +130,8 @@
     "symbol": "QUID"
   },
   "cex_small_cap:fluent-network": {
-    "last_alert_ts": 1793268199.1585326,
-    "last_score": 64.3,
+    "last_alert_ts": 1793333000.559244,
+    "last_score": 56.3,
     "symbol": "BLEND"
   },
   "cex_small_cap:polyswarm": {
@@ -180,8 +170,8 @@
     "symbol": "BREV"
   },
   "cex_small_cap:doppler-finance": {
-    "last_alert_ts": 1793253784.3547583,
-    "last_score": 55.9,
+    "last_alert_ts": 1793333000.559244,
+    "last_score": 58.3,
     "symbol": "XDP"
   },
   "cex_small_cap:creora": {
@@ -225,8 +215,8 @@
     "symbol": "SI"
   },
   "cex_small_cap:apriori": {
-    "last_alert_ts": 1793318606.9411454,
-    "last_score": 59.8,
+    "last_alert_ts": 1793333000.559244,
+    "last_score": 79.3,
     "symbol": "APR"
   },
   "cex_small_cap:tagger": {
@@ -269,19 +259,14 @@
     "last_score": 65.6,
     "symbol": "BUN"
   },
-  "cex_small_cap:dodo": {
-    "last_alert_ts": 1793071855.717283,
-    "last_score": 56.1,
-    "symbol": "DODO"
-  },
   "cex_small_cap:zhong-guo-ren-neng-fei": {
     "last_alert_ts": 1793282564.8665776,
     "last_score": 57.9,
     "symbol": "中国人能飞"
   },
   "cex_small_cap:big-titty-coin": {
-    "last_alert_ts": 1793199009.4519708,
-    "last_score": 64.8,
+    "last_alert_ts": 1793333000.559244,
+    "last_score": 57.6,
     "symbol": "BTC"
   },
   "cex_small_cap:agent-wormhole": {
@@ -293,16 +278,6 @@
     "last_alert_ts": 1793199009.4519708,
     "last_score": 92.5,
     "symbol": "SAPLING"
-  },
-  "cex_small_cap:toshi": {
-    "last_alert_ts": 1793066585.673855,
-    "last_score": 72.9,
-    "symbol": "TOSHI"
-  },
-  "cex_small_cap:soon-2": {
-    "last_alert_ts": 1793071855.717283,
-    "last_score": 58.3,
-    "symbol": "SOON"
   },
   "cex_small_cap:lorenzo-protocol": {
     "last_alert_ts": 1793131383.614687,
@@ -355,8 +330,8 @@
     "symbol": "VERONA"
   },
   "cex_small_cap:tradr-2x-long-sndk-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793275405.4144409,
-    "last_score": 56.6,
+    "last_alert_ts": 1793333000.559244,
+    "last_score": 57.0,
     "symbol": "SNXXB"
   },
   "cex_small_cap:fight-2": {
@@ -449,11 +424,6 @@
     "last_score": 74.7,
     "symbol": "Nothing"
   },
-  "dex_micro_cap:DEZrHa3CeoQs2kGqMPo6D1TFgHB2KWoPMJMjf9HJpump": {
-    "last_alert_ts": 1793066585.673855,
-    "last_score": 66.8,
-    "symbol": "LMAO"
-  },
   "cex_small_cap:pocket-network": {
     "last_alert_ts": 1793131383.614687,
     "last_score": 68.3,
@@ -525,8 +495,8 @@
     "symbol": "SECZB"
   },
   "cex_small_cap:priors-agent": {
-    "last_alert_ts": 1793237496.1074207,
-    "last_score": 55.7,
+    "last_alert_ts": 1793333000.559244,
+    "last_score": 56.5,
     "symbol": "PRIORS"
   },
   "cex_small_cap:arcium": {
@@ -995,8 +965,8 @@
     "symbol": "AI"
   },
   "cex_small_cap:meet48": {
-    "last_alert_ts": 1793286060.1040213,
-    "last_score": 92.8,
+    "last_alert_ts": 1793333000.559244,
+    "last_score": 55.3,
     "symbol": "IDOL"
   },
   "cex_small_cap:infinite-money-glitch-3": {
@@ -1323,5 +1293,25 @@
     "last_alert_ts": 1793325785.2421775,
     "last_score": 74.9,
     "symbol": "PYR"
+  },
+  "cex_small_cap:aelf": {
+    "last_alert_ts": 1793333000.559244,
+    "last_score": 65.2,
+    "symbol": "ELF"
+  },
+  "cex_small_cap:cat-wif-sword-2": {
+    "last_alert_ts": 1793333000.559244,
+    "last_score": 64.2,
+    "symbol": "SWORDCAT"
+  },
+  "cex_small_cap:sophon": {
+    "last_alert_ts": 1793333000.559244,
+    "last_score": 60.0,
+    "symbol": "SOPH"
+  },
+  "dex_micro_cap:5C5K1ZetdvGoF5QRcyRbVMiVLhkJzS8RkH8UL2pwpump": {
+    "last_alert_ts": 1793333000.559244,
+    "last_score": 56.6,
+    "symbol": "PEPEween"
   }
 }
