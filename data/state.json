@@ -515,8 +515,8 @@
     "symbol": "LAB"
   },
   "cex_small_cap:solv-protocol": {
-    "last_alert_ts": 1793131383.614687,
-    "last_score": 64.9,
+    "last_alert_ts": 1793369000.0602818,
+    "last_score": 66.2,
     "symbol": "SOLV"
   },
   "cex_small_cap:chromaway": {
@@ -695,8 +695,8 @@
     "symbol": "JOB"
   },
   "cex_small_cap:bless-2": {
-    "last_alert_ts": 1793340203.5779195,
-    "last_score": 66.7,
+    "last_alert_ts": 1793369000.0602818,
+    "last_score": 88.0,
     "symbol": "BLESS"
   },
   "cex_small_cap:ubik": {
@@ -715,13 +715,13 @@
     "symbol": "PAIR"
   },
   "cex_small_cap:vertiv-ondo-tokenized": {
-    "last_alert_ts": 1793286060.1040213,
-    "last_score": 72.9,
+    "last_alert_ts": 1793369000.0602818,
+    "last_score": 61.0,
     "symbol": "VRTON"
   },
   "cex_small_cap:metaplex": {
-    "last_alert_ts": 1793323964.5668826,
-    "last_score": 69.8,
+    "last_alert_ts": 1793369000.0602818,
+    "last_score": 72.8,
     "symbol": "MPLX"
   },
   "cex_small_cap:trump-media-technology-group-corp-common-stock-backpack-securities": {
@@ -730,8 +730,8 @@
     "symbol": "DJT"
   },
   "cex_small_cap:zcash-shielded-assets": {
-    "last_alert_ts": 1793253784.3547583,
-    "last_score": 95.8,
+    "last_alert_ts": 1793369000.0602818,
+    "last_score": 88.3,
     "symbol": "STAMP"
   },
   "cex_small_cap:recall": {
@@ -1278,5 +1278,10 @@
     "last_alert_ts": 1793361807.5127363,
     "last_score": 58.1,
     "symbol": "WORTH"
+  },
+  "cex_small_cap:amazon-xstock": {
+    "last_alert_ts": 1793369000.0602818,
+    "last_score": 59.9,
+    "symbol": "AMZNX"
   }
 }
