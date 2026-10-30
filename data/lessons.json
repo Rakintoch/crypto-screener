@@ -11278,5 +11278,32 @@
     "categoria": "momentum thesis invalidated (score dropped)",
     "velocidade_queda": "slow (>6h)",
     "licao": "QUID (cex_small_cap) lost -6.1% in 1453 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 83 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793334318.3376727,
+    "symbol": "MPLX",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/metaplex",
+    "held_minutes": 142.2,
+    "exit_reason": "stop-loss hit (-8.0%)",
+    "pnl_pct": -8.02,
+    "pnl_eur": -0.67,
+    "entry_score": 80.7,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 36103780,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 25.0476,
+    "entry_chg_24h": 8.80627,
+    "entry_chg_7d": 16.1855,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.0535035963168118,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "MPLX (cex_small_cap) lost -8.0% in 142 min (fast (1-6h)) — stop-loss hit. Entry score: 81 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
