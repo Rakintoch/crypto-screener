@@ -80,8 +80,8 @@
     "symbol": "BIRB"
   },
   "cex_small_cap:particle-network": {
-    "last_alert_ts": 1793340203.5779195,
-    "last_score": 70.0,
+    "last_alert_ts": 1793354578.8814425,
+    "last_score": 98.1,
     "symbol": "PARTI"
   },
   "cex_small_cap:irys": {
@@ -129,11 +129,6 @@
     "last_score": 56.3,
     "symbol": "BLEND"
   },
-  "cex_small_cap:polyswarm": {
-    "last_alert_ts": 1793093694.914651,
-    "last_score": 76.7,
-    "symbol": "NCT"
-  },
   "cex_small_cap:initia": {
     "last_alert_ts": 1793340203.5779195,
     "last_score": 58.6,
@@ -168,11 +163,6 @@
     "last_alert_ts": 1793333000.559244,
     "last_score": 58.3,
     "symbol": "XDP"
-  },
-  "cex_small_cap:creora": {
-    "last_alert_ts": 1793093694.914651,
-    "last_score": 63.9,
-    "symbol": "CREORA"
   },
   "cex_small_cap:zignaly": {
     "last_alert_ts": 1793124194.8073971,
@@ -233,11 +223,6 @@
     "last_alert_ts": 1793174022.3055692,
     "last_score": 58.1,
     "symbol": "STONK"
-  },
-  "cex_small_cap:babylon": {
-    "last_alert_ts": 1793093694.914651,
-    "last_score": 56.8,
-    "symbol": "BABY"
   },
   "cex_small_cap:musebook": {
     "last_alert_ts": 1793282564.8665776,
@@ -313,11 +298,6 @@
     "last_alert_ts": 1793160173.415331,
     "last_score": 56.9,
     "symbol": "DELLB"
-  },
-  "cex_small_cap:verona": {
-    "last_alert_ts": 1793093694.914651,
-    "last_score": 71.7,
-    "symbol": "VERONA"
   },
   "cex_small_cap:tradr-2x-long-sndk-etf-bstocks-tokenized-stock": {
     "last_alert_ts": 1793333000.559244,
@@ -429,25 +409,10 @@
     "last_score": 69.5,
     "symbol": "worth"
   },
-  "dex_micro_cap:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": {
-    "last_alert_ts": 1793088175.2312434,
-    "last_score": 66.0,
-    "symbol": "SIB"
-  },
   "cex_small_cap:w-ai-parked": {
     "last_alert_ts": 1793109820.977011,
     "last_score": 74.4,
     "symbol": "SN39"
-  },
-  "dex_micro_cap:3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": {
-    "last_alert_ts": 1793093694.914651,
-    "last_score": 72.4,
-    "symbol": "XD"
-  },
-  "dex_micro_cap:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": {
-    "last_alert_ts": 1793093694.914651,
-    "last_score": 62.9,
-    "symbol": "RAYPAD"
   },
   "cex_small_cap:collect-on-fanable": {
     "last_alert_ts": 1793181775.5448253,
@@ -535,8 +500,8 @@
     "symbol": "HANA"
   },
   "cex_small_cap:orochi-network": {
-    "last_alert_ts": 1793282564.8665776,
-    "last_score": 68.9,
+    "last_alert_ts": 1793354578.8814425,
+    "last_score": 81.3,
     "symbol": "ON"
   },
   "cex_small_cap:microduck": {
@@ -770,8 +735,8 @@
     "symbol": "UBIK"
   },
   "cex_small_cap:blur": {
-    "last_alert_ts": 1793261003.5047204,
-    "last_score": 60.3,
+    "last_alert_ts": 1793354578.8814425,
+    "last_score": 66.7,
     "symbol": "BLUR"
   },
   "cex_small_cap:pair": {
@@ -820,8 +785,8 @@
     "symbol": "ETHW"
   },
   "cex_small_cap:myshell": {
-    "last_alert_ts": 1793246606.8897207,
-    "last_score": 55.1,
+    "last_alert_ts": 1793354578.8814425,
+    "last_score": 56.2,
     "symbol": "SHELL"
   },
   "dex_micro_cap:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": {
@@ -1185,8 +1150,8 @@
     "symbol": "CETUS"
   },
   "cex_small_cap:lisk": {
-    "last_alert_ts": 1793340203.5779195,
-    "last_score": 64.0,
+    "last_alert_ts": 1793354578.8814425,
+    "last_score": 86.0,
     "symbol": "LSK"
   },
   "cex_small_cap:unifai-network": {
@@ -1255,8 +1220,8 @@
     "symbol": "SOXSB"
   },
   "cex_small_cap:super-intelligent-beauty": {
-    "last_alert_ts": 1793311376.8433635,
-    "last_score": 65.0,
+    "last_alert_ts": 1793354578.8814425,
+    "last_score": 77.8,
     "symbol": "SIB"
   },
   "cex_small_cap:regent-coin": {
@@ -1313,5 +1278,15 @@
     "last_alert_ts": 1793347291.207267,
     "last_score": 55.7,
     "symbol": "NEURAL"
+  },
+  "cex_small_cap:alien-worlds": {
+    "last_alert_ts": 1793354578.8814425,
+    "last_score": 69.0,
+    "symbol": "TLM"
+  },
+  "dex_micro_cap:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": {
+    "last_alert_ts": 1793354578.8814425,
+    "last_score": 63.7,
+    "symbol": "SENSE"
   }
 }

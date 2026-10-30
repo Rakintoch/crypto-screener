@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 29.62637336295864,
+  "cash_eur": 21.35118065033926,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:initia": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.1961501151793858,
       "entry_ts": 1793253784.9849868,
       "cost_eur": 8.99459217889516,
-      "last_price_eur": 0.19779084200803232,
-      "last_score": 71.8,
+      "last_price_eur": 0.19599995962656713,
+      "last_score": 49.2,
       "missed_updates": 0,
       "entry_market_cap": 45954362,
       "entry_venue": "Binance",
@@ -56,7 +56,7 @@
           "source": "Altcoin Buzz"
         }
       ],
-      "last_market_cap": 46690355
+      "last_market_cap": 46268204
     },
     "cex_small_cap:infinity-ground": {
       "tier": "cex_small_cap",
@@ -68,8 +68,8 @@
       "entry_price_eur": 0.15094571813215416,
       "entry_ts": 1793347291.7162607,
       "cost_eur": 8.246912026684173,
-      "last_price_eur": 0.15291448356925588,
-      "last_score": 62.6,
+      "last_price_eur": 0.15197430921192862,
+      "last_score": 70.3,
       "missed_updates": 0,
       "entry_market_cap": 31306864,
       "entry_venue": "Gate",
@@ -98,7 +98,7 @@
           "source": "Phemex"
         }
       ],
-      "last_market_cap": 31731199
+      "last_market_cap": 31583892
     },
     "cex_small_cap:meet48": {
       "tier": "cex_small_cap",
@@ -110,8 +110,8 @@
       "entry_price_eur": 0.014431982311654058,
       "entry_ts": 1793347291.7162607,
       "cost_eur": 8.246912026684173,
-      "last_price_eur": 0.014474583439822027,
-      "last_score": 53.5,
+      "last_price_eur": 0.0144387202478268,
+      "last_score": 61.0,
       "missed_updates": 0,
       "entry_market_cap": 35328102,
       "entry_venue": null,
@@ -132,7 +132,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 35538021
+      "last_market_cap": 35288909
+    },
+    "cex_small_cap:evaa-protocol": {
+      "tier": "cex_small_cap",
+      "id": "evaa-protocol",
+      "symbol": "EVAA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/evaa-protocol",
+      "qty": 6.666871320773223,
+      "entry_price_eur": 1.2412408031387685,
+      "entry_ts": 1793354579.4471452,
+      "cost_eur": 8.275192712619377,
+      "last_price_eur": 1.2412408031387685,
+      "last_score": 97.0,
+      "missed_updates": 0,
+      "entry_market_cap": 9273367,
+      "entry_venue": "Gate",
+      "entry_contract_address": "EQBKMfjX_a_dsOLm-juxyVZytFP7_KKnzGv6J01kGc72gVBp (the-open-network)",
+      "entry_score": 97.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 12863257,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 6.7451,
+      "entry_chg_24h": 26.84211,
+      "entry_chg_7d": 152.7949,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.3871182926330856,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -4862,8 +4895,8 @@
       "pnl_pct": -8.809217718220784
     }
   ],
-  "last_run_ts": 1793354118.6125112,
-  "last_eur_rate": 0.8929730064426711,
+  "last_run_ts": 1793354579.4471452,
+  "last_eur_rate": 0.8929789950638624,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
