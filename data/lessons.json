@@ -11359,5 +11359,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "EVAA (cex_small_cap) lost -9.3% in 120 min (fast (1-6h)) — stop-loss hit. Entry score: 97 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793361918.8591375,
+    "symbol": "EVAA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/evaa-protocol",
+    "held_minutes": 122.3,
+    "exit_reason": "stop-loss hit (-9.3%)",
+    "pnl_pct": -9.33,
+    "pnl_eur": -0.77,
+    "entry_score": 97.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 12863257,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.7451,
+    "entry_chg_24h": 26.84211,
+    "entry_chg_7d": 152.7949,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.3871182926330856,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "EVAA (cex_small_cap) lost -9.3% in 122 min (fast (1-6h)) — stop-loss hit. Entry score: 97 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
