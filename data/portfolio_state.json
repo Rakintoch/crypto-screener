@@ -15,8 +15,8 @@
       "entry_price_eur": 0.15094571813215416,
       "entry_ts": 1793347291.7162607,
       "cost_eur": 8.246912026684173,
-      "last_price_eur": 0.1483899899056921,
-      "last_score": 52.5,
+      "last_price_eur": 0.1478746474480553,
+      "last_score": 50.7,
       "missed_updates": 0,
       "entry_market_cap": 31306864,
       "entry_venue": "Gate",
@@ -45,7 +45,7 @@
           "source": "Phemex"
         }
       ],
-      "last_market_cap": 30648825
+      "last_market_cap": 30573007
     },
     "cex_small_cap:meet48": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.014431982311654058,
       "entry_ts": 1793347291.7162607,
       "cost_eur": 8.246912026684173,
-      "last_price_eur": 0.015271366408877168,
-      "last_score": 90.2,
+      "last_price_eur": 0.015364684311347417,
+      "last_score": 73.8,
       "missed_updates": 0,
       "entry_market_cap": 35328102,
       "entry_venue": null,
@@ -79,7 +79,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 37381971
+      "last_market_cap": 37615164
     }
   },
   "closed_trades": [
@@ -4908,8 +4908,8 @@
       "pnl_pct": -9.82633758152703
     }
   ],
-  "last_run_ts": 1793371528.4710395,
-  "last_eur_rate": 0.8966000006386113,
+  "last_run_ts": 1793371825.576447,
+  "last_eur_rate": 0.8962480071763972,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
