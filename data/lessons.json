@@ -11251,5 +11251,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "ZEUS (cex_small_cap) lost -8.1% in 576 min (slow (>6h)) — stop-loss hit. Entry score: 88 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793324677.2516983,
+    "symbol": "QUID",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/squid-3",
+    "held_minutes": 1453.0,
+    "exit_reason": "momentum thesis invalidated (score dropped to 25)",
+    "pnl_pct": -6.1,
+    "pnl_eur": -0.55,
+    "entry_score": 82.7,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 13306364,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 9.9234,
+    "entry_chg_24h": 10.40075,
+    "entry_chg_7d": 13.1181,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.4709973489386414,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "QUID (cex_small_cap) lost -6.1% in 1453 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 83 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
