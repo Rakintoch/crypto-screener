@@ -12,10 +12,10 @@
       "entry_price_eur": 436.85462126479916,
       "entry_ts": 1789402186.9931946,
       "cost_eur": 33.33333333333333,
-      "last_price_eur": 470.7136655031694,
+      "last_price_eur": 470.03143782877754,
       "peak_price_eur": 499.44405287568054,
       "entry_market_cap": 1183197,
-      "last_market_cap": 1342997,
+      "last_market_cap": 1341217,
       "entry_venue": "Uniswap V3 (Base) (on-chain)"
     },
     "cex_small_cap:nvidia-robinhood-tokenized-stock": {
@@ -25,10 +25,10 @@
       "entry_price_eur": 204.8116000727527,
       "entry_ts": 1791925394.1920888,
       "cost_eur": 36.58991788191748,
-      "last_price_eur": 185.8040326370337,
+      "last_price_eur": 185.83489221438919,
       "peak_price_eur": 205.26497116891926,
       "entry_market_cap": 18437248,
-      "last_market_cap": 17995678,
+      "last_market_cap": 18001153,
       "entry_venue": null,
       "entry_contract_address": null,
       "entry_obv_score": 0.17972759448586326,
@@ -257,8 +257,8 @@
       "reserved_eur": 0.0
     }
   ],
-  "last_run_ts": 1793356519.640394,
-  "last_eur_rate": 0.892602001523029,
+  "last_run_ts": 1793356824.4609344,
+  "last_eur_rate": 0.8924929988204264,
   "review_cycle": {
     "number": 3,
     "start_ts": 1792868581.9738064,
