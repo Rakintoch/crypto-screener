@@ -15,8 +15,8 @@
       "entry_price_eur": 0.1961501151793858,
       "entry_ts": 1793253784.9849868,
       "cost_eur": 8.99459217889516,
-      "last_price_eur": 0.20021878311456076,
-      "last_score": 72.3,
+      "last_price_eur": 0.20008041254918302,
+      "last_score": 72.4,
       "missed_updates": 0,
       "entry_market_cap": 45954362,
       "entry_venue": "Binance",
@@ -56,7 +56,7 @@
           "source": "Altcoin Buzz"
         }
       ],
-      "last_market_cap": 47328023
+      "last_market_cap": 47281714
     },
     "cex_small_cap:particle-network": {
       "tier": "cex_small_cap",
@@ -68,7 +68,7 @@
       "entry_price_eur": 0.05425348838869114,
       "entry_ts": 1793304194.1925373,
       "cost_eur": 8.534585908479214,
-      "last_price_eur": 0.051509366715608726,
+      "last_price_eur": 0.051521864522630245,
       "last_score": 75.2,
       "missed_updates": 0,
       "entry_market_cap": 14038090,
@@ -90,7 +90,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 13452017
+      "last_market_cap": 13450556
     }
   },
   "closed_trades": [
@@ -4720,8 +4720,8 @@
       "pnl_pct": -6.095082374781695
     }
   ],
-  "last_run_ts": 1793324677.2516983,
-  "last_eur_rate": 0.8927099950712084,
+  "last_run_ts": 1793324725.375837,
+  "last_eur_rate": 0.89270999276831,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
