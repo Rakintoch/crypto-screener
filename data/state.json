@@ -139,11 +139,6 @@
     "last_score": 58.3,
     "symbol": "XDP"
   },
-  "cex_small_cap:zignaly": {
-    "last_alert_ts": 1793124194.8073971,
-    "last_score": 58.1,
-    "symbol": "ZIG"
-  },
   "cex_small_cap:anime": {
     "last_alert_ts": 1793138579.1638567,
     "last_score": 58.3,
@@ -230,8 +225,8 @@
     "symbol": "BANK"
   },
   "cex_small_cap:infinity-ground": {
-    "last_alert_ts": 1793347291.207267,
-    "last_score": 81.6,
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 63.4,
     "symbol": "AIN"
   },
   "cex_small_cap:huma-finance": {
@@ -310,13 +305,13 @@
     "symbol": "ALTSZN"
   },
   "cex_small_cap:axt-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793289804.5117936,
-    "last_score": 60.1,
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 60.5,
     "symbol": "AXTIB"
   },
   "cex_small_cap:haedal": {
-    "last_alert_ts": 1793199009.4519708,
-    "last_score": 64.6,
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 63.9,
     "symbol": "HAEDAL"
   },
   "cex_small_cap:pocket-network": {
@@ -398,11 +393,6 @@
     "last_alert_ts": 1793189010.1055982,
     "last_score": 55.6,
     "symbol": "DICTATOR"
-  },
-  "cex_small_cap:xfee": {
-    "last_alert_ts": 1793124194.8073971,
-    "last_score": 67.9,
-    "symbol": "XFEE"
   },
   "cex_small_cap:acurast": {
     "last_alert_ts": 1793181775.5448253,
@@ -605,8 +595,8 @@
     "symbol": "UBIK"
   },
   "cex_small_cap:blur": {
-    "last_alert_ts": 1793354578.8814425,
-    "last_score": 66.7,
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 90.5,
     "symbol": "BLUR"
   },
   "cex_small_cap:pair": {
@@ -1045,8 +1035,8 @@
     "symbol": "CHUMP"
   },
   "cex_small_cap:direxion-daily-semiconductor-bull-3x-shares-etf-rstock": {
-    "last_alert_ts": 1793289804.5117936,
-    "last_score": 62.5,
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 55.4,
     "symbol": "RSOXL"
   },
   "cex_small_cap:my-neighbor-alice": {
@@ -1120,8 +1110,8 @@
     "symbol": "PYR"
   },
   "cex_small_cap:aelf": {
-    "last_alert_ts": 1793333000.559244,
-    "last_score": 65.2,
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 58.9,
     "symbol": "ELF"
   },
   "cex_small_cap:cat-wif-sword-2": {
@@ -1130,8 +1120,8 @@
     "symbol": "SWORDCAT"
   },
   "cex_small_cap:sophon": {
-    "last_alert_ts": 1793340203.5779195,
-    "last_score": 85.0,
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 70.3,
     "symbol": "SOPH"
   },
   "dex_micro_cap:5C5K1ZetdvGoF5QRcyRbVMiVLhkJzS8RkH8UL2pwpump": {
@@ -1145,8 +1135,8 @@
     "symbol": "PAYAI"
   },
   "cex_small_cap:neuralink-prestocks": {
-    "last_alert_ts": 1793347291.207267,
-    "last_score": 55.7,
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 58.9,
     "symbol": "NEURAL"
   },
   "cex_small_cap:alien-worlds": {
@@ -1200,8 +1190,8 @@
     "symbol": "KERNEL"
   },
   "cex_small_cap:mezo": {
-    "last_alert_ts": 1793383390.4082658,
-    "last_score": 70.1,
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 88.5,
     "symbol": "MEZO"
   },
   "dex_micro_cap:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
@@ -1228,5 +1218,45 @@
     "last_alert_ts": 1793383390.4082658,
     "last_score": 55.2,
     "symbol": "ZRC"
+  },
+  "cex_small_cap:cel-ai": {
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 79.1,
+    "symbol": "SN127"
+  },
+  "cex_small_cap:rock-dao": {
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 75.5,
+    "symbol": "ROCK"
+  },
+  "cex_small_cap:ethgas-2": {
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 63.9,
+    "symbol": "GWEI"
+  },
+  "cex_small_cap:cartoon-money": {
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 62.7,
+    "symbol": "CBUCKS"
+  },
+  "cex_small_cap:claudia-2": {
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 60.8,
+    "symbol": "CLAUDIA"
+  },
+  "cex_small_cap:gamestop-xstock": {
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 57.1,
+    "symbol": "GMEX"
+  },
+  "cex_small_cap:act-i-the-ai-prophecy": {
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 56.7,
+    "symbol": "ACT"
+  },
+  "cex_small_cap:moderna-bstocks-tokenized-stock": {
+    "last_alert_ts": 1793390547.7480035,
+    "last_score": 55.5,
+    "symbol": "MRNAB"
   }
 }
