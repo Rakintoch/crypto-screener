@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 36.96517021288532,
+  "cash_eur": 20.820254343835238,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:infinity-ground": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.15094571813215416,
       "entry_ts": 1793347291.7162607,
       "cost_eur": 8.246912026684173,
-      "last_price_eur": 0.1484097553023203,
-      "last_score": 51.9,
+      "last_price_eur": 0.1482143313525207,
+      "last_score": 50.8,
       "missed_updates": 0,
       "entry_market_cap": 31306864,
       "entry_venue": "Gate",
@@ -45,7 +45,7 @@
           "source": "Phemex"
         }
       ],
-      "last_market_cap": 30619699
+      "last_market_cap": 30646350
     },
     "cex_small_cap:meet48": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.014431982311654058,
       "entry_ts": 1793347291.7162607,
       "cost_eur": 8.246912026684173,
-      "last_price_eur": 0.015318538509866095,
-      "last_score": 86.0,
+      "last_price_eur": 0.015318562335166722,
+      "last_score": 57.4,
       "missed_updates": 0,
       "entry_market_cap": 35328102,
       "entry_venue": null,
@@ -79,7 +79,93 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 37457157
+      "last_market_cap": 37446140
+    },
+    "cex_small_cap:metaplex": {
+      "tier": "cex_small_cap",
+      "id": "metaplex",
+      "symbol": "MPLX",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/metaplex",
+      "qty": 127.95735127505284,
+      "entry_price_eur": 0.0630870978031794,
+      "entry_ts": 1793372452.9166238,
+      "cost_eur": 8.072457934525042,
+      "last_price_eur": 0.0630870978031794,
+      "last_score": 81.6,
+      "missed_updates": 0,
+      "entry_market_cap": 33153762,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m (Solana)",
+      "entry_score": 81.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 53367958,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 2.3802,
+      "entry_chg_24h": 19.50376,
+      "entry_chg_7d": 24.5535,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.6097104756920195,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing",
+        "supply_cut",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 1.0,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Upbit Listing Sparks 50% Metaplex (MPLX) Rally, but an 80% Drawdown Still Looms - InteractiveCrypto",
+          "ts": 1793251735.0,
+          "source": "InteractiveCrypto"
+        },
+        {
+          "title": "Metaplex (MPLX) Price Prediction 2026-2030: Buyback Outlook - Phemex",
+          "ts": 1792566000.0,
+          "source": "Phemex"
+        },
+        {
+          "title": "Metaplex Launches MPL-3643 Standard for Permissioned Real-World Assets and Tokenized Securities on Solana - Crypto Reporter",
+          "ts": 1790838000.0,
+          "source": "Crypto Reporter"
+        }
+      ]
+    },
+    "cex_small_cap:particle-network": {
+      "tier": "cex_small_cap",
+      "id": "particle-network",
+      "symbol": "PARTI",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/particle-network",
+      "qty": 180.95856010498278,
+      "entry_price_eur": 0.04460942842295949,
+      "entry_ts": 1793372452.9166238,
+      "cost_eur": 8.072457934525042,
+      "last_price_eur": 0.04460942842295949,
+      "last_score": 80.0,
+      "missed_updates": 0,
+      "entry_market_cap": 11599136,
+      "entry_venue": "Binance",
+      "entry_contract_address": null,
+      "entry_score": 80.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 162608083,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 0.4176,
+      "entry_chg_24h": 53.54104,
+      "entry_chg_7d": 59.1513,
+      "entry_chg_6h": null,
+      "entry_turnover": 14.018982362134558,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -4908,8 +4994,8 @@
       "pnl_pct": -9.82633758152703
     }
   ],
-  "last_run_ts": 1793372118.4430132,
-  "last_eur_rate": 0.8967140087388842,
+  "last_run_ts": 1793372452.9166238,
+  "last_eur_rate": 0.8966329989081779,
   "last_rotation_ts": 1792965792.2820544,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
