@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 24.397196409503195,
+  "cash_eur": 23.352434348952592,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:infinity-ground": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.15094571813215416,
       "entry_ts": 1793347291.7162607,
       "cost_eur": 8.246912026684173,
-      "last_price_eur": 0.19013084866390204,
-      "last_score": 90.1,
+      "last_price_eur": 0.19715213580596308,
+      "last_score": 89.9,
       "missed_updates": 0,
       "entry_market_cap": 31306864,
       "entry_venue": "Gate",
@@ -45,63 +45,9 @@
           "source": "Phemex"
         }
       ],
-      "last_market_cap": 39675984,
+      "last_market_cap": 40932545,
       "trailing_active": true,
-      "trailing_peak_eur": 0.19056103324787896
-    },
-    "cex_small_cap:metaplex": {
-      "tier": "cex_small_cap",
-      "id": "metaplex",
-      "symbol": "MPLX",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/metaplex",
-      "qty": 127.95735127505284,
-      "entry_price_eur": 0.0630870978031794,
-      "entry_ts": 1793372452.9166238,
-      "cost_eur": 8.072457934525042,
-      "last_price_eur": 0.06163776648778776,
-      "last_score": 58.5,
-      "missed_updates": 0,
-      "entry_market_cap": 33153762,
-      "entry_venue": "Upbit",
-      "entry_contract_address": "METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m (Solana)",
-      "entry_score": 81.6,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 53367958,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 2.3802,
-      "entry_chg_24h": 19.50376,
-      "entry_chg_7d": 24.5535,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.6097104756920195,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "listing",
-        "supply_cut",
-        "upgrade"
-      ],
-      "entry_catalyst_score": 1.0,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Upbit Listing Sparks 50% Metaplex (MPLX) Rally, but an 80% Drawdown Still Looms - InteractiveCrypto",
-          "ts": 1793251735.0,
-          "source": "InteractiveCrypto"
-        },
-        {
-          "title": "Metaplex (MPLX) Price Prediction 2026-2030: Buyback Outlook - Phemex",
-          "ts": 1792566000.0,
-          "source": "Phemex"
-        },
-        {
-          "title": "Metaplex Launches MPL-3643 Standard for Permissioned Real-World Assets and Tokenized Securities on Solana - Crypto Reporter",
-          "ts": 1790838000.0,
-          "source": "Crypto Reporter"
-        }
-      ],
-      "last_market_cap": 32807098
+      "trailing_peak_eur": 0.19715213580596308
     },
     "cex_small_cap:particle-network": {
       "tier": "cex_small_cap",
@@ -113,8 +59,8 @@
       "entry_price_eur": 0.04460942842295949,
       "entry_ts": 1793372452.9166238,
       "cost_eur": 8.072457934525042,
-      "last_price_eur": 0.04430997857313983,
-      "last_score": 48.3,
+      "last_price_eur": 0.04407812460994028,
+      "last_score": 43.2,
       "missed_updates": 0,
       "entry_market_cap": 11599136,
       "entry_venue": "Binance",
@@ -135,7 +81,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11567008
+      "last_market_cap": 11507243
     },
     "cex_small_cap:lisk": {
       "tier": "cex_small_cap",
@@ -147,8 +93,8 @@
       "entry_price_eur": 0.21515294723392914,
       "entry_ts": 1793409937.945381,
       "cost_eur": 8.913408175267902,
-      "last_price_eur": 0.2055692965036077,
-      "last_score": 94.5,
+      "last_price_eur": 0.20408685300799811,
+      "last_score": 64.3,
       "missed_updates": 0,
       "entry_market_cap": 53071620,
       "entry_venue": "Upbit",
@@ -189,7 +135,40 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 50806552
+      "last_market_cap": 50341807
+    },
+    "cex_small_cap:humidifi": {
+      "tier": "cex_small_cap",
+      "id": "humidifi",
+      "symbol": "WET",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/humidifi",
+      "qty": 152.44197302212308,
+      "entry_price_eur": 0.05852383669099642,
+      "entry_ts": 1793412180.7960086,
+      "cost_eur": 8.921489134000014,
+      "last_price_eur": 0.05852383669099642,
+      "last_score": 86.6,
+      "missed_updates": 0,
+      "entry_market_cap": 15103306,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "WETZjtprkDMCcUxPi9PfWnowMRZkiGGHDb9rABuRZ2U (Solana)",
+      "entry_score": 86.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 24605823,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 5.8629,
+      "entry_chg_24h": 31.15411,
+      "entry_chg_7d": -0.7038,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.6291680112950104,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -5118,11 +5097,71 @@
       "proceeds_eur": 8.01401956262328,
       "pnl_eur": -0.7511918110507327,
       "pnl_pct": -8.570150553435704
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "metaplex",
+      "symbol": "MPLX",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/metaplex",
+      "qty": 127.95735127505284,
+      "entry_price_eur": 0.0630870978031794,
+      "entry_ts": 1793372452.9166238,
+      "cost_eur": 8.072457934525042,
+      "last_price_eur": 0.061557440779763085,
+      "last_score": 42.7,
+      "missed_updates": 0,
+      "entry_market_cap": 33153762,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m (Solana)",
+      "entry_score": 81.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 53367958,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 2.3802,
+      "entry_chg_24h": 19.50376,
+      "entry_chg_7d": 24.5535,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.6097104756920195,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing",
+        "supply_cut",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 1.0,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Upbit Listing Sparks 50% Metaplex (MPLX) Rally, but an 80% Drawdown Still Looms - InteractiveCrypto",
+          "ts": 1793251735.0,
+          "source": "InteractiveCrypto"
+        },
+        {
+          "title": "Metaplex (MPLX) Price Prediction 2026-2030: Buyback Outlook - Phemex",
+          "ts": 1792566000.0,
+          "source": "Phemex"
+        },
+        {
+          "title": "Metaplex Launches MPL-3643 Standard for Permissioned Real-World Assets and Tokenized Securities on Solana - Crypto Reporter",
+          "ts": 1790838000.0,
+          "source": "Crypto Reporter"
+        }
+      ],
+      "last_market_cap": 32499295,
+      "exit_price_eur": 0.061557440779763085,
+      "exit_ts": 1793412180.7960086,
+      "exit_reason": "rotated out — thesis fading (score 43, no unrealized gain) to free a slot for a new qualified candidate",
+      "proceeds_eur": 7.876727073449408,
+      "pnl_eur": -0.1957308610756341,
+      "pnl_pct": -2.4246748965827876
     }
   ],
-  "last_run_ts": 1793411717.8262172,
-  "last_eur_rate": 0.8924990079607854,
-  "last_rotation_ts": 1792965792.2820544,
+  "last_run_ts": 1793412180.7960086,
+  "last_eur_rate": 0.892498996400903,
+  "last_rotation_ts": 1793412180.7960086,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
   "cycle_start_equity_eur": 89.3808126272898,

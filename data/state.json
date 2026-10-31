@@ -1,7 +1,7 @@
 {
   "cex_small_cap:gitcoin": {
-    "last_alert_ts": 1793347291.207267,
-    "last_score": 57.3,
+    "last_alert_ts": 1793412180.4572484,
+    "last_score": 63.8,
     "symbol": "GTC"
   },
   "cex_small_cap:aria-ai": {
@@ -1213,5 +1213,10 @@
     "last_alert_ts": 1793409937.4097774,
     "last_score": 57.1,
     "symbol": "GUN"
+  },
+  "cex_small_cap:intuition": {
+    "last_alert_ts": 1793412180.4572484,
+    "last_score": 66.8,
+    "symbol": "TRUST"
   }
 }
