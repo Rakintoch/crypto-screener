@@ -15,7 +15,7 @@
       "entry_price_eur": 0.04460942842295949,
       "entry_ts": 1793372452.9166238,
       "cost_eur": 8.072457934525042,
-      "last_price_eur": 0.04326248515289182,
+      "last_price_eur": 0.043269556597383,
       "last_score": 47.0,
       "missed_updates": 0,
       "entry_market_cap": 11599136,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11293120
+      "last_market_cap": 11291119
     },
     "cex_small_cap:swarms": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.006056877528486957,
       "entry_ts": 1793433506.10463,
       "cost_eur": 8.97344770711321,
-      "last_price_eur": 0.005870217450343751,
-      "last_score": 51.6,
+      "last_price_eur": 0.0058698513218973115,
+      "last_score": 51.7,
       "missed_updates": 0,
       "entry_market_cap": 6786139,
       "entry_venue": "HTX",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6571970
+      "last_market_cap": 6573841
     },
     "cex_small_cap:lisk": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.24192151268563977,
       "entry_ts": 1793448179.7322571,
       "cost_eur": 8.917168221078311,
-      "last_price_eur": 0.25212554260400866,
+      "last_price_eur": 0.24875306887782572,
       "last_score": 70.3,
       "missed_updates": 0,
       "entry_market_cap": 60317427,
@@ -125,7 +125,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 62078327
+      "last_market_cap": 61332260
     }
   },
   "closed_trades": [
@@ -442,8 +442,8 @@
       "pnl_pct": -8.458121326849028
     }
   ],
-  "last_run_ts": 1793469023.091031,
-  "last_eur_rate": 0.8928970088820569,
+  "last_run_ts": 1793469318.7597022,
+  "last_eur_rate": 0.8928970026950825,
   "last_rotation_ts": 1793412180.7960086,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
