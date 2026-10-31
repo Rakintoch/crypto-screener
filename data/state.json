@@ -680,8 +680,8 @@
     "symbol": "LITEB"
   },
   "cex_small_cap:permacast": {
-    "last_alert_ts": 1793224994.568154,
-    "last_score": 85.6,
+    "last_alert_ts": 1793440973.5198472,
+    "last_score": 77.0,
     "symbol": "PWT"
   },
   "cex_small_cap:applied-optoelectronics-bstocks-tokenized-stock": {
@@ -1195,8 +1195,8 @@
     "symbol": "SWARMS"
   },
   "dex_micro_cap:2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1": {
-    "last_alert_ts": 1793433505.629525,
-    "last_score": 65.8,
+    "last_alert_ts": 1793440973.5198472,
+    "last_score": 86.2,
     "symbol": "CATPAD"
   },
   "cex_small_cap:marlin": {
@@ -1223,5 +1223,15 @@
     "last_alert_ts": 1793433788.7740998,
     "last_score": 57.4,
     "symbol": "AUDIO"
+  },
+  "cex_small_cap:yooldo-games": {
+    "last_alert_ts": 1793440973.5198472,
+    "last_score": 59.7,
+    "symbol": "ESPORTS"
+  },
+  "cex_small_cap:overtake": {
+    "last_alert_ts": 1793440973.5198472,
+    "last_score": 56.1,
+    "symbol": "TAKE"
   }
 }
