@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 43.4880877986314,
+  "cash_eur": 34.51464009151819,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:particle-network": {
@@ -15,7 +15,7 @@
       "entry_price_eur": 0.04460942842295949,
       "entry_ts": 1793372452.9166238,
       "cost_eur": 8.072457934525042,
-      "last_price_eur": 0.04308413771443368,
+      "last_price_eur": 0.04309745963196626,
       "last_score": 49.0,
       "missed_updates": 0,
       "entry_market_cap": 11599136,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11241971
+      "last_market_cap": 11244914
     },
     "cex_small_cap:humidifi": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.05852383669099642,
       "entry_ts": 1793412180.7960086,
       "cost_eur": 8.921489134000014,
-      "last_price_eur": 0.055735523945758696,
-      "last_score": 64.7,
+      "last_price_eur": 0.05599535683675945,
+      "last_score": 74.0,
       "missed_updates": 0,
       "entry_market_cap": 15103306,
       "entry_venue": "Upbit",
@@ -71,7 +71,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 14460555
+      "last_market_cap": 14426989
+    },
+    "cex_small_cap:swarms": {
+      "tier": "cex_small_cap",
+      "id": "swarms",
+      "symbol": "SWARMS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/swarms",
+      "qty": 1481.5303206823846,
+      "entry_price_eur": 0.006056877528486957,
+      "entry_ts": 1793433506.10463,
+      "cost_eur": 8.97344770711321,
+      "last_price_eur": 0.006056877528486957,
+      "last_score": 75.5,
+      "missed_updates": 0,
+      "entry_market_cap": 6786139,
+      "entry_venue": "HTX",
+      "entry_contract_address": "74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump (Solana)",
+      "entry_score": 75.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 5238535,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 5.0091,
+      "entry_chg_24h": 14.39564,
+      "entry_chg_7d": 1.28,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.7719463158653249,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -5172,8 +5205,8 @@
       "pnl_pct": -8.601218412279122
     }
   ],
-  "last_run_ts": 1793433316.4425313,
-  "last_eur_rate": 0.8928970049463915,
+  "last_run_ts": 1793433506.10463,
+  "last_eur_rate": 0.8928970027548069,
   "last_rotation_ts": 1793412180.7960086,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,

@@ -149,14 +149,9 @@
     "last_score": 62.5,
     "symbol": "BATON"
   },
-  "cex_small_cap:stonk-3": {
-    "last_alert_ts": 1793174022.3055692,
-    "last_score": 58.1,
-    "symbol": "STONK"
-  },
   "cex_small_cap:musebook": {
-    "last_alert_ts": 1793361807.5127363,
-    "last_score": 55.7,
+    "last_alert_ts": 1793433505.629525,
+    "last_score": 57.0,
     "symbol": "MUSEBOOK"
   },
   "cex_small_cap:a-meme-coin": {
@@ -344,11 +339,6 @@
     "last_score": 57.1,
     "symbol": "TUT"
   },
-  "dex_micro_cap:Pmfm2RprxQRKZH1XWVsBUc2KgCTyzeDTSFbT1vJmogz": {
-    "last_alert_ts": 1793174022.3055692,
-    "last_score": 86.9,
-    "symbol": "MOGZ"
-  },
   "cex_small_cap:anoma": {
     "last_alert_ts": 1793220383.5094264,
     "last_score": 81.1,
@@ -388,11 +378,6 @@
     "last_alert_ts": 1793253784.3547583,
     "last_score": 58.1,
     "symbol": "SKHYB"
-  },
-  "dex_micro_cap:28vWTtEwxoWp5MpHutAMSK5DeVf8xXk8jEEtbrtppump": {
-    "last_alert_ts": 1793174022.3055692,
-    "last_score": 83.9,
-    "symbol": "MOONX"
   },
   "cex_small_cap:bifrost": {
     "last_alert_ts": 1793203406.196793,
@@ -620,8 +605,8 @@
     "symbol": "AI"
   },
   "cex_small_cap:meet48": {
-    "last_alert_ts": 1793383390.4082658,
-    "last_score": 97.5,
+    "last_alert_ts": 1793433505.629525,
+    "last_score": 70.8,
     "symbol": "IDOL"
   },
   "cex_small_cap:infinite-money-glitch-3": {
@@ -1203,5 +1188,35 @@
     "last_alert_ts": 1793426588.270658,
     "last_score": 58.5,
     "symbol": "GATO"
+  },
+  "cex_small_cap:swarms": {
+    "last_alert_ts": 1793433505.629525,
+    "last_score": 75.5,
+    "symbol": "SWARMS"
+  },
+  "dex_micro_cap:2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1": {
+    "last_alert_ts": 1793433505.629525,
+    "last_score": 65.8,
+    "symbol": "CATPAD"
+  },
+  "cex_small_cap:marlin": {
+    "last_alert_ts": 1793433505.629525,
+    "last_score": 64.0,
+    "symbol": "POND"
+  },
+  "cex_small_cap:reserve-rights-token": {
+    "last_alert_ts": 1793433505.629525,
+    "last_score": 62.6,
+    "symbol": "RSR"
+  },
+  "cex_small_cap:adventure-gold": {
+    "last_alert_ts": 1793433505.629525,
+    "last_score": 58.5,
+    "symbol": "AGLD"
+  },
+  "cex_small_cap:pha": {
+    "last_alert_ts": 1793433505.629525,
+    "last_score": 56.4,
+    "symbol": "PHA"
   }
 }
