@@ -2910,5 +2910,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "IDOL (cex_small_cap) gained +60.6% in 579 min — trailing stop caught extra upside after the target. Entry score: 79. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793421037.41365,
+    "symbol": "AIN",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/infinity-ground",
+    "held_minutes": 1229.1,
+    "exit_reason": "trailing stop hit — dropped 8.6% from the peak (peak +59.1% since entry)",
+    "pnl_pct": 45.37,
+    "pnl_eur": 3.74,
+    "entry_score": 81.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 11041089,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 12.7225,
+    "entry_chg_24h": 17.27601,
+    "entry_chg_7d": 339.7177,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.3526731070860371,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "AIN (cex_small_cap) gained +45.4% in 1229 min — trailing stop caught extra upside after the target. Entry score: 82. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
