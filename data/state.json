@@ -20,8 +20,8 @@
     "symbol": "JCT"
   },
   "cex_small_cap:doodles": {
-    "last_alert_ts": 1793376178.7865582,
-    "last_score": 79.3,
+    "last_alert_ts": 1793448179.0607502,
+    "last_score": 69.9,
     "symbol": "DOOD"
   },
   "cex_small_cap:bubblemaps": {
@@ -104,11 +104,6 @@
     "last_score": 66.5,
     "symbol": "ORDER"
   },
-  "cex_small_cap:brevis": {
-    "last_alert_ts": 1793181775.5448253,
-    "last_score": 57.3,
-    "symbol": "BREV"
-  },
   "cex_small_cap:doppler-finance": {
     "last_alert_ts": 1793333000.559244,
     "last_score": 58.3,
@@ -185,8 +180,8 @@
     "symbol": "SAPLING"
   },
   "cex_small_cap:infinity-ground": {
-    "last_alert_ts": 1793397804.25112,
-    "last_score": 83.3,
+    "last_alert_ts": 1793448179.0607502,
+    "last_score": 69.3,
     "symbol": "AIN"
   },
   "cex_small_cap:audiera": {
@@ -259,11 +254,6 @@
     "last_score": 59.9,
     "symbol": "worth"
   },
-  "cex_small_cap:collect-on-fanable": {
-    "last_alert_ts": 1793181775.5448253,
-    "last_score": 58.0,
-    "symbol": "COLLECT"
-  },
   "cex_small_cap:coreweave-ondo-tokenized": {
     "last_alert_ts": 1793286060.1040213,
     "last_score": 64.4,
@@ -290,8 +280,8 @@
     "symbol": "PRIORS"
   },
   "cex_small_cap:evaa-protocol": {
-    "last_alert_ts": 1793391748.1839154,
-    "last_score": 55.1,
+    "last_alert_ts": 1793448179.0607502,
+    "last_score": 56.8,
     "symbol": "EVAA"
   },
   "cex_small_cap:grove-2": {
@@ -319,11 +309,6 @@
     "last_score": 55.6,
     "symbol": "DICTATOR"
   },
-  "cex_small_cap:acurast": {
-    "last_alert_ts": 1793181775.5448253,
-    "last_score": 59.8,
-    "symbol": "ACU"
-  },
   "cex_small_cap:lab": {
     "last_alert_ts": 1793275405.4144409,
     "last_score": 55.2,
@@ -333,11 +318,6 @@
     "last_alert_ts": 1793426588.270658,
     "last_score": 64.0,
     "symbol": "SOLV"
-  },
-  "cex_small_cap:tutorial": {
-    "last_alert_ts": 1793181775.5448253,
-    "last_score": 57.1,
-    "symbol": "TUT"
   },
   "cex_small_cap:anoma": {
     "last_alert_ts": 1793220383.5094264,
@@ -438,11 +418,6 @@
     "last_alert_ts": 1793419404.0380278,
     "last_score": 55.5,
     "symbol": "MPLX"
-  },
-  "cex_small_cap:trump-media-technology-group-corp-common-stock-backpack-securities": {
-    "last_alert_ts": 1793181775.5448253,
-    "last_score": 56.1,
-    "symbol": "DJT"
   },
   "cex_small_cap:zcash-shielded-assets": {
     "last_alert_ts": 1793369000.0602818,
@@ -1233,5 +1208,25 @@
     "last_alert_ts": 1793440973.5198472,
     "last_score": 56.1,
     "symbol": "TAKE"
+  },
+  "dex_micro_cap:DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump": {
+    "last_alert_ts": 1793448179.0607502,
+    "last_score": 73.7,
+    "symbol": "AgenC"
+  },
+  "cex_small_cap:civic": {
+    "last_alert_ts": 1793448179.0607502,
+    "last_score": 68.5,
+    "symbol": "CVC"
+  },
+  "dex_micro_cap:HvitmAeh6TkToQonoiNwqWcrZsYdYiaSZHP7yMmspump": {
+    "last_alert_ts": 1793448179.0607502,
+    "last_score": 61.5,
+    "symbol": "LUMI"
+  },
+  "dex_micro_cap:HgxEGTZ1Epb64RrYqcuHkqb1gGWWnF5WcPTCDWzApump": {
+    "last_alert_ts": 1793448179.0607502,
+    "last_score": 61.2,
+    "symbol": "iCoin"
   }
 }

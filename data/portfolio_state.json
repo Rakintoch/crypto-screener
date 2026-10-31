@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1793465720.7225358,
-  "cash_eur": 34.51464009151819,
+  "cash_eur": 25.597471870439875,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:particle-network": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.04460942842295949,
       "entry_ts": 1793372452.9166238,
       "cost_eur": 8.072457934525042,
-      "last_price_eur": 0.0432306797132867,
-      "last_score": 47.2,
+      "last_price_eur": 0.04312508564405502,
+      "last_score": 48.1,
       "missed_updates": 0,
       "entry_market_cap": 11599136,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11280974
+      "last_market_cap": 11253419
     },
     "cex_small_cap:humidifi": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.05852383669099642,
       "entry_ts": 1793412180.7960086,
       "cost_eur": 8.921489134000014,
-      "last_price_eur": 0.05723559057301877,
-      "last_score": 54.1,
+      "last_price_eur": 0.05680789281791456,
+      "last_score": 72.9,
       "missed_updates": 0,
       "entry_market_cap": 15103306,
       "entry_venue": "Upbit",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 14743128
+      "last_market_cap": 14633074
     },
     "cex_small_cap:swarms": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.006056877528486957,
       "entry_ts": 1793433506.10463,
       "cost_eur": 8.97344770711321,
-      "last_price_eur": 0.005754596157008872,
-      "last_score": 47.5,
+      "last_price_eur": 0.00571664802523818,
+      "last_score": 50.6,
       "missed_updates": 0,
       "entry_market_cap": 6786139,
       "entry_venue": "HTX",
@@ -105,7 +105,60 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6444762
+      "last_market_cap": 6402266
+    },
+    "cex_small_cap:lisk": {
+      "tier": "cex_small_cap",
+      "id": "lisk",
+      "symbol": "LSK",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/lisk",
+      "qty": 36.85975720838665,
+      "entry_price_eur": 0.24192151268563977,
+      "entry_ts": 1793448179.7322571,
+      "cost_eur": 8.917168221078311,
+      "last_price_eur": 0.24192151268563977,
+      "last_score": 85.4,
+      "missed_updates": 0,
+      "entry_market_cap": 60317427,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f (ETH)",
+      "entry_score": 85.4,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 63694449,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 2.3914,
+      "entry_chg_24h": 35.27362,
+      "entry_chg_7d": 37.7993,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.0559875009257276,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "restructuring",
+        "security_incident",
+        "supply_cut"
+      ],
+      "entry_catalyst_score": 0.9,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Onchain Foundation Temporarily Suspends Lisk Token Buyback After Binance Hack - bloomingbit",
+          "ts": 1793347896.0,
+          "source": "bloomingbit"
+        },
+        {
+          "title": "Lisk: Bridge initiation window closes for transfers to Ethereum - 24 Oct 2026 - TradingView",
+          "ts": 1792850416.0,
+          "source": "TradingView"
+        },
+        {
+          "title": "Lisk Announces Token Swap on October 24th - TradingView",
+          "ts": 1792777315.0,
+          "source": "TradingView"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -5206,8 +5259,8 @@
       "pnl_pct": -8.601218412279122
     }
   ],
-  "last_run_ts": 1793447721.0183618,
-  "last_eur_rate": 0.8928969996258835,
+  "last_run_ts": 1793448179.7322571,
+  "last_eur_rate": 0.8928969981753885,
   "last_rotation_ts": 1793412180.7960086,
   "cycle_number": 5,
   "cycle_start_ts": 1792601720.7225358,
