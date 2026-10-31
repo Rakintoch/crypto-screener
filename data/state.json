@@ -125,8 +125,8 @@
     "symbol": "NIL"
   },
   "cex_small_cap:super-inu-2": {
-    "last_alert_ts": 1793203406.196793,
-    "last_score": 65.9,
+    "last_alert_ts": 1793462594.674102,
+    "last_score": 62.3,
     "symbol": "SI"
   },
   "cex_small_cap:apriori": {
@@ -234,11 +234,6 @@
     "last_score": 66.9,
     "symbol": "HARMONIC"
   },
-  "cex_small_cap:altseason": {
-    "last_alert_ts": 1793199009.4519708,
-    "last_score": 58.8,
-    "symbol": "ALTSZN"
-  },
   "cex_small_cap:axt-bstocks-tokenized-stock": {
     "last_alert_ts": 1793390547.7480035,
     "last_score": 60.5,
@@ -258,11 +253,6 @@
     "last_alert_ts": 1793286060.1040213,
     "last_score": 64.4,
     "symbol": "CRWVON"
-  },
-  "cex_small_cap:puffer-finance": {
-    "last_alert_ts": 1793199009.4519708,
-    "last_score": 59.6,
-    "symbol": "PUFFER"
   },
   "cex_small_cap:usa-rare-earth-bstocks-tokenized-stock": {
     "last_alert_ts": 1793286060.1040213,
@@ -438,26 +428,6 @@
     "last_alert_ts": 1793289804.5117936,
     "last_score": 56.5,
     "symbol": "SKHY"
-  },
-  "cex_small_cap:the-stonks-exchange": {
-    "last_alert_ts": 1793199009.4519708,
-    "last_score": 61.2,
-    "symbol": "STONKEX"
-  },
-  "cex_small_cap:commander-vrax-2": {
-    "last_alert_ts": 1793199009.4519708,
-    "last_score": 58.9,
-    "symbol": "VRAX"
-  },
-  "dex_micro_cap:0x456ac19c8a72aed16376d57c367640d69ff9e6ea": {
-    "last_alert_ts": 1793199009.4519708,
-    "last_score": 56.9,
-    "symbol": "ONECOIN"
-  },
-  "cex_small_cap:ginnancoin": {
-    "last_alert_ts": 1793199009.4519708,
-    "last_score": 55.8,
-    "symbol": "GINNAN"
   },
   "cex_small_cap:zeus-network": {
     "last_alert_ts": 1793340203.5779195,
@@ -815,8 +785,8 @@
     "symbol": "WARD"
   },
   "cex_small_cap:super-pepe": {
-    "last_alert_ts": 1793297002.5822966,
-    "last_score": 71.6,
+    "last_alert_ts": 1793462594.674102,
+    "last_score": 67.4,
     "symbol": "SP"
   },
   "cex_small_cap:solmev": {
@@ -840,8 +810,8 @@
     "symbol": "SIB"
   },
   "cex_small_cap:regent-coin": {
-    "last_alert_ts": 1793311376.8433635,
-    "last_score": 58.6,
+    "last_alert_ts": 1793462594.674102,
+    "last_score": 55.3,
     "symbol": "REGENT"
   },
   "dex_micro_cap:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": {
@@ -1085,8 +1055,8 @@
     "symbol": "RARE"
   },
   "cex_small_cap:gunz": {
-    "last_alert_ts": 1793409937.4097774,
-    "last_score": 57.1,
+    "last_alert_ts": 1793462594.674102,
+    "last_score": 60.4,
     "symbol": "GUN"
   },
   "cex_small_cap:intuition": {
@@ -1155,8 +1125,8 @@
     "symbol": "AUDIO"
   },
   "cex_small_cap:yooldo-games": {
-    "last_alert_ts": 1793440973.5198472,
-    "last_score": 59.7,
+    "last_alert_ts": 1793462594.674102,
+    "last_score": 82.9,
     "symbol": "ESPORTS"
   },
   "cex_small_cap:overtake": {
@@ -1218,5 +1188,15 @@
     "last_alert_ts": 1793456369.519376,
     "last_score": 57.5,
     "symbol": "DESSA"
+  },
+  "cex_small_cap:redstone-oracles": {
+    "last_alert_ts": 1793462594.674102,
+    "last_score": 68.1,
+    "symbol": "RED"
+  },
+  "cex_small_cap:hyperlane": {
+    "last_alert_ts": 1793462594.674102,
+    "last_score": 67.4,
+    "symbol": "HYPER"
   }
 }
