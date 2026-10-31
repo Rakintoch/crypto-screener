@@ -344,11 +344,6 @@
     "last_score": 55.2,
     "symbol": "ZZZ"
   },
-  "cex_small_cap:micron-technology-inc-coinbase-tokenized-stock": {
-    "last_alert_ts": 1793196201.7954614,
-    "last_score": 59.6,
-    "symbol": "MUC"
-  },
   "cex_small_cap:sk-hynix-bstocks-tokenized-stock": {
     "last_alert_ts": 1793253784.3547583,
     "last_score": 58.1,
@@ -429,35 +424,15 @@
     "last_score": 62.0,
     "symbol": "SHELL"
   },
-  "dex_micro_cap:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": {
-    "last_alert_ts": 1793196201.7954614,
-    "last_score": 76.5,
-    "symbol": "INVERSE"
-  },
   "cex_small_cap:agenc": {
     "last_alert_ts": 1793297002.5822966,
     "last_score": 57.0,
     "symbol": "AGENC"
   },
-  "dex_micro_cap:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": {
-    "last_alert_ts": 1793196201.7954614,
-    "last_score": 71.4,
-    "symbol": "Robotaxi"
-  },
   "cex_small_cap:yom": {
     "last_alert_ts": 1793297002.5822966,
     "last_score": 87.5,
     "symbol": "YOM"
-  },
-  "cex_small_cap:sk-hynix-rstock": {
-    "last_alert_ts": 1793196201.7954614,
-    "last_score": 62.8,
-    "symbol": "RSKHY"
-  },
-  "cex_small_cap:direxion-mu-bull-2x-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793196201.7954614,
-    "last_score": 57.1,
-    "symbol": "MUUB"
   },
   "cex_small_cap:sk-hynix-backpack-securities": {
     "last_alert_ts": 1793289804.5117936,
@@ -790,8 +765,8 @@
     "symbol": "CETUS"
   },
   "cex_small_cap:lisk": {
-    "last_alert_ts": 1793455375.1779866,
-    "last_score": 80.7,
+    "last_alert_ts": 1793456369.519376,
+    "last_score": 99.2,
     "symbol": "LSK"
   },
   "cex_small_cap:unifai-network": {
@@ -1228,5 +1203,20 @@
     "last_alert_ts": 1793455375.1779866,
     "last_score": 55.9,
     "symbol": "EDEN"
+  },
+  "cex_small_cap:cow-protocol": {
+    "last_alert_ts": 1793456369.519376,
+    "last_score": 72.7,
+    "symbol": "COW"
+  },
+  "cex_small_cap:okzoo": {
+    "last_alert_ts": 1793456369.519376,
+    "last_score": 71.5,
+    "symbol": "AIOT"
+  },
+  "dex_micro_cap:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": {
+    "last_alert_ts": 1793456369.519376,
+    "last_score": 57.5,
+    "symbol": "DESSA"
   }
 }
