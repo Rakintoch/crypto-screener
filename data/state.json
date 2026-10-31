@@ -1055,13 +1055,13 @@
     "symbol": "ROCK"
   },
   "cex_small_cap:ethgas-2": {
-    "last_alert_ts": 1793390547.7480035,
-    "last_score": 63.9,
+    "last_alert_ts": 1793433788.7740998,
+    "last_score": 60.7,
     "symbol": "GWEI"
   },
   "cex_small_cap:cartoon-money": {
-    "last_alert_ts": 1793390547.7480035,
-    "last_score": 62.7,
+    "last_alert_ts": 1793433788.7740998,
+    "last_score": 68.3,
     "symbol": "CBUCKS"
   },
   "cex_small_cap:claudia-2": {
@@ -1218,5 +1218,10 @@
     "last_alert_ts": 1793433505.629525,
     "last_score": 56.4,
     "symbol": "PHA"
+  },
+  "cex_small_cap:audius": {
+    "last_alert_ts": 1793433788.7740998,
+    "last_score": 57.4,
+    "symbol": "AUDIO"
   }
 }
