@@ -45,8 +45,8 @@
     "symbol": "DOS"
   },
   "cex_small_cap:moonbirds": {
-    "last_alert_ts": 1793376178.7865582,
-    "last_score": 92.8,
+    "last_alert_ts": 1793426588.270658,
+    "last_score": 57.1,
     "symbol": "BIRB"
   },
   "cex_small_cap:particle-network": {
@@ -335,8 +335,8 @@
     "symbol": "LAB"
   },
   "cex_small_cap:solv-protocol": {
-    "last_alert_ts": 1793369000.0602818,
-    "last_score": 66.2,
+    "last_alert_ts": 1793426588.270658,
+    "last_score": 64.0,
     "symbol": "SOLV"
   },
   "cex_small_cap:tutorial": {
@@ -413,11 +413,6 @@
     "last_alert_ts": 1793304193.7377195,
     "last_score": 66.8,
     "symbol": "HMM"
-  },
-  "dex_micro_cap:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": {
-    "last_alert_ts": 1793167380.2228603,
-    "last_score": 90.4,
-    "symbol": "Something"
   },
   "cex_small_cap:omega-labs": {
     "last_alert_ts": 1793210596.0454633,
@@ -1203,5 +1198,10 @@
     "last_alert_ts": 1793419404.0380278,
     "last_score": 56.4,
     "symbol": "SLP"
+  },
+  "dex_micro_cap:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
+    "last_alert_ts": 1793426588.270658,
+    "last_score": 58.5,
+    "symbol": "GATO"
   }
 }
