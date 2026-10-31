@@ -50,8 +50,8 @@
     "symbol": "BIRB"
   },
   "cex_small_cap:particle-network": {
-    "last_alert_ts": 1793404977.1358883,
-    "last_score": 59.5,
+    "last_alert_ts": 1793455375.1779866,
+    "last_score": 60.4,
     "symbol": "PARTI"
   },
   "cex_small_cap:irys": {
@@ -180,8 +180,8 @@
     "symbol": "SAPLING"
   },
   "cex_small_cap:infinity-ground": {
-    "last_alert_ts": 1793448179.0607502,
-    "last_score": 69.3,
+    "last_alert_ts": 1793455375.1779866,
+    "last_score": 98.4,
     "symbol": "AIN"
   },
   "cex_small_cap:audiera": {
@@ -304,11 +304,6 @@
     "last_score": 66.4,
     "symbol": "MICRODUCK"
   },
-  "dex_micro_cap:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": {
-    "last_alert_ts": 1793189010.1055982,
-    "last_score": 55.6,
-    "symbol": "DICTATOR"
-  },
   "cex_small_cap:lab": {
     "last_alert_ts": 1793275405.4144409,
     "last_score": 55.2,
@@ -428,21 +423,6 @@
     "last_alert_ts": 1793419404.0380278,
     "last_score": 60.3,
     "symbol": "RECALL"
-  },
-  "cex_small_cap:olympique-de-marseille-fan-token": {
-    "last_alert_ts": 1793189010.1055982,
-    "last_score": 62.6,
-    "symbol": "OM"
-  },
-  "cex_small_cap:cyberleek": {
-    "last_alert_ts": 1793189010.1055982,
-    "last_score": 61.3,
-    "symbol": "CYBERLEEK"
-  },
-  "cex_small_cap:ethereum-pow-iou": {
-    "last_alert_ts": 1793189010.1055982,
-    "last_score": 55.2,
-    "symbol": "ETHW"
   },
   "cex_small_cap:myshell": {
     "last_alert_ts": 1793409937.4097774,
@@ -810,8 +790,8 @@
     "symbol": "CETUS"
   },
   "cex_small_cap:lisk": {
-    "last_alert_ts": 1793409937.4097774,
-    "last_score": 97.2,
+    "last_alert_ts": 1793455375.1779866,
+    "last_score": 80.7,
     "symbol": "LSK"
   },
   "cex_small_cap:unifai-network": {
@@ -1080,8 +1060,8 @@
     "symbol": "GTA6"
   },
   "cex_small_cap:sudeng": {
-    "last_alert_ts": 1793397804.25112,
-    "last_score": 58.6,
+    "last_alert_ts": 1793455375.1779866,
+    "last_score": 70.4,
     "symbol": "HIPPO"
   },
   "dex_micro_cap:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": {
@@ -1105,13 +1085,13 @@
     "symbol": "ZKP"
   },
   "cex_small_cap:humidifi": {
-    "last_alert_ts": 1793409937.4097774,
-    "last_score": 84.3,
+    "last_alert_ts": 1793455375.1779866,
+    "last_score": 60.1,
     "symbol": "WET"
   },
   "cex_small_cap:chop-3": {
-    "last_alert_ts": 1793409937.4097774,
-    "last_score": 81.6,
+    "last_alert_ts": 1793455375.1779866,
+    "last_score": 59.3,
     "symbol": "CHOP"
   },
   "cex_small_cap:jeff-4": {
@@ -1120,13 +1100,13 @@
     "symbol": "JEFF"
   },
   "cex_small_cap:woo-network": {
-    "last_alert_ts": 1793409937.4097774,
-    "last_score": 69.2,
+    "last_alert_ts": 1793455375.1779866,
+    "last_score": 68.2,
     "symbol": "WOO"
   },
   "cex_small_cap:superrare": {
-    "last_alert_ts": 1793409937.4097774,
-    "last_score": 60.4,
+    "last_alert_ts": 1793455375.1779866,
+    "last_score": 56.0,
     "symbol": "RARE"
   },
   "cex_small_cap:gunz": {
@@ -1228,5 +1208,25 @@
     "last_alert_ts": 1793448179.0607502,
     "last_score": 61.2,
     "symbol": "iCoin"
+  },
+  "dex_micro_cap:8uBobWMhu6hRUn4jaA4kjcgWCjTxgHwHJtPgBePXpump": {
+    "last_alert_ts": 1793455375.1779866,
+    "last_score": 71.7,
+    "symbol": "TUSK"
+  },
+  "cex_small_cap:dessa": {
+    "last_alert_ts": 1793455375.1779866,
+    "last_score": 68.8,
+    "symbol": "DESSA"
+  },
+  "cex_small_cap:jotchua": {
+    "last_alert_ts": 1793455375.1779866,
+    "last_score": 58.8,
+    "symbol": "JOTCHUA"
+  },
+  "cex_small_cap:openeden": {
+    "last_alert_ts": 1793455375.1779866,
+    "last_score": 55.9,
+    "symbol": "EDEN"
   }
 }
