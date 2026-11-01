@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 29.89688570214993,
+  "cash_eur": 21.659107069927607,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:g-token": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0033957319368967624,
       "entry_ts": 1793505749.4951088,
       "cost_eur": 8.82097611582849,
-      "last_price_eur": 0.003317829522819192,
-      "last_score": 61.5,
+      "last_price_eur": 0.003320990401875874,
+      "last_score": 61.3,
       "missed_updates": 0,
       "entry_market_cap": 27528676,
       "entry_venue": "Upbit",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 26805602
+      "last_market_cap": 26775948
     },
     "cex_small_cap:zeus-network": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.00662120624064158,
       "entry_ts": 1793556178.4723988,
       "cost_eur": 8.397905671815181,
-      "last_price_eur": 0.006206042474959282,
-      "last_score": 37.3,
+      "last_price_eur": 0.006212412880643955,
+      "last_score": 38.8,
       "missed_updates": 0,
       "entry_market_cap": 6906714,
       "entry_venue": "Gate",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6453249
+      "last_market_cap": 6459259
     },
     "cex_small_cap:infinity-ground": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.24808496987552633,
       "entry_ts": 1793570577.9053295,
       "cost_eur": 8.219380643648561,
-      "last_price_eur": 0.257496729200503,
+      "last_price_eur": 0.2570196115179508,
       "last_score": 75.4,
       "missed_updates": 0,
       "entry_market_cap": 51276333,
@@ -105,7 +105,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 53619826
+      "last_market_cap": 53166423
+    },
+    "cex_small_cap:yooldo-games": {
+      "tier": "cex_small_cap",
+      "id": "yooldo-games",
+      "symbol": "ESPORTS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/yooldo-games",
+      "qty": 514.4277298704394,
+      "entry_price_eur": 0.016013480910714202,
+      "entry_ts": 1793575284.564329,
+      "cost_eur": 8.237778632222323,
+      "last_price_eur": 0.016013480910714202,
+      "last_score": 100.0,
+      "missed_updates": 0,
+      "entry_market_cap": 2704696,
+      "entry_venue": "KuCoin",
+      "entry_contract_address": "0xf39e4b21c84e737df08e2c3b32541d856f508e48 (BSC)",
+      "entry_score": 100.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 13304613,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 18.3956,
+      "entry_chg_24h": 99.29034,
+      "entry_chg_7d": 149.7782,
+      "entry_chg_6h": null,
+      "entry_turnover": 4.9190788909363565,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -812,8 +845,8 @@
       "pnl_pct": -8.433765221695094
     }
   ],
-  "last_run_ts": 1793574927.8883011,
-  "last_eur_rate": 0.8957810064201456,
+  "last_run_ts": 1793575284.564329,
+  "last_eur_rate": 0.89582900214338,
   "last_rotation_ts": 1793536629.6951153,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,

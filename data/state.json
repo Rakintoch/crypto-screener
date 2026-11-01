@@ -195,8 +195,8 @@
     "symbol": "VRTON"
   },
   "cex_small_cap:metaplex": {
-    "last_alert_ts": 1793498575.9600863,
-    "last_score": 76.2,
+    "last_alert_ts": 1793575284.0278463,
+    "last_score": 61.8,
     "symbol": "MPLX"
   },
   "cex_small_cap:zcash-shielded-assets": {
@@ -620,8 +620,8 @@
     "symbol": "AUDIO"
   },
   "cex_small_cap:yooldo-games": {
-    "last_alert_ts": 1793462594.674102,
-    "last_score": 82.9,
+    "last_alert_ts": 1793575284.0278463,
+    "last_score": 100.0,
     "symbol": "ESPORTS"
   },
   "cex_small_cap:overtake": {
@@ -928,5 +928,55 @@
     "last_alert_ts": 1793563403.1165159,
     "last_score": 59.4,
     "symbol": "Anakin"
+  },
+  "cex_small_cap:everlyn": {
+    "last_alert_ts": 1793575284.0278463,
+    "last_score": 74.7,
+    "symbol": "LYN"
+  },
+  "cex_small_cap:niannian-2": {
+    "last_alert_ts": 1793575284.0278463,
+    "last_score": 69.1,
+    "symbol": "年年"
+  },
+  "cex_small_cap:benqi": {
+    "last_alert_ts": 1793575284.0278463,
+    "last_score": 68.8,
+    "symbol": "QI"
+  },
+  "cex_small_cap:dogwifjob": {
+    "last_alert_ts": 1793575284.0278463,
+    "last_score": 68.7,
+    "symbol": "JOB"
+  },
+  "dex_micro_cap:Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT": {
+    "last_alert_ts": 1793575284.0278463,
+    "last_score": 66.9,
+    "symbol": "REGRETAMINE"
+  },
+  "cex_small_cap:knots": {
+    "last_alert_ts": 1793575284.0278463,
+    "last_score": 60.5,
+    "symbol": "KNOTS"
+  },
+  "cex_small_cap:ubik": {
+    "last_alert_ts": 1793575284.0278463,
+    "last_score": 57.2,
+    "symbol": "UBIK"
+  },
+  "cex_small_cap:microduck": {
+    "last_alert_ts": 1793575284.0278463,
+    "last_score": 56.6,
+    "symbol": "MICRODUCK"
+  },
+  "cex_small_cap:fables": {
+    "last_alert_ts": 1793575284.0278463,
+    "last_score": 56.4,
+    "symbol": "FABLES"
+  },
+  "cex_small_cap:aeon-3": {
+    "last_alert_ts": 1793575284.0278463,
+    "last_score": 55.8,
+    "symbol": "AEON"
   }
 }
