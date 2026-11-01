@@ -85,8 +85,8 @@
     "symbol": "SI"
   },
   "cex_small_cap:apriori": {
-    "last_alert_ts": 1793491403.2257729,
-    "last_score": 59.8,
+    "last_alert_ts": 1793536629.1751878,
+    "last_score": 83.6,
     "symbol": "APR"
   },
   "cex_small_cap:gstock": {
@@ -203,11 +203,6 @@
     "last_alert_ts": 1793286060.1040213,
     "last_score": 66.4,
     "symbol": "MICRODUCK"
-  },
-  "cex_small_cap:lab": {
-    "last_alert_ts": 1793275405.4144409,
-    "last_score": 55.2,
-    "symbol": "LAB"
   },
   "cex_small_cap:solv-protocol": {
     "last_alert_ts": 1793426588.270658,
@@ -388,16 +383,6 @@
     "last_alert_ts": 1793318606.9411454,
     "last_score": 65.8,
     "symbol": "PODCAT"
-  },
-  "dex_micro_cap:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": {
-    "last_alert_ts": 1793275405.4144409,
-    "last_score": 55.9,
-    "symbol": "CATBOT"
-  },
-  "dex_micro_cap:AN4mNPb3rP61d3b2u1LCKKhBdEgdW9BiNDp7ZHKupump": {
-    "last_alert_ts": 1793275405.4144409,
-    "last_score": 55.0,
-    "symbol": "omni"
   },
   "cex_small_cap:ast-spacemobile-bstocks-tokenized-stock": {
     "last_alert_ts": 1793282564.8665776,
@@ -895,8 +880,8 @@
     "symbol": "COW"
   },
   "cex_small_cap:okzoo": {
-    "last_alert_ts": 1793456369.519376,
-    "last_score": 71.5,
+    "last_alert_ts": 1793536629.1751878,
+    "last_score": 56.3,
     "symbol": "AIOT"
   },
   "dex_micro_cap:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": {
@@ -1030,8 +1015,8 @@
     "symbol": "牛来"
   },
   "dex_micro_cap:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": {
-    "last_alert_ts": 1793513004.2273479,
-    "last_score": 56.8,
+    "last_alert_ts": 1793536629.1751878,
+    "last_score": 92.4,
     "symbol": "PAWCAT"
   },
   "dex_micro_cap:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": {
@@ -1070,8 +1055,8 @@
     "symbol": "RATSPEAK"
   },
   "cex_small_cap:flock-2": {
-    "last_alert_ts": 1793527386.9495604,
-    "last_score": 60.5,
+    "last_alert_ts": 1793536629.1751878,
+    "last_score": 86.7,
     "symbol": "FLOCK"
   },
   "cex_small_cap:marscoin-4": {
@@ -1088,5 +1073,10 @@
     "last_alert_ts": 1793534576.431619,
     "last_score": 60.4,
     "symbol": "tipr"
+  },
+  "dex_micro_cap:0x4973aaa8271f044e586b71129791e25b1e807777": {
+    "last_alert_ts": 1793536629.1751878,
+    "last_score": 58.5,
+    "symbol": "茧"
   }
 }
