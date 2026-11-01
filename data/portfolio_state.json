@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0033957319368967624,
       "entry_ts": 1793505749.4951088,
       "cost_eur": 8.82097611582849,
-      "last_price_eur": 0.0033214984411524453,
-      "last_score": 57.4,
+      "last_price_eur": 0.0033562496887217692,
+      "last_score": 58.4,
       "missed_updates": 0,
       "entry_market_cap": 27528676,
       "entry_venue": "Upbit",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 26806717
+      "last_market_cap": 27082723
     },
     "cex_small_cap:zeus-network": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.00662120624064158,
       "entry_ts": 1793556178.4723988,
       "cost_eur": 8.397905671815181,
-      "last_price_eur": 0.0062833269472338145,
-      "last_score": 39.7,
+      "last_price_eur": 0.006309146038426849,
+      "last_score": 39.1,
       "missed_updates": 0,
       "entry_market_cap": 6906714,
       "entry_venue": "Gate",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6512539
+      "last_market_cap": 6556385
     },
     "cex_small_cap:infinity-ground": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.24808496987552633,
       "entry_ts": 1793570577.9053295,
       "cost_eur": 8.219380643648561,
-      "last_price_eur": 0.25242940088757354,
-      "last_score": 55.8,
+      "last_price_eur": 0.25061271589852396,
+      "last_score": 54.1,
       "missed_updates": 0,
       "entry_market_cap": 51276333,
       "entry_venue": "Gate",
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 52279354
+      "last_market_cap": 51816507
     }
   },
   "closed_trades": [
@@ -812,8 +812,8 @@
       "pnl_pct": -8.433765221695094
     }
   ],
-  "last_run_ts": 1793570718.669252,
-  "last_eur_rate": 0.8961280024692959,
+  "last_run_ts": 1793571023.4808638,
+  "last_eur_rate": 0.8962810013036685,
   "last_rotation_ts": 1793536629.6951153,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
