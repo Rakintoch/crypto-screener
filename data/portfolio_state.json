@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 32.8375010570941,
+  "cash_eur": 24.180527788127087,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:particle-network": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.04460942842295949,
       "entry_ts": 1793372452.9166238,
       "cost_eur": 8.072457934525042,
-      "last_price_eur": 0.04276660563197716,
-      "last_score": 65.9,
+      "last_price_eur": 0.042585481237451775,
+      "last_score": 46.5,
       "missed_updates": 0,
       "entry_market_cap": 11599136,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11162556
+      "last_market_cap": 11112611
     },
     "cex_small_cap:g-token": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0033957319368967624,
       "entry_ts": 1793505749.4951088,
       "cost_eur": 8.82097611582849,
-      "last_price_eur": 0.0035066744034624666,
-      "last_score": 61.4,
+      "last_price_eur": 0.0034804946439148197,
+      "last_score": 67.5,
       "missed_updates": 0,
       "entry_market_cap": 27528676,
       "entry_venue": "Upbit",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 28365370
+      "last_market_cap": 28192939
     },
     "cex_small_cap:power-ledger": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.061867940085891374,
       "entry_ts": 1793534576.9264853,
       "cost_eur": 8.781077794949798,
-      "last_price_eur": 0.05759632123732499,
-      "last_score": 49.7,
+      "last_price_eur": 0.05726862771779453,
+      "last_score": 50.0,
       "missed_updates": 0,
       "entry_market_cap": 39842667,
       "entry_venue": "Upbit",
@@ -105,7 +105,48 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 36662072
+      "last_market_cap": 36777001
+    },
+    "cex_small_cap:flock-2": {
+      "tier": "cex_small_cap",
+      "id": "flock-2",
+      "symbol": "FLOCK",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/flock-2",
+      "qty": 226.04958048157368,
+      "entry_price_eur": 0.038296789803919505,
+      "entry_ts": 1793541777.592122,
+      "cost_eur": 8.656973268967013,
+      "last_price_eur": 0.038296789803919505,
+      "last_score": 88.6,
+      "missed_updates": 0,
+      "entry_market_cap": 21768167,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x5ab3d4c385b400f3abb49e80de2faf6a88a7b691 (Base)",
+      "entry_score": 88.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 34655471,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 10.7698,
+      "entry_chg_24h": 17.58544,
+      "entry_chg_7d": 12.9651,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.5920252265613362,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "FLock.io Launches Qwen-powered, Open-Source Decision Model for Local Edge Deployment - HackerNoon",
+          "ts": 1792047600.0,
+          "source": "HackerNoon"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -644,8 +685,8 @@
       "pnl_pct": -2.8280808191025324
     }
   ],
-  "last_run_ts": 1793541441.5003922,
-  "last_eur_rate": 0.892897003911712,
+  "last_run_ts": 1793541777.592122,
+  "last_eur_rate": 0.8928969989365825,
   "last_rotation_ts": 1793536629.6951153,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
