@@ -1,7 +1,7 @@
 {
   "cex_small_cap:gitcoin": {
-    "last_alert_ts": 1793412180.4572484,
-    "last_score": 63.8,
+    "last_alert_ts": 1793527386.9495604,
+    "last_score": 56.0,
     "symbol": "GTC"
   },
   "cex_small_cap:caldera": {
@@ -59,11 +59,6 @@
     "last_score": 57.6,
     "symbol": "INIT"
   },
-  "cex_small_cap:stonks-9": {
-    "last_alert_ts": 1793261003.5047204,
-    "last_score": 66.3,
-    "symbol": "STONKS"
-  },
   "cex_small_cap:katana-network-token": {
     "last_alert_ts": 1793304193.7377195,
     "last_score": 62.3,
@@ -78,11 +73,6 @@
     "last_alert_ts": 1793333000.559244,
     "last_score": 58.3,
     "symbol": "XDP"
-  },
-  "dex_micro_cap:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": {
-    "last_alert_ts": 1793261003.5047204,
-    "last_score": 60.2,
-    "symbol": "REMUS"
   },
   "cex_small_cap:nillion": {
     "last_alert_ts": 1793409937.4097774,
@@ -185,8 +175,8 @@
     "symbol": "SECZB"
   },
   "cex_small_cap:priors-agent": {
-    "last_alert_ts": 1793404977.1358883,
-    "last_score": 57.9,
+    "last_alert_ts": 1793527386.9495604,
+    "last_score": 68.8,
     "symbol": "PRIORS"
   },
   "cex_small_cap:evaa-protocol": {
@@ -403,11 +393,6 @@
     "last_alert_ts": 1793304193.7377195,
     "last_score": 55.5,
     "symbol": "FLOAT"
-  },
-  "cex_small_cap:clearpool": {
-    "last_alert_ts": 1793261003.5047204,
-    "last_score": 55.1,
-    "symbol": "CPOOL"
   },
   "cex_small_cap:napoli-fan-token": {
     "last_alert_ts": 1793268199.1585326,
@@ -985,8 +970,8 @@
     "symbol": "GANG"
   },
   "dex_micro_cap:0xf7b9cf4dab32ce42f1e08c05f561ccc0e7b44cea": {
-    "last_alert_ts": 1793476938.8686907,
-    "last_score": 66.7,
+    "last_alert_ts": 1793527386.9495604,
+    "last_score": 58.2,
     "symbol": "Anthropic"
   },
   "cex_small_cap:jean-phil": {
@@ -1065,8 +1050,8 @@
     "symbol": "PAWCAT"
   },
   "dex_micro_cap:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": {
-    "last_alert_ts": 1793520170.3210776,
-    "last_score": 80.2,
+    "last_alert_ts": 1793527386.9495604,
+    "last_score": 99.5,
     "symbol": "BLUE"
   },
   "cex_small_cap:audacity": {
@@ -1093,5 +1078,20 @@
     "last_alert_ts": 1793520170.3210776,
     "last_score": 55.8,
     "symbol": "PROM"
+  },
+  "cex_small_cap:ratspeak": {
+    "last_alert_ts": 1793527386.9495604,
+    "last_score": 86.7,
+    "symbol": "RATSPEAK"
+  },
+  "cex_small_cap:flock-2": {
+    "last_alert_ts": 1793527386.9495604,
+    "last_score": 60.5,
+    "symbol": "FLOCK"
+  },
+  "cex_small_cap:marscoin-4": {
+    "last_alert_ts": 1793527386.9495604,
+    "last_score": 55.2,
+    "symbol": "MARSCOIN"
   }
 }
