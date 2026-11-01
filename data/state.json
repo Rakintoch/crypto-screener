@@ -19,20 +19,10 @@
     "last_score": 60.2,
     "symbol": "DOOD"
   },
-  "cex_small_cap:bubblemaps": {
-    "last_alert_ts": 1793232206.6548615,
-    "last_score": 67.4,
-    "symbol": "BMT"
-  },
   "cex_small_cap:dacity-coin-2": {
     "last_alert_ts": 1793397804.25112,
     "last_score": 63.3,
     "symbol": "DACITY"
-  },
-  "cex_small_cap:dappos": {
-    "last_alert_ts": 1793237496.1074207,
-    "last_score": 56.5,
-    "symbol": "DOS"
   },
   "cex_small_cap:moonbirds": {
     "last_alert_ts": 1793426588.270658,
@@ -40,19 +30,14 @@
     "symbol": "BIRB"
   },
   "cex_small_cap:particle-network": {
-    "last_alert_ts": 1793455375.1779866,
-    "last_score": 60.4,
+    "last_alert_ts": 1793498575.9600863,
+    "last_score": 55.0,
     "symbol": "PARTI"
   },
   "cex_small_cap:irys": {
     "last_alert_ts": 1793404977.1358883,
     "last_score": 71.6,
     "symbol": "IRYS"
-  },
-  "cex_small_cap:superform": {
-    "last_alert_ts": 1793237496.1074207,
-    "last_score": 57.9,
-    "symbol": "UP"
   },
   "cex_small_cap:pangea-2": {
     "last_alert_ts": 1793397804.25112,
@@ -145,8 +130,8 @@
     "symbol": "SAPLING"
   },
   "cex_small_cap:infinity-ground": {
-    "last_alert_ts": 1793455375.1779866,
-    "last_score": 98.4,
+    "last_alert_ts": 1793498575.9600863,
+    "last_score": 69.8,
     "symbol": "AIN"
   },
   "cex_small_cap:audiera": {
@@ -290,8 +275,8 @@
     "symbol": "VRTON"
   },
   "cex_small_cap:metaplex": {
-    "last_alert_ts": 1793469778.9173815,
-    "last_score": 55.6,
+    "last_alert_ts": 1793498575.9600863,
+    "last_score": 76.2,
     "symbol": "MPLX"
   },
   "cex_small_cap:zcash-shielded-assets": {
@@ -360,8 +345,8 @@
     "symbol": "AI"
   },
   "cex_small_cap:meet48": {
-    "last_alert_ts": 1793433505.629525,
-    "last_score": 70.8,
+    "last_alert_ts": 1793498575.9600863,
+    "last_score": 58.9,
     "symbol": "IDOL"
   },
   "cex_small_cap:infinite-money-glitch-3": {
@@ -373,11 +358,6 @@
     "last_alert_ts": 1793311376.8433635,
     "last_score": 68.3,
     "symbol": "PAID"
-  },
-  "cex_small_cap:casper-network": {
-    "last_alert_ts": 1793237496.1074207,
-    "last_score": 78.6,
-    "symbol": "CSPR"
   },
   "cex_small_cap:lumentum-holdings-bstocks-tokenized-stock": {
     "last_alert_ts": 1793268199.1585326,
@@ -393,11 +373,6 @@
     "last_alert_ts": 1793409937.4097774,
     "last_score": 58.6,
     "symbol": "VEIL"
-  },
-  "cex_small_cap:the-toad-pepe": {
-    "last_alert_ts": 1793232206.6548615,
-    "last_score": 88.5,
-    "symbol": "TOAD"
   },
   "dex_micro_cap:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
     "last_alert_ts": 1793484184.742151,
@@ -423,11 +398,6 @@
     "last_alert_ts": 1793286060.1040213,
     "last_score": 61.2,
     "symbol": "DUBBLE"
-  },
-  "cex_small_cap:b3": {
-    "last_alert_ts": 1793237496.1074207,
-    "last_score": 66.2,
-    "symbol": "B3"
   },
   "cex_small_cap:biconomy": {
     "last_alert_ts": 1793289804.5117936,
@@ -900,8 +870,8 @@
     "symbol": "POND"
   },
   "cex_small_cap:reserve-rights-token": {
-    "last_alert_ts": 1793433505.629525,
-    "last_score": 62.6,
+    "last_alert_ts": 1793498575.9600863,
+    "last_score": 60.7,
     "symbol": "RSR"
   },
   "cex_small_cap:adventure-gold": {
@@ -1088,5 +1058,15 @@
     "last_alert_ts": 1793491403.2257729,
     "last_score": 66.9,
     "symbol": "SIS"
+  },
+  "dex_micro_cap:GYKnd6jGUSQoBUnj6LdGCBtCWYDgr2Zd6QwNPcy5pump": {
+    "last_alert_ts": 1793498575.9600863,
+    "last_score": 81.0,
+    "symbol": "AAPLCAT"
+  },
+  "cex_small_cap:power-ledger": {
+    "last_alert_ts": 1793498575.9600863,
+    "last_score": 76.7,
+    "symbol": "POWR"
   }
 }
