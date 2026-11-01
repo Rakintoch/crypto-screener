@@ -12,10 +12,10 @@
       "entry_price_eur": 436.85462126479916,
       "entry_ts": 1789402186.9931946,
       "cost_eur": 33.33333333333333,
-      "last_price_eur": 467.87802935777967,
+      "last_price_eur": 467.9405319995863,
       "peak_price_eur": 499.44405287568054,
       "entry_market_cap": 1183197,
-      "last_market_cap": 1345480,
+      "last_market_cap": 1345551,
       "entry_venue": "Uniswap V3 (Base) (on-chain)"
     },
     "cex_small_cap:alien-worlds": {
@@ -25,10 +25,10 @@
       "entry_price_eur": 0.0010824444625833385,
       "entry_ts": 1793376180.1444418,
       "cost_eur": 31.806910370745435,
-      "last_price_eur": 0.0010614134538902164,
+      "last_price_eur": 0.0010642439370509797,
       "peak_price_eur": 0.0011134549662368198,
       "entry_market_cap": 8543820,
-      "last_market_cap": 8404351,
+      "last_market_cap": 8425020,
       "entry_venue": null,
       "entry_contract_address": null,
       "entry_obv_score": 0.2385416794426865,
@@ -295,8 +295,8 @@
       "reserved_eur": 0.0
     }
   ],
-  "last_run_ts": 1793505022.2796016,
-  "last_eur_rate": 0.8928970025911825,
+  "last_run_ts": 1793505319.3927186,
+  "last_eur_rate": 0.8928970023080625,
   "review_cycle": {
     "number": 3,
     "start_ts": 1792868581.9738064,
