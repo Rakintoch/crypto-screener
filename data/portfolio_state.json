@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 22.525544240474197,
+  "cash_eur": 30.426620321883618,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:g-token": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0033957319368967624,
       "entry_ts": 1793505749.4951088,
       "cost_eur": 8.82097611582849,
-      "last_price_eur": 0.003250457596232903,
-      "last_score": 52.7,
+      "last_price_eur": 0.003266815433957353,
+      "last_score": 53.4,
       "missed_updates": 0,
       "entry_market_cap": 27528676,
       "entry_venue": "Upbit",
@@ -37,49 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 26329559
-    },
-    "cex_small_cap:flock-2": {
-      "tier": "cex_small_cap",
-      "id": "flock-2",
-      "symbol": "FLOCK",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/flock-2",
-      "qty": 226.04958048157368,
-      "entry_price_eur": 0.038296789803919505,
-      "entry_ts": 1793541777.592122,
-      "cost_eur": 8.656973268967013,
-      "last_price_eur": 0.03535117624517829,
-      "last_score": 55.7,
-      "missed_updates": 0,
-      "entry_market_cap": 21768167,
-      "entry_venue": "Upbit",
-      "entry_contract_address": "0x5ab3d4c385b400f3abb49e80de2faf6a88a7b691 (Base)",
-      "entry_score": 88.6,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 34655471,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 10.7698,
-      "entry_chg_24h": 17.58544,
-      "entry_chg_7d": 12.9651,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.5920252265613362,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "FLock.io Launches Qwen-powered, Open-Source Decision Model for Local Edge Deployment - HackerNoon",
-          "ts": 1792047600.0,
-          "source": "HackerNoon"
-        }
-      ],
-      "last_market_cap": 20042039
+      "last_market_cap": 26453286
     },
     "cex_small_cap:teller": {
       "tier": "cex_small_cap",
@@ -91,8 +49,8 @@
       "entry_price_eur": 1.2232688842545623,
       "entry_ts": 1793556178.4723988,
       "cost_eur": 8.397905671815181,
-      "last_price_eur": 1.2054109508465998,
-      "last_score": 52.2,
+      "last_price_eur": 1.2054109378113977,
+      "last_score": 55.0,
       "missed_updates": 0,
       "entry_market_cap": 23565068,
       "entry_venue": "Bithumb",
@@ -113,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 23306827
+      "last_market_cap": 23249051
     },
     "cex_small_cap:zeus-network": {
       "tier": "cex_small_cap",
@@ -125,8 +83,8 @@
       "entry_price_eur": 0.00662120624064158,
       "entry_ts": 1793556178.4723988,
       "cost_eur": 8.397905671815181,
-      "last_price_eur": 0.0065806062497717754,
-      "last_score": 48.6,
+      "last_price_eur": 0.006587910075995857,
+      "last_score": 40.2,
       "missed_updates": 0,
       "entry_market_cap": 6906714,
       "entry_venue": "Gate",
@@ -147,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6864370
+      "last_market_cap": 6871658
     }
   },
   "closed_trades": [
@@ -764,10 +722,58 @@
       "proceeds_eur": 7.296040004430885,
       "pnl_eur": -0.7764179300941576,
       "pnl_pct": -9.618110572908666
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "flock-2",
+      "symbol": "FLOCK",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/flock-2",
+      "qty": 226.04958048157368,
+      "entry_price_eur": 0.038296789803919505,
+      "entry_ts": 1793541777.592122,
+      "cost_eur": 8.656973268967013,
+      "last_price_eur": 0.034952845586251696,
+      "last_score": 54.5,
+      "missed_updates": 0,
+      "entry_market_cap": 21768167,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x5ab3d4c385b400f3abb49e80de2faf6a88a7b691 (Base)",
+      "entry_score": 88.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 34655471,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 10.7698,
+      "entry_chg_24h": 17.58544,
+      "entry_chg_7d": 12.9651,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.5920252265613362,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "FLock.io Launches Qwen-powered, Open-Source Decision Model for Local Edge Deployment - HackerNoon",
+          "ts": 1792047600.0,
+          "source": "HackerNoon"
+        }
+      ],
+      "last_market_cap": 19820093,
+      "exit_price_eur": 0.034952845586251696,
+      "exit_ts": 1793557839.7495515,
+      "exit_reason": "stop-loss hit (-8.7%)",
+      "proceeds_eur": 7.90107608140942,
+      "pnl_eur": -0.7558971875575926,
+      "pnl_pct": -8.731656712713743
     }
   ],
-  "last_run_ts": 1793557518.1279428,
-  "last_eur_rate": 0.8928970006271109,
+  "last_run_ts": 1793557839.7495515,
+  "last_eur_rate": 0.8928969909714056,
   "last_rotation_ts": 1793536629.6951153,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,

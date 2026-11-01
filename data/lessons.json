@@ -11710,5 +11710,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "PARTI (cex_small_cap) lost -9.6% in 2964 min (slow (>6h)) — stop-loss hit. Entry score: 80 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793557839.7495515,
+    "symbol": "FLOCK",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/flock-2",
+    "held_minutes": 267.7,
+    "exit_reason": "stop-loss hit (-8.7%)",
+    "pnl_pct": -8.73,
+    "pnl_eur": -0.76,
+    "entry_score": 88.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 34655471,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 10.7698,
+    "entry_chg_24h": 17.58544,
+    "entry_chg_7d": 12.9651,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.5920252265613362,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "FLOCK (cex_small_cap) lost -8.7% in 268 min (fast (1-6h)) — stop-loss hit. Entry score: 89 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
