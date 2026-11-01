@@ -80,8 +80,8 @@
     "symbol": "NIL"
   },
   "cex_small_cap:super-inu-2": {
-    "last_alert_ts": 1793462594.674102,
-    "last_score": 62.3,
+    "last_alert_ts": 1793534576.431619,
+    "last_score": 67.8,
     "symbol": "SI"
   },
   "cex_small_cap:apriori": {
@@ -219,11 +219,6 @@
     "last_score": 57.3,
     "symbol": "KET"
   },
-  "cex_small_cap:sk-hynix-ondo-tokenized": {
-    "last_alert_ts": 1793268199.1585326,
-    "last_score": 57.5,
-    "symbol": "SKHYON"
-  },
   "cex_small_cap:tole-tole": {
     "last_alert_ts": 1793286060.1040213,
     "last_score": 57.2,
@@ -325,8 +320,8 @@
     "symbol": "AI"
   },
   "cex_small_cap:meet48": {
-    "last_alert_ts": 1793498575.9600863,
-    "last_score": 58.9,
+    "last_alert_ts": 1793534576.431619,
+    "last_score": 78.8,
     "symbol": "IDOL"
   },
   "cex_small_cap:infinite-money-glitch-3": {
@@ -339,11 +334,6 @@
     "last_score": 68.3,
     "symbol": "PAID"
   },
-  "cex_small_cap:lumentum-holdings-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793268199.1585326,
-    "last_score": 61.2,
-    "symbol": "LITEB"
-  },
   "cex_small_cap:permacast": {
     "last_alert_ts": 1793440973.5198472,
     "last_score": 77.0,
@@ -355,8 +345,8 @@
     "symbol": "VEIL"
   },
   "dex_micro_cap:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-    "last_alert_ts": 1793484184.742151,
-    "last_score": 60.3,
+    "last_alert_ts": 1793534576.431619,
+    "last_score": 70.4,
     "symbol": "GTA6"
   },
   "dex_micro_cap:ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump": {
@@ -393,11 +383,6 @@
     "last_alert_ts": 1793304193.7377195,
     "last_score": 55.5,
     "symbol": "FLOAT"
-  },
-  "cex_small_cap:napoli-fan-token": {
-    "last_alert_ts": 1793268199.1585326,
-    "last_score": 64.7,
-    "symbol": "NAP"
   },
   "dex_micro_cap:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": {
     "last_alert_ts": 1793318606.9411454,
@@ -735,8 +720,8 @@
     "symbol": "GTA6"
   },
   "cex_small_cap:sudeng": {
-    "last_alert_ts": 1793455375.1779866,
-    "last_score": 70.4,
+    "last_alert_ts": 1793534576.431619,
+    "last_score": 58.9,
     "symbol": "HIPPO"
   },
   "dex_micro_cap:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": {
@@ -1093,5 +1078,15 @@
     "last_alert_ts": 1793527386.9495604,
     "last_score": 55.2,
     "symbol": "MARSCOIN"
+  },
+  "cex_small_cap:taonado": {
+    "last_alert_ts": 1793534576.431619,
+    "last_score": 68.7,
+    "symbol": "SN113"
+  },
+  "dex_micro_cap:3kRQDKPGqMWwBdGjiVPpPqVzFsnYG5PDqvrVz1D2pump": {
+    "last_alert_ts": 1793534576.431619,
+    "last_score": 60.4,
+    "symbol": "tipr"
   }
 }
