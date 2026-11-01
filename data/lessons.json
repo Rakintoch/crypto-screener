@@ -11683,5 +11683,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "POWR (cex_small_cap) lost -10.7% in 127 min (fast (1-6h)) — stop-loss hit. Entry score: 82 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793550317.51954,
+    "symbol": "PARTI",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/particle-network",
+    "held_minutes": 2964.4,
+    "exit_reason": "stop-loss hit (-9.6%)",
+    "pnl_pct": -9.62,
+    "pnl_eur": -0.78,
+    "entry_score": 80.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 162608083,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 0.4176,
+    "entry_chg_24h": 53.54104,
+    "entry_chg_7d": 59.1513,
+    "entry_chg_6h": null,
+    "entry_turnover": 14.018982362134558,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "PARTI (cex_small_cap) lost -9.6% in 2964 min (slow (>6h)) — stop-loss hit. Entry score: 80 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
