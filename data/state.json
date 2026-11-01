@@ -55,8 +55,8 @@
     "symbol": "BLEND"
   },
   "cex_small_cap:initia": {
-    "last_alert_ts": 1793391748.1839154,
-    "last_score": 55.1,
+    "last_alert_ts": 1793513004.2273479,
+    "last_score": 57.6,
     "symbol": "INIT"
   },
   "cex_small_cap:stonks-9": {
@@ -239,11 +239,6 @@
     "last_score": 57.5,
     "symbol": "SKHYON"
   },
-  "cex_small_cap:sk-hynix-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793253784.3547583,
-    "last_score": 58.1,
-    "symbol": "SKHYB"
-  },
   "cex_small_cap:tole-tole": {
     "last_alert_ts": 1793286060.1040213,
     "last_score": 57.2,
@@ -414,11 +409,6 @@
     "last_score": 55.5,
     "symbol": "FLOAT"
   },
-  "dex_micro_cap:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": {
-    "last_alert_ts": 1793253784.3547583,
-    "last_score": 65.4,
-    "symbol": "HOUSECOIN"
-  },
   "cex_small_cap:moonbeam": {
     "last_alert_ts": 1793260740.5024133,
     "last_score": 63.2,
@@ -500,8 +490,8 @@
     "symbol": "CETUS"
   },
   "cex_small_cap:lisk": {
-    "last_alert_ts": 1793456369.519376,
-    "last_score": 99.2,
+    "last_alert_ts": 1793513004.2273479,
+    "last_score": 60.6,
     "symbol": "LSK"
   },
   "cex_small_cap:unifai-network": {
@@ -925,8 +915,8 @@
     "symbol": "TUSK"
   },
   "cex_small_cap:dessa": {
-    "last_alert_ts": 1793455375.1779866,
-    "last_score": 68.8,
+    "last_alert_ts": 1793513004.2273479,
+    "last_score": 66.9,
     "symbol": "DESSA"
   },
   "cex_small_cap:jotchua": {
@@ -1073,5 +1063,15 @@
     "last_alert_ts": 1793505749.1492326,
     "last_score": 73.9,
     "symbol": "G"
+  },
+  "cex_small_cap:niu-lai": {
+    "last_alert_ts": 1793513004.2273479,
+    "last_score": 71.7,
+    "symbol": "牛来"
+  },
+  "dex_micro_cap:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": {
+    "last_alert_ts": 1793513004.2273479,
+    "last_score": 56.8,
+    "symbol": "PAWCAT"
   }
 }
