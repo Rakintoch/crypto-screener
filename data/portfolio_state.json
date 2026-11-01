@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 38.11626634579849,
+  "cash_eur": 29.89688570214993,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:g-token": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0033957319368967624,
       "entry_ts": 1793505749.4951088,
       "cost_eur": 8.82097611582849,
-      "last_price_eur": 0.0033383205899892303,
-      "last_score": 57.5,
+      "last_price_eur": 0.003338721988306089,
+      "last_score": 58.0,
       "missed_updates": 0,
       "entry_market_cap": 27528676,
       "entry_venue": "Upbit",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 26947104
+      "last_market_cap": 26947022
     },
     "cex_small_cap:zeus-network": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.00662120624064158,
       "entry_ts": 1793556178.4723988,
       "cost_eur": 8.397905671815181,
-      "last_price_eur": 0.006317049221585261,
-      "last_score": 39.0,
+      "last_price_eur": 0.006312782612177547,
+      "last_score": 39.8,
       "missed_updates": 0,
       "entry_market_cap": 6906714,
       "entry_venue": "Gate",
@@ -71,7 +71,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6566300
+      "last_market_cap": 6561253
+    },
+    "cex_small_cap:infinity-ground": {
+      "tier": "cex_small_cap",
+      "id": "infinity-ground",
+      "symbol": "AIN",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/infinity-ground",
+      "qty": 33.131312419984724,
+      "entry_price_eur": 0.24808496987552633,
+      "entry_ts": 1793570577.9053295,
+      "cost_eur": 8.219380643648561,
+      "last_price_eur": 0.24808496987552633,
+      "last_score": 75.5,
+      "missed_updates": 0,
+      "entry_market_cap": 51276333,
+      "entry_venue": "Gate",
+      "entry_contract_address": null,
+      "entry_score": 75.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 20421804,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 2.93,
+      "entry_chg_24h": 20.52921,
+      "entry_chg_7d": 674.1505,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.39826958764777504,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -778,8 +811,8 @@
       "pnl_pct": -8.433765221695094
     }
   ],
-  "last_run_ts": 1793570119.0984719,
-  "last_eur_rate": 0.89609000571457,
+  "last_run_ts": 1793570577.9053295,
+  "last_eur_rate": 0.8961279935975031,
   "last_rotation_ts": 1793536629.6951153,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
