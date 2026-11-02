@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 37.092452550469176,
+  "cash_eur": 29.030699835701085,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:g-token": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0033957319368967624,
       "entry_ts": 1793505749.4951088,
       "cost_eur": 8.82097611582849,
-      "last_price_eur": 0.003173086994284682,
-      "last_score": 46.2,
+      "last_price_eur": 0.0031582076497352713,
+      "last_score": 35.1,
       "missed_updates": 0,
       "entry_market_cap": 27528676,
       "entry_venue": "Upbit",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 25693995
+      "last_market_cap": 25545443
     },
     "cex_small_cap:infinity-ground": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.24808496987552633,
       "entry_ts": 1793570577.9053295,
       "cost_eur": 8.219380643648561,
-      "last_price_eur": 0.2563778612895537,
-      "last_score": 51.4,
+      "last_price_eur": 0.25500342396147213,
+      "last_score": 68.9,
       "missed_updates": 0,
       "entry_market_cap": 51276333,
       "entry_venue": "Gate",
@@ -71,7 +71,59 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 53105360
+      "last_market_cap": 52930588
+    },
+    "cex_small_cap:sophon": {
+      "tier": "cex_small_cap",
+      "id": "sophon",
+      "symbol": "SOPH",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/sophon",
+      "qty": 5085.75880436491,
+      "entry_price_eur": 0.0015851622196178478,
+      "entry_ts": 1793599372.67949,
+      "cost_eur": 8.061752714768092,
+      "last_price_eur": 0.0015851622196178478,
+      "last_score": 93.7,
+      "missed_updates": 0,
+      "entry_market_cap": 9213023,
+      "entry_venue": "Upbit",
+      "entry_contract_address": null,
+      "entry_score": 93.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 21436046,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 6.0595,
+      "entry_chg_24h": 28.10011,
+      "entry_chg_7d": 25.4683,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.326711438797016,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "restructuring",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.6000000000000001,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Sophon Sets Nov. 30 Mainnet Shutdown, Nov. 25 Withdrawal Deadline - CoinMarketCap",
+          "ts": 1792530326.0,
+          "source": "CoinMarketCap"
+        },
+        {
+          "title": "Sophon Chain users must withdraw assets by Nov. 25 before mainnet shutdown on Nov. 30. - Pluang",
+          "ts": 1792479600.0,
+          "source": "Pluang"
+        },
+        {
+          "title": "Sophon sets asset withdrawal deadline before Base migration and mainnet shutdown - Traders Union",
+          "ts": 1792479600.0,
+          "source": "Traders Union"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -858,8 +910,8 @@
       "pnl_pct": -8.129983865670901
     }
   ],
-  "last_run_ts": 1793598918.4502788,
-  "last_eur_rate": 0.894122004797266,
+  "last_run_ts": 1793599372.67949,
+  "last_eur_rate": 0.8942280074113749,
   "last_rotation_ts": 1793584979.9342034,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
