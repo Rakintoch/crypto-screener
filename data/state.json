@@ -269,11 +269,6 @@
     "last_score": 73.4,
     "symbol": "SOXSB"
   },
-  "cex_small_cap:super-intelligent-beauty": {
-    "last_alert_ts": 1793354578.8814425,
-    "last_score": 77.8,
-    "symbol": "SIB"
-  },
   "cex_small_cap:regent-coin": {
     "last_alert_ts": 1793577804.6924438,
     "last_score": 58.0,
@@ -720,8 +715,8 @@
     "symbol": "ZZZ"
   },
   "cex_small_cap:teller": {
-    "last_alert_ts": 1793549008.4408994,
-    "last_score": 79.8,
+    "last_alert_ts": 1793613782.7042902,
+    "last_score": 65.2,
     "symbol": "DEBIT"
   },
   "dex_micro_cap:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": {
@@ -840,8 +835,8 @@
     "symbol": "US"
   },
   "dex_micro_cap:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": {
-    "last_alert_ts": 1793556178.046163,
-    "last_score": 64.7,
+    "last_alert_ts": 1793613782.7042902,
+    "last_score": 61.6,
     "symbol": "ANSEM"
   },
   "cex_small_cap:bio-protocol": {
@@ -855,8 +850,8 @@
     "symbol": "DACITYCOIN"
   },
   "cex_small_cap:digitalbits": {
-    "last_alert_ts": 1793558726.4088109,
-    "last_score": 81.6,
+    "last_alert_ts": 1793613782.7042902,
+    "last_score": 69.8,
     "symbol": "XDB"
   },
   "cex_small_cap:neosoul": {
@@ -998,5 +993,30 @@
     "last_alert_ts": 1793606593.9544399,
     "last_score": 55.0,
     "symbol": "STEALTH"
+  },
+  "cex_small_cap:dolphin-2": {
+    "last_alert_ts": 1793613782.7042902,
+    "last_score": 72.8,
+    "symbol": "POD"
+  },
+  "cex_small_cap:simon-s-cat": {
+    "last_alert_ts": 1793613782.7042902,
+    "last_score": 69.6,
+    "symbol": "CAT"
+  },
+  "cex_small_cap:aria-ai": {
+    "last_alert_ts": 1793613782.7042902,
+    "last_score": 55.7,
+    "symbol": "ARIA"
+  },
+  "cex_small_cap:tradoor": {
+    "last_alert_ts": 1793613782.7042902,
+    "last_score": 55.3,
+    "symbol": "TRADOOR"
+  },
+  "cex_small_cap:float": {
+    "last_alert_ts": 1793613782.7042902,
+    "last_score": 55.0,
+    "symbol": "FLOAT"
   }
 }
