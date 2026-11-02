@@ -309,11 +309,6 @@
     "last_score": 60.4,
     "symbol": "HI"
   },
-  "cex_small_cap:vulcan-forged": {
-    "last_alert_ts": 1793325785.2421775,
-    "last_score": 74.9,
-    "symbol": "PYR"
-  },
   "cex_small_cap:aelf": {
     "last_alert_ts": 1793390547.7480035,
     "last_score": 58.9,
@@ -735,8 +730,8 @@
     "symbol": "FLORK"
   },
   "dex_micro_cap:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": {
-    "last_alert_ts": 1793484184.742151,
-    "last_score": 98.8,
+    "last_alert_ts": 1793592183.0969155,
+    "last_score": 85.3,
     "symbol": "Leverhedge"
   },
   "cex_small_cap:vine": {
@@ -805,8 +800,8 @@
     "symbol": "BLUE"
   },
   "cex_small_cap:audacity": {
-    "last_alert_ts": 1793520170.3210776,
-    "last_score": 74.6,
+    "last_alert_ts": 1793592183.0969155,
+    "last_score": 85.0,
     "symbol": "DACITYCOIN"
   },
   "cex_small_cap:rebate": {
@@ -835,8 +830,8 @@
     "symbol": "RATSPEAK"
   },
   "cex_small_cap:flock-2": {
-    "last_alert_ts": 1793536629.1751878,
-    "last_score": 86.7,
+    "last_alert_ts": 1793592183.0969155,
+    "last_score": 55.8,
     "symbol": "FLOCK"
   },
   "cex_small_cap:marscoin-4": {
@@ -993,5 +988,20 @@
     "last_alert_ts": 1793584979.3706324,
     "last_score": 59.9,
     "symbol": "KORUB"
+  },
+  "cex_small_cap:securitize-bstocks-tokenized-stock": {
+    "last_alert_ts": 1793592183.0969155,
+    "last_score": 67.0,
+    "symbol": "SECZB"
+  },
+  "dex_micro_cap:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
+    "last_alert_ts": 1793592183.0969155,
+    "last_score": 63.0,
+    "symbol": "WASTED"
+  },
+  "cex_small_cap:sk-hynix-ondo-tokenized": {
+    "last_alert_ts": 1793592183.0969155,
+    "last_score": 56.4,
+    "symbol": "SKHYON"
   }
 }
