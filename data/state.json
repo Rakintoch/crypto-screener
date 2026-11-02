@@ -34,11 +34,6 @@
     "last_score": 71.6,
     "symbol": "IRYS"
   },
-  "cex_small_cap:pangea-2": {
-    "last_alert_ts": 1793397804.25112,
-    "last_score": 83.3,
-    "symbol": "PANGEA"
-  },
   "cex_small_cap:squid-3": {
     "last_alert_ts": 1793469778.9173815,
     "last_score": 60.1,
@@ -110,8 +105,8 @@
     "symbol": "PRIORS"
   },
   "cex_small_cap:evaa-protocol": {
-    "last_alert_ts": 1793642655.7170274,
-    "last_score": 77.8,
+    "last_alert_ts": 1793661556.4165044,
+    "last_score": 94.1,
     "symbol": "EVAA"
   },
   "cex_small_cap:grove-2": {
@@ -225,14 +220,9 @@
     "symbol": "HI"
   },
   "cex_small_cap:sophon": {
-    "last_alert_ts": 1793584979.3706324,
-    "last_score": 86.0,
+    "last_alert_ts": 1793661556.4165044,
+    "last_score": 56.9,
     "symbol": "SOPH"
-  },
-  "cex_small_cap:alien-worlds": {
-    "last_alert_ts": 1793397804.25112,
-    "last_score": 64.9,
-    "symbol": "TLM"
   },
   "cex_small_cap:magma-finance": {
     "last_alert_ts": 1793491403.2257729,
@@ -278,11 +268,6 @@
     "last_alert_ts": 1793649744.9167867,
     "last_score": 75.0,
     "symbol": "HOT"
-  },
-  "dex_micro_cap:0x19d5a29c82afab60fe6047b8437c1858789b3150": {
-    "last_alert_ts": 1793397804.25112,
-    "last_score": 60.3,
-    "symbol": "GTA6"
   },
   "cex_small_cap:sudeng": {
     "last_alert_ts": 1793534576.431619,
@@ -973,5 +958,10 @@
     "last_alert_ts": 1793656996.7760231,
     "last_score": 56.9,
     "symbol": "ACT"
+  },
+  "cex_small_cap:fobo": {
+    "last_alert_ts": 1793661556.4165044,
+    "last_score": 66.4,
+    "symbol": "FOBO"
   }
 }
