@@ -15,8 +15,8 @@
       "entry_price_eur": 0.24808496987552633,
       "entry_ts": 1793570577.9053295,
       "cost_eur": 8.219380643648561,
-      "last_price_eur": 0.24328214268664433,
-      "last_score": 44.1,
+      "last_price_eur": 0.24271196302325795,
+      "last_score": 43.7,
       "missed_updates": 0,
       "entry_market_cap": 51276333,
       "entry_venue": "Gate",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 50570496
+      "last_market_cap": 50447900
     },
     "cex_small_cap:cyberleek": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0016215184347534767,
       "entry_ts": 1793613783.196202,
       "cost_eur": 7.877557197237916,
-      "last_price_eur": 0.0016215184347534767,
-      "last_score": 77.9,
+      "last_price_eur": 0.001578719852046782,
+      "last_score": 77.8,
       "missed_updates": 0,
       "entry_market_cap": 1328878,
       "entry_venue": "LBank",
@@ -70,7 +70,8 @@
       "entry_base_breakout": null,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": []
+      "entry_catalyst_headlines": [],
+      "last_market_cap": 1292499
     },
     "cex_small_cap:dolphin-2": {
       "tier": "cex_small_cap",
@@ -82,8 +83,8 @@
       "entry_price_eur": 0.49902296687087777,
       "entry_ts": 1793613783.196202,
       "cost_eur": 7.877557197237917,
-      "last_price_eur": 0.49902296687087777,
-      "last_score": 72.8,
+      "last_price_eur": 0.4924391709942846,
+      "last_score": 67.0,
       "missed_updates": 0,
       "entry_market_cap": 47003781,
       "entry_venue": null,
@@ -103,7 +104,8 @@
       "entry_base_breakout": null,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": []
+      "entry_catalyst_headlines": [],
+      "last_market_cap": 46379998
     }
   },
   "closed_trades": [
@@ -989,8 +991,8 @@
       "pnl_pct": -9.166461495251088
     }
   ],
-  "last_run_ts": 1793613783.196202,
-  "last_eur_rate": 0.8914339938171943,
+  "last_run_ts": 1793614235.6533866,
+  "last_eur_rate": 0.8915039964123341,
   "last_rotation_ts": 1793584979.9342034,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
