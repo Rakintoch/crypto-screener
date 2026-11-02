@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 19.48595071482515,
+  "cash_eur": 26.290637133890336,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:infinity-ground": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.24808496987552633,
       "entry_ts": 1793570577.9053295,
       "cost_eur": 8.219380643648561,
-      "last_price_eur": 0.24778871289933688,
-      "last_score": 35.0,
+      "last_price_eur": 0.24838229997718028,
+      "last_score": 34.9,
       "missed_updates": 0,
       "entry_market_cap": 51276333,
       "entry_venue": "Gate",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 51365735
+      "last_market_cap": 51497399
     },
     "cex_small_cap:cyberleek": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.0016215184347534767,
       "entry_ts": 1793613783.196202,
       "cost_eur": 7.877557197237916,
-      "last_price_eur": 0.0016693734659726902,
+      "last_price_eur": 0.0016705839897966463,
       "last_score": 67.4,
       "missed_updates": 0,
       "entry_market_cap": 1328878,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1363070
+      "last_market_cap": 1364292
     },
     "cex_small_cap:metaplex": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.07270038631788658,
       "entry_ts": 1793621005.3450804,
       "cost_eur": 7.8163441416548025,
-      "last_price_eur": 0.07019352773647229,
-      "last_score": 84.9,
+      "last_price_eur": 0.06965793900350983,
+      "last_score": 75.3,
       "missed_updates": 0,
       "entry_market_cap": 38390597,
       "entry_venue": "Upbit",
@@ -124,60 +124,7 @@
           "source": "bloomingbit"
         }
       ],
-      "last_market_cap": 37034912
-    },
-    "cex_small_cap:de-fi": {
-      "tier": "cex_small_cap",
-      "id": "de-fi",
-      "symbol": "DEFI",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/de-fi",
-      "qty": 35033.07163721739,
-      "entry_price_eur": 0.00021837708308102002,
-      "entry_ts": 1793656997.3818092,
-      "cost_eur": 7.650419995503949,
-      "last_price_eur": 0.00021837708308102002,
-      "last_score": 97.7,
-      "missed_updates": 0,
-      "entry_market_cap": 1066504,
-      "entry_venue": "KuCoin",
-      "entry_contract_address": "0x6b0faca7ba905a86f221ceb5ca404f605e5b3131 (ETH)",
-      "entry_score": 97.7,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 1103992,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 8.3089,
-      "entry_chg_24h": 112.6748,
-      "entry_chg_7d": 97.371,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.0351503604299657,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "listing",
-        "security_incident",
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.6000000000000001,
-      "entry_catalyst_headlines": [
-        {
-          "title": "REGULATION | FBI Urges DeFi Industry to Block Addresses Linked to the Binance Hack - BitKE",
-          "ts": 1793509257.0,
-          "source": "BitKE"
-        },
-        {
-          "title": "DeFi Compliance Alert: FBI Links Binance Hack to DPRK - OneSafe.io",
-          "ts": 1793496397.0,
-          "source": "OneSafe.io"
-        },
-        {
-          "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses - CoinDesk",
-          "ts": 1793495520.0,
-          "source": "CoinDesk"
-        }
-      ]
+      "last_market_cap": 36758667
     }
   },
   "closed_trades": [
@@ -1141,10 +1088,70 @@
       "proceeds_eur": 6.883408841784504,
       "pnl_eur": -0.9442318805913734,
       "pnl_pct": -12.062790233744611
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "de-fi",
+      "symbol": "DEFI",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/de-fi",
+      "qty": 35033.07163721739,
+      "entry_price_eur": 0.00021837708308102002,
+      "entry_ts": 1793656997.3818092,
+      "cost_eur": 7.650419995503949,
+      "last_price_eur": 0.00019423607754211948,
+      "last_score": 98.0,
+      "missed_updates": 0,
+      "entry_market_cap": 1066504,
+      "entry_venue": "KuCoin",
+      "entry_contract_address": "0x6b0faca7ba905a86f221ceb5ca404f605e5b3131 (ETH)",
+      "entry_score": 97.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 1103992,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 8.3089,
+      "entry_chg_24h": 112.6748,
+      "entry_chg_7d": 97.371,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.0351503604299657,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing",
+        "security_incident",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.6000000000000001,
+      "entry_catalyst_headlines": [
+        {
+          "title": "REGULATION | FBI Urges DeFi Industry to Block Addresses Linked to the Binance Hack - BitKE",
+          "ts": 1793509257.0,
+          "source": "BitKE"
+        },
+        {
+          "title": "DeFi Compliance Alert: FBI Links Binance Hack to DPRK - OneSafe.io",
+          "ts": 1793496397.0,
+          "source": "OneSafe.io"
+        },
+        {
+          "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses - CoinDesk",
+          "ts": 1793495520.0,
+          "source": "CoinDesk"
+        }
+      ],
+      "last_market_cap": 944565,
+      "exit_price_eur": 0.00019423607754211948,
+      "exit_ts": 1793657424.6103928,
+      "exit_reason": "stop-loss hit (-11.1%)",
+      "proceeds_eur": 6.804686419065184,
+      "pnl_eur": -0.8457335764387652,
+      "pnl_pct": -11.054733948407954
     }
   ],
-  "last_run_ts": 1793656997.3818092,
-  "last_eur_rate": 0.89388900155964,
+  "last_run_ts": 1793657424.6103928,
+  "last_eur_rate": 0.8937379908071572,
   "last_rotation_ts": 1793584979.9342034,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
