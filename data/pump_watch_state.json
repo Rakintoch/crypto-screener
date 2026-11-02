@@ -1,7 +1,7 @@
 {
   "status": "active",
   "start_ts": 1789402186.9931946,
-  "cash_eur": 25.482326486750818,
+  "cash_eur": 54.88590250930156,
   "reserve_eur": 1.9326204356193786,
   "starting_balance_eur": 100.0,
   "positions": {
@@ -12,42 +12,11 @@
       "entry_price_eur": 436.85462126479916,
       "entry_ts": 1789402186.9931946,
       "cost_eur": 33.33333333333333,
-      "last_price_eur": 466.55087947181624,
+      "last_price_eur": 466.6773063540193,
       "peak_price_eur": 499.44405287568054,
       "entry_market_cap": 1183197,
-      "last_market_cap": 1340276,
+      "last_market_cap": 1340714,
       "entry_venue": "Uniswap V3 (Base) (on-chain)"
-    },
-    "cex_small_cap:alien-worlds": {
-      "id": "alien-worlds",
-      "symbol": "TLM",
-      "qty": 29384.334688946306,
-      "entry_price_eur": 0.0010824444625833385,
-      "entry_ts": 1793376180.1444418,
-      "cost_eur": 31.806910370745435,
-      "last_price_eur": 0.0010026593761256481,
-      "peak_price_eur": 0.0011134549662368198,
-      "entry_market_cap": 8543820,
-      "last_market_cap": 7932540,
-      "entry_venue": null,
-      "entry_contract_address": null,
-      "entry_obv_score": 0.2385416794426865,
-      "entry_price_change_3d": 0.00550230480337718,
-      "entry_volume_surge": 5.130506084683197,
-      "entry_chg_24h": -1.97587,
-      "entry_chg_7d": -3.125,
-      "entry_turnover": 2.36872792263882,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Teen Warrior's Abduction Launches an Odyssey Across Alien Worlds - Yahoo Finance",
-          "ts": 1793047440.0,
-          "source": "Yahoo Finance"
-        }
-      ]
     }
   },
   "closed_trades": [
@@ -323,10 +292,48 @@
       "pnl_eur": -2.4006814569520607,
       "pnl_pct": -8.609836721343518,
       "reserved_eur": 0.0
+    },
+    {
+      "id": "alien-worlds",
+      "symbol": "TLM",
+      "qty": 29384.334688946306,
+      "entry_price_eur": 0.0010824444625833385,
+      "entry_ts": 1793376180.1444418,
+      "cost_eur": 31.806910370745435,
+      "last_price_eur": 0.0010006548160374606,
+      "peak_price_eur": 0.0011134549662368198,
+      "entry_market_cap": 8543820,
+      "last_market_cap": 7919297,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_obv_score": 0.2385416794426865,
+      "entry_price_change_3d": 0.00550230480337718,
+      "entry_volume_surge": 5.130506084683197,
+      "entry_chg_24h": -1.97587,
+      "entry_chg_7d": -3.125,
+      "entry_turnover": 2.36872792263882,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Teen Warrior's Abduction Launches an Odyssey Across Alien Worlds - Yahoo Finance",
+          "ts": 1793047440.0,
+          "source": "Yahoo Finance"
+        }
+      ],
+      "exit_price_eur": 0.0010006548160374606,
+      "exit_ts": 1793604321.2568443,
+      "exit_reason": "trailing stop hit — dropped 10.1% from peak",
+      "proceeds_eur": 29.403576022550737,
+      "pnl_eur": -2.403334348194697,
+      "pnl_pct": -7.556013206504886,
+      "reserved_eur": 0.0
     }
   ],
-  "last_run_ts": 1793604033.0393324,
-  "last_eur_rate": 0.8938270005399088,
+  "last_run_ts": 1793604321.2568443,
+  "last_eur_rate": 0.8937610003907294,
   "review_cycle": {
     "number": 3,
     "start_ts": 1792868581.9738064,
