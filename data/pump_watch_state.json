@@ -1,7 +1,7 @@
 {
   "status": "active",
   "start_ts": 1789402186.9931946,
-  "cash_eur": 0.0,
+  "cash_eur": 25.482326486750818,
   "reserve_eur": 1.9326204356193786,
   "starting_balance_eur": 100.0,
   "positions": {
@@ -12,10 +12,10 @@
       "entry_price_eur": 436.85462126479916,
       "entry_ts": 1789402186.9931946,
       "cost_eur": 33.33333333333333,
-      "last_price_eur": 467.53236089052035,
+      "last_price_eur": 467.2838915834571,
       "peak_price_eur": 499.44405287568054,
       "entry_market_cap": 1183197,
-      "last_market_cap": 1342465,
+      "last_market_cap": 1341903,
       "entry_venue": "Uniswap V3 (Base) (on-chain)"
     },
     "cex_small_cap:alien-worlds": {
@@ -25,10 +25,10 @@
       "entry_price_eur": 0.0010824444625833385,
       "entry_ts": 1793376180.1444418,
       "cost_eur": 31.806910370745435,
-      "last_price_eur": 0.0010150718375335317,
+      "last_price_eur": 0.0010147001617354632,
       "peak_price_eur": 0.0011134549662368198,
       "entry_market_cap": 8543820,
-      "last_market_cap": 8029363,
+      "last_market_cap": 8025010,
       "entry_venue": null,
       "entry_contract_address": null,
       "entry_obv_score": 0.2385416794426865,
@@ -48,29 +48,6 @@
           "source": "Yahoo Finance"
         }
       ]
-    },
-    "cex_small_cap:power-ledger": {
-      "id": "power-ledger",
-      "symbol": "POWR",
-      "qty": 519.5788107030592,
-      "entry_price_eur": 0.05366463637339918,
-      "entry_ts": 1793575285.8387942,
-      "cost_eur": 27.88300794370288,
-      "last_price_eur": 0.049154254372224475,
-      "peak_price_eur": 0.054539185642568,
-      "entry_market_cap": 34349824,
-      "last_market_cap": 31519020,
-      "entry_venue": null,
-      "entry_contract_address": null,
-      "entry_obv_score": 0.15773189844225,
-      "entry_price_change_3d": 0.1445069965226895,
-      "entry_volume_surge": 27.840691693432994,
-      "entry_chg_24h": 6.38335,
-      "entry_chg_7d": 9.8853,
-      "entry_turnover": 1.7973416690577513,
-      "entry_catalyst_tags": [],
-      "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -316,10 +293,40 @@
       "pnl_eur": -3.63035580480598,
       "pnl_pct": -9.92173804959557,
       "reserved_eur": 0.0
+    },
+    {
+      "id": "power-ledger",
+      "symbol": "POWR",
+      "qty": 519.5788107030592,
+      "entry_price_eur": 0.05366463637339918,
+      "entry_ts": 1793575285.8387942,
+      "cost_eur": 27.88300794370288,
+      "last_price_eur": 0.049044198804546794,
+      "peak_price_eur": 0.054539185642568,
+      "entry_market_cap": 34349824,
+      "last_market_cap": 31452005,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_obv_score": 0.15773189844225,
+      "entry_price_change_3d": 0.1445069965226895,
+      "entry_volume_surge": 27.840691693432994,
+      "entry_chg_24h": 6.38335,
+      "entry_chg_7d": 9.8853,
+      "entry_turnover": 1.7973416690577513,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": [],
+      "exit_price_eur": 0.049044198804546794,
+      "exit_ts": 1793597439.6628366,
+      "exit_reason": "trailing stop hit — dropped 10.1% from peak",
+      "proceeds_eur": 25.482326486750818,
+      "pnl_eur": -2.4006814569520607,
+      "pnl_pct": -8.609836721343518,
+      "reserved_eur": 0.0
     }
   ],
-  "last_run_ts": 1793597119.5049827,
-  "last_eur_rate": 0.8942339974571473,
+  "last_run_ts": 1793597439.6628366,
+  "last_eur_rate": 0.894134998533241,
   "review_cycle": {
     "number": 3,
     "start_ts": 1792868581.9738064,
