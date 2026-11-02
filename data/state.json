@@ -170,8 +170,8 @@
     "symbol": "BLUR"
   },
   "cex_small_cap:vertiv-ondo-tokenized": {
-    "last_alert_ts": 1793584979.3706324,
-    "last_score": 56.5,
+    "last_alert_ts": 1793630392.4662821,
+    "last_score": 56.6,
     "symbol": "VRTON"
   },
   "cex_small_cap:metaplex": {
@@ -475,8 +475,8 @@
     "symbol": "SLP"
   },
   "dex_micro_cap:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
-    "last_alert_ts": 1793584979.3706324,
-    "last_score": 86.0,
+    "last_alert_ts": 1793630392.4662821,
+    "last_score": 83.5,
     "symbol": "GATO"
   },
   "cex_small_cap:swarms": {
@@ -975,8 +975,8 @@
     "symbol": "TRADOOR"
   },
   "cex_small_cap:float": {
-    "last_alert_ts": 1793613782.7042902,
-    "last_score": 55.0,
+    "last_alert_ts": 1793630392.4662821,
+    "last_score": 84.7,
     "symbol": "FLOAT"
   },
   "cex_small_cap:coherent-ondo-tokenized": {
@@ -988,5 +988,15 @@
     "last_alert_ts": 1793628219.535274,
     "last_score": 61.2,
     "symbol": "ALTSZN"
+  },
+  "cex_small_cap:projectvex": {
+    "last_alert_ts": 1793630392.4662821,
+    "last_score": 63.0,
+    "symbol": "VEX"
+  },
+  "cex_small_cap:cash-cat": {
+    "last_alert_ts": 1793630392.4662821,
+    "last_score": 56.0,
+    "symbol": "CASHCAT"
   }
 }
