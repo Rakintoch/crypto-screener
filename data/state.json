@@ -790,8 +790,8 @@
     "symbol": "CASHCAT"
   },
   "dex_micro_cap:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": {
-    "last_alert_ts": 1793678609.1006157,
-    "last_score": 73.5,
+    "last_alert_ts": 1793682472.9956079,
+    "last_score": 94.0,
     "symbol": "MAMESUKE"
   },
   "cex_small_cap:spacex-backpack-securities": {
@@ -898,5 +898,20 @@
     "last_alert_ts": 1793678609.1006157,
     "last_score": 56.4,
     "symbol": "IRYS"
+  },
+  "dex_micro_cap:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": {
+    "last_alert_ts": 1793682472.9956079,
+    "last_score": 83.8,
+    "symbol": "CAPY"
+  },
+  "cex_small_cap:bubblemaps": {
+    "last_alert_ts": 1793682472.9956079,
+    "last_score": 76.2,
+    "symbol": "BMT"
+  },
+  "cex_small_cap:axis-robotics": {
+    "last_alert_ts": 1793682472.9956079,
+    "last_score": 56.2,
+    "symbol": "AXIS"
   }
 }
