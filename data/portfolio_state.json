@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0016215184347534767,
       "entry_ts": 1793613783.196202,
       "cost_eur": 7.877557197237916,
-      "last_price_eur": 0.0017718380189699402,
-      "last_score": 58.8,
+      "last_price_eur": 0.0017810061685179495,
+      "last_score": 59.4,
       "missed_updates": 0,
       "entry_market_cap": 1328878,
       "entry_venue": "LBank",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1445515
+      "last_market_cap": 1453214
     },
     "cex_small_cap:evaa-protocol": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 1.3589043164553511,
       "entry_ts": 1793661557.0156164,
       "cost_eur": 7.500229750159108,
-      "last_price_eur": 1.3416374867262215,
-      "last_score": 68.4,
+      "last_price_eur": 1.341758997904083,
+      "last_score": 66.4,
       "missed_updates": 0,
       "entry_market_cap": 10031420,
       "entry_venue": "Gate",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9960004
+      "last_market_cap": 9915526
     },
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 51.37308711466775,
       "entry_ts": 1793685796.1374996,
       "cost_eur": 7.809886494441914,
-      "last_price_eur": 47.60129802904634,
-      "last_score": 65.8,
+      "last_price_eur": 47.68611478551111,
+      "last_score": 65.0,
       "missed_updates": 0,
       "entry_market_cap": 6701278,
       "entry_venue": "KCEX",
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6362093
+      "last_market_cap": 6373988
     },
     "cex_small_cap:holotoken": {
       "tier": "cex_small_cap",
@@ -117,8 +117,8 @@
       "entry_price_eur": 0.00047875395963463115,
       "entry_ts": 1793707385.8026867,
       "cost_eur": 8.025158857805668,
-      "last_price_eur": 0.0005074430744795031,
-      "last_score": 93.5,
+      "last_price_eur": 0.0005225614593237241,
+      "last_score": 93.7,
       "missed_updates": 0,
       "entry_market_cap": 95081682,
       "entry_venue": "Binance",
@@ -147,7 +147,7 @@
           "source": "Coin Edition"
         }
       ],
-      "last_market_cap": 100891258
+      "last_market_cap": 103763545
     }
   },
   "closed_trades": [
@@ -1316,8 +1316,8 @@
       "pnl_pct": 21.3578404173878
     }
   ],
-  "last_run_ts": 1793709320.0377178,
-  "last_eur_rate": 0.8944249911508144,
+  "last_run_ts": 1793709627.6481035,
+  "last_eur_rate": 0.894505998602722,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
