@@ -15,8 +15,8 @@
       "entry_price_eur": 1.3589043164553511,
       "entry_ts": 1793661557.0156164,
       "cost_eur": 7.500229750159108,
-      "last_price_eur": 1.3403655012193383,
-      "last_score": 60.2,
+      "last_price_eur": 1.3402965034888585,
+      "last_score": 60.6,
       "missed_updates": 0,
       "entry_market_cap": 10031420,
       "entry_venue": "Gate",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9918038
+      "last_market_cap": 9936905
     },
     "cex_small_cap:holotoken": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.00047875395963463115,
       "entry_ts": 1793707385.8026867,
       "cost_eur": 8.025158857805668,
-      "last_price_eur": 0.0004754901936725562,
-      "last_score": 65.0,
+      "last_price_eur": 0.0004735535606126835,
+      "last_score": 64.5,
       "missed_updates": 0,
       "entry_market_cap": 95081682,
       "entry_venue": "Binance",
@@ -79,7 +79,7 @@
           "source": "Coin Edition"
         }
       ],
-      "last_market_cap": 94377629
+      "last_market_cap": 94049407
     }
   },
   "closed_trades": [
@@ -1330,8 +1330,8 @@
       "pnl_pct": 18.578361366020506
     }
   ],
-  "last_run_ts": 1793725258.9583344,
-  "last_eur_rate": 0.8935770008128923,
+  "last_run_ts": 1793725521.300304,
+  "last_eur_rate": 0.8935310023259057,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
