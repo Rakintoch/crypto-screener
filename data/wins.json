@@ -2988,5 +2988,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "MPLX (cex_small_cap) gained +14.0% in 992 min — trailing stop caught extra upside after the target. Entry score: 95. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793700052.419649,
+    "symbol": "ELA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/elastos",
+    "held_minutes": 237.6,
+    "exit_reason": "trailing stop hit — dropped 6.1% from the peak (peak +29.2% since entry)",
+    "pnl_pct": 21.36,
+    "pnl_eur": 1.67,
+    "entry_score": 86.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 4547251,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 13.8367,
+    "entry_chg_24h": 77.55913,
+    "entry_chg_7d": 102.7288,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.3540666440134661,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "ELA (cex_small_cap) gained +21.4% in 238 min — trailing stop caught extra upside after the target. Entry score: 86. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
