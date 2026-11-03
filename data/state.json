@@ -29,11 +29,6 @@
     "last_score": 60.0,
     "symbol": "PARTI"
   },
-  "cex_small_cap:irys": {
-    "last_alert_ts": 1793404977.1358883,
-    "last_score": 71.6,
-    "symbol": "IRYS"
-  },
   "cex_small_cap:squid-3": {
     "last_alert_ts": 1793469778.9173815,
     "last_score": 60.1,
@@ -135,8 +130,8 @@
     "symbol": "VRTON"
   },
   "cex_small_cap:metaplex": {
-    "last_alert_ts": 1793621004.8079531,
-    "last_score": 95.3,
+    "last_alert_ts": 1793664210.1432374,
+    "last_score": 58.2,
     "symbol": "MPLX"
   },
   "cex_small_cap:recall": {
@@ -189,20 +184,10 @@
     "last_score": 70.4,
     "symbol": "GTA6"
   },
-  "cex_small_cap:cetus-protocol": {
-    "last_alert_ts": 1793404977.1358883,
-    "last_score": 56.7,
-    "symbol": "CETUS"
-  },
   "cex_small_cap:lisk": {
     "last_alert_ts": 1793584979.3706324,
     "last_score": 60.6,
     "symbol": "LSK"
-  },
-  "cex_small_cap:my-neighbor-alice": {
-    "last_alert_ts": 1793404977.1358883,
-    "last_score": 58.1,
-    "symbol": "ALICE"
   },
   "cex_small_cap:super-pepe": {
     "last_alert_ts": 1793462594.674102,
@@ -273,21 +258,6 @@
     "last_alert_ts": 1793534576.431619,
     "last_score": 58.9,
     "symbol": "HIPPO"
-  },
-  "dex_micro_cap:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": {
-    "last_alert_ts": 1793404977.1358883,
-    "last_score": 86.3,
-    "symbol": "GLITCH"
-  },
-  "cex_small_cap:endurance": {
-    "last_alert_ts": 1793404977.1358883,
-    "last_score": 59.9,
-    "symbol": "ACE"
-  },
-  "cex_small_cap:axis-robotics": {
-    "last_alert_ts": 1793404977.1358883,
-    "last_score": 57.6,
-    "symbol": "AXIS"
   },
   "cex_small_cap:zkpass": {
     "last_alert_ts": 1793520170.3210776,
@@ -810,8 +780,8 @@
     "symbol": "STORJ"
   },
   "dex_micro_cap:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": {
-    "last_alert_ts": 1793606593.9544399,
-    "last_score": 86.7,
+    "last_alert_ts": 1793664210.1432374,
+    "last_score": 65.8,
     "symbol": "PEACE"
   },
   "cex_small_cap:origin-protocol": {
@@ -825,8 +795,8 @@
     "symbol": "STAR"
   },
   "dex_micro_cap:GoDSW31bTxfkoup9yA1qcGGx9RMXdTEWgApv3xzBmoA": {
-    "last_alert_ts": 1793621004.8079531,
-    "last_score": 71.7,
+    "last_alert_ts": 1793664210.1432374,
+    "last_score": 71.3,
     "symbol": "STEALTH"
   },
   "cex_small_cap:dolphin-2": {
@@ -963,5 +933,10 @@
     "last_alert_ts": 1793661556.4165044,
     "last_score": 66.4,
     "symbol": "FOBO"
+  },
+  "cex_small_cap:moonbeam": {
+    "last_alert_ts": 1793664210.1432374,
+    "last_score": 59.6,
+    "symbol": "GLMR"
   }
 }
