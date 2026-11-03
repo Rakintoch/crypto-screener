@@ -70,8 +70,8 @@
     "symbol": "WORM"
   },
   "cex_small_cap:infinity-ground": {
-    "last_alert_ts": 1793558726.4088109,
-    "last_score": 78.8,
+    "last_alert_ts": 1793712798.687648,
+    "last_score": 60.7,
     "symbol": "AIN"
   },
   "cex_small_cap:audiera": {
@@ -135,8 +135,8 @@
     "symbol": "RAETO"
   },
   "cex_small_cap:meet48": {
-    "last_alert_ts": 1793656996.7760231,
-    "last_score": 67.3,
+    "last_alert_ts": 1793712798.687648,
+    "last_score": 60.7,
     "symbol": "IDOL"
   },
   "cex_small_cap:infinite-money-glitch-3": {
@@ -155,8 +155,8 @@
     "symbol": "LSK"
   },
   "cex_small_cap:super-pepe": {
-    "last_alert_ts": 1793462594.674102,
-    "last_score": 67.4,
+    "last_alert_ts": 1793712798.687648,
+    "last_score": 73.3,
     "symbol": "SP"
   },
   "cex_small_cap:regent-coin": {
@@ -635,8 +635,8 @@
     "symbol": "PEAK"
   },
   "cex_small_cap:south-korea-bull-3x-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793628219.535274,
-    "last_score": 64.2,
+    "last_alert_ts": 1793712798.687648,
+    "last_score": 55.5,
     "symbol": "KORUB"
   },
   "cex_small_cap:securitize-bstocks-tokenized-stock": {
@@ -883,5 +883,35 @@
     "last_alert_ts": 1793700209.060939,
     "last_score": 55.0,
     "symbol": "LAB"
+  },
+  "dex_micro_cap:9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": {
+    "last_alert_ts": 1793712798.687648,
+    "last_score": 85.5,
+    "symbol": "Slingoor"
+  },
+  "cex_small_cap:wasted": {
+    "last_alert_ts": 1793712798.687648,
+    "last_score": 84.6,
+    "symbol": "WASTED"
+  },
+  "cex_small_cap:tradr-2x-long-sndk-etf-bstocks-tokenized-stock": {
+    "last_alert_ts": 1793712798.687648,
+    "last_score": 58.8,
+    "symbol": "SNXXB"
+  },
+  "cex_small_cap:book-of-meme": {
+    "last_alert_ts": 1793712798.687648,
+    "last_score": 56.6,
+    "symbol": "BOME"
+  },
+  "dex_micro_cap:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
+    "last_alert_ts": 1793712798.687648,
+    "last_score": 56.1,
+    "symbol": "Dacity"
+  },
+  "cex_small_cap:puffer-finance": {
+    "last_alert_ts": 1793712798.687648,
+    "last_score": 55.5,
+    "symbol": "PUFFER"
   }
 }
