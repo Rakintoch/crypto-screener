@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0016215184347534767,
       "entry_ts": 1793613783.196202,
       "cost_eur": 7.877557197237916,
-      "last_price_eur": 0.0018160243576387147,
-      "last_score": 64.2,
+      "last_price_eur": 0.0018079180007519525,
+      "last_score": 64.3,
       "missed_updates": 0,
       "entry_market_cap": 1328878,
       "entry_venue": "LBank",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1484562
+      "last_market_cap": 1478391
     },
     "cex_small_cap:evaa-protocol": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 1.3589043164553511,
       "entry_ts": 1793661557.0156164,
       "cost_eur": 7.500229750159108,
-      "last_price_eur": 1.3213943211923787,
-      "last_score": 69.9,
+      "last_price_eur": 1.3388414946769398,
+      "last_score": 71.0,
       "missed_updates": 0,
       "entry_market_cap": 10031420,
       "entry_venue": "Gate",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9796263
+      "last_market_cap": 9920630
     },
     "cex_small_cap:elastos": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.49697252340737624,
       "entry_ts": 1793685796.1374996,
       "cost_eur": 7.809886494441915,
-      "last_price_eur": 0.4953826955090155,
-      "last_score": 63.5,
+      "last_price_eur": 0.4968637150165342,
+      "last_score": 58.2,
       "missed_updates": 0,
       "entry_market_cap": 12842924,
       "entry_venue": "Coinbase Exchange",
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12810595
+      "last_market_cap": 12852831
     },
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -117,8 +117,8 @@
       "entry_price_eur": 51.37308711466775,
       "entry_ts": 1793685796.1374996,
       "cost_eur": 7.809886494441914,
-      "last_price_eur": 51.052248166067706,
-      "last_score": 64.9,
+      "last_price_eur": 51.125893876730075,
+      "last_score": 64.7,
       "missed_updates": 0,
       "entry_market_cap": 6701278,
       "entry_venue": "KCEX",
@@ -139,7 +139,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6699690
+      "last_market_cap": 6711253
     }
   },
   "closed_trades": [
@@ -1266,8 +1266,8 @@
       "pnl_pct": 14.03152373958971
     }
   ],
-  "last_run_ts": 1793691323.3577385,
-  "last_eur_rate": 0.8928340008056612,
+  "last_run_ts": 1793691625.6978076,
+  "last_eur_rate": 0.8925609964512932,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
