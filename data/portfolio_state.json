@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 29.726041181744034,
+  "cash_eur": 21.700882323938366,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:cyberleek": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0016215184347534767,
       "entry_ts": 1793613783.196202,
       "cost_eur": 7.877557197237916,
-      "last_price_eur": 0.0018281520449875519,
-      "last_score": 68.4,
+      "last_price_eur": 0.001790871254770459,
+      "last_score": 62.0,
       "missed_updates": 0,
       "entry_market_cap": 1328878,
       "entry_venue": "LBank",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1490321
+      "last_market_cap": 1461527
     },
     "cex_small_cap:evaa-protocol": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 1.3589043164553511,
       "entry_ts": 1793661557.0156164,
       "cost_eur": 7.500229750159108,
-      "last_price_eur": 1.3599059927380155,
-      "last_score": 66.0,
+      "last_price_eur": 1.3594104699046148,
+      "last_score": 67.9,
       "missed_updates": 0,
       "entry_market_cap": 10031420,
       "entry_venue": "Gate",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10076399
+      "last_market_cap": 10101600
     },
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 51.37308711466775,
       "entry_ts": 1793685796.1374996,
       "cost_eur": 7.809886494441914,
-      "last_price_eur": 49.52026098555866,
-      "last_score": 62.6,
+      "last_price_eur": 49.806295440123684,
+      "last_score": 70.3,
       "missed_updates": 0,
       "entry_market_cap": 6701278,
       "entry_venue": "KCEX",
@@ -105,7 +105,48 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6613871
+      "last_market_cap": 6657439
+    },
+    "cex_small_cap:holotoken": {
+      "tier": "cex_small_cap",
+      "id": "holotoken",
+      "symbol": "HOT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/holotoken",
+      "qty": 16762.595266951314,
+      "entry_price_eur": 0.00047875395963463115,
+      "entry_ts": 1793707385.8026867,
+      "cost_eur": 8.025158857805668,
+      "last_price_eur": 0.00047875395963463115,
+      "last_score": 89.3,
+      "missed_updates": 0,
+      "entry_market_cap": 95081682,
+      "entry_venue": "Binance",
+      "entry_contract_address": "0x6c6ee5e31d828de241282b9606c8e98ea48526e2 (ETH)",
+      "entry_score": 89.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 60525464,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 6.0429,
+      "entry_chg_24h": 41.46693,
+      "entry_chg_7d": 35.7055,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.636562823951726,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Holo Price Prediction: HOT Breaks Downtrend as HoloFuel Launch Sparks Fresh Buying - Coin Edition",
+          "ts": 1793689851.0,
+          "source": "Coin Edition"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -1274,8 +1315,8 @@
       "pnl_pct": 21.3578404173878
     }
   ],
-  "last_run_ts": 1793706918.304047,
-  "last_eur_rate": 0.8946749952223786,
+  "last_run_ts": 1793707385.8026867,
+  "last_eur_rate": 0.8943489933582992,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
