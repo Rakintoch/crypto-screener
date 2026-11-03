@@ -11980,5 +11980,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "DEFI (cex_small_cap) lost -11.1% in 7 min (very fast (<1h)) — stop-loss hit. Entry score: 98 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793671383.376651,
+    "symbol": "AIN",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/infinity-ground",
+    "held_minutes": 1680.1,
+    "exit_reason": "rotated out — thesis fading (score 32, no unrealized gain) to free a slot for a new qualified candidate",
+    "pnl_pct": -0.67,
+    "pnl_eur": -0.05,
+    "entry_score": 75.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 20421804,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 2.93,
+    "entry_chg_24h": 20.52921,
+    "entry_chg_7d": 674.1505,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.39826958764777504,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "AIN (cex_small_cap) lost -0.7% in 1680 min (slow (>6h)) — other. Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
