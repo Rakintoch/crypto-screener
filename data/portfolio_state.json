@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 35.8096375731753,
+  "cash_eur": 20.55665280901301,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:evaa-protocol": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 1.3589043164553511,
       "entry_ts": 1793661557.0156164,
       "cost_eur": 7.500229750159108,
-      "last_price_eur": 1.361395531795008,
-      "last_score": 64.7,
+      "last_price_eur": 1.3794767457413397,
+      "last_score": 62.8,
       "missed_updates": 0,
       "entry_market_cap": 10031420,
       "entry_venue": "Gate",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10109832
+      "last_market_cap": 10274699
     },
     "cex_small_cap:bubblemaps": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.027502964697551726,
       "entry_ts": 1793757213.6131604,
       "cost_eur": 7.642750500002331,
-      "last_price_eur": 0.026957001823082964,
-      "last_score": 62.7,
+      "last_price_eur": 0.02670091159462011,
+      "last_score": 75.9,
       "missed_updates": 0,
       "entry_market_cap": 23529453,
       "entry_venue": "Upbit",
@@ -79,7 +79,92 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 23040570
+      "last_market_cap": 22816972
+    },
+    "cex_small_cap:lisk": {
+      "tier": "cex_small_cap",
+      "id": "lisk",
+      "symbol": "LSK",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/lisk",
+      "qty": 42.6317473902929,
+      "entry_price_eur": 0.17889232435773142,
+      "entry_ts": 1793772185.2781668,
+      "cost_eur": 7.626492382081147,
+      "last_price_eur": 0.17889232435773142,
+      "last_score": 77.5,
+      "missed_updates": 0,
+      "entry_market_cap": 44253073,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f (ETH)",
+      "entry_score": 77.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 23659649,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 6.3144,
+      "entry_chg_24h": 14.49639,
+      "entry_chg_7d": 18.0794,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.5346442042567304,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "restructuring",
+        "supply_cut"
+      ],
+      "entry_catalyst_score": 0.9,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Lisk Shuts Down Lisk Chain Blockchain, Shifts to Financial Platform for Businesses - Incrypted",
+          "ts": 1793699071.0,
+          "source": "Incrypted"
+        },
+        {
+          "title": "Lisk Chain Shut Down After 10 Years: LSK Survives, 5.23M to Burn - Coin Gabbar",
+          "ts": 1793688240.0,
+          "source": "Coin Gabbar"
+        },
+        {
+          "title": "Lisk Officially Shuts Down Blockchain After 10 Years - U.Today",
+          "ts": 1793659617.0,
+          "source": "U.Today"
+        }
+      ]
+    },
+    "cex_small_cap:tokenbot-2": {
+      "tier": "cex_small_cap",
+      "id": "tokenbot-2",
+      "symbol": "CLANKER",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/tokenbot-2",
+      "qty": 0.5309316614580678,
+      "entry_price_eur": 14.364357855654982,
+      "entry_ts": 1793772185.2781668,
+      "cost_eur": 7.626492382081147,
+      "last_price_eur": 14.364357855654982,
+      "last_score": 72.0,
+      "missed_updates": 0,
+      "entry_market_cap": 15934638,
+      "entry_venue": "Coinbase Exchange",
+      "entry_contract_address": null,
+      "entry_score": 72.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 7423064,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 2.3115,
+      "entry_chg_24h": 45.05432,
+      "entry_chg_7d": 16.3512,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.4658445331484782,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -1506,8 +1591,8 @@
       "pnl_pct": -2.9849014136997742
     }
   ],
-  "last_run_ts": 1793771720.4445333,
-  "last_eur_rate": 0.8898010011732078,
+  "last_run_ts": 1793772185.2781668,
+  "last_eur_rate": 0.8899849972524772,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
