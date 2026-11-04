@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 25.876384868073472,
+  "cash_eur": 18.66301470390557,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:evaa-protocol": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 1.3589043164553511,
       "entry_ts": 1793661557.0156164,
       "cost_eur": 7.500229750159108,
-      "last_price_eur": 1.3803354564246204,
-      "last_score": 57.8,
+      "last_price_eur": 1.3714624095056138,
+      "last_score": 44.9,
       "missed_updates": 0,
       "entry_market_cap": 10031420,
       "entry_venue": "Gate",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10246809
+      "last_market_cap": 10191432
     },
     "cex_small_cap:lisk": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.17889232435773142,
       "entry_ts": 1793772185.2781668,
       "cost_eur": 7.626492382081147,
-      "last_price_eur": 0.1764264631891577,
-      "last_score": 66.2,
+      "last_price_eur": 0.17646357466307006,
+      "last_score": 57.0,
       "missed_updates": 0,
       "entry_market_cap": 44253073,
       "entry_venue": "Upbit",
@@ -90,7 +90,7 @@
           "source": "U.Today"
         }
       ],
-      "last_market_cap": 43621713
+      "last_market_cap": 43626654
     },
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -102,8 +102,8 @@
       "entry_price_eur": 53.4758861789029,
       "entry_ts": 1793808161.9820242,
       "cost_eur": 7.3551266654894905,
-      "last_price_eur": 51.94514011177297,
-      "last_score": 67.6,
+      "last_price_eur": 51.76825315880606,
+      "last_score": 67.1,
       "missed_updates": 0,
       "entry_market_cap": 8268459,
       "entry_venue": "KCEX",
@@ -124,7 +124,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 8209381
+      "last_market_cap": 8181470
+    },
+    "cex_small_cap:elsa": {
+      "tier": "cex_small_cap",
+      "id": "elsa",
+      "symbol": "ELSA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/elsa",
+      "qty": 72.95946358818982,
+      "entry_price_eur": 0.098868190765256,
+      "entry_ts": 1793829772.9892118,
+      "cost_eur": 7.213370164167901,
+      "last_price_eur": 0.098868190765256,
+      "last_score": 93.2,
+      "missed_updates": 0,
+      "entry_market_cap": 25420790,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x29cc30f9d113b356ce408667aa6433589cecbdca (Base)",
+      "entry_score": 93.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 29990773,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 6.5799,
+      "entry_chg_24h": 70.98557,
+      "entry_chg_7d": 21.0538,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.1797734452784512,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -1727,8 +1760,8 @@
       "pnl_pct": -8.159788088617553
     }
   ],
-  "last_run_ts": 1793829319.980159,
-  "last_eur_rate": 0.8905390041449164,
+  "last_run_ts": 1793829772.9892118,
+  "last_eur_rate": 0.8905600061724765,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
