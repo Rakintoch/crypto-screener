@@ -120,8 +120,8 @@
     "symbol": "RAETO"
   },
   "cex_small_cap:meet48": {
-    "last_alert_ts": 1793714585.1517434,
-    "last_score": 95.4,
+    "last_alert_ts": 1793757808.806199,
+    "last_score": 68.3,
     "symbol": "IDOL"
   },
   "dex_micro_cap:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
@@ -213,11 +213,6 @@
     "last_alert_ts": 1793630392.4662821,
     "last_score": 83.5,
     "symbol": "GATO"
-  },
-  "cex_small_cap:reserve-rights-token": {
-    "last_alert_ts": 1793498575.9600863,
-    "last_score": 60.7,
-    "symbol": "RSR"
   },
   "cex_small_cap:yooldo-games": {
     "last_alert_ts": 1793743346.6153262,
@@ -963,5 +958,10 @@
     "last_alert_ts": 1793757213.027533,
     "last_score": 69.1,
     "symbol": "AMD"
+  },
+  "dex_micro_cap:0x6f18277e5566090ad8ab35e401ce9155739bfb07": {
+    "last_alert_ts": 1793757808.806199,
+    "last_score": 58.7,
+    "symbol": "Reboot"
   }
 }
