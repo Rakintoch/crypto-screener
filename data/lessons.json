@@ -12061,5 +12061,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "PYBOBO (cex_small_cap) lost -11.1% in 88 min (fast (1-6h)) — stop-loss hit. Entry score: 83 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793757023.0237973,
+    "symbol": "HOT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/holotoken",
+    "held_minutes": 827.3,
+    "exit_reason": "stop-loss hit (-11.2%)",
+    "pnl_pct": -11.23,
+    "pnl_eur": -0.9,
+    "entry_score": 89.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 60525464,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.0429,
+    "entry_chg_24h": 41.46693,
+    "entry_chg_7d": 35.7055,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.636562823951726,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "HOT (cex_small_cap) lost -11.2% in 827 min (slow (>6h)) — stop-loss hit. Entry score: 89 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

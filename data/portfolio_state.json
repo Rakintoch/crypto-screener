@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 29.295144597441233,
+  "cash_eur": 36.41938199585183,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:evaa-protocol": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 1.3589043164553511,
       "entry_ts": 1793661557.0156164,
       "cost_eur": 7.500229750159108,
-      "last_price_eur": 1.287814596355187,
-      "last_score": 43.1,
+      "last_price_eur": 1.2876608929270335,
+      "last_score": 42.1,
       "missed_updates": 0,
       "entry_market_cap": 10031420,
       "entry_venue": "Gate",
@@ -37,49 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9603808
-    },
-    "cex_small_cap:holotoken": {
-      "tier": "cex_small_cap",
-      "id": "holotoken",
-      "symbol": "HOT",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/holotoken",
-      "qty": 16762.595266951314,
-      "entry_price_eur": 0.00047875395963463115,
-      "entry_ts": 1793707385.8026867,
-      "cost_eur": 8.025158857805668,
-      "last_price_eur": 0.0004530265305578302,
-      "last_score": 64.3,
-      "missed_updates": 0,
-      "entry_market_cap": 95081682,
-      "entry_venue": "Binance",
-      "entry_contract_address": "0x6c6ee5e31d828de241282b9606c8e98ea48526e2 (ETH)",
-      "entry_score": 89.3,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 60525464,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 6.0429,
-      "entry_chg_24h": 41.46693,
-      "entry_chg_7d": 35.7055,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.636562823951726,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Holo Price Prediction: HOT Breaks Downtrend as HoloFuel Launch Sparks Fresh Buying - Coin Edition",
-          "ts": 1793689851.0,
-          "source": "Coin Edition"
-        }
-      ],
-      "last_market_cap": 90600503
+      "last_market_cap": 9617710
     },
     "cex_small_cap:saga-2": {
       "tier": "cex_small_cap",
@@ -91,8 +49,8 @@
       "entry_price_eur": 0.016068107877039463,
       "entry_ts": 1793729027.0255706,
       "cost_eur": 7.960779603362592,
-      "last_price_eur": 0.014817497049383059,
-      "last_score": 44.6,
+      "last_price_eur": 0.01484427021912221,
+      "last_score": 44.8,
       "missed_updates": 0,
       "entry_market_cap": 7493039,
       "entry_venue": "HTX",
@@ -113,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6948804
+      "last_market_cap": 6962192
     }
   },
   "closed_trades": [
@@ -1410,10 +1368,58 @@
       "proceeds_eur": 7.093170722900429,
       "pnl_eur": -0.8833400049457873,
       "pnl_pct": -11.07426586743027
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "holotoken",
+      "symbol": "HOT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/holotoken",
+      "qty": 16762.595266951314,
+      "entry_price_eur": 0.00047875395963463115,
+      "entry_ts": 1793707385.8026867,
+      "cost_eur": 8.025158857805668,
+      "last_price_eur": 0.000425008018445482,
+      "last_score": 58.2,
+      "missed_updates": 0,
+      "entry_market_cap": 95081682,
+      "entry_venue": "Binance",
+      "entry_contract_address": "0x6c6ee5e31d828de241282b9606c8e98ea48526e2 (ETH)",
+      "entry_score": 89.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 60525464,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 6.0429,
+      "entry_chg_24h": 41.46693,
+      "entry_chg_7d": 35.7055,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.636562823951726,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Holo Price Prediction: HOT Breaks Downtrend as HoloFuel Launch Sparks Fresh Buying - Coin Edition",
+          "ts": 1793689851.0,
+          "source": "Coin Edition"
+        }
+      ],
+      "last_market_cap": 85007054,
+      "exit_price_eur": 0.000425008018445482,
+      "exit_ts": 1793757023.0237973,
+      "exit_reason": "stop-loss hit (-11.2%)",
+      "proceeds_eur": 7.124237398410593,
+      "pnl_eur": -0.9009214593950743,
+      "pnl_pct": -11.226213404097209
     }
   ],
-  "last_run_ts": 1793756727.44294,
-  "last_eur_rate": 0.8881479974863359,
+  "last_run_ts": 1793757023.0237973,
+  "last_eur_rate": 0.888041995122092,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
