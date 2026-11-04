@@ -15,8 +15,8 @@
       "entry_price_eur": 1.3589043164553511,
       "entry_ts": 1793661557.0156164,
       "cost_eur": 7.500229750159108,
-      "last_price_eur": 1.4146691053686171,
-      "last_score": 61.4,
+      "last_price_eur": 1.414719989256227,
+      "last_score": 62.3,
       "missed_updates": 0,
       "entry_market_cap": 10031420,
       "entry_venue": "Gate",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10509499
+      "last_market_cap": 10529207
     },
     "cex_small_cap:bubblemaps": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.027502964697551726,
       "entry_ts": 1793757213.6131604,
       "cost_eur": 7.642750500002331,
-      "last_price_eur": 0.026870465214200726,
-      "last_score": 62.5,
+      "last_price_eur": 0.026477552312129726,
+      "last_score": 62.1,
       "missed_updates": 0,
       "entry_market_cap": 23529453,
       "entry_venue": "Upbit",
@@ -79,7 +79,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 22968463
+      "last_market_cap": 22631797
     },
     "cex_small_cap:lisk": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.17889232435773142,
       "entry_ts": 1793772185.2781668,
       "cost_eur": 7.626492382081147,
-      "last_price_eur": 0.1807110771403831,
-      "last_score": 73.0,
+      "last_price_eur": 0.17757494124264198,
+      "last_score": 71.4,
       "missed_updates": 0,
       "entry_market_cap": 44253073,
       "entry_venue": "Upbit",
@@ -132,7 +132,7 @@
           "source": "U.Today"
         }
       ],
-      "last_market_cap": 44715866
+      "last_market_cap": 43938254
     }
   },
   "closed_trades": [
@@ -1599,8 +1599,8 @@
       "pnl_pct": -8.024509030305438
     }
   ],
-  "last_run_ts": 1793780718.3341355,
-  "last_eur_rate": 0.8897289970871806,
+  "last_run_ts": 1793781041.6507926,
+  "last_eur_rate": 0.8897609995322182,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
