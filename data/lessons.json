@@ -12250,5 +12250,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "PARTI (cex_small_cap) lost -8.2% in 462 min (slow (>6h)) — stop-loss hit. Entry score: 78 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793832625.1500552,
+    "symbol": "ELSA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/elsa",
+    "held_minutes": 47.5,
+    "exit_reason": "stop-loss hit (-8.8%)",
+    "pnl_pct": -8.85,
+    "pnl_eur": -0.64,
+    "entry_score": 93.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 29990773,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.5799,
+    "entry_chg_24h": 70.98557,
+    "entry_chg_7d": 21.0538,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.1797734452784512,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "ELSA (cex_small_cap) lost -8.8% in 48 min (very fast (<1h)) — stop-loss hit. Entry score: 93 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
