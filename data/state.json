@@ -184,20 +184,10 @@
     "last_score": 58.9,
     "symbol": "HIPPO"
   },
-  "cex_small_cap:zkpass": {
-    "last_alert_ts": 1793520170.3210776,
-    "last_score": 55.9,
-    "symbol": "ZKP"
-  },
   "cex_small_cap:chop-3": {
     "last_alert_ts": 1793558726.4088109,
     "last_score": 56.0,
     "symbol": "CHOP"
-  },
-  "cex_small_cap:gunz": {
-    "last_alert_ts": 1793520170.3210776,
-    "last_score": 60.6,
-    "symbol": "GUN"
   },
   "cex_small_cap:intuition": {
     "last_alert_ts": 1793656996.7760231,
@@ -218,16 +208,6 @@
     "last_alert_ts": 1793743346.6153262,
     "last_score": 57.5,
     "symbol": "ESPORTS"
-  },
-  "cex_small_cap:dessa": {
-    "last_alert_ts": 1793513004.2273479,
-    "last_score": 66.9,
-    "symbol": "DESSA"
-  },
-  "cex_small_cap:jotchua": {
-    "last_alert_ts": 1793520170.3210776,
-    "last_score": 61.1,
-    "symbol": "JOTCHUA"
   },
   "cex_small_cap:okzoo": {
     "last_alert_ts": 1793536629.1751878,
@@ -299,25 +279,10 @@
     "last_score": 55.1,
     "symbol": "DACITYCOIN"
   },
-  "cex_small_cap:rebate": {
-    "last_alert_ts": 1793520170.3210776,
-    "last_score": 60.9,
-    "symbol": "REBATE"
-  },
-  "cex_small_cap:big-time": {
-    "last_alert_ts": 1793520170.3210776,
-    "last_score": 58.2,
-    "symbol": "BIGTIME"
-  },
   "cex_small_cap:coti": {
     "last_alert_ts": 1793592388.9500415,
     "last_score": 59.8,
     "symbol": "COTI"
-  },
-  "cex_small_cap:prometeus": {
-    "last_alert_ts": 1793520170.3210776,
-    "last_score": 55.8,
-    "symbol": "PROM"
   },
   "cex_small_cap:ratspeak": {
     "last_alert_ts": 1793527386.9495604,
@@ -395,8 +360,8 @@
     "symbol": "XDB"
   },
   "cex_small_cap:neosoul": {
-    "last_alert_ts": 1793649744.9167867,
-    "last_score": 55.9,
+    "last_alert_ts": 1793779405.776278,
+    "last_score": 58.5,
     "symbol": "DNA"
   },
   "dex_micro_cap:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": {
@@ -780,8 +745,8 @@
     "symbol": "MOGMAS"
   },
   "cex_small_cap:saga-2": {
-    "last_alert_ts": 1793729026.5273163,
-    "last_score": 74.6,
+    "last_alert_ts": 1793779405.776278,
+    "last_score": 55.4,
     "symbol": "SAGA"
   },
   "dex_micro_cap:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
@@ -973,5 +938,20 @@
     "last_alert_ts": 1793772184.7568083,
     "last_score": 60.6,
     "symbol": "SOXLB"
+  },
+  "dex_micro_cap:AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M": {
+    "last_alert_ts": 1793779405.776278,
+    "last_score": 80.3,
+    "symbol": "Mag"
+  },
+  "cex_small_cap:bundle-cat": {
+    "last_alert_ts": 1793779405.776278,
+    "last_score": 61.0,
+    "symbol": "BUN"
+  },
+  "cex_small_cap:artificial-inu-3": {
+    "last_alert_ts": 1793779405.776278,
+    "last_score": 58.7,
+    "symbol": "AI"
   }
 }
