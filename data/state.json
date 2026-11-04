@@ -1,12 +1,7 @@
 {
-  "cex_small_cap:gitcoin": {
-    "last_alert_ts": 1793527386.9495604,
-    "last_score": 56.0,
-    "symbol": "GTC"
-  },
   "cex_small_cap:janction": {
-    "last_alert_ts": 1793692973.1728067,
-    "last_score": 59.1,
+    "last_alert_ts": 1793793796.0588024,
+    "last_score": 60.8,
     "symbol": "JCT"
   },
   "cex_small_cap:doodles": {
@@ -25,8 +20,8 @@
     "symbol": "BIRB"
   },
   "cex_small_cap:particle-network": {
-    "last_alert_ts": 1793656996.7760231,
-    "last_score": 60.0,
+    "last_alert_ts": 1793793796.0588024,
+    "last_score": 78.0,
     "symbol": "PARTI"
   },
   "cex_small_cap:initia": {
@@ -38,11 +33,6 @@
     "last_alert_ts": 1793678609.1006157,
     "last_score": 55.4,
     "symbol": "XDP"
-  },
-  "cex_small_cap:super-inu-2": {
-    "last_alert_ts": 1793534576.431619,
-    "last_score": 67.8,
-    "symbol": "SI"
   },
   "cex_small_cap:apriori": {
     "last_alert_ts": 1793536629.1751878,
@@ -124,11 +114,6 @@
     "last_score": 68.3,
     "symbol": "IDOL"
   },
-  "dex_micro_cap:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-    "last_alert_ts": 1793534576.431619,
-    "last_score": 70.4,
-    "symbol": "GTA6"
-  },
   "cex_small_cap:lisk": {
     "last_alert_ts": 1793772184.7568083,
     "last_score": 77.5,
@@ -179,11 +164,6 @@
     "last_score": 88.9,
     "symbol": "HOT"
   },
-  "cex_small_cap:sudeng": {
-    "last_alert_ts": 1793534576.431619,
-    "last_score": 58.9,
-    "symbol": "HIPPO"
-  },
   "cex_small_cap:chop-3": {
     "last_alert_ts": 1793558726.4088109,
     "last_score": 56.0,
@@ -213,11 +193,6 @@
     "last_alert_ts": 1793536629.1751878,
     "last_score": 56.3,
     "symbol": "AIOT"
-  },
-  "dex_micro_cap:0xf7b9cf4dab32ce42f1e08c05f561ccc0e7b44cea": {
-    "last_alert_ts": 1793527386.9495604,
-    "last_score": 58.2,
-    "symbol": "Anthropic"
   },
   "cex_small_cap:jean-phil": {
     "last_alert_ts": 1793649744.9167867,
@@ -269,11 +244,6 @@
     "last_score": 92.4,
     "symbol": "PAWCAT"
   },
-  "dex_micro_cap:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": {
-    "last_alert_ts": 1793527386.9495604,
-    "last_score": 99.5,
-    "symbol": "BLUE"
-  },
   "cex_small_cap:audacity": {
     "last_alert_ts": 1793743346.6153262,
     "last_score": 55.1,
@@ -284,30 +254,15 @@
     "last_score": 59.8,
     "symbol": "COTI"
   },
-  "cex_small_cap:ratspeak": {
-    "last_alert_ts": 1793527386.9495604,
-    "last_score": 86.7,
-    "symbol": "RATSPEAK"
-  },
   "cex_small_cap:flock-2": {
     "last_alert_ts": 1793781229.4309528,
     "last_score": 68.4,
     "symbol": "FLOCK"
   },
-  "cex_small_cap:marscoin-4": {
-    "last_alert_ts": 1793527386.9495604,
-    "last_score": 55.2,
-    "symbol": "MARSCOIN"
-  },
   "cex_small_cap:taonado": {
     "last_alert_ts": 1793577804.6924438,
     "last_score": 56.0,
     "symbol": "SN113"
-  },
-  "dex_micro_cap:3kRQDKPGqMWwBdGjiVPpPqVzFsnYG5PDqvrVz1D2pump": {
-    "last_alert_ts": 1793534576.431619,
-    "last_score": 60.4,
-    "symbol": "tipr"
   },
   "dex_micro_cap:0x4973aaa8271f044e586b71129791e25b1e807777": {
     "last_alert_ts": 1793536629.1751878,
@@ -770,8 +725,8 @@
     "symbol": "HOTBOT"
   },
   "cex_small_cap:olaxbt": {
-    "last_alert_ts": 1793729026.5273163,
-    "last_score": 57.3,
+    "last_alert_ts": 1793793796.0588024,
+    "last_score": 56.7,
     "symbol": "AIO"
   },
   "dex_micro_cap:7gCND4jhgJ8Mq1XxNhRdercinXh7fcCDPjA9uEQLk3f2": {
@@ -790,8 +745,8 @@
     "symbol": "1WIN"
   },
   "cex_small_cap:tokenbot-2": {
-    "last_alert_ts": 1793737536.91445,
-    "last_score": 62.1,
+    "last_alert_ts": 1793793796.0588024,
+    "last_score": 71.3,
     "symbol": "CLANKER"
   },
   "cex_small_cap:portal-2": {
@@ -963,5 +918,15 @@
     "last_alert_ts": 1793781229.4309528,
     "last_score": 58.9,
     "symbol": "EGL1"
+  },
+  "cex_small_cap:orbio-so": {
+    "last_alert_ts": 1793793796.0588024,
+    "last_score": 66.9,
+    "symbol": "ORBIO"
+  },
+  "dex_micro_cap:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": {
+    "last_alert_ts": 1793793796.0588024,
+    "last_score": 60.7,
+    "symbol": "ANONVOYAGE"
   }
 }
