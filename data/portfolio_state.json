@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 30.17848460238702,
+  "cash_eur": 22.201973874540805,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:evaa-protocol": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 1.3589043164553511,
       "entry_ts": 1793661557.0156164,
       "cost_eur": 7.500229750159108,
-      "last_price_eur": 1.3029886768346053,
-      "last_score": 52.8,
+      "last_price_eur": 1.3027711458143363,
+      "last_score": 47.4,
       "missed_updates": 0,
       "entry_market_cap": 10031420,
       "entry_venue": "Gate",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9656021
+      "last_market_cap": 9685851
     },
     "cex_small_cap:holotoken": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.00047875395963463115,
       "entry_ts": 1793707385.8026867,
       "cost_eur": 8.025158857805668,
-      "last_price_eur": 0.0004969116886128356,
-      "last_score": 89.2,
+      "last_price_eur": 0.0004898776431863498,
+      "last_score": 64.1,
       "missed_updates": 0,
       "entry_market_cap": 95081682,
       "entry_venue": "Binance",
@@ -79,7 +79,7 @@
           "source": "Coin Edition"
         }
       ],
-      "last_market_cap": 98842909
+      "last_market_cap": 97513569
     },
     "cex_small_cap:saga-2": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.016068107877039463,
       "entry_ts": 1793729027.0255706,
       "cost_eur": 7.960779603362592,
-      "last_price_eur": 0.015330759506296466,
-      "last_score": 56.2,
+      "last_price_eur": 0.015332277922728763,
+      "last_score": 49.7,
       "missed_updates": 0,
       "entry_market_cap": 7493039,
       "entry_venue": "HTX",
@@ -113,7 +113,48 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7156772
+      "last_market_cap": 7156687
+    },
+    "cex_small_cap:capybobo": {
+      "tier": "cex_small_cap",
+      "id": "capybobo",
+      "symbol": "PYBOBO",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/capybobo",
+      "qty": 14896.646974821117,
+      "entry_price_eur": 0.0005354567871097718,
+      "entry_ts": 1793750586.7915227,
+      "cost_eur": 7.976510727846216,
+      "last_price_eur": 0.0005354567871097718,
+      "last_score": 83.3,
+      "missed_updates": 0,
+      "entry_market_cap": 21193648,
+      "entry_venue": "Bithumb",
+      "entry_contract_address": "EQD3-DscdjEM95zRmW936vGVr6O7uFJ1W6a8--7-Vg3rtfGy (the-open-network)",
+      "entry_score": 83.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 8429268,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 8.576,
+      "entry_chg_24h": 51.70164,
+      "entry_chg_7d": 24.1353,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.3977261488914037,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Capybobo Launches AI-Powered Digital Collectibles with Personalized Storytelling and Educational Programs - KuCoin",
+          "ts": 1793178187.0,
+          "source": "KuCoin"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -1364,8 +1405,8 @@
       "pnl_pct": 18.578361366020506
     }
   ],
-  "last_run_ts": 1793750127.6081283,
-  "last_eur_rate": 0.8924579978319215,
+  "last_run_ts": 1793750586.7915227,
+  "last_eur_rate": 0.8923090039824221,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
