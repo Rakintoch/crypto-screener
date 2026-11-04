@@ -15,8 +15,8 @@
       "entry_price_eur": 1.3589043164553511,
       "entry_ts": 1793661557.0156164,
       "cost_eur": 7.500229750159108,
-      "last_price_eur": 1.3017871107232508,
-      "last_score": 42.4,
+      "last_price_eur": 1.3001883987806298,
+      "last_score": 43.8,
       "missed_updates": 0,
       "entry_market_cap": 10031420,
       "entry_venue": "Gate",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 9640726
+      "last_market_cap": 9675442
     },
     "cex_small_cap:holotoken": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.00047875395963463115,
       "entry_ts": 1793707385.8026867,
       "cost_eur": 8.025158857805668,
-      "last_price_eur": 0.00047459948170943284,
+      "last_price_eur": 0.00047705337215259977,
       "last_score": 66.6,
       "missed_updates": 0,
       "entry_market_cap": 95081682,
@@ -79,7 +79,7 @@
           "source": "Coin Edition"
         }
       ],
-      "last_market_cap": 94537358
+      "last_market_cap": 95149381
     },
     "cex_small_cap:saga-2": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.016068107877039463,
       "entry_ts": 1793729027.0255706,
       "cost_eur": 7.960779603362592,
-      "last_price_eur": 0.015048828410612175,
-      "last_score": 45.9,
+      "last_price_eur": 0.014903427331822953,
+      "last_score": 44.8,
       "missed_updates": 0,
       "entry_market_cap": 7493039,
       "entry_venue": "HTX",
@@ -113,7 +113,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7031783
+      "last_market_cap": 6970332
     },
     "cex_small_cap:capybobo": {
       "tier": "cex_small_cap",
@@ -125,7 +125,7 @@
       "entry_price_eur": 0.0005354567871097718,
       "entry_ts": 1793750586.7915227,
       "cost_eur": 7.976510727846216,
-      "last_price_eur": 0.0005147141406898706,
+      "last_price_eur": 0.0005082400829233515,
       "last_score": 55.5,
       "missed_updates": 0,
       "entry_market_cap": 21193648,
@@ -155,7 +155,7 @@
           "source": "KuCoin"
         }
       ],
-      "last_market_cap": 20418593
+      "last_market_cap": 20165046
     }
   },
   "closed_trades": [
@@ -1406,8 +1406,8 @@
       "pnl_pct": 18.578361366020506
     }
   ],
-  "last_run_ts": 1793754318.0193515,
-  "last_eur_rate": 0.8916350073446924,
+  "last_run_ts": 1793754623.2401,
+  "last_eur_rate": 0.890539999164815,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
