@@ -40,8 +40,8 @@
     "symbol": "MUSEBOOK"
   },
   "cex_small_cap:infinity-ground": {
-    "last_alert_ts": 1793712798.687648,
-    "last_score": 60.7,
+    "last_alert_ts": 1793822601.3723688,
+    "last_score": 62.3,
     "symbol": "AIN"
   },
   "cex_small_cap:audiera": {
@@ -144,11 +144,6 @@
     "last_score": 88.9,
     "symbol": "HOT"
   },
-  "cex_small_cap:chop-3": {
-    "last_alert_ts": 1793558726.4088109,
-    "last_score": 56.0,
-    "symbol": "CHOP"
-  },
   "cex_small_cap:intuition": {
     "last_alert_ts": 1793656996.7760231,
     "last_score": 59.3,
@@ -188,11 +183,6 @@
     "last_alert_ts": 1793613782.7042902,
     "last_score": 65.2,
     "symbol": "DEBIT"
-  },
-  "dex_micro_cap:GYKnd6jGUSQoBUnj6LdGCBtCWYDgr2Zd6QwNPcy5pump": {
-    "last_alert_ts": 1793558726.4088109,
-    "last_score": 98.2,
-    "symbol": "AAPLCAT"
   },
   "cex_small_cap:g-token": {
     "last_alert_ts": 1793563403.1165159,
@@ -240,8 +230,8 @@
     "symbol": "ANSEM"
   },
   "cex_small_cap:audacity-2": {
-    "last_alert_ts": 1793678609.1006157,
-    "last_score": 63.3,
+    "last_alert_ts": 1793822601.3723688,
+    "last_score": 64.7,
     "symbol": "DACITYCOIN"
   },
   "cex_small_cap:digitalbits": {
@@ -1003,5 +993,30 @@
     "last_alert_ts": 1793814257.5203047,
     "last_score": 60.5,
     "symbol": "BOT"
+  },
+  "dex_micro_cap:0x0bddfa9a0a1eb326593262c7af47ee091db9cb70": {
+    "last_alert_ts": 1793822601.3723688,
+    "last_score": 78.3,
+    "symbol": "DENIM"
+  },
+  "dex_micro_cap:0xb1c3a6ac90e324c4072ad4b2a71c5d9382f9565c": {
+    "last_alert_ts": 1793822601.3723688,
+    "last_score": 65.4,
+    "symbol": "BOOTR"
+  },
+  "cex_small_cap:talus": {
+    "last_alert_ts": 1793822601.3723688,
+    "last_score": 58.0,
+    "symbol": "US"
+  },
+  "cex_small_cap:microsoft-coinbase-tokenized-stock": {
+    "last_alert_ts": 1793822601.3723688,
+    "last_score": 57.5,
+    "symbol": "MSFTC"
+  },
+  "cex_small_cap:boba-network": {
+    "last_alert_ts": 1793822601.3723688,
+    "last_score": 55.8,
+    "symbol": "BOBA"
   }
 }
