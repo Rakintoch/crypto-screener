@@ -15,8 +15,8 @@
       "entry_price_eur": 1.3589043164553511,
       "entry_ts": 1793661557.0156164,
       "cost_eur": 7.500229750159108,
-      "last_price_eur": 1.3537849456175255,
-      "last_score": 62.1,
+      "last_price_eur": 1.3534627135482813,
+      "last_score": 62.2,
       "missed_updates": 0,
       "entry_market_cap": 10031420,
       "entry_venue": "Gate",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10064717
+      "last_market_cap": 10073267
     },
     "cex_small_cap:bubblemaps": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.027502964697551726,
       "entry_ts": 1793757213.6131604,
       "cost_eur": 7.642750500002331,
-      "last_price_eur": 0.02682507056781316,
-      "last_score": 62.8,
+      "last_price_eur": 0.026747548650059138,
+      "last_score": 63.4,
       "missed_updates": 0,
       "entry_market_cap": 23529453,
       "entry_venue": "Upbit",
@@ -79,7 +79,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 22906002
+      "last_market_cap": 22845243
     }
   },
   "closed_trades": [
@@ -1506,8 +1506,8 @@
       "pnl_pct": -2.9849014136997742
     }
   ],
-  "last_run_ts": 1793770823.5232542,
-  "last_eur_rate": 0.8906479905378457,
+  "last_run_ts": 1793771128.0293984,
+  "last_eur_rate": 0.8904359957554482,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
