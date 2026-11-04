@@ -15,7 +15,7 @@
       "entry_price_eur": 1.3589043164553511,
       "entry_ts": 1793661557.0156164,
       "cost_eur": 7.500229750159108,
-      "last_price_eur": 1.4495606346265715,
+      "last_price_eur": 1.4588587061894596,
       "last_score": 55.1,
       "missed_updates": 0,
       "entry_market_cap": 10031420,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10794803
+      "last_market_cap": 10856550
     },
     "cex_small_cap:bubblemaps": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.027502964697551726,
       "entry_ts": 1793757213.6131604,
       "cost_eur": 7.642750500002331,
-      "last_price_eur": 0.02722846692373526,
-      "last_score": 72.6,
+      "last_price_eur": 0.027108966147888245,
+      "last_score": 72.8,
       "missed_updates": 0,
       "entry_market_cap": 23529453,
       "entry_venue": "Upbit",
@@ -79,7 +79,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 23285680
+      "last_market_cap": 23177052
     },
     "cex_small_cap:lisk": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.17889232435773142,
       "entry_ts": 1793772185.2781668,
       "cost_eur": 7.626492382081147,
-      "last_price_eur": 0.18464201001532304,
-      "last_score": 78.5,
+      "last_price_eur": 0.18229951765422983,
+      "last_score": 77.8,
       "missed_updates": 0,
       "entry_market_cap": 44253073,
       "entry_venue": "Upbit",
@@ -132,7 +132,7 @@
           "source": "U.Today"
         }
       ],
-      "last_market_cap": 45710464
+      "last_market_cap": 45118093
     }
   },
   "closed_trades": [
@@ -1647,8 +1647,8 @@
       "pnl_pct": -9.88121033582691
     }
   ],
-  "last_run_ts": 1793790627.5707982,
-  "last_eur_rate": 0.8893010028383874,
+  "last_run_ts": 1793791225.453215,
+  "last_eur_rate": 0.8895479915789388,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
