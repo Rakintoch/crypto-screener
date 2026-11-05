@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 33.17540827534129,
+  "cash_eur": 26.089997935522717,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:omisego": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.04540847409608106,
       "entry_ts": 1793894598.526228,
       "cost_eur": 7.316590517671356,
-      "last_price_eur": 0.04275599951427777,
-      "last_score": 42.6,
+      "last_price_eur": 0.043019087975459114,
+      "last_score": 43.5,
       "missed_updates": 0,
       "entry_market_cap": 7177493,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6728592
+      "last_market_cap": 6770093
     },
     "cex_small_cap:cyberconnect": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.24693372191168178,
       "entry_ts": 1793908994.4048276,
       "cost_eur": 7.0632708190215,
-      "last_price_eur": 0.24144077327462996,
-      "last_score": 69.7,
+      "last_price_eur": 0.24923400360424805,
+      "last_score": 73.8,
       "missed_updates": 0,
       "entry_market_cap": 16933015,
       "entry_venue": "LBank",
@@ -89,7 +89,40 @@
           "source": "Seeking Alpha"
         }
       ],
-      "last_market_cap": 16546676
+      "last_market_cap": 17080996
+    },
+    "cex_small_cap:moonbirds": {
+      "tier": "cex_small_cap",
+      "id": "moonbirds",
+      "symbol": "BIRB",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/moonbirds",
+      "qty": 82.9814148740662,
+      "entry_price_eur": 0.0853855089187319,
+      "entry_ts": 1793912240.5124156,
+      "cost_eur": 7.085410339818571,
+      "last_price_eur": 0.0853855089187319,
+      "last_score": 65.2,
+      "missed_updates": 0,
+      "entry_market_cap": 27323754,
+      "entry_venue": "Upbit",
+      "entry_contract_address": null,
+      "entry_score": 65.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 21767518,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 0.415,
+      "entry_chg_24h": 11.08735,
+      "entry_chg_7d": 39.0995,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.7966518070686773,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2054,8 +2087,8 @@
       "pnl_pct": -8.470148871990066
     }
   ],
-  "last_run_ts": 1793911824.1205447,
-  "last_eur_rate": 0.8911719969535109,
+  "last_run_ts": 1793912240.5124156,
+  "last_eur_rate": 0.8911590051425877,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
