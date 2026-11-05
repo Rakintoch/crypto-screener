@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 25.853955564039197,
+  "cash_eur": 32.46252553874901,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:lisk": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.17889232435773142,
       "entry_ts": 1793772185.2781668,
       "cost_eur": 7.626492382081147,
-      "last_price_eur": 0.1798238268030933,
-      "last_score": 60.4,
+      "last_price_eur": 0.17963022787830243,
+      "last_score": 58.7,
       "missed_updates": 0,
       "entry_market_cap": 44253073,
       "entry_venue": "Upbit",
@@ -56,7 +56,7 @@
           "source": "U.Today"
         }
       ],
-      "last_market_cap": 44473334
+      "last_market_cap": 44409803
     },
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -68,8 +68,8 @@
       "entry_price_eur": 53.4758861789029,
       "entry_ts": 1793808161.9820242,
       "cost_eur": 7.3551266654894905,
-      "last_price_eur": 55.92481397940702,
-      "last_score": 74.0,
+      "last_price_eur": 55.68058886133364,
+      "last_score": 73.6,
       "missed_updates": 0,
       "entry_market_cap": 8268459,
       "entry_venue": "KCEX",
@@ -90,60 +90,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7579311
-    },
-    "cex_small_cap:janction": {
-      "tier": "cex_small_cap",
-      "id": "janction",
-      "symbol": "JCT",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/janction",
-      "qty": 1489.4698622902856,
-      "entry_price_eur": 0.004888907529218761,
-      "entry_ts": 1793872985.1570058,
-      "cost_eur": 7.281880424295409,
-      "last_price_eur": 0.004552700050731728,
-      "last_score": 43.1,
-      "missed_updates": 0,
-      "entry_market_cap": 63125240,
-      "entry_venue": "KuCoin",
-      "entry_contract_address": "0xc477b6dfd26ec2460b3b92de18837fd476ea7549 (ETH)",
-      "entry_score": 84.1,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 53321389,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 9.2844,
-      "entry_chg_24h": 26.31773,
-      "entry_chg_7d": -1.3507,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.844692059784644,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "listing",
-        "unlock"
-      ],
-      "entry_catalyst_score": 0.4,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Next Crypto To Explode: Janction Pumps 26% in 24 Hours but AlphaPepe Eyes 100x Before Its First Listing - openPR.com",
-          "ts": 1793799144.0,
-          "source": "openPR.com"
-        },
-        {
-          "title": "Janction (JCT) Rally Built on AI Hype Confronts Billions in Looming Token Unlocks - InteractiveCrypto",
-          "ts": 1792891605.0,
-          "source": "InteractiveCrypto"
-        },
-        {
-          "title": "Janction (JCT) Price Prediction 2026-2030: Unlock Schedule - Phemex",
-          "ts": 1792566000.0,
-          "source": "Phemex"
-        }
-      ],
-      "last_market_cap": 58778944
+      "last_market_cap": 7544467
     }
   },
   "closed_trades": [
@@ -1866,10 +1813,69 @@
       "proceeds_eur": 6.828880825275173,
       "pnl_eur": -0.6713489248839348,
       "pnl_pct": -8.951044797923597
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "janction",
+      "symbol": "JCT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/janction",
+      "qty": 1489.4698622902856,
+      "entry_price_eur": 0.004888907529218761,
+      "entry_ts": 1793872985.1570058,
+      "cost_eur": 7.281880424295409,
+      "last_price_eur": 0.00443686048440627,
+      "last_score": 39.4,
+      "missed_updates": 0,
+      "entry_market_cap": 63125240,
+      "entry_venue": "KuCoin",
+      "entry_contract_address": "0xc477b6dfd26ec2460b3b92de18837fd476ea7549 (ETH)",
+      "entry_score": 84.1,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 53321389,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 9.2844,
+      "entry_chg_24h": 26.31773,
+      "entry_chg_7d": -1.3507,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.844692059784644,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing",
+        "unlock"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Next Crypto To Explode: Janction Pumps 26% in 24 Hours but AlphaPepe Eyes 100x Before Its First Listing - openPR.com",
+          "ts": 1793799144.0,
+          "source": "openPR.com"
+        },
+        {
+          "title": "Janction (JCT) Rally Built on AI Hype Confronts Billions in Looming Token Unlocks - InteractiveCrypto",
+          "ts": 1792891605.0,
+          "source": "InteractiveCrypto"
+        },
+        {
+          "title": "Janction (JCT) Price Prediction 2026-2030: Unlock Schedule - Phemex",
+          "ts": 1792566000.0,
+          "source": "Phemex"
+        }
+      ],
+      "last_market_cap": 57312044,
+      "exit_price_eur": 0.00443686048440627,
+      "exit_ts": 1793875529.0981746,
+      "exit_reason": "stop-loss hit (-9.2%)",
+      "proceeds_eur": 6.608569974709817,
+      "pnl_eur": -0.6733104495855917,
+      "pnl_pct": -9.246381571154966
     }
   ],
-  "last_run_ts": 1793875227.1016033,
-  "last_eur_rate": 0.8902389999905607,
+  "last_run_ts": 1793875529.0981746,
+  "last_eur_rate": 0.890462000021328,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
