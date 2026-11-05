@@ -34,11 +34,6 @@
     "last_score": 62.3,
     "symbol": "AIN"
   },
-  "cex_small_cap:haedal": {
-    "last_alert_ts": 1793649744.9167867,
-    "last_score": 74.5,
-    "symbol": "HAEDAL"
-  },
   "cex_small_cap:priors-agent": {
     "last_alert_ts": 1793858587.90683,
     "last_score": 55.2,
@@ -89,11 +84,6 @@
     "last_score": 56.9,
     "symbol": "SOPH"
   },
-  "cex_small_cap:rna-2": {
-    "last_alert_ts": 1793642655.7170274,
-    "last_score": 83.6,
-    "symbol": "SN117"
-  },
   "cex_small_cap:moderna-bstocks-tokenized-stock": {
     "last_alert_ts": 1793836995.3407884,
     "last_score": 66.3,
@@ -125,8 +115,8 @@
     "symbol": "JEANPHIL"
   },
   "cex_small_cap:audacity": {
-    "last_alert_ts": 1793829772.432198,
-    "last_score": 57.0,
+    "last_alert_ts": 1793908993.8427954,
+    "last_score": 55.8,
     "symbol": "DACITYCOIN"
   },
   "cex_small_cap:flock-2": {
@@ -229,16 +219,6 @@
     "last_score": 56.0,
     "symbol": "SPCX"
   },
-  "cex_small_cap:funds-are-safu-2": {
-    "last_alert_ts": 1793642655.7170274,
-    "last_score": 84.7,
-    "symbol": "SAFU"
-  },
-  "cex_small_cap:nomina": {
-    "last_alert_ts": 1793642655.7170274,
-    "last_score": 75.0,
-    "symbol": "NOM"
-  },
   "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
     "last_alert_ts": 1793887010.5922985,
     "last_score": 88.0,
@@ -248,26 +228,6 @@
     "last_alert_ts": 1793700209.060939,
     "last_score": 86.7,
     "symbol": "ELA"
-  },
-  "cex_small_cap:platon-network": {
-    "last_alert_ts": 1793649744.9167867,
-    "last_score": 76.6,
-    "symbol": "LAT"
-  },
-  "cex_small_cap:tao-private-network": {
-    "last_alert_ts": 1793649744.9167867,
-    "last_score": 63.7,
-    "symbol": "SN65"
-  },
-  "cex_small_cap:grvt": {
-    "last_alert_ts": 1793649744.9167867,
-    "last_score": 63.4,
-    "symbol": "GRVT"
-  },
-  "cex_small_cap:xmoney-2": {
-    "last_alert_ts": 1793649744.9167867,
-    "last_score": 61.9,
-    "symbol": "XMN"
   },
   "cex_small_cap:a-meme-coin": {
     "last_alert_ts": 1793814257.5203047,
@@ -915,8 +875,8 @@
     "symbol": "KSTRB"
   },
   "cex_small_cap:unifai-network": {
-    "last_alert_ts": 1793851404.4859016,
-    "last_score": 59.0,
+    "last_alert_ts": 1793908993.8427954,
+    "last_score": 67.1,
     "symbol": "UAI"
   },
   "cex_small_cap:fluent-network": {
@@ -940,8 +900,8 @@
     "symbol": "george"
   },
   "cex_small_cap:take-two-interactive-software-robinhood-tokenized-stock": {
-    "last_alert_ts": 1793854487.1987376,
-    "last_score": 58.2,
+    "last_alert_ts": 1793908993.8427954,
+    "last_score": 56.4,
     "symbol": "TTWO"
   },
   "cex_small_cap:superform": {
@@ -1013,5 +973,20 @@
     "last_alert_ts": 1793901813.018971,
     "last_score": 80.7,
     "symbol": "ALIGN"
+  },
+  "cex_small_cap:cyberconnect": {
+    "last_alert_ts": 1793908993.8427954,
+    "last_score": 70.8,
+    "symbol": "CYBER"
+  },
+  "cex_small_cap:merlin-chain": {
+    "last_alert_ts": 1793908993.8427954,
+    "last_score": 56.9,
+    "symbol": "MERL"
+  },
+  "cex_small_cap:jurassic-finance": {
+    "last_alert_ts": 1793908993.8427954,
+    "last_score": 56.8,
+    "symbol": "RAWR"
   }
 }

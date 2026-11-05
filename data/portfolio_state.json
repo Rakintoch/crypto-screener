@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 40.23867909436279,
+  "cash_eur": 33.17540827534129,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:omisego": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.04540847409608106,
       "entry_ts": 1793894598.526228,
       "cost_eur": 7.316590517671356,
-      "last_price_eur": 0.04232545146472201,
-      "last_score": 36.2,
+      "last_price_eur": 0.042511419591702064,
+      "last_score": 35.3,
       "missed_updates": 0,
       "entry_market_cap": 7177493,
       "entry_venue": null,
@@ -37,7 +37,58 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6661812
+      "last_market_cap": 6676192
+    },
+    "cex_small_cap:cyberconnect": {
+      "tier": "cex_small_cap",
+      "id": "cyberconnect",
+      "symbol": "CYBER",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/cyberconnect",
+      "qty": 28.60391348876905,
+      "entry_price_eur": 0.24693372191168178,
+      "entry_ts": 1793908994.4048276,
+      "cost_eur": 7.0632708190215,
+      "last_price_eur": 0.24693372191168178,
+      "last_score": 70.8,
+      "missed_updates": 0,
+      "entry_market_cap": 16933015,
+      "entry_venue": "LBank",
+      "entry_contract_address": "0x14778860e937f509e651192a90589de711fb88a9 (ETH)",
+      "entry_score": 70.8,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 11021013,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 13.8614,
+      "entry_chg_24h": 10.05907,
+      "entry_chg_7d": -6.7021,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.6508594600548101,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "security_incident"
+      ],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Binance’s $6.3 Billion Crypto Hack Raises Cyber Insurance Coverage Questions - Program Business",
+          "ts": 1793896486.0,
+          "source": "Program Business"
+        },
+        {
+          "title": "Fed and OCC phoned banks after Binance hack as cyber rule took effect - Cryptopolitan",
+          "ts": 1793886398.0,
+          "source": "Cryptopolitan"
+        },
+        {
+          "title": "US regulators audit bank cyber defenses after record $6.3B Binance hack: Reuters (BTC-USD:Cryptocurrency) - Seeking Alpha",
+          "ts": 1793875382.0,
+          "source": "Seeking Alpha"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -2002,8 +2053,8 @@
       "pnl_pct": -8.470148871990066
     }
   ],
-  "last_run_ts": 1793908525.3455315,
-  "last_eur_rate": 0.8910339981836786,
+  "last_run_ts": 1793908994.4048276,
+  "last_eur_rate": 0.8908849977692378,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
