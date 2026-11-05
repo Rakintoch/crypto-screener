@@ -175,8 +175,8 @@
     "symbol": "JOB"
   },
   "cex_small_cap:ubik": {
-    "last_alert_ts": 1793808161.3687012,
-    "last_score": 67.3,
+    "last_alert_ts": 1793880205.6062636,
+    "last_score": 78.5,
     "symbol": "UBIK"
   },
   "cex_small_cap:cyberleek": {
@@ -220,19 +220,14 @@
     "symbol": "POD"
   },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1793865779.144447,
-    "last_score": 55.8,
+    "last_alert_ts": 1793880205.6062636,
+    "last_score": 74.9,
     "symbol": "ARIA"
   },
   "cex_small_cap:float": {
     "last_alert_ts": 1793844166.6903732,
     "last_score": 83.0,
     "symbol": "FLOAT"
-  },
-  "cex_small_cap:coherent-ondo-tokenized": {
-    "last_alert_ts": 1793621004.8079531,
-    "last_score": 55.9,
-    "symbol": "COHRON"
   },
   "cex_small_cap:altseason": {
     "last_alert_ts": 1793808161.3687012,
@@ -785,8 +780,8 @@
     "symbol": "MSTR"
   },
   "cex_small_cap:zzz-2": {
-    "last_alert_ts": 1793808161.3687012,
-    "last_score": 56.4,
+    "last_alert_ts": 1793880205.6062636,
+    "last_score": 59.3,
     "symbol": "ZZZ"
   },
   "cex_small_cap:microsoft-bstocks-tokenized-stock": {
@@ -855,8 +850,8 @@
     "symbol": "COSTON"
   },
   "cex_small_cap:storm-trade": {
-    "last_alert_ts": 1793833822.8259425,
-    "last_score": 68.5,
+    "last_alert_ts": 1793880205.6062636,
+    "last_score": 58.3,
     "symbol": "STORM"
   },
   "dex_micro_cap:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": {
@@ -1018,5 +1013,15 @@
     "last_alert_ts": 1793872984.6448286,
     "last_score": 55.9,
     "symbol": "INIT"
+  },
+  "dex_micro_cap:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": {
+    "last_alert_ts": 1793880205.6062636,
+    "last_score": 85.5,
+    "symbol": "AI"
+  },
+  "dex_micro_cap:9FCjRfsuH4ziTqE39dH2wjcpRF5necYUKYpoNtCFdwKE": {
+    "last_alert_ts": 1793880205.6062636,
+    "last_score": 79.9,
+    "symbol": "MOSQUE"
   }
 }
