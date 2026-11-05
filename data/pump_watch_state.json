@@ -12,10 +12,10 @@
       "entry_price_eur": 436.85462126479916,
       "entry_ts": 1789402186.9931946,
       "cost_eur": 33.33333333333333,
-      "last_price_eur": 489.21772138353595,
+      "last_price_eur": 489.0372081825472,
       "peak_price_eur": 499.44405287568054,
       "entry_market_cap": 1183197,
-      "last_market_cap": 1366139,
+      "last_market_cap": 1365581,
       "entry_venue": "Uniswap V3 (Base) (on-chain)"
     }
   },
@@ -332,8 +332,8 @@
       "reserved_eur": 0.0
     }
   ],
-  "last_run_ts": 1793853320.4429722,
-  "last_eur_rate": 0.8878080019300523,
+  "last_run_ts": 1793853626.4851074,
+  "last_eur_rate": 0.8878509979531004,
   "review_cycle": {
     "number": 3,
     "start_ts": 1792868581.9738064,
