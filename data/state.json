@@ -34,19 +34,14 @@
     "last_score": 62.3,
     "symbol": "AIN"
   },
-  "cex_small_cap:audiera": {
-    "last_alert_ts": 1793599372.0956185,
-    "last_score": 66.7,
-    "symbol": "BEAT"
-  },
   "cex_small_cap:haedal": {
     "last_alert_ts": 1793649744.9167867,
     "last_score": 74.5,
     "symbol": "HAEDAL"
   },
   "cex_small_cap:priors-agent": {
-    "last_alert_ts": 1793808161.3687012,
-    "last_score": 72.4,
+    "last_alert_ts": 1793858587.90683,
+    "last_score": 55.2,
     "symbol": "PRIORS"
   },
   "cex_small_cap:evaa-protocol": {
@@ -220,8 +215,8 @@
     "symbol": "CYBERLEEK"
   },
   "dex_micro_cap:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
-    "last_alert_ts": 1793814257.5203047,
-    "last_score": 69.8,
+    "last_alert_ts": 1793858587.90683,
+    "last_score": 63.9,
     "symbol": "FLOAT"
   },
   "cex_small_cap:south-korea-bull-3x-etf-bstocks-tokenized-stock": {
@@ -238,21 +233,6 @@
     "last_alert_ts": 1793692973.1728067,
     "last_score": 79.7,
     "symbol": "WASTED"
-  },
-  "dex_micro_cap:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": {
-    "last_alert_ts": 1793599372.0956185,
-    "last_score": 76.4,
-    "symbol": "ANAKIN"
-  },
-  "cex_small_cap:gigachad-2": {
-    "last_alert_ts": 1793599372.0956185,
-    "last_score": 69.7,
-    "symbol": "GIGA"
-  },
-  "cex_small_cap:storj": {
-    "last_alert_ts": 1793599372.0956185,
-    "last_score": 55.8,
-    "symbol": "STORJ"
   },
   "dex_micro_cap:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": {
     "last_alert_ts": 1793664210.1432374,
@@ -1058,5 +1038,20 @@
     "last_alert_ts": 1793854487.1987376,
     "last_score": 58.2,
     "symbol": "TTWO"
+  },
+  "cex_small_cap:superform": {
+    "last_alert_ts": 1793858587.90683,
+    "last_score": 86.9,
+    "symbol": "UP"
+  },
+  "dex_micro_cap:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": {
+    "last_alert_ts": 1793858587.90683,
+    "last_score": 57.5,
+    "symbol": "PIRATE"
+  },
+  "cex_small_cap:fogo": {
+    "last_alert_ts": 1793858587.90683,
+    "last_score": 55.7,
+    "symbol": "FOGO"
   }
 }
