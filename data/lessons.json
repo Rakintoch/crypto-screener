@@ -12358,5 +12358,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "CLANKER (cex_small_cap) lost -8.4% in 14 min (very fast (<1h)) — stop-loss hit. Entry score: 87 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793894598.526228,
+    "symbol": "LSK",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/lisk",
+    "held_minutes": 2040.2,
+    "exit_reason": "momentum thesis invalidated (score dropped to 30)",
+    "pnl_pct": -5.53,
+    "pnl_eur": -0.42,
+    "entry_score": 77.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 23659649,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.3144,
+    "entry_chg_24h": 14.49639,
+    "entry_chg_7d": 18.0794,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.5346442042567304,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "LSK (cex_small_cap) lost -5.5% in 2040 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 78 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
