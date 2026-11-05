@@ -229,16 +229,6 @@
     "last_score": 56.0,
     "symbol": "SPCX"
   },
-  "cex_small_cap:trump-media-technology-group-cord-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793635398.1834567,
-    "last_score": 59.0,
-    "symbol": "DJTB"
-  },
-  "cex_small_cap:fight-2": {
-    "last_alert_ts": 1793635398.1834567,
-    "last_score": 57.7,
-    "symbol": "FIGHT"
-  },
   "cex_small_cap:funds-are-safu-2": {
     "last_alert_ts": 1793642655.7170274,
     "last_score": 84.7,
@@ -955,8 +945,8 @@
     "symbol": "TTWO"
   },
   "cex_small_cap:superform": {
-    "last_alert_ts": 1793858587.90683,
-    "last_score": 86.9,
+    "last_alert_ts": 1793901813.018971,
+    "last_score": 62.1,
     "symbol": "UP"
   },
   "dex_micro_cap:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": {
@@ -1018,5 +1008,10 @@
     "last_alert_ts": 1793894598.151289,
     "last_score": 66.9,
     "symbol": "DESSA"
+  },
+  "cex_small_cap:aligned": {
+    "last_alert_ts": 1793901813.018971,
+    "last_score": 80.7,
+    "symbol": "ALIGN"
   }
 }
