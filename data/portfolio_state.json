@@ -15,8 +15,8 @@
       "entry_price_eur": 1.3589043164553511,
       "entry_ts": 1793661557.0156164,
       "cost_eur": 7.500229750159108,
-      "last_price_eur": 1.402268951264724,
-      "last_score": 61.6,
+      "last_price_eur": 1.4203152062286244,
+      "last_score": 62.3,
       "missed_updates": 0,
       "entry_market_cap": 10031420,
       "entry_venue": "Gate",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10483222
+      "last_market_cap": 10558978
     },
     "cex_small_cap:lisk": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.17889232435773142,
       "entry_ts": 1793772185.2781668,
       "cost_eur": 7.626492382081147,
-      "last_price_eur": 0.18996129227265757,
-      "last_score": 56.0,
+      "last_price_eur": 0.18895962273366007,
+      "last_score": 57.0,
       "missed_updates": 0,
       "entry_market_cap": 44253073,
       "entry_venue": "Upbit",
@@ -90,7 +90,7 @@
           "source": "U.Today"
         }
       ],
-      "last_market_cap": 47124867
+      "last_market_cap": 46866607
     },
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -102,8 +102,8 @@
       "entry_price_eur": 53.4758861789029,
       "entry_ts": 1793808161.9820242,
       "cost_eur": 7.3551266654894905,
-      "last_price_eur": 55.98425661125239,
-      "last_score": 68.5,
+      "last_price_eur": 56.324374897003885,
+      "last_score": 68.6,
       "missed_updates": 0,
       "entry_market_cap": 8268459,
       "entry_venue": "KCEX",
@@ -124,7 +124,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7548051
+      "last_market_cap": 7592435
     }
   },
   "closed_trades": [
@@ -1767,8 +1767,8 @@
       "pnl_pct": -8.84965585539878
     }
   ],
-  "last_run_ts": 1793852425.0472133,
-  "last_eur_rate": 0.8875119944713442,
+  "last_run_ts": 1793852722.187704,
+  "last_eur_rate": 0.8876970038928902,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
