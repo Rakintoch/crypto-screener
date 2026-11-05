@@ -265,8 +265,8 @@
     "symbol": "CAT"
   },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1793814257.5203047,
-    "last_score": 66.5,
+    "last_alert_ts": 1793865779.144447,
+    "last_score": 55.8,
     "symbol": "ARIA"
   },
   "cex_small_cap:tradoor": {
@@ -375,8 +375,8 @@
     "symbol": "DEFI"
   },
   "cex_small_cap:impossible-cloud-network-token": {
-    "last_alert_ts": 1793750586.4308991,
-    "last_score": 62.9,
+    "last_alert_ts": 1793865779.144447,
+    "last_score": 68.4,
     "symbol": "ICNT"
   },
   "cex_small_cap:act-i-the-ai-prophecy": {
@@ -665,8 +665,8 @@
     "symbol": "NBISON"
   },
   "dex_micro_cap:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": {
-    "last_alert_ts": 1793814257.5203047,
-    "last_score": 77.4,
+    "last_alert_ts": 1793865779.144447,
+    "last_score": 56.8,
     "symbol": "AMD"
   },
   "dex_micro_cap:0x6f18277e5566090ad8ab35e401ce9155739bfb07": {
@@ -1053,5 +1053,10 @@
     "last_alert_ts": 1793858587.90683,
     "last_score": 55.7,
     "symbol": "FOGO"
+  },
+  "dex_micro_cap:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": {
+    "last_alert_ts": 1793865779.144447,
+    "last_score": 55.1,
+    "symbol": "Democat"
   }
 }
