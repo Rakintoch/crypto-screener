@@ -3040,5 +3040,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "CYBERLEEK (cex_small_cap) gained +18.6% in 1852 min — trailing stop caught extra upside after the target. Entry score: 78. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793869826.9865966,
+    "symbol": "ELSA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/elsa",
+    "held_minutes": 255.7,
+    "exit_reason": "trailing stop hit — dropped 8.3% from the peak (peak +24.9% since entry)",
+    "pnl_pct": 14.56,
+    "pnl_eur": 1.07,
+    "entry_score": 98.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 76132410,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 11.7317,
+    "entry_chg_24h": 44.84373,
+    "entry_chg_7d": 35.4387,
+    "entry_chg_6h": null,
+    "entry_turnover": 3.4880895568997388,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "ELSA (cex_small_cap) gained +14.6% in 256 min — trailing stop caught extra upside after the target. Entry score: 98. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
