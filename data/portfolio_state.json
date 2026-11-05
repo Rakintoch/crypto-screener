@@ -15,8 +15,8 @@
       "entry_price_eur": 1.3589043164553511,
       "entry_ts": 1793661557.0156164,
       "cost_eur": 7.500229750159108,
-      "last_price_eur": 1.3940265446138518,
-      "last_score": 63.7,
+      "last_price_eur": 1.4118166541515824,
+      "last_score": 64.3,
       "missed_updates": 0,
       "entry_market_cap": 10031420,
       "entry_venue": "Gate",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10421257
+      "last_market_cap": 10491803
     },
     "cex_small_cap:lisk": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.17889232435773142,
       "entry_ts": 1793772185.2781668,
       "cost_eur": 7.626492382081147,
-      "last_price_eur": 0.18810212827822334,
-      "last_score": 54.7,
+      "last_price_eur": 0.1866679117939149,
+      "last_score": 55.6,
       "missed_updates": 0,
       "entry_market_cap": 44253073,
       "entry_venue": "Upbit",
@@ -90,7 +90,7 @@
           "source": "U.Today"
         }
       ],
-      "last_market_cap": 46659988
+      "last_market_cap": 46351603
     },
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -102,8 +102,8 @@
       "entry_price_eur": 53.4758861789029,
       "entry_ts": 1793808161.9820242,
       "cost_eur": 7.3551266654894905,
-      "last_price_eur": 56.338206532324136,
-      "last_score": 76.9,
+      "last_price_eur": 56.783443416977164,
+      "last_score": 77.8,
       "missed_updates": 0,
       "entry_market_cap": 8268459,
       "entry_venue": "KCEX",
@@ -124,7 +124,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7593519
+      "last_market_cap": 7653935
     },
     "cex_small_cap:elsa": {
       "tier": "cex_small_cap",
@@ -136,8 +136,8 @@
       "entry_price_eur": 0.08464539831481271,
       "entry_ts": 1793854487.750232,
       "cost_eur": 7.342761031927896,
-      "last_price_eur": 0.0879586353901512,
-      "last_score": 65.7,
+      "last_price_eur": 0.08809291954404568,
+      "last_score": 65.8,
       "missed_updates": 0,
       "entry_market_cap": 21826392,
       "entry_venue": "Upbit",
@@ -158,7 +158,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 22676043
+      "last_market_cap": 22709448
     }
   },
   "closed_trades": [
@@ -1801,8 +1801,8 @@
       "pnl_pct": -8.84965585539878
     }
   ],
-  "last_run_ts": 1793856025.6851518,
-  "last_eur_rate": 0.8879149965693323,
+  "last_run_ts": 1793856319.5531278,
+  "last_eur_rate": 0.8879350026110581,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
