@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 32.46252553874901,
+  "cash_eur": 25.226635092663347,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:lisk": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.17889232435773142,
       "entry_ts": 1793772185.2781668,
       "cost_eur": 7.626492382081147,
-      "last_price_eur": 0.18110693864705354,
-      "last_score": 51.9,
+      "last_price_eur": 0.18093772193054952,
+      "last_score": 53.0,
       "missed_updates": 0,
       "entry_market_cap": 44253073,
       "entry_venue": "Upbit",
@@ -56,7 +56,7 @@
           "source": "U.Today"
         }
       ],
-      "last_market_cap": 44720659
+      "last_market_cap": 44694064
     },
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -68,8 +68,8 @@
       "entry_price_eur": 53.4758861789029,
       "entry_ts": 1793808161.9820242,
       "cost_eur": 7.3551266654894905,
-      "last_price_eur": 58.39973455580283,
-      "last_score": 88.0,
+      "last_price_eur": 58.62290561620241,
+      "last_score": 87.6,
       "missed_updates": 0,
       "entry_market_cap": 8268459,
       "entry_venue": "KCEX",
@@ -90,7 +90,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7920875
+      "last_market_cap": 7956798
+    },
+    "cex_small_cap:tokenbot-2": {
+      "tier": "cex_small_cap",
+      "id": "tokenbot-2",
+      "symbol": "CLANKER",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/tokenbot-2",
+      "qty": 0.4385772153184517,
+      "entry_price_eur": 16.49855531330252,
+      "entry_ts": 1793887011.1859143,
+      "cost_eur": 7.235890446085665,
+      "last_price_eur": 16.49855531330252,
+      "last_score": 87.1,
+      "missed_updates": 0,
+      "entry_market_cap": 18272604,
+      "entry_venue": "Coinbase Exchange",
+      "entry_contract_address": "0x1bc0c42215582d5a085795f4badbac3ff36d1bcb (Base)",
+      "entry_score": 87.1,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 26053205,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.286,
+      "entry_chg_24h": 20.33782,
+      "entry_chg_7d": 35.2796,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.4258069074336641,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -1874,8 +1907,8 @@
       "pnl_pct": -9.246381571154966
     }
   ],
-  "last_run_ts": 1793886624.7699456,
-  "last_eur_rate": 0.8915990008519517,
+  "last_run_ts": 1793887011.1859143,
+  "last_eur_rate": 0.8913319996381696,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
