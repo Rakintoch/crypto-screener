@@ -15,8 +15,8 @@
       "entry_price_eur": 0.17889232435773142,
       "entry_ts": 1793772185.2781668,
       "cost_eur": 7.626492382081147,
-      "last_price_eur": 0.1795418444157338,
-      "last_score": 53.7,
+      "last_price_eur": 0.17950549931670776,
+      "last_score": 53.5,
       "missed_updates": 0,
       "entry_market_cap": 44253073,
       "entry_venue": "Upbit",
@@ -56,7 +56,7 @@
           "source": "U.Today"
         }
       ],
-      "last_market_cap": 44374126
+      "last_market_cap": 44385437
     },
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -68,8 +68,8 @@
       "entry_price_eur": 53.4758861789029,
       "entry_ts": 1793808161.9820242,
       "cost_eur": 7.3551266654894905,
-      "last_price_eur": 58.42076249743887,
-      "last_score": 88.0,
+      "last_price_eur": 58.490145524555246,
+      "last_score": 89.0,
       "missed_updates": 0,
       "entry_market_cap": 8268459,
       "entry_venue": "KCEX",
@@ -90,7 +90,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7932833
+      "last_market_cap": 7946183
     }
   },
   "closed_trades": [
@@ -1874,8 +1874,8 @@
       "pnl_pct": -9.246381571154966
     }
   ],
-  "last_run_ts": 1793883919.2259421,
-  "last_eur_rate": 0.8908319990460335,
+  "last_run_ts": 1793884226.572859,
+  "last_eur_rate": 0.8909390026588765,
   "last_rotation_ts": 1793671383.376651,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
