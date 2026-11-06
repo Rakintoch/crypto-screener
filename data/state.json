@@ -290,8 +290,8 @@
     "symbol": "RICO"
   },
   "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793772184.7568083,
-    "last_score": 60.6,
+    "last_alert_ts": 1794004887.5342288,
+    "last_score": 60.5,
     "symbol": "SOXLB"
   },
   "dex_micro_cap:AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M": {
@@ -765,8 +765,8 @@
     "symbol": "MRVLON"
   },
   "cex_small_cap:akedo": {
-    "last_alert_ts": 1793984983.6910799,
-    "last_score": 62.0,
+    "last_alert_ts": 1794004887.5342288,
+    "last_score": 83.1,
     "symbol": "AKE"
   },
   "cex_small_cap:dacity-coin-4": {
@@ -785,8 +785,8 @@
     "symbol": "UP"
   },
   "dex_micro_cap:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": {
-    "last_alert_ts": 1793944997.2544165,
-    "last_score": 69.1,
+    "last_alert_ts": 1794004887.5342288,
+    "last_score": 59.0,
     "symbol": "COGE"
   },
   "cex_small_cap:zhong-guo-ren-neng-fei": {
@@ -800,8 +800,8 @@
     "symbol": "WOO"
   },
   "cex_small_cap:reboot-2": {
-    "last_alert_ts": 1793952176.3843358,
-    "last_score": 58.0,
+    "last_alert_ts": 1794004887.5342288,
+    "last_score": 64.3,
     "symbol": "REBOOT"
   },
   "cex_small_cap:harmony": {
@@ -810,8 +810,8 @@
     "symbol": "ONE"
   },
   "cex_small_cap:denim": {
-    "last_alert_ts": 1793959403.624359,
-    "last_score": 71.2,
+    "last_alert_ts": 1794004887.5342288,
+    "last_score": 61.0,
     "symbol": "DENIM"
   },
   "cex_small_cap:trusta-ai": {
@@ -968,5 +968,10 @@
     "last_alert_ts": 1794002604.247807,
     "last_score": 64.3,
     "symbol": "RMRNA"
+  },
+  "cex_small_cap:1win-token": {
+    "last_alert_ts": 1794004887.5342288,
+    "last_score": 59.0,
+    "symbol": "1WIN"
   }
 }

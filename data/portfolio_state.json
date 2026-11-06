@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 26.528200238678338,
+  "cash_eur": 19.265229286151396,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:cyberconnect": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.325813559846452,
       "entry_ts": 1793984984.3498461,
       "cost_eur": 7.435678708859152,
-      "last_price_eur": 0.30964145226601336,
-      "last_score": 70.1,
+      "last_price_eur": 0.31066779424474844,
+      "last_score": 70.3,
       "missed_updates": 0,
       "entry_market_cap": 22187766,
       "entry_venue": "Upbit",
@@ -56,7 +56,7 @@
           "source": "Program Business"
         }
       ],
-      "last_market_cap": 21066443
+      "last_market_cap": 21164908
     },
     "cex_small_cap:hookr-fun": {
       "tier": "cex_small_cap",
@@ -68,8 +68,8 @@
       "entry_price_eur": 0.023501662488383347,
       "entry_ts": 1793984984.3498461,
       "cost_eur": 7.435678708859153,
-      "last_price_eur": 0.022197410787448014,
-      "last_score": 57.5,
+      "last_price_eur": 0.022147027013656388,
+      "last_score": 57.4,
       "missed_updates": 0,
       "entry_market_cap": 26204850,
       "entry_venue": null,
@@ -90,7 +90,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 24736642
+      "last_market_cap": 24685310
     },
     "cex_small_cap:reinforced-ai": {
       "tier": "cex_small_cap",
@@ -102,8 +102,8 @@
       "entry_price_eur": 5.374533535403185,
       "entry_ts": 1793988136.8895493,
       "cost_eur": 7.376664676981495,
-      "last_price_eur": 5.589244471407936,
-      "last_score": 71.8,
+      "last_price_eur": 5.678959514527879,
+      "last_score": 71.9,
       "missed_updates": 0,
       "entry_market_cap": 2492229,
       "entry_venue": "Subnet Tokens",
@@ -124,7 +124,60 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 2593904
+      "last_market_cap": 2634900
+    },
+    "cex_small_cap:harmony": {
+      "tier": "cex_small_cap",
+      "id": "harmony",
+      "symbol": "ONE",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/harmony",
+      "qty": 4801.919309471834,
+      "entry_price_eur": 0.0015125141603693044,
+      "entry_ts": 1794004888.0372121,
+      "cost_eur": 7.26297095252694,
+      "last_price_eur": 0.0015125141603693044,
+      "last_score": 98.2,
+      "missed_updates": 0,
+      "entry_market_cap": 24992919,
+      "entry_venue": "Binance",
+      "entry_contract_address": null,
+      "entry_score": 98.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 62045741,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 7.1893,
+      "entry_chg_24h": 58.37219,
+      "entry_chg_7d": 45.7451,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.482532792588173,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "restructuring",
+        "security_incident",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.6000000000000001,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Anger as Harmony Proposes Minting Five BILLION New Tokens After Horizon Bridge Hack - CoinMarketCap",
+          "ts": 1792976556.0,
+          "source": "CoinMarketCap"
+        },
+        {
+          "title": "Harmony Launch Could Change The Case For monday.com Stock - Yahoo Finance",
+          "ts": 1792738800.0,
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "monday.com (MNDY) Could Be 2% Undervalued After Harmony Launch - Yahoo Finance",
+          "ts": 1792652400.0,
+          "source": "Yahoo Finance"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -2489,8 +2542,8 @@
       "pnl_pct": -10.691277691558337
     }
   ],
-  "last_run_ts": 1794004520.6914403,
-  "last_eur_rate": 0.8971499954105835,
+  "last_run_ts": 1794004888.0372121,
+  "last_eur_rate": 0.8971500022950836,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
