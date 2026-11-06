@@ -60,8 +60,8 @@
     "symbol": "LSK"
   },
   "cex_small_cap:regent-coin": {
-    "last_alert_ts": 1793959403.624359,
-    "last_score": 62.1,
+    "last_alert_ts": 1794002604.247807,
+    "last_score": 64.1,
     "symbol": "REGENT"
   },
   "cex_small_cap:moderna-bstocks-tokenized-stock": {
@@ -134,19 +134,9 @@
     "last_score": 63.9,
     "symbol": "FLOAT"
   },
-  "cex_small_cap:south-korea-bull-3x-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 70.5,
-    "symbol": "KORUB"
-  },
-  "cex_small_cap:securitize-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 60.1,
-    "symbol": "SECZB"
-  },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1793955818.4985824,
-    "last_score": 62.7,
+    "last_alert_ts": 1794002604.247807,
+    "last_score": 61.9,
     "symbol": "ARIA"
   },
   "cex_small_cap:float": {
@@ -239,40 +229,15 @@
     "last_score": 55.4,
     "symbol": "AIO"
   },
-  "dex_micro_cap:7gCND4jhgJ8Mq1XxNhRdercinXh7fcCDPjA9uEQLk3f2": {
-    "last_alert_ts": 1793736255.7242959,
-    "last_score": 61.8,
-    "symbol": "HAMSTER"
-  },
-  "cex_small_cap:faze": {
-    "last_alert_ts": 1793736255.7242959,
-    "last_score": 57.4,
-    "symbol": "FAZE"
-  },
-  "dex_micro_cap:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": {
-    "last_alert_ts": 1793736255.7242959,
-    "last_score": 55.0,
-    "symbol": "1WIN"
-  },
   "cex_small_cap:tokenbot-2": {
     "last_alert_ts": 1793952176.3843358,
     "last_score": 56.4,
     "symbol": "CLANKER"
   },
-  "cex_small_cap:portal-2": {
-    "last_alert_ts": 1793737536.91445,
-    "last_score": 61.2,
-    "symbol": "PORTAL"
-  },
   "dex_micro_cap:2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat": {
     "last_alert_ts": 1793781229.4309528,
     "last_score": 72.5,
     "symbol": "BINGUS"
-  },
-  "cex_small_cap:percolator": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 86.3,
-    "symbol": "PERCOLATOR"
   },
   "cex_small_cap:mcncoin": {
     "last_alert_ts": 1793844166.6903732,
@@ -298,81 +263,6 @@
     "last_alert_ts": 1793808161.3687012,
     "last_score": 59.6,
     "symbol": "UP"
-  },
-  "cex_small_cap:cel-ai": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 73.5,
-    "symbol": "SN127"
-  },
-  "cex_small_cap:super-micro-computer-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 66.1,
-    "symbol": "SMCIB"
-  },
-  "cex_small_cap:advanced-micro-devices-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 65.5,
-    "symbol": "AMDB"
-  },
-  "cex_small_cap:pangea-2": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 64.4,
-    "symbol": "PANGEA"
-  },
-  "cex_small_cap:direxion-daily-semiconductor-bull-3x-shares-etf-rstock": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 63.9,
-    "symbol": "RSOXL"
-  },
-  "cex_small_cap:super-micro-computer-ondo-tokenized-stock": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 63.8,
-    "symbol": "SMCION"
-  },
-  "cex_small_cap:sk-hynix-backpack-securities": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 58.6,
-    "symbol": "SKHY"
-  },
-  "cex_small_cap:goldstein": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 57.0,
-    "symbol": "GLDSTN"
-  },
-  "cex_small_cap:memory-cow-moo": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 56.8,
-    "symbol": "MOO"
-  },
-  "cex_small_cap:sandisk-coinbase-tokenized-stock": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 56.5,
-    "symbol": "SNDKC"
-  },
-  "cex_small_cap:nvidia-rstock-2": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 55.4,
-    "symbol": "RNVDA"
-  },
-  "cex_small_cap:bloom-energy-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 55.3,
-    "symbol": "BEB"
-  },
-  "cex_small_cap:jimothy-the-raccoon": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 55.3,
-    "symbol": "JIMOTHY"
-  },
-  "cex_small_cap:the-final-form-bull": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 55.3,
-    "symbol": "CZ"
-  },
-  "cex_small_cap:nebius-group-ondo-tokenized": {
-    "last_alert_ts": 1793743346.6153262,
-    "last_score": 55.1,
-    "symbol": "NBISON"
   },
   "dex_micro_cap:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": {
     "last_alert_ts": 1793923382.256523,
@@ -720,8 +610,8 @@
     "symbol": "KSTRB"
   },
   "cex_small_cap:unifai-network": {
-    "last_alert_ts": 1793952176.3843358,
-    "last_score": 82.7,
+    "last_alert_ts": 1794002604.247807,
+    "last_score": 84.8,
     "symbol": "UAI"
   },
   "cex_small_cap:fluent-network": {
@@ -735,8 +625,8 @@
     "symbol": "MSFTX"
   },
   "cex_small_cap:the-black-bull": {
-    "last_alert_ts": 1793854487.1987376,
-    "last_score": 65.9,
+    "last_alert_ts": 1794002604.247807,
+    "last_score": 75.6,
     "symbol": "ANSEM"
   },
   "dex_micro_cap:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": {
@@ -1068,5 +958,15 @@
     "last_alert_ts": 1793995406.9834378,
     "last_score": 61.6,
     "symbol": "AMD"
+  },
+  "cex_small_cap:graniteshares-2x-long-intc-etf-bstocks-tokenized-stock": {
+    "last_alert_ts": 1794002604.247807,
+    "last_score": 65.6,
+    "symbol": "INTWB"
+  },
+  "cex_small_cap:moderna-rstock": {
+    "last_alert_ts": 1794002604.247807,
+    "last_score": 64.3,
+    "symbol": "RMRNA"
   }
 }
