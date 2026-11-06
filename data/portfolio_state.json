@@ -15,7 +15,7 @@
       "entry_price_eur": 0.325813559846452,
       "entry_ts": 1793984984.3498461,
       "cost_eur": 7.435678708859152,
-      "last_price_eur": 0.3251400922110771,
+      "last_price_eur": 0.32175120892404147,
       "last_score": 89.2,
       "missed_updates": 0,
       "entry_market_cap": 22187766,
@@ -56,7 +56,7 @@
           "source": "Program Business"
         }
       ],
-      "last_market_cap": 22147232
+      "last_market_cap": 21907809
     },
     "cex_small_cap:programmable-2": {
       "tier": "cex_small_cap",
@@ -68,7 +68,7 @@
       "entry_price_eur": 0.0012828725626461586,
       "entry_ts": 1793984984.3498461,
       "cost_eur": 7.435678708859152,
-      "last_price_eur": 0.0012314482052934506,
+      "last_price_eur": 0.00123020806244497,
       "last_score": 81.7,
       "missed_updates": 0,
       "entry_market_cap": 1352545,
@@ -98,7 +98,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 1299192
+      "last_market_cap": 1297377
     },
     "cex_small_cap:hookr-fun": {
       "tier": "cex_small_cap",
@@ -110,7 +110,7 @@
       "entry_price_eur": 0.023501662488383347,
       "entry_ts": 1793984984.3498461,
       "cost_eur": 7.435678708859153,
-      "last_price_eur": 0.024027917820001313,
+      "last_price_eur": 0.023945526778544245,
       "last_score": 81.1,
       "missed_updates": 0,
       "entry_market_cap": 26204850,
@@ -132,7 +132,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 26798058
+      "last_market_cap": 26695717
     }
   },
   "closed_trades": [
@@ -2449,8 +2449,8 @@
       "pnl_pct": -8.197120475574081
     }
   ],
-  "last_run_ts": 1793985625.1554618,
-  "last_eur_rate": 0.896629002995042,
+  "last_run_ts": 1793985919.95363,
+  "last_eur_rate": 0.8969799944914107,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
