@@ -15,8 +15,8 @@
       "entry_price_eur": 0.006614289428361093,
       "entry_ts": 1793955819.0026839,
       "cost_eur": 7.608513828108744,
-      "last_price_eur": 0.006330795104183068,
-      "last_score": 35.1,
+      "last_price_eur": 0.0062393350020930145,
+      "last_score": 41.0,
       "missed_updates": 0,
       "entry_market_cap": 6886957,
       "entry_venue": "HTX",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6502485
+      "last_market_cap": 6480257
     }
   },
   "closed_trades": [
@@ -2314,8 +2314,8 @@
       "pnl_pct": -8.186618700404614
     }
   ],
-  "last_run_ts": 1793979929.9774482,
-  "last_eur_rate": 0.8967639957197387,
+  "last_run_ts": 1793980224.5314922,
+  "last_eur_rate": 0.8968840024398154,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
