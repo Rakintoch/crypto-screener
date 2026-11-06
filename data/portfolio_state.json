@@ -15,7 +15,7 @@
       "entry_price_eur": 0.325813559846452,
       "entry_ts": 1793984984.3498461,
       "cost_eur": 7.435678708859152,
-      "last_price_eur": 0.31704087143189685,
+      "last_price_eur": 0.3182160752626411,
       "last_score": 70.1,
       "missed_updates": 0,
       "entry_market_cap": 22187766,
@@ -56,7 +56,7 @@
           "source": "Program Business"
         }
       ],
-      "last_market_cap": 21514452
+      "last_market_cap": 21660013
     },
     "cex_small_cap:hookr-fun": {
       "tier": "cex_small_cap",
@@ -68,7 +68,7 @@
       "entry_price_eur": 0.023501662488383347,
       "entry_ts": 1793984984.3498461,
       "cost_eur": 7.435678708859153,
-      "last_price_eur": 0.02308224321695275,
+      "last_price_eur": 0.022617668209250933,
       "last_score": 58.5,
       "missed_updates": 0,
       "entry_market_cap": 26204850,
@@ -90,7 +90,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 25726220
+      "last_market_cap": 25207120
     },
     "cex_small_cap:reinforced-ai": {
       "tier": "cex_small_cap",
@@ -102,7 +102,7 @@
       "entry_price_eur": 5.374533535403185,
       "entry_ts": 1793988136.8895493,
       "cost_eur": 7.376664676981495,
-      "last_price_eur": 5.212923762061051,
+      "last_price_eur": 5.204183405865304,
       "last_score": 66.9,
       "missed_updates": 0,
       "entry_market_cap": 2492229,
@@ -124,7 +124,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 2416052
+      "last_market_cap": 2415907
     }
   },
   "closed_trades": [
@@ -2489,8 +2489,8 @@
       "pnl_pct": -10.691277691558337
     }
   ],
-  "last_run_ts": 1793991653.0148902,
-  "last_eur_rate": 0.8972330055182532,
+  "last_run_ts": 1793991919.3623364,
+  "last_eur_rate": 0.8972730010112593,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
