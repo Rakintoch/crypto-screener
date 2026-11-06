@@ -3170,5 +3170,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "AKE (cex_small_cap) gained +27.2% in 77 min — trailing stop caught extra upside after the target. Entry score: 79. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793961624.9819725,
+    "symbol": "BIRB",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/moonbirds",
+    "held_minutes": 823.1,
+    "exit_reason": "trailing stop hit — dropped 6.5% from the peak (peak +28.4% since entry)",
+    "pnl_pct": 20.06,
+    "pnl_eur": 1.42,
+    "entry_score": 65.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 21767518,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 0.415,
+    "entry_chg_24h": 11.08735,
+    "entry_chg_7d": 39.0995,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.7966518070686773,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "BIRB (cex_small_cap) gained +20.1% in 823 min — trailing stop caught extra upside after the target. Entry score: 65. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
