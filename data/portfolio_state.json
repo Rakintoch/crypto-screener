@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 19.887490588835398,
+  "cash_eur": 26.528200238678338,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:cyberconnect": {
@@ -15,7 +15,7 @@
       "entry_price_eur": 0.325813559846452,
       "entry_ts": 1793984984.3498461,
       "cost_eur": 7.435678708859152,
-      "last_price_eur": 0.3217949502648944,
+      "last_price_eur": 0.32196721799868044,
       "last_score": 73.6,
       "missed_updates": 0,
       "entry_market_cap": 22187766,
@@ -56,49 +56,7 @@
           "source": "Program Business"
         }
       ],
-      "last_market_cap": 21907208
-    },
-    "cex_small_cap:programmable-2": {
-      "tier": "cex_small_cap",
-      "id": "programmable-2",
-      "symbol": "V4",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/programmable-2",
-      "qty": 5796.116407323973,
-      "entry_price_eur": 0.0012828725626461586,
-      "entry_ts": 1793984984.3498461,
-      "cost_eur": 7.435678708859152,
-      "last_price_eur": 0.0011874577209162048,
-      "last_score": 52.0,
-      "missed_updates": 0,
-      "entry_market_cap": 1352545,
-      "entry_venue": null,
-      "entry_contract_address": null,
-      "entry_score": 81.6,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 300624,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 18.2469,
-      "entry_chg_24h": 59.9106,
-      "entry_chg_7d": 36.5096,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.22226543294308138,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Solana launches programmable conference badge f... - Pluang",
-          "ts": 1793234256.0,
-          "source": "Pluang"
-        }
-      ],
-      "last_market_cap": 1251875
+      "last_market_cap": 21889536
     },
     "cex_small_cap:hookr-fun": {
       "tier": "cex_small_cap",
@@ -110,7 +68,7 @@
       "entry_price_eur": 0.023501662488383347,
       "entry_ts": 1793984984.3498461,
       "cost_eur": 7.435678708859153,
-      "last_price_eur": 0.023132685593123817,
+      "last_price_eur": 0.023122168015602143,
       "last_score": 55.8,
       "missed_updates": 0,
       "entry_market_cap": 26204850,
@@ -132,7 +90,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 25781761
+      "last_market_cap": 25780473
     },
     "cex_small_cap:reinforced-ai": {
       "tier": "cex_small_cap",
@@ -144,8 +102,8 @@
       "entry_price_eur": 5.374533535403185,
       "entry_ts": 1793988136.8895493,
       "cost_eur": 7.376664676981495,
-      "last_price_eur": 5.221802911795565,
-      "last_score": 95.9,
+      "last_price_eur": 5.1673939320640505,
+      "last_score": 95.8,
       "missed_updates": 0,
       "entry_market_cap": 2492229,
       "entry_venue": "Subnet Tokens",
@@ -166,7 +124,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 2420307
+      "last_market_cap": 2398846
     }
   },
   "closed_trades": [
@@ -2481,10 +2439,58 @@
       "proceeds_eur": 6.9848347832179565,
       "pnl_eur": -0.6236790448907872,
       "pnl_pct": -8.197120475574081
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "programmable-2",
+      "symbol": "V4",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/programmable-2",
+      "qty": 5796.116407323973,
+      "entry_price_eur": 0.0012828725626461586,
+      "entry_ts": 1793984984.3498461,
+      "cost_eur": 7.435678708859152,
+      "last_price_eur": 0.001145717094544847,
+      "last_score": 52.0,
+      "missed_updates": 0,
+      "entry_market_cap": 1352545,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 81.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 300624,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 18.2469,
+      "entry_chg_24h": 59.9106,
+      "entry_chg_7d": 36.5096,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.22226543294308138,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Solana launches programmable conference badge f... - Pluang",
+          "ts": 1793234256.0,
+          "source": "Pluang"
+        }
+      ],
+      "last_market_cap": 1208382,
+      "exit_price_eur": 0.001145717094544847,
+      "exit_ts": 1793991045.1597073,
+      "exit_reason": "stop-loss hit (-10.7%)",
+      "proceeds_eur": 6.6407096498429405,
+      "pnl_eur": -0.7949690590162115,
+      "pnl_pct": -10.691277691558337
     }
   ],
-  "last_run_ts": 1793990728.0436466,
-  "last_eur_rate": 0.8972169951538771,
+  "last_run_ts": 1793991045.1597073,
+  "last_eur_rate": 0.8971170020944532,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,

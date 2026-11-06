@@ -12547,5 +12547,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "ZEUS (cex_small_cap) lost -8.2% in 447 min (slow (>6h)) — stop-loss hit. Entry score: 71 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793991045.1597073,
+    "symbol": "V4",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/programmable-2",
+    "held_minutes": 101.0,
+    "exit_reason": "stop-loss hit (-10.7%)",
+    "pnl_pct": -10.69,
+    "pnl_eur": -0.79,
+    "entry_score": 81.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 300624,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 18.2469,
+    "entry_chg_24h": 59.9106,
+    "entry_chg_7d": 36.5096,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.22226543294308138,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "V4 (cex_small_cap) lost -10.7% in 101 min (fast (1-6h)) — stop-loss hit. Entry score: 82 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
