@@ -159,11 +159,6 @@
     "last_score": 60.1,
     "symbol": "SECZB"
   },
-  "dex_micro_cap:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
-    "last_alert_ts": 1793692973.1728067,
-    "last_score": 79.7,
-    "symbol": "WASTED"
-  },
   "cex_small_cap:aria-ai": {
     "last_alert_ts": 1793912239.8926165,
     "last_score": 93.4,
@@ -205,8 +200,8 @@
     "symbol": "AMC"
   },
   "cex_small_cap:impossible-cloud-network-token": {
-    "last_alert_ts": 1793865779.144447,
-    "last_score": 68.4,
+    "last_alert_ts": 1793952176.3843358,
+    "last_score": 72.8,
     "symbol": "ICNT"
   },
   "cex_small_cap:act-i-the-ai-prophecy": {
@@ -238,16 +233,6 @@
     "last_alert_ts": 1793833822.8259425,
     "last_score": 55.4,
     "symbol": "AXIS"
-  },
-  "dex_micro_cap:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": {
-    "last_alert_ts": 1793692973.1728067,
-    "last_score": 86.7,
-    "symbol": "CAPY"
-  },
-  "cex_small_cap:megaeth": {
-    "last_alert_ts": 1793692973.1728067,
-    "last_score": 63.7,
-    "symbol": "MEGA"
   },
   "dex_micro_cap:7kYXsF59Cc3HBjL1mW5y9eutEWYh3dTUuvBvnNV7pump": {
     "last_alert_ts": 1793700209.060939,
@@ -355,8 +340,8 @@
     "symbol": "1WIN"
   },
   "cex_small_cap:tokenbot-2": {
-    "last_alert_ts": 1793887010.5922985,
-    "last_score": 87.1,
+    "last_alert_ts": 1793952176.3843358,
+    "last_score": 56.4,
     "symbol": "CLANKER"
   },
   "cex_small_cap:portal-2": {
@@ -820,8 +805,8 @@
     "symbol": "KSTRB"
   },
   "cex_small_cap:unifai-network": {
-    "last_alert_ts": 1793908993.8427954,
-    "last_score": 67.1,
+    "last_alert_ts": 1793952176.3843358,
+    "last_score": 82.7,
     "symbol": "UAI"
   },
   "cex_small_cap:fluent-network": {
@@ -900,8 +885,8 @@
     "symbol": "baton"
   },
   "cex_small_cap:zeus-network": {
-    "last_alert_ts": 1793894598.151289,
-    "last_score": 72.7,
+    "last_alert_ts": 1793952176.3843358,
+    "last_score": 61.9,
     "symbol": "ZEUS"
   },
   "cex_small_cap:omisego": {
@@ -915,8 +900,8 @@
     "symbol": "DESSA"
   },
   "cex_small_cap:aligned": {
-    "last_alert_ts": 1793901813.018971,
-    "last_score": 80.7,
+    "last_alert_ts": 1793952176.3843358,
+    "last_score": 77.8,
     "symbol": "ALIGN"
   },
   "cex_small_cap:cyberconnect": {
@@ -1008,5 +993,20 @@
     "last_alert_ts": 1793944997.2544165,
     "last_score": 55.1,
     "symbol": "WOO"
+  },
+  "cex_small_cap:reboot-2": {
+    "last_alert_ts": 1793952176.3843358,
+    "last_score": 58.0,
+    "symbol": "REBOOT"
+  },
+  "cex_small_cap:harmony": {
+    "last_alert_ts": 1793952176.3843358,
+    "last_score": 56.6,
+    "symbol": "ONE"
+  },
+  "cex_small_cap:denim": {
+    "last_alert_ts": 1793952176.3843358,
+    "last_score": 55.7,
+    "symbol": "DENIM"
   }
 }
