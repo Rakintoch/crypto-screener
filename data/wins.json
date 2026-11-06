@@ -3092,5 +3092,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "SOXSB (cex_small_cap) gained +24.0% in 1458 min — trailing stop caught extra upside after the target. Entry score: 93. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793937866.2519948,
+    "symbol": "CYBER",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/cyberconnect",
+    "held_minutes": 481.2,
+    "exit_reason": "trailing stop hit — dropped 5.4% from the peak (peak +31.9% since entry)",
+    "pnl_pct": 24.79,
+    "pnl_eur": 1.75,
+    "entry_score": 70.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 11021013,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 13.8614,
+    "entry_chg_24h": 10.05907,
+    "entry_chg_7d": -6.7021,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.6508594600548101,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "CYBER (cex_small_cap) gained +24.8% in 481 min — trailing stop caught extra upside after the target. Entry score: 71. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
