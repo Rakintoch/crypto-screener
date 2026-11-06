@@ -12493,5 +12493,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "ALIGN (cex_small_cap) lost -8.8% in 47 min (very fast (<1h)) — stop-loss hit. Entry score: 92 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793974825.6720214,
+    "symbol": "UP",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/superform",
+    "held_minutes": 740.6,
+    "exit_reason": "stop-loss hit (-8.2%)",
+    "pnl_pct": -8.19,
+    "pnl_eur": -0.58,
+    "entry_score": 90.7,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 51015373,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 9.2303,
+    "entry_chg_24h": 19.00743,
+    "entry_chg_7d": 17.6598,
+    "entry_chg_6h": null,
+    "entry_turnover": 3.07149575842873,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "UP (cex_small_cap) lost -8.2% in 741 min (slow (>6h)) — stop-loss hit. Entry score: 91 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
