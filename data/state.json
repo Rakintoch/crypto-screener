@@ -105,8 +105,8 @@
     "symbol": "JEANPHIL"
   },
   "cex_small_cap:audacity": {
-    "last_alert_ts": 1793908993.8427954,
-    "last_score": 55.8,
+    "last_alert_ts": 1793955818.4985824,
+    "last_score": 58.3,
     "symbol": "DACITYCOIN"
   },
   "cex_small_cap:flock-2": {
@@ -160,8 +160,8 @@
     "symbol": "SECZB"
   },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1793912239.8926165,
-    "last_score": 93.4,
+    "last_alert_ts": 1793955818.4985824,
+    "last_score": 62.7,
     "symbol": "ARIA"
   },
   "cex_small_cap:float": {
@@ -1008,5 +1008,15 @@
     "last_alert_ts": 1793952176.3843358,
     "last_score": 55.7,
     "symbol": "DENIM"
+  },
+  "cex_small_cap:trusta-ai": {
+    "last_alert_ts": 1793955818.4985824,
+    "last_score": 61.4,
+    "symbol": "TA"
+  },
+  "cex_small_cap:digitalbits": {
+    "last_alert_ts": 1793955818.4985824,
+    "last_score": 58.1,
+    "symbol": "XDB"
   }
 }
