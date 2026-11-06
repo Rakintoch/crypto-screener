@@ -10,8 +10,8 @@
     "symbol": "DACITY"
   },
   "cex_small_cap:moonbirds": {
-    "last_alert_ts": 1793937778.8609626,
-    "last_score": 95.6,
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 60.1,
     "symbol": "BIRB"
   },
   "cex_small_cap:particle-network": {
@@ -43,11 +43,6 @@
     "last_alert_ts": 1793772184.7568083,
     "last_score": 62.4,
     "symbol": "VRTON"
-  },
-  "cex_small_cap:metaplex": {
-    "last_alert_ts": 1793721795.748495,
-    "last_score": 74.2,
-    "symbol": "MPLX"
   },
   "cex_small_cap:raeto": {
     "last_alert_ts": 1793836995.3407884,
@@ -100,8 +95,8 @@
     "symbol": "DACITYCOIN"
   },
   "cex_small_cap:flock-2": {
-    "last_alert_ts": 1793781229.4309528,
-    "last_score": 68.4,
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 61.3,
     "symbol": "FLOCK"
   },
   "cex_small_cap:audacity-2": {
@@ -110,8 +105,8 @@
     "symbol": "DACITYCOIN"
   },
   "cex_small_cap:neosoul": {
-    "last_alert_ts": 1793851404.4859016,
-    "last_score": 56.5,
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 55.6,
     "symbol": "DNA"
   },
   "cex_small_cap:everlyn": {
@@ -165,18 +160,18 @@
     "symbol": "ALTSZN"
   },
   "cex_small_cap:spacex-backpack-securities": {
-    "last_alert_ts": 1793930389.5877848,
-    "last_score": 55.7,
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 55.4,
     "symbol": "SPCX"
   },
   "cex_small_cap:spacex-robinhood-tokenized-stock": {
-    "last_alert_ts": 1793808161.3687012,
-    "last_score": 56.0,
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 56.7,
     "symbol": "SPCX"
   },
   "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793937778.8609626,
-    "last_score": 89.4,
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 69.8,
     "symbol": "SOXSB"
   },
   "cex_small_cap:a-meme-coin": {
@@ -218,16 +213,6 @@
     "last_alert_ts": 1793781229.4309528,
     "last_score": 82.2,
     "symbol": "PYBOBO"
-  },
-  "dex_micro_cap:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": {
-    "last_alert_ts": 1793721795.748495,
-    "last_score": 61.6,
-    "symbol": "Percolator"
-  },
-  "cex_small_cap:coinbase-xstock": {
-    "last_alert_ts": 1793721795.748495,
-    "last_score": 58.0,
-    "symbol": "COINX"
   },
   "dex_micro_cap:4yxnt3xAdyBFFbzMWJy9sjGEoiBNkjwdSQZ8ZyULpump": {
     "last_alert_ts": 1793815403.748942,
@@ -770,8 +755,8 @@
     "symbol": "george"
   },
   "cex_small_cap:take-two-interactive-software-robinhood-tokenized-stock": {
-    "last_alert_ts": 1793908993.8427954,
-    "last_score": 56.4,
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 55.1,
     "symbol": "TTWO"
   },
   "cex_small_cap:superform": {
@@ -875,8 +860,8 @@
     "symbol": "CORLA"
   },
   "cex_small_cap:hookr-fun": {
-    "last_alert_ts": 1793930389.5877848,
-    "last_score": 78.6,
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 67.4,
     "symbol": "HOOKR"
   },
   "cex_small_cap:funfair": {
@@ -885,8 +870,8 @@
     "symbol": "FUN"
   },
   "cex_small_cap:caldera": {
-    "last_alert_ts": 1793930389.5877848,
-    "last_score": 59.9,
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 55.7,
     "symbol": "ERA"
   },
   "cex_small_cap:concrete": {
@@ -905,8 +890,8 @@
     "symbol": "AKE"
   },
   "cex_small_cap:dacity-coin-4": {
-    "last_alert_ts": 1793937778.8609626,
-    "last_score": 69.7,
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 64.5,
     "symbol": "DACITY"
   },
   "cex_small_cap:chainbase": {
@@ -998,5 +983,50 @@
     "last_alert_ts": 1793973806.9480007,
     "last_score": 83.5,
     "symbol": "WEALTH"
+  },
+  "cex_small_cap:antminer": {
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 82.6,
+    "symbol": "ANT"
+  },
+  "cex_small_cap:gamercoin": {
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 69.9,
+    "symbol": "GHX"
+  },
+  "cex_small_cap:moonriver": {
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 68.2,
+    "symbol": "MOVR"
+  },
+  "cex_small_cap:zilliqa": {
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 65.4,
+    "symbol": "ZIL"
+  },
+  "cex_small_cap:olympique-de-marseille-fan-token": {
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 62.6,
+    "symbol": "OM"
+  },
+  "cex_small_cap:xphere": {
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 58.3,
+    "symbol": "XP"
+  },
+  "cex_small_cap:rocket-lab-ondo-tokenized": {
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 56.9,
+    "symbol": "RKLBON"
+  },
+  "cex_small_cap:my-neighbor-alice": {
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 55.1,
+    "symbol": "ALICE"
+  },
+  "cex_small_cap:cea-industries-bstocks-tokenized-stock": {
+    "last_alert_ts": 1793981008.239775,
+    "last_score": 55.0,
+    "symbol": "BNCB"
   }
 }
