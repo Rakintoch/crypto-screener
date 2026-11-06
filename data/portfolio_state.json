@@ -15,8 +15,8 @@
       "entry_price_eur": 0.06154591480398211,
       "entry_ts": 1793930390.1757255,
       "cost_eur": 7.08533795613478,
-      "last_price_eur": 0.0590770256210113,
-      "last_score": 50.4,
+      "last_price_eur": 0.058821291439350096,
+      "last_score": 49.6,
       "missed_updates": 0,
       "entry_market_cap": 16609293,
       "entry_venue": "Upbit",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 15859564
+      "last_market_cap": 15782034
     },
     "cex_small_cap:zeus-network": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.006614289428361093,
       "entry_ts": 1793955819.0026839,
       "cost_eur": 7.608513828108744,
-      "last_price_eur": 0.006493406870114929,
-      "last_score": 50.7,
+      "last_price_eur": 0.006467830091515983,
+      "last_score": 50.0,
       "missed_updates": 0,
       "entry_market_cap": 6886957,
       "entry_venue": "HTX",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 6745221
+      "last_market_cap": 6715047
     }
   },
   "closed_trades": [
@@ -2308,8 +2308,8 @@
       "pnl_pct": 20.056068052271087
     }
   ],
-  "last_run_ts": 1793972730.5512257,
-  "last_eur_rate": 0.8966279993475489,
+  "last_run_ts": 1793973027.4534779,
+  "last_eur_rate": 0.8971310044741192,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
