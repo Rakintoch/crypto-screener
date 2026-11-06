@@ -12466,5 +12466,32 @@
     "categoria": "other",
     "velocidade_queda": "slow (>6h)",
     "licao": "OMG (cex_small_cap) lost -6.3% in 720 min (slow (>6h)) — other. Entry score: 70 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793958625.185256,
+    "symbol": "ALIGN",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/aligned",
+    "held_minutes": 46.8,
+    "exit_reason": "stop-loss hit (-8.8%)",
+    "pnl_pct": -8.84,
+    "pnl_eur": -0.67,
+    "entry_score": 92.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 7586142,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.846,
+    "entry_chg_24h": 35.95538,
+    "entry_chg_7d": 25.8605,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.8960735914715613,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "ALIGN (cex_small_cap) lost -8.8% in 47 min (very fast (<1h)) — stop-loss hit. Entry score: 92 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
