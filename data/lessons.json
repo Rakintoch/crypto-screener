@@ -12439,5 +12439,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "SOXSB (cex_small_cap) lost -8.9% in 28 min (very fast (<1h)) — stop-loss hit. Entry score: 86 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1793937779.206944,
+    "symbol": "OMG",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/omisego",
+    "held_minutes": 719.7,
+    "exit_reason": "rotated out — thesis fading (score 44, no unrealized gain) to free a slot for a new qualified candidate",
+    "pnl_pct": -6.32,
+    "pnl_eur": -0.46,
+    "entry_score": 70.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 2423413,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 11.6877,
+    "entry_chg_24h": 13.81644,
+    "entry_chg_7d": 5.788,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.3376405940068489,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "OMG (cex_small_cap) lost -6.3% in 720 min (slow (>6h)) — other. Entry score: 70 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
