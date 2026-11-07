@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 28.533844501575913,
+  "cash_eur": 35.29515019363636,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:trusta-ai": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.08678760024037921,
       "entry_ts": 1794016981.4420679,
       "cost_eur": 7.230321118542688,
-      "last_price_eur": 0.08710519102235868,
-      "last_score": 46.7,
+      "last_price_eur": 0.0865947118194409,
+      "last_score": 45.5,
       "missed_updates": 0,
       "entry_market_cap": 17419540,
       "entry_venue": "Bybit",
@@ -37,61 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 17476577
-    },
-    "cex_small_cap:harmony": {
-      "tier": "cex_small_cap",
-      "id": "harmony",
-      "symbol": "ONE",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/harmony",
-      "qty": 3600.0894596327166,
-      "entry_price_eur": 0.002078588896920021,
-      "entry_ts": 1794074576.6972504,
-      "cost_eur": 7.483105978711363,
-      "last_price_eur": 0.002023844807651565,
-      "last_score": 70.2,
-      "missed_updates": 0,
-      "entry_market_cap": 34452551,
-      "entry_venue": "Binance",
-      "entry_contract_address": null,
-      "entry_score": 99.0,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 115613279,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 7.3314,
-      "entry_chg_24h": 43.78695,
-      "entry_chg_7d": 87.5525,
-      "entry_chg_6h": null,
-      "entry_turnover": 3.3557247763743243,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "restructuring",
-        "security_incident",
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.6000000000000001,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Anger as Harmony Proposes Minting Five BILLION New Tokens After Horizon Bridge Hack - CoinMarketCap",
-          "ts": 1792976556.0,
-          "source": "CoinMarketCap"
-        },
-        {
-          "title": "Harmony Launch Could Change The Case For monday.com Stock - Yahoo Finance",
-          "ts": 1792738800.0,
-          "source": "Yahoo Finance"
-        },
-        {
-          "title": "Google and Carnegie Mellon launch Harmony Harne... - Pluang",
-          "ts": 1792047600.0,
-          "source": "Pluang"
-        }
-      ],
-      "last_market_cap": 33568423
+      "last_market_cap": 17377781
     },
     "cex_small_cap:act-i-the-ai-prophecy": {
       "tier": "cex_small_cap",
@@ -103,8 +49,8 @@
       "entry_price_eur": 0.010151934053253887,
       "entry_ts": 1794076155.8365753,
       "cost_eur": 7.446912091751119,
-      "last_price_eur": 0.010349163584240774,
-      "last_score": 67.3,
+      "last_price_eur": 0.010057778135684158,
+      "last_score": 63.2,
       "missed_updates": 0,
       "entry_market_cap": 10729870,
       "entry_venue": "Binance",
@@ -125,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10932468
+      "last_market_cap": 10639048
     }
   },
   "closed_trades": [
@@ -2733,10 +2679,70 @@
       "proceeds_eur": 8.644132943640617,
       "pnl_eur": 1.2674682666591224,
       "pnl_pct": 17.18213206320998
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "harmony",
+      "symbol": "ONE",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/harmony",
+      "qty": 3600.0894596327166,
+      "entry_price_eur": 0.002078588896920021,
+      "entry_ts": 1794074576.6972504,
+      "cost_eur": 7.483105978711363,
+      "last_price_eur": 0.0018780937995774806,
+      "last_score": 68.6,
+      "missed_updates": 0,
+      "entry_market_cap": 34452551,
+      "entry_venue": "Binance",
+      "entry_contract_address": null,
+      "entry_score": 99.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 115613279,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 7.3314,
+      "entry_chg_24h": 43.78695,
+      "entry_chg_7d": 87.5525,
+      "entry_chg_6h": null,
+      "entry_turnover": 3.3557247763743243,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "restructuring",
+        "security_incident",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.6000000000000001,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Anger as Harmony Proposes Minting Five BILLION New Tokens After Horizon Bridge Hack - CoinMarketCap",
+          "ts": 1792976556.0,
+          "source": "CoinMarketCap"
+        },
+        {
+          "title": "Harmony Launch Could Change The Case For monday.com Stock - Yahoo Finance",
+          "ts": 1792738800.0,
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "Google and Carnegie Mellon launch Harmony Harne... - Pluang",
+          "ts": 1792047600.0,
+          "source": "Pluang"
+        }
+      ],
+      "last_market_cap": 30990947,
+      "exit_price_eur": 0.0018780937995774806,
+      "exit_ts": 1794089119.2193265,
+      "exit_reason": "stop-loss hit (-9.6%)",
+      "proceeds_eur": 6.761305692060447,
+      "pnl_eur": -0.7218002866509154,
+      "pnl_pct": -9.645731180399691
     }
   ],
-  "last_run_ts": 1794088847.854551,
-  "last_eur_rate": 0.8971500038351514,
+  "last_run_ts": 1794089119.2193265,
+  "last_eur_rate": 0.897149995021248,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
