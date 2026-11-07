@@ -3196,5 +3196,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "BIRB (cex_small_cap) gained +20.1% in 823 min — trailing stop caught extra upside after the target. Entry score: 65. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794048920.8124597,
+    "symbol": "ONE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/harmony",
+    "held_minutes": 733.9,
+    "exit_reason": "trailing stop hit — dropped 5.2% from the peak (peak +21.1% since entry)",
+    "pnl_pct": 14.9,
+    "pnl_eur": 1.08,
+    "entry_score": 98.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 62045741,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 7.1893,
+    "entry_chg_24h": 58.37219,
+    "entry_chg_7d": 45.7451,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.482532792588173,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "ONE (cex_small_cap) gained +14.9% in 734 min — trailing stop caught extra upside after the target. Entry score: 98. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
