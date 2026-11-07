@@ -50,8 +50,8 @@
     "symbol": "RAETO"
   },
   "cex_small_cap:meet48": {
-    "last_alert_ts": 1793973806.9480007,
-    "last_score": 58.5,
+    "last_alert_ts": 1794024201.9978385,
+    "last_score": 61.2,
     "symbol": "IDOL"
   },
   "cex_small_cap:lisk": {
@@ -263,11 +263,6 @@
     "last_alert_ts": 1793923382.256523,
     "last_score": 83.7,
     "symbol": "AMD"
-  },
-  "dex_micro_cap:0x6f18277e5566090ad8ab35e401ce9155739bfb07": {
-    "last_alert_ts": 1793757808.806199,
-    "last_score": 58.7,
-    "symbol": "Reboot"
   },
   "cex_small_cap:the-index": {
     "last_alert_ts": 1793815403.748942,
@@ -983,5 +978,15 @@
     "last_alert_ts": 1794016981.0165496,
     "last_score": 57.5,
     "symbol": "BASED"
+  },
+  "cex_small_cap:carv": {
+    "last_alert_ts": 1794024201.9978385,
+    "last_score": 78.6,
+    "symbol": "CARV"
+  },
+  "dex_micro_cap:0xf6d41cbb39a6540a93e0d29a50b4eb720444e754": {
+    "last_alert_ts": 1794024201.9978385,
+    "last_score": 71.3,
+    "symbol": "Anthropic"
   }
 }
