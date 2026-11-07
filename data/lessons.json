@@ -12601,5 +12601,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "CYBER (cex_small_cap) lost -9.0% in 421 min (slow (>6h)) — stop-loss hit. Entry score: 89 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794016981.4420679,
+    "symbol": "HOOKR",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/hookr-fun",
+    "held_minutes": 533.3,
+    "exit_reason": "momentum thesis invalidated (score dropped to 28)",
+    "pnl_pct": -7.71,
+    "pnl_eur": -0.57,
+    "entry_score": 81.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 3940342,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 8.0894,
+    "entry_chg_24h": 51.267,
+    "entry_chg_7d": 92.039,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.1503668977307636,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "HOOKR (cex_small_cap) lost -7.7% in 533 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 81 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

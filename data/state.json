@@ -55,8 +55,8 @@
     "symbol": "IDOL"
   },
   "cex_small_cap:lisk": {
-    "last_alert_ts": 1793844166.6903732,
-    "last_score": 91.9,
+    "last_alert_ts": 1794016981.0165496,
+    "last_score": 57.1,
     "symbol": "LSK"
   },
   "cex_small_cap:regent-coin": {
@@ -775,8 +775,8 @@
     "symbol": "C"
   },
   "cex_small_cap:unitas": {
-    "last_alert_ts": 1793937778.8609626,
-    "last_score": 58.2,
+    "last_alert_ts": 1794016981.0165496,
+    "last_score": 58.5,
     "symbol": "UP"
   },
   "dex_micro_cap:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": {
@@ -968,5 +968,20 @@
     "last_alert_ts": 1794004887.5342288,
     "last_score": 59.0,
     "symbol": "1WIN"
+  },
+  "dex_micro_cap:HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": {
+    "last_alert_ts": 1794016981.0165496,
+    "last_score": 67.3,
+    "symbol": "SI276"
+  },
+  "cex_small_cap:cat-wif-sword-2": {
+    "last_alert_ts": 1794016981.0165496,
+    "last_score": 59.1,
+    "symbol": "SWORDCAT"
+  },
+  "cex_small_cap:based-one": {
+    "last_alert_ts": 1794016981.0165496,
+    "last_score": 57.5,
+    "symbol": "BASED"
   }
 }
