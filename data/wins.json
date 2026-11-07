@@ -3274,5 +3274,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "ICNT (cex_small_cap) gained +11.2% in 847 min — trailing stop caught extra upside after the target. Entry score: 71. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794087040.76635,
+    "symbol": "SN92",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/reinforced-ai",
+    "held_minutes": 1648.4,
+    "exit_reason": "trailing stop hit — dropped 5.5% from the peak (peak +24.0% since entry)",
+    "pnl_pct": 17.18,
+    "pnl_eur": 1.27,
+    "entry_score": 95.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 3336621,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 9.5615,
+    "entry_chg_24h": 39.46805,
+    "entry_chg_7d": 26.9782,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.3388099568699345,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "SN92 (cex_small_cap) gained +17.2% in 1648 min — trailing stop caught extra upside after the target. Entry score: 96. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
