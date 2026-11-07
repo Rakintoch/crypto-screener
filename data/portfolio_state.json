@@ -15,8 +15,8 @@
       "entry_price_eur": 0.08678760024037921,
       "entry_ts": 1794016981.4420679,
       "cost_eur": 7.230321118542688,
-      "last_price_eur": 0.086235852644589,
-      "last_score": 44.8,
+      "last_price_eur": 0.08612729754286515,
+      "last_score": 44.6,
       "missed_updates": 0,
       "entry_market_cap": 17419540,
       "entry_venue": "Bybit",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 17302021
+      "last_market_cap": 17280151
     },
     "cex_small_cap:act-i-the-ai-prophecy": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.010151934053253887,
       "entry_ts": 1794076155.8365753,
       "cost_eur": 7.446912091751119,
-      "last_price_eur": 0.010053723113673573,
-      "last_score": 63.3,
+      "last_price_eur": 0.010139795690752145,
+      "last_score": 63.8,
       "missed_updates": 0,
       "entry_market_cap": 10729870,
       "entry_venue": "Binance",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10626071
+      "last_market_cap": 10717039
     }
   },
   "closed_trades": [
@@ -2741,8 +2741,8 @@
       "pnl_pct": -9.645731180399691
     }
   ],
-  "last_run_ts": 1794090641.4068155,
-  "last_eur_rate": 0.8971500035849128,
+  "last_run_ts": 1794090910.7147105,
+  "last_eur_rate": 0.8971500040923026,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
