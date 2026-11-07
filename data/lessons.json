@@ -12574,5 +12574,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "V4 (cex_small_cap) lost -10.7% in 101 min (fast (1-6h)) — stop-loss hit. Entry score: 82 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794010223.6202054,
+    "symbol": "CYBER",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/cyberconnect",
+    "held_minutes": 420.7,
+    "exit_reason": "stop-loss hit (-9.0%)",
+    "pnl_pct": -8.99,
+    "pnl_eur": -0.67,
+    "entry_score": 89.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 134853831,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 2.9776,
+    "entry_chg_24h": 53.7943,
+    "entry_chg_7d": 33.2709,
+    "entry_chg_6h": null,
+    "entry_turnover": 6.077846277989411,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "CYBER (cex_small_cap) lost -9.0% in 421 min (slow (>6h)) — stop-loss hit. Entry score: 89 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
