@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 27.336623649686416,
+  "cash_eur": 19.889711557935296,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:reinforced-ai": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 5.374533535403185,
       "entry_ts": 1793988136.8895493,
       "cost_eur": 7.376664676981495,
-      "last_price_eur": 5.687930990371146,
-      "last_score": 78.7,
+      "last_price_eur": 5.71484548269204,
+      "last_score": 79.0,
       "missed_updates": 0,
       "entry_market_cap": 2492229,
       "entry_venue": "Subnet Tokens",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 2679825
+      "last_market_cap": 2695263
     },
     "cex_small_cap:trusta-ai": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.08678760024037921,
       "entry_ts": 1794016981.4420679,
       "cost_eur": 7.230321118542688,
-      "last_price_eur": 0.08678939370307796,
-      "last_score": 45.0,
+      "last_price_eur": 0.0863883675383645,
+      "last_score": 44.2,
       "missed_updates": 0,
       "entry_market_cap": 17419540,
       "entry_venue": "Bybit",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 17413044
+      "last_market_cap": 17332590
     },
     "cex_small_cap:harmony": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.002078588896920021,
       "entry_ts": 1794074576.6972504,
       "cost_eur": 7.483105978711363,
-      "last_price_eur": 0.0020271732220682854,
-      "last_score": 93.7,
+      "last_price_eur": 0.002019018125885209,
+      "last_score": 93.6,
       "missed_updates": 0,
       "entry_market_cap": 34452551,
       "entry_venue": "Binance",
@@ -125,7 +125,40 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 33600292
+      "last_market_cap": 33465040
+    },
+    "cex_small_cap:act-i-the-ai-prophecy": {
+      "tier": "cex_small_cap",
+      "id": "act-i-the-ai-prophecy",
+      "symbol": "ACT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/act-i-the-ai-prophecy",
+      "qty": 733.546145265221,
+      "entry_price_eur": 0.010151934053253887,
+      "entry_ts": 1794076155.8365753,
+      "cost_eur": 7.446912091751119,
+      "last_price_eur": 0.010151934053253887,
+      "last_score": 89.7,
+      "missed_updates": 0,
+      "entry_market_cap": 10729870,
+      "entry_venue": "Binance",
+      "entry_contract_address": "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump (Solana)",
+      "entry_score": 89.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 33494645,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 5.429,
+      "entry_chg_24h": 15.12766,
+      "entry_chg_7d": 36.3007,
+      "entry_chg_6h": null,
+      "entry_turnover": 3.1216263570760874,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2693,8 +2726,8 @@
       "pnl_pct": 11.206786583703332
     }
   ],
-  "last_run_ts": 1794075918.5408237,
-  "last_eur_rate": 0.8971499984812533,
+  "last_run_ts": 1794076155.8365753,
+  "last_eur_rate": 0.8971499972828947,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
