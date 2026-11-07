@@ -75,8 +75,8 @@
     "symbol": "ESPORTS"
   },
   "cex_small_cap:jean-phil": {
-    "last_alert_ts": 1793916180.2561522,
-    "last_score": 62.0,
+    "last_alert_ts": 1794074576.2446394,
+    "last_score": 55.7,
     "symbol": "JEANPHIL"
   },
   "cex_small_cap:audacity": {
@@ -149,11 +149,6 @@
     "last_score": 69.8,
     "symbol": "SOXSB"
   },
-  "cex_small_cap:a-meme-coin": {
-    "last_alert_ts": 1793814257.5203047,
-    "last_score": 62.2,
-    "symbol": "AMC"
-  },
   "cex_small_cap:impossible-cloud-network-token": {
     "last_alert_ts": 1794054166.9142106,
     "last_score": 78.9,
@@ -163,11 +158,6 @@
     "last_alert_ts": 1794038597.4271808,
     "last_score": 89.6,
     "symbol": "ACT"
-  },
-  "dex_micro_cap:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": {
-    "last_alert_ts": 1793814257.5203047,
-    "last_score": 57.1,
-    "symbol": "CAPY"
   },
   "cex_small_cap:axis-robotics": {
     "last_alert_ts": 1793833822.8259425,
@@ -209,11 +199,6 @@
     "last_score": 58.2,
     "symbol": "INDEX"
   },
-  "dex_micro_cap:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": {
-    "last_alert_ts": 1793814257.5203047,
-    "last_score": 79.2,
-    "symbol": "RICO"
-  },
   "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
     "last_alert_ts": 1794004887.5342288,
     "last_score": 60.5,
@@ -223,11 +208,6 @@
     "last_alert_ts": 1794060185.4163067,
     "last_score": 62.6,
     "symbol": "BUN"
-  },
-  "cex_small_cap:cypherpunk-technologies-bstocks-tokenized-stock": {
-    "last_alert_ts": 1793814257.5203047,
-    "last_score": 75.6,
-    "symbol": "CYPHB"
   },
   "cex_small_cap:egl1": {
     "last_alert_ts": 1793995406.9834378,
@@ -258,11 +238,6 @@
     "last_alert_ts": 1793916180.2561522,
     "last_score": 59.5,
     "symbol": "JEANPHIL"
-  },
-  "cex_small_cap:robostrategy-backpack-securities": {
-    "last_alert_ts": 1793814257.5203047,
-    "last_score": 60.5,
-    "symbol": "BOT"
   },
   "dex_micro_cap:0x0bddfa9a0a1eb326593262c7af47ee091db9cb70": {
     "last_alert_ts": 1793944997.2544165,
@@ -505,8 +480,8 @@
     "symbol": "ALIGN"
   },
   "cex_small_cap:cyberconnect": {
-    "last_alert_ts": 1793984983.6910799,
-    "last_score": 89.2,
+    "last_alert_ts": 1794074576.2446394,
+    "last_score": 58.8,
     "symbol": "CYBER"
   },
   "cex_small_cap:merlin-chain": {
@@ -600,8 +575,8 @@
     "symbol": "REBOOT"
   },
   "cex_small_cap:harmony": {
-    "last_alert_ts": 1794054166.9142106,
-    "last_score": 81.6,
+    "last_alert_ts": 1794074576.2446394,
+    "last_score": 99.0,
     "symbol": "ONE"
   },
   "cex_small_cap:denim": {
@@ -655,8 +630,8 @@
     "symbol": "Diamond"
   },
   "dex_micro_cap:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": {
-    "last_alert_ts": 1793973806.9480007,
-    "last_score": 83.5,
+    "last_alert_ts": 1794074576.2446394,
+    "last_score": 55.4,
     "symbol": "WEALTH"
   },
   "cex_small_cap:antminer": {
@@ -868,5 +843,40 @@
     "last_alert_ts": 1794067396.9622908,
     "last_score": 57.0,
     "symbol": "IN"
+  },
+  "cex_small_cap:wealth-coin": {
+    "last_alert_ts": 1794074576.2446394,
+    "last_score": 84.4,
+    "symbol": "WEALTH"
+  },
+  "cex_small_cap:epic-chain": {
+    "last_alert_ts": 1794074576.2446394,
+    "last_score": 84.3,
+    "symbol": "EPIC"
+  },
+  "dex_micro_cap:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+    "last_alert_ts": 1794074576.2446394,
+    "last_score": 74.5,
+    "symbol": "Leonida"
+  },
+  "cex_small_cap:sign-global": {
+    "last_alert_ts": 1794074576.2446394,
+    "last_score": 64.5,
+    "symbol": "SIGN"
+  },
+  "cex_small_cap:mitosis": {
+    "last_alert_ts": 1794074576.2446394,
+    "last_score": 62.0,
+    "symbol": "MITO"
+  },
+  "cex_small_cap:lobin": {
+    "last_alert_ts": 1794074576.2446394,
+    "last_score": 55.3,
+    "symbol": "LOBIN"
+  },
+  "cex_small_cap:tolly": {
+    "last_alert_ts": 1794074576.2446394,
+    "last_score": 55.0,
+    "symbol": "TOLLY"
   }
 }
