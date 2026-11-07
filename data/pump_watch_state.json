@@ -1,7 +1,7 @@
 {
   "status": "active",
   "start_ts": 1789402186.9931946,
-  "cash_eur": 24.146243848260706,
+  "cash_eur": 0.0,
   "reserve_eur": 1.9326204356193786,
   "starting_balance_eur": 100.0,
   "positions": {
@@ -37,6 +37,29 @@
       "entry_chg_24h": 8.27997,
       "entry_chg_7d": 7.367,
       "entry_turnover": 73.99629015000102,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
+    },
+    "cex_small_cap:moderna-rstock": {
+      "id": "moderna-rstock",
+      "symbol": "RMRNA",
+      "qty": 0.10482722092655862,
+      "entry_price_eur": 230.34326041303177,
+      "entry_ts": 1794060189.7621582,
+      "cost_eur": 24.146243848260706,
+      "last_price_eur": 230.34326041303177,
+      "peak_price_eur": 230.34326041303177,
+      "entry_market_cap": 1069950,
+      "last_market_cap": 1069950,
+      "entry_venue": "Bitget",
+      "entry_contract_address": "0xde6e5549cea3f8f64564324851cfedbc3b076ec5 (Arbitrum)",
+      "entry_obv_score": 0.16950529248569615,
+      "entry_price_change_3d": 0.03224103391407973,
+      "entry_volume_surge": 96.05208207239964,
+      "entry_chg_24h": 6.35727,
+      "entry_chg_7d": 16.0316,
+      "entry_turnover": 2.2738847609701387,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": []
@@ -355,8 +378,8 @@
       "reserved_eur": 0.0
     }
   ],
-  "last_run_ts": 1794059719.3035955,
-  "last_eur_rate": 0.89715000360867,
+  "last_run_ts": 1794060189.7621582,
+  "last_eur_rate": 0.897149991871594,
   "review_cycle": {
     "number": 3,
     "start_ts": 1792868581.9738064,
