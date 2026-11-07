@@ -15,8 +15,8 @@
       "entry_price_eur": 5.374533535403185,
       "entry_ts": 1793988136.8895493,
       "cost_eur": 7.376664676981495,
-      "last_price_eur": 5.248327548922406,
-      "last_score": 54.9,
+      "last_price_eur": 5.293184968917096,
+      "last_score": 58.2,
       "missed_updates": 0,
       "entry_market_cap": 2492229,
       "entry_venue": "Subnet Tokens",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 2475297
+      "last_market_cap": 2494489
     },
     "cex_small_cap:trusta-ai": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.08678760024037921,
       "entry_ts": 1794016981.4420679,
       "cost_eur": 7.230321118542688,
-      "last_price_eur": 0.08752326336585012,
+      "last_price_eur": 0.0872559113376115,
       "last_score": 58.3,
       "missed_updates": 0,
       "entry_market_cap": 17419540,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 17560302
+      "last_market_cap": 17506681
     }
   },
   "closed_trades": [
@@ -2639,8 +2639,8 @@
       "pnl_pct": 11.206786583703332
     }
   ],
-  "last_run_ts": 1794069317.818713,
-  "last_eur_rate": 0.8971500083628045,
+  "last_run_ts": 1794069622.6792543,
+  "last_eur_rate": 0.8971499947317112,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
