@@ -15,8 +15,8 @@
       "entry_price_eur": 5.374533535403185,
       "entry_ts": 1793988136.8895493,
       "cost_eur": 7.376664676981495,
-      "last_price_eur": 6.665824473440198,
-      "last_score": 86.5,
+      "last_price_eur": 6.665824499950825,
+      "last_score": 86.2,
       "missed_updates": 0,
       "entry_market_cap": 2492229,
       "entry_venue": "Subnet Tokens",
@@ -37,9 +37,9 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 3140679,
+      "last_market_cap": 3141609,
       "trailing_active": true,
-      "trailing_peak_eur": 6.665824473440198
+      "trailing_peak_eur": 6.665824499950825
     },
     "cex_small_cap:trusta-ai": {
       "tier": "cex_small_cap",
@@ -51,8 +51,8 @@
       "entry_price_eur": 0.08678760024037921,
       "entry_ts": 1794016981.4420679,
       "cost_eur": 7.230321118542688,
-      "last_price_eur": 0.0870423898031819,
-      "last_score": 47.6,
+      "last_price_eur": 0.0870800704493576,
+      "last_score": 48.3,
       "missed_updates": 0,
       "entry_market_cap": 17419540,
       "entry_venue": "Bybit",
@@ -73,7 +73,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 17463579
+      "last_market_cap": 17467260
     },
     "cex_small_cap:harmony": {
       "tier": "cex_small_cap",
@@ -85,7 +85,7 @@
       "entry_price_eur": 0.002078588896920021,
       "entry_ts": 1794074576.6972504,
       "cost_eur": 7.483105978711363,
-      "last_price_eur": 0.0020982095541397395,
+      "last_price_eur": 0.00211059920398443,
       "last_score": 98.3,
       "missed_updates": 0,
       "entry_market_cap": 34452551,
@@ -127,7 +127,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 34695331
+      "last_market_cap": 35023639
     },
     "cex_small_cap:act-i-the-ai-prophecy": {
       "tier": "cex_small_cap",
@@ -139,8 +139,8 @@
       "entry_price_eur": 0.010151934053253887,
       "entry_ts": 1794076155.8365753,
       "cost_eur": 7.446912091751119,
-      "last_price_eur": 0.010548967774467916,
-      "last_score": 72.9,
+      "last_price_eur": 0.01052432310592236,
+      "last_score": 75.3,
       "missed_updates": 0,
       "entry_market_cap": 10729870,
       "entry_venue": "Binance",
@@ -161,7 +161,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11121465
+      "last_market_cap": 11116038
     }
   },
   "closed_trades": [
@@ -2729,8 +2729,8 @@
       "pnl_pct": 11.206786583703332
     }
   ],
-  "last_run_ts": 1794082824.6801882,
-  "last_eur_rate": 0.8971499964253296,
+  "last_run_ts": 1794083119.4935603,
+  "last_eur_rate": 0.8971499999933816,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
