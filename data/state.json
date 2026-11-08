@@ -194,11 +194,6 @@
     "last_score": 55.6,
     "symbol": "RSOXS"
   },
-  "cex_small_cap:definitive": {
-    "last_alert_ts": 1793887379.4701347,
-    "last_score": 80.1,
-    "symbol": "EDGE"
-  },
   "cex_small_cap:baton-3": {
     "last_alert_ts": 1793988136.399688,
     "last_score": 58.3,
@@ -208,11 +203,6 @@
     "last_alert_ts": 1793988136.399688,
     "last_score": 55.6,
     "symbol": "CHOO"
-  },
-  "cex_small_cap:alibaba-robinhood-tokenized-stock": {
-    "last_alert_ts": 1793887379.4701347,
-    "last_score": 56.3,
-    "symbol": "BABA"
   },
   "cex_small_cap:applovin-bstocks-tokenized-stock": {
     "last_alert_ts": 1793988136.399688,
@@ -249,11 +239,6 @@
     "last_score": 55.8,
     "symbol": "UP"
   },
-  "dex_micro_cap:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": {
-    "last_alert_ts": 1793887010.5922985,
-    "last_score": 73.2,
-    "symbol": "PIRATE"
-  },
   "cex_small_cap:fogo": {
     "last_alert_ts": 1793930389.5877848,
     "last_score": 59.0,
@@ -268,11 +253,6 @@
     "last_alert_ts": 1793930389.5877848,
     "last_score": 57.2,
     "symbol": "ON"
-  },
-  "dex_micro_cap:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
-    "last_alert_ts": 1793887010.5922985,
-    "last_score": 57.1,
-    "symbol": "baton"
   },
   "cex_small_cap:zeus-network": {
     "last_alert_ts": 1793952176.3843358,
@@ -335,8 +315,8 @@
     "symbol": "FUN"
   },
   "cex_small_cap:caldera": {
-    "last_alert_ts": 1794103373.1679015,
-    "last_score": 62.8,
+    "last_alert_ts": 1794146583.0131886,
+    "last_score": 61.5,
     "symbol": "ERA"
   },
   "cex_small_cap:concrete": {
@@ -355,8 +335,8 @@
     "symbol": "AKE"
   },
   "cex_small_cap:dacity-coin-4": {
-    "last_alert_ts": 1794089003.369211,
-    "last_score": 68.2,
+    "last_alert_ts": 1794146583.0131886,
+    "last_score": 62.6,
     "symbol": "DACITY"
   },
   "cex_small_cap:chainbase": {
@@ -400,8 +380,8 @@
     "symbol": "DENIM"
   },
   "cex_small_cap:trusta-ai": {
-    "last_alert_ts": 1794125004.9248183,
-    "last_score": 55.7,
+    "last_alert_ts": 1794146583.0131886,
+    "last_score": 81.5,
     "symbol": "TA"
   },
   "cex_small_cap:digitalbits": {
@@ -415,8 +395,8 @@
     "symbol": "GM"
   },
   "cex_small_cap:funds-are-safu-2": {
-    "last_alert_ts": 1794096170.774807,
-    "last_score": 59.6,
+    "last_alert_ts": 1794146583.0131886,
+    "last_score": 57.7,
     "symbol": "SAFU"
   },
   "cex_small_cap:lobster-2": {
@@ -515,8 +495,8 @@
     "symbol": "ELIZAOS"
   },
   "cex_small_cap:foco-2": {
-    "last_alert_ts": 1794038597.4271808,
-    "last_score": 73.7,
+    "last_alert_ts": 1794146583.0131886,
+    "last_score": 69.7,
     "symbol": "FOCO"
   },
   "cex_small_cap:jotchua": {
@@ -808,5 +788,35 @@
     "last_alert_ts": 1794141743.7004197,
     "last_score": 59.6,
     "symbol": "CON"
+  },
+  "dex_micro_cap:2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": {
+    "last_alert_ts": 1794146583.0131886,
+    "last_score": 70.5,
+    "symbol": "yarl"
+  },
+  "cex_small_cap:atletico-madrid": {
+    "last_alert_ts": 1794146583.0131886,
+    "last_score": 62.1,
+    "symbol": "ATM"
+  },
+  "cex_small_cap:superfortune": {
+    "last_alert_ts": 1794146583.0131886,
+    "last_score": 58.5,
+    "symbol": "GUA"
+  },
+  "cex_small_cap:audacity-3": {
+    "last_alert_ts": 1794146583.0131886,
+    "last_score": 55.0,
+    "symbol": "DACITYCOIN"
+  },
+  "cex_small_cap:be-like-jose": {
+    "last_alert_ts": 1794146583.0131886,
+    "last_score": 55.0,
+    "symbol": "JOSÉ"
+  },
+  "cex_small_cap:bull-time-coin": {
+    "last_alert_ts": 1794146583.0131886,
+    "last_score": 55.0,
+    "symbol": "BTC"
   }
 }
