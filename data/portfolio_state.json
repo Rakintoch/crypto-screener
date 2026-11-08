@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 41.887073498440735,
+  "cash_eur": 27.15768667796275,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:swarms": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.006401156300675876,
       "entry_ts": 1794096171.353323,
       "cost_eur": 7.584713412927109,
-      "last_price_eur": 0.006079626872937159,
-      "last_score": 41.5,
+      "last_price_eur": 0.006085659916505495,
+      "last_score": 41.9,
       "missed_updates": 0,
       "entry_market_cap": 7136916,
       "entry_venue": "LBank",
@@ -45,7 +45,104 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 6777730
+      "last_market_cap": 6772177
+    },
+    "cex_small_cap:gains-network": {
+      "tier": "cex_small_cap",
+      "id": "gains-network",
+      "symbol": "GAINS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/gains-network",
+      "qty": 16.84373508197307,
+      "entry_price_eur": 0.43723635965523006,
+      "entry_ts": 1794163172.9033742,
+      "cost_eur": 7.364693410238992,
+      "last_price_eur": 0.43723635965523006,
+      "last_score": 77.6,
+      "missed_updates": 0,
+      "entry_market_cap": 11682145,
+      "entry_venue": "Binance",
+      "entry_contract_address": null,
+      "entry_score": 77.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 3857160,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 4.9393,
+      "entry_chg_24h": 42.52194,
+      "entry_chg_7d": 20.1357,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.3301756655134823,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "security_incident"
+      ],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Are Users Returning? Binance Gains $3.4B in Tracked Assets After Hack - CryptoPotato",
+          "ts": 1793899020.0,
+          "source": "CryptoPotato"
+        },
+        {
+          "title": "Crypto shrugs off historic Binance hack and Democratic midterm gains - marketscreener.com",
+          "ts": 1793874832.0,
+          "source": "marketscreener.com"
+        }
+      ]
+    },
+    "cex_small_cap:holotoken": {
+      "tier": "cex_small_cap",
+      "id": "holotoken",
+      "symbol": "HOT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/holotoken",
+      "qty": 18606.355583428736,
+      "entry_price_eur": 0.00039581600906295504,
+      "entry_ts": 1794163172.9033742,
+      "cost_eur": 7.364693410238992,
+      "last_price_eur": 0.00039581600906295504,
+      "last_score": 75.1,
+      "missed_updates": 0,
+      "entry_market_cap": 78304991,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 75.1,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 36708265,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.4314,
+      "entry_chg_24h": 23.95843,
+      "entry_chg_7d": 18.6012,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.4687857636047746,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "HoloFuel Launch Sparks HOT Rally, Still 98% Below All-Time High - InteractiveCrypto",
+          "ts": 1793756214.0,
+          "source": "InteractiveCrypto"
+        },
+        {
+          "title": "Holo Price Prediction: HOT Breaks Downtrend as HoloFuel Launch Sparks Fresh Buying - CryptoRank",
+          "ts": 1793706812.0,
+          "source": "CryptoRank"
+        },
+        {
+          "title": "Holo Price Prediction: HOT Breaks Downtrend as HoloFuel Launch Sparks Fresh Buying - Cryptonews.net",
+          "ts": 1793606400.0,
+          "source": "Cryptonews.net"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -2837,8 +2934,8 @@
       "pnl_pct": -8.926191233004792
     }
   ],
-  "last_run_ts": 1794162920.4919965,
-  "last_eur_rate": 0.8978350027892422,
+  "last_run_ts": 1794163172.9033742,
+  "last_eur_rate": 0.8978269951071883,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
