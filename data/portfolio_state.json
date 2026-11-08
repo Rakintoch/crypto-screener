@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 19.7845560600653,
+  "cash_eur": 26.529736119694235,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:swarms": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.006401156300675876,
       "entry_ts": 1794096171.353323,
       "cost_eur": 7.584713412927109,
-      "last_price_eur": 0.005970625095520808,
-      "last_score": 35.1,
+      "last_price_eur": 0.005959603679625072,
+      "last_score": 35.2,
       "missed_updates": 0,
       "entry_market_cap": 7136916,
       "entry_venue": "LBank",
@@ -45,7 +45,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 6645903
+      "last_market_cap": 6640084
     },
     "cex_small_cap:gains-network": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.43723635965523006,
       "entry_ts": 1794163172.9033742,
       "cost_eur": 7.364693410238992,
-      "last_price_eur": 0.47509875992517325,
-      "last_score": 71.3,
+      "last_price_eur": 0.4485379928184443,
+      "last_score": 71.4,
       "missed_updates": 0,
       "entry_market_cap": 11682145,
       "entry_venue": "Binance",
@@ -92,59 +92,7 @@
           "source": "marketscreener.com"
         }
       ],
-      "last_market_cap": 12673954
-    },
-    "cex_small_cap:holotoken": {
-      "tier": "cex_small_cap",
-      "id": "holotoken",
-      "symbol": "HOT",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/holotoken",
-      "qty": 18606.355583428736,
-      "entry_price_eur": 0.00039581600906295504,
-      "entry_ts": 1794163172.9033742,
-      "cost_eur": 7.364693410238992,
-      "last_price_eur": 0.000371217043558011,
-      "last_score": 49.6,
-      "missed_updates": 0,
-      "entry_market_cap": 78304991,
-      "entry_venue": null,
-      "entry_contract_address": null,
-      "entry_score": 75.1,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 36708265,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 3.4314,
-      "entry_chg_24h": 23.95843,
-      "entry_chg_7d": 18.6012,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.4687857636047746,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "HoloFuel Launch Sparks HOT Rally, Still 98% Below All-Time High - InteractiveCrypto",
-          "ts": 1793756214.0,
-          "source": "InteractiveCrypto"
-        },
-        {
-          "title": "Holo Price Prediction: HOT Breaks Downtrend as HoloFuel Launch Sparks Fresh Buying - CryptoRank",
-          "ts": 1793706812.0,
-          "source": "CryptoRank"
-        },
-        {
-          "title": "Holo Price Prediction: HOT Breaks Downtrend as HoloFuel Launch Sparks Fresh Buying - Cryptonews.net",
-          "ts": 1793606400.0,
-          "source": "Cryptonews.net"
-        }
-      ],
-      "last_market_cap": 73554229
+      "last_market_cap": 11988409
     },
     "cex_small_cap:ben-pasternak": {
       "tier": "cex_small_cap",
@@ -156,8 +104,8 @@
       "entry_price_eur": 0.002026449007198238,
       "entry_ts": 1794168149.2380517,
       "cost_eur": 7.373130617897452,
-      "last_price_eur": 0.002066514240378027,
-      "last_score": 95.8,
+      "last_price_eur": 0.002038808242352026,
+      "last_score": 95.0,
       "missed_updates": 0,
       "entry_market_cap": 2903572,
       "entry_venue": "Gate",
@@ -178,7 +126,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 2933044
+      "last_market_cap": 2907672
     }
   },
   "closed_trades": [
@@ -2968,10 +2916,68 @@
       "proceeds_eur": 6.782186477487657,
       "pnl_eur": -0.6647256142634621,
       "pnl_pct": -8.926191233004792
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "holotoken",
+      "symbol": "HOT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/holotoken",
+      "qty": 18606.355583428736,
+      "entry_price_eur": 0.00039581600906295504,
+      "entry_ts": 1794163172.9033742,
+      "cost_eur": 7.364693410238992,
+      "last_price_eur": 0.00036252021678207386,
+      "last_score": 47.1,
+      "missed_updates": 0,
+      "entry_market_cap": 78304991,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 75.1,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 36708265,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.4314,
+      "entry_chg_24h": 23.95843,
+      "entry_chg_7d": 18.6012,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.4687857636047746,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "HoloFuel Launch Sparks HOT Rally, Still 98% Below All-Time High - InteractiveCrypto",
+          "ts": 1793756214.0,
+          "source": "InteractiveCrypto"
+        },
+        {
+          "title": "Holo Price Prediction: HOT Breaks Downtrend as HoloFuel Launch Sparks Fresh Buying - CryptoRank",
+          "ts": 1793706812.0,
+          "source": "CryptoRank"
+        },
+        {
+          "title": "Holo Price Prediction: HOT Breaks Downtrend as HoloFuel Launch Sparks Fresh Buying - Cryptonews.net",
+          "ts": 1793606400.0,
+          "source": "Cryptonews.net"
+        }
+      ],
+      "last_market_cap": 71744720,
+      "exit_price_eur": 0.00036252021678207386,
+      "exit_ts": 1794171318.1156738,
+      "exit_reason": "stop-loss hit (-8.4%)",
+      "proceeds_eur": 6.745180059628936,
+      "pnl_eur": -0.6195133506100561,
+      "pnl_pct": -8.411936737906272
     }
   ],
-  "last_run_ts": 1794171023.2354102,
-  "last_eur_rate": 0.8975050012282367,
+  "last_run_ts": 1794171318.1156738,
+  "last_eur_rate": 0.8975049930235539,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
