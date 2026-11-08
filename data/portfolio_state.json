@@ -2,51 +2,9 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 26.529736119694235,
+  "cash_eur": 33.50041683254336,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
-    "cex_small_cap:swarms": {
-      "tier": "cex_small_cap",
-      "id": "swarms",
-      "symbol": "SWARMS",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/swarms",
-      "qty": 1184.897393011051,
-      "entry_price_eur": 0.006401156300675876,
-      "entry_ts": 1794096171.353323,
-      "cost_eur": 7.584713412927109,
-      "last_price_eur": 0.005897651279272863,
-      "last_score": 32.3,
-      "missed_updates": 0,
-      "entry_market_cap": 7136916,
-      "entry_venue": "LBank",
-      "entry_contract_address": "74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump (Solana)",
-      "entry_score": 70.8,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 4460982,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 3.1256,
-      "entry_chg_24h": 14.94831,
-      "entry_chg_7d": 9.9694,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.6250573777244961,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Mobilicom Launches SwarmiX Family to Capitalize on Industry Shift Toward Drone Swarms & Networked Autonomous Fleets - Yahoo Finance",
-          "ts": 1791788400.0,
-          "source": "Yahoo Finance"
-        }
-      ],
-      "last_market_cap": 6570859
-    },
     "cex_small_cap:gains-network": {
       "tier": "cex_small_cap",
       "id": "gains-network",
@@ -57,7 +15,7 @@
       "entry_price_eur": 0.43723635965523006,
       "entry_ts": 1794163172.9033742,
       "cost_eur": 7.364693410238992,
-      "last_price_eur": 0.44377340532916243,
+      "last_price_eur": 0.43422606734471914,
       "last_score": 84.4,
       "missed_updates": 0,
       "entry_market_cap": 11682145,
@@ -92,7 +50,7 @@
           "source": "marketscreener.com"
         }
       ],
-      "last_market_cap": 11856236
+      "last_market_cap": 11605163
     },
     "cex_small_cap:ben-pasternak": {
       "tier": "cex_small_cap",
@@ -104,7 +62,7 @@
       "entry_price_eur": 0.002026449007198238,
       "entry_ts": 1794168149.2380517,
       "cost_eur": 7.373130617897452,
-      "last_price_eur": 0.0021053795415221337,
+      "last_price_eur": 0.0021509127975958015,
       "last_score": 75.5,
       "missed_updates": 0,
       "entry_market_cap": 2903572,
@@ -126,7 +84,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 2990555
+      "last_market_cap": 3067365
     }
   },
   "closed_trades": [
@@ -2974,10 +2932,58 @@
       "proceeds_eur": 6.745180059628936,
       "pnl_eur": -0.6195133506100561,
       "pnl_pct": -8.411936737906272
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "swarms",
+      "symbol": "SWARMS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/swarms",
+      "qty": 1184.897393011051,
+      "entry_price_eur": 0.006401156300675876,
+      "entry_ts": 1794096171.353323,
+      "cost_eur": 7.584713412927109,
+      "last_price_eur": 0.0058829403743857435,
+      "last_score": 32.1,
+      "missed_updates": 0,
+      "entry_market_cap": 7136916,
+      "entry_venue": "LBank",
+      "entry_contract_address": "74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump (Solana)",
+      "entry_score": 70.8,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 4460982,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.1256,
+      "entry_chg_24h": 14.94831,
+      "entry_chg_7d": 9.9694,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.6250573777244961,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Mobilicom Launches SwarmiX Family to Capitalize on Industry Shift Toward Drone Swarms & Networked Autonomous Fleets - Yahoo Finance",
+          "ts": 1791788400.0,
+          "source": "Yahoo Finance"
+        }
+      ],
+      "last_market_cap": 6554274,
+      "exit_price_eur": 0.0058829403743857435,
+      "exit_ts": 1794174622.568091,
+      "exit_reason": "stop-loss hit (-8.1%)",
+      "proceeds_eur": 6.9706807128491235,
+      "pnl_eur": -0.6140327000779857,
+      "pnl_pct": -8.095661189141975
     }
   ],
-  "last_run_ts": 1794174329.3118806,
-  "last_eur_rate": 0.8975599899057131,
+  "last_run_ts": 1794174622.568091,
+  "last_eur_rate": 0.8975600056734275,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
