@@ -15,8 +15,8 @@
       "entry_price_eur": 0.006401156300675876,
       "entry_ts": 1794096171.353323,
       "cost_eur": 7.584713412927109,
-      "last_price_eur": 0.006072378192450117,
-      "last_score": 41.4,
+      "last_price_eur": 0.006068111082400204,
+      "last_score": 41.2,
       "missed_updates": 0,
       "entry_market_cap": 7136916,
       "entry_venue": "LBank",
@@ -45,7 +45,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 6764036
+      "last_market_cap": 6758820
     },
     "cex_small_cap:gains-network": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.43723635965523006,
       "entry_ts": 1794163172.9033742,
       "cost_eur": 7.364693410238992,
-      "last_price_eur": 0.4377542852952635,
-      "last_score": 74.7,
+      "last_price_eur": 0.4527507267546954,
+      "last_score": 75.7,
       "missed_updates": 0,
       "entry_market_cap": 11682145,
       "entry_venue": "Binance",
@@ -92,7 +92,7 @@
           "source": "marketscreener.com"
         }
       ],
-      "last_market_cap": 11697245
+      "last_market_cap": 12097135
     },
     "cex_small_cap:holotoken": {
       "tier": "cex_small_cap",
@@ -104,7 +104,7 @@
       "entry_price_eur": 0.00039581600906295504,
       "entry_ts": 1794163172.9033742,
       "cost_eur": 7.364693410238992,
-      "last_price_eur": 0.000397901312840903,
+      "last_price_eur": 0.00039631276522046746,
       "last_score": 59.7,
       "missed_updates": 0,
       "entry_market_cap": 78304991,
@@ -144,7 +144,7 @@
           "source": "Cryptonews.net"
         }
       ],
-      "last_market_cap": 78725612
+      "last_market_cap": 78407236
     }
   },
   "closed_trades": [
@@ -2936,8 +2936,8 @@
       "pnl_pct": -8.926191233004792
     }
   ],
-  "last_run_ts": 1794166823.3590374,
-  "last_eur_rate": 0.8977310038600794,
+  "last_run_ts": 1794167130.4722214,
+  "last_eur_rate": 0.8977930027874578,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
