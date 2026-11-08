@@ -15,7 +15,7 @@
       "entry_price_eur": 0.006401156300675876,
       "entry_ts": 1794096171.353323,
       "cost_eur": 7.584713412927109,
-      "last_price_eur": 0.005959766900773581,
+      "last_price_eur": 0.005951864731688603,
       "last_score": 32.0,
       "missed_updates": 0,
       "entry_market_cap": 7136916,
@@ -45,7 +45,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 6633003
+      "last_market_cap": 6630950
     },
     "cex_small_cap:gains-network": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.43723635965523006,
       "entry_ts": 1794163172.9033742,
       "cost_eur": 7.364693410238992,
-      "last_price_eur": 0.4596559689006041,
-      "last_score": 84.2,
+      "last_price_eur": 0.4647706202066762,
+      "last_score": 83.2,
       "missed_updates": 0,
       "entry_market_cap": 11682145,
       "entry_venue": "Binance",
@@ -92,7 +92,7 @@
           "source": "marketscreener.com"
         }
       ],
-      "last_market_cap": 12342050
+      "last_market_cap": 12421297
     },
     "cex_small_cap:ben-pasternak": {
       "tier": "cex_small_cap",
@@ -104,7 +104,7 @@
       "entry_price_eur": 0.002026449007198238,
       "entry_ts": 1794168149.2380517,
       "cost_eur": 7.373130617897452,
-      "last_price_eur": 0.0020705221398446146,
+      "last_price_eur": 0.0020765487479975117,
       "last_score": 76.0,
       "missed_updates": 0,
       "entry_market_cap": 2903572,
@@ -126,7 +126,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 2954872
+      "last_market_cap": 2961266
     }
   },
   "closed_trades": [
@@ -2976,8 +2976,8 @@
       "pnl_pct": -8.411936737906272
     }
   ],
-  "last_run_ts": 1794173118.7562556,
-  "last_eur_rate": 0.8975849954024955,
+  "last_run_ts": 1794173440.1390111,
+  "last_eur_rate": 0.8975750042132999,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
