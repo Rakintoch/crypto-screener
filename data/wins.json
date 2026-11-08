@@ -3326,5 +3326,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "TA (cex_small_cap) gained +14.5% in 1932 min — trailing stop caught extra upside after the target. Entry score: 70. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794176424.8427384,
+    "symbol": "BELIEVE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/ben-pasternak",
+    "held_minutes": 137.9,
+    "exit_reason": "trailing stop hit — dropped 7.9% from the peak (peak +24.1% since entry)",
+    "pnl_pct": 14.28,
+    "pnl_eur": 1.05,
+    "entry_score": 94.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 2203000,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 14.0244,
+    "entry_chg_24h": 57.63628,
+    "entry_chg_7d": 61.1334,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.7587206378901573,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "BELIEVE (cex_small_cap) gained +14.3% in 138 min — trailing stop caught extra upside after the target. Entry score: 95. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
