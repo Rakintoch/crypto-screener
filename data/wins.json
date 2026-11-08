@@ -3300,5 +3300,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "SN92 (cex_small_cap) gained +17.2% in 1648 min — trailing stop caught extra upside after the target. Entry score: 96. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794132926.5161893,
+    "symbol": "TA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/trusta-ai",
+    "held_minutes": 1932.4,
+    "exit_reason": "trailing stop hit — dropped 5.7% from the peak (peak +21.5% since entry)",
+    "pnl_pct": 14.55,
+    "pnl_eur": 1.05,
+    "entry_score": 70.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 4204724,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 2.3234,
+    "entry_chg_24h": 24.9172,
+    "entry_chg_7d": 62.5698,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.24137973792648945,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "TA (cex_small_cap) gained +14.5% in 1932 min — trailing stop caught extra upside after the target. Entry score: 70. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
