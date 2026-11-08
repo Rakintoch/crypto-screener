@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 27.757795425754527,
+  "cash_eur": 20.173082012827418,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:trusta-ai": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.08678760024037921,
       "entry_ts": 1794016981.4420679,
       "cost_eur": 7.230321118542688,
-      "last_price_eur": 0.08648884815933716,
-      "last_score": 38.4,
+      "last_price_eur": 0.08636504219919916,
+      "last_score": 38.1,
       "missed_updates": 0,
       "entry_market_cap": 17419540,
       "entry_venue": "Bybit",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 17352754
+      "last_market_cap": 17350387
     },
     "cex_small_cap:act-i-the-ai-prophecy": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.010151934053253887,
       "entry_ts": 1794076155.8365753,
       "cost_eur": 7.446912091751119,
-      "last_price_eur": 0.01106553775862081,
-      "last_score": 68.2,
+      "last_price_eur": 0.011091097656923498,
+      "last_score": 94.4,
       "missed_updates": 0,
       "entry_market_cap": 10729870,
       "entry_venue": "Binance",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11695483
+      "last_market_cap": 11747825
     },
     "cex_small_cap:regent-coin": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.40731327502802206,
       "entry_ts": 1794093879.7426076,
       "cost_eur": 7.5373547678818325,
-      "last_price_eur": 0.404908913136979,
-      "last_score": 75.3,
+      "last_price_eur": 0.4039983093495935,
+      "last_score": 52.3,
       "missed_updates": 0,
       "entry_market_cap": 1319068,
       "entry_venue": "LBank",
@@ -105,7 +105,48 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1306544
+      "last_market_cap": 1302303
+    },
+    "cex_small_cap:swarms": {
+      "tier": "cex_small_cap",
+      "id": "swarms",
+      "symbol": "SWARMS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/swarms",
+      "qty": 1184.897393011051,
+      "entry_price_eur": 0.006401156300675876,
+      "entry_ts": 1794096171.353323,
+      "cost_eur": 7.584713412927109,
+      "last_price_eur": 0.006401156300675876,
+      "last_score": 70.8,
+      "missed_updates": 0,
+      "entry_market_cap": 7136916,
+      "entry_venue": "LBank",
+      "entry_contract_address": "74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump (Solana)",
+      "entry_score": 70.8,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 4460982,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.1256,
+      "entry_chg_24h": 14.94831,
+      "entry_chg_7d": 9.9694,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.6250573777244961,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Mobilicom Launches SwarmiX Family to Capitalize on Industry Shift Toward Drone Swarms & Networked Autonomous Fleets - Yahoo Finance",
+          "ts": 1791788400.0,
+          "source": "Yahoo Finance"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -2775,8 +2816,8 @@
       "pnl_pct": -9.645731180399691
     }
   ],
-  "last_run_ts": 1794095719.791566,
-  "last_eur_rate": 0.8971499954289984,
+  "last_run_ts": 1794096171.353323,
+  "last_eur_rate": 0.8971500031080459,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
