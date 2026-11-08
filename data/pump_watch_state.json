@@ -12,10 +12,10 @@
       "entry_price_eur": 436.85462126479916,
       "entry_ts": 1789402186.9931946,
       "cost_eur": 33.33333333333333,
-      "last_price_eur": 475.9168902499238,
+      "last_price_eur": 475.7721344557801,
       "peak_price_eur": 499.44405287568054,
       "entry_market_cap": 1183197,
-      "last_market_cap": 1439512,
+      "last_market_cap": 1439553,
       "entry_venue": "Uniswap V3 (Base) (on-chain)"
     },
     "cex_small_cap:take-two-interactive-software-robinhood-tokenized-stock": {
@@ -25,10 +25,10 @@
       "entry_price_eur": 187.07552627535924,
       "entry_ts": 1793858588.8994746,
       "cost_eur": 30.739658661040853,
-      "last_price_eur": 194.91853620479336,
+      "last_price_eur": 194.89147346224868,
       "peak_price_eur": 198.1772,
       "entry_market_cap": 1238325,
-      "last_market_cap": 1148569,
+      "last_market_cap": 1148803,
       "entry_venue": null,
       "entry_contract_address": null,
       "entry_obv_score": 0.3905144911293062,
@@ -48,7 +48,7 @@
       "entry_price_eur": 230.34326041303177,
       "entry_ts": 1794060189.7621582,
       "cost_eur": 24.146243848260706,
-      "last_price_eur": 230.44396791048942,
+      "last_price_eur": 230.36952985627443,
       "peak_price_eur": 230.47913045448834,
       "entry_market_cap": 1069950,
       "last_market_cap": 1069713,
@@ -378,8 +378,8 @@
       "reserved_eur": 0.0
     }
   ],
-  "last_run_ts": 1794165031.0781069,
-  "last_eur_rate": 0.8977870029238328,
+  "last_run_ts": 1794165326.4915779,
+  "last_eur_rate": 0.8974969995958954,
   "review_cycle": {
     "number": 3,
     "start_ts": 1792868581.9738064,
