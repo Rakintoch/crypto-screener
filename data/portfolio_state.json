@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 27.15768667796275,
+  "cash_eur": 19.7845560600653,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:swarms": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.006401156300675876,
       "entry_ts": 1794096171.353323,
       "cost_eur": 7.584713412927109,
-      "last_price_eur": 0.006076393706135268,
-      "last_score": 38.0,
+      "last_price_eur": 0.0060682592533398,
+      "last_score": 35.2,
       "missed_updates": 0,
       "entry_market_cap": 7136916,
       "entry_venue": "LBank",
@@ -45,7 +45,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 6758844
+      "last_market_cap": 6758965
     },
     "cex_small_cap:gains-network": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.43723635965523006,
       "entry_ts": 1794163172.9033742,
       "cost_eur": 7.364693410238992,
-      "last_price_eur": 0.4423477145858231,
-      "last_score": 74.8,
+      "last_price_eur": 0.4457228970775699,
+      "last_score": 69.3,
       "missed_updates": 0,
       "entry_market_cap": 11682145,
       "entry_venue": "Binance",
@@ -92,7 +92,7 @@
           "source": "marketscreener.com"
         }
       ],
-      "last_market_cap": 11880863
+      "last_market_cap": 11909319
     },
     "cex_small_cap:holotoken": {
       "tier": "cex_small_cap",
@@ -104,8 +104,8 @@
       "entry_price_eur": 0.00039581600906295504,
       "entry_ts": 1794163172.9033742,
       "cost_eur": 7.364693410238992,
-      "last_price_eur": 0.0003934908531162589,
-      "last_score": 59.2,
+      "last_price_eur": 0.0003922645915738741,
+      "last_score": 53.2,
       "missed_updates": 0,
       "entry_market_cap": 78304991,
       "entry_venue": null,
@@ -144,7 +144,40 @@
           "source": "Cryptonews.net"
         }
       ],
-      "last_market_cap": 77821970
+      "last_market_cap": 77605462
+    },
+    "cex_small_cap:ben-pasternak": {
+      "tier": "cex_small_cap",
+      "id": "ben-pasternak",
+      "symbol": "BELIEVE",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/ben-pasternak",
+      "qty": 3638.4486319206812,
+      "entry_price_eur": 0.002026449007198238,
+      "entry_ts": 1794168149.2380517,
+      "cost_eur": 7.373130617897452,
+      "last_price_eur": 0.002026449007198238,
+      "last_score": 94.9,
+      "missed_updates": 0,
+      "entry_market_cap": 2903572,
+      "entry_venue": "Gate",
+      "entry_contract_address": null,
+      "entry_score": 94.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 2203000,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 14.0244,
+      "entry_chg_24h": 57.63628,
+      "entry_chg_7d": 61.1334,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.7587206378901573,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2936,8 +2969,8 @@
       "pnl_pct": -8.926191233004792
     }
   ],
-  "last_run_ts": 1794167717.8100553,
-  "last_eur_rate": 0.897807002638174,
+  "last_run_ts": 1794168149.2380517,
+  "last_eur_rate": 0.8977950003979541,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,

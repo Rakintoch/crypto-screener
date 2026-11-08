@@ -45,8 +45,8 @@
     "symbol": "LSK"
   },
   "cex_small_cap:regent-coin": {
-    "last_alert_ts": 1794103373.1679015,
-    "last_score": 67.6,
+    "last_alert_ts": 1794168148.7389371,
+    "last_score": 66.6,
     "symbol": "REGENT"
   },
   "cex_small_cap:intuition": {
@@ -340,8 +340,8 @@
     "symbol": "C"
   },
   "cex_small_cap:unitas": {
-    "last_alert_ts": 1794081779.1988368,
-    "last_score": 55.5,
+    "last_alert_ts": 1794168148.7389371,
+    "last_score": 56.1,
     "symbol": "UP"
   },
   "dex_micro_cap:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": {
@@ -350,8 +350,8 @@
     "symbol": "COGE"
   },
   "cex_small_cap:zhong-guo-ren-neng-fei": {
-    "last_alert_ts": 1794103373.1679015,
-    "last_score": 76.9,
+    "last_alert_ts": 1794168148.7389371,
+    "last_score": 64.0,
     "symbol": "中国人能飞"
   },
   "cex_small_cap:woo-network": {
@@ -600,8 +600,8 @@
     "symbol": "DEGEN"
   },
   "dex_micro_cap:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
-    "last_alert_ts": 1794141743.7004197,
-    "last_score": 59.3,
+    "last_alert_ts": 1794168148.7389371,
+    "last_score": 85.4,
     "symbol": "STANK"
   },
   "cex_small_cap:higher-fun": {
@@ -750,8 +750,8 @@
     "symbol": "BMT"
   },
   "cex_small_cap:fobo": {
-    "last_alert_ts": 1794117782.9468076,
-    "last_score": 80.9,
+    "last_alert_ts": 1794168148.7389371,
+    "last_score": 81.8,
     "symbol": "FOBO"
   },
   "dex_micro_cap:A72sK9mPWTvU4f5RQFy7upBCeJi9HZx3Q2Wgr7QBnuLL": {
@@ -843,5 +843,45 @@
     "last_alert_ts": 1794163172.2503848,
     "last_score": 56.7,
     "symbol": "AIOT"
+  },
+  "cex_small_cap:ben-pasternak": {
+    "last_alert_ts": 1794168148.7389371,
+    "last_score": 94.9,
+    "symbol": "BELIEVE"
+  },
+  "cex_small_cap:ampleforth-governance-token": {
+    "last_alert_ts": 1794168148.7389371,
+    "last_score": 82.8,
+    "symbol": "FORTH"
+  },
+  "cex_small_cap:stank": {
+    "last_alert_ts": 1794168148.7389371,
+    "last_score": 79.5,
+    "symbol": "STANK"
+  },
+  "cex_small_cap:gstock": {
+    "last_alert_ts": 1794168148.7389371,
+    "last_score": 77.0,
+    "symbol": "GSTOCK"
+  },
+  "cex_small_cap:doge-pepe-3": {
+    "last_alert_ts": 1794168148.7389371,
+    "last_score": 64.6,
+    "symbol": "DOPE"
+  },
+  "cex_small_cap:flora": {
+    "last_alert_ts": 1794168148.7389371,
+    "last_score": 62.5,
+    "symbol": "FLORA"
+  },
+  "cex_small_cap:reef": {
+    "last_alert_ts": 1794168148.7389371,
+    "last_score": 58.9,
+    "symbol": "REEF"
+  },
+  "cex_small_cap:allinu": {
+    "last_alert_ts": 1794168148.7389371,
+    "last_score": 56.7,
+    "symbol": "ALLINU"
   }
 }
