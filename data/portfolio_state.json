@@ -15,7 +15,7 @@
       "entry_price_eur": 0.08678760024037921,
       "entry_ts": 1794016981.4420679,
       "cost_eur": 7.230321118542688,
-      "last_price_eur": 0.10195370479418882,
+      "last_price_eur": 0.10202635167615662,
       "last_score": 77.0,
       "missed_updates": 0,
       "entry_market_cap": 17419540,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 20478051
+      "last_market_cap": 20452498
     },
     "cex_small_cap:act-i-the-ai-prophecy": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.010151934053253887,
       "entry_ts": 1794076155.8365753,
       "cost_eur": 7.446912091751119,
-      "last_price_eur": 0.010263648735070649,
-      "last_score": 55.9,
+      "last_price_eur": 0.010204204679614125,
+      "last_score": 55.4,
       "missed_updates": 0,
       "entry_market_cap": 10729870,
       "entry_venue": "Binance",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10853317
+      "last_market_cap": 10783856
     },
     "cex_small_cap:swarms": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.006401156300675876,
       "entry_ts": 1794096171.353323,
       "cost_eur": 7.584713412927109,
-      "last_price_eur": 0.006626479599147276,
+      "last_price_eur": 0.006620775602480883,
       "last_score": 66.9,
       "missed_updates": 0,
       "entry_market_cap": 7136916,
@@ -113,7 +113,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 7388387
+      "last_market_cap": 7386524
     }
   },
   "closed_trades": [
@@ -2823,8 +2823,8 @@
       "pnl_pct": -11.776223386356806
     }
   ],
-  "last_run_ts": 1794129328.870064,
-  "last_eur_rate": 0.8968639912224776,
+  "last_run_ts": 1794129645.244785,
+  "last_eur_rate": 0.8968639991223254,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
