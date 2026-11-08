@@ -15,8 +15,8 @@
       "entry_price_eur": 0.43723635965523006,
       "entry_ts": 1794163172.9033742,
       "cost_eur": 7.364693410238992,
-      "last_price_eur": 0.43422606734471914,
-      "last_score": 84.4,
+      "last_price_eur": 0.438635029546002,
+      "last_score": 84.3,
       "missed_updates": 0,
       "entry_market_cap": 11682145,
       "entry_venue": "Binance",
@@ -50,7 +50,7 @@
           "source": "marketscreener.com"
         }
       ],
-      "last_market_cap": 11605163
+      "last_market_cap": 11722807
     },
     "cex_small_cap:ben-pasternak": {
       "tier": "cex_small_cap",
@@ -62,8 +62,8 @@
       "entry_price_eur": 0.002026449007198238,
       "entry_ts": 1794168149.2380517,
       "cost_eur": 7.373130617897452,
-      "last_price_eur": 0.0021509127975958015,
-      "last_score": 75.5,
+      "last_price_eur": 0.0021290658533007854,
+      "last_score": 76.2,
       "missed_updates": 0,
       "entry_market_cap": 2903572,
       "entry_venue": "Gate",
@@ -84,7 +84,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 3067365
+      "last_market_cap": 3036158
     }
   },
   "closed_trades": [
@@ -2982,8 +2982,8 @@
       "pnl_pct": -8.095661189141975
     }
   ],
-  "last_run_ts": 1794174622.568091,
-  "last_eur_rate": 0.8975600056734275,
+  "last_run_ts": 1794174919.5255737,
+  "last_eur_rate": 0.8975750007591781,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
