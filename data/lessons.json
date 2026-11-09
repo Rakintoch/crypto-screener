@@ -12979,5 +12979,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "RSOXS (cex_small_cap) lost -8.6% in 112 min (fast (1-6h)) — stop-loss hit. Entry score: 77 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794222055.3292465,
+    "symbol": "HOT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/holotoken",
+    "held_minutes": 397.1,
+    "exit_reason": "momentum thesis invalidated (score dropped to 29)",
+    "pnl_pct": -5.27,
+    "pnl_eur": -0.39,
+    "entry_score": 83.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 44906425,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 9.4309,
+    "entry_chg_24h": 27.54169,
+    "entry_chg_7d": 11.8745,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.5640281437156134,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "HOT (cex_small_cap) lost -5.3% in 397 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 83 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
