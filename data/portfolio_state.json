@@ -15,8 +15,8 @@
       "entry_price_eur": 0.011693293789760821,
       "entry_ts": 1794233005.3750706,
       "cost_eur": 6.2440947212342435,
-      "last_price_eur": 0.011167439996071985,
-      "last_score": 37.9,
+      "last_price_eur": 0.011103812539006235,
+      "last_score": 37.6,
       "missed_updates": 0,
       "entry_market_cap": 11668214,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11136349
+      "last_market_cap": 11070908
     },
     "cex_small_cap:graniteshares-2x-long-mrvl-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 8.90426680926091,
       "entry_ts": 1794236513.573733,
       "cost_eur": 6.038056100321222,
-      "last_price_eur": 9.102400902909308,
-      "last_score": 80.1,
+      "last_price_eur": 9.175515800265202,
+      "last_score": 80.9,
       "missed_updates": 0,
       "entry_market_cap": 1167192,
       "entry_venue": "LBank",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1193614
+      "last_market_cap": 1202979
     }
   },
   "closed_trades": [
@@ -3445,8 +3445,8 @@
       "pnl_pct": -9.001987914274912
     }
   ],
-  "last_run_ts": 1794237919.2197325,
-  "last_eur_rate": 0.8932679983227976,
+  "last_run_ts": 1794238267.5817912,
+  "last_eur_rate": 0.8934289971046936,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
