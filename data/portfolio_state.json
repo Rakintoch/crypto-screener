@@ -15,8 +15,8 @@
       "entry_price_eur": 0.33212987364984137,
       "entry_ts": 1794175377.8799734,
       "cost_eur": 7.290264577707683,
-      "last_price_eur": 0.3146682007048822,
-      "last_score": 53.7,
+      "last_price_eur": 0.31381747515517583,
+      "last_score": 55.8,
       "missed_updates": 0,
       "entry_market_cap": 93623237,
       "entry_venue": "Bithumb",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 88836521
+      "last_market_cap": 88608358
     },
     "cex_small_cap:holotoken": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.00040185612234375955,
       "entry_ts": 1794198230.5040226,
       "cost_eur": 7.44149746965433,
-      "last_price_eur": 0.0004042909780704068,
-      "last_score": 72.4,
+      "last_price_eur": 0.000386449739550697,
+      "last_score": 71.2,
       "missed_updates": 0,
       "entry_market_cap": 79617348,
       "entry_venue": "Binance",
@@ -89,7 +89,7 @@
           "source": "Cryptonews.net"
         }
       ],
-      "last_market_cap": 80129806
+      "last_market_cap": 76603735
     }
   },
   "closed_trades": [
@@ -3124,8 +3124,8 @@
       "pnl_pct": -57.89248720188134
     }
   ],
-  "last_run_ts": 1794202239.8468158,
-  "last_eur_rate": 0.8961740032150529,
+  "last_run_ts": 1794202522.9467816,
+  "last_eur_rate": 0.8960530039665578,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
