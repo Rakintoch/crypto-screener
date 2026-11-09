@@ -100,8 +100,8 @@
     "symbol": "ARIA"
   },
   "cex_small_cap:float": {
-    "last_alert_ts": 1794139374.8075695,
-    "last_score": 96.0,
+    "last_alert_ts": 1794182603.6989336,
+    "last_score": 75.3,
     "symbol": "FLOAT"
   },
   "cex_small_cap:spacex-backpack-securities": {
@@ -143,11 +143,6 @@
     "last_alert_ts": 1793988136.399688,
     "last_score": 64.4,
     "symbol": "FONE"
-  },
-  "dex_micro_cap:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": {
-    "last_alert_ts": 1793923382.256523,
-    "last_score": 83.7,
-    "symbol": "AMD"
   },
   "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
     "last_alert_ts": 1794004887.5342288,
@@ -238,11 +233,6 @@
     "last_alert_ts": 1793930389.5877848,
     "last_score": 59.0,
     "symbol": "FOGO"
-  },
-  "cex_small_cap:fei-die-qi-yuan": {
-    "last_alert_ts": 1793923382.256523,
-    "last_score": 71.7,
-    "symbol": "飞蝶启元"
   },
   "cex_small_cap:orochi-network": {
     "last_alert_ts": 1794153797.6025198,
@@ -720,8 +710,8 @@
     "symbol": "DGB"
   },
   "cex_small_cap:bubblemaps": {
-    "last_alert_ts": 1794139374.8075695,
-    "last_score": 77.9,
+    "last_alert_ts": 1794182603.6989336,
+    "last_score": 67.0,
     "symbol": "BMT"
   },
   "cex_small_cap:fobo": {
@@ -740,13 +730,13 @@
     "symbol": "WASTED"
   },
   "cex_small_cap:holotoken": {
-    "last_alert_ts": 1794139374.8075695,
-    "last_score": 81.0,
+    "last_alert_ts": 1794182603.6989336,
+    "last_score": 70.3,
     "symbol": "HOT"
   },
   "cex_small_cap:skyai": {
-    "last_alert_ts": 1794139374.8075695,
-    "last_score": 74.9,
+    "last_alert_ts": 1794182603.6989336,
+    "last_score": 63.0,
     "symbol": "SKYAI"
   },
   "cex_small_cap:cyberleek": {
@@ -800,8 +790,8 @@
     "symbol": "GIGAHUG"
   },
   "dex_micro_cap:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": {
-    "last_alert_ts": 1794153797.6025198,
-    "last_score": 56.7,
+    "last_alert_ts": 1794182603.6989336,
+    "last_score": 79.8,
     "symbol": "HEREWEGO"
   },
   "cex_small_cap:gains-network": {
@@ -883,5 +873,10 @@
     "last_alert_ts": 1794180348.4987361,
     "last_score": 58.7,
     "symbol": "ELYSION"
+  },
+  "cex_small_cap:redteam": {
+    "last_alert_ts": 1794182603.6989336,
+    "last_score": 60.1,
+    "symbol": "SN61"
   }
 }
