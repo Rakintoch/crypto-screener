@@ -95,8 +95,8 @@
     "symbol": "ARIA"
   },
   "cex_small_cap:float": {
-    "last_alert_ts": 1794182603.6989336,
-    "last_score": 75.3,
+    "last_alert_ts": 1794233004.7870357,
+    "last_score": 73.3,
     "symbol": "FLOAT"
   },
   "cex_small_cap:spacex-backpack-securities": {
@@ -303,11 +303,6 @@
     "last_alert_ts": 1793984983.6910799,
     "last_score": 81.6,
     "symbol": "V4"
-  },
-  "cex_small_cap:audiera": {
-    "last_alert_ts": 1793966604.7914371,
-    "last_score": 59.3,
-    "symbol": "BEAT"
   },
   "dex_micro_cap:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": {
     "last_alert_ts": 1793973806.9480007,
@@ -878,5 +873,20 @@
     "last_alert_ts": 1794225773.011997,
     "last_score": 59.6,
     "symbol": "CHILLGUY"
+  },
+  "cex_small_cap:test-3": {
+    "last_alert_ts": 1794233004.7870357,
+    "last_score": 84.9,
+    "symbol": "TST"
+  },
+  "cex_small_cap:coq-inu": {
+    "last_alert_ts": 1794233004.7870357,
+    "last_score": 81.1,
+    "symbol": "COQ"
+  },
+  "cex_small_cap:merlin-chain": {
+    "last_alert_ts": 1794233004.7870357,
+    "last_score": 57.2,
+    "symbol": "MERL"
   }
 }
