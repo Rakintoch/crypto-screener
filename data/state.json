@@ -45,8 +45,8 @@
     "symbol": "LSK"
   },
   "cex_small_cap:regent-coin": {
-    "last_alert_ts": 1794168148.7389371,
-    "last_score": 66.6,
+    "last_alert_ts": 1794236513.145366,
+    "last_score": 62.2,
     "symbol": "REGENT"
   },
   "cex_small_cap:intuition": {
@@ -303,11 +303,6 @@
     "last_alert_ts": 1793984983.6910799,
     "last_score": 81.6,
     "symbol": "V4"
-  },
-  "dex_micro_cap:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": {
-    "last_alert_ts": 1793973806.9480007,
-    "last_score": 84.1,
-    "symbol": "Diamond"
   },
   "dex_micro_cap:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": {
     "last_alert_ts": 1794117782.9468076,
@@ -785,8 +780,8 @@
     "symbol": "NEIRO"
   },
   "cex_small_cap:cets-on-gold": {
-    "last_alert_ts": 1794175377.325746,
-    "last_score": 55.9,
+    "last_alert_ts": 1794236513.145366,
+    "last_score": 60.9,
     "symbol": "CETS"
   },
   "dex_micro_cap:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
@@ -888,5 +883,60 @@
     "last_alert_ts": 1794233004.7870357,
     "last_score": 57.2,
     "symbol": "MERL"
+  },
+  "cex_small_cap:wasted": {
+    "last_alert_ts": 1794236513.145366,
+    "last_score": 79.1,
+    "symbol": "WASTED"
+  },
+  "cex_small_cap:graniteshares-2x-long-mrvl-etf-bstocks-tokenized-stock": {
+    "last_alert_ts": 1794236513.145366,
+    "last_score": 77.9,
+    "symbol": "MVLLB"
+  },
+  "cex_small_cap:coherent-ondo-tokenized": {
+    "last_alert_ts": 1794236513.145366,
+    "last_score": 74.3,
+    "symbol": "COHRON"
+  },
+  "cex_small_cap:vertiv-ondo-tokenized": {
+    "last_alert_ts": 1794236513.145366,
+    "last_score": 69.0,
+    "symbol": "VRTON"
+  },
+  "cex_small_cap:corning-bstocks-tokenized-stock": {
+    "last_alert_ts": 1794236513.145366,
+    "last_score": 67.5,
+    "symbol": "GLWB"
+  },
+  "dex_micro_cap:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": {
+    "last_alert_ts": 1794236513.145366,
+    "last_score": 61.7,
+    "symbol": "LMAO!"
+  },
+  "cex_small_cap:dell-bstocks-tokenized-stock": {
+    "last_alert_ts": 1794236513.145366,
+    "last_score": 61.0,
+    "symbol": "DELLB"
+  },
+  "cex_small_cap:bloom-energy-ondo-tokenized": {
+    "last_alert_ts": 1794236513.145366,
+    "last_score": 60.8,
+    "symbol": "BEON"
+  },
+  "cex_small_cap:sandisk-backpack-securities": {
+    "last_alert_ts": 1794236513.145366,
+    "last_score": 57.1,
+    "symbol": "SNDK"
+  },
+  "cex_small_cap:roundhill-memory-etf-rstock": {
+    "last_alert_ts": 1794236513.145366,
+    "last_score": 57.1,
+    "symbol": "RDRAM"
+  },
+  "cex_small_cap:invesco-qqq-trust-bstocks-tokenized-stock": {
+    "last_alert_ts": 1794236513.145366,
+    "last_score": 55.0,
+    "symbol": "QQQB"
   }
 }
