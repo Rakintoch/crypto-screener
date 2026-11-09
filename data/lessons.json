@@ -12925,5 +12925,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "ICNT (cex_small_cap) lost -8.7% in 518 min (slow (>6h)) — stop-loss hit. Entry score: 68 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794216025.6887147,
+    "symbol": "SOXSB",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock",
+    "held_minutes": 77.5,
+    "exit_reason": "stop-loss hit (-8.3%)",
+    "pnl_pct": -8.26,
+    "pnl_eur": -0.55,
+    "entry_score": 85.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 8611618,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.8845,
+    "entry_chg_24h": 9.60336,
+    "entry_chg_7d": 57.9535,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.941137415475263,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "SOXSB (cex_small_cap) lost -8.3% in 77 min (fast (1-6h)) — stop-loss hit. Entry score: 85 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
