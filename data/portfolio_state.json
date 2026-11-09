@@ -15,8 +15,8 @@
       "entry_price_eur": 0.0017309728397973648,
       "entry_ts": 1794225773.5315037,
       "cost_eur": 6.323649430877578,
-      "last_price_eur": 0.0016560129592881022,
-      "last_score": 71.4,
+      "last_price_eur": 0.0016455911427997083,
+      "last_score": 71.1,
       "missed_updates": 0,
       "entry_market_cap": 37794312,
       "entry_venue": null,
@@ -57,7 +57,7 @@
           "source": "Coin Edition"
         }
       ],
-      "last_market_cap": 35911208
+      "last_market_cap": 35925432
     }
   },
   "closed_trades": [
@@ -3270,8 +3270,8 @@
       "pnl_pct": -5.273831967720593
     }
   ],
-  "last_run_ts": 1794226826.0838017,
-  "last_eur_rate": 0.8939099939478569,
+  "last_run_ts": 1794227119.0558739,
+  "last_eur_rate": 0.8937310009448467,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
