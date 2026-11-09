@@ -720,13 +720,13 @@
     "symbol": "RSR"
   },
   "dex_micro_cap:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": {
-    "last_alert_ts": 1794198229.7241693,
-    "last_score": 85.7,
+    "last_alert_ts": 1794254602.3815527,
+    "last_score": 56.0,
     "symbol": "PUSSY"
   },
   "cex_small_cap:anonymous-cat": {
-    "last_alert_ts": 1794189803.273626,
-    "last_score": 55.8,
+    "last_alert_ts": 1794254602.3815527,
+    "last_score": 67.0,
     "symbol": "ZCAT"
   },
   "cex_small_cap:super-inu-3": {
@@ -1023,5 +1023,25 @@
     "last_alert_ts": 1794240160.7801075,
     "last_score": 55.2,
     "symbol": "SNDKC"
+  },
+  "cex_small_cap:rwa-inc": {
+    "last_alert_ts": 1794254602.3815527,
+    "last_score": 69.1,
+    "symbol": "RWA"
+  },
+  "cex_small_cap:cysic": {
+    "last_alert_ts": 1794254602.3815527,
+    "last_score": 64.1,
+    "symbol": "CYS"
+  },
+  "cex_small_cap:usa-rare-earth-bstocks-tokenized-stock": {
+    "last_alert_ts": 1794254602.3815527,
+    "last_score": 57.6,
+    "symbol": "USARB"
+  },
+  "cex_small_cap:meta-platforms-bstocks-tokenized-stock": {
+    "last_alert_ts": 1794254602.3815527,
+    "last_score": 55.7,
+    "symbol": "METAB"
   }
 }
