@@ -12871,5 +12871,32 @@
     "categoria": "other",
     "velocidade_queda": "slow (>6h)",
     "licao": "PYR (cex_small_cap) lost -57.9% in 382 min (slow (>6h)) — other. Entry score: 79 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794204204.0584428,
+    "symbol": "ICNT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/impossible-cloud-network-token",
+    "held_minutes": 480.4,
+    "exit_reason": "stop-loss hit (-9.2%)",
+    "pnl_pct": -9.2,
+    "pnl_eur": -0.67,
+    "entry_score": 68.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 38726654,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 1.5753,
+    "entry_chg_24h": 16.78495,
+    "entry_chg_7d": 112.8324,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.4136436128564963,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "ICNT (cex_small_cap) lost -9.2% in 480 min (slow (>6h)) — stop-loss hit. Entry score: 68 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
