@@ -15,8 +15,8 @@
       "entry_price_eur": 0.00040185612234375955,
       "entry_ts": 1794198230.5040226,
       "cost_eur": 7.44149746965433,
-      "last_price_eur": 0.00042653086977375795,
-      "last_score": 84.6,
+      "last_price_eur": 0.00042580581684856505,
+      "last_score": 84.2,
       "missed_updates": 0,
       "entry_market_cap": 79617348,
       "entry_venue": "Binance",
@@ -55,7 +55,7 @@
           "source": "Cryptonews.net"
         }
       ],
-      "last_market_cap": 84635461
+      "last_market_cap": 84491284
     },
     "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -67,8 +67,8 @@
       "entry_price_eur": 69.8114218964436,
       "entry_ts": 1794211376.2607415,
       "cost_eur": 6.618752133605556,
-      "last_price_eur": 69.8114218964436,
-      "last_score": 85.2,
+      "last_price_eur": 68.84467904270247,
+      "last_score": 83.5,
       "missed_updates": 0,
       "entry_market_cap": 2927989,
       "entry_venue": "KCEX",
@@ -88,7 +88,8 @@
       "entry_base_breakout": null,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": []
+      "entry_catalyst_headlines": [],
+      "last_market_cap": 2887113
     },
     "cex_small_cap:direxion-daily-semiconductor-bear-3x-shares-etf-rstock": {
       "tier": "cex_small_cap",
@@ -100,8 +101,8 @@
       "entry_price_eur": 69.3370014117005,
       "entry_ts": 1794211376.2607415,
       "cost_eur": 6.618752133605556,
-      "last_price_eur": 69.3370014117005,
-      "last_score": 76.8,
+      "last_price_eur": 68.40606387262154,
+      "last_score": 75.5,
       "missed_updates": 0,
       "entry_market_cap": 1502500,
       "entry_venue": "Bitget",
@@ -121,7 +122,8 @@
       "entry_base_breakout": null,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": []
+      "entry_catalyst_headlines": [],
+      "last_market_cap": 1483121
     }
   },
   "closed_trades": [
@@ -3196,8 +3198,8 @@
       "pnl_pct": -8.712913389068309
     }
   ],
-  "last_run_ts": 1794211376.2607415,
-  "last_eur_rate": 0.8951329900813388,
+  "last_run_ts": 1794211520.4200056,
+  "last_eur_rate": 0.8951330001651602,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
