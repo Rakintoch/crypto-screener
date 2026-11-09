@@ -2,56 +2,9 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 27.34619664937701,
+  "cash_eur": 33.94327257809949,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
-    "cex_small_cap:gains-network": {
-      "tier": "cex_small_cap",
-      "id": "gains-network",
-      "symbol": "GAINS",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/gains-network",
-      "qty": 16.84373508197307,
-      "entry_price_eur": 0.43723635965523006,
-      "entry_ts": 1794163172.9033742,
-      "cost_eur": 7.364693410238992,
-      "last_price_eur": 0.4133535798196246,
-      "last_score": 56.6,
-      "missed_updates": 0,
-      "entry_market_cap": 11682145,
-      "entry_venue": "Binance",
-      "entry_contract_address": null,
-      "entry_score": 77.6,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 3857160,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 4.9393,
-      "entry_chg_24h": 42.52194,
-      "entry_chg_7d": 20.1357,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.3301756655134823,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "security_incident"
-      ],
-      "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Are Users Returning? Binance Gains $3.4B in Tracked Assets After Hack - CryptoPotato",
-          "ts": 1793899020.0,
-          "source": "CryptoPotato"
-        },
-        {
-          "title": "Crypto shrugs off historic Binance hack and Democratic midterm gains - marketscreener.com",
-          "ts": 1793874832.0,
-          "source": "marketscreener.com"
-        }
-      ],
-      "last_market_cap": 11081693
-    },
     "cex_small_cap:vulcan-forged": {
       "tier": "cex_small_cap",
       "id": "vulcan-forged",
@@ -62,7 +15,7 @@
       "entry_price_eur": 0.03273895847788337,
       "entry_ts": 1794175377.8799734,
       "cost_eur": 7.290264577707683,
-      "last_price_eur": 0.03491676305491561,
+      "last_price_eur": 0.03493863185105342,
       "last_score": 96.9,
       "missed_updates": 0,
       "entry_market_cap": 1116629,
@@ -84,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1186669
+      "last_market_cap": 1196512
     },
     "cex_small_cap:impossible-cloud-network-token": {
       "tier": "cex_small_cap",
@@ -96,8 +49,8 @@
       "entry_price_eur": 0.33212987364984137,
       "entry_ts": 1794175377.8799734,
       "cost_eur": 7.290264577707683,
-      "last_price_eur": 0.31327478482442306,
-      "last_score": 56.9,
+      "last_price_eur": 0.3141006232108066,
+      "last_score": 57.5,
       "missed_updates": 0,
       "entry_market_cap": 93623237,
       "entry_venue": "Bithumb",
@@ -118,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 88549057
+      "last_market_cap": 88652946
     }
   },
   "closed_trades": [
@@ -3056,10 +3009,63 @@
       "proceeds_eur": 8.426308972249014,
       "pnl_eur": 1.0531783543515623,
       "pnl_pct": 14.284005111683351
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "gains-network",
+      "symbol": "GAINS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/gains-network",
+      "qty": 16.84373508197307,
+      "entry_price_eur": 0.43723635965523006,
+      "entry_ts": 1794163172.9033742,
+      "cost_eur": 7.364693410238992,
+      "last_price_eur": 0.39166348180000593,
+      "last_score": 56.1,
+      "missed_updates": 0,
+      "entry_market_cap": 11682145,
+      "entry_venue": "Binance",
+      "entry_contract_address": null,
+      "entry_score": 77.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 3857160,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 4.9393,
+      "entry_chg_24h": 42.52194,
+      "entry_chg_7d": 20.1357,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.3301756655134823,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "security_incident"
+      ],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Are Users Returning? Binance Gains $3.4B in Tracked Assets After Hack - CryptoPotato",
+          "ts": 1793899020.0,
+          "source": "CryptoPotato"
+        },
+        {
+          "title": "Crypto shrugs off historic Binance hack and Democratic midterm gains - marketscreener.com",
+          "ts": 1793874832.0,
+          "source": "marketscreener.com"
+        }
+      ],
+      "last_market_cap": 10480228,
+      "exit_price_eur": 0.39166348180000593,
+      "exit_ts": 1794189920.6666043,
+      "exit_reason": "stop-loss hit (-10.4%)",
+      "proceeds_eur": 6.5970759287224805,
+      "pnl_eur": -0.7676174815165115,
+      "pnl_pct": -10.422938726129559
     }
   ],
-  "last_run_ts": 1794189650.8276782,
-  "last_eur_rate": 0.8964180019813293,
+  "last_run_ts": 1794189920.6666043,
+  "last_eur_rate": 0.8964110046598629,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
