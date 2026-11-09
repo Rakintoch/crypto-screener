@@ -119,11 +119,6 @@
     "last_score": 62.6,
     "symbol": "BUN"
   },
-  "cex_small_cap:egl1": {
-    "last_alert_ts": 1793995406.9834378,
-    "last_score": 56.0,
-    "symbol": "EGL1"
-  },
   "cex_small_cap:elsa": {
     "last_alert_ts": 1794141743.7004197,
     "last_score": 62.8,
@@ -148,11 +143,6 @@
     "last_alert_ts": 1794240160.7801075,
     "last_score": 55.8,
     "symbol": "APPB"
-  },
-  "cex_small_cap:unifai-network": {
-    "last_alert_ts": 1794002604.247807,
-    "last_score": 84.8,
-    "symbol": "UAI"
   },
   "cex_small_cap:fluent-network": {
     "last_alert_ts": 1794160995.1262097,
@@ -225,8 +215,8 @@
     "symbol": "REBOOT"
   },
   "cex_small_cap:harmony": {
-    "last_alert_ts": 1794160995.1262097,
-    "last_score": 63.2,
+    "last_alert_ts": 1794261807.3510518,
+    "last_score": 61.1,
     "symbol": "ONE"
   },
   "cex_small_cap:denim": {
@@ -305,14 +295,9 @@
     "symbol": "FOREVER"
   },
   "cex_small_cap:thinking-cat": {
-    "last_alert_ts": 1794045801.038547,
-    "last_score": 79.2,
+    "last_alert_ts": 1794261807.3510518,
+    "last_score": 80.8,
     "symbol": "HMM"
-  },
-  "dex_micro_cap:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": {
-    "last_alert_ts": 1793995406.9834378,
-    "last_score": 61.6,
-    "symbol": "AMD"
   },
   "cex_small_cap:graniteshares-2x-long-intc-etf-bstocks-tokenized-stock": {
     "last_alert_ts": 1794240160.7801075,
@@ -560,18 +545,18 @@
     "symbol": "WASTED"
   },
   "cex_small_cap:holotoken": {
-    "last_alert_ts": 1794182603.6989336,
-    "last_score": 70.3,
+    "last_alert_ts": 1794261807.3510518,
+    "last_score": 70.4,
     "symbol": "HOT"
   },
   "cex_small_cap:skyai": {
-    "last_alert_ts": 1794182603.6989336,
-    "last_score": 63.0,
+    "last_alert_ts": 1794261807.3510518,
+    "last_score": 56.9,
     "symbol": "SKYAI"
   },
   "cex_small_cap:cyberleek": {
-    "last_alert_ts": 1794139374.8075695,
-    "last_score": 55.8,
+    "last_alert_ts": 1794261807.3510518,
+    "last_score": 64.4,
     "symbol": "CYBERLEEK"
   },
   "cex_small_cap:conconai": {
@@ -705,8 +690,8 @@
     "symbol": "ELYSION"
   },
   "cex_small_cap:redteam": {
-    "last_alert_ts": 1794182603.6989336,
-    "last_score": 60.1,
+    "last_alert_ts": 1794261807.3510518,
+    "last_score": 59.2,
     "symbol": "SN61"
   },
   "cex_small_cap:gitcoin": {
@@ -1015,8 +1000,8 @@
     "symbol": "MUB"
   },
   "cex_small_cap:initia": {
-    "last_alert_ts": 1794247404.8179903,
-    "last_score": 81.2,
+    "last_alert_ts": 1794261807.3510518,
+    "last_score": 98.7,
     "symbol": "INIT"
   },
   "cex_small_cap:sandisk-coinbase-tokenized-stock": {
@@ -1043,5 +1028,45 @@
     "last_alert_ts": 1794254602.3815527,
     "last_score": 55.7,
     "symbol": "METAB"
+  },
+  "cex_small_cap:coreweave-ondo-tokenized": {
+    "last_alert_ts": 1794261807.3510518,
+    "last_score": 65.1,
+    "symbol": "CRWVON"
+  },
+  "cex_small_cap:nebius-rstock": {
+    "last_alert_ts": 1794261807.3510518,
+    "last_score": 62.8,
+    "symbol": "RNBIS"
+  },
+  "cex_small_cap:artificial-inu-3": {
+    "last_alert_ts": 1794261807.3510518,
+    "last_score": 61.7,
+    "symbol": "AI"
+  },
+  "cex_small_cap:take-two-interactive-software-robinhood-tokenized-stock": {
+    "last_alert_ts": 1794261807.3510518,
+    "last_score": 59.8,
+    "symbol": "TTWO"
+  },
+  "cex_small_cap:amd-ondo-tokenized-stock": {
+    "last_alert_ts": 1794261807.3510518,
+    "last_score": 59.2,
+    "symbol": "AMDON"
+  },
+  "cex_small_cap:sportstensor": {
+    "last_alert_ts": 1794261807.3510518,
+    "last_score": 58.6,
+    "symbol": "SN41"
+  },
+  "cex_small_cap:sk-hynix-ondo-tokenized": {
+    "last_alert_ts": 1794261807.3510518,
+    "last_score": 56.8,
+    "symbol": "SKHYON"
+  },
+  "cex_small_cap:nebius-bstocks-tokenized-stock": {
+    "last_alert_ts": 1794261807.3510518,
+    "last_score": 55.2,
+    "symbol": "NBISB"
   }
 }
