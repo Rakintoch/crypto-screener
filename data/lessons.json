@@ -13033,5 +13033,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "ZIL (cex_small_cap) lost -8.4% in 32 min (very fast (<1h)) — stop-loss hit. Entry score: 74 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794234318.4834814,
+    "symbol": "COQ",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/coq-inu",
+    "held_minutes": 21.9,
+    "exit_reason": "stop-loss hit (-9.4%)",
+    "pnl_pct": -9.42,
+    "pnl_eur": -0.59,
+    "entry_score": 81.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 4701991,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 14.8153,
+    "entry_chg_24h": 17.52682,
+    "entry_chg_7d": 8.7886,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.6627311934864477,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "COQ (cex_small_cap) lost -9.4% in 22 min (very fast (<1h)) — stop-loss hit. Entry score: 81 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
