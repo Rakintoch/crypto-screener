@@ -2,9 +2,63 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 42.157662872517186,
+  "cash_eur": 35.834013441639605,
   "starting_balance_eur": 877.2059999287995,
-  "positions": {},
+  "positions": {
+    "cex_small_cap:zilliqa": {
+      "tier": "cex_small_cap",
+      "id": "zilliqa",
+      "symbol": "ZIL",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/zilliqa",
+      "qty": 3653.2343463100506,
+      "entry_price_eur": 0.0017309728397973648,
+      "entry_ts": 1794225773.5315037,
+      "cost_eur": 6.323649430877578,
+      "last_price_eur": 0.0017309728397973648,
+      "last_score": 74.0,
+      "missed_updates": 0,
+      "entry_market_cap": 37794312,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 74.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 15235617,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 15.8196,
+      "entry_chg_24h": 17.18342,
+      "entry_chg_7d": 5.4934,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.40311931065182505,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "restructuring",
+        "security_incident",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.6000000000000001,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Crypto Update: Zilliqa Plans Ethereum L2 Pivot as Remittix Earn Goes Live With Pools From Aave, Morpho and Fluid - StreetInsider",
+          "ts": 1794075395.0,
+          "source": "StreetInsider"
+        },
+        {
+          "title": "Zilliqa Ends Nine-Year Layer 1 Run With Ethereum-Based Institutional Pivot - CryptoRank",
+          "ts": 1793912891.0,
+          "source": "CryptoRank"
+        },
+        {
+          "title": "Zilliqa Ends Nine-Year Layer 1 Run With Ethereum-Based Institutional Pivot - Coin Edition",
+          "ts": 1793895946.0,
+          "source": "Coin Edition"
+        }
+      ]
+    }
+  },
   "closed_trades": [
     {
       "tier": "cex_small_cap",
@@ -3215,8 +3269,8 @@
       "pnl_pct": -5.273831967720593
     }
   ],
-  "last_run_ts": 1794222055.3292465,
-  "last_eur_rate": 0.8934910001393108,
+  "last_run_ts": 1794225773.5315037,
+  "last_eur_rate": 0.8937190032100891,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
