@@ -2,64 +2,9 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1794330047.2676547,
-  "cash_eur": 28.550880234944515,
+  "cash_eur": 34.23288230401737,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
-    "cex_small_cap:test-3": {
-      "tier": "cex_small_cap",
-      "id": "test-3",
-      "symbol": "TST",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/test-3",
-      "qty": 484.7755734680653,
-      "entry_price_eur": 0.01288038231085827,
-      "entry_ts": 1794233005.3750706,
-      "cost_eur": 6.244094721234243,
-      "last_price_eur": 0.01198433210412161,
-      "last_score": 82.0,
-      "missed_updates": 0,
-      "entry_market_cap": 13512950,
-      "entry_venue": "Binance",
-      "entry_contract_address": "0x86bb94ddd16efc8bc58e6b056e8df71d9e666429 (BSC)",
-      "entry_score": 84.9,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 15786555,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 4.1616,
-      "entry_chg_24h": 24.38137,
-      "entry_chg_7d": 11.0408,
-      "entry_chg_6h": null,
-      "entry_turnover": 1.168253786182884,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "listing",
-        "restructuring",
-        "security_incident",
-        "upgrade"
-      ],
-      "entry_catalyst_score": 1.0,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Zcash Price Shows Neutral Bias with Key Hourly Pivot Test - The Cryptonomist",
-          "ts": 1794226249.0,
-          "source": "The Cryptonomist"
-        },
-        {
-          "title": "Sharplink faces earnings test after pivot to Ethereum treasury By Investing.com - Investing.com India",
-          "ts": 1794217488.0,
-          "source": "Investing.com India"
-        },
-        {
-          "title": "Anthropic IPO to test AI sector valuation with NASDAQ listing - Crypto Briefing",
-          "ts": 1794016512.0,
-          "source": "Crypto Briefing"
-        }
-      ],
-      "last_market_cap": 12570583
-    },
     "cex_small_cap:float": {
       "tier": "cex_small_cap",
       "id": "float",
@@ -70,8 +15,8 @@
       "entry_price_eur": 0.011693293789760821,
       "entry_ts": 1794233005.3750706,
       "cost_eur": 6.2440947212342435,
-      "last_price_eur": 0.011275345071293671,
-      "last_score": 67.8,
+      "last_price_eur": 0.01123991989625185,
+      "last_score": 66.9,
       "missed_updates": 0,
       "entry_market_cap": 11668214,
       "entry_venue": null,
@@ -92,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11249096
+      "last_market_cap": 11213531
     }
   },
   "closed_trades": [
@@ -3403,10 +3348,71 @@
       "proceeds_eur": 5.6558662570856235,
       "pnl_eur": -0.5882284641486191,
       "pnl_pct": -9.420556388234075
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "test-3",
+      "symbol": "TST",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/test-3",
+      "qty": 484.7755734680653,
+      "entry_price_eur": 0.01288038231085827,
+      "entry_ts": 1794233005.3750706,
+      "cost_eur": 6.244094721234243,
+      "last_price_eur": 0.011720891851922407,
+      "last_score": 79.3,
+      "missed_updates": 0,
+      "entry_market_cap": 13512950,
+      "entry_venue": "Binance",
+      "entry_contract_address": "0x86bb94ddd16efc8bc58e6b056e8df71d9e666429 (BSC)",
+      "entry_score": 84.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 15786555,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 4.1616,
+      "entry_chg_24h": 24.38137,
+      "entry_chg_7d": 11.0408,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.168253786182884,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing",
+        "restructuring",
+        "security_incident",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 1.0,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Zcash Price Shows Neutral Bias with Key Hourly Pivot Test - The Cryptonomist",
+          "ts": 1794226249.0,
+          "source": "The Cryptonomist"
+        },
+        {
+          "title": "Sharplink faces earnings test after pivot to Ethereum treasury By Investing.com - Investing.com India",
+          "ts": 1794217488.0,
+          "source": "Investing.com India"
+        },
+        {
+          "title": "Anthropic IPO to test AI sector valuation with NASDAQ listing - Crypto Briefing",
+          "ts": 1794016512.0,
+          "source": "Crypto Briefing"
+        }
+      ],
+      "last_market_cap": 12294022,
+      "exit_price_eur": 0.011720891851922407,
+      "exit_ts": 1794234644.9964023,
+      "exit_reason": "stop-loss hit (-9.0%)",
+      "proceeds_eur": 5.682002069072858,
+      "pnl_eur": -0.5620926521613843,
+      "pnl_pct": -9.001987914274912
     }
   ],
-  "last_run_ts": 1794234318.4834814,
-  "last_eur_rate": 0.892987005262219,
+  "last_run_ts": 1794234644.9964023,
+  "last_eur_rate": 0.8930040023589974,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 6,
   "cycle_start_ts": 1793466047.2676547,
