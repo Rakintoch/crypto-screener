@@ -3352,5 +3352,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "BELIEVE (cex_small_cap) gained +14.3% in 138 min — trailing stop caught extra upside after the target. Entry score: 95. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794315921.3369534,
+    "symbol": "WASTED",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/wasted",
+    "held_minutes": 422.3,
+    "exit_reason": "trailing stop hit — dropped 6.3% from the peak (peak +42.6% since entry)",
+    "pnl_pct": 33.55,
+    "pnl_eur": 1.92,
+    "entry_score": 79.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 219673,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 13.0974,
+    "entry_chg_24h": 59.25208,
+    "entry_chg_7d": 26.7869,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.18915933013694855,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "WASTED (cex_small_cap) gained +33.5% in 422 min — trailing stop caught extra upside after the target. Entry score: 79. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
