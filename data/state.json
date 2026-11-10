@@ -39,11 +39,6 @@
     "last_score": 66.5,
     "symbol": "IDOL"
   },
-  "cex_small_cap:lisk": {
-    "last_alert_ts": 1794016981.0165496,
-    "last_score": 57.1,
-    "symbol": "LSK"
-  },
   "cex_small_cap:regent-coin": {
     "last_alert_ts": 1794236513.145366,
     "last_score": 62.2,
@@ -100,8 +95,8 @@
     "symbol": "ICNT"
   },
   "cex_small_cap:act-i-the-ai-prophecy": {
-    "last_alert_ts": 1794096170.774807,
-    "last_score": 94.0,
+    "last_alert_ts": 1794283397.8309493,
+    "last_score": 56.8,
     "symbol": "ACT"
   },
   "cex_small_cap:olaxbt": {
@@ -190,8 +185,8 @@
     "symbol": "DACITY"
   },
   "cex_small_cap:unitas": {
-    "last_alert_ts": 1794240160.7801075,
-    "last_score": 80.0,
+    "last_alert_ts": 1794283397.8309493,
+    "last_score": 91.6,
     "symbol": "UP"
   },
   "dex_micro_cap:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": {
@@ -298,21 +293,6 @@
     "last_alert_ts": 1794060185.4163067,
     "last_score": 58.3,
     "symbol": "RMRNA"
-  },
-  "dex_micro_cap:HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": {
-    "last_alert_ts": 1794016981.0165496,
-    "last_score": 67.3,
-    "symbol": "SI276"
-  },
-  "cex_small_cap:cat-wif-sword-2": {
-    "last_alert_ts": 1794016981.0165496,
-    "last_score": 59.1,
-    "symbol": "SWORDCAT"
-  },
-  "cex_small_cap:based-one": {
-    "last_alert_ts": 1794016981.0165496,
-    "last_score": 57.5,
-    "symbol": "BASED"
   },
   "cex_small_cap:carv": {
     "last_alert_ts": 1794024201.9978385,
@@ -1078,5 +1058,15 @@
     "last_alert_ts": 1794276172.2561808,
     "last_score": 56.9,
     "symbol": "HODL"
+  },
+  "cex_small_cap:polyswarm": {
+    "last_alert_ts": 1794283397.8309493,
+    "last_score": 69.4,
+    "symbol": "NCT"
+  },
+  "cex_small_cap:clearpool": {
+    "last_alert_ts": 1794283397.8309493,
+    "last_score": 64.7,
+    "symbol": "CPOOL"
   }
 }
