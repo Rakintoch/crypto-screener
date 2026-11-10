@@ -39,11 +39,6 @@
     "last_score": 66.5,
     "symbol": "TRUST"
   },
-  "cex_small_cap:jean-phil": {
-    "last_alert_ts": 1794074576.2446394,
-    "last_score": 55.7,
-    "symbol": "JEANPHIL"
-  },
   "dex_micro_cap:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
     "last_alert_ts": 1794180348.4987361,
     "last_score": 64.4,
@@ -55,8 +50,8 @@
     "symbol": "ARIA"
   },
   "cex_small_cap:float": {
-    "last_alert_ts": 1794233004.7870357,
-    "last_score": 73.3,
+    "last_alert_ts": 1794333779.8778422,
+    "last_score": 65.7,
     "symbol": "FLOAT"
   },
   "cex_small_cap:spacex-backpack-securities": {
@@ -284,55 +279,10 @@
     "last_score": 64.3,
     "symbol": "DEBIT"
   },
-  "dex_micro_cap:iW4XP2BWd3iqf1LMZvpsKidb49wVAh3S8SfNUsDpump": {
-    "last_alert_ts": 1794067396.9622908,
-    "last_score": 77.9,
-    "symbol": "duge"
-  },
-  "cex_small_cap:tevaera": {
-    "last_alert_ts": 1794067396.9622908,
-    "last_score": 67.1,
-    "symbol": "TEVA"
-  },
-  "cex_small_cap:infinit": {
-    "last_alert_ts": 1794067396.9622908,
-    "last_score": 57.0,
-    "symbol": "IN"
-  },
   "cex_small_cap:wealth-coin": {
     "last_alert_ts": 1794268719.916335,
     "last_score": 77.1,
     "symbol": "WEALTH"
-  },
-  "cex_small_cap:epic-chain": {
-    "last_alert_ts": 1794074576.2446394,
-    "last_score": 84.3,
-    "symbol": "EPIC"
-  },
-  "dex_micro_cap:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
-    "last_alert_ts": 1794074576.2446394,
-    "last_score": 74.5,
-    "symbol": "Leonida"
-  },
-  "cex_small_cap:sign-global": {
-    "last_alert_ts": 1794074576.2446394,
-    "last_score": 64.5,
-    "symbol": "SIGN"
-  },
-  "cex_small_cap:mitosis": {
-    "last_alert_ts": 1794074576.2446394,
-    "last_score": 62.0,
-    "symbol": "MITO"
-  },
-  "cex_small_cap:lobin": {
-    "last_alert_ts": 1794074576.2446394,
-    "last_score": 55.3,
-    "symbol": "LOBIN"
-  },
-  "cex_small_cap:tolly": {
-    "last_alert_ts": 1794074576.2446394,
-    "last_score": 55.0,
-    "symbol": "TOLLY"
   },
   "dex_micro_cap:0x6372a7b953f386ce82d91b1caf3802b5cd088ab7": {
     "last_alert_ts": 1794076155.3036356,
@@ -410,8 +360,8 @@
     "symbol": "DGB"
   },
   "cex_small_cap:bubblemaps": {
-    "last_alert_ts": 1794182603.6989336,
-    "last_score": 67.0,
+    "last_alert_ts": 1794333779.8778422,
+    "last_score": 64.5,
     "symbol": "BMT"
   },
   "cex_small_cap:fobo": {
@@ -1063,5 +1013,10 @@
     "last_alert_ts": 1794326557.1642156,
     "last_score": 56.4,
     "symbol": "FONE"
+  },
+  "cex_small_cap:programmable-2": {
+    "last_alert_ts": 1794333779.8778422,
+    "last_score": 65.1,
+    "symbol": "V4"
   }
 }
