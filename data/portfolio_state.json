@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 14.99747531150149,
+  "cash_eur": 20.234741701581182,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:graniteshares-2x-long-mrvl-etf-bstocks-tokenized-stock": {
@@ -15,7 +15,7 @@
       "entry_price_eur": 8.90426680926091,
       "entry_ts": 1794236513.573733,
       "cost_eur": 6.038056100321222,
-      "last_price_eur": 9.332402095745016,
+      "last_price_eur": 9.323393801000789,
       "last_score": 42.8,
       "missed_updates": 0,
       "entry_market_cap": 1167192,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1383100
+      "last_market_cap": 1381766
     },
     "cex_small_cap:harmony": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0016173453549696187,
       "entry_ts": 1794326717.6746166,
       "cost_eur": 5.77790451517031,
-      "last_price_eur": 0.0016549161175120658,
-      "last_score": 83.5,
+      "last_price_eur": 0.0016904898206846302,
+      "last_score": 83.9,
       "missed_updates": 0,
       "entry_market_cap": 26708793,
       "entry_venue": "Binance",
@@ -89,7 +89,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 27476942
+      "last_market_cap": 28059932
     },
     "cex_small_cap:aria-ai": {
       "tier": "cex_small_cap",
@@ -101,8 +101,8 @@
       "entry_price_eur": 0.1919310634242731,
       "entry_ts": 1794326717.6746166,
       "cost_eur": 5.77790451517031,
-      "last_price_eur": 0.1926908170530953,
-      "last_score": 67.5,
+      "last_price_eur": 0.19345101737125528,
+      "last_score": 67.7,
       "missed_updates": 0,
       "entry_market_cap": 39197347,
       "entry_venue": null,
@@ -123,60 +123,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 39371929
-    },
-    "cex_small_cap:initia": {
-      "tier": "cex_small_cap",
-      "id": "initia",
-      "symbol": "INIT",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/initia",
-      "qty": 21.751251409334973,
-      "entry_price_eur": 0.2623983944951968,
-      "entry_ts": 1794333780.5982847,
-      "cost_eur": 5.707493448070884,
-      "last_price_eur": 0.2475442046496403,
-      "last_score": 71.4,
-      "missed_updates": 0,
-      "entry_market_cap": 64179662,
-      "entry_venue": "Binance",
-      "entry_contract_address": "uinit (initia)",
-      "entry_score": 93.2,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 156222491,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 3.5444,
-      "entry_chg_24h": 109.36436,
-      "entry_chg_7d": 110.2644,
-      "entry_chg_6h": null,
-      "entry_turnover": 2.434143249305364,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "restructuring",
-        "security_incident"
-      ],
-      "entry_catalyst_score": 0.4,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Initia halts blockchain after $615K hack; INIT token jumps 61% amid ongoing investigation - Pluang",
-          "ts": 1794311093.0,
-          "source": "Pluang"
-        },
-        {
-          "title": "Initia halts blockchain after $615K exploit as INIT price surges over 60% - Crypto News",
-          "ts": 1794310297.0,
-          "source": "Crypto News"
-        },
-        {
-          "title": "Initia’s INIT Token Climbs 80% as Layer 1 Remains Halted After Hack - TOKENPOST",
-          "ts": 1794297584.0,
-          "source": "TOKENPOST"
-        }
-      ],
-      "last_market_cap": 60595602
+      "last_market_cap": 39554703
     }
   },
   "closed_trades": [
@@ -488,10 +435,69 @@
       "proceeds_eur": 7.6514141568183085,
       "pnl_eur": 1.922090659738191,
       "pnl_pct": 33.548300435780284
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "initia",
+      "symbol": "INIT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/initia",
+      "qty": 21.751251409334973,
+      "entry_price_eur": 0.2623983944951968,
+      "entry_ts": 1794333780.5982847,
+      "cost_eur": 5.707493448070884,
+      "last_price_eur": 0.24078000348209935,
+      "last_score": 71.2,
+      "missed_updates": 0,
+      "entry_market_cap": 64179662,
+      "entry_venue": "Binance",
+      "entry_contract_address": "uinit (initia)",
+      "entry_score": 93.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 156222491,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.5444,
+      "entry_chg_24h": 109.36436,
+      "entry_chg_7d": 110.2644,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.434143249305364,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "restructuring",
+        "security_incident"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Initia halts blockchain after $615K hack; INIT token jumps 61% amid ongoing investigation - Pluang",
+          "ts": 1794311093.0,
+          "source": "Pluang"
+        },
+        {
+          "title": "Initia halts blockchain after $615K exploit as INIT price surges over 60% - Crypto News",
+          "ts": 1794310297.0,
+          "source": "Crypto News"
+        },
+        {
+          "title": "Initia’s INIT Token Climbs 80% as Layer 1 Remains Halted After Hack - TOKENPOST",
+          "ts": 1794297584.0,
+          "source": "TOKENPOST"
+        }
+      ],
+      "last_market_cap": 59489187,
+      "exit_price_eur": 0.24078000348209935,
+      "exit_ts": 1794348926.5402465,
+      "exit_reason": "stop-loss hit (-8.2%)",
+      "proceeds_eur": 5.237266390079693,
+      "pnl_eur": -0.4702270579911909,
+      "pnl_pct": -8.238766496527933
     }
   ],
-  "last_run_ts": 1794348623.8949802,
-  "last_eur_rate": 0.8956240015110379,
+  "last_run_ts": 1794348926.5402465,
+  "last_eur_rate": 0.8956190010567521,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
