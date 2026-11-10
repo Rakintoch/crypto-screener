@@ -13249,5 +13249,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "AIN (cex_small_cap) lost -9.4% in 17 min (very fast (<1h)) — stop-loss hit. Entry score: 83 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794312052.4138098,
+    "symbol": "NCT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/polyswarm",
+    "held_minutes": 237.9,
+    "exit_reason": "stop-loss hit (-9.3%)",
+    "pnl_pct": -9.32,
+    "pnl_eur": -0.54,
+    "entry_score": 93.7,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 15540652,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 11.0207,
+    "entry_chg_24h": 48.86236,
+    "entry_chg_7d": 36.4,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.7750507564631858,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "NCT (cex_small_cap) lost -9.3% in 238 min (fast (1-6h)) — stop-loss hit. Entry score: 94 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
