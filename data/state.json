@@ -1,7 +1,7 @@
 {
   "cex_small_cap:janction": {
-    "last_alert_ts": 1794211375.614174,
-    "last_score": 94.0,
+    "last_alert_ts": 1794304979.9368036,
+    "last_score": 64.7,
     "symbol": "JCT"
   },
   "cex_small_cap:dacity-coin-2": {
@@ -9,19 +9,14 @@
     "last_score": 61.4,
     "symbol": "DACITY"
   },
-  "cex_small_cap:moonbirds": {
-    "last_alert_ts": 1794038597.4271808,
-    "last_score": 62.9,
-    "symbol": "BIRB"
-  },
   "cex_small_cap:particle-network": {
     "last_alert_ts": 1794225773.011997,
     "last_score": 57.9,
     "symbol": "PARTI"
   },
   "cex_small_cap:infinity-ground": {
-    "last_alert_ts": 1794052966.1259744,
-    "last_score": 66.3,
+    "last_alert_ts": 1794304979.9368036,
+    "last_score": 82.8,
     "symbol": "AIN"
   },
   "cex_small_cap:priors-agent": {
@@ -239,11 +234,6 @@
     "last_score": 74.0,
     "symbol": "ZIL"
   },
-  "cex_small_cap:xphere": {
-    "last_alert_ts": 1794038597.4271808,
-    "last_score": 63.7,
-    "symbol": "XP"
-  },
   "cex_small_cap:rocket-lab-ondo-tokenized": {
     "last_alert_ts": 1794240160.7801075,
     "last_score": 62.1,
@@ -299,11 +289,6 @@
     "last_score": 68.6,
     "symbol": "COGE"
   },
-  "cex_small_cap:superwalk": {
-    "last_alert_ts": 1794038597.4271808,
-    "last_score": 77.3,
-    "symbol": "GRND"
-  },
   "dex_micro_cap:BdouwEr3mwXkT6S6EmHNCjn9oEtykRKCKiUSTRF9pump": {
     "last_alert_ts": 1794180348.4987361,
     "last_score": 89.9,
@@ -320,8 +305,8 @@
     "symbol": "Rocco"
   },
   "cex_small_cap:degen-base": {
-    "last_alert_ts": 1794052966.1259744,
-    "last_score": 80.9,
+    "last_alert_ts": 1794304979.9368036,
+    "last_score": 72.0,
     "symbol": "DEGEN"
   },
   "dex_micro_cap:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
@@ -755,8 +740,8 @@
     "symbol": "LMAO!"
   },
   "cex_small_cap:dell-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794236513.145366,
-    "last_score": 61.0,
+    "last_alert_ts": 1794304979.9368036,
+    "last_score": 57.9,
     "symbol": "DELLB"
   },
   "cex_small_cap:bloom-energy-ondo-tokenized": {
@@ -1060,8 +1045,8 @@
     "symbol": "ASTEROID"
   },
   "cex_small_cap:benqi": {
-    "last_alert_ts": 1794297779.0730913,
-    "last_score": 60.6,
+    "last_alert_ts": 1794304979.9368036,
+    "last_score": 82.2,
     "symbol": "QI"
   },
   "cex_small_cap:doppler-finance": {
@@ -1073,5 +1058,20 @@
     "last_alert_ts": 1794297779.0730913,
     "last_score": 55.4,
     "symbol": "POKT"
+  },
+  "cex_small_cap:unifai-network": {
+    "last_alert_ts": 1794304979.9368036,
+    "last_score": 61.6,
+    "symbol": "UAI"
+  },
+  "dex_micro_cap:B9FgqHbtccsgcL6YPfUhNd81qveNtrTbsfLvcjxtpump": {
+    "last_alert_ts": 1794304979.9368036,
+    "last_score": 58.2,
+    "symbol": "AICoin"
+  },
+  "cex_small_cap:block-street": {
+    "last_alert_ts": 1794304979.9368036,
+    "last_score": 56.4,
+    "symbol": "BSB"
   }
 }
