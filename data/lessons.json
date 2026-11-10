@@ -13168,5 +13168,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "WEALTH (cex_small_cap) lost -10.5% in 132 min (fast (1-6h)) — stop-loss hit. Entry score: 77 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794279025.8266854,
+    "symbol": "INIT",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/initia",
+    "held_minutes": 47.5,
+    "exit_reason": "stop-loss hit (-12.8%)",
+    "pnl_pct": -12.78,
+    "pnl_eur": -0.77,
+    "entry_score": 98.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 69155333,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 7.1406,
+    "entry_chg_24h": 63.11275,
+    "entry_chg_7d": 52.9278,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.5482785656635536,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "INIT (cex_small_cap) lost -12.8% in 48 min (very fast (<1h)) — stop-loss hit. Entry score: 98 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
