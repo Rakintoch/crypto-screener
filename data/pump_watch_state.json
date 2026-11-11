@@ -1,7 +1,7 @@
 {
   "status": "active",
   "start_ts": 1789402186.9931946,
-  "cash_eur": 23.562294273715448,
+  "cash_eur": 0.0,
   "reserve_eur": 1.9326204356193786,
   "starting_balance_eur": 100.0,
   "positions": {
@@ -12,10 +12,10 @@
       "entry_price_eur": 436.85462126479916,
       "entry_ts": 1789402186.9931946,
       "cost_eur": 33.33333333333333,
-      "last_price_eur": 477.3603455063132,
+      "last_price_eur": 477.47213220996525,
       "peak_price_eur": 499.44405287568054,
       "entry_market_cap": 1183197,
-      "last_market_cap": 1395430,
+      "last_market_cap": 1395980,
       "entry_venue": "Uniswap V3 (Base) (on-chain)"
     },
     "cex_small_cap:take-two-interactive-software-robinhood-tokenized-stock": {
@@ -25,10 +25,10 @@
       "entry_price_eur": 187.07552627535924,
       "entry_ts": 1793858588.8994746,
       "cost_eur": 30.739658661040853,
-      "last_price_eur": 200.04933815958273,
+      "last_price_eur": 199.78460421408923,
       "peak_price_eur": 202.2493846972983,
       "entry_market_cap": 1238325,
-      "last_market_cap": 1203525,
+      "last_market_cap": 1202419,
       "entry_venue": null,
       "entry_contract_address": null,
       "entry_obv_score": 0.3905144911293062,
@@ -37,6 +37,29 @@
       "entry_chg_24h": 8.27997,
       "entry_chg_7d": 7.367,
       "entry_turnover": 73.99629015000102,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
+    },
+    "cex_small_cap:invesco-qqq-trust-bstocks-tokenized-stock": {
+      "id": "invesco-qqq-trust-bstocks-tokenized-stock",
+      "symbol": "QQQB",
+      "qty": 0.038659665879566346,
+      "entry_price_eur": 609.4800288010082,
+      "entry_ts": 1794362600.5402353,
+      "cost_eur": 23.562294273715448,
+      "last_price_eur": 609.4800288010082,
+      "peak_price_eur": 609.4800288010082,
+      "entry_market_cap": 1267070,
+      "last_market_cap": 1267070,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_obv_score": 0.19009221803322965,
+      "entry_price_change_3d": 0.03923223228132964,
+      "entry_volume_surge": 5.242462317709863,
+      "entry_chg_24h": 0.32942,
+      "entry_chg_7d": -0.2103,
+      "entry_turnover": 15.47576455917984,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": []
@@ -385,8 +408,8 @@
       "reserved_eur": 0.0
     }
   ],
-  "last_run_ts": 1794362117.5644016,
-  "last_eur_rate": 0.895475998923826,
+  "last_run_ts": 1794362600.5402353,
+  "last_eur_rate": 0.895332993699423,
   "review_cycle": {
     "number": 3,
     "start_ts": 1792868581.9738064,
