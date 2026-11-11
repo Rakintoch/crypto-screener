@@ -35,8 +35,8 @@
     "symbol": "FLOAT"
   },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1794384202.8314745,
-    "last_score": 95.0,
+    "last_alert_ts": 1794427459.7080083,
+    "last_score": 81.1,
     "symbol": "ARIA"
   },
   "cex_small_cap:float": {
@@ -278,26 +278,6 @@
     "last_alert_ts": 1794326557.1642156,
     "last_score": 70.3,
     "symbol": "STANK"
-  },
-  "cex_small_cap:gstock": {
-    "last_alert_ts": 1794168148.7389371,
-    "last_score": 77.0,
-    "symbol": "GSTOCK"
-  },
-  "cex_small_cap:doge-pepe-3": {
-    "last_alert_ts": 1794168148.7389371,
-    "last_score": 64.6,
-    "symbol": "DOPE"
-  },
-  "cex_small_cap:flora": {
-    "last_alert_ts": 1794168148.7389371,
-    "last_score": 62.5,
-    "symbol": "FLORA"
-  },
-  "cex_small_cap:reef": {
-    "last_alert_ts": 1794168148.7389371,
-    "last_score": 58.9,
-    "symbol": "REEF"
   },
   "cex_small_cap:allinu": {
     "last_alert_ts": 1794355360.5477114,
@@ -790,8 +770,8 @@
     "symbol": "SOPH"
   },
   "cex_small_cap:audacity": {
-    "last_alert_ts": 1794420203.2670925,
-    "last_score": 69.6,
+    "last_alert_ts": 1794427459.7080083,
+    "last_score": 99.6,
     "symbol": "DACITYCOIN"
   },
   "cex_small_cap:securitize-bstocks-tokenized-stock": {
@@ -1073,5 +1053,15 @@
     "last_alert_ts": 1794420203.2670925,
     "last_score": 56.1,
     "symbol": "NES"
+  },
+  "dex_micro_cap:0x2914b239a5d5f2f14bc8dd4635a47370a7759b44": {
+    "last_alert_ts": 1794427459.7080083,
+    "last_score": 74.2,
+    "symbol": "AudaCity"
+  },
+  "cex_small_cap:burnie-senders": {
+    "last_alert_ts": 1794427459.7080083,
+    "last_score": 69.9,
+    "symbol": "BURNIE"
   }
 }
