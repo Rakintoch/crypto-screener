@@ -15,8 +15,8 @@
       "entry_price_eur": 0.07570450838765799,
       "entry_ts": 1794398579.1752694,
       "cost_eur": 6.047342448749816,
-      "last_price_eur": 0.07397871170742108,
-      "last_score": 62.1,
+      "last_price_eur": 0.07397226003267549,
+      "last_score": 62.5,
       "missed_updates": 0,
       "entry_market_cap": 14792581,
       "entry_venue": "Upbit",
@@ -45,7 +45,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 14342568
+      "last_market_cap": 14338014
     },
     "cex_small_cap:capybobo": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.0004740050989535744,
       "entry_ts": 1794398579.1752694,
       "cost_eur": 6.047342448749816,
-      "last_price_eur": 0.00045935754916177896,
-      "last_score": 42.0,
+      "last_price_eur": 0.0004620865843233616,
+      "last_score": 50.2,
       "missed_updates": 0,
       "entry_market_cap": 18663175,
       "entry_venue": "Bithumb",
@@ -79,7 +79,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 18006891
+      "last_market_cap": 18109844
     }
   },
   "closed_trades": [
@@ -695,8 +695,8 @@
       "pnl_pct": 17.062394310185294
     }
   ],
-  "last_run_ts": 1794411624.2529466,
-  "last_eur_rate": 0.9013550010042167,
+  "last_run_ts": 1794411927.6530268,
+  "last_eur_rate": 0.9015619938411863,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
