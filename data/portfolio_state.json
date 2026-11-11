@@ -15,8 +15,8 @@
       "entry_price_eur": 0.07570450838765799,
       "entry_ts": 1794398579.1752694,
       "cost_eur": 6.047342448749816,
-      "last_price_eur": 0.0762570388308461,
-      "last_score": 70.3,
+      "last_price_eur": 0.07669635604263628,
+      "last_score": 71.9,
       "missed_updates": 0,
       "entry_market_cap": 14792581,
       "entry_venue": "Upbit",
@@ -45,7 +45,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 14782050
+      "last_market_cap": 14889101
     },
     "cex_small_cap:capybobo": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.0004740050989535744,
       "entry_ts": 1794398579.1752694,
       "cost_eur": 6.047342448749816,
-      "last_price_eur": 0.0004950532317526793,
-      "last_score": 56.2,
+      "last_price_eur": 0.0004928451528049225,
+      "last_score": 55.4,
       "missed_updates": 0,
       "entry_market_cap": 18663175,
       "entry_venue": "Bithumb",
@@ -79,7 +79,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 19403179
+      "last_market_cap": 19316218
     },
     "cex_small_cap:tradr-2x-long-sndk-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 4.127422752771163,
       "entry_ts": 1794412986.239819,
       "cost_eur": 6.055302692853383,
-      "last_price_eur": 4.110794385490699,
-      "last_score": 69.5,
+      "last_price_eur": 4.138146656742022,
+      "last_score": 69.6,
       "missed_updates": 0,
       "entry_market_cap": 8541236,
       "entry_venue": "KCEX",
@@ -113,7 +113,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 8540435
+      "last_market_cap": 8592644
     }
   },
   "closed_trades": [
@@ -769,8 +769,8 @@
       "pnl_pct": -9.465660018779296
     }
   ],
-  "last_run_ts": 1794418240.5522223,
-  "last_eur_rate": 0.9014899968181358,
+  "last_run_ts": 1794418518.9512653,
+  "last_eur_rate": 0.9015570058261486,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
