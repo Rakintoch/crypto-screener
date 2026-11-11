@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 19.750876084974422,
+  "cash_eur": 13.99616811555136,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:graniteshares-2x-long-mrvl-etf-bstocks-tokenized-stock": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 8.90426680926091,
       "entry_ts": 1794236513.573733,
       "cost_eur": 6.038056100321222,
-      "last_price_eur": 10.158973060357999,
-      "last_score": 60.0,
+      "last_price_eur": 10.265146038295235,
+      "last_score": 66.6,
       "missed_updates": 0,
       "entry_market_cap": 1167192,
       "entry_venue": "LBank",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1490127
+      "last_market_cap": 1506675
     },
     "cex_small_cap:harmony": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0016173453549696187,
       "entry_ts": 1794326717.6746166,
       "cost_eur": 5.77790451517031,
-      "last_price_eur": 0.0015386544092025288,
-      "last_score": 72.8,
+      "last_price_eur": 0.0015414917207873502,
+      "last_score": 68.5,
       "missed_updates": 0,
       "entry_market_cap": 26708793,
       "entry_venue": "Binance",
@@ -89,7 +89,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 25540053
+      "last_market_cap": 25590492
     },
     "cex_small_cap:aria-ai": {
       "tier": "cex_small_cap",
@@ -101,8 +101,8 @@
       "entry_price_eur": 0.1919310634242731,
       "entry_ts": 1794326717.6746166,
       "cost_eur": 5.77790451517031,
-      "last_price_eur": 0.19978955344169308,
-      "last_score": 69.6,
+      "last_price_eur": 0.20415996035186762,
+      "last_score": 64.4,
       "missed_updates": 0,
       "entry_market_cap": 39197347,
       "entry_venue": null,
@@ -123,7 +123,59 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 40811856
+      "last_market_cap": 41710169
+    },
+    "cex_small_cap:initia": {
+      "tier": "cex_small_cap",
+      "id": "initia",
+      "symbol": "INIT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/initia",
+      "qty": 21.708304169897424,
+      "entry_price_eur": 0.26509246988546564,
+      "entry_ts": 1794372929.636393,
+      "cost_eur": 5.754707969423062,
+      "last_price_eur": 0.26509246988546564,
+      "last_score": 99.7,
+      "missed_updates": 0,
+      "entry_market_cap": 64883001,
+      "entry_venue": "Binance",
+      "entry_contract_address": "uinit (initia)",
+      "entry_score": 99.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 138203786,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 9.421,
+      "entry_chg_24h": 62.74172,
+      "entry_chg_7d": 106.4653,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.1300461425944217,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "restructuring",
+        "security_incident"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Binance Labs-backed Initia hacked again, $3.3M lost in three weeks - Protos | Informed crypto news",
+          "ts": 1794319456.0,
+          "source": "Protos | Informed crypto news"
+        },
+        {
+          "title": "Initia halts blockchain after $615K hack; INIT token jumps 61% amid ongoing investigation - Pluang",
+          "ts": 1794311093.0,
+          "source": "Pluang"
+        },
+        {
+          "title": "Initia halts blockchain after $615K exploit as INIT price surges over 60% - Crypto News",
+          "ts": 1794310297.0,
+          "source": "Crypto News"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -536,8 +588,8 @@
       "pnl_pct": -8.382828334385
     }
   ],
-  "last_run_ts": 1794369316.7317164,
-  "last_eur_rate": 0.8958530035589065,
+  "last_run_ts": 1794372929.636393,
+  "last_eur_rate": 0.8957370015964428,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
