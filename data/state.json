@@ -229,11 +229,6 @@
     "last_score": 67.6,
     "symbol": "STANK"
   },
-  "cex_small_cap:swarms": {
-    "last_alert_ts": 1794117782.9468076,
-    "last_score": 62.3,
-    "symbol": "SWARMS"
-  },
   "cex_small_cap:wealth-coin": {
     "last_alert_ts": 1794268719.916335,
     "last_score": 77.1,
@@ -265,8 +260,8 @@
     "symbol": "CBUCKS"
   },
   "cex_small_cap:bubblemaps": {
-    "last_alert_ts": 1794333779.8778422,
-    "last_score": 64.5,
+    "last_alert_ts": 1794377767.5595732,
+    "last_score": 59.2,
     "symbol": "BMT"
   },
   "cex_small_cap:fobo": {
@@ -905,8 +900,8 @@
     "symbol": "TTWO"
   },
   "cex_small_cap:delysium": {
-    "last_alert_ts": 1794326557.1642156,
-    "last_score": 66.1,
+    "last_alert_ts": 1794377767.5595732,
+    "last_score": 59.4,
     "symbol": "AGI"
   },
   "cex_small_cap:infinite-money-glitch-3": {
@@ -1008,5 +1003,25 @@
     "last_alert_ts": 1794372928.983666,
     "last_score": 56.2,
     "symbol": "STORM"
+  },
+  "dex_micro_cap:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": {
+    "last_alert_ts": 1794377767.5595732,
+    "last_score": 84.4,
+    "symbol": "HOLD"
+  },
+  "cex_small_cap:capybobo": {
+    "last_alert_ts": 1794377767.5595732,
+    "last_score": 71.3,
+    "symbol": "PYBOBO"
+  },
+  "cex_small_cap:bluwhale": {
+    "last_alert_ts": 1794377767.5595732,
+    "last_score": 68.5,
+    "symbol": "BLUAI"
+  },
+  "dex_micro_cap:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": {
+    "last_alert_ts": 1794377767.5595732,
+    "last_score": 68.5,
+    "symbol": "NIHAO"
   }
 }
