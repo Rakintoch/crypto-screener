@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 20.72749169207591,
+  "cash_eur": 25.953969852648495,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:graniteshares-2x-long-mrvl-etf-bstocks-tokenized-stock": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 8.90426680926091,
       "entry_ts": 1794236513.573733,
       "cost_eur": 6.038056100321222,
-      "last_price_eur": 10.269157017149448,
-      "last_score": 56.9,
+      "last_price_eur": 10.2718845233735,
+      "last_score": 56.7,
       "missed_updates": 0,
       "entry_market_cap": 1167192,
       "entry_venue": "LBank",
@@ -37,59 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1509338
-    },
-    "cex_small_cap:harmony": {
-      "tier": "cex_small_cap",
-      "id": "harmony",
-      "symbol": "ONE",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/harmony",
-      "qty": 3572.461810593846,
-      "entry_price_eur": 0.0016173453549696187,
-      "entry_ts": 1794326717.6746166,
-      "cost_eur": 5.77790451517031,
-      "last_price_eur": 0.001492441858955722,
-      "last_score": 60.4,
-      "missed_updates": 0,
-      "entry_market_cap": 26708793,
-      "entry_venue": "Binance",
-      "entry_contract_address": null,
-      "entry_score": 87.6,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 66616970,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 2.9448,
-      "entry_chg_24h": 20.06776,
-      "entry_chg_7d": 60.8925,
-      "entry_chg_6h": null,
-      "entry_turnover": 2.4941961997309274,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Harmony Launch Could Change The Case For monday.com Stock - Yahoo Finance",
-          "ts": 1792738800.0,
-          "source": "Yahoo Finance"
-        },
-        {
-          "title": "monday.com (MNDY) Could Be 2% Undervalued After Harmony Launch - Yahoo Finance",
-          "ts": 1792652400.0,
-          "source": "Yahoo Finance"
-        },
-        {
-          "title": "Monday.com Launches Voice AI Agent Platform Harmony for Sales Teams - Yahoo Finance",
-          "ts": 1792393200.0,
-          "source": "Yahoo Finance"
-        }
-      ],
-      "last_market_cap": 24766501
+      "last_market_cap": 1509271
     },
     "cex_small_cap:aria-ai": {
       "tier": "cex_small_cap",
@@ -101,8 +49,8 @@
       "entry_price_eur": 0.1919310634242731,
       "entry_ts": 1794326717.6746166,
       "cost_eur": 5.77790451517031,
-      "last_price_eur": 0.2049422655391113,
-      "last_score": 75.0,
+      "last_price_eur": 0.2051401105667928,
+      "last_score": 75.2,
       "missed_updates": 0,
       "entry_market_cap": 39197347,
       "entry_venue": null,
@@ -123,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 41853637
+      "last_market_cap": 41882779
     }
   },
   "closed_trades": [
@@ -595,10 +543,68 @@
       "proceeds_eur": 6.73132357652455,
       "pnl_eur": 0.976615607101488,
       "pnl_pct": 16.970724010507844
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "harmony",
+      "symbol": "ONE",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/harmony",
+      "qty": 3572.461810593846,
+      "entry_price_eur": 0.0016173453549696187,
+      "entry_ts": 1794326717.6746166,
+      "cost_eur": 5.77790451517031,
+      "last_price_eur": 0.0014629906315790102,
+      "last_score": 54.6,
+      "missed_updates": 0,
+      "entry_market_cap": 26708793,
+      "entry_venue": "Binance",
+      "entry_contract_address": null,
+      "entry_score": 87.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 66616970,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 2.9448,
+      "entry_chg_24h": 20.06776,
+      "entry_chg_7d": 60.8925,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.4941961997309274,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Harmony Launch Could Change The Case For monday.com Stock - Yahoo Finance",
+          "ts": 1792738800.0,
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "monday.com (MNDY) Could Be 2% Undervalued After Harmony Launch - Yahoo Finance",
+          "ts": 1792652400.0,
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "Monday.com Launches Voice AI Agent Platform Harmony for Sales Teams - Yahoo Finance",
+          "ts": 1792393200.0,
+          "source": "Yahoo Finance"
+        }
+      ],
+      "last_market_cap": 24271372,
+      "exit_price_eur": 0.0014629906315790102,
+      "exit_ts": 1794382235.4566495,
+      "exit_reason": "stop-loss hit (-9.5%)",
+      "proceeds_eur": 5.226478160572586,
+      "pnl_eur": -0.5514263545977247,
+      "pnl_pct": -9.543708331453288
     }
   ],
-  "last_run_ts": 1794381917.793476,
-  "last_eur_rate": 0.8960869997512606,
+  "last_run_ts": 1794382235.4566495,
+  "last_eur_rate": 0.8963250020395722,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
