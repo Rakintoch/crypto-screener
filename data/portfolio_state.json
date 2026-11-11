@@ -15,8 +15,8 @@
       "entry_price_eur": 0.07570450838765799,
       "entry_ts": 1794398579.1752694,
       "cost_eur": 6.047342448749816,
-      "last_price_eur": 0.0748626509238587,
-      "last_score": 57.4,
+      "last_price_eur": 0.07545061023121757,
+      "last_score": 59.0,
       "missed_updates": 0,
       "entry_market_cap": 14792581,
       "entry_venue": "Upbit",
@@ -45,7 +45,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 14521737
+      "last_market_cap": 14628820
     },
     "cex_small_cap:capybobo": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.0004740050989535744,
       "entry_ts": 1794398579.1752694,
       "cost_eur": 6.047342448749816,
-      "last_price_eur": 0.0005159526042833394,
-      "last_score": 79.9,
+      "last_price_eur": 0.0005085230346368577,
+      "last_score": 79.7,
       "missed_updates": 0,
       "entry_market_cap": 18663175,
       "entry_venue": "Bithumb",
@@ -79,7 +79,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 19814941
+      "last_market_cap": 19935267
     },
     "cex_small_cap:tradr-2x-long-sndk-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -91,7 +91,7 @@
       "entry_price_eur": 4.127422752771163,
       "entry_ts": 1794412986.239819,
       "cost_eur": 6.055302692853383,
-      "last_price_eur": 4.08263078377531,
+      "last_price_eur": 4.109932539203614,
       "last_score": 84.5,
       "missed_updates": 0,
       "entry_market_cap": 8541236,
@@ -113,7 +113,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 8483575
+      "last_market_cap": 8509520
     },
     "cex_small_cap:opengradient": {
       "tier": "cex_small_cap",
@@ -125,8 +125,8 @@
       "entry_price_eur": 0.1387435861896048,
       "entry_ts": 1794412986.239819,
       "cost_eur": 6.055302692853383,
-      "last_price_eur": 0.13523601815880887,
-      "last_score": 83.7,
+      "last_price_eur": 0.1350563489626107,
+      "last_score": 84.2,
       "missed_updates": 0,
       "entry_market_cap": 36772458,
       "entry_venue": "Binance",
@@ -147,7 +147,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 35751381
+      "last_market_cap": 35828795
     }
   },
   "closed_trades": [
@@ -763,8 +763,8 @@
       "pnl_pct": 17.062394310185294
     }
   ],
-  "last_run_ts": 1794414641.3455036,
-  "last_eur_rate": 0.9012429986258963,
+  "last_run_ts": 1794414919.5029702,
+  "last_eur_rate": 0.901300995439389,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
