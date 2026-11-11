@@ -3430,5 +3430,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "ARIA (cex_small_cap) gained +22.5% in 1105 min — trailing stop caught extra upside after the target. Entry score: 74. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794408329.6592002,
+    "symbol": "MVLLB",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/graniteshares-2x-long-mrvl-etf-bstocks-tokenized-stock",
+    "held_minutes": 2863.6,
+    "exit_reason": "trailing stop hit — dropped 5.2% from the peak (peak +23.5% since entry)",
+    "pnl_pct": 17.06,
+    "pnl_eur": 1.03,
+    "entry_score": 77.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1866959,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 11.5954,
+    "entry_chg_24h": 13.9219,
+    "entry_chg_7d": -42.8038,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.599530325773309,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "MVLLB (cex_small_cap) gained +17.1% in 2864 min — trailing stop caught extra upside after the target. Entry score: 78. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
