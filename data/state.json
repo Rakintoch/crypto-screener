@@ -289,11 +289,6 @@
     "last_score": 96.9,
     "symbol": "PYR"
   },
-  "cex_small_cap:neiro-3": {
-    "last_alert_ts": 1794175377.325746,
-    "last_score": 56.4,
-    "symbol": "NEIRO"
-  },
   "cex_small_cap:cets-on-gold": {
     "last_alert_ts": 1794372928.983666,
     "last_score": 56.6,
@@ -1068,5 +1063,10 @@
     "last_alert_ts": 1794431039.0808933,
     "last_score": 83.9,
     "symbol": "FOCO"
+  },
+  "cex_small_cap:moviebloc": {
+    "last_alert_ts": 1794434594.7902775,
+    "last_score": 60.7,
+    "symbol": "MBL"
   }
 }
