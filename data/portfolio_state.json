@@ -15,8 +15,8 @@
       "entry_price_eur": 0.07570450838765799,
       "entry_ts": 1794398579.1752694,
       "cost_eur": 6.047342448749816,
-      "last_price_eur": 0.07518487947979507,
-      "last_score": 56.3,
+      "last_price_eur": 0.07541559559763,
+      "last_score": 57.2,
       "missed_updates": 0,
       "entry_market_cap": 14792581,
       "entry_venue": "Upbit",
@@ -45,7 +45,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 14579303
+      "last_market_cap": 14606362
     },
     "cex_small_cap:capybobo": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 0.0004740050989535744,
       "entry_ts": 1794398579.1752694,
       "cost_eur": 6.047342448749816,
-      "last_price_eur": 0.0004956421851525548,
-      "last_score": 71.3,
+      "last_price_eur": 0.0005089401550134589,
+      "last_score": 79.4,
       "missed_updates": 0,
       "entry_market_cap": 18663175,
       "entry_venue": "Bithumb",
@@ -79,7 +79,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 19432951
+      "last_market_cap": 20177755
     },
     "cex_small_cap:tradr-2x-long-sndk-etf-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 4.127422752771163,
       "entry_ts": 1794412986.239819,
       "cost_eur": 6.055302692853383,
-      "last_price_eur": 4.1454463748463635,
-      "last_score": 84.7,
+      "last_price_eur": 4.072962996920741,
+      "last_score": 84.4,
       "missed_updates": 0,
       "entry_market_cap": 8541236,
       "entry_venue": "KCEX",
@@ -113,7 +113,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 8583961
+      "last_market_cap": 8453731
     },
     "cex_small_cap:opengradient": {
       "tier": "cex_small_cap",
@@ -125,8 +125,8 @@
       "entry_price_eur": 0.1387435861896048,
       "entry_ts": 1794412986.239819,
       "cost_eur": 6.055302692853383,
-      "last_price_eur": 0.14438049013193166,
-      "last_score": 84.4,
+      "last_price_eur": 0.1463788659369004,
+      "last_score": 84.9,
       "missed_updates": 0,
       "entry_market_cap": 36772458,
       "entry_venue": "Binance",
@@ -147,7 +147,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 38307344
+      "last_market_cap": 38938293
     }
   },
   "closed_trades": [
@@ -763,8 +763,8 @@
       "pnl_pct": 17.062394310185294
     }
   ],
-  "last_run_ts": 1794413120.7909184,
-  "last_eur_rate": 0.9011839945318183,
+  "last_run_ts": 1794413423.3310876,
+  "last_eur_rate": 0.9010980081683055,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
