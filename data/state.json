@@ -180,8 +180,8 @@
     "symbol": "SKYAI"
   },
   "cex_small_cap:cyberleek": {
-    "last_alert_ts": 1794348162.1286786,
-    "last_score": 88.3,
+    "last_alert_ts": 1794506634.1661537,
+    "last_score": 55.4,
     "symbol": "CYBERLEEK"
   },
   "cex_small_cap:gains-network": {
@@ -208,11 +208,6 @@
     "last_alert_ts": 1794372928.983666,
     "last_score": 56.6,
     "symbol": "CETS"
-  },
-  "dex_micro_cap:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
-    "last_alert_ts": 1794247404.8179903,
-    "last_score": 60.3,
-    "symbol": "BTC"
   },
   "cex_small_cap:redteam": {
     "last_alert_ts": 1794261807.3510518,
@@ -285,8 +280,8 @@
     "symbol": "VRTON"
   },
   "cex_small_cap:dell-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794412985.7180877,
-    "last_score": 71.8,
+    "last_alert_ts": 1794506634.1661537,
+    "last_score": 57.9,
     "symbol": "DELLB"
   },
   "cex_small_cap:south-korea-bull-3x-etf-bstocks-tokenized-stock": {
@@ -795,13 +790,13 @@
     "symbol": "FOCO"
   },
   "cex_small_cap:moviebloc": {
-    "last_alert_ts": 1794434594.7902775,
-    "last_score": 60.7,
+    "last_alert_ts": 1794506634.1661537,
+    "last_score": 55.6,
     "symbol": "MBL"
   },
   "cex_small_cap:soqucoin": {
-    "last_alert_ts": 1794451312.35195,
-    "last_score": 80.1,
+    "last_alert_ts": 1794506634.1661537,
+    "last_score": 57.8,
     "symbol": "SOQ"
   },
   "dex_micro_cap:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
@@ -898,5 +893,30 @@
     "last_alert_ts": 1794499416.5490763,
     "last_score": 56.2,
     "symbol": "TQQQB"
+  },
+  "cex_small_cap:lombard-protocol": {
+    "last_alert_ts": 1794506634.1661537,
+    "last_score": 88.6,
+    "symbol": "BARD"
+  },
+  "cex_small_cap:dodo": {
+    "last_alert_ts": 1794506634.1661537,
+    "last_score": 86.0,
+    "symbol": "DODO"
+  },
+  "cex_small_cap:chop-3": {
+    "last_alert_ts": 1794506634.1661537,
+    "last_score": 67.5,
+    "symbol": "CHOP"
+  },
+  "cex_small_cap:paid": {
+    "last_alert_ts": 1794506634.1661537,
+    "last_score": 58.8,
+    "symbol": "PAID"
+  },
+  "cex_small_cap:tessera-kalshi-tokenized-share": {
+    "last_alert_ts": 1794506634.1661537,
+    "last_score": 58.2,
+    "symbol": "TKALSHI"
   }
 }
