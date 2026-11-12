@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 32.31340557629526,
+  "cash_eur": 20.672433713219704,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:caldera": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.07570450838765799,
       "entry_ts": 1794398579.1752694,
       "cost_eur": 6.047342448749816,
-      "last_price_eur": 0.08069607470105632,
-      "last_score": 78.0,
+      "last_price_eur": 0.08124390080022306,
+      "last_score": 73.7,
       "missed_updates": 0,
       "entry_market_cap": 14792581,
       "entry_venue": "Upbit",
@@ -45,7 +45,91 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 15645329
+      "last_market_cap": 15754145
+    },
+    "cex_small_cap:trump-media-technology-group-cord-bstocks-tokenized-stock": {
+      "tier": "cex_small_cap",
+      "id": "trump-media-technology-group-cord-bstocks-tokenized-stock",
+      "symbol": "DJTB",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/trump-media-technology-group-cord-bstocks-tokenized-stock",
+      "qty": 1.2565527458519044,
+      "entry_price_eur": 4.632106332784037,
+      "entry_ts": 1794448980.0404077,
+      "cost_eur": 5.820485931537777,
+      "last_price_eur": 4.632106332784037,
+      "last_score": 66.4,
+      "missed_updates": 0,
+      "entry_market_cap": 1042626,
+      "entry_venue": "LBank",
+      "entry_contract_address": null,
+      "entry_score": 66.4,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 1373535,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": -0.3279,
+      "entry_chg_24h": 18.84653,
+      "entry_chg_7d": 12.8711,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.3173803453971031,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
+    },
+    "cex_small_cap:ritual": {
+      "tier": "cex_small_cap",
+      "id": "ritual",
+      "symbol": "RITUAL",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/ritual",
+      "qty": 164.26365767988418,
+      "entry_price_eur": 0.03543380205791288,
+      "entry_ts": 1794448980.0404077,
+      "cost_eur": 5.820485931537777,
+      "last_price_eur": 0.03543380205791288,
+      "last_score": 66.0,
+      "missed_updates": 0,
+      "entry_market_cap": 70624726,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 66.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 11711496,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 5.1257,
+      "entry_chg_24h": 8.12513,
+      "entry_chg_7d": 56.9368,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.16582713538598365,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Ritual launches AI Layer 1 and RITUAL token after $30M raise - Dealroom",
+          "ts": 1793179848.0,
+          "source": "Dealroom"
+        },
+        {
+          "title": "Ritual Launches Blockchain for Autonomous AI Agents - Cryptonews.net",
+          "ts": 1793084400.0,
+          "source": "Cryptonews.net"
+        },
+        {
+          "title": "Ritual Mainnet Launches: RITUAL Tokenomics, Supply, and Airdrop Details - KuCoin",
+          "ts": 1793084400.0,
+          "source": "KuCoin"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -781,8 +865,8 @@
       "pnl_pct": -10.990877465363289
     }
   ],
-  "last_run_ts": 1794448528.802889,
-  "last_eur_rate": 0.9013299977779103,
+  "last_run_ts": 1794448980.0404077,
+  "last_eur_rate": 0.9011880024871668,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
