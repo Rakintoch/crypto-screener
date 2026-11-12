@@ -15,7 +15,7 @@
       "entry_price_eur": 4.632106332784037,
       "entry_ts": 1794448980.0404077,
       "cost_eur": 5.820485931537777,
-      "last_price_eur": 4.676646695425908,
+      "last_price_eur": 4.684872414837226,
       "last_score": 65.4,
       "missed_updates": 0,
       "entry_market_cap": 1042626,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1056107
+      "last_market_cap": 1058579
     },
     "cex_small_cap:soqucoin": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.00022038168677797527,
       "entry_ts": 1794463379.9174118,
       "cost_eur": 5.995229510771755,
-      "last_price_eur": 0.00022485749833845494,
+      "last_price_eur": 0.0002246666604015306,
       "last_score": 66.9,
       "missed_updates": 0,
       "entry_market_cap": 1144536,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1175032
+      "last_market_cap": 1175834
     }
   },
   "closed_trades": [
@@ -917,8 +917,8 @@
       "pnl_pct": 13.749560184808152
     }
   ],
-  "last_run_ts": 1794480023.96002,
-  "last_eur_rate": 0.9010879952651074,
+  "last_run_ts": 1794480326.9348304,
+  "last_eur_rate": 0.9009370028533127,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
