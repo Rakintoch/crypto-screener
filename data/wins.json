@@ -3456,5 +3456,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "MVLLB (cex_small_cap) gained +17.1% in 2864 min — trailing stop caught extra upside after the target. Entry score: 78. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794460821.7739446,
+    "symbol": "RITUAL",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/ritual",
+    "held_minutes": 197.4,
+    "exit_reason": "trailing stop hit — dropped 5.8% from the peak (peak +22.0% since entry)",
+    "pnl_pct": 14.91,
+    "pnl_eur": 0.87,
+    "entry_score": 66.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 11711496,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 5.1257,
+    "entry_chg_24h": 8.12513,
+    "entry_chg_7d": 56.9368,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.16582713538598365,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "RITUAL (cex_small_cap) gained +14.9% in 197 min — trailing stop caught extra upside after the target. Entry score: 66. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]

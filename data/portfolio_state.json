@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 20.672433713219704,
+  "cash_eur": 27.360619265591048,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:caldera": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.07570450838765799,
       "entry_ts": 1794398579.1752694,
       "cost_eur": 6.047342448749816,
-      "last_price_eur": 0.08335057515236032,
-      "last_score": 89.1,
+      "last_price_eur": 0.08299617018015697,
+      "last_score": 88.1,
       "missed_updates": 0,
       "entry_market_cap": 14792581,
       "entry_venue": "Upbit",
@@ -45,7 +45,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 16137485
+      "last_market_cap": 16063316
     },
     "cex_small_cap:trump-media-technology-group-cord-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 4.632106332784037,
       "entry_ts": 1794448980.0404077,
       "cost_eur": 5.820485931537777,
-      "last_price_eur": 4.648338444920794,
-      "last_score": 68.3,
+      "last_price_eur": 4.647648356778066,
+      "last_score": 68.5,
       "missed_updates": 0,
       "entry_market_cap": 1042626,
       "entry_venue": "LBank",
@@ -79,61 +79,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1047728
-    },
-    "cex_small_cap:ritual": {
-      "tier": "cex_small_cap",
-      "id": "ritual",
-      "symbol": "RITUAL",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/ritual",
-      "qty": 164.26365767988418,
-      "entry_price_eur": 0.03543380205791288,
-      "entry_ts": 1794448980.0404077,
-      "cost_eur": 5.820485931537777,
-      "last_price_eur": 0.043221821367454935,
-      "last_score": 79.9,
-      "missed_updates": 0,
-      "entry_market_cap": 70624726,
-      "entry_venue": null,
-      "entry_contract_address": null,
-      "entry_score": 66.0,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 11711496,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 5.1257,
-      "entry_chg_24h": 8.12513,
-      "entry_chg_7d": 56.9368,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.16582713538598365,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Ritual launches AI Layer 1 and RITUAL token after $30M raise - Dealroom",
-          "ts": 1793179848.0,
-          "source": "Dealroom"
-        },
-        {
-          "title": "Ritual Launches Blockchain for Autonomous AI Agents - Cryptonews.net",
-          "ts": 1793084400.0,
-          "source": "Cryptonews.net"
-        },
-        {
-          "title": "Ritual Mainnet Launches: RITUAL Tokenomics, Supply, and Airdrop Details - KuCoin",
-          "ts": 1793084400.0,
-          "source": "KuCoin"
-        }
-      ],
-      "last_market_cap": 86195585,
-      "trailing_active": true,
-      "trailing_peak_eur": 0.043221821367454935
+      "last_market_cap": 1048917
     }
   },
   "closed_trades": [
@@ -867,10 +813,70 @@
       "proceeds_eur": 5.382686450296824,
       "pnl_eur": -0.6646559984529921,
       "pnl_pct": -10.990877465363289
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "ritual",
+      "symbol": "RITUAL",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/ritual",
+      "qty": 164.26365767988418,
+      "entry_price_eur": 0.03543380205791288,
+      "entry_ts": 1794448980.0404077,
+      "cost_eur": 5.820485931537777,
+      "last_price_eur": 0.04071616112071018,
+      "last_score": 78.0,
+      "missed_updates": 0,
+      "entry_market_cap": 70624726,
+      "entry_venue": null,
+      "entry_contract_address": null,
+      "entry_score": 66.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 11711496,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 5.1257,
+      "entry_chg_24h": 8.12513,
+      "entry_chg_7d": 56.9368,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.16582713538598365,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Ritual launches AI Layer 1 and RITUAL token after $30M raise - Dealroom",
+          "ts": 1793179848.0,
+          "source": "Dealroom"
+        },
+        {
+          "title": "Ritual Launches Blockchain for Autonomous AI Agents - Cryptonews.net",
+          "ts": 1793084400.0,
+          "source": "Cryptonews.net"
+        },
+        {
+          "title": "Ritual Mainnet Launches: RITUAL Tokenomics, Supply, and Airdrop Details - KuCoin",
+          "ts": 1793084400.0,
+          "source": "KuCoin"
+        }
+      ],
+      "last_market_cap": 81248075,
+      "trailing_active": true,
+      "trailing_peak_eur": 0.043221821367454935,
+      "exit_price_eur": 0.04071616112071018,
+      "exit_ts": 1794460821.7739446,
+      "exit_reason": "trailing stop hit — dropped 5.8% from the peak (peak +22.0% since entry)",
+      "proceeds_eur": 6.688185552371346,
+      "pnl_eur": 0.8676996208335686,
+      "pnl_pct": 14.90768349996375
     }
   ],
-  "last_run_ts": 1794460526.2949567,
-  "last_eur_rate": 0.9025899893050086,
+  "last_run_ts": 1794460821.7739446,
+  "last_eur_rate": 0.9024559916073914,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
