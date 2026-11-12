@@ -25,8 +25,8 @@
     "symbol": "IDOL"
   },
   "cex_small_cap:regent-coin": {
-    "last_alert_ts": 1794290582.2674632,
-    "last_score": 57.2,
+    "last_alert_ts": 1794470589.3440287,
+    "last_score": 55.1,
     "symbol": "REGENT"
   },
   "cex_small_cap:aria-ai": {
@@ -104,11 +104,6 @@
     "last_score": 74.3,
     "symbol": "ON"
   },
-  "cex_small_cap:zeus-network": {
-    "last_alert_ts": 1794204203.507187,
-    "last_score": 58.4,
-    "symbol": "ZEUS"
-  },
   "cex_small_cap:cyberconnect": {
     "last_alert_ts": 1794372928.983666,
     "last_score": 58.3,
@@ -129,14 +124,9 @@
     "last_score": 68.3,
     "symbol": "UP"
   },
-  "cex_small_cap:zhong-guo-ren-neng-fei": {
-    "last_alert_ts": 1794211375.614174,
-    "last_score": 58.4,
-    "symbol": "中国人能飞"
-  },
   "cex_small_cap:harmony": {
-    "last_alert_ts": 1794372928.983666,
-    "last_score": 73.1,
+    "last_alert_ts": 1794470589.3440287,
+    "last_score": 67.2,
     "symbol": "ONE"
   },
   "cex_small_cap:trusta-ai": {
@@ -158,11 +148,6 @@
     "last_alert_ts": 1794240160.7801075,
     "last_score": 62.1,
     "symbol": "RKLBON"
-  },
-  "cex_small_cap:jotchua": {
-    "last_alert_ts": 1794211375.614174,
-    "last_score": 56.7,
-    "symbol": "JOTCHUA"
   },
   "cex_small_cap:forever-2": {
     "last_alert_ts": 1794240160.7801075,
@@ -239,11 +224,6 @@
     "last_score": 72.8,
     "symbol": "GAINS"
   },
-  "cex_small_cap:ben-pasternak": {
-    "last_alert_ts": 1794211375.614174,
-    "last_score": 73.5,
-    "symbol": "BELIEVE"
-  },
   "cex_small_cap:ampleforth-governance-token": {
     "last_alert_ts": 1794372928.983666,
     "last_score": 72.7,
@@ -298,11 +278,6 @@
     "last_alert_ts": 1794348162.1286786,
     "last_score": 77.0,
     "symbol": "GANG"
-  },
-  "cex_small_cap:avalon-2": {
-    "last_alert_ts": 1794211375.614174,
-    "last_score": 57.5,
-    "symbol": "AVL"
   },
   "cex_small_cap:hana-network": {
     "last_alert_ts": 1794355360.5477114,
@@ -990,8 +965,8 @@
     "symbol": "NVDA"
   },
   "cex_small_cap:kgen": {
-    "last_alert_ts": 1794420203.2670925,
-    "last_score": 71.6,
+    "last_alert_ts": 1794470589.3440287,
+    "last_score": 96.5,
     "symbol": "KGEN"
   },
   "cex_small_cap:nesa": {
@@ -1033,5 +1008,20 @@
     "last_alert_ts": 1794463379.3754091,
     "last_score": 65.5,
     "symbol": "PRL"
+  },
+  "dex_micro_cap:0x8db304c71e2d12a178ea6cf9b459cbdf80d24570": {
+    "last_alert_ts": 1794470589.3440287,
+    "last_score": 75.6,
+    "symbol": "GROKIA"
+  },
+  "cex_small_cap:seppuku": {
+    "last_alert_ts": 1794470589.3440287,
+    "last_score": 62.1,
+    "symbol": "SEPPUKU"
+  },
+  "cex_small_cap:taiko": {
+    "last_alert_ts": 1794470589.3440287,
+    "last_score": 56.1,
+    "symbol": "TAIKO"
   }
 }
