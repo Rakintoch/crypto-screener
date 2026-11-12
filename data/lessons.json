@@ -13465,5 +13465,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "PYBOBO (cex_small_cap) lost -11.0% in 692 min (slow (>6h)) — stop-loss hit. Entry score: 75 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794499825.9987476,
+    "symbol": "RITUAL",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/ritual",
+    "held_minutes": 241.7,
+    "exit_reason": "momentum thesis invalidated (score dropped to 29)",
+    "pnl_pct": -0.38,
+    "pnl_eur": -0.02,
+    "entry_score": 81.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 12649763,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 16.205,
+    "entry_chg_24h": 40.85373,
+    "entry_chg_7d": 98.5144,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.15297520952191654,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "RITUAL (cex_small_cap) lost -0.4% in 242 min (fast (1-6h)) — momentum thesis invalidated (score dropped). Entry score: 82 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
