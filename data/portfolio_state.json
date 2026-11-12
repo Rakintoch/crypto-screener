@@ -15,8 +15,8 @@
       "entry_price_eur": 0.07570450838765799,
       "entry_ts": 1794398579.1752694,
       "cost_eur": 6.047342448749816,
-      "last_price_eur": 0.08549874553339849,
-      "last_score": 61.2,
+      "last_price_eur": 0.08583349402747951,
+      "last_score": 62.3,
       "missed_updates": 0,
       "entry_market_cap": 14792581,
       "entry_venue": "Upbit",
@@ -45,7 +45,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 16563287
+      "last_market_cap": 16620384
     },
     "cex_small_cap:trump-media-technology-group-cord-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -57,7 +57,7 @@
       "entry_price_eur": 4.632106332784037,
       "entry_ts": 1794448980.0404077,
       "cost_eur": 5.820485931537777,
-      "last_price_eur": 4.647308511055783,
+      "last_price_eur": 4.638721459601559,
       "last_score": 66.2,
       "missed_updates": 0,
       "entry_market_cap": 1042626,
@@ -79,7 +79,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1047530
+      "last_market_cap": 1047525
     },
     "cex_small_cap:soqucoin": {
       "tier": "cex_small_cap",
@@ -91,7 +91,7 @@
       "entry_price_eur": 0.00022038168677797527,
       "entry_ts": 1794463379.9174118,
       "cost_eur": 5.995229510771755,
-      "last_price_eur": 0.00022089604862550387,
+      "last_price_eur": 0.0002209349028258867,
       "last_score": 75.9,
       "missed_updates": 0,
       "entry_market_cap": 1144536,
@@ -113,7 +113,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1147030
+      "last_market_cap": 1147334
     }
   },
   "closed_trades": [
@@ -909,8 +909,8 @@
       "pnl_pct": 14.90768349996375
     }
   ],
-  "last_run_ts": 1794463517.9955852,
-  "last_eur_rate": 0.9023900021467539,
+  "last_run_ts": 1794463822.1820693,
+  "last_eur_rate": 0.9024749921403812,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
