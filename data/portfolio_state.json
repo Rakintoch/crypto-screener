@@ -15,8 +15,8 @@
       "entry_price_eur": 4.632106332784037,
       "entry_ts": 1794448980.0404077,
       "cost_eur": 5.820485931537777,
-      "last_price_eur": 4.765369536920115,
-      "last_score": 66.4,
+      "last_price_eur": 4.711241480940389,
+      "last_score": 77.9,
       "missed_updates": 0,
       "entry_market_cap": 1042626,
       "entry_venue": "LBank",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1078677
+      "last_market_cap": 1064194
     },
     "cex_small_cap:soqucoin": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.00022038168677797527,
       "entry_ts": 1794463379.9174118,
       "cost_eur": 5.995229510771755,
-      "last_price_eur": 0.0002373856673665763,
-      "last_score": 68.8,
+      "last_price_eur": 0.00024099396432045547,
+      "last_score": 80.6,
       "missed_updates": 0,
       "entry_market_cap": 1144536,
       "entry_venue": "Nonkyc.io",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1246314
+      "last_market_cap": 1260652
     }
   },
   "closed_trades": [
@@ -917,8 +917,8 @@
       "pnl_pct": 13.749560184808152
     }
   ],
-  "last_run_ts": 1794480921.0646186,
-  "last_eur_rate": 0.9008259994177911,
+  "last_run_ts": 1794481251.0145538,
+  "last_eur_rate": 0.9008109906195771,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
