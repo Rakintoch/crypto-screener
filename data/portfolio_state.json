@@ -15,8 +15,8 @@
       "entry_price_eur": 0.07570450838765799,
       "entry_ts": 1794398579.1752694,
       "cost_eur": 6.047342448749816,
-      "last_price_eur": 0.08398950607989789,
-      "last_score": 62.6,
+      "last_price_eur": 0.08410931000307431,
+      "last_score": 62.5,
       "missed_updates": 0,
       "entry_market_cap": 14792581,
       "entry_venue": "Upbit",
@@ -45,7 +45,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 16360338
+      "last_market_cap": 16311713
     },
     "cex_small_cap:trump-media-technology-group-cord-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -57,7 +57,7 @@
       "entry_price_eur": 4.632106332784037,
       "entry_ts": 1794448980.0404077,
       "cost_eur": 5.820485931537777,
-      "last_price_eur": 4.658009386961373,
+      "last_price_eur": 4.648369352862369,
       "last_score": 66.4,
       "missed_updates": 0,
       "entry_market_cap": 1042626,
@@ -79,7 +79,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1049462
+      "last_market_cap": 1050003
     },
     "cex_small_cap:soqucoin": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.00022038168677797527,
       "entry_ts": 1794463379.9174118,
       "cost_eur": 5.995229510771755,
-      "last_price_eur": 0.0002176987487906211,
-      "last_score": 75.0,
+      "last_price_eur": 0.00021810329522828402,
+      "last_score": 75.1,
       "missed_updates": 0,
       "entry_market_cap": 1144536,
       "entry_venue": "Nonkyc.io",
@@ -113,7 +113,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1130618
+      "last_market_cap": 1132836
     }
   },
   "closed_trades": [
@@ -909,8 +909,8 @@
       "pnl_pct": 14.90768349996375
     }
   ],
-  "last_run_ts": 1794464716.874805,
-  "last_eur_rate": 0.9027149974731343,
+  "last_run_ts": 1794465036.6996095,
+  "last_eur_rate": 0.9025959908470619,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
