@@ -222,6 +222,6 @@
     "mudanca": "No code change made this review. Both overshoot metrics (stop-loss ~9.2%, trailing-stop ~6.7% excluding the already-explained PYR outlier) are within the same post-fix range measured in the last three reviews -- no regression to justify tightening or loosening either trigger further. The rotation/momentum-decay exits continue cutting fading theses before the stop-loss, as designed. No new entry-signal test was run this review -- recent reviews already exhausted entry_score/chg_1h/chg_24h/chg_7d/turnover/volume correlations across 359+ cex_small_cap trades (all |r| <= 0.11) -- and with cycle #6 being 100% cex_small_cap and only 1 new Pump Watch trade closed since the last entry, there was no new dex_micro_cap or Pump Watch data to test. The cumulative-drawdown-gate proposal from the 2026-11-05 review is restated here, unchanged, since it still requires Ricardo's decision.",
     "efeito_esperado": "No behavior change expected from this review. The next review should keep tracking whether the dex_micro_cap drought is simply low candidate flow (if trades resume, compare win rate and stop-loss overshoot against pre-drought cycles) or, if it persists much longer with literally zero candidates passing any gate, worth investigating as a bug. It should also keep tracking whether inception-level cumulative drawdown keeps worsening past -95.64%, which would raise the urgency of the standing cumulative-drawdown-gate proposal.",
     "num_trades_fechados_ate_aqui": 661,
-    "announced": false
+    "announced": true
   }
 ]
