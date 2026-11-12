@@ -15,8 +15,8 @@
       "entry_price_eur": 0.07570450838765799,
       "entry_ts": 1794398579.1752694,
       "cost_eur": 6.047342448749816,
-      "last_price_eur": 0.08107357035656397,
-      "last_score": 54.6,
+      "last_price_eur": 0.08220083287577301,
+      "last_score": 57.1,
       "missed_updates": 0,
       "entry_market_cap": 14792581,
       "entry_venue": "Upbit",
@@ -45,7 +45,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 15691650
+      "last_market_cap": 15907065
     },
     "cex_small_cap:trump-media-technology-group-cord-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 4.632106332784037,
       "entry_ts": 1794448980.0404077,
       "cost_eur": 5.820485931537777,
-      "last_price_eur": 4.667858552741642,
-      "last_score": 66.4,
+      "last_price_eur": 4.677685045222395,
+      "last_score": 66.6,
       "missed_updates": 0,
       "entry_market_cap": 1042626,
       "entry_venue": "LBank",
@@ -79,7 +79,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1053625
+      "last_market_cap": 1054983
     },
     "cex_small_cap:ritual": {
       "tier": "cex_small_cap",
@@ -91,8 +91,8 @@
       "entry_price_eur": 0.03543380205791288,
       "entry_ts": 1794448980.0404077,
       "cost_eur": 5.820485931537777,
-      "last_price_eur": 0.03904553528741026,
-      "last_score": 75.5,
+      "last_price_eur": 0.03952645669268926,
+      "last_score": 73.5,
       "missed_updates": 0,
       "entry_market_cap": 70624726,
       "entry_venue": null,
@@ -131,7 +131,7 @@
           "source": "KuCoin"
         }
       ],
-      "last_market_cap": 77842486
+      "last_market_cap": 78787827
     }
   },
   "closed_trades": [
@@ -867,8 +867,8 @@
       "pnl_pct": -10.990877465363289
     }
   ],
-  "last_run_ts": 1794456624.26417,
-  "last_eur_rate": 0.9028739947275902,
+  "last_run_ts": 1794456925.250615,
+  "last_eur_rate": 0.9030280010081844,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
