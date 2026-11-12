@@ -3482,5 +3482,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "RITUAL (cex_small_cap) gained +14.9% in 197 min — trailing stop caught extra upside after the target. Entry score: 66. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794478824.3898702,
+    "symbol": "ERA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/caldera",
+    "held_minutes": 1337.4,
+    "exit_reason": "trailing stop hit — dropped 6.8% from the peak (peak +22.1% since entry)",
+    "pnl_pct": 13.75,
+    "pnl_eur": 0.83,
+    "entry_score": 85.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 42402170,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.1077,
+    "entry_chg_24h": 12.85979,
+    "entry_chg_7d": 34.2577,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.866448390581738,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "ERA (cex_small_cap) gained +13.7% in 1337 min — trailing stop caught extra upside after the target. Entry score: 85. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
