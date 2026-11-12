@@ -3508,5 +3508,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "ERA (cex_small_cap) gained +13.7% in 1337 min — trailing stop caught extra upside after the target. Entry score: 85. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794501040.1019235,
+    "symbol": "SOQ",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/soqucoin",
+    "held_minutes": 627.7,
+    "exit_reason": "trailing stop hit — dropped 7.5% from the peak (peak +26.1% since entry)",
+    "pnl_pct": 16.6,
+    "pnl_eur": 0.99,
+    "entry_score": 75.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 228422,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 7.5615,
+    "entry_chg_24h": 21.82413,
+    "entry_chg_7d": 24.3114,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.19957607274913153,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "SOQ (cex_small_cap) gained +16.6% in 628 min — trailing stop caught extra upside after the target. Entry score: 76. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
