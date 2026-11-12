@@ -15,8 +15,8 @@
       "entry_price_eur": 4.632106332784037,
       "entry_ts": 1794448980.0404077,
       "cost_eur": 5.820485931537777,
-      "last_price_eur": 4.680315999752608,
-      "last_score": 56.6,
+      "last_price_eur": 4.644475970724172,
+      "last_score": 57.0,
       "missed_updates": 0,
       "entry_market_cap": 1042626,
       "entry_venue": "LBank",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1082256
+      "last_market_cap": 1075999
     },
     "cex_small_cap:soqucoin": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.00022038168677797527,
       "entry_ts": 1794463379.9174118,
       "cost_eur": 5.995229510771755,
-      "last_price_eur": 0.0002590406109689666,
+      "last_price_eur": 0.0002598742127619179,
       "last_score": 72.8,
       "missed_updates": 0,
       "entry_market_cap": 1144536,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1359082
+      "last_market_cap": 1364981
     },
     "cex_small_cap:ritual": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.04141038425006081,
       "entry_ts": 1794485321.6266294,
       "cost_eur": 6.131821795848412,
-      "last_price_eur": 0.04204922145476388,
+      "last_price_eur": 0.04277623694156575,
       "last_score": 52.1,
       "missed_updates": 0,
       "entry_market_cap": 82691588,
@@ -118,7 +118,7 @@
           "source": "CryptoPotato"
         }
       ],
-      "last_market_cap": 83911467
+      "last_market_cap": 85377923
     }
   },
   "closed_trades": [
@@ -964,8 +964,8 @@
       "pnl_pct": 13.749560184808152
     }
   ],
-  "last_run_ts": 1794494425.8388994,
-  "last_eur_rate": 0.9017949903184216,
+  "last_run_ts": 1794494729.21745,
+  "last_eur_rate": 0.9018399943153731,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
