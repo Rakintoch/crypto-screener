@@ -15,8 +15,8 @@
       "entry_price_eur": 4.632106332784037,
       "entry_ts": 1794448980.0404077,
       "cost_eur": 5.820485931537777,
-      "last_price_eur": 4.610884475902373,
-      "last_score": 55.4,
+      "last_price_eur": 4.620114468454873,
+      "last_score": 56.1,
       "missed_updates": 0,
       "entry_market_cap": 1042626,
       "entry_venue": "LBank",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1064762
+      "last_market_cap": 1065053
     },
     "cex_small_cap:soqucoin": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.00022038168677797527,
       "entry_ts": 1794463379.9174118,
       "cost_eur": 5.995229510771755,
-      "last_price_eur": 0.00027420297111694725,
+      "last_price_eur": 0.0002700009361476866,
       "last_score": 61.5,
       "missed_updates": 0,
       "entry_market_cap": 1144536,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1437732,
+      "last_market_cap": 1414912,
       "trailing_active": true,
       "trailing_peak_eur": 0.00027619595338142553
     },
@@ -85,8 +85,8 @@
       "entry_price_eur": 0.04141038425006081,
       "entry_ts": 1794485321.6266294,
       "cost_eur": 6.131821795848412,
-      "last_price_eur": 0.041403292496166116,
-      "last_score": 38.9,
+      "last_price_eur": 0.04073315331859334,
+      "last_score": 30.8,
       "missed_updates": 0,
       "entry_market_cap": 82691588,
       "entry_venue": "KuCoin",
@@ -120,7 +120,7 @@
           "source": "CryptoPotato"
         }
       ],
-      "last_market_cap": 83057597
+      "last_market_cap": 81461799
     }
   },
   "closed_trades": [
@@ -966,8 +966,8 @@
       "pnl_pct": 13.749560184808152
     }
   ],
-  "last_run_ts": 1794497720.4846463,
-  "last_eur_rate": 0.9040949952749752,
+  "last_run_ts": 1794498025.2413292,
+  "last_eur_rate": 0.9041319899128909,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
