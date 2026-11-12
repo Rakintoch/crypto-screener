@@ -50,8 +50,8 @@
     "symbol": "SPCX"
   },
   "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794441808.2985728,
-    "last_score": 55.4,
+    "last_alert_ts": 1794492203.3972704,
+    "last_score": 55.3,
     "symbol": "SOXSB"
   },
   "cex_small_cap:act-i-the-ai-prophecy": {
@@ -435,8 +435,8 @@
     "symbol": "RSNDK"
   },
   "cex_small_cap:advanced-micro-devices-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794420203.2670925,
-    "last_score": 59.1,
+    "last_alert_ts": 1794492203.3972704,
+    "last_score": 60.2,
     "symbol": "AMDB"
   },
   "cex_small_cap:yee-token": {
@@ -1028,5 +1028,20 @@
     "last_alert_ts": 1794485321.2279334,
     "last_score": 80.1,
     "symbol": "MEIMEI"
+  },
+  "cex_small_cap:ni-hao-cat": {
+    "last_alert_ts": 1794492203.3972704,
+    "last_score": 78.6,
+    "symbol": "MIHAO"
+  },
+  "cex_small_cap:magma-finance": {
+    "last_alert_ts": 1794492203.3972704,
+    "last_score": 72.8,
+    "symbol": "MAGMA"
+  },
+  "cex_small_cap:paris-saint-germain-fan-token": {
+    "last_alert_ts": 1794492203.3972704,
+    "last_score": 62.3,
+    "symbol": "PSG"
   }
 }
