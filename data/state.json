@@ -25,8 +25,8 @@
     "symbol": "REGENT"
   },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1794427459.7080083,
-    "last_score": 81.1,
+    "last_alert_ts": 1794513782.3403177,
+    "last_score": 68.8,
     "symbol": "ARIA"
   },
   "cex_small_cap:float": {
@@ -390,8 +390,8 @@
     "symbol": "TTWO"
   },
   "cex_small_cap:amd-ondo-tokenized-stock": {
-    "last_alert_ts": 1794372928.983666,
-    "last_score": 59.6,
+    "last_alert_ts": 1794513782.3403177,
+    "last_score": 65.5,
     "symbol": "AMDON"
   },
   "cex_small_cap:sportstensor": {
@@ -545,8 +545,8 @@
     "symbol": "KET"
   },
   "cex_small_cap:green-morning": {
-    "last_alert_ts": 1794348162.1286786,
-    "last_score": 73.3,
+    "last_alert_ts": 1794513782.3403177,
+    "last_score": 58.4,
     "symbol": "GM"
   },
   "dex_micro_cap:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": {
@@ -800,8 +800,8 @@
     "symbol": "SOQ"
   },
   "dex_micro_cap:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
-    "last_alert_ts": 1794463379.3754091,
-    "last_score": 66.8,
+    "last_alert_ts": 1794513782.3403177,
+    "last_score": 80.0,
     "symbol": "Max"
   },
   "cex_small_cap:perle": {
@@ -918,5 +918,30 @@
     "last_alert_ts": 1794506634.1661537,
     "last_score": 58.2,
     "symbol": "TKALSHI"
+  },
+  "cex_small_cap:amd-robinhood-tokenized-stock": {
+    "last_alert_ts": 1794513782.3403177,
+    "last_score": 66.7,
+    "symbol": "AMD"
+  },
+  "cex_small_cap:supra": {
+    "last_alert_ts": 1794513782.3403177,
+    "last_score": 63.3,
+    "symbol": "SUPRA"
+  },
+  "cex_small_cap:jotchua": {
+    "last_alert_ts": 1794513782.3403177,
+    "last_score": 57.7,
+    "symbol": "JOTCHUA"
+  },
+  "cex_small_cap:ancient8": {
+    "last_alert_ts": 1794513782.3403177,
+    "last_score": 56.4,
+    "symbol": "A8"
+  },
+  "cex_small_cap:inter-milan-fan-token": {
+    "last_alert_ts": 1794513782.3403177,
+    "last_score": 55.4,
+    "symbol": "INTER"
   }
 }
