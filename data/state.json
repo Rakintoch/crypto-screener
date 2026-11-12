@@ -575,8 +575,8 @@
     "symbol": "CRWVON"
   },
   "cex_small_cap:nebius-rstock": {
-    "last_alert_ts": 1794412985.7180877,
-    "last_score": 64.8,
+    "last_alert_ts": 1794477796.0757747,
+    "last_score": 66.5,
     "symbol": "RNBIS"
   },
   "cex_small_cap:artificial-inu-3": {
@@ -605,8 +605,8 @@
     "symbol": "SKHYON"
   },
   "cex_small_cap:nebius-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794412985.7180877,
-    "last_score": 68.4,
+    "last_alert_ts": 1794477796.0757747,
+    "last_score": 65.3,
     "symbol": "NBISB"
   },
   "cex_small_cap:super-inu-2": {
@@ -690,8 +690,8 @@
     "symbol": "SOPH"
   },
   "cex_small_cap:audacity": {
-    "last_alert_ts": 1794427459.7080083,
-    "last_score": 99.6,
+    "last_alert_ts": 1794477796.0757747,
+    "last_score": 70.4,
     "symbol": "DACITYCOIN"
   },
   "cex_small_cap:securitize-bstocks-tokenized-stock": {
@@ -1023,5 +1023,20 @@
     "last_alert_ts": 1794470589.3440287,
     "last_score": 56.1,
     "symbol": "TAIKO"
+  },
+  "dex_micro_cap:0x3441e8fcdd380c4e7f5c7f55ccd599b2a2afcccc": {
+    "last_alert_ts": 1794477796.0757747,
+    "last_score": 82.8,
+    "symbol": "REVVY"
+  },
+  "cex_small_cap:akedo": {
+    "last_alert_ts": 1794477796.0757747,
+    "last_score": 67.4,
+    "symbol": "AKE"
+  },
+  "cex_small_cap:huma-finance": {
+    "last_alert_ts": 1794477796.0757747,
+    "last_score": 62.5,
+    "symbol": "HUMA"
   }
 }
