@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 27.360619265591048,
+  "cash_eur": 21.365389754819294,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:caldera": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.07570450838765799,
       "entry_ts": 1794398579.1752694,
       "cost_eur": 6.047342448749816,
-      "last_price_eur": 0.08410711972516022,
-      "last_score": 82.3,
+      "last_price_eur": 0.08486797509661378,
+      "last_score": 62.1,
       "missed_updates": 0,
       "entry_market_cap": 14792581,
       "entry_venue": "Upbit",
@@ -45,7 +45,7 @@
           "source": "Yahoo Finance"
         }
       ],
-      "last_market_cap": 16285621
+      "last_market_cap": 16434839
     },
     "cex_small_cap:trump-media-technology-group-cord-bstocks-tokenized-stock": {
       "tier": "cex_small_cap",
@@ -57,8 +57,8 @@
       "entry_price_eur": 4.632106332784037,
       "entry_ts": 1794448980.0404077,
       "cost_eur": 5.820485931537777,
-      "last_price_eur": 4.647849288415297,
-      "last_score": 68.0,
+      "last_price_eur": 4.638284620583051,
+      "last_score": 66.1,
       "missed_updates": 0,
       "entry_market_cap": 1042626,
       "entry_venue": "LBank",
@@ -79,7 +79,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1048851
+      "last_market_cap": 1047535
+    },
+    "cex_small_cap:soqucoin": {
+      "tier": "cex_small_cap",
+      "id": "soqucoin",
+      "symbol": "SOQ",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/soqucoin",
+      "qty": 27203.846192590772,
+      "entry_price_eur": 0.00022038168677797527,
+      "entry_ts": 1794463379.9174118,
+      "cost_eur": 5.995229510771755,
+      "last_price_eur": 0.00022038168677797527,
+      "last_score": 75.8,
+      "missed_updates": 0,
+      "entry_market_cap": 1144536,
+      "entry_venue": "Nonkyc.io",
+      "entry_contract_address": null,
+      "entry_score": 75.8,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 228422,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 7.5615,
+      "entry_chg_24h": 21.82413,
+      "entry_chg_7d": 24.3114,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.19957607274913153,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -875,8 +908,8 @@
       "pnl_pct": 14.90768349996375
     }
   ],
-  "last_run_ts": 1794462920.2328517,
-  "last_eur_rate": 0.9024950074592809,
+  "last_run_ts": 1794463379.9174118,
+  "last_eur_rate": 0.9023900040044848,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,

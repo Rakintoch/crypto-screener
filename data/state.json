@@ -115,8 +115,8 @@
     "symbol": "CYBER"
   },
   "cex_small_cap:caldera": {
-    "last_alert_ts": 1794420203.2670925,
-    "last_score": 66.7,
+    "last_alert_ts": 1794463379.3754091,
+    "last_score": 84.3,
     "symbol": "ERA"
   },
   "cex_small_cap:dacity-coin-4": {
@@ -238,11 +238,6 @@
     "last_alert_ts": 1794391403.397695,
     "last_score": 72.8,
     "symbol": "GAINS"
-  },
-  "cex_small_cap:okzoo": {
-    "last_alert_ts": 1794198229.7241693,
-    "last_score": 78.0,
-    "symbol": "AIOT"
   },
   "cex_small_cap:ben-pasternak": {
     "last_alert_ts": 1794211375.614174,
@@ -880,8 +875,8 @@
     "symbol": "DacityCoin"
   },
   "cex_small_cap:trump-media-technology-group-corp-common-stock-backpack-securities": {
-    "last_alert_ts": 1794412985.7180877,
-    "last_score": 81.7,
+    "last_alert_ts": 1794463379.3754091,
+    "last_score": 64.6,
     "symbol": "DJT"
   },
   "cex_small_cap:status": {
@@ -920,18 +915,18 @@
     "symbol": "MIHAO"
   },
   "cex_small_cap:opengradient": {
-    "last_alert_ts": 1794412985.7180877,
-    "last_score": 84.6,
+    "last_alert_ts": 1794463379.3754091,
+    "last_score": 60.2,
     "symbol": "OPG"
   },
   "cex_small_cap:trump-media-technology-group-cord-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794412985.7180877,
-    "last_score": 81.8,
+    "last_alert_ts": 1794463379.3754091,
+    "last_score": 66.1,
     "symbol": "DJTB"
   },
   "cex_small_cap:ritual": {
-    "last_alert_ts": 1794412985.7180877,
-    "last_score": 80.0,
+    "last_alert_ts": 1794463379.3754091,
+    "last_score": 78.0,
     "symbol": "RITUAL"
   },
   "cex_small_cap:cat-wif-sword-2": {
@@ -1028,5 +1023,15 @@
     "last_alert_ts": 1794451312.35195,
     "last_score": 80.1,
     "symbol": "SOQ"
+  },
+  "dex_micro_cap:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
+    "last_alert_ts": 1794463379.3754091,
+    "last_score": 66.8,
+    "symbol": "Max"
+  },
+  "cex_small_cap:perle": {
+    "last_alert_ts": 1794463379.3754091,
+    "last_score": 65.5,
+    "symbol": "PRL"
   }
 }
