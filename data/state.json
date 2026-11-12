@@ -110,8 +110,8 @@
     "symbol": "UP"
   },
   "cex_small_cap:harmony": {
-    "last_alert_ts": 1794470589.3440287,
-    "last_score": 67.2,
+    "last_alert_ts": 1794518340.305569,
+    "last_score": 59.1,
     "symbol": "ONE"
   },
   "cex_small_cap:trusta-ai": {
@@ -213,16 +213,6 @@
     "last_alert_ts": 1794261807.3510518,
     "last_score": 59.2,
     "symbol": "SN61"
-  },
-  "dex_micro_cap:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": {
-    "last_alert_ts": 1794254602.3815527,
-    "last_score": 56.0,
-    "symbol": "PUSSY"
-  },
-  "cex_small_cap:anonymous-cat": {
-    "last_alert_ts": 1794254602.3815527,
-    "last_score": 67.0,
-    "symbol": "ZCAT"
   },
   "cex_small_cap:super-inu-3": {
     "last_alert_ts": 1794319403.214555,
@@ -354,20 +344,10 @@
     "last_score": 55.5,
     "symbol": "RWA"
   },
-  "cex_small_cap:cysic": {
-    "last_alert_ts": 1794254602.3815527,
-    "last_score": 64.1,
-    "symbol": "CYS"
-  },
   "cex_small_cap:usa-rare-earth-bstocks-tokenized-stock": {
     "last_alert_ts": 1794412985.7180877,
     "last_score": 76.4,
     "symbol": "USARB"
-  },
-  "cex_small_cap:meta-platforms-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794254602.3815527,
-    "last_score": 55.7,
-    "symbol": "METAB"
   },
   "cex_small_cap:coreweave-ondo-tokenized": {
     "last_alert_ts": 1794405804.3659353,
@@ -465,8 +445,8 @@
     "symbol": "XDP"
   },
   "cex_small_cap:pocket-network": {
-    "last_alert_ts": 1794348162.1286786,
-    "last_score": 57.6,
+    "last_alert_ts": 1794518340.305569,
+    "last_score": 59.5,
     "symbol": "POKT"
   },
   "cex_small_cap:unifai-network": {
@@ -815,8 +795,8 @@
     "symbol": "GROKIA"
   },
   "cex_small_cap:seppuku": {
-    "last_alert_ts": 1794470589.3440287,
-    "last_score": 62.1,
+    "last_alert_ts": 1794518340.305569,
+    "last_score": 62.7,
     "symbol": "SEPPUKU"
   },
   "cex_small_cap:taiko": {
@@ -925,8 +905,8 @@
     "symbol": "AMD"
   },
   "cex_small_cap:supra": {
-    "last_alert_ts": 1794513782.3403177,
-    "last_score": 63.3,
+    "last_alert_ts": 1794518340.305569,
+    "last_score": 79.6,
     "symbol": "SUPRA"
   },
   "cex_small_cap:jotchua": {
@@ -943,5 +923,10 @@
     "last_alert_ts": 1794513782.3403177,
     "last_score": 55.4,
     "symbol": "INTER"
+  },
+  "cex_small_cap:lmao": {
+    "last_alert_ts": 1794518340.305569,
+    "last_score": 77.9,
+    "symbol": "LMAO!"
   }
 }
