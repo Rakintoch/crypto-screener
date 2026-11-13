@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 24.024499717143048,
+  "cash_eur": 29.469077301705155,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:trump-media-technology-group-cord-bstocks-tokenized-stock": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 4.632106332784037,
       "entry_ts": 1794448980.0404077,
       "cost_eur": 5.820485931537777,
-      "last_price_eur": 4.341167978912324,
-      "last_score": 41.7,
+      "last_price_eur": 4.386538834042668,
+      "last_score": 41.9,
       "missed_updates": 0,
       "entry_market_cap": 1042626,
       "entry_venue": "LBank",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1010944
+      "last_market_cap": 1020347
     },
     "cex_small_cap:dodo": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.02516853004351338,
       "entry_ts": 1794506634.7361357,
       "cost_eur": 6.163731761239876,
-      "last_price_eur": 0.025386933282280328,
-      "last_score": 69.4,
+      "last_price_eur": 0.02520332465810545,
+      "last_score": 69.0,
       "missed_updates": 0,
       "entry_market_cap": 27795546,
       "entry_venue": "Binance",
@@ -71,59 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 28078331
-    },
-    "cex_small_cap:nullmask": {
-      "tier": "cex_small_cap",
-      "id": "nullmask",
-      "symbol": "MASK",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/nullmask",
-      "qty": 296.9156953922517,
-      "entry_price_eur": 0.020916025339217364,
-      "entry_ts": 1794564183.4721375,
-      "cost_eur": 6.21029620843568,
-      "last_price_eur": 0.020156422778288077,
-      "last_score": 55.0,
-      "missed_updates": 0,
-      "entry_market_cap": 13262102,
-      "entry_venue": "LBank",
-      "entry_contract_address": null,
-      "entry_score": 77.5,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 2554186,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 25.2665,
-      "entry_chg_24h": 135.74729,
-      "entry_chg_7d": 18.2235,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.19259284840366933,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "NullMask Launches Privacy Protocol on Arbitrum for Private Crypto Transfers - Cryptonews.net",
-          "ts": 1794251976.0,
-          "source": "Cryptonews.net"
-        },
-        {
-          "title": "Arbitrum Launches Private Transactions Feature with NullMask - Coinfomania",
-          "ts": 1794204950.0,
-          "source": "Coinfomania"
-        },
-        {
-          "title": "NullMask Launches Programmable Privacy Features on Arbitrum - Coinfomania",
-          "ts": 1794172463.0,
-          "source": "Coinfomania"
-        }
-      ],
-      "last_market_cap": 12702735
+      "last_market_cap": 27866193
     }
   },
   "closed_trades": [
@@ -1199,10 +1147,68 @@
       "proceeds_eur": 7.072512136042836,
       "pnl_eur": 0.8622159276071564,
       "pnl_pct": 13.883652223157664
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "nullmask",
+      "symbol": "MASK",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/nullmask",
+      "qty": 296.9156953922517,
+      "entry_price_eur": 0.020916025339217364,
+      "entry_ts": 1794564183.4721375,
+      "cost_eur": 6.21029620843568,
+      "last_price_eur": 0.018337116121023317,
+      "last_score": 54.8,
+      "missed_updates": 0,
+      "entry_market_cap": 13262102,
+      "entry_venue": "LBank",
+      "entry_contract_address": null,
+      "entry_score": 77.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 2554186,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 25.2665,
+      "entry_chg_24h": 135.74729,
+      "entry_chg_7d": 18.2235,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.19259284840366933,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "NullMask Launches Privacy Protocol on Arbitrum for Private Crypto Transfers - Cryptonews.net",
+          "ts": 1794251976.0,
+          "source": "Cryptonews.net"
+        },
+        {
+          "title": "Arbitrum Launches Private Transactions Feature with NullMask - Coinfomania",
+          "ts": 1794204950.0,
+          "source": "Coinfomania"
+        },
+        {
+          "title": "NullMask Launches Programmable Privacy Features on Arbitrum - Coinfomania",
+          "ts": 1794172463.0,
+          "source": "Coinfomania"
+        }
+      ],
+      "last_market_cap": 11583428,
+      "exit_price_eur": 0.018337116121023317,
+      "exit_ts": 1794582628.6582959,
+      "exit_reason": "stop-loss hit (-12.3%)",
+      "proceeds_eur": 5.444577584562107,
+      "pnl_eur": -0.7657186238735729,
+      "pnl_pct": -12.329824507138136
     }
   ],
-  "last_run_ts": 1794582319.1870434,
-  "last_eur_rate": 0.9044099956067343,
+  "last_run_ts": 1794582628.6582959,
+  "last_eur_rate": 0.9044409967098284,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
