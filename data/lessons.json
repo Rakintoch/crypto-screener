@@ -13546,5 +13546,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "MASK (cex_small_cap) lost -12.3% in 307 min (fast (1-6h)) — stop-loss hit. Entry score: 78 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794583844.685692,
+    "symbol": "DJTB",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/trump-media-technology-group-cord-bstocks-tokenized-stock",
+    "held_minutes": 2247.7,
+    "exit_reason": "stop-loss hit (-8.4%)",
+    "pnl_pct": -8.35,
+    "pnl_eur": -0.49,
+    "entry_score": 66.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1373535,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": -0.3279,
+    "entry_chg_24h": 18.84653,
+    "entry_chg_7d": 12.8711,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.3173803453971031,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "DJTB (cex_small_cap) lost -8.4% in 2248 min (slow (>6h)) — stop-loss hit. Entry score: 66 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
