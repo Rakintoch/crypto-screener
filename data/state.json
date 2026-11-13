@@ -9,11 +9,6 @@
     "last_score": 59.9,
     "symbol": "PARTI"
   },
-  "cex_small_cap:infinity-ground": {
-    "last_alert_ts": 1794304979.9368036,
-    "last_score": 82.8,
-    "symbol": "AIN"
-  },
   "cex_small_cap:meet48": {
     "last_alert_ts": 1794499416.5490763,
     "last_score": 73.3,
@@ -119,11 +114,6 @@
     "last_score": 76.6,
     "symbol": "INTWB"
   },
-  "cex_small_cap:degen-base": {
-    "last_alert_ts": 1794304979.9368036,
-    "last_score": 72.0,
-    "symbol": "DEGEN"
-  },
   "dex_micro_cap:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
     "last_alert_ts": 1794312207.924599,
     "last_score": 67.6,
@@ -135,8 +125,8 @@
     "symbol": "CBUCKS"
   },
   "cex_small_cap:bubblemaps": {
-    "last_alert_ts": 1794377767.5595732,
-    "last_score": 59.2,
+    "last_alert_ts": 1794564183.007409,
+    "last_score": 62.6,
     "symbol": "BMT"
   },
   "cex_small_cap:fobo": {
@@ -359,14 +349,9 @@
     "last_score": 59.3,
     "symbol": "AICoin"
   },
-  "cex_small_cap:block-street": {
-    "last_alert_ts": 1794304979.9368036,
-    "last_score": 56.4,
-    "symbol": "BSB"
-  },
   "cex_small_cap:sophon": {
-    "last_alert_ts": 1794549805.329827,
-    "last_score": 69.5,
+    "last_alert_ts": 1794564183.007409,
+    "last_score": 87.5,
     "symbol": "SOPH"
   },
   "cex_small_cap:audacity": {
@@ -530,8 +515,8 @@
     "symbol": "DacityCoin"
   },
   "cex_small_cap:trump-media-technology-group-corp-common-stock-backpack-securities": {
-    "last_alert_ts": 1794463379.3754091,
-    "last_score": 64.6,
+    "last_alert_ts": 1794564183.007409,
+    "last_score": 55.2,
     "symbol": "DJT"
   },
   "cex_small_cap:status": {
@@ -780,8 +765,8 @@
     "symbol": "BARD"
   },
   "cex_small_cap:dodo": {
-    "last_alert_ts": 1794557008.1431077,
-    "last_score": 67.9,
+    "last_alert_ts": 1794564183.007409,
+    "last_score": 92.8,
     "symbol": "DODO"
   },
   "cex_small_cap:chop-3": {
@@ -825,13 +810,13 @@
     "symbol": "INTER"
   },
   "cex_small_cap:lmao": {
-    "last_alert_ts": 1794518340.305569,
-    "last_score": 77.9,
+    "last_alert_ts": 1794564183.007409,
+    "last_score": 60.7,
     "symbol": "LMAO!"
   },
   "cex_small_cap:cerebras-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794520949.990662,
-    "last_score": 86.5,
+    "last_alert_ts": 1794564183.007409,
+    "last_score": 63.0,
     "symbol": "CBRSB"
   },
   "cex_small_cap:zcash-shielded-assets": {
@@ -883,5 +868,10 @@
     "last_alert_ts": 1794557008.1431077,
     "last_score": 58.5,
     "symbol": "牛来"
+  },
+  "cex_small_cap:hamster-kombat": {
+    "last_alert_ts": 1794564183.007409,
+    "last_score": 58.1,
+    "symbol": "HMSTR"
   }
 }
