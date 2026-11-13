@@ -10,8 +10,8 @@
     "symbol": "PARTI"
   },
   "cex_small_cap:meet48": {
-    "last_alert_ts": 1794499416.5490763,
-    "last_score": 73.3,
+    "last_alert_ts": 1794600248.4142582,
+    "last_score": 64.5,
     "symbol": "IDOL"
   },
   "cex_small_cap:regent-coin": {
@@ -44,11 +44,6 @@
     "last_score": 79.2,
     "symbol": "SOXSB"
   },
-  "cex_small_cap:act-i-the-ai-prophecy": {
-    "last_alert_ts": 1794340987.7494068,
-    "last_score": 73.1,
-    "symbol": "ACT"
-  },
   "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
     "last_alert_ts": 1794596974.83051,
     "last_score": 59.1,
@@ -80,8 +75,8 @@
     "symbol": "ERA"
   },
   "cex_small_cap:unitas": {
-    "last_alert_ts": 1794592999.0193996,
-    "last_score": 59.1,
+    "last_alert_ts": 1794600248.4142582,
+    "last_score": 79.8,
     "symbol": "UP"
   },
   "cex_small_cap:harmony": {
@@ -140,8 +135,8 @@
     "symbol": "ALLINU"
   },
   "cex_small_cap:cets-on-gold": {
-    "last_alert_ts": 1794372928.983666,
-    "last_score": 56.6,
+    "last_alert_ts": 1794600248.4142582,
+    "last_score": 70.6,
     "symbol": "CETS"
   },
   "cex_small_cap:bsquared-network": {
@@ -158,11 +153,6 @@
     "last_alert_ts": 1794520949.990662,
     "last_score": 67.7,
     "symbol": "HANA"
-  },
-  "cex_small_cap:merlin-chain": {
-    "last_alert_ts": 1794340987.7494068,
-    "last_score": 68.5,
-    "symbol": "MERL"
   },
   "cex_small_cap:wasted": {
     "last_alert_ts": 1794528188.5100443,
@@ -289,11 +279,6 @@
     "last_score": 65.3,
     "symbol": "NBISB"
   },
-  "cex_small_cap:polyswarm": {
-    "last_alert_ts": 1794340987.7494068,
-    "last_score": 89.7,
-    "symbol": "NCT"
-  },
   "cex_small_cap:benqi": {
     "last_alert_ts": 1794362599.159771,
     "last_score": 79.0,
@@ -333,11 +318,6 @@
     "last_alert_ts": 1794398578.6203442,
     "last_score": 67.1,
     "symbol": "V4"
-  },
-  "cex_small_cap:gt-protocol": {
-    "last_alert_ts": 1794340987.7494068,
-    "last_score": 79.3,
-    "symbol": "GTAI"
   },
   "dex_micro_cap:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
     "last_alert_ts": 1794585811.0864832,
@@ -705,8 +685,8 @@
     "symbol": "TQQQB"
   },
   "cex_small_cap:lombard-protocol": {
-    "last_alert_ts": 1794557008.1431077,
-    "last_score": 89.1,
+    "last_alert_ts": 1794600248.4142582,
+    "last_score": 61.5,
     "symbol": "BARD"
   },
   "cex_small_cap:dodo": {
@@ -805,13 +785,13 @@
     "symbol": "MONTRA"
   },
   "cex_small_cap:sanctum-2": {
-    "last_alert_ts": 1794557008.1431077,
-    "last_score": 65.3,
+    "last_alert_ts": 1794600248.4142582,
+    "last_score": 78.0,
     "symbol": "SANC"
   },
   "cex_small_cap:niu-lai": {
-    "last_alert_ts": 1794557008.1431077,
-    "last_score": 58.5,
+    "last_alert_ts": 1794600248.4142582,
+    "last_score": 64.3,
     "symbol": "牛来"
   },
   "cex_small_cap:hamster-kombat": {
@@ -935,8 +915,13 @@
     "symbol": "ARX"
   },
   "cex_small_cap:gunz": {
-    "last_alert_ts": 1794596974.83051,
-    "last_score": 60.4,
+    "last_alert_ts": 1794600248.4142582,
+    "last_score": 83.0,
     "symbol": "GUN"
+  },
+  "dex_micro_cap:0x90d0a55e3428b003885263ea5295125aea257777": {
+    "last_alert_ts": 1794600248.4142582,
+    "last_score": 71.4,
+    "symbol": "比特币"
   }
 }
