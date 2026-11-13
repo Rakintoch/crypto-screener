@@ -15,8 +15,8 @@
       "entry_price_eur": 0.02516853004351338,
       "entry_ts": 1794506634.7361357,
       "cost_eur": 6.163731761239876,
-      "last_price_eur": 0.0264621258052045,
-      "last_score": 59.4,
+      "last_price_eur": 0.02644180781535666,
+      "last_score": 59.3,
       "missed_updates": 0,
       "entry_market_cap": 27795546,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 29171552
+      "last_market_cap": 29145650
     },
     "cex_small_cap:zeus-network": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.006295330757905747,
       "entry_ts": 1794596975.4294236,
       "cost_eur": 6.173538409667182,
-      "last_price_eur": 0.005818519060130471,
-      "last_score": 67.9,
+      "last_price_eur": 0.005802978703714375,
+      "last_score": 67.7,
       "missed_updates": 0,
       "entry_market_cap": 6465834,
       "entry_venue": null,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 5974247
+      "last_market_cap": 5957576
     }
   },
   "closed_trades": [
@@ -1289,8 +1289,8 @@
       "pnl_pct": 18.57609943232491
     }
   ],
-  "last_run_ts": 1794602425.8155916,
-  "last_eur_rate": 0.9071210067755913,
+  "last_run_ts": 1794602729.5600207,
+  "last_eur_rate": 0.9072299919664396,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
