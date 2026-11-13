@@ -13492,5 +13492,32 @@
     "categoria": "momentum thesis invalidated (score dropped)",
     "velocidade_queda": "fast (1-6h)",
     "licao": "RITUAL (cex_small_cap) lost -0.4% in 242 min (fast (1-6h)) — momentum thesis invalidated (score dropped). Entry score: 82 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794540919.9653444,
+    "symbol": "SUPRA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/supra",
+    "held_minutes": 376.3,
+    "exit_reason": "stop-loss hit (-8.3%)",
+    "pnl_pct": -8.27,
+    "pnl_eur": -0.51,
+    "entry_score": 79.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1308267,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.6111,
+    "entry_chg_24h": 30.27716,
+    "entry_chg_7d": 60.0552,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.16220974349309633,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "SUPRA (cex_small_cap) lost -8.3% in 376 min (slow (>6h)) — stop-loss hit. Entry score: 80 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
