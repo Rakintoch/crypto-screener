@@ -25,8 +25,8 @@
     "symbol": "REGENT"
   },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1794513782.3403177,
-    "last_score": 68.8,
+    "last_alert_ts": 1794557008.1431077,
+    "last_score": 85.6,
     "symbol": "ARIA"
   },
   "cex_small_cap:float": {
@@ -53,11 +53,6 @@
     "last_alert_ts": 1794340987.7494068,
     "last_score": 73.1,
     "symbol": "ACT"
-  },
-  "cex_small_cap:olaxbt": {
-    "last_alert_ts": 1794297779.0730913,
-    "last_score": 75.6,
-    "symbol": "AIO"
   },
   "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
     "last_alert_ts": 1794549805.329827,
@@ -225,8 +220,8 @@
     "symbol": "COHRON"
   },
   "cex_small_cap:vertiv-ondo-tokenized": {
-    "last_alert_ts": 1794499416.5490763,
-    "last_score": 62.6,
+    "last_alert_ts": 1794557008.1431077,
+    "last_score": 56.0,
     "symbol": "VRTON"
   },
   "cex_small_cap:dell-bstocks-tokenized-stock": {
@@ -270,8 +265,8 @@
     "symbol": "SNDKB"
   },
   "cex_small_cap:tradr-2x-long-sndk-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794499416.5490763,
-    "last_score": 58.6,
+    "last_alert_ts": 1794557008.1431077,
+    "last_score": 57.5,
     "symbol": "SNXXB"
   },
   "cex_small_cap:hodl-7": {
@@ -349,19 +344,14 @@
     "last_score": 79.0,
     "symbol": "QI"
   },
-  "cex_small_cap:doppler-finance": {
-    "last_alert_ts": 1794297779.0730913,
-    "last_score": 56.2,
-    "symbol": "XDP"
-  },
   "cex_small_cap:pocket-network": {
     "last_alert_ts": 1794518340.305569,
     "last_score": 59.5,
     "symbol": "POKT"
   },
   "cex_small_cap:unifai-network": {
-    "last_alert_ts": 1794355360.5477114,
-    "last_score": 68.9,
+    "last_alert_ts": 1794557008.1431077,
+    "last_score": 57.5,
     "symbol": "UAI"
   },
   "dex_micro_cap:B9FgqHbtccsgcL6YPfUhNd81qveNtrTbsfLvcjxtpump": {
@@ -720,8 +710,8 @@
     "symbol": "REVVY"
   },
   "cex_small_cap:akedo": {
-    "last_alert_ts": 1794477796.0757747,
-    "last_score": 67.4,
+    "last_alert_ts": 1794557008.1431077,
+    "last_score": 85.9,
     "symbol": "AKE"
   },
   "cex_small_cap:huma-finance": {
@@ -785,13 +775,13 @@
     "symbol": "TQQQB"
   },
   "cex_small_cap:lombard-protocol": {
-    "last_alert_ts": 1794506634.1661537,
-    "last_score": 88.6,
+    "last_alert_ts": 1794557008.1431077,
+    "last_score": 89.1,
     "symbol": "BARD"
   },
   "cex_small_cap:dodo": {
-    "last_alert_ts": 1794506634.1661537,
-    "last_score": 86.0,
+    "last_alert_ts": 1794557008.1431077,
+    "last_score": 67.9,
     "symbol": "DODO"
   },
   "cex_small_cap:chop-3": {
@@ -878,5 +868,20 @@
     "last_alert_ts": 1794549805.329827,
     "last_score": 60.2,
     "symbol": "XMN"
+  },
+  "cex_small_cap:montra": {
+    "last_alert_ts": 1794557008.1431077,
+    "last_score": 67.5,
+    "symbol": "MONTRA"
+  },
+  "cex_small_cap:sanctum-2": {
+    "last_alert_ts": 1794557008.1431077,
+    "last_score": 65.3,
+    "symbol": "SANC"
+  },
+  "cex_small_cap:niu-lai": {
+    "last_alert_ts": 1794557008.1431077,
+    "last_score": 58.5,
+    "symbol": "牛来"
   }
 }
