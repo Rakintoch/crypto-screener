@@ -15,8 +15,8 @@
       "entry_price_eur": 4.632106332784037,
       "entry_ts": 1794448980.0404077,
       "cost_eur": 5.820485931537777,
-      "last_price_eur": 4.462808506839772,
-      "last_score": 49.8,
+      "last_price_eur": 4.480759797034564,
+      "last_score": 43.8,
       "missed_updates": 0,
       "entry_market_cap": 1042626,
       "entry_venue": "LBank",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1038873
+      "last_market_cap": 1039967
     },
     "cex_small_cap:dodo": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.02516853004351338,
       "entry_ts": 1794506634.7361357,
       "cost_eur": 6.163731761239876,
-      "last_price_eur": 0.02665610174555641,
-      "last_score": 77.7,
+      "last_price_eur": 0.02664690652420466,
+      "last_score": 82.0,
       "missed_updates": 0,
       "entry_market_cap": 27795546,
       "entry_venue": "Binance",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 29446606
+      "last_market_cap": 29454449
     },
     "cex_small_cap:sophon": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.0014342114070217556,
       "entry_ts": 1794564183.4721375,
       "cost_eur": 6.21029620843568,
-      "last_price_eur": 0.0014961180794309057,
-      "last_score": 84.4,
+      "last_price_eur": 0.001529061543748043,
+      "last_score": 75.1,
       "missed_updates": 0,
       "entry_market_cap": 8245218,
       "entry_venue": "Upbit",
@@ -118,7 +118,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 8591613
+      "last_market_cap": 8764904
     },
     "cex_small_cap:nullmask": {
       "tier": "cex_small_cap",
@@ -130,8 +130,8 @@
       "entry_price_eur": 0.020916025339217364,
       "entry_ts": 1794564183.4721375,
       "cost_eur": 6.21029620843568,
-      "last_price_eur": 0.022858767690180772,
-      "last_score": 48.4,
+      "last_price_eur": 0.022913655137835384,
+      "last_score": 82.0,
       "missed_updates": 0,
       "entry_market_cap": 13262102,
       "entry_venue": "LBank",
@@ -170,7 +170,7 @@
           "source": "Coinfomania"
         }
       ],
-      "last_market_cap": 14427067
+      "last_market_cap": 14462288
     }
   },
   "closed_trades": [
@@ -1193,8 +1193,8 @@
       "pnl_pct": 13.604263518463672
     }
   ],
-  "last_run_ts": 1794574518.9062662,
-  "last_eur_rate": 0.9052349912453899,
+  "last_run_ts": 1794574859.168858,
+  "last_eur_rate": 0.9052039994009219,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
