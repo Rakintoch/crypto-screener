@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 32.36005045570879,
+  "cash_eur": 26.648811252198445,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:bless-2": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.00835584028287285,
       "entry_ts": 1794657777.0957701,
       "cost_eur": 5.884057742180559,
-      "last_price_eur": 0.008080484066639323,
-      "last_score": 37.1,
+      "last_price_eur": 0.008115590683194607,
+      "last_score": 37.5,
       "missed_updates": 0,
       "entry_market_cap": 16820146,
       "entry_venue": null,
@@ -37,7 +37,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 16404737
+      "last_market_cap": 16476004
+    },
+    "cex_small_cap:evaa-protocol": {
+      "tier": "cex_small_cap",
+      "id": "evaa-protocol",
+      "symbol": "EVAA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/evaa-protocol",
+      "qty": 3.421632972915775,
+      "entry_price_eur": 1.6691559991144982,
+      "entry_ts": 1794673356.5087037,
+      "cost_eur": 5.711239203510341,
+      "last_price_eur": 1.6691559991144982,
+      "last_score": 69.3,
+      "missed_updates": 0,
+      "entry_market_cap": 12167322,
+      "entry_venue": "Gate",
+      "entry_contract_address": null,
+      "entry_score": 69.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 18660506,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": -3.817,
+      "entry_chg_24h": 68.2676,
+      "entry_chg_7d": 36.0597,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.533657611757131,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -1693,8 +1726,8 @@
       "pnl_pct": -8.362942423689768
     }
   ],
-  "last_run_ts": 1794672927.254057,
-  "last_eur_rate": 0.9071500094458435,
+  "last_run_ts": 1794673356.5087037,
+  "last_eur_rate": 0.907149999518749,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
