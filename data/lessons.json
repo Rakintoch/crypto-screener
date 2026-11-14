@@ -13627,5 +13627,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "BARD (cex_small_cap) lost -8.7% in 137 min (fast (1-6h)) — stop-loss hit. Entry score: 85 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794619838.272664,
+    "symbol": "SN47",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/for-sale",
+    "held_minutes": 50.8,
+    "exit_reason": "stop-loss hit (-30.3%)",
+    "pnl_pct": -30.26,
+    "pnl_eur": -1.87,
+    "entry_score": 93.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 19362142,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.7392,
+    "entry_chg_24h": 2807.5088,
+    "entry_chg_7d": 1987.275,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.5423424953424179,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "SN47 (cex_small_cap) lost -30.3% in 51 min (very fast (<1h)) — stop-loss hit. Entry score: 94 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
