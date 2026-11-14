@@ -90,8 +90,8 @@
     "symbol": "HANA"
   },
   "cex_small_cap:wasted": {
-    "last_alert_ts": 1794528188.5100443,
-    "last_score": 71.3,
+    "last_alert_ts": 1794693449.1783116,
+    "last_score": 88.6,
     "symbol": "WASTED"
   },
   "cex_small_cap:graniteshares-2x-long-mrvl-etf-bstocks-tokenized-stock": {
@@ -114,11 +114,6 @@
     "last_score": 64.5,
     "symbol": "KORUB"
   },
-  "cex_small_cap:axe-compute-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794431039.0808933,
-    "last_score": 59.6,
-    "symbol": "AGPUB"
-  },
   "cex_small_cap:sandisk-bstocks-tokenized-stock": {
     "last_alert_ts": 1794456182.7561345,
     "last_score": 55.2,
@@ -134,11 +129,6 @@
     "last_score": 60.2,
     "symbol": "AMDB"
   },
-  "cex_small_cap:bloom-energy-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794431039.0808933,
-    "last_score": 55.9,
-    "symbol": "BEB"
-  },
   "cex_small_cap:initia": {
     "last_alert_ts": 1794592999.0193996,
     "last_score": 63.1,
@@ -148,11 +138,6 @@
     "last_alert_ts": 1794477796.0757747,
     "last_score": 66.5,
     "symbol": "RNBIS"
-  },
-  "cex_small_cap:artificial-inu-3": {
-    "last_alert_ts": 1794431039.0808933,
-    "last_score": 65.6,
-    "symbol": "AI"
   },
   "cex_small_cap:amd-ondo-tokenized-stock": {
     "last_alert_ts": 1794513782.3403177,
@@ -198,21 +183,6 @@
     "last_alert_ts": 1794578617.2787163,
     "last_score": 77.9,
     "symbol": "mihao"
-  },
-  "cex_small_cap:coreweave-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794431039.0808933,
-    "last_score": 70.8,
-    "symbol": "CRWVB"
-  },
-  "cex_small_cap:metaplex": {
-    "last_alert_ts": 1794431039.0808933,
-    "last_score": 70.2,
-    "symbol": "MPLX"
-  },
-  "cex_small_cap:capybobo": {
-    "last_alert_ts": 1794431039.0808933,
-    "last_score": 59.2,
-    "symbol": "PYBOBO"
   },
   "cex_small_cap:bluwhale": {
     "last_alert_ts": 1794456182.7561345,
@@ -278,21 +248,6 @@
     "last_alert_ts": 1794570645.5063255,
     "last_score": 89.7,
     "symbol": "KGEN"
-  },
-  "dex_micro_cap:0x2914b239a5d5f2f14bc8dd4635a47370a7759b44": {
-    "last_alert_ts": 1794427459.7080083,
-    "last_score": 74.2,
-    "symbol": "AudaCity"
-  },
-  "cex_small_cap:burnie-senders": {
-    "last_alert_ts": 1794427459.7080083,
-    "last_score": 69.9,
-    "symbol": "BURNIE"
-  },
-  "cex_small_cap:foco-2": {
-    "last_alert_ts": 1794431039.0808933,
-    "last_score": 83.9,
-    "symbol": "FOCO"
   },
   "cex_small_cap:moviebloc": {
     "last_alert_ts": 1794506634.1661537,
@@ -485,8 +440,8 @@
     "symbol": "BIRB"
   },
   "cex_small_cap:neosoul": {
-    "last_alert_ts": 1794549805.329827,
-    "last_score": 72.1,
+    "last_alert_ts": 1794693449.1783116,
+    "last_score": 55.1,
     "symbol": "DNA"
   },
   "cex_small_cap:xmoney-2": {
@@ -723,5 +678,10 @@
     "last_alert_ts": 1794686568.2858076,
     "last_score": 85.9,
     "symbol": "BOB"
+  },
+  "dex_micro_cap:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
+    "last_alert_ts": 1794693449.1783116,
+    "last_score": 59.5,
+    "symbol": "WASTED"
   }
 }
