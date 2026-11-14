@@ -3638,5 +3638,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "TAC (cex_small_cap) gained +7.4% in 317 min — trailing stop caught extra upside after the target. Entry score: 72. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794645125.7711642,
+    "symbol": "DODO",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/dodo",
+    "held_minutes": 2308.2,
+    "exit_reason": "trailing stop hit — dropped 5.5% from the peak (peak +27.1% since entry)",
+    "pnl_pct": 20.09,
+    "pnl_eur": 1.24,
+    "entry_score": 86.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 20806969,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.3145,
+    "entry_chg_24h": 19.99404,
+    "entry_chg_7d": 21.8778,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.7485720553933353,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "DODO (cex_small_cap) gained +20.1% in 2308 min — trailing stop caught extra upside after the target. Entry score: 86. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
