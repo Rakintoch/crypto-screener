@@ -15,8 +15,8 @@
       "entry_price_eur": 0.02516853004351338,
       "entry_ts": 1794506634.7361357,
       "cost_eur": 6.163731761239876,
-      "last_price_eur": 0.02931036112043483,
-      "last_score": 90.1,
+      "last_price_eur": 0.029417368583455925,
+      "last_score": 90.4,
       "missed_updates": 0,
       "entry_market_cap": 27795546,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 32310378
+      "last_market_cap": 32428342
     },
     "cex_small_cap:berachain-bera": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.12275916737866337,
       "entry_ts": 1794621792.198976,
       "cost_eur": 5.985646015459943,
-      "last_price_eur": 0.11606893496760225,
-      "last_score": 62.5,
+      "last_price_eur": 0.11396525431581042,
+      "last_score": 61.7,
       "missed_updates": 0,
       "entry_market_cap": 49486242,
       "entry_venue": "Upbit",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 46799009
+      "last_market_cap": 45951057
     }
   },
   "closed_trades": [
@@ -1504,8 +1504,8 @@
       "pnl_pct": -8.049613880519567
     }
   ],
-  "last_run_ts": 1794636925.381044,
-  "last_eur_rate": 0.9071499970113267,
+  "last_run_ts": 1794637223.5578654,
+  "last_eur_rate": 0.9071499985338727,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
