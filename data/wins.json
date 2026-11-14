@@ -3612,5 +3612,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "SHELL (cex_small_cap) gained +18.6% in 91 min — trailing stop caught extra upside after the target. Entry score: 99. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794626423.4256704,
+    "symbol": "TAC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/tac",
+    "held_minutes": 317.3,
+    "exit_reason": "trailing stop hit — dropped 13.7% from the peak (peak +24.5% since entry)",
+    "pnl_pct": 7.41,
+    "pnl_eur": 0.47,
+    "entry_score": 71.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 6927954,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 0.5052,
+    "entry_chg_24h": 29.42846,
+    "entry_chg_7d": 16.6983,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.9512632263608214,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "TAC (cex_small_cap) gained +7.4% in 317 min — trailing stop caught extra upside after the target. Entry score: 72. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
