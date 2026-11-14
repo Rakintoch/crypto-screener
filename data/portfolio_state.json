@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 27.042132246157408,
+  "cash_eur": 32.36005045570879,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:bless-2": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.00835584028287285,
       "entry_ts": 1794657777.0957701,
       "cost_eur": 5.884057742180559,
-      "last_price_eur": 0.008317712705686485,
-      "last_score": 43.9,
+      "last_price_eur": 0.00850701688190134,
+      "last_score": 45.9,
       "missed_updates": 0,
       "entry_market_cap": 16820146,
       "entry_venue": null,
@@ -37,54 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 16886352
-    },
-    "cex_small_cap:sophon": {
-      "tier": "cex_small_cap",
-      "id": "sophon",
-      "symbol": "SOPH",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/sophon",
-      "qty": 2862.778406722003,
-      "entry_price_eur": 0.0020271355268957404,
-      "entry_ts": 1794664983.0437577,
-      "cost_eur": 5.803239813896156,
-      "last_price_eur": 0.0019237294875439719,
-      "last_score": 66.4,
-      "missed_updates": 0,
-      "entry_market_cap": 11624398,
-      "entry_venue": "Upbit",
-      "entry_contract_address": "0x6b7774cb12ed7573a7586e7d0e62a2a563ddd3f0 (ETH)",
-      "entry_score": 96.2,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 72793571,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 17.1245,
-      "entry_chg_24h": 18.94791,
-      "entry_chg_7d": 89.0444,
-      "entry_chg_6h": null,
-      "entry_turnover": 6.262136843559555,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "upgrade"
-      ],
-      "entry_catalyst_score": 0.2,
-      "entry_catalyst_headlines": [
-        {
-          "title": "Sophon Sets Nov. 30 Mainnet Shutdown, Nov. 25 Withdrawal Deadline - CoinMarketCap",
-          "ts": 1792530326.0,
-          "source": "CoinMarketCap"
-        },
-        {
-          "title": "Sophon sets Nov. 25 withdrawal deadline ahead of mainnet shutdown - TradingView",
-          "ts": 1792479600.0,
-          "source": "TradingView"
-        }
-      ],
-      "last_market_cap": 11023873
+      "last_market_cap": 17229641
     }
   },
   "closed_trades": [
@@ -1685,10 +1638,63 @@
       "proceeds_eur": 5.386435929877621,
       "pnl_eur": -0.49762181230293834,
       "pnl_pct": -8.457119799074675
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "sophon",
+      "symbol": "SOPH",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/sophon",
+      "qty": 2862.778406722003,
+      "entry_price_eur": 0.0020271355268957404,
+      "entry_ts": 1794664983.0437577,
+      "cost_eur": 5.803239813896156,
+      "last_price_eur": 0.0018576073499312895,
+      "last_score": 63.0,
+      "missed_updates": 0,
+      "entry_market_cap": 11624398,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x6b7774cb12ed7573a7586e7d0e62a2a563ddd3f0 (ETH)",
+      "entry_score": 96.2,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 72793571,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 17.1245,
+      "entry_chg_24h": 18.94791,
+      "entry_chg_7d": 89.0444,
+      "entry_chg_6h": null,
+      "entry_turnover": 6.262136843559555,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "upgrade"
+      ],
+      "entry_catalyst_score": 0.2,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Sophon Sets Nov. 30 Mainnet Shutdown, Nov. 25 Withdrawal Deadline - CoinMarketCap",
+          "ts": 1792530326.0,
+          "source": "CoinMarketCap"
+        },
+        {
+          "title": "Sophon sets Nov. 25 withdrawal deadline ahead of mainnet shutdown - TradingView",
+          "ts": 1792479600.0,
+          "source": "TradingView"
+        }
+      ],
+      "last_market_cap": 10677293,
+      "exit_price_eur": 0.0018576073499312895,
+      "exit_ts": 1794667526.7913678,
+      "exit_reason": "stop-loss hit (-8.4%)",
+      "proceeds_eur": 5.3179182095513795,
+      "pnl_eur": -0.4853216043447768,
+      "pnl_pct": -8.362942423689768
     }
   ],
-  "last_run_ts": 1794667223.334956,
-  "last_eur_rate": 0.9071499920042496,
+  "last_run_ts": 1794667526.7913678,
+  "last_eur_rate": 0.9071500043615348,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
