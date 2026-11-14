@@ -13681,5 +13681,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "SOPH (cex_small_cap) lost -8.0% in 488 min (slow (>6h)) — stop-loss hit. Entry score: 73 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794637517.793699,
+    "symbol": "BERA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/berachain-bera",
+    "held_minutes": 262.1,
+    "exit_reason": "stop-loss hit (-10.3%)",
+    "pnl_pct": -10.27,
+    "pnl_eur": -0.61,
+    "entry_score": 87.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 43331674,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 9.3496,
+    "entry_chg_24h": 34.20014,
+    "entry_chg_7d": 5.8187,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.8756307258085995,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "BERA (cex_small_cap) lost -10.3% in 262 min (fast (1-6h)) — stop-loss hit. Entry score: 87 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
