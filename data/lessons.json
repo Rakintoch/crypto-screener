@@ -13843,5 +13843,32 @@
     "categoria": "momentum thesis invalidated (score dropped)",
     "velocidade_queda": "slow (>6h)",
     "licao": "BLESS (cex_small_cap) lost -3.6% in 422 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 66 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794698134.3924758,
+    "symbol": "BOB",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/bob-build-on-bitcoin",
+    "held_minutes": 192.8,
+    "exit_reason": "stop-loss hit (-13.5%)",
+    "pnl_pct": -13.54,
+    "pnl_eur": -0.76,
+    "entry_score": 85.9,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 8865158,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 12.3323,
+    "entry_chg_24h": 47.90595,
+    "entry_chg_7d": 39.7363,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.39072598326435626,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "BOB (cex_small_cap) lost -13.5% in 193 min (fast (1-6h)) — stop-loss hit. Entry score: 86 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
