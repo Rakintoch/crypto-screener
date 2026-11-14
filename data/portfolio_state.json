@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 22.254243101694556,
+  "cash_eur": 16.08160110674893,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:dodo": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.02516853004351338,
       "entry_ts": 1794506634.7361357,
       "cost_eur": 6.163731761239876,
-      "last_price_eur": 0.026878056312618137,
-      "last_score": 53.9,
+      "last_price_eur": 0.026830548506074744,
+      "last_score": 55.0,
       "missed_updates": 0,
       "entry_market_cap": 27795546,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 29630339
+      "last_market_cap": 29576754
     },
     "cex_small_cap:sophon": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0015796873024193977,
       "entry_ts": 1794607384.2253878,
       "cost_eur": 6.301231751938208,
-      "last_price_eur": 0.0015784954351440177,
-      "last_score": 75.9,
+      "last_price_eur": 0.001553013570657519,
+      "last_score": 75.5,
       "missed_updates": 0,
       "entry_market_cap": 9051337,
       "entry_venue": "Binance",
@@ -84,7 +84,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 9082746
+      "last_market_cap": 8899523
     },
     "cex_small_cap:tac": {
       "tier": "cex_small_cap",
@@ -96,7 +96,7 @@
       "entry_price_eur": 0.0010732779372391984,
       "entry_ts": 1794607384.2253878,
       "cost_eur": 6.301231751938208,
-      "last_price_eur": 0.0010485746890813938,
+      "last_price_eur": 0.0010443019985193838,
       "last_score": 70.7,
       "missed_updates": 0,
       "entry_market_cap": 7282899,
@@ -118,7 +118,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7117420
+      "last_market_cap": 7087092
+    },
+    "cex_small_cap:for-sale": {
+      "tier": "cex_small_cap",
+      "id": "for-sale",
+      "symbol": "SN47",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/for-sale",
+      "qty": 0.9359606224671745,
+      "entry_price_eur": 6.59498043697037,
+      "entry_ts": 1794616787.6669993,
+      "cost_eur": 6.172641994945626,
+      "last_price_eur": 6.59498043697037,
+      "last_score": 93.5,
+      "missed_updates": 0,
+      "entry_market_cap": 12553724,
+      "entry_venue": "Subnet Tokens",
+      "entry_contract_address": "47 (bittensor)",
+      "entry_score": 93.5,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 19362142,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.7392,
+      "entry_chg_24h": 2807.5088,
+      "entry_chg_7d": 1987.275,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.5423424953424179,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -1416,8 +1449,8 @@
       "pnl_pct": -8.678365772700658
     }
   ],
-  "last_run_ts": 1794616520.3740396,
-  "last_eur_rate": 0.9071500035309229,
+  "last_run_ts": 1794616787.6669993,
+  "last_eur_rate": 0.9071499913301747,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
