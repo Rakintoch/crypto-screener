@@ -13735,5 +13735,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "SHELL (cex_small_cap) lost -8.5% in 148 min (fast (1-6h)) — stop-loss hit. Entry score: 87 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794660918.761644,
+    "symbol": "TAC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/tac",
+    "held_minutes": 52.4,
+    "exit_reason": "stop-loss hit (-8.5%)",
+    "pnl_pct": -8.46,
+    "pnl_eur": -0.5,
+    "entry_score": 75.5,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 17128386,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 0.3088,
+    "entry_chg_24h": 32.26891,
+    "entry_chg_7d": 23.6297,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.242040986224482,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "TAC (cex_small_cap) lost -8.5% in 52 min (very fast (<1h)) — stop-loss hit. Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
