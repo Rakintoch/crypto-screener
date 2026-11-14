@@ -20,8 +20,8 @@
     "symbol": "REGENT"
   },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1794557008.1431077,
-    "last_score": 85.6,
+    "last_alert_ts": 1794621791.7048326,
+    "last_score": 61.6,
     "symbol": "ARIA"
   },
   "cex_small_cap:float": {
@@ -875,13 +875,18 @@
     "symbol": "SN47"
   },
   "cex_small_cap:berachain-bera": {
-    "last_alert_ts": 1794614621.562352,
-    "last_score": 58.2,
+    "last_alert_ts": 1794621791.7048326,
+    "last_score": 87.3,
     "symbol": "BERA"
   },
   "cex_small_cap:bluefin": {
     "last_alert_ts": 1794616787.300024,
     "last_score": 58.5,
     "symbol": "BLUE"
+  },
+  "cex_small_cap:ava-ai": {
+    "last_alert_ts": 1794621791.7048326,
+    "last_score": 59.1,
+    "symbol": "AVA"
   }
 }

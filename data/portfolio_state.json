@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 20.38631852834236,
+  "cash_eur": 14.40067251288242,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:dodo": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.02516853004351338,
       "entry_ts": 1794506634.7361357,
       "cost_eur": 6.163731761239876,
-      "last_price_eur": 0.027263803578063336,
-      "last_score": 61.9,
+      "last_price_eur": 0.02758778332848975,
+      "last_score": 72.8,
       "missed_updates": 0,
       "entry_market_cap": 27795546,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 30054355
+      "last_market_cap": 30411485
     },
     "cex_small_cap:sophon": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0015796873024193977,
       "entry_ts": 1794607384.2253878,
       "cost_eur": 6.301231751938208,
-      "last_price_eur": 0.0015629740910990996,
-      "last_score": 70.1,
+      "last_price_eur": 0.0015473711223149998,
+      "last_score": 69.4,
       "missed_updates": 0,
       "entry_market_cap": 9051337,
       "entry_venue": "Binance",
@@ -84,7 +84,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 8956592
+      "last_market_cap": 8867185
     },
     "cex_small_cap:tac": {
       "tier": "cex_small_cap",
@@ -96,8 +96,8 @@
       "entry_price_eur": 0.0010732779372391984,
       "entry_ts": 1794607384.2253878,
       "cost_eur": 6.301231751938208,
-      "last_price_eur": 0.0011346541474830047,
-      "last_score": 71.4,
+      "last_price_eur": 0.0011223713446192195,
+      "last_score": 91.0,
       "missed_updates": 0,
       "entry_market_cap": 7282899,
       "entry_venue": null,
@@ -118,7 +118,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7700228
+      "last_market_cap": 7616875
+    },
+    "cex_small_cap:berachain-bera": {
+      "tier": "cex_small_cap",
+      "id": "berachain-bera",
+      "symbol": "BERA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/berachain-bera",
+      "qty": 48.75925882583252,
+      "entry_price_eur": 0.12275916737866337,
+      "entry_ts": 1794621792.198976,
+      "cost_eur": 5.985646015459943,
+      "last_price_eur": 0.12275916737866337,
+      "last_score": 87.3,
+      "missed_updates": 0,
+      "entry_market_cap": 49486242,
+      "entry_venue": "Upbit",
+      "entry_contract_address": null,
+      "entry_score": 87.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 43331674,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 9.3496,
+      "entry_chg_24h": 34.20014,
+      "entry_chg_7d": 5.8187,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.8756307258085995,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -1456,8 +1489,8 @@
       "pnl_pct": -30.261346355121795
     }
   ],
-  "last_run_ts": 1794621319.3918028,
-  "last_eur_rate": 0.9071499991869175,
+  "last_run_ts": 1794621792.198976,
+  "last_eur_rate": 0.907150005754067,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
