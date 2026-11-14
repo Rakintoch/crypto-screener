@@ -15,8 +15,8 @@
       "entry_price_eur": 0.02516853004351338,
       "entry_ts": 1794506634.7361357,
       "cost_eur": 6.163731761239876,
-      "last_price_eur": 0.026800403957000174,
-      "last_score": 53.3,
+      "last_price_eur": 0.026819699054939528,
+      "last_score": 59.1,
       "missed_updates": 0,
       "entry_market_cap": 27795546,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 29543520
+      "last_market_cap": 29547040
     },
     "cex_small_cap:sophon": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.0015796873024193977,
       "entry_ts": 1794607384.2253878,
       "cost_eur": 6.301231751938208,
-      "last_price_eur": 0.0015677910466567666,
-      "last_score": 75.8,
+      "last_price_eur": 0.0015794297821010962,
+      "last_score": 70.4,
       "missed_updates": 0,
       "entry_market_cap": 9051337,
       "entry_venue": "Binance",
@@ -84,7 +84,7 @@
           "source": "TradingView"
         }
       ],
-      "last_market_cap": 8984193
+      "last_market_cap": 9065214
     },
     "cex_small_cap:tac": {
       "tier": "cex_small_cap",
@@ -96,8 +96,8 @@
       "entry_price_eur": 0.0010732779372391984,
       "entry_ts": 1794607384.2253878,
       "cost_eur": 6.301231751938208,
-      "last_price_eur": 0.0010792907755027338,
-      "last_score": 71.4,
+      "last_price_eur": 0.0010604764853464343,
+      "last_score": 70.3,
       "missed_updates": 0,
       "entry_market_cap": 7282899,
       "entry_venue": null,
@@ -118,7 +118,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7324544
+      "last_market_cap": 7209871
     },
     "cex_small_cap:for-sale": {
       "tier": "cex_small_cap",
@@ -130,8 +130,8 @@
       "entry_price_eur": 6.59498043697037,
       "entry_ts": 1794616787.6669993,
       "cost_eur": 6.172641994945626,
-      "last_price_eur": 6.585908948149078,
-      "last_score": 93.5,
+      "last_price_eur": 6.576837452534301,
+      "last_score": 79.2,
       "missed_updates": 0,
       "entry_market_cap": 12553724,
       "entry_venue": "Subnet Tokens",
@@ -152,7 +152,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12544710
+      "last_market_cap": 12530394
     }
   },
   "closed_trades": [
@@ -1450,8 +1450,8 @@
       "pnl_pct": -8.678365772700658
     }
   ],
-  "last_run_ts": 1794617720.3364222,
-  "last_eur_rate": 0.9071499928579998,
+  "last_run_ts": 1794618049.3056505,
+  "last_eur_rate": 0.9071499934530071,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
