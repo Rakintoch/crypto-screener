@@ -13600,5 +13600,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "ZEUS (cex_small_cap) lost -8.9% in 126 min (fast (1-6h)) — stop-loss hit. Entry score: 83 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794615623.4721968,
+    "symbol": "BARD",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/lombard-protocol",
+    "held_minutes": 137.3,
+    "exit_reason": "stop-loss hit (-8.7%)",
+    "pnl_pct": -8.68,
+    "pnl_eur": -0.55,
+    "entry_score": 85.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 101203344,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.5096,
+    "entry_chg_24h": 15.92847,
+    "entry_chg_7d": 32.1473,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.7252700806576322,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "BARD (cex_small_cap) lost -8.7% in 137 min (fast (1-6h)) — stop-loss hit. Entry score: 85 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
