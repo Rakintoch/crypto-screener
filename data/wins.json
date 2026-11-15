@@ -3716,5 +3716,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "EVAA (cex_small_cap) gained +35.3% in 427 min — trailing stop caught extra upside after the target. Entry score: 98. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794770717.568907,
+    "symbol": "牛逼",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/niu-bi",
+    "held_minutes": 157.0,
+    "exit_reason": "trailing stop hit — dropped 6.0% from the peak (peak +21.5% since entry)",
+    "pnl_pct": 14.14,
+    "pnl_eur": 1.83,
+    "entry_score": 78.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 1580918,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.6567,
+    "entry_chg_24h": 16.02253,
+    "entry_chg_7d": null,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.5196414959584668,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "牛逼 (cex_small_cap) gained +14.1% in 157 min — trailing stop caught extra upside after the target. Entry score: 78. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
