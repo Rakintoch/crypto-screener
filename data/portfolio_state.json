@@ -15,8 +15,8 @@
       "entry_price_eur": 0.029456693655083948,
       "entry_ts": 1794686568.8743348,
       "cost_eur": 5.616702067574432,
-      "last_price_eur": 0.028549087423651403,
-      "last_score": 41.2,
+      "last_price_eur": 0.02835466302440041,
+      "last_score": 42.2,
       "missed_updates": 0,
       "entry_market_cap": 32466687,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 31480803
+      "last_market_cap": 31266412
     },
     "cex_small_cap:unitas": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.15690011061965733,
       "entry_ts": 1794761296.2295227,
       "cost_eur": 6.052682195910093,
-      "last_price_eur": 0.15003488226295822,
-      "last_score": 70.2,
+      "last_price_eur": 0.15016093815194148,
+      "last_score": 71.8,
       "missed_updates": 0,
       "entry_market_cap": 37246980,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 35735370
+      "last_market_cap": 35765537
     }
   },
   "closed_trades": [
@@ -2146,8 +2146,8 @@
       "pnl_pct": 14.137773187143516
     }
   ],
-  "last_run_ts": 1794771928.3712664,
-  "last_eur_rate": 0.9068729963549655,
+  "last_run_ts": 1794772176.2230213,
+  "last_eur_rate": 0.9068729996312468,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
