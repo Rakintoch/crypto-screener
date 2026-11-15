@@ -15,8 +15,8 @@
       "entry_price_eur": 0.029456693655083948,
       "entry_ts": 1794686568.8743348,
       "cost_eur": 5.616702067574432,
-      "last_price_eur": 0.028288617672823126,
-      "last_score": 40.9,
+      "last_price_eur": 0.028248442638299297,
+      "last_score": 40.8,
       "missed_updates": 0,
       "entry_market_cap": 32466687,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 31186122
+      "last_market_cap": 31141834
     },
     "cex_small_cap:unitas": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.15690011061965733,
       "entry_ts": 1794761296.2295227,
       "cost_eur": 6.052682195910093,
-      "last_price_eur": 0.15309320810389526,
-      "last_score": 72.4,
+      "last_price_eur": 0.15156204008123084,
+      "last_score": 69.3,
       "missed_updates": 0,
       "entry_market_cap": 37246980,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 36455118
+      "last_market_cap": 36090533
     },
     "cex_small_cap:vine": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.012756397708694547,
       "entry_ts": 1794781668.6386235,
       "cost_eur": 12.997514942265704,
-      "last_price_eur": 0.012999534040392276,
+      "last_price_eur": 0.013071366489229224,
       "last_score": 100.0,
       "missed_updates": 0,
       "entry_market_cap": 14054432,
@@ -113,7 +113,7 @@
           "source": "CoinMarketCap"
         }
       ],
-      "last_market_cap": 14330378
+      "last_market_cap": 14409566
     },
     "cex_small_cap:tac": {
       "tier": "cex_small_cap",
@@ -125,8 +125,8 @@
       "entry_price_eur": 0.001197783524294793,
       "entry_ts": 1794781668.6386235,
       "cost_eur": 6.065506973057329,
-      "last_price_eur": 0.0012104662540097589,
-      "last_score": 84.3,
+      "last_price_eur": 0.0012139857624332,
+      "last_score": 84.2,
       "missed_updates": 0,
       "entry_market_cap": 8129472,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -155,7 +155,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 8215286
+      "last_market_cap": 8239204
     }
   },
   "closed_trades": [
@@ -2230,8 +2230,8 @@
       "pnl_pct": 14.137773187143516
     }
   ],
-  "last_run_ts": 1794782422.0476403,
-  "last_eur_rate": 0.9070900026301164,
+  "last_run_ts": 1794782725.8780208,
+  "last_eur_rate": 0.9070900020422467,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
