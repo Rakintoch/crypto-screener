@@ -3664,5 +3664,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "DODO (cex_small_cap) gained +20.1% in 2308 min — trailing stop caught extra upside after the target. Entry score: 86. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794749439.69988,
+    "symbol": "DOPE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/doge-pepe",
+    "held_minutes": 327.7,
+    "exit_reason": "trailing stop hit — dropped 5.8% from the peak (peak +1004.9% since entry)",
+    "pnl_pct": 941.03,
+    "pnl_eur": 49.77,
+    "entry_score": 88.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 5807515,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 7.4055,
+    "entry_chg_24h": 348.50215,
+    "entry_chg_7d": 60350.749,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.46544022116027234,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "DOPE (cex_small_cap) gained +941.0% in 328 min — trailing stop caught extra upside after the target. Entry score: 88. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
