@@ -15,8 +15,8 @@
       "entry_price_eur": 0.029456693655083948,
       "entry_ts": 1794686568.8743348,
       "cost_eur": 5.616702067574432,
-      "last_price_eur": 0.029104909300178776,
-      "last_score": 40.7,
+      "last_price_eur": 0.028946397988901452,
+      "last_score": 43.7,
       "missed_updates": 0,
       "entry_market_cap": 32466687,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 32093309
+      "last_market_cap": 31922355
     },
     "cex_small_cap:unitas": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.15690011061965733,
       "entry_ts": 1794761296.2295227,
       "cost_eur": 6.052682195910093,
-      "last_price_eur": 0.1496512767921913,
-      "last_score": 72.1,
+      "last_price_eur": 0.15011478769948897,
+      "last_score": 73.5,
       "missed_updates": 0,
       "entry_market_cap": 37246980,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 35643574
+      "last_market_cap": 35758298
     },
     "cex_small_cap:niu-bi": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.0009437720688509573,
       "entry_ts": 1794761296.2295227,
       "cost_eur": 12.970033276950199,
-      "last_price_eur": 0.0010702319443936128,
-      "last_score": 81.7,
+      "last_price_eur": 0.0011465263099960969,
+      "last_score": 83.3,
       "missed_updates": 0,
       "entry_market_cap": 1040323,
       "entry_venue": null,
@@ -105,7 +105,9 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 1180125
+      "last_market_cap": 1264398,
+      "trailing_active": true,
+      "trailing_peak_eur": 0.0011465263099960969
     }
   },
   "closed_trades": [
@@ -2138,8 +2140,8 @@
       "pnl_pct": -10.403992275526086
     }
   ],
-  "last_run_ts": 1794770128.109843,
-  "last_eur_rate": 0.9068839985710037,
+  "last_run_ts": 1794770421.8906827,
+  "last_eur_rate": 0.906774999996913,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
