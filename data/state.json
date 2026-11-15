@@ -244,20 +244,10 @@
     "last_score": 80.0,
     "symbol": "Max"
   },
-  "dex_micro_cap:0x8db304c71e2d12a178ea6cf9b459cbdf80d24570": {
-    "last_alert_ts": 1794470589.3440287,
-    "last_score": 75.6,
-    "symbol": "GROKIA"
-  },
   "cex_small_cap:seppuku": {
     "last_alert_ts": 1794518340.305569,
     "last_score": 62.7,
     "symbol": "SEPPUKU"
-  },
-  "cex_small_cap:taiko": {
-    "last_alert_ts": 1794470589.3440287,
-    "last_score": 56.1,
-    "symbol": "TAIKO"
   },
   "dex_micro_cap:0x3441e8fcdd380c4e7f5c7f55ccd599b2a2afcccc": {
     "last_alert_ts": 1794477796.0757747,
@@ -335,8 +325,8 @@
     "symbol": "BARD"
   },
   "cex_small_cap:dodo": {
-    "last_alert_ts": 1794686568.2858076,
-    "last_score": 82.3,
+    "last_alert_ts": 1794732451.8623767,
+    "last_score": 60.7,
     "symbol": "DODO"
   },
   "cex_small_cap:chop-3": {
@@ -703,5 +693,10 @@
     "last_alert_ts": 1794729778.935426,
     "last_score": 57.6,
     "symbol": "COLLECT"
+  },
+  "cex_small_cap:egl1": {
+    "last_alert_ts": 1794732451.8623767,
+    "last_score": 65.9,
+    "symbol": "EGL1"
   }
 }
