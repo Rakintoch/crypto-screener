@@ -259,21 +259,6 @@
     "last_score": 62.5,
     "symbol": "MASK"
   },
-  "cex_small_cap:amd-xstock": {
-    "last_alert_ts": 1794499416.5490763,
-    "last_score": 57.4,
-    "symbol": "AMDX"
-  },
-  "cex_small_cap:cheqd-network": {
-    "last_alert_ts": 1794499416.5490763,
-    "last_score": 57.1,
-    "symbol": "CHEQ"
-  },
-  "cex_small_cap:proshares-ultrapro-qqq-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794499416.5490763,
-    "last_score": 56.2,
-    "symbol": "TQQQB"
-  },
   "cex_small_cap:lombard-protocol": {
     "last_alert_ts": 1794607383.5297978,
     "last_score": 85.3,
@@ -410,8 +395,8 @@
     "symbol": "Huang"
   },
   "cex_small_cap:niu-bi": {
-    "last_alert_ts": 1794751393.3218398,
-    "last_score": 61.7,
+    "last_alert_ts": 1794761295.8579788,
+    "last_score": 78.0,
     "symbol": "牛逼"
   },
   "cex_small_cap:temo": {
@@ -693,5 +678,10 @@
     "last_alert_ts": 1794758591.7591846,
     "last_score": 59.8,
     "symbol": "GAINS"
+  },
+  "cex_small_cap:vine": {
+    "last_alert_ts": 1794761295.8579788,
+    "last_score": 63.4,
+    "symbol": "VINE"
   }
 }
