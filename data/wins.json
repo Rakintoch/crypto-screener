@@ -3690,5 +3690,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "DOPE (cex_small_cap) gained +941.0% in 328 min — trailing stop caught extra upside after the target. Entry score: 88. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794755424.4329197,
+    "symbol": "EVAA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/evaa-protocol",
+    "held_minutes": 427.4,
+    "exit_reason": "trailing stop hit — dropped 9.0% from the peak (peak +48.7% since entry)",
+    "pnl_pct": 35.29,
+    "pnl_eur": 1.87,
+    "entry_score": 97.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 45766202,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 7.0814,
+    "entry_chg_24h": 70.7019,
+    "entry_chg_7d": 41.1703,
+    "entry_chg_6h": null,
+    "entry_turnover": 3.699309973341257,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "EVAA (cex_small_cap) gained +35.3% in 427 min — trailing stop caught extra upside after the target. Entry score: 98. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
