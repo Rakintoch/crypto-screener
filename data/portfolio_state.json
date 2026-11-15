@@ -15,8 +15,8 @@
       "entry_price_eur": 0.029456693655083948,
       "entry_ts": 1794686568.8743348,
       "cost_eur": 5.616702067574432,
-      "last_price_eur": 0.028250002934926327,
-      "last_score": 36.6,
+      "last_price_eur": 0.02825666750717004,
+      "last_score": 36.3,
       "missed_updates": 0,
       "entry_market_cap": 32466687,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 31133940
+      "last_market_cap": 31143792
     },
     "cex_small_cap:unitas": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.15690011061965733,
       "entry_ts": 1794761296.2295227,
       "cost_eur": 6.052682195910093,
-      "last_price_eur": 0.15102901330540508,
-      "last_score": 58.9,
+      "last_price_eur": 0.148693277570908,
+      "last_score": 57.5,
       "missed_updates": 0,
       "entry_market_cap": 37246980,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 35952494
+      "last_market_cap": 35399462
     },
     "cex_small_cap:tac": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.001197783524294793,
       "entry_ts": 1794781668.6386235,
       "cost_eur": 6.065506973057329,
-      "last_price_eur": 0.0012360919947231683,
+      "last_price_eur": 0.0012310387273699974,
       "last_score": 76.8,
       "missed_updates": 0,
       "entry_market_cap": 8129472,
@@ -113,7 +113,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 8386651
+      "last_market_cap": 8353006
     }
   },
   "closed_trades": [
@@ -2236,8 +2236,8 @@
       "pnl_pct": -14.947932903784583
     }
   ],
-  "last_run_ts": 1794785437.5217328,
-  "last_eur_rate": 0.9073699934838421,
+  "last_run_ts": 1794785667.366059,
+  "last_eur_rate": 0.9072970087189144,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
