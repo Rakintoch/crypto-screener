@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 56.29411829994807,
+  "cash_eur": 67.34877342948452,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:dodo": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.029456693655083948,
       "entry_ts": 1794686568.8743348,
       "cost_eur": 5.616702067574432,
-      "last_price_eur": 0.028272432254936176,
-      "last_score": 38.3,
+      "last_price_eur": 0.028178376184981042,
+      "last_score": 36.5,
       "missed_updates": 0,
       "entry_market_cap": 32466687,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 31189936
+      "last_market_cap": 31041063
     },
     "cex_small_cap:unitas": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.15690011061965733,
       "entry_ts": 1794761296.2295227,
       "cost_eur": 6.052682195910093,
-      "last_price_eur": 0.15125111293417512,
-      "last_score": 57.3,
+      "last_price_eur": 0.1511384947118165,
+      "last_score": 58.0,
       "missed_updates": 0,
       "entry_market_cap": 37246980,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -71,49 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 36012143
-    },
-    "cex_small_cap:vine": {
-      "tier": "cex_small_cap",
-      "id": "vine",
-      "symbol": "VINE",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/vine",
-      "qty": 1018.9016710733953,
-      "entry_price_eur": 0.012756397708694547,
-      "entry_ts": 1794781668.6386235,
-      "cost_eur": 12.997514942265704,
-      "last_price_eur": 0.011745724049878097,
-      "last_score": 70.3,
-      "missed_updates": 0,
-      "entry_market_cap": 14054432,
-      "entry_venue": "Aivora Exchange",
-      "entry_contract_address": "6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump (Solana)",
-      "entry_score": 100.0,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 53297550,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 12.6106,
-      "entry_chg_24h": 205.88644,
-      "entry_chg_7d": 127.841,
-      "entry_chg_6h": null,
-      "entry_turnover": 3.792223691430575,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "listing"
-      ],
-      "entry_catalyst_score": 0.4,
-      "entry_catalyst_headlines": [
-        {
-          "title": "CoinShares Lists on Nasdaq After $1.2B SPAC Merger With Vine Hill - CoinMarketCap",
-          "ts": 1794280187.0,
-          "source": "CoinMarketCap"
-        }
-      ],
-      "last_market_cap": 13009576
+      "last_market_cap": 35818332
     },
     "cex_small_cap:tac": {
       "tier": "cex_small_cap",
@@ -125,7 +83,7 @@
       "entry_price_eur": 0.001197783524294793,
       "entry_ts": 1794781668.6386235,
       "cost_eur": 6.065506973057329,
-      "last_price_eur": 0.0012282826761305557,
+      "last_price_eur": 0.00122910551088948,
       "last_score": 76.8,
       "missed_updates": 0,
       "entry_market_cap": 8129472,
@@ -155,7 +113,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 8337802
+      "last_market_cap": 8352150
     }
   },
   "closed_trades": [
@@ -2228,10 +2186,58 @@
       "proceeds_eur": 14.803707163942455,
       "pnl_eur": 1.8336738869922566,
       "pnl_pct": 14.137773187143516
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "vine",
+      "symbol": "VINE",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/vine",
+      "qty": 1018.9016710733953,
+      "entry_price_eur": 0.012756397708694547,
+      "entry_ts": 1794781668.6386235,
+      "cost_eur": 12.997514942265704,
+      "last_price_eur": 0.010849579938258972,
+      "last_score": 70.3,
+      "missed_updates": 0,
+      "entry_market_cap": 14054432,
+      "entry_venue": "Aivora Exchange",
+      "entry_contract_address": "6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump (Solana)",
+      "entry_score": 100.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 53297550,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 12.6106,
+      "entry_chg_24h": 205.88644,
+      "entry_chg_7d": 127.841,
+      "entry_chg_6h": null,
+      "entry_turnover": 3.792223691430575,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "CoinShares Lists on Nasdaq After $1.2B SPAC Merger With Vine Hill - CoinMarketCap",
+          "ts": 1794280187.0,
+          "source": "CoinMarketCap"
+        }
+      ],
+      "last_market_cap": 11940791,
+      "exit_price_eur": 0.010849579938258972,
+      "exit_ts": 1794784223.0510767,
+      "exit_reason": "stop-loss hit (-14.9%)",
+      "proceeds_eur": 11.054655129536451,
+      "pnl_eur": -1.9428598127292531,
+      "pnl_pct": -14.947932903784583
     }
   ],
-  "last_run_ts": 1794783918.1800625,
-  "last_eur_rate": 0.9069770030352782,
+  "last_run_ts": 1794784223.0510767,
+  "last_eur_rate": 0.907329999770773,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
