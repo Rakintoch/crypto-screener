@@ -3742,5 +3742,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "牛逼 (cex_small_cap) gained +14.1% in 157 min — trailing stop caught extra upside after the target. Entry score: 78. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794800726.376605,
+    "symbol": "TAC",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/tac",
+    "held_minutes": 317.6,
+    "exit_reason": "trailing stop hit — dropped 8.1% from the peak (peak +22.2% since entry)",
+    "pnl_pct": 12.37,
+    "pnl_eur": 0.75,
+    "entry_score": 84.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 9285820,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 2.017,
+    "entry_chg_24h": 28.81859,
+    "entry_chg_7d": 42.1242,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.1422414641442888,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "TAC (cex_small_cap) gained +12.4% in 318 min — trailing stop caught extra upside after the target. Entry score: 84. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
