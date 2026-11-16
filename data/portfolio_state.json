@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 59.86387574801525,
+  "cash_eur": 46.58657804369347,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:unitas": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.15690011061965733,
       "entry_ts": 1794761296.2295227,
       "cost_eur": 6.052682195910093,
-      "last_price_eur": 0.17243489998224976,
-      "last_score": 59.5,
+      "last_price_eur": 0.17591802711333515,
+      "last_score": 61.1,
       "missed_updates": 0,
       "entry_market_cap": 37246980,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 41005451
+      "last_market_cap": 41843096
     },
     "cex_small_cap:moonbeam": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.006177234315104556,
       "entry_ts": 1794816184.7902114,
       "cost_eur": 12.712117713459019,
-      "last_price_eur": 0.006556313881230916,
-      "last_score": 66.5,
+      "last_price_eur": 0.006629658985742625,
+      "last_score": 57.3,
       "missed_updates": 0,
       "entry_market_cap": 7500869,
       "entry_venue": "BtcTurk | Kripto",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7955771
+      "last_market_cap": 8046578
     },
     "cex_small_cap:bless-2": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.010095679633092432,
       "entry_ts": 1794823377.1971238,
       "cost_eur": 6.172982899576501,
-      "last_price_eur": 0.013098612431094753,
-      "last_score": 66.3,
+      "last_price_eur": 0.013446689132318496,
+      "last_score": 82.6,
       "missed_updates": 0,
       "entry_market_cap": 20507217,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -105,9 +105,50 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 26558208,
+      "last_market_cap": 27270058,
       "trailing_active": true,
-      "trailing_peak_eur": 0.0132662523199023
+      "trailing_peak_eur": 0.013446689132318496
+    },
+    "cex_small_cap:vine": {
+      "tier": "cex_small_cap",
+      "id": "vine",
+      "symbol": "VINE",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/vine",
+      "qty": 1409.6762326513,
+      "entry_price_eur": 0.009418685934251738,
+      "entry_ts": 1794837770.0508945,
+      "cost_eur": 13.27729770432178,
+      "last_price_eur": 0.009418685934251738,
+      "last_score": 90.0,
+      "missed_updates": 0,
+      "entry_market_cap": 10364841,
+      "entry_venue": "OKX",
+      "entry_contract_address": "6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump (Solana)",
+      "entry_score": 90.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 58085485,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 2.672,
+      "entry_chg_24h": 113.44246,
+      "entry_chg_7d": 76.086,
+      "entry_chg_6h": null,
+      "entry_turnover": 5.604088379165681,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "listing"
+      ],
+      "entry_catalyst_score": 0.4,
+      "entry_catalyst_headlines": [
+        {
+          "title": "CoinShares Lists on Nasdaq After $1.2B SPAC Merger With Vine Hill - CoinMarketCap",
+          "ts": 1794280187.0,
+          "source": "CoinMarketCap"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -2442,8 +2483,8 @@
       "pnl_pct": -9.981929881358923
     }
   ],
-  "last_run_ts": 1794837318.199331,
-  "last_eur_rate": 0.9083170036991663,
+  "last_run_ts": 1794837770.0508945,
+  "last_eur_rate": 0.9081139961869065,
   "last_rotation_ts": 1794823377.1971238,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
