@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 67.34877342948452,
+  "cash_eur": 54.62884804332988,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:dodo": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.029456693655083948,
       "entry_ts": 1794686568.8743348,
       "cost_eur": 5.616702067574432,
-      "last_price_eur": 0.02828588373552726,
-      "last_score": 36.3,
+      "last_price_eur": 0.02828740876679183,
+      "last_score": 42.1,
       "missed_updates": 0,
       "entry_market_cap": 32466687,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 31183997
+      "last_market_cap": 31179321
     },
     "cex_small_cap:unitas": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.15690011061965733,
       "entry_ts": 1794761296.2295227,
       "cost_eur": 6.052682195910093,
-      "last_price_eur": 0.14991500238549474,
-      "last_score": 57.5,
+      "last_price_eur": 0.1494384645015417,
+      "last_score": 58.8,
       "missed_updates": 0,
       "entry_market_cap": 37246980,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 35699358
+      "last_market_cap": 35582760
     },
     "cex_small_cap:tac": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.001197783524294793,
       "entry_ts": 1794781668.6386235,
       "cost_eur": 6.065506973057329,
-      "last_price_eur": 0.0012294526851208427,
-      "last_score": 76.6,
+      "last_price_eur": 0.0012425388807128187,
+      "last_score": 83.5,
       "missed_updates": 0,
       "entry_market_cap": 8129472,
       "entry_venue": "Pancakeswap Infinity CLMM (BSC) (on-chain)",
@@ -113,7 +113,40 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 8344400
+      "last_market_cap": 8433458
+    },
+    "cex_small_cap:evaa-protocol": {
+      "tier": "cex_small_cap",
+      "id": "evaa-protocol",
+      "symbol": "EVAA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/evaa-protocol",
+      "qty": 5.044321919323488,
+      "entry_price_eur": 2.521632360026014,
+      "entry_ts": 1794787383.688568,
+      "cost_eur": 12.71992538615464,
+      "last_price_eur": 2.521632360026014,
+      "last_score": 82.4,
+      "missed_updates": 0,
+      "entry_market_cap": 18417176,
+      "entry_venue": "Gate",
+      "entry_contract_address": "EQBKMfjX_a_dsOLm-juxyVZytFP7_KKnzGv6J01kGc72gVBp (the-open-network)",
+      "entry_score": 82.4,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 70341022,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 0.9265,
+      "entry_chg_24h": 94.64679,
+      "entry_chg_7d": 153.9698,
+      "entry_chg_6h": null,
+      "entry_turnover": 3.819316381621156,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2236,8 +2269,8 @@
       "pnl_pct": -14.947932903784583
     }
   ],
-  "last_run_ts": 1794786916.7909772,
-  "last_eur_rate": 0.9070639987021312,
+  "last_run_ts": 1794787383.688568,
+  "last_eur_rate": 0.9070620000093578,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,

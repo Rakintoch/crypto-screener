@@ -35,8 +35,8 @@
     "symbol": "SOXSB"
   },
   "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794596974.83051,
-    "last_score": 59.1,
+    "last_alert_ts": 1794787383.2769873,
+    "last_score": 68.0,
     "symbol": "SOXLB"
   },
   "cex_small_cap:orochi-network": {
@@ -100,13 +100,13 @@
     "symbol": "DELLB"
   },
   "cex_small_cap:south-korea-bull-3x-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794528188.5100443,
-    "last_score": 64.5,
+    "last_alert_ts": 1794787383.2769873,
+    "last_score": 76.0,
     "symbol": "KORUB"
   },
   "cex_small_cap:tradr-2x-long-sndk-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794557008.1431077,
-    "last_score": 57.5,
+    "last_alert_ts": 1794787383.2769873,
+    "last_score": 70.7,
     "symbol": "SNXXB"
   },
   "cex_small_cap:initia": {
@@ -150,8 +150,8 @@
     "symbol": "STONKEX"
   },
   "cex_small_cap:micron-technology-inc-coinbase-tokenized-stock": {
-    "last_alert_ts": 1794571414.1728456,
-    "last_score": 58.6,
+    "last_alert_ts": 1794787383.2769873,
+    "last_score": 61.9,
     "symbol": "MUC"
   },
   "cex_small_cap:ni-hao-cat-2": {
@@ -355,8 +355,8 @@
     "symbol": "KNOTS"
   },
   "cex_small_cap:forever-2": {
-    "last_alert_ts": 1794780204.0523984,
-    "last_score": 56.5,
+    "last_alert_ts": 1794787383.2769873,
+    "last_score": 75.9,
     "symbol": "FOREVER"
   },
   "cex_small_cap:stakestone": {
@@ -495,8 +495,8 @@
     "symbol": "WASTED"
   },
   "cex_small_cap:gato-the-cat": {
-    "last_alert_ts": 1794729778.935426,
-    "last_score": 75.4,
+    "last_alert_ts": 1794787383.2769873,
+    "last_score": 66.9,
     "symbol": "GATO"
   },
   "cex_small_cap:polyswarm": {
@@ -713,5 +713,35 @@
     "last_alert_ts": 1794780204.0523984,
     "last_score": 57.9,
     "symbol": "ZIG"
+  },
+  "cex_small_cap:proshares-ultrapro-qqq-bstocks-tokenized-stock": {
+    "last_alert_ts": 1794787383.2769873,
+    "last_score": 61.8,
+    "symbol": "TQQQB"
+  },
+  "cex_small_cap:cookie": {
+    "last_alert_ts": 1794787383.2769873,
+    "last_score": 61.3,
+    "symbol": "COOKIE"
+  },
+  "cex_small_cap:roundhill-memory-etf-rstock": {
+    "last_alert_ts": 1794787383.2769873,
+    "last_score": 60.7,
+    "symbol": "RDRAM"
+  },
+  "cex_small_cap:spacecoin-2": {
+    "last_alert_ts": 1794787383.2769873,
+    "last_score": 59.7,
+    "symbol": "SPACE"
+  },
+  "cex_small_cap:micron-technology-rstock": {
+    "last_alert_ts": 1794787383.2769873,
+    "last_score": 57.8,
+    "symbol": "RMU"
+  },
+  "cex_small_cap:tessera-kalshi-tokenized-share": {
+    "last_alert_ts": 1794787383.2769873,
+    "last_score": 56.1,
+    "symbol": "TKALSHI"
   }
 }
