@@ -14140,5 +14140,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "EVAA (cex_small_cap) lost -10.0% in 22 min (very fast (<1h)) — stop-loss hit. Entry score: 97 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794841263.4641187,
+    "symbol": "GLMR",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/moonbeam",
+    "held_minutes": 418.0,
+    "exit_reason": "momentum thesis invalidated (score dropped to 30)",
+    "pnl_pct": -0.82,
+    "pnl_eur": -0.1,
+    "entry_score": 76.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 20618983,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 2.7194,
+    "entry_chg_24h": 21.9939,
+    "entry_chg_7d": -4.5162,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.7488792298599,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "GLMR (cex_small_cap) lost -0.8% in 418 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 76 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
