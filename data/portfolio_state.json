@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 54.97624303583693,
+  "cash_eur": 41.82008757717037,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:unitas": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.15690011061965733,
       "entry_ts": 1794761296.2295227,
       "cost_eur": 6.052682195910093,
-      "last_price_eur": 0.17482866993244084,
-      "last_score": 60.6,
+      "last_price_eur": 0.1751614985736325,
+      "last_score": 60.8,
       "missed_updates": 0,
       "entry_market_cap": 37246980,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 41568527
+      "last_market_cap": 41654472
     },
     "cex_small_cap:moonbeam": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.006177234315104556,
       "entry_ts": 1794816184.7902114,
       "cost_eur": 12.712117713459019,
-      "last_price_eur": 0.0062431296502585875,
-      "last_score": 37.6,
+      "last_price_eur": 0.006202930581472802,
+      "last_score": 37.3,
       "missed_updates": 0,
       "entry_market_cap": 7500869,
       "entry_venue": "BtcTurk | Kripto",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7574618
+      "last_market_cap": 7527085
     },
     "cex_small_cap:vine": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.009418685934251738,
       "entry_ts": 1794837770.0508945,
       "cost_eur": 13.27729770432178,
-      "last_price_eur": 0.009400251247596103,
+      "last_price_eur": 0.009370461217946728,
       "last_score": 90.0,
       "missed_updates": 0,
       "entry_market_cap": 10364841,
@@ -113,7 +113,40 @@
           "source": "CoinMarketCap"
         }
       ],
-      "last_market_cap": 10347090
+      "last_market_cap": 10315995
+    },
+    "cex_small_cap:myshell": {
+      "tier": "cex_small_cap",
+      "id": "myshell",
+      "symbol": "SHELL",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/myshell",
+      "qty": 525.1400944751585,
+      "entry_price_eur": 0.025052658513563388,
+      "entry_ts": 1794839932.3446496,
+      "cost_eur": 13.156155458666563,
+      "last_price_eur": 0.025052658513563388,
+      "last_score": 89.0,
+      "missed_updates": 0,
+      "entry_market_cap": 7445713,
+      "entry_venue": "Binance",
+      "entry_contract_address": "0xf2c88757f8d03634671208935974b60a2a28bdb3 (ETH)",
+      "entry_score": 89.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 46654567,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 6.0989,
+      "entry_chg_24h": 12.75708,
+      "entry_chg_7d": 40.0401,
+      "entry_chg_6h": null,
+      "entry_turnover": 6.265963649149517,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2490,8 +2523,8 @@
       "pnl_pct": 35.90941573350269
     }
   ],
-  "last_run_ts": 1794839719.4475625,
-  "last_eur_rate": 0.9084510017430296,
+  "last_run_ts": 1794839932.3446496,
+  "last_eur_rate": 0.9083019968038192,
   "last_rotation_ts": 1794823377.1971238,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
