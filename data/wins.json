@@ -3768,5 +3768,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "TAC (cex_small_cap) gained +12.4% in 318 min — trailing stop caught extra upside after the target. Entry score: 84. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794825047.0895636,
+    "symbol": "RARE",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/superrare",
+    "held_minutes": 147.7,
+    "exit_reason": "trailing stop hit — dropped 6.7% from the peak (peak +20.0% since entry)",
+    "pnl_pct": 11.95,
+    "pnl_eur": 1.52,
+    "entry_score": 96.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 94244593,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 7.8446,
+    "entry_chg_24h": 66.11645,
+    "entry_chg_7d": 26.3549,
+    "entry_chg_6h": null,
+    "entry_turnover": 8.337368202310747,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "RARE (cex_small_cap) gained +12.0% in 148 min — trailing stop caught extra upside after the target. Entry score: 96. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
