@@ -19,19 +19,9 @@
     "last_score": 76.3,
     "symbol": "ARIA"
   },
-  "cex_small_cap:spacex-backpack-securities": {
-    "last_alert_ts": 1794528188.5100443,
-    "last_score": 55.2,
-    "symbol": "SPCX"
-  },
-  "cex_small_cap:spacex-robinhood-tokenized-stock": {
-    "last_alert_ts": 1794528188.5100443,
-    "last_score": 56.0,
-    "symbol": "SPCX"
-  },
   "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794643378.482429,
-    "last_score": 55.9,
+    "last_alert_ts": 1794794608.9286265,
+    "last_score": 61.2,
     "symbol": "SOXSB"
   },
   "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
@@ -155,19 +145,14 @@
     "symbol": "MUC"
   },
   "cex_small_cap:ni-hao-cat-2": {
-    "last_alert_ts": 1794751393.3218398,
-    "last_score": 56.8,
+    "last_alert_ts": 1794794608.9286265,
+    "last_score": 57.2,
     "symbol": "MIHAO"
   },
   "cex_small_cap:opengradient": {
     "last_alert_ts": 1794715403.5579662,
     "last_score": 55.4,
     "symbol": "OPG"
-  },
-  "cex_small_cap:ritual": {
-    "last_alert_ts": 1794528188.5100443,
-    "last_score": 68.8,
-    "symbol": "RITUAL"
   },
   "cex_small_cap:jimothy-the-raccoon": {
     "last_alert_ts": 1794592999.0193996,
@@ -245,8 +230,8 @@
     "symbol": "OSMO"
   },
   "cex_small_cap:moonbirds": {
-    "last_alert_ts": 1794542576.2812362,
-    "last_score": 55.8,
+    "last_alert_ts": 1794794608.9286265,
+    "last_score": 59.7,
     "symbol": "BIRB"
   },
   "cex_small_cap:neosoul": {
@@ -470,8 +455,8 @@
     "symbol": "AIA"
   },
   "cex_small_cap:evaa-protocol": {
-    "last_alert_ts": 1794751393.3218398,
-    "last_score": 81.5,
+    "last_alert_ts": 1794794608.9286265,
+    "last_score": 82.8,
     "symbol": "EVAA"
   },
   "cex_small_cap:node-2": {
@@ -555,13 +540,13 @@
     "symbol": "BREW"
   },
   "cex_small_cap:status": {
-    "last_alert_ts": 1794744204.270146,
-    "last_score": 66.0,
+    "last_alert_ts": 1794794608.9286265,
+    "last_score": 60.2,
     "symbol": "SNT"
   },
   "cex_small_cap:macca-the-gator-2": {
-    "last_alert_ts": 1794744204.270146,
-    "last_score": 55.0,
+    "last_alert_ts": 1794794608.9286265,
+    "last_score": 55.2,
     "symbol": "MACCA"
   },
   "cex_small_cap:moonbeam": {
@@ -743,5 +728,10 @@
     "last_alert_ts": 1794787383.2769873,
     "last_score": 56.1,
     "symbol": "TKALSHI"
+  },
+  "cex_small_cap:1win-token": {
+    "last_alert_ts": 1794794608.9286265,
+    "last_score": 69.0,
+    "symbol": "1WIN"
   }
 }

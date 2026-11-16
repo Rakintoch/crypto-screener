@@ -14005,5 +14005,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "VINE (cex_small_cap) lost -14.9% in 43 min (very fast (<1h)) — stop-loss hit. Entry score: 100 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794794609.485983,
+    "symbol": "DODO",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/dodo",
+    "held_minutes": 1800.7,
+    "exit_reason": "rotated out — thesis fading (score 44, no unrealized gain) to free a slot for a new qualified candidate",
+    "pnl_pct": -2.59,
+    "pnl_eur": -0.15,
+    "entry_score": 82.3,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 43558580,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.0153,
+    "entry_chg_24h": 12.65645,
+    "entry_chg_7d": 53.2926,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.341639200821445,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "DODO (cex_small_cap) lost -2.6% in 1801 min (slow (>6h)) — other. Entry score: 82 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
