@@ -15,8 +15,8 @@
       "entry_price_eur": 0.029456693655083948,
       "entry_ts": 1794686568.8743348,
       "cost_eur": 5.616702067574432,
-      "last_price_eur": 0.029699489987034287,
-      "last_score": 43.5,
+      "last_price_eur": 0.02973993720795084,
+      "last_score": 43.7,
       "missed_updates": 0,
       "entry_market_cap": 32466687,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 32719504
+      "last_market_cap": 32759481
     },
     "cex_small_cap:unitas": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.15690011061965733,
       "entry_ts": 1794761296.2295227,
       "cost_eur": 6.052682195910093,
-      "last_price_eur": 0.15925324102615274,
-      "last_score": 53.7,
+      "last_price_eur": 0.15964264490986657,
+      "last_score": 53.5,
       "missed_updates": 0,
       "entry_market_cap": 37246980,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 37896618
+      "last_market_cap": 37963751
     },
     "cex_small_cap:superrare": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.012506009144377586,
       "entry_ts": 1794816184.7902114,
       "cost_eur": 12.712117713459019,
-      "last_price_eur": 0.012506009144377586,
+      "last_price_eur": 0.012948984943466604,
       "last_score": 96.2,
       "missed_updates": 0,
       "entry_market_cap": 11303878,
@@ -104,7 +104,8 @@
       "entry_base_breakout": null,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": []
+      "entry_catalyst_headlines": [],
+      "last_market_cap": 11660343
     },
     "cex_small_cap:moonbeam": {
       "tier": "cex_small_cap",
@@ -116,8 +117,8 @@
       "entry_price_eur": 0.006177234315104556,
       "entry_ts": 1794816184.7902114,
       "cost_eur": 12.712117713459019,
-      "last_price_eur": 0.006177234315104556,
-      "last_score": 76.3,
+      "last_price_eur": 0.006159034952806613,
+      "last_score": 76.4,
       "missed_updates": 0,
       "entry_market_cap": 7500869,
       "entry_venue": "BtcTurk | Kripto",
@@ -137,7 +138,8 @@
       "entry_base_breakout": null,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": []
+      "entry_catalyst_headlines": [],
+      "last_market_cap": 7511111
     }
   },
   "closed_trades": [
@@ -2350,8 +2352,8 @@
       "pnl_pct": -9.61736930720318
     }
   ],
-  "last_run_ts": 1794816184.7902114,
-  "last_eur_rate": 0.9076999950193092,
+  "last_run_ts": 1794816321.7422147,
+  "last_eur_rate": 0.9076999983503523,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
