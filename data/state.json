@@ -380,8 +380,8 @@
     "symbol": "SAPLING"
   },
   "cex_small_cap:skyai": {
-    "last_alert_ts": 1794715403.5579662,
-    "last_score": 55.3,
+    "last_alert_ts": 1794852168.5189493,
+    "last_score": 56.6,
     "symbol": "SKYAI"
   },
   "cex_small_cap:nesa": {
@@ -415,8 +415,8 @@
     "symbol": "SNT"
   },
   "cex_small_cap:macca-the-gator-2": {
-    "last_alert_ts": 1794794608.9286265,
-    "last_score": 55.2,
+    "last_alert_ts": 1794852168.5189493,
+    "last_score": 56.5,
     "symbol": "MACCA"
   },
   "cex_small_cap:moonbeam": {
@@ -703,5 +703,10 @@
     "last_alert_ts": 1794845025.7825627,
     "last_score": 56.8,
     "symbol": "PHA"
+  },
+  "cex_small_cap:allinu": {
+    "last_alert_ts": 1794852168.5189493,
+    "last_score": 55.1,
+    "symbol": "ALLINU"
   }
 }
