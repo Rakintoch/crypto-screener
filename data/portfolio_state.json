@@ -15,8 +15,8 @@
       "entry_price_eur": 0.029456693655083948,
       "entry_ts": 1794686568.8743348,
       "cost_eur": 5.616702067574432,
-      "last_price_eur": 0.02862944971331084,
-      "last_score": 41.8,
+      "last_price_eur": 0.02845954946238101,
+      "last_score": 42.1,
       "missed_updates": 0,
       "entry_market_cap": 32466687,
       "entry_venue": null,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 31537883
+      "last_market_cap": 31404314
     },
     "cex_small_cap:unitas": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.15690011061965733,
       "entry_ts": 1794761296.2295227,
       "cost_eur": 6.052682195910093,
-      "last_price_eur": 0.14972611506932765,
-      "last_score": 56.6,
+      "last_price_eur": 0.14982993116170687,
+      "last_score": 57.0,
       "missed_updates": 0,
       "entry_market_cap": 37246980,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 35615017
+      "last_market_cap": 35654623
     },
     "cex_small_cap:tac": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.001197783524294793,
       "entry_ts": 1794781668.6386235,
       "cost_eur": 6.065506973057329,
-      "last_price_eur": 0.0012385697231405018,
+      "last_price_eur": 0.0012360046259094516,
       "last_score": 85.9,
       "missed_updates": 0,
       "entry_market_cap": 8129472,
@@ -113,7 +113,7 @@
           "source": "Pluang"
         }
       ],
-      "last_market_cap": 8401933
+      "last_market_cap": 8409840
     },
     "cex_small_cap:evaa-protocol": {
       "tier": "cex_small_cap",
@@ -125,7 +125,7 @@
       "entry_price_eur": 2.521632360026014,
       "entry_ts": 1794787383.688568,
       "cost_eur": 12.71992538615464,
-      "last_price_eur": 2.513858110230435,
+      "last_price_eur": 2.521977056227908,
       "last_score": 75.6,
       "missed_updates": 0,
       "entry_market_cap": 18417176,
@@ -147,7 +147,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 18336942
+      "last_market_cap": 18413450
     }
   },
   "closed_trades": [
@@ -2270,8 +2270,8 @@
       "pnl_pct": -14.947932903784583
     }
   ],
-  "last_run_ts": 1794792639.660821,
-  "last_eur_rate": 0.9075300036932977,
+  "last_run_ts": 1794792918.001533,
+  "last_eur_rate": 0.9071859914488878,
   "last_rotation_ts": 1793937779.206944,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
