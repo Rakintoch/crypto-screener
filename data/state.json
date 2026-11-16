@@ -25,8 +25,8 @@
     "symbol": "SOXLB"
   },
   "cex_small_cap:caldera": {
-    "last_alert_ts": 1794708178.8775263,
-    "last_score": 56.7,
+    "last_alert_ts": 1794866605.7046046,
+    "last_score": 63.8,
     "symbol": "ERA"
   },
   "cex_small_cap:unitas": {
@@ -124,11 +124,6 @@
     "last_score": 62.5,
     "symbol": "MASK"
   },
-  "cex_small_cap:lombard-protocol": {
-    "last_alert_ts": 1794607383.5297978,
-    "last_score": 85.3,
-    "symbol": "BARD"
-  },
   "cex_small_cap:dodo": {
     "last_alert_ts": 1794732451.8623767,
     "last_score": 60.7,
@@ -154,16 +149,6 @@
     "last_score": 74.2,
     "symbol": "DNA"
   },
-  "cex_small_cap:sanctum-2": {
-    "last_alert_ts": 1794600248.4142582,
-    "last_score": 78.0,
-    "symbol": "SANC"
-  },
-  "cex_small_cap:niu-lai": {
-    "last_alert_ts": 1794600248.4142582,
-    "last_score": 64.3,
-    "symbol": "牛来"
-  },
   "cex_small_cap:niu-bi": {
     "last_alert_ts": 1794761295.8579788,
     "last_score": 78.0,
@@ -180,8 +165,8 @@
     "symbol": "SHELL"
   },
   "cex_small_cap:tac": {
-    "last_alert_ts": 1794809001.384172,
-    "last_score": 80.7,
+    "last_alert_ts": 1794866605.7046046,
+    "last_score": 56.9,
     "symbol": "TAC"
   },
   "cex_small_cap:pay-coin": {
@@ -203,16 +188,6 @@
     "last_alert_ts": 1794859398.4500592,
     "last_score": 58.4,
     "symbol": "PRIORS"
-  },
-  "cex_small_cap:gunz": {
-    "last_alert_ts": 1794600248.4142582,
-    "last_score": 83.0,
-    "symbol": "GUN"
-  },
-  "dex_micro_cap:0x90d0a55e3428b003885263ea5295125aea257777": {
-    "last_alert_ts": 1794600248.4142582,
-    "last_score": 71.4,
-    "symbol": "比特币"
   },
   "cex_small_cap:for-sale": {
     "last_alert_ts": 1794614621.562352,
@@ -265,8 +240,8 @@
     "symbol": "AUDIO"
   },
   "cex_small_cap:bless-2": {
-    "last_alert_ts": 1794823376.7678454,
-    "last_score": 77.0,
+    "last_alert_ts": 1794866605.7046046,
+    "last_score": 88.4,
     "symbol": "BLESS"
   },
   "cex_small_cap:doppler-finance": {
@@ -280,8 +255,8 @@
     "symbol": "AIA"
   },
   "cex_small_cap:evaa-protocol": {
-    "last_alert_ts": 1794823376.7678454,
-    "last_score": 99.5,
+    "last_alert_ts": 1794866605.7046046,
+    "last_score": 76.9,
     "symbol": "EVAA"
   },
   "cex_small_cap:node-2": {
@@ -375,8 +350,8 @@
     "symbol": "MACCA"
   },
   "cex_small_cap:moonbeam": {
-    "last_alert_ts": 1794809001.384172,
-    "last_score": 67.1,
+    "last_alert_ts": 1794866605.7046046,
+    "last_score": 68.8,
     "symbol": "GLMR"
   },
   "cex_small_cap:resolv": {
@@ -405,8 +380,8 @@
     "symbol": "CSPR"
   },
   "cex_small_cap:superrare": {
-    "last_alert_ts": 1794816184.3253753,
-    "last_score": 96.2,
+    "last_alert_ts": 1794866605.7046046,
+    "last_score": 67.5,
     "symbol": "RARE"
   },
   "cex_small_cap:ket-3": {
@@ -610,13 +585,13 @@
     "symbol": "MAX"
   },
   "cex_small_cap:manadia": {
-    "last_alert_ts": 1794823376.7678454,
-    "last_score": 81.4,
+    "last_alert_ts": 1794866605.7046046,
+    "last_score": 69.0,
     "symbol": "UMXM"
   },
   "cex_small_cap:based-one": {
-    "last_alert_ts": 1794823376.7678454,
-    "last_score": 66.1,
+    "last_alert_ts": 1794866605.7046046,
+    "last_score": 61.9,
     "symbol": "BASED"
   },
   "cex_small_cap:superwalk": {
@@ -625,8 +600,8 @@
     "symbol": "GRND"
   },
   "cex_small_cap:cash-cat": {
-    "last_alert_ts": 1794823376.7678454,
-    "last_score": 60.6,
+    "last_alert_ts": 1794866605.7046046,
+    "last_score": 60.5,
     "symbol": "CASHCAT"
   },
   "cex_small_cap:request-network": {
@@ -698,5 +673,10 @@
     "last_alert_ts": 1794859398.4500592,
     "last_score": 56.1,
     "symbol": "WIGGLES"
+  },
+  "cex_small_cap:audacity": {
+    "last_alert_ts": 1794866605.7046046,
+    "last_score": 85.3,
+    "symbol": "DACITYCOIN"
   }
 }
