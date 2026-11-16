@@ -69,11 +69,6 @@
     "last_score": 58.0,
     "symbol": "MVLLB"
   },
-  "cex_small_cap:vertiv-ondo-tokenized": {
-    "last_alert_ts": 1794557008.1431077,
-    "last_score": 56.0,
-    "symbol": "VRTON"
-  },
   "cex_small_cap:dell-bstocks-tokenized-stock": {
     "last_alert_ts": 1794570645.5063255,
     "last_score": 58.8,
@@ -164,11 +159,6 @@
     "last_score": 59.9,
     "symbol": "SOQ"
   },
-  "cex_small_cap:akedo": {
-    "last_alert_ts": 1794557008.1431077,
-    "last_score": 85.9,
-    "symbol": "AKE"
-  },
   "cex_small_cap:paws-at-you": {
     "last_alert_ts": 1794570645.5063255,
     "last_score": 93.2,
@@ -195,8 +185,8 @@
     "symbol": "DODO"
   },
   "cex_small_cap:lmao": {
-    "last_alert_ts": 1794564183.007409,
-    "last_score": 60.7,
+    "last_alert_ts": 1794823376.7678454,
+    "last_score": 58.5,
     "symbol": "LMAO!"
   },
   "cex_small_cap:cerebras-bstocks-tokenized-stock": {
@@ -218,11 +208,6 @@
     "last_alert_ts": 1794751393.3218398,
     "last_score": 74.2,
     "symbol": "DNA"
-  },
-  "cex_small_cap:montra": {
-    "last_alert_ts": 1794557008.1431077,
-    "last_score": 67.5,
-    "symbol": "MONTRA"
   },
   "cex_small_cap:sanctum-2": {
     "last_alert_ts": 1794600248.4142582,
@@ -290,8 +275,8 @@
     "symbol": "ALICE"
   },
   "cex_small_cap:myshell": {
-    "last_alert_ts": 1794765798.563333,
-    "last_score": 95.3,
+    "last_alert_ts": 1794823376.7678454,
+    "last_score": 61.4,
     "symbol": "SHELL"
   },
   "cex_small_cap:tac": {
@@ -415,8 +400,8 @@
     "symbol": "AUDIO"
   },
   "cex_small_cap:bless-2": {
-    "last_alert_ts": 1794736997.2522562,
-    "last_score": 56.7,
+    "last_alert_ts": 1794823376.7678454,
+    "last_score": 77.0,
     "symbol": "BLESS"
   },
   "cex_small_cap:doppler-finance": {
@@ -430,8 +415,8 @@
     "symbol": "AIA"
   },
   "cex_small_cap:evaa-protocol": {
-    "last_alert_ts": 1794794608.9286265,
-    "last_score": 82.8,
+    "last_alert_ts": 1794823376.7678454,
+    "last_score": 99.5,
     "symbol": "EVAA"
   },
   "cex_small_cap:node-2": {
@@ -600,8 +585,8 @@
     "symbol": "ALTSZN"
   },
   "cex_small_cap:radicle": {
-    "last_alert_ts": 1794772960.8295631,
-    "last_score": 61.7,
+    "last_alert_ts": 1794823376.7678454,
+    "last_score": 61.5,
     "symbol": "RAD"
   },
   "cex_small_cap:hodl-7": {
@@ -758,5 +743,25 @@
     "last_alert_ts": 1794816184.3253753,
     "last_score": 60.3,
     "symbol": "MAX"
+  },
+  "cex_small_cap:manadia": {
+    "last_alert_ts": 1794823376.7678454,
+    "last_score": 81.4,
+    "symbol": "UMXM"
+  },
+  "cex_small_cap:based-one": {
+    "last_alert_ts": 1794823376.7678454,
+    "last_score": 66.1,
+    "symbol": "BASED"
+  },
+  "cex_small_cap:superwalk": {
+    "last_alert_ts": 1794823376.7678454,
+    "last_score": 61.0,
+    "symbol": "GRND"
+  },
+  "cex_small_cap:cash-cat": {
+    "last_alert_ts": 1794823376.7678454,
+    "last_score": 60.6,
+    "symbol": "CASHCAT"
   }
 }
