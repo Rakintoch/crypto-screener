@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 69.23839963761989,
+  "cash_eur": 51.19228266115029,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:myshell": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.025052658513563388,
       "entry_ts": 1794839932.3446496,
       "cost_eur": 13.156155458666563,
-      "last_price_eur": 0.024042100503976753,
-      "last_score": 52.7,
+      "last_price_eur": 0.024354272194090334,
+      "last_score": 53.5,
       "missed_updates": 0,
       "entry_market_cap": 7445713,
       "entry_venue": "Binance",
@@ -37,7 +37,93 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7150179
+      "last_market_cap": 7230069
+    },
+    "cex_small_cap:momentum-3": {
+      "tier": "cex_small_cap",
+      "id": "momentum-3",
+      "symbol": "MMT",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/momentum-3",
+      "qty": 97.49098201331184,
+      "entry_price_eur": 0.12620829549234275,
+      "entry_ts": 1794936093.482531,
+      "cost_eur": 12.304170665774732,
+      "last_price_eur": 0.12620829549234275,
+      "last_score": 93.3,
+      "missed_updates": 0,
+      "entry_market_cap": 28382131,
+      "entry_venue": "Binance",
+      "entry_contract_address": "0x35169bc93e1fddfcf3a82a9eae726d349689ed59e4b065369af8789fe59f8608::mmt::MMT (sui)",
+      "entry_score": 93.3,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 56419371,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 17.4506,
+      "entry_chg_24h": 30.16783,
+      "entry_chg_7d": 15.637,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.9878483049775226,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "restructuring",
+        "supply_cut",
+        "upgrade"
+      ],
+      "entry_catalyst_score": 1.0,
+      "entry_catalyst_headlines": [
+        {
+          "title": "Why Token Launches Lose Momentum After the TGE - Crypto Economy",
+          "ts": 1794922638.0,
+          "source": "Crypto Economy"
+        },
+        {
+          "title": "Berkshire Hathaway (BRKB) Stock Price Prediction: Berkshire tests record territory as momentum stretches and buybacks backstop the tape - Blockchain News",
+          "ts": 1794847920.0,
+          "source": "Blockchain News"
+        },
+        {
+          "title": "SPDR S&P 500 ETF (SPY) Price Prediction: Momentum is mixed as price sits near the pivot and key moving averages - Blockchain News",
+          "ts": 1794817740.0,
+          "source": "Blockchain News"
+        }
+      ]
+    },
+    "cex_small_cap:audacity": {
+      "tier": "cex_small_cap",
+      "id": "audacity",
+      "symbol": "DACITYCOIN",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/audacity",
+      "qty": 814.1024963243404,
+      "entry_price_eur": 0.00705309999246983,
+      "entry_ts": 1794936093.482531,
+      "cost_eur": 5.741946310694875,
+      "last_price_eur": 0.00705309999246983,
+      "last_score": 76.6,
+      "missed_updates": 0,
+      "entry_market_cap": 7540684,
+      "entry_venue": "PumpSwap (on-chain)",
+      "entry_contract_address": null,
+      "entry_score": 76.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 3195861,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 2.3196,
+      "entry_chg_24h": 115.10766,
+      "entry_chg_7d": 67.213,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.42381579708153794,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2784,8 +2870,8 @@
       "pnl_pct": -9.028693386749973
     }
   ],
-  "last_run_ts": 1794935743.6915324,
-  "last_eur_rate": 0.9078749954771367,
+  "last_run_ts": 1794936093.482531,
+  "last_eur_rate": 0.9075620078118749,
   "last_rotation_ts": 1794823377.1971238,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
