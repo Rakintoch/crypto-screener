@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 56.293833255188595,
+  "cash_eur": 38.420808750934945,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:myshell": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.025052658513563388,
       "entry_ts": 1794839932.3446496,
       "cost_eur": 13.156155458666563,
-      "last_price_eur": 0.023927546442230867,
-      "last_score": 52.4,
+      "last_price_eur": 0.024018520454475157,
+      "last_score": 61.3,
       "missed_updates": 0,
       "entry_market_cap": 7445713,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7117968
+      "last_market_cap": 7146950
     },
     "cex_small_cap:momentum-3": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.12620829549234275,
       "entry_ts": 1794936093.482531,
       "cost_eur": 12.304170665774732,
-      "last_price_eur": 0.13070421018776204,
-      "last_score": 93.7,
+      "last_price_eur": 0.1265152823713569,
+      "last_score": 73.5,
       "missed_updates": 0,
       "entry_market_cap": 28382131,
       "entry_venue": "Binance",
@@ -91,7 +91,81 @@
           "source": "Blockchain News"
         }
       ],
-      "last_market_cap": 29391108
+      "last_market_cap": 28602110
+    },
+    "cex_small_cap:claudia-2": {
+      "tier": "cex_small_cap",
+      "id": "claudia-2",
+      "symbol": "CLAUDIA",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/claudia-2",
+      "qty": 1092.7336885451275,
+      "entry_price_eur": 0.005204261104773985,
+      "entry_ts": 1794938628.8793128,
+      "cost_eur": 5.686871433171617,
+      "last_price_eur": 0.005204261104773985,
+      "last_score": 84.0,
+      "missed_updates": 0,
+      "entry_market_cap": 5424420,
+      "entry_venue": "PumpSwap (on-chain)",
+      "entry_contract_address": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM (Solana)",
+      "entry_score": 84.0,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 6280024,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 3.1963,
+      "entry_chg_24h": 32.11862,
+      "entry_chg_7d": 13.8774,
+      "entry_chg_6h": null,
+      "entry_turnover": 1.1577318865427086,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
+    },
+    "cex_small_cap:aeon-2": {
+      "tier": "cex_small_cap",
+      "id": "aeon-2",
+      "symbol": "AEON",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/aeon-2",
+      "qty": 919162.446242311,
+      "entry_price_eur": 1.325788833181888e-05,
+      "entry_ts": 1794938628.8793128,
+      "cost_eur": 12.186153071082034,
+      "last_price_eur": 1.325788833181888e-05,
+      "last_score": 80.7,
+      "missed_updates": 0,
+      "entry_market_cap": 1460525,
+      "entry_venue": "LBank",
+      "entry_contract_address": "0xbf8e8f0e8866a7052f948c16508644347c57aba3 (Base)",
+      "entry_score": 80.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 1234511,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 6.3352,
+      "entry_chg_24h": 32.40643,
+      "entry_chg_7d": -18.3403,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.8452515362626453,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "partnership"
+      ],
+      "entry_catalyst_score": 0.1,
+      "entry_catalyst_headlines": [
+        {
+          "title": "AEON Pay Integrates Apertum Blockchain, Bringing $APTM to Global Mobile Payments Adoption - Decrypt",
+          "ts": 1793170800.0,
+          "source": "Decrypt"
+        }
+      ]
     }
   },
   "closed_trades": [
@@ -2878,8 +2952,8 @@
       "pnl_pct": -11.152938080660409
     }
   ],
-  "last_run_ts": 1794938121.0074644,
-  "last_eur_rate": 0.9076240056925152,
+  "last_run_ts": 1794938628.8793128,
+  "last_eur_rate": 0.9074530001244955,
   "last_rotation_ts": 1794823377.1971238,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
