@@ -14356,5 +14356,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "UP (cex_small_cap) lost -9.0% in 112 min (fast (1-6h)) — stop-loss hit. Entry score: 85 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794938121.0074644,
+    "symbol": "DACITYCOIN",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/audacity",
+    "held_minutes": 33.8,
+    "exit_reason": "stop-loss hit (-11.2%)",
+    "pnl_pct": -11.15,
+    "pnl_eur": -0.64,
+    "entry_score": 76.6,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 3195861,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 2.3196,
+    "entry_chg_24h": 115.10766,
+    "entry_chg_7d": 67.213,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.42381579708153794,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "very fast (<1h)",
+    "licao": "DACITYCOIN (cex_small_cap) lost -11.2% in 34 min (very fast (<1h)) — stop-loss hit. Entry score: 77 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
