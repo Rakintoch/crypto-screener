@@ -160,8 +160,8 @@
     "symbol": "HMM"
   },
   "cex_small_cap:myshell": {
-    "last_alert_ts": 1794837769.4872622,
-    "last_score": 88.9,
+    "last_alert_ts": 1794881013.1871061,
+    "last_score": 63.2,
     "symbol": "SHELL"
   },
   "cex_small_cap:tac": {
@@ -188,26 +188,6 @@
     "last_alert_ts": 1794859398.4500592,
     "last_score": 58.4,
     "symbol": "PRIORS"
-  },
-  "cex_small_cap:for-sale": {
-    "last_alert_ts": 1794614621.562352,
-    "last_score": 93.5,
-    "symbol": "SN47"
-  },
-  "cex_small_cap:berachain-bera": {
-    "last_alert_ts": 1794621791.7048326,
-    "last_score": 87.3,
-    "symbol": "BERA"
-  },
-  "cex_small_cap:bluefin": {
-    "last_alert_ts": 1794616787.300024,
-    "last_score": 58.5,
-    "symbol": "BLUE"
-  },
-  "cex_small_cap:ava-ai": {
-    "last_alert_ts": 1794621791.7048326,
-    "last_score": 59.1,
-    "symbol": "AVA"
   },
   "cex_small_cap:super-iguana": {
     "last_alert_ts": 1794636206.6735027,
@@ -255,8 +235,8 @@
     "symbol": "AIA"
   },
   "cex_small_cap:evaa-protocol": {
-    "last_alert_ts": 1794866605.7046046,
-    "last_score": 76.9,
+    "last_alert_ts": 1794881013.1871061,
+    "last_score": 92.1,
     "symbol": "EVAA"
   },
   "cex_small_cap:node-2": {
@@ -285,8 +265,8 @@
     "symbol": "GATO"
   },
   "cex_small_cap:polyswarm": {
-    "last_alert_ts": 1794781668.0793643,
-    "last_score": 67.8,
+    "last_alert_ts": 1794881013.1871061,
+    "last_score": 72.3,
     "symbol": "NCT"
   },
   "cex_small_cap:wasted-3": {
@@ -678,5 +658,25 @@
     "last_alert_ts": 1794866605.7046046,
     "last_score": 85.3,
     "symbol": "DACITYCOIN"
+  },
+  "cex_small_cap:bulla-3": {
+    "last_alert_ts": 1794881013.1871061,
+    "last_score": 63.7,
+    "symbol": "BULLA"
+  },
+  "cex_small_cap:cambria": {
+    "last_alert_ts": 1794881013.1871061,
+    "last_score": 61.6,
+    "symbol": "RSGP"
+  },
+  "cex_small_cap:momentum-3": {
+    "last_alert_ts": 1794881013.1871061,
+    "last_score": 57.8,
+    "symbol": "MMT"
+  },
+  "cex_small_cap:sanctum-2": {
+    "last_alert_ts": 1794881013.1871061,
+    "last_score": 56.5,
+    "symbol": "SANC"
   }
 }
