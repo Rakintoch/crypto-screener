@@ -10,13 +10,13 @@
     "symbol": "REGENT"
   },
   "cex_small_cap:aria-ai": {
-    "last_alert_ts": 1794859398.4500592,
-    "last_score": 62.2,
+    "last_alert_ts": 1794909806.1575816,
+    "last_score": 83.2,
     "symbol": "ARIA"
   },
   "cex_small_cap:direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794839931.7941988,
-    "last_score": 57.8,
+    "last_alert_ts": 1794909806.1575816,
+    "last_score": 73.1,
     "symbol": "SOXSB"
   },
   "cex_small_cap:semicon-bull-3x-etf-bstocks-tokenized-stock": {
@@ -78,11 +78,6 @@
     "last_alert_ts": 1794888171.4632747,
     "last_score": 71.3,
     "symbol": "SOPH"
-  },
-  "cex_small_cap:orbs": {
-    "last_alert_ts": 1794650605.1173136,
-    "last_score": 65.5,
-    "symbol": "ORBS"
   },
   "cex_small_cap:micron-technology-inc-coinbase-tokenized-stock": {
     "last_alert_ts": 1794787383.2769873,
@@ -183,11 +178,6 @@
     "last_alert_ts": 1794722601.8235486,
     "last_score": 96.0,
     "symbol": "DOPE"
-  },
-  "cex_small_cap:audius": {
-    "last_alert_ts": 1794650605.1173136,
-    "last_score": 56.3,
-    "symbol": "AUDIO"
   },
   "cex_small_cap:bless-2": {
     "last_alert_ts": 1794866605.7046046,
@@ -320,8 +310,8 @@
     "symbol": "GAINS"
   },
   "cex_small_cap:vine": {
-    "last_alert_ts": 1794837769.4872622,
-    "last_score": 90.0,
+    "last_alert_ts": 1794909806.1575816,
+    "last_score": 71.2,
     "symbol": "VINE"
   },
   "cex_small_cap:casper-network": {
@@ -580,8 +570,8 @@
     "symbol": "ONE"
   },
   "cex_small_cap:pha": {
-    "last_alert_ts": 1794845025.7825627,
-    "last_score": 56.8,
+    "last_alert_ts": 1794909806.1575816,
+    "last_score": 70.1,
     "symbol": "PHA"
   },
   "cex_small_cap:allinu": {
@@ -625,8 +615,8 @@
     "symbol": "WIGGLES"
   },
   "cex_small_cap:audacity": {
-    "last_alert_ts": 1794866605.7046046,
-    "last_score": 85.3,
+    "last_alert_ts": 1794909806.1575816,
+    "last_score": 62.8,
     "symbol": "DACITYCOIN"
   },
   "cex_small_cap:bulla-3": {
@@ -673,5 +663,15 @@
     "last_alert_ts": 1794898702.809563,
     "last_score": 71.4,
     "symbol": "龙虾"
+  },
+  "cex_small_cap:sentismai": {
+    "last_alert_ts": 1794909806.1575816,
+    "last_score": 81.7,
+    "symbol": "SENTIS"
+  },
+  "cex_small_cap:superform": {
+    "last_alert_ts": 1794909806.1575816,
+    "last_score": 69.3,
+    "symbol": "UP"
   }
 }
