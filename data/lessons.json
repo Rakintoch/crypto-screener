@@ -14275,5 +14275,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "SPACE (cex_small_cap) lost -8.0% in 551 min (slow (>6h)) — stop-loss hit. Entry score: 80 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794920462.0758865,
+    "symbol": "UP",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/unitas",
+    "held_minutes": 2652.8,
+    "exit_reason": "momentum thesis invalidated (score dropped to 24)",
+    "pnl_pct": -0.18,
+    "pnl_eur": -0.01,
+    "entry_score": 80.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 26736867,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 4.1176,
+    "entry_chg_24h": 12.28272,
+    "entry_chg_7d": 67.4974,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.7178264385461587,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "momentum thesis invalidated (score dropped)",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "UP (cex_small_cap) lost -0.2% in 2653 min (slow (>6h)) — momentum thesis invalidated (score dropped). Entry score: 81 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
