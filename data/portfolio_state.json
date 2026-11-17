@@ -15,8 +15,8 @@
       "entry_price_eur": 0.15690011061965733,
       "entry_ts": 1794761296.2295227,
       "cost_eur": 6.052682195910093,
-      "last_price_eur": 0.17242226339148448,
-      "last_score": 35.0,
+      "last_price_eur": 0.1723719468304599,
+      "last_score": 33.8,
       "missed_updates": 0,
       "entry_market_cap": 37246980,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 40939485
+      "last_market_cap": 40990118
     },
     "cex_small_cap:myshell": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.025052658513563388,
       "entry_ts": 1794839932.3446496,
       "cost_eur": 13.156155458666563,
-      "last_price_eur": 0.025162824882389915,
-      "last_score": 66.7,
+      "last_price_eur": 0.024997922276464035,
+      "last_score": 66.0,
       "missed_updates": 0,
       "entry_market_cap": 7445713,
       "entry_venue": "Binance",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7468256
+      "last_market_cap": 7417527
     },
     "cex_small_cap:evaa-protocol": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 3.3329545304507393,
       "entry_ts": 1794895387.1262653,
       "cost_eur": 12.598517629176566,
-      "last_price_eur": 3.67523646873452,
-      "last_score": 63.1,
+      "last_price_eur": 3.5850729821102107,
+      "last_score": 61.0,
       "missed_updates": 0,
       "entry_market_cap": 24292255,
       "entry_venue": "Gate",
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 26705584
+      "last_market_cap": 26084842
     }
   },
   "closed_trades": [
@@ -2690,8 +2690,8 @@
       "pnl_pct": -8.010365811536989
     }
   ],
-  "last_run_ts": 1794910825.3919268,
-  "last_eur_rate": 0.9097119972115149,
+  "last_run_ts": 1794911118.438988,
+  "last_eur_rate": 0.9099170005355866,
   "last_rotation_ts": 1794823377.1971238,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
