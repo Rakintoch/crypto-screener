@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 38.420808750934945,
+  "cash_eur": 53.72006778844416,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:myshell": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.025052658513563388,
       "entry_ts": 1794839932.3446496,
       "cost_eur": 13.156155458666563,
-      "last_price_eur": 0.023789153549574248,
-      "last_score": 49.2,
+      "last_price_eur": 0.02377148422805083,
+      "last_score": 48.1,
       "missed_updates": 0,
       "entry_market_cap": 7445713,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7070170
+      "last_market_cap": 7064271
     },
     "cex_small_cap:momentum-3": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.12620829549234275,
       "entry_ts": 1794936093.482531,
       "cost_eur": 12.304170665774732,
-      "last_price_eur": 0.1270820243590782,
-      "last_score": 73.8,
+      "last_price_eur": 0.12648944461521844,
+      "last_score": 73.9,
       "missed_updates": 0,
       "entry_market_cap": 28382131,
       "entry_venue": "Binance",
@@ -91,7 +91,7 @@
           "source": "Blockchain News"
         }
       ],
-      "last_market_cap": 28549968
+      "last_market_cap": 28414217
     },
     "cex_small_cap:claudia-2": {
       "tier": "cex_small_cap",
@@ -103,7 +103,7 @@
       "entry_price_eur": 0.005204261104773985,
       "entry_ts": 1794938628.8793128,
       "cost_eur": 5.686871433171617,
-      "last_price_eur": 0.005095936031011961,
+      "last_price_eur": 0.0050912773731924535,
       "last_score": 73.1,
       "missed_updates": 0,
       "entry_market_cap": 5424420,
@@ -125,51 +125,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 5307627
-    },
-    "cex_small_cap:aeon-2": {
-      "tier": "cex_small_cap",
-      "id": "aeon-2",
-      "symbol": "AEON",
-      "network": null,
-      "url": "https://www.coingecko.com/en/coins/aeon-2",
-      "qty": 919162.446242311,
-      "entry_price_eur": 1.325788833181888e-05,
-      "entry_ts": 1794938628.8793128,
-      "cost_eur": 12.186153071082034,
-      "last_price_eur": 1.6970312864335566e-05,
-      "last_score": 89.7,
-      "missed_updates": 0,
-      "entry_market_cap": 1460525,
-      "entry_venue": "LBank",
-      "entry_contract_address": "0xbf8e8f0e8866a7052f948c16508644347c57aba3 (Base)",
-      "entry_score": 80.7,
-      "entry_liquidity_usd": null,
-      "entry_volume_24h_usd": 1234511,
-      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
-      "entry_chg_1h": 6.3352,
-      "entry_chg_24h": 32.40643,
-      "entry_chg_7d": -18.3403,
-      "entry_chg_6h": null,
-      "entry_turnover": 0.8452515362626453,
-      "entry_vol_liq_ratio": null,
-      "entry_boosted": null,
-      "entry_pool_age_minutes": null,
-      "entry_base_breakout": null,
-      "entry_catalyst_tags": [
-        "partnership"
-      ],
-      "entry_catalyst_score": 0.1,
-      "entry_catalyst_headlines": [
-        {
-          "title": "AEON Pay Integrates Apertum Blockchain, Bringing $APTM to Global Mobile Payments Adoption - Decrypt",
-          "ts": 1793170800.0,
-          "source": "Decrypt"
-        }
-      ],
-      "last_market_cap": 1868278,
-      "trailing_active": true,
-      "trailing_peak_eur": 1.7741071531459407e-05
+      "last_market_cap": 5302293
     }
   },
   "closed_trades": [
@@ -2954,10 +2910,60 @@
       "proceeds_eur": 5.101550594038311,
       "pnl_eur": -0.6403957166565641,
       "pnl_pct": -11.152938080660409
+    },
+    {
+      "tier": "cex_small_cap",
+      "id": "aeon-2",
+      "symbol": "AEON",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/aeon-2",
+      "qty": 919162.446242311,
+      "entry_price_eur": 1.325788833181888e-05,
+      "entry_ts": 1794938628.8793128,
+      "cost_eur": 12.186153071082034,
+      "last_price_eur": 1.6644782540948153e-05,
+      "last_score": 89.7,
+      "missed_updates": 0,
+      "entry_market_cap": 1460525,
+      "entry_venue": "LBank",
+      "entry_contract_address": "0xbf8e8f0e8866a7052f948c16508644347c57aba3 (Base)",
+      "entry_score": 80.7,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 1234511,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 6.3352,
+      "entry_chg_24h": 32.40643,
+      "entry_chg_7d": -18.3403,
+      "entry_chg_6h": null,
+      "entry_turnover": 0.8452515362626453,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [
+        "partnership"
+      ],
+      "entry_catalyst_score": 0.1,
+      "entry_catalyst_headlines": [
+        {
+          "title": "AEON Pay Integrates Apertum Blockchain, Bringing $APTM to Global Mobile Payments Adoption - Decrypt",
+          "ts": 1793170800.0,
+          "source": "Decrypt"
+        }
+      ],
+      "last_market_cap": 1831687,
+      "trailing_active": true,
+      "trailing_peak_eur": 1.7741071531459407e-05,
+      "exit_price_eur": 1.6644782540948153e-05,
+      "exit_ts": 1794946543.7218156,
+      "exit_reason": "trailing stop hit — dropped 6.2% from the peak (peak +33.8% since entry)",
+      "proceeds_eur": 15.299259037509215,
+      "pnl_eur": 3.113105966427181,
+      "pnl_pct": 25.54625687260272
     }
   ],
-  "last_run_ts": 1794946236.129561,
-  "last_eur_rate": 0.90847499273745,
+  "last_run_ts": 1794946543.7218156,
+  "last_eur_rate": 0.908557998960052,
   "last_rotation_ts": 1794823377.1971238,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
