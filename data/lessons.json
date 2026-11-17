@@ -14329,5 +14329,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "EVAA (cex_small_cap) lost -10.2% in 517 min (slow (>6h)) — stop-loss hit. Entry score: 96 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794930920.9188027,
+    "symbol": "UP",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/superform",
+    "held_minutes": 112.2,
+    "exit_reason": "stop-loss hit (-9.0%)",
+    "pnl_pct": -9.03,
+    "pnl_eur": -1.09,
+    "entry_score": 85.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 16651451,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 9.2607,
+    "entry_chg_24h": 22.42649,
+    "entry_chg_7d": -2.9505,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.1811695979109946,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "UP (cex_small_cap) lost -9.0% in 112 min (fast (1-6h)) — stop-loss hit. Entry score: 85 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
