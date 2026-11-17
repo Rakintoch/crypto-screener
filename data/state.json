@@ -39,11 +39,6 @@
     "last_score": 59.8,
     "symbol": "ONE"
   },
-  "cex_small_cap:bubblemaps": {
-    "last_alert_ts": 1794629007.3191068,
-    "last_score": 79.6,
-    "symbol": "BMT"
-  },
   "cex_small_cap:cyberleek": {
     "last_alert_ts": 1794708178.8775263,
     "last_score": 55.3,
@@ -205,8 +200,8 @@
     "symbol": "NAORIS"
   },
   "cex_small_cap:janction": {
-    "last_alert_ts": 1794830581.5109468,
-    "last_score": 81.3,
+    "last_alert_ts": 1794895386.5166864,
+    "last_score": 63.6,
     "symbol": "JCT"
   },
   "cex_small_cap:doge-pepe": {
@@ -595,13 +590,13 @@
     "symbol": "OMG"
   },
   "cex_small_cap:interfold": {
-    "last_alert_ts": 1794839931.7941988,
-    "last_score": 82.8,
+    "last_alert_ts": 1794895386.5166864,
+    "last_score": 57.1,
     "symbol": "FOLD"
   },
   "cex_small_cap:huma-finance": {
-    "last_alert_ts": 1794845025.7825627,
-    "last_score": 83.0,
+    "last_alert_ts": 1794895386.5166864,
+    "last_score": 58.6,
     "symbol": "HUMA"
   },
   "cex_small_cap:cross-2": {
@@ -693,5 +688,10 @@
     "last_alert_ts": 1794888171.4632747,
     "last_score": 58.4,
     "symbol": "LAB"
+  },
+  "cex_small_cap:claudia-2": {
+    "last_alert_ts": 1794895386.5166864,
+    "last_score": 60.9,
+    "symbol": "CLAUDIA"
   }
 }
