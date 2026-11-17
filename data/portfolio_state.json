@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 52.00618270889676,
+  "cash_eur": 39.59047502332475,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:unitas": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.15690011061965733,
       "entry_ts": 1794761296.2295227,
       "cost_eur": 6.052682195910093,
-      "last_price_eur": 0.16265317612189642,
-      "last_score": 46.3,
+      "last_price_eur": 0.16291710693036673,
+      "last_score": 46.1,
       "missed_updates": 0,
       "entry_market_cap": 37246980,
       "entry_venue": "PancakeSwap V3 (BSC) (on-chain)",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 38713081
+      "last_market_cap": 38706117
     },
     "cex_small_cap:myshell": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.025052658513563388,
       "entry_ts": 1794839932.3446496,
       "cost_eur": 13.156155458666563,
-      "last_price_eur": 0.023589924392413142,
+      "last_price_eur": 0.023709428079402878,
       "last_score": 44.8,
       "missed_updates": 0,
       "entry_market_cap": 7445713,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7006082
+      "last_market_cap": 7041157
     },
     "cex_small_cap:superrare": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.013005192244423383,
       "entry_ts": 1794852169.078376,
       "cost_eur": 12.804072960610258,
-      "last_price_eur": 0.01231287934293876,
-      "last_score": 61.5,
+      "last_price_eur": 0.012218587550160665,
+      "last_score": 59.6,
       "missed_updates": 0,
       "entry_market_cap": 11748076,
       "entry_venue": "Binance",
@@ -105,7 +105,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11111624
+      "last_market_cap": 11026334
+    },
+    "cex_small_cap:spacecoin-2": {
+      "tier": "cex_small_cap",
+      "id": "spacecoin-2",
+      "symbol": "SPACE",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/spacecoin-2",
+      "qty": 3544.4017312775627,
+      "entry_price_eur": 0.0035029064499121627,
+      "entry_ts": 1794873566.8266225,
+      "cost_eur": 12.415707685572011,
+      "last_price_eur": 0.0035029064499121627,
+      "last_score": 79.6,
+      "missed_updates": 0,
+      "entry_market_cap": 25107968,
+      "entry_venue": "Bithumb",
+      "entry_contract_address": "0x87acfa3fd7a6e0d48677d070644d76905c2bdc00 (ETH)",
+      "entry_score": 79.6,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 195848266,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 1.2925,
+      "entry_chg_24h": 22.90498,
+      "entry_chg_7d": 31.4962,
+      "entry_chg_6h": null,
+      "entry_turnover": 7.800243572080385,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -2610,8 +2643,8 @@
       "pnl_pct": -12.142515632581677
     }
   ],
-  "last_run_ts": 1794873317.7454257,
-  "last_eur_rate": 0.9091289866016982,
+  "last_run_ts": 1794873566.8266225,
+  "last_eur_rate": 0.9091610085681339,
   "last_rotation_ts": 1794823377.1971238,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
