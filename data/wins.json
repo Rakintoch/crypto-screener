@@ -3820,5 +3820,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "BLESS (cex_small_cap) gained +35.9% in 262 min — trailing stop caught extra upside after the target. Entry score: 77. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794929124.6964865,
+    "symbol": "BREV",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/brevis",
+    "held_minutes": 82.3,
+    "exit_reason": "trailing stop hit — dropped 5.1% from the peak (peak +30.1% since entry)",
+    "pnl_pct": 23.5,
+    "pnl_eur": 2.85,
+    "entry_score": 88.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 29387491,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 16.9906,
+    "entry_chg_24h": 72.58579,
+    "entry_chg_7d": -1.6486,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.190180372067812,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "BREV (cex_small_cap) gained +23.5% in 82 min — trailing stop caught extra upside after the target. Entry score: 88. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
