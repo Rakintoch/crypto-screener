@@ -15,7 +15,7 @@
       "entry_price_eur": 0.025052658513563388,
       "entry_ts": 1794839932.3446496,
       "cost_eur": 13.156155458666563,
-      "last_price_eur": 0.02383683365088178,
+      "last_price_eur": 0.02384710980265243,
       "last_score": 61.9,
       "missed_updates": 0,
       "entry_market_cap": 7445713,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7089194
+      "last_market_cap": 7091876
     },
     "cex_small_cap:momentum-3": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 0.12620829549234275,
       "entry_ts": 1794936093.482531,
       "cost_eur": 12.304170665774732,
-      "last_price_eur": 0.13299774184807012,
+      "last_price_eur": 0.13241271336029659,
       "last_score": 73.9,
       "missed_updates": 0,
       "entry_market_cap": 28382131,
@@ -91,7 +91,7 @@
           "source": "Blockchain News"
         }
       ],
-      "last_market_cap": 29899274
+      "last_market_cap": 29768265
     },
     "cex_small_cap:claudia-2": {
       "tier": "cex_small_cap",
@@ -103,8 +103,8 @@
       "entry_price_eur": 0.005204261104773985,
       "entry_ts": 1794938628.8793128,
       "cost_eur": 5.686871433171617,
-      "last_price_eur": 0.004991521084523132,
-      "last_score": 83.7,
+      "last_price_eur": 0.004998401955274099,
+      "last_score": 83.8,
       "missed_updates": 0,
       "entry_market_cap": 5424420,
       "entry_venue": "PumpSwap (on-chain)",
@@ -125,7 +125,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 5202439
+      "last_market_cap": 5208985
     },
     "cex_small_cap:aeon-2": {
       "tier": "cex_small_cap",
@@ -137,7 +137,7 @@
       "entry_price_eur": 1.325788833181888e-05,
       "entry_ts": 1794938628.8793128,
       "cost_eur": 12.186153071082034,
-      "last_price_eur": 1.3445303021699547e-05,
+      "last_price_eur": 1.341161795267981e-05,
       "last_score": 80.7,
       "missed_updates": 0,
       "entry_market_cap": 1460525,
@@ -167,7 +167,7 @@
           "source": "Decrypt"
         }
       ],
-      "last_market_cap": 1480663
+      "last_market_cap": 1476927
     }
   },
   "closed_trades": [
@@ -2954,8 +2954,8 @@
       "pnl_pct": -11.152938080660409
     }
   ],
-  "last_run_ts": 1794940520.5922132,
-  "last_eur_rate": 0.9078530061917317,
+  "last_run_ts": 1794940824.9797602,
+  "last_eur_rate": 0.9080310055978206,
   "last_rotation_ts": 1794823377.1971238,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
