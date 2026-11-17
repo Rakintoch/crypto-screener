@@ -15,7 +15,7 @@
       "entry_price_eur": 0.025052658513563388,
       "entry_ts": 1794839932.3446496,
       "cost_eur": 13.156155458666563,
-      "last_price_eur": 0.025203332088115017,
+      "last_price_eur": 0.02511674272816962,
       "last_score": 67.5,
       "missed_updates": 0,
       "entry_market_cap": 7445713,
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7474923
+      "last_market_cap": 7497757
     },
     "cex_small_cap:momentum-3": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.12620829549234275,
       "entry_ts": 1794936093.482531,
       "cost_eur": 12.304170665774732,
-      "last_price_eur": 0.12602120643054784,
-      "last_score": 69.1,
+      "last_price_eur": 0.1275161008477404,
+      "last_score": 69.5,
       "missed_updates": 0,
       "entry_market_cap": 28382131,
       "entry_venue": "Binance",
@@ -91,7 +91,7 @@
           "source": "Blockchain News"
         }
       ],
-      "last_market_cap": 28279091
+      "last_market_cap": 28627014
     },
     "cex_small_cap:claudia-2": {
       "tier": "cex_small_cap",
@@ -103,7 +103,7 @@
       "entry_price_eur": 0.005204261104773985,
       "entry_ts": 1794938628.8793128,
       "cost_eur": 5.686871433171617,
-      "last_price_eur": 0.005309388976892108,
+      "last_price_eur": 0.005229781972721742,
       "last_score": 90.5,
       "missed_updates": 0,
       "entry_market_cap": 5424420,
@@ -125,7 +125,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 5525614
+      "last_market_cap": 5443145
     }
   },
   "closed_trades": [
@@ -2962,8 +2962,8 @@
       "pnl_pct": 25.54625687260272
     }
   ],
-  "last_run_ts": 1794954026.740212,
-  "last_eur_rate": 0.9091979945496824,
+  "last_run_ts": 1794954332.6390462,
+  "last_eur_rate": 0.9091019979734248,
   "last_rotation_ts": 1794823377.1971238,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
