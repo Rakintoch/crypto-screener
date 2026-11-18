@@ -190,8 +190,8 @@
     "symbol": "GATO"
   },
   "cex_small_cap:polyswarm": {
-    "last_alert_ts": 1794881013.1871061,
-    "last_score": 72.3,
+    "last_alert_ts": 1794960184.5378013,
+    "last_score": 55.0,
     "symbol": "NCT"
   },
   "cex_small_cap:wasted-3": {
@@ -285,8 +285,8 @@
     "symbol": "CSPR"
   },
   "cex_small_cap:superrare": {
-    "last_alert_ts": 1794866605.7046046,
-    "last_score": 67.5,
+    "last_alert_ts": 1794960184.5378013,
+    "last_score": 55.8,
     "symbol": "RARE"
   },
   "cex_small_cap:ket-3": {
@@ -630,8 +630,8 @@
     "symbol": "龙虾"
   },
   "cex_small_cap:sentismai": {
-    "last_alert_ts": 1794909806.1575816,
-    "last_score": 81.7,
+    "last_alert_ts": 1794960184.5378013,
+    "last_score": 76.2,
     "symbol": "SENTIS"
   },
   "cex_small_cap:superform": {
@@ -813,5 +813,20 @@
     "last_alert_ts": 1794952989.4015841,
     "last_score": 55.2,
     "symbol": "AMD"
+  },
+  "cex_small_cap:bone-shibaswap": {
+    "last_alert_ts": 1794960184.5378013,
+    "last_score": 71.5,
+    "symbol": "BONE"
+  },
+  "cex_small_cap:nebius-bstocks-tokenized-stock": {
+    "last_alert_ts": 1794960184.5378013,
+    "last_score": 56.9,
+    "symbol": "NBISB"
+  },
+  "cex_small_cap:sk-hynix-bstocks-tokenized-stock": {
+    "last_alert_ts": 1794960184.5378013,
+    "last_score": 56.6,
+    "symbol": "SKHYB"
   }
 }
