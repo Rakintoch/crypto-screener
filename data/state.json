@@ -74,11 +74,6 @@
     "last_score": 66.6,
     "symbol": "MIHAO"
   },
-  "cex_small_cap:dodo": {
-    "last_alert_ts": 1794732451.8623767,
-    "last_score": 60.7,
-    "symbol": "DODO"
-  },
   "cex_small_cap:lmao": {
     "last_alert_ts": 1794823376.7678454,
     "last_score": 58.5,
@@ -440,8 +435,8 @@
     "symbol": "MAX"
   },
   "cex_small_cap:manadia": {
-    "last_alert_ts": 1794916998.8578315,
-    "last_score": 56.1,
+    "last_alert_ts": 1794994940.0663004,
+    "last_score": 83.0,
     "symbol": "UMXM"
   },
   "cex_small_cap:based-one": {
@@ -605,8 +600,8 @@
     "symbol": "SOXLON"
   },
   "cex_small_cap:swarms": {
-    "last_alert_ts": 1794916998.8578315,
-    "last_score": 64.3,
+    "last_alert_ts": 1794994940.0663004,
+    "last_score": 57.3,
     "symbol": "SWARMS"
   },
   "cex_small_cap:act-i-the-ai-prophecy": {
@@ -808,5 +803,20 @@
     "last_alert_ts": 1794989005.2687624,
     "last_score": 61.9,
     "symbol": "KAVA"
+  },
+  "cex_small_cap:boundless": {
+    "last_alert_ts": 1794994940.0663004,
+    "last_score": 92.0,
+    "symbol": "ZKC"
+  },
+  "cex_small_cap:usd-coinvertible": {
+    "last_alert_ts": 1794994940.0663004,
+    "last_score": 63.0,
+    "symbol": "USDCV"
+  },
+  "cex_small_cap:enso": {
+    "last_alert_ts": 1794994940.0663004,
+    "last_score": 56.1,
+    "symbol": "ENSO"
   }
 }
