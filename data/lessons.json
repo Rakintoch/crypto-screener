@@ -14464,5 +14464,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "fast (1-6h)",
     "licao": "ZKC (cex_small_cap) lost -10.8% in 163 min (fast (1-6h)) — stop-loss hit. Entry score: 92 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1795006854.4376252,
+    "symbol": "ZKP",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/zkpass",
+    "held_minutes": 417.8,
+    "exit_reason": "stop-loss hit (-8.2%)",
+    "pnl_pct": -8.25,
+    "pnl_eur": -1.08,
+    "entry_score": 91.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 16642793,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 16.057,
+    "entry_chg_24h": 23.69579,
+    "entry_chg_7d": 11.8501,
+    "entry_chg_6h": null,
+    "entry_turnover": 2.1984289418982996,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "slow (>6h)",
+    "licao": "ZKP (cex_small_cap) lost -8.2% in 418 min (slow (>6h)) — stop-loss hit. Entry score: 91 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
