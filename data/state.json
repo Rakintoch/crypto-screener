@@ -50,8 +50,8 @@
     "symbol": "INIT"
   },
   "cex_small_cap:sophon": {
-    "last_alert_ts": 1794888171.4632747,
-    "last_score": 71.3,
+    "last_alert_ts": 1795027066.9202442,
+    "last_score": 61.6,
     "symbol": "SOPH"
   },
   "cex_small_cap:micron-technology-inc-coinbase-tokenized-stock": {
@@ -105,8 +105,8 @@
     "symbol": "TAC"
   },
   "cex_small_cap:knots": {
-    "last_alert_ts": 1794938628.2094667,
-    "last_score": 57.3,
+    "last_alert_ts": 1795027066.9202442,
+    "last_score": 61.2,
     "symbol": "KNOTS"
   },
   "cex_small_cap:forever-2": {
@@ -235,8 +235,8 @@
     "symbol": "BATON"
   },
   "cex_small_cap:super-inu-2": {
-    "last_alert_ts": 1794772960.8295631,
-    "last_score": 66.4,
+    "last_alert_ts": 1795027066.9202442,
+    "last_score": 55.1,
     "symbol": "SI"
   },
   "cex_small_cap:altseason": {
@@ -275,8 +275,8 @@
     "symbol": "UBIK"
   },
   "cex_small_cap:direxion-mu-bull-2x-etf-bstocks-tokenized-stock": {
-    "last_alert_ts": 1794952989.4015841,
-    "last_score": 59.4,
+    "last_alert_ts": 1795027066.9202442,
+    "last_score": 56.4,
     "symbol": "MUUB"
   },
   "cex_small_cap:nvidia-coinbase-tokenized-stock": {
@@ -520,13 +520,13 @@
     "symbol": "SANC"
   },
   "cex_small_cap:dogwifjob": {
-    "last_alert_ts": 1794952989.4015841,
-    "last_score": 55.0,
+    "last_alert_ts": 1795027066.9202442,
+    "last_score": 55.5,
     "symbol": "JOB"
   },
   "cex_small_cap:aeon-2": {
-    "last_alert_ts": 1795010600.141522,
-    "last_score": 55.7,
+    "last_alert_ts": 1795027066.9202442,
+    "last_score": 78.8,
     "symbol": "AEON"
   },
   "cex_small_cap:lab": {
@@ -695,8 +695,8 @@
     "symbol": "ATM"
   },
   "cex_small_cap:direxion-daily-semiconductor-bull-3x-shares-etf-rstock": {
-    "last_alert_ts": 1794952989.4015841,
-    "last_score": 64.2,
+    "last_alert_ts": 1795027066.9202442,
+    "last_score": 58.5,
     "symbol": "RSOXL"
   },
   "cex_small_cap:jotchua": {
@@ -725,8 +725,8 @@
     "symbol": "RNVDA"
   },
   "cex_small_cap:amd-robinhood-tokenized-stock": {
-    "last_alert_ts": 1794952989.4015841,
-    "last_score": 55.2,
+    "last_alert_ts": 1795027066.9202442,
+    "last_score": 60.0,
     "symbol": "AMD"
   },
   "cex_small_cap:bone-shibaswap": {
@@ -760,8 +760,8 @@
     "symbol": "ZIL"
   },
   "cex_small_cap:pippin": {
-    "last_alert_ts": 1794989005.2687624,
-    "last_score": 80.6,
+    "last_alert_ts": 1795027066.9202442,
+    "last_score": 99.1,
     "symbol": "PIPPIN"
   },
   "cex_small_cap:zora": {
@@ -858,5 +858,30 @@
     "last_alert_ts": 1795025002.9733503,
     "last_score": 55.2,
     "symbol": "CYBERLEEK"
+  },
+  "cex_small_cap:advanced-micro-devices-rstock": {
+    "last_alert_ts": 1795027066.9202442,
+    "last_score": 58.1,
+    "symbol": "RAMD"
+  },
+  "cex_small_cap:amd-ondo-tokenized-stock": {
+    "last_alert_ts": 1795027066.9202442,
+    "last_score": 56.9,
+    "symbol": "AMDON"
+  },
+  "cex_small_cap:cel-ai": {
+    "last_alert_ts": 1795027066.9202442,
+    "last_score": 56.4,
+    "symbol": "SN127"
+  },
+  "cex_small_cap:whuffie": {
+    "last_alert_ts": 1795027066.9202442,
+    "last_score": 55.2,
+    "symbol": "WHUF"
+  },
+  "cex_small_cap:amazon-coinbase-tokenized-stock": {
+    "last_alert_ts": 1795027066.9202442,
+    "last_score": 55.0,
+    "symbol": "AMZNC"
   }
 }
