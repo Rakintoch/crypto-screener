@@ -14491,5 +14491,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "slow (>6h)",
     "licao": "ZKP (cex_small_cap) lost -8.2% in 418 min (slow (>6h)) — stop-loss hit. Entry score: 91 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1795030827.3868725,
+    "symbol": "PIPPIN",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/pippin",
+    "held_minutes": 62.7,
+    "exit_reason": "stop-loss hit (-13.1%)",
+    "pnl_pct": -13.14,
+    "pnl_eur": -0.8,
+    "entry_score": 99.1,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 30088002,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 9.7007,
+    "entry_chg_24h": 95.67717,
+    "entry_chg_7d": 59.8681,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.406235838559201,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "stop-loss hit",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "PIPPIN (cex_small_cap) lost -13.1% in 63 min (fast (1-6h)) — stop-loss hit. Entry score: 99 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
