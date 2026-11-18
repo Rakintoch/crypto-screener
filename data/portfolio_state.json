@@ -15,8 +15,8 @@
       "entry_price_eur": 0.025052658513563388,
       "entry_ts": 1794839932.3446496,
       "cost_eur": 13.156155458666563,
-      "last_price_eur": 0.024096228735083106,
-      "last_score": 54.1,
+      "last_price_eur": 0.024050961439038416,
+      "last_score": 49.8,
       "missed_updates": 0,
       "entry_market_cap": 7445713,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7140157
+      "last_market_cap": 7127602
     },
     "cex_small_cap:pippin": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.019432677719283857,
       "entry_ts": 1795027067.4024732,
       "cost_eur": 6.093747535410301,
-      "last_price_eur": 0.01975718424268822,
-      "last_score": 99.1,
+      "last_price_eur": 0.01906972085026811,
+      "last_score": 91.4,
       "missed_updates": 0,
       "entry_market_cap": 21396128,
       "entry_venue": "Raydium (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 21695235
+      "last_market_cap": 20929547
     },
     "cex_small_cap:huma-finance": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.008135380806743588,
       "entry_ts": 1795027067.4024732,
       "cost_eur": 13.05803043302207,
-      "last_price_eur": 0.008195061988076943,
-      "last_score": 86.9,
+      "last_price_eur": 0.00815903238136341,
+      "last_score": 82.3,
       "missed_updates": 0,
       "entry_market_cap": 15523669,
       "entry_venue": "Binance",
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 15577270
+      "last_market_cap": 15522735
     },
     "cex_small_cap:evaa-protocol": {
       "tier": "cex_small_cap",
@@ -117,8 +117,8 @@
       "entry_price_eur": 3.661902424952941,
       "entry_ts": 1795027067.4024732,
       "cost_eur": 13.05803043302207,
-      "last_price_eur": 3.64376800914912,
-      "last_score": 81.9,
+      "last_price_eur": 3.653398707069827,
+      "last_score": 74.7,
       "missed_updates": 0,
       "entry_market_cap": 26610117,
       "entry_venue": "Gate",
@@ -139,7 +139,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 26495773
+      "last_market_cap": 26553800
     }
   },
   "closed_trades": [
@@ -3282,8 +3282,8 @@
       "pnl_pct": -8.247625467915574
     }
   ],
-  "last_run_ts": 1795028119.5424025,
-  "last_eur_rate": 0.91094200228728,
+  "last_run_ts": 1795028453.7897303,
+  "last_eur_rate": 0.911071996775518,
   "last_rotation_ts": 1794823377.1971238,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
