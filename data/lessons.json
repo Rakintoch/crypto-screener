@@ -14383,5 +14383,32 @@
     "categoria": "stop-loss hit",
     "velocidade_queda": "very fast (<1h)",
     "licao": "DACITYCOIN (cex_small_cap) lost -11.2% in 34 min (very fast (<1h)) — stop-loss hit. Entry score: 77 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794966623.7600558,
+    "symbol": "BREV",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/brevis",
+    "held_minutes": 107.3,
+    "exit_reason": "trailing stop hit — dropped 19.1% from the peak (peak +20.0% since entry)",
+    "pnl_pct": -2.89,
+    "pnl_eur": -0.37,
+    "entry_score": 78.4,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 103557404,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": -0.0111,
+    "entry_chg_24h": 100.45573,
+    "entry_chg_7d": 61.2164,
+    "entry_chg_6h": null,
+    "entry_turnover": 3.6788385776037167,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other",
+    "velocidade_queda": "fast (1-6h)",
+    "licao": "BREV (cex_small_cap) lost -2.9% in 107 min (fast (1-6h)) — other. Entry score: 78 (minimum required to buy: 65). Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
