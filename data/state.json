@@ -244,16 +244,6 @@
     "last_score": 55.3,
     "symbol": "NVDA"
   },
-  "cex_small_cap:paid": {
-    "last_alert_ts": 1794780204.0523984,
-    "last_score": 73.7,
-    "symbol": "PAID"
-  },
-  "cex_small_cap:zignaly": {
-    "last_alert_ts": 1794780204.0523984,
-    "last_score": 57.9,
-    "symbol": "ZIG"
-  },
   "cex_small_cap:proshares-ultrapro-qqq-bstocks-tokenized-stock": {
     "last_alert_ts": 1794787383.2769873,
     "last_score": 61.8,
@@ -340,8 +330,8 @@
     "symbol": "MAX"
   },
   "cex_small_cap:manadia": {
-    "last_alert_ts": 1794994940.0663004,
-    "last_score": 83.0,
+    "last_alert_ts": 1795039418.2145145,
+    "last_score": 60.7,
     "symbol": "UMXM"
   },
   "cex_small_cap:based-one": {
@@ -710,8 +700,8 @@
     "symbol": "KAVA"
   },
   "cex_small_cap:boundless": {
-    "last_alert_ts": 1794994940.0663004,
-    "last_score": 92.0,
+    "last_alert_ts": 1795039418.2145145,
+    "last_score": 67.5,
     "symbol": "ZKC"
   },
   "cex_small_cap:usd-coinvertible": {
@@ -725,8 +715,8 @@
     "symbol": "ENSO"
   },
   "cex_small_cap:impossible-cloud-network-token": {
-    "last_alert_ts": 1794996194.2329855,
-    "last_score": 71.0,
+    "last_alert_ts": 1795039418.2145145,
+    "last_score": 59.4,
     "symbol": "ICNT"
   },
   "cex_small_cap:bem-2": {
@@ -818,5 +808,20 @@
     "last_alert_ts": 1795027066.9202442,
     "last_score": 55.0,
     "symbol": "AMZNC"
+  },
+  "cex_small_cap:velvet": {
+    "last_alert_ts": 1795039418.2145145,
+    "last_score": 67.2,
+    "symbol": "VELVET"
+  },
+  "dex_micro_cap:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
+    "last_alert_ts": 1795039418.2145145,
+    "last_score": 59.9,
+    "symbol": "DCTY"
+  },
+  "cex_small_cap:particle-network": {
+    "last_alert_ts": 1795039418.2145145,
+    "last_score": 55.7,
+    "symbol": "PARTI"
   }
 }
