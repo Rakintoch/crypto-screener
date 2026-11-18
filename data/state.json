@@ -135,19 +135,14 @@
     "symbol": "JCT"
   },
   "cex_small_cap:bless-2": {
-    "last_alert_ts": 1794974600.4442475,
-    "last_score": 60.5,
+    "last_alert_ts": 1795003411.3677983,
+    "last_score": 76.4,
     "symbol": "BLESS"
   },
   "cex_small_cap:evaa-protocol": {
     "last_alert_ts": 1794981783.761777,
     "last_score": 69.4,
     "symbol": "EVAA"
-  },
-  "cex_small_cap:bob-build-on-bitcoin": {
-    "last_alert_ts": 1794736997.2522562,
-    "last_score": 55.1,
-    "symbol": "BOB"
   },
   "cex_small_cap:gato-the-cat": {
     "last_alert_ts": 1794839931.7941988,
@@ -178,11 +173,6 @@
     "last_alert_ts": 1794845025.7825627,
     "last_score": 62.7,
     "symbol": "EGL1"
-  },
-  "cex_small_cap:pocket-perps": {
-    "last_alert_ts": 1794736997.2522562,
-    "last_score": 61.5,
-    "symbol": "POCKET"
   },
   "cex_small_cap:brew": {
     "last_alert_ts": 1794924188.5720015,
@@ -290,8 +280,8 @@
     "symbol": "MICRODUCK"
   },
   "cex_small_cap:take-two-interactive-software-backpack-securities": {
-    "last_alert_ts": 1794772960.8295631,
-    "last_score": 58.9,
+    "last_alert_ts": 1795003411.3677983,
+    "last_score": 62.0,
     "symbol": "TTWO"
   },
   "cex_small_cap:alien-worlds": {
@@ -515,8 +505,8 @@
     "symbol": "TENDIES"
   },
   "cex_small_cap:heima": {
-    "last_alert_ts": 1794916998.8578315,
-    "last_score": 56.1,
+    "last_alert_ts": 1795003411.3677983,
+    "last_score": 72.5,
     "symbol": "HEI"
   },
   "dex_micro_cap:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": {
@@ -838,5 +828,15 @@
     "last_alert_ts": 1794996194.2329855,
     "last_score": 55.0,
     "symbol": "LIGHT"
+  },
+  "cex_small_cap:irys": {
+    "last_alert_ts": 1795003411.3677983,
+    "last_score": 85.5,
+    "symbol": "IRYS"
+  },
+  "cex_small_cap:collect-on-fanable": {
+    "last_alert_ts": 1795003411.3677983,
+    "last_score": 55.6,
+    "symbol": "COLLECT"
   }
 }
