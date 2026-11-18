@@ -3924,5 +3924,31 @@
     "entry_base_breakout": null,
     "categoria": "other (manual/forced exit with profit)",
     "nota": "CLAUDIA (cex_small_cap) gained +8.6% in 897 min — other (manual/forced exit with profit). Entry score: 84. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1795000225.6399548,
+    "symbol": "PIPPIN",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/pippin",
+    "held_minutes": 88.1,
+    "exit_reason": "trailing stop hit — dropped 6.3% from the peak (peak +31.6% since entry)",
+    "pnl_pct": 23.28,
+    "pnl_eur": 3.06,
+    "entry_score": 88.8,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 9689587,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 6.6839,
+    "entry_chg_24h": 48.42379,
+    "entry_chg_7d": 34.2631,
+    "entry_chg_6h": null,
+    "entry_turnover": 0.5891423430393149,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "PIPPIN (cex_small_cap) gained +23.3% in 88 min — trailing stop caught extra upside after the target. Entry score: 89. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
