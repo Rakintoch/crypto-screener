@@ -15,8 +15,8 @@
       "entry_price_eur": 0.025052658513563388,
       "entry_ts": 1794839932.3446496,
       "cost_eur": 13.156155458666563,
-      "last_price_eur": 0.02583679157063572,
-      "last_score": 63.7,
+      "last_price_eur": 0.025841379474742045,
+      "last_score": 64.2,
       "missed_updates": 0,
       "entry_market_cap": 7445713,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7655632
+      "last_market_cap": 7654288
     },
     "cex_small_cap:zkpass": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.03417921020206095,
       "entry_ts": 1794981784.4890583,
       "cost_eur": 13.106633698102067,
-      "last_price_eur": 0.035536130039714155,
-      "last_score": 91.1,
+      "last_price_eur": 0.035791578848220026,
+      "last_score": 91.2,
       "missed_updates": 0,
       "entry_market_cap": 7570312,
       "entry_venue": "Upbit",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7864714
+      "last_market_cap": 7942745
     },
     "cex_small_cap:boundless": {
       "tier": "cex_small_cap",
@@ -83,7 +83,7 @@
       "entry_price_eur": 0.031028649500411506,
       "entry_ts": 1794994940.6456196,
       "cost_eur": 13.142740643731942,
-      "last_price_eur": 0.032927181951778454,
+      "last_price_eur": 0.03179265953090466,
       "last_score": 92.0,
       "missed_updates": 0,
       "entry_market_cap": 9757933,
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10502440
+      "last_market_cap": 10096836
     },
     "cex_small_cap:pippin": {
       "tier": "cex_small_cap",
@@ -117,8 +117,8 @@
       "entry_price_eur": 0.014896823657354511,
       "entry_ts": 1794994940.6456196,
       "cost_eur": 13.142740643731942,
-      "last_price_eur": 0.015857718901981507,
-      "last_score": 89.2,
+      "last_price_eur": 0.01607358758692756,
+      "last_score": 89.5,
       "missed_updates": 0,
       "entry_market_cap": 16446937,
       "entry_venue": null,
@@ -139,7 +139,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 17401541
+      "last_market_cap": 17654107
     }
   },
   "closed_trades": [
@@ -3160,8 +3160,8 @@
       "pnl_pct": 8.582956846414726
     }
   ],
-  "last_run_ts": 1794995427.2259333,
-  "last_eur_rate": 0.9112159991393061,
+  "last_run_ts": 1794995720.7233222,
+  "last_eur_rate": 0.9114449890746027,
   "last_rotation_ts": 1794823377.1971238,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
