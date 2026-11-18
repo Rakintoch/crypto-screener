@@ -3898,5 +3898,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "MMT (cex_small_cap) gained +19.6% in 739 min — trailing stop caught extra upside after the target. Entry score: 93. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1794992455.0636814,
+    "symbol": "CLAUDIA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/claudia-2",
+    "held_minutes": 897.1,
+    "exit_reason": "momentum thesis invalidated (score dropped to 24)",
+    "pnl_pct": 8.58,
+    "pnl_eur": 0.49,
+    "entry_score": 84.0,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 6280024,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 3.1963,
+    "entry_chg_24h": 32.11862,
+    "entry_chg_7d": 13.8774,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.1577318865427086,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "other (manual/forced exit with profit)",
+    "nota": "CLAUDIA (cex_small_cap) gained +8.6% in 897 min — other (manual/forced exit with profit). Entry score: 84. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
