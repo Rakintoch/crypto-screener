@@ -15,8 +15,8 @@
       "entry_price_eur": 0.025052658513563388,
       "entry_ts": 1794839932.3446496,
       "cost_eur": 13.156155458666563,
-      "last_price_eur": 0.024930528109108854,
-      "last_score": 51.4,
+      "last_price_eur": 0.025139740917940034,
+      "last_score": 51.7,
       "missed_updates": 0,
       "entry_market_cap": 7445713,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7392868
+      "last_market_cap": 7453720
     },
     "cex_small_cap:claudia-2": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.005204261104773985,
       "entry_ts": 1794938628.8793128,
       "cost_eur": 5.686871433171617,
-      "last_price_eur": 0.005698741490776601,
-      "last_score": 51.2,
+      "last_price_eur": 0.005824581163441941,
+      "last_score": 51.6,
       "missed_updates": 0,
       "entry_market_cap": 5424420,
       "entry_venue": "PumpSwap (on-chain)",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 5922247
+      "last_market_cap": 6052050
     },
     "cex_small_cap:zkpass": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 0.03417921020206095,
       "entry_ts": 1794981784.4890583,
       "cost_eur": 13.106633698102067,
-      "last_price_eur": 0.03417921020206095,
-      "last_score": 91.1,
+      "last_price_eur": 0.036325919676897744,
+      "last_score": 92.3,
       "missed_updates": 0,
       "entry_market_cap": 7570312,
       "entry_venue": "Upbit",
@@ -104,7 +104,8 @@
       "entry_base_breakout": null,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": []
+      "entry_catalyst_headlines": [],
+      "last_market_cap": 8044503
     },
     "cex_small_cap:audacity": {
       "tier": "cex_small_cap",
@@ -116,8 +117,8 @@
       "entry_price_eur": 0.007016843148986641,
       "entry_ts": 1794981784.4890583,
       "cost_eur": 6.1164290591142985,
-      "last_price_eur": 0.007016843148986641,
-      "last_score": 87.4,
+      "last_price_eur": 0.007306591191007099,
+      "last_score": 87.8,
       "missed_updates": 0,
       "entry_market_cap": 7477665,
       "entry_venue": "PumpSwap (on-chain)",
@@ -137,7 +138,8 @@
       "entry_base_breakout": null,
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
-      "entry_catalyst_headlines": []
+      "entry_catalyst_headlines": [],
+      "last_market_cap": 7785206
     }
   },
   "closed_trades": [
@@ -3078,8 +3080,8 @@
       "pnl_pct": 19.554313561024333
     }
   ],
-  "last_run_ts": 1794981784.4890583,
-  "last_eur_rate": 0.910504993030159,
+  "last_run_ts": 1794982235.6516352,
+  "last_eur_rate": 0.9106500028051508,
   "last_rotation_ts": 1794823377.1971238,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
