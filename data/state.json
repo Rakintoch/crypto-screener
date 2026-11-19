@@ -305,8 +305,8 @@
     "symbol": "CBUCKS"
   },
   "cex_small_cap:orochi-network": {
-    "last_alert_ts": 1795017809.7543323,
-    "last_score": 59.8,
+    "last_alert_ts": 1795081788.3110774,
+    "last_score": 57.7,
     "symbol": "ON"
   },
   "cex_small_cap:rna-2": {
@@ -793,5 +793,20 @@
     "last_alert_ts": 1795075398.5784912,
     "last_score": 63.4,
     "symbol": "US"
+  },
+  "cex_small_cap:moonbirds": {
+    "last_alert_ts": 1795081788.3110774,
+    "last_score": 80.9,
+    "symbol": "BIRB"
+  },
+  "cex_small_cap:naoris": {
+    "last_alert_ts": 1795081788.3110774,
+    "last_score": 80.6,
+    "symbol": "NAORIS"
+  },
+  "cex_small_cap:chunkee-the-manatee": {
+    "last_alert_ts": 1795081788.3110774,
+    "last_score": 68.5,
+    "symbol": "CHUNKEE"
   }
 }
