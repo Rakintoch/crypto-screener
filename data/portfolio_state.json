@@ -15,8 +15,8 @@
       "entry_price_eur": 3.661902424952941,
       "entry_ts": 1795027067.4024732,
       "cost_eur": 13.05803043302207,
-      "last_price_eur": 4.658877430000954,
-      "last_score": 92.2,
+      "last_price_eur": 4.696513344084617,
+      "last_score": 92.3,
       "missed_updates": 0,
       "entry_market_cap": 26610117,
       "entry_venue": "Gate",
@@ -37,9 +37,9 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 33874675,
+      "last_market_cap": 34169631,
       "trailing_active": true,
-      "trailing_peak_eur": 4.658877430000954
+      "trailing_peak_eur": 4.696513344084617
     },
     "cex_small_cap:jagent": {
       "tier": "cex_small_cap",
@@ -51,8 +51,8 @@
       "entry_price_eur": 2.8532610627093074e-06,
       "entry_ts": 1795053791.257569,
       "cost_eur": 5.878261146855974,
-      "last_price_eur": 3.0209908335162438e-06,
-      "last_score": 80.2,
+      "last_price_eur": 3.0308894255429796e-06,
+      "last_score": 80.3,
       "missed_updates": 0,
       "entry_market_cap": 10908601,
       "entry_venue": "PancakeSwap (v2) (on-chain)",
@@ -73,7 +73,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 12050439
+      "last_market_cap": 12067275
     },
     "cex_small_cap:irys": {
       "tier": "cex_small_cap",
@@ -85,8 +85,8 @@
       "entry_price_eur": 0.021460392866471074,
       "entry_ts": 1795081788.8014014,
       "cost_eur": 12.272060601637358,
-      "last_price_eur": 0.020788793731552364,
-      "last_score": 66.9,
+      "last_price_eur": 0.020905646279498147,
+      "last_score": 69.6,
       "missed_updates": 0,
       "entry_market_cap": 47089149,
       "entry_venue": "Upbit",
@@ -107,7 +107,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 45692829
+      "last_market_cap": 45937530
     },
     "cex_small_cap:superwalk": {
       "tier": "cex_small_cap",
@@ -119,8 +119,8 @@
       "entry_price_eur": 0.008446401997802663,
       "entry_ts": 1795081788.8014014,
       "cost_eur": 12.272060601637358,
-      "last_price_eur": 0.008088757552959626,
-      "last_score": 56.7,
+      "last_price_eur": 0.008366265110973804,
+      "last_score": 57.0,
       "missed_updates": 0,
       "entry_market_cap": 7629452,
       "entry_venue": "Bithumb",
@@ -141,7 +141,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7302625
+      "last_market_cap": 7551167
     }
   },
   "closed_trades": [
@@ -3564,8 +3564,8 @@
       "pnl_pct": -8.043475669538294
     }
   ],
-  "last_run_ts": 1795101328.6362135,
-  "last_eur_rate": 0.9099369980470614,
+  "last_run_ts": 1795101629.161501,
+  "last_eur_rate": 0.9101770046675615,
   "last_rotation_ts": 1794823377.1971238,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
