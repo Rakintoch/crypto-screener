@@ -690,8 +690,8 @@
     "symbol": "ICNT"
   },
   "cex_small_cap:bem-2": {
-    "last_alert_ts": 1794996194.2329855,
-    "last_score": 67.2,
+    "last_alert_ts": 1795053790.6836927,
+    "last_score": 59.8,
     "symbol": "BEM"
   },
   "cex_small_cap:hookr-fun": {
@@ -818,5 +818,10 @@
     "last_alert_ts": 1795052471.8712428,
     "last_score": 61.7,
     "symbol": "MEGA"
+  },
+  "cex_small_cap:gitcoin": {
+    "last_alert_ts": 1795053790.6836927,
+    "last_score": 59.3,
+    "symbol": "GTC"
   }
 }
