@@ -2,7 +2,7 @@
   "status": "active",
   "start_ts": 1790007149.640162,
   "end_ts": 1795194054.3121643,
-  "cash_eur": 46.3227951745548,
+  "cash_eur": 33.46926132079068,
   "starting_balance_eur": 877.2059999287995,
   "positions": {
     "cex_small_cap:myshell": {
@@ -15,8 +15,8 @@
       "entry_price_eur": 0.025052658513563388,
       "entry_ts": 1794839932.3446496,
       "cost_eur": 13.156155458666563,
-      "last_price_eur": 0.0241933412,
-      "last_score": 53.1,
+      "last_price_eur": 0.0239040428189054,
+      "last_score": 54.1,
       "missed_updates": 0,
       "entry_market_cap": 7445713,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7100221
+      "last_market_cap": 7082268
     },
     "cex_small_cap:huma-finance": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.008135380806743588,
       "entry_ts": 1795027067.4024732,
       "cost_eur": 13.05803043302207,
-      "last_price_eur": 0.008136286800000002,
-      "last_score": 78.8,
+      "last_price_eur": 0.008222905723359186,
+      "last_score": 79.7,
       "missed_updates": 0,
       "entry_market_cap": 15523669,
       "entry_venue": "Binance",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 15329241
+      "last_market_cap": 15640280
     },
     "cex_small_cap:evaa-protocol": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 3.661902424952941,
       "entry_ts": 1795027067.4024732,
       "cost_eur": 13.05803043302207,
-      "last_price_eur": 3.8180000000000005,
-      "last_score": 82.9,
+      "last_price_eur": 3.8183595893354267,
+      "last_score": 83.4,
       "missed_updates": 0,
       "entry_market_cap": 26610117,
       "entry_venue": "Gate",
@@ -105,7 +105,40 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 27488596
+      "last_market_cap": 27724622
+    },
+    "cex_small_cap:irys": {
+      "tier": "cex_small_cap",
+      "id": "irys",
+      "symbol": "IRYS",
+      "network": null,
+      "url": "https://www.coingecko.com/en/coins/irys",
+      "qty": 545.9122869770354,
+      "entry_price_eur": 0.023545053226297543,
+      "entry_ts": 1795052472.436261,
+      "cost_eur": 12.853533853764116,
+      "last_price_eur": 0.023545053226297543,
+      "last_score": 96.9,
+      "missed_updates": 0,
+      "entry_market_cap": 51673385,
+      "entry_venue": "Upbit",
+      "entry_contract_address": "0x50f41f589afaca2ef41fdf590fe7b90cd26dee64 (ETH)",
+      "entry_score": 96.9,
+      "entry_liquidity_usd": null,
+      "entry_volume_24h_usd": 106734559,
+      "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+      "entry_chg_1h": 17.893,
+      "entry_chg_24h": 76.2853,
+      "entry_chg_7d": 27.2305,
+      "entry_chg_6h": null,
+      "entry_turnover": 2.065561584556537,
+      "entry_vol_liq_ratio": null,
+      "entry_boosted": null,
+      "entry_pool_age_minutes": null,
+      "entry_base_breakout": null,
+      "entry_catalyst_tags": [],
+      "entry_catalyst_score": 0.0,
+      "entry_catalyst_headlines": []
     }
   },
   "closed_trades": [
@@ -3328,8 +3361,8 @@
       "pnl_pct": -8.262399837716131
     }
   ],
-  "last_run_ts": 1795052132.889633,
-  "last_eur_rate": 0.92,
+  "last_run_ts": 1795052472.436261,
+  "last_eur_rate": 0.9113030046146602,
   "last_rotation_ts": 1794823377.1971238,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
