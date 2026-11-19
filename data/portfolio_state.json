@@ -15,8 +15,8 @@
       "entry_price_eur": 3.661902424952941,
       "entry_ts": 1795027067.4024732,
       "cost_eur": 13.05803043302207,
-      "last_price_eur": 3.9110048191560223,
-      "last_score": 72.0,
+      "last_price_eur": 3.9282451199327237,
+      "last_score": 72.7,
       "missed_updates": 0,
       "entry_market_cap": 26610117,
       "entry_venue": "Gate",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 28485809
+      "last_market_cap": 28618547
     },
     "cex_small_cap:jagent": {
       "tier": "cex_small_cap",
@@ -49,7 +49,7 @@
       "entry_price_eur": 2.8532610627093074e-06,
       "entry_ts": 1795053791.257569,
       "cost_eur": 5.878261146855974,
-      "last_price_eur": 2.8650384140329e-06,
+      "last_price_eur": 2.8552522399511e-06,
       "last_score": 54.4,
       "missed_updates": 0,
       "entry_market_cap": 10908601,
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 11057471
+      "last_market_cap": 11043636
     }
   },
   "closed_trades": [
@@ -3494,8 +3494,8 @@
       "pnl_pct": -8.043475669538294
     }
   ],
-  "last_run_ts": 1795079726.44493,
-  "last_eur_rate": 0.9095360044548889,
+  "last_run_ts": 1795080025.1573372,
+  "last_eur_rate": 0.9093159999844267,
   "last_rotation_ts": 1794823377.1971238,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
