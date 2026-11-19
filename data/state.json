@@ -45,8 +45,8 @@
     "symbol": "SNXXB"
   },
   "cex_small_cap:initia": {
-    "last_alert_ts": 1794916998.8578315,
-    "last_score": 58.1,
+    "last_alert_ts": 1795075398.5784912,
+    "last_score": 75.3,
     "symbol": "INIT"
   },
   "cex_small_cap:sophon": {
@@ -130,8 +130,8 @@
     "symbol": "SKYAI"
   },
   "cex_small_cap:nesa": {
-    "last_alert_ts": 1795017809.7543323,
-    "last_score": 68.1,
+    "last_alert_ts": 1795075398.5784912,
+    "last_score": 59.2,
     "symbol": "NES"
   },
   "cex_small_cap:egl1": {
@@ -234,11 +234,6 @@
     "last_score": 59.7,
     "symbol": "HFT"
   },
-  "cex_small_cap:bonfida": {
-    "last_alert_ts": 1794809001.384172,
-    "last_score": 55.5,
-    "symbol": "FIDA"
-  },
   "cex_small_cap:axis-robotics": {
     "last_alert_ts": 1794898702.809563,
     "last_score": 63.9,
@@ -255,8 +250,8 @@
     "symbol": "UMXM"
   },
   "cex_small_cap:based-one": {
-    "last_alert_ts": 1795025002.9733503,
-    "last_score": 61.3,
+    "last_alert_ts": 1795075398.5784912,
+    "last_score": 57.1,
     "symbol": "BASED"
   },
   "cex_small_cap:superwalk": {
@@ -285,8 +280,8 @@
     "symbol": "FOLD"
   },
   "cex_small_cap:huma-finance": {
-    "last_alert_ts": 1795025002.9733503,
-    "last_score": 79.7,
+    "last_alert_ts": 1795075398.5784912,
+    "last_score": 62.9,
     "symbol": "HUMA"
   },
   "cex_small_cap:cross-2": {
@@ -380,8 +375,8 @@
     "symbol": "LAB"
   },
   "cex_small_cap:claudia-2": {
-    "last_alert_ts": 1795025002.9733503,
-    "last_score": 76.8,
+    "last_alert_ts": 1795075398.5784912,
+    "last_score": 77.8,
     "symbol": "CLAUDIA"
   },
   "cex_small_cap:lobster-2": {
@@ -605,8 +600,8 @@
     "symbol": "ZIL"
   },
   "cex_small_cap:pippin": {
-    "last_alert_ts": 1795027066.9202442,
-    "last_score": 99.1,
+    "last_alert_ts": 1795075398.5784912,
+    "last_score": 59.4,
     "symbol": "PIPPIN"
   },
   "cex_small_cap:zora": {
@@ -685,8 +680,8 @@
     "symbol": "WASTED"
   },
   "cex_small_cap:magic-hash": {
-    "last_alert_ts": 1795025002.9733503,
-    "last_score": 74.8,
+    "last_alert_ts": 1795075398.5784912,
+    "last_score": 67.4,
     "symbol": "MHA"
   },
   "cex_small_cap:pharos-network": {
@@ -783,5 +778,20 @@
     "last_alert_ts": 1795060987.7792568,
     "last_score": 55.1,
     "symbol": "AIA"
+  },
+  "cex_small_cap:lucia-2": {
+    "last_alert_ts": 1795075398.5784912,
+    "last_score": 71.2,
+    "symbol": "LUCIA"
+  },
+  "cex_small_cap:lukso-token-2": {
+    "last_alert_ts": 1795075398.5784912,
+    "last_score": 69.7,
+    "symbol": "LYX"
+  },
+  "cex_small_cap:talus": {
+    "last_alert_ts": 1795075398.5784912,
+    "last_score": 63.4,
+    "symbol": "US"
   }
 }
