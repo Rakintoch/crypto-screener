@@ -15,8 +15,8 @@
       "entry_price_eur": 0.025052658513563388,
       "entry_ts": 1794839932.3446496,
       "cost_eur": 13.156155458666563,
-      "last_price_eur": 0.024065123905961543,
-      "last_score": 49.0,
+      "last_price_eur": 0.02407848060563119,
+      "last_score": 49.4,
       "missed_updates": 0,
       "entry_market_cap": 7445713,
       "entry_venue": "Binance",
@@ -37,7 +37,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 7134496
+      "last_market_cap": 7130487
     },
     "cex_small_cap:huma-finance": {
       "tier": "cex_small_cap",
@@ -49,8 +49,8 @@
       "entry_price_eur": 0.008135380806743588,
       "entry_ts": 1795027067.4024732,
       "cost_eur": 13.05803043302207,
-      "last_price_eur": 0.008206084099496323,
-      "last_score": 87.6,
+      "last_price_eur": 0.008278061251802329,
+      "last_score": 87.9,
       "missed_updates": 0,
       "entry_market_cap": 15523669,
       "entry_venue": "Binance",
@@ -71,7 +71,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 15612713
+      "last_market_cap": 15707483
     },
     "cex_small_cap:evaa-protocol": {
       "tier": "cex_small_cap",
@@ -83,8 +83,8 @@
       "entry_price_eur": 3.661902424952941,
       "entry_ts": 1795027067.4024732,
       "cost_eur": 13.05803043302207,
-      "last_price_eur": 3.628566016580123,
-      "last_score": 67.9,
+      "last_price_eur": 3.5831302977811554,
+      "last_score": 67.3,
       "missed_updates": 0,
       "entry_market_cap": 26610117,
       "entry_venue": "Gate",
@@ -105,7 +105,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 26336775
+      "last_market_cap": 26034577
     },
     "cex_small_cap:jagent": {
       "tier": "cex_small_cap",
@@ -117,8 +117,8 @@
       "entry_price_eur": 2.8532610627093074e-06,
       "entry_ts": 1795053791.257569,
       "cost_eur": 5.878261146855974,
-      "last_price_eur": 2.8536210130391422e-06,
-      "last_score": 80.2,
+      "last_price_eur": 2.862857286267895e-06,
+      "last_score": 80.6,
       "missed_updates": 0,
       "entry_market_cap": 10908601,
       "entry_venue": "PancakeSwap (v2) (on-chain)",
@@ -139,7 +139,7 @@
       "entry_catalyst_tags": [],
       "entry_catalyst_score": 0.0,
       "entry_catalyst_headlines": [],
-      "last_market_cap": 10929131
+      "last_market_cap": 10960582
     }
   },
   "closed_trades": [
@@ -3402,8 +3402,8 @@
       "pnl_pct": -9.131035009280431
     }
   ],
-  "last_run_ts": 1795054224.2336097,
-  "last_eur_rate": 0.9117000041658601,
+  "last_run_ts": 1795054527.7652457,
+  "last_eur_rate": 0.9117379892572914,
   "last_rotation_ts": 1794823377.1971238,
   "cycle_number": 7,
   "cycle_start_ts": 1794330054.3121643,
