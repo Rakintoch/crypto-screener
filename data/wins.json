@@ -3950,5 +3950,31 @@
     "entry_base_breakout": null,
     "categoria": "trailing stop caught extra upside after the target",
     "nota": "PIPPIN (cex_small_cap) gained +23.3% in 88 min — trailing stop caught extra upside after the target. Entry score: 89. Entry security: CEX listada — sem verificação on-chain aplicada."
+  },
+  {
+    "closed_ts": 1795102826.0763252,
+    "symbol": "EVAA",
+    "tier": "cex_small_cap",
+    "network": null,
+    "url": "https://www.coingecko.com/en/coins/evaa-protocol",
+    "held_minutes": 1262.6,
+    "exit_reason": "trailing stop hit — dropped 5.4% from the peak (peak +28.3% since entry)",
+    "pnl_pct": 21.36,
+    "pnl_eur": 2.79,
+    "entry_score": 82.2,
+    "entry_liquidity_usd": null,
+    "entry_volume_24h_usd": 28714563,
+    "entry_security_notes": "CEX listada — sem verificação on-chain aplicada",
+    "entry_chg_1h": 1.7194,
+    "entry_chg_24h": 22.81084,
+    "entry_chg_7d": 278.9149,
+    "entry_chg_6h": null,
+    "entry_turnover": 1.0790844324359792,
+    "entry_vol_liq_ratio": null,
+    "entry_boosted": null,
+    "entry_pool_age_minutes": null,
+    "entry_base_breakout": null,
+    "categoria": "trailing stop caught extra upside after the target",
+    "nota": "EVAA (cex_small_cap) gained +21.4% in 1263 min — trailing stop caught extra upside after the target. Entry score: 82. Entry security: CEX listada — sem verificação on-chain aplicada."
   }
 ]
